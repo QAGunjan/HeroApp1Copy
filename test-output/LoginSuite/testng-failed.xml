@@ -7,16 +7,18 @@
   <test thread-count="5" name="LoginTest(failed)">
     <groups>
       <run>
-        <include name="smoke"/>
+        <include name="Regression"/>
       </run>
     </groups>
     <classes>
-      <class name="com.oneapp.test_suits.GoodLife_testcases">
+      <class name="com.oneapp.test_suits.SOS_testcases">
         <methods>
-          <include name="validate_Goodlife_Non_member_asOwner_testcase"/>
+          <include name="validate_dont_send_link_testcase"/>
           <include name="Browsers_open"/>
+          <include name="validate_closing_alert_window_testcase"/>
+          <include name="validate_SOS_message_sending_testcase"/>
         </methods>
-      </class> <!-- com.oneapp.test_suits.GoodLife_testcases -->
+      </class> <!-- com.oneapp.test_suits.SOS_testcases -->
     </classes>
   </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [LoginSuite] -->

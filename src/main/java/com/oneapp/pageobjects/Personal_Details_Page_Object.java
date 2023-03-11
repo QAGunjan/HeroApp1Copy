@@ -57,8 +57,12 @@ public class Personal_Details_Page_Object {
 	
 	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
 	private WebElement save_btn;
-	
 
+	@FindBy(xpath = "//*[@text='Age must be of 18yr old']")
+	private WebElement age_error_message;
+	
+	
+	
 	public Personal_Details_Page_Object(AndroidDriver ad) {
 
 		PageFactory.initElements(ad, this);
@@ -114,7 +118,9 @@ public class Personal_Details_Page_Object {
 		return save_btn;
 	}
 
-
+	public WebElement getAge_error_message() {
+		return age_error_message;
+	}
 
 
 

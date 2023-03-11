@@ -1,133 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="26" total="34" passed="8" failed="0" skipped="0">
+<testng-results ignored="37" total="40" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Android emulator gets opened]]>
     </line>
-    <line>
-      <![CDATA[Profile Details]]>
-    </line>
-    <line>
-      <![CDATA[AFTER SAVING MY PROFILE DETAILS]]>
-    </line>
-    <line>
-      <![CDATA[Mumbai Colony 1152]]>
-    </line>
-    <line>
-      <![CDATA[Female]]>
-    </line>
-    <line>
-      <![CDATA[8130998133]]>
-    </line>
-    <line>
-      <![CDATA[Contact deleted succesfully and now displaying Add Emergency contact]]>
-    </line>
-    <line>
-      <![CDATA[Self Job Card]]>
-    </line>
-    <line>
-      <![CDATA[Key Issues]]>
-    </line>
-    <line>
-      <![CDATA[Book Service]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-02-16T12:24:56 IST" name="LoginSuite" finished-at="2023-02-16T12:33:21 IST" duration-ms="505109">
+  <suite started-at="2023-03-10T18:45:29 IST" name="LoginSuite" finished-at="2023-03-10T18:48:51 IST" duration-ms="201540">
     <groups>
-      <group name="smoke">
-        <method signature="BookService_testcases.validate_Bookservice_FSC_testcase()[pri:7, instance:com.oneapp.test_suits.BookService_testcases@352ff4da]" name="validate_Bookservice_FSC_testcase" class="com.oneapp.test_suits.BookService_testcases"/>
-        <method signature="EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase()[pri:3, instance:com.oneapp.test_suits.EmergencyContact_testcases@3116c353]" name="validate_emergency_contact_added_succesfully_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
-        <method signature="EmergencyContact_testcases.validate_emergency_contact_deleted_succesfully_testcase()[pri:4, instance:com.oneapp.test_suits.EmergencyContact_testcases@3116c353]" name="validate_emergency_contact_deleted_succesfully_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
-        <method signature="GoodLife_testcases.validate_Goodlife_Non_member_asOwner_testcase()[pri:8, instance:com.oneapp.test_suits.GoodLife_testcases@3224a577]" name="validate_Goodlife_Non_member_asOwner_testcase" class="com.oneapp.test_suits.GoodLife_testcases"/>
-        <method signature="ManageLicense_testcases.validation_manage_licence_testcase()[pri:5, instance:com.oneapp.test_suits.ManageLicense_testcases@f627d13]" name="validation_manage_licence_testcase" class="com.oneapp.test_suits.ManageLicense_testcases"/>
-        <method signature="Myprofile_testcases.validate_myprofile_valid_details_testcase400()[pri:2, instance:com.oneapp.test_suits.Myprofile_testcases@6ea2bc93]" name="validate_myprofile_valid_details_testcase400" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="OTP_testcases.validate_OTP_testcase()[pri:1, instance:com.oneapp.test_suits.OTP_testcases@4fa1c212]" name="validate_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
-        <method signature="SOS_testcases.validate_SOS_message_sending_testcase()[pri:6, instance:com.oneapp.test_suits.SOS_testcases@4e928fbf]" name="validate_SOS_message_sending_testcase" class="com.oneapp.test_suits.SOS_testcases"/>
-      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="SOS_testcases.validate_SOS_message_sending_testcase()[pri:31, instance:com.oneapp.test_suits.SOS_testcases@4a00d9cf]" name="validate_SOS_message_sending_testcase" class="com.oneapp.test_suits.SOS_testcases"/>
+        <method signature="SOS_testcases.validate_closing_alert_window_testcase()[pri:33, instance:com.oneapp.test_suits.SOS_testcases@4a00d9cf]" name="validate_closing_alert_window_testcase" class="com.oneapp.test_suits.SOS_testcases"/>
+        <method signature="SOS_testcases.validate_dont_send_link_testcase()[pri:32, instance:com.oneapp.test_suits.SOS_testcases@4a00d9cf]" name="validate_dont_send_link_testcase" class="com.oneapp.test_suits.SOS_testcases"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="SOS_testcases.validate_SOS_message_sending_testcase()[pri:31, instance:com.oneapp.test_suits.SOS_testcases@4a00d9cf]" name="validate_SOS_message_sending_testcase" class="com.oneapp.test_suits.SOS_testcases"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-02-16T12:24:56 IST" name="LoginTest" finished-at="2023-02-16T12:33:21 IST" duration-ms="505109">
+    <test started-at="2023-03-10T18:45:29 IST" name="LoginTest" finished-at="2023-03-10T18:48:51 IST" duration-ms="201540">
       <class name="com.oneapp.test_suits.SOS_testcases">
-        <test-method signature="validate_SOS_message_sending_testcase()[pri:6, instance:com.oneapp.test_suits.SOS_testcases@4e928fbf]" started-at="2023-02-16T12:31:18 IST" name="validate_SOS_message_sending_testcase" finished-at="2023-02-16T12:31:22 IST" duration-ms="4185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_SOS_message_sending_testcase -->
-      </class> <!-- com.oneapp.test_suits.SOS_testcases -->
-      <class name="com.oneapp.test_suits.GoodLife_testcases">
-        <test-method signature="validate_Goodlife_Non_member_asOwner_testcase()[pri:8, instance:com.oneapp.test_suits.GoodLife_testcases@3224a577]" started-at="2023-02-16T12:32:46 IST" name="validate_Goodlife_Non_member_asOwner_testcase" finished-at="2023-02-16T12:33:21 IST" duration-ms="35296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_Goodlife_Non_member_asOwner_testcase -->
-      </class> <!-- com.oneapp.test_suits.GoodLife_testcases -->
-      <class name="com.oneapp.test_suits.EmergencyContact_testcases">
-        <test-method signature="validate_emergency_contact_added_succesfully_testcase()[pri:3, instance:com.oneapp.test_suits.EmergencyContact_testcases@3116c353]" started-at="2023-02-16T12:28:59 IST" name="validate_emergency_contact_added_succesfully_testcase" finished-at="2023-02-16T12:30:32 IST" duration-ms="92952" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[8130998133]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validate_emergency_contact_added_succesfully_testcase -->
-        <test-method signature="validate_emergency_contact_deleted_succesfully_testcase()[pri:4, instance:com.oneapp.test_suits.EmergencyContact_testcases@3116c353]" started-at="2023-02-16T12:30:32 IST" name="validate_emergency_contact_deleted_succesfully_testcase" finished-at="2023-02-16T12:30:40 IST" duration-ms="7380" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Contact deleted succesfully and now displaying Add Emergency contact]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validate_emergency_contact_deleted_succesfully_testcase -->
-      </class> <!-- com.oneapp.test_suits.EmergencyContact_testcases -->
-      <class name="com.oneapp.test_suits.BookService_testcases">
-        <test-method signature="validate_Bookservice_FSC_testcase()[pri:7, instance:com.oneapp.test_suits.BookService_testcases@352ff4da]" started-at="2023-02-16T12:31:22 IST" name="validate_Bookservice_FSC_testcase" finished-at="2023-02-16T12:32:46 IST" duration-ms="83131" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Self Job Card]]>
-            </line>
-            <line>
-              <![CDATA[Key Issues]]>
-            </line>
-            <line>
-              <![CDATA[Book Service]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validate_Bookservice_FSC_testcase -->
-      </class> <!-- com.oneapp.test_suits.BookService_testcases -->
-      <class name="com.oneapp.test_suits.OTP_testcases">
-        <test-method signature="validate_OTP_testcase()[pri:1, instance:com.oneapp.test_suits.OTP_testcases@4fa1c212]" started-at="2023-02-16T12:24:56 IST" name="validate_OTP_testcase" finished-at="2023-02-16T12:26:29 IST" duration-ms="92690" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_OTP_testcase -->
-      </class> <!-- com.oneapp.test_suits.OTP_testcases -->
-      <class name="com.oneapp.test_suits.Myprofile_testcases">
-        <test-method signature="validate_myprofile_valid_details_testcase400()[pri:2, instance:com.oneapp.test_suits.Myprofile_testcases@6ea2bc93]" started-at="2023-02-16T12:26:29 IST" name="validate_myprofile_valid_details_testcase400" finished-at="2023-02-16T12:28:59 IST" duration-ms="150735" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Profile Details]]>
-            </line>
-            <line>
-              <![CDATA[AFTER SAVING MY PROFILE DETAILS]]>
-            </line>
-            <line>
-              <![CDATA[Mumbai Colony 1152]]>
-            </line>
-            <line>
-              <![CDATA[Female]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validate_myprofile_valid_details_testcase400 -->
-      </class> <!-- com.oneapp.test_suits.Myprofile_testcases -->
-      <class name="com.oneapp.test_suits.Login_testcases">
-        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.Login_testcases@4ea5b703]" started-at="2023-02-16T12:24:04 IST" name="Browsers_open" finished-at="2023-02-16T12:24:56 IST" duration-ms="52234" status="PASS">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.SOS_testcases@4a00d9cf]" started-at="2023-03-10T18:45:29 IST" name="Browsers_open" finished-at="2023-03-10T18:45:50 IST" duration-ms="21119" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Android emulator gets opened]]>
             </line>
           </reporter-output>
         </test-method> <!-- Browsers_open -->
-      </class> <!-- com.oneapp.test_suits.Login_testcases -->
-      <class name="com.oneapp.test_suits.ManageLicense_testcases">
-        <test-method signature="validation_manage_licence_testcase()[pri:5, instance:com.oneapp.test_suits.ManageLicense_testcases@f627d13]" started-at="2023-02-16T12:30:40 IST" name="validation_manage_licence_testcase" finished-at="2023-02-16T12:31:18 IST" duration-ms="38594" status="PASS">
+        <test-method signature="validate_SOS_message_sending_testcase()[pri:31, instance:com.oneapp.test_suits.SOS_testcases@4a00d9cf]" started-at="2023-03-10T18:45:50 IST" name="validate_SOS_message_sending_testcase" finished-at="2023-03-10T18:48:24 IST" duration-ms="153990" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validation_manage_licence_testcase -->
-      </class> <!-- com.oneapp.test_suits.ManageLicense_testcases -->
+        </test-method> <!-- validate_SOS_message_sending_testcase -->
+        <test-method signature="validate_dont_send_link_testcase()[pri:32, instance:com.oneapp.test_suits.SOS_testcases@4a00d9cf]" started-at="2023-03-10T18:48:24 IST" name="validate_dont_send_link_testcase" finished-at="2023-03-10T18:48:37 IST" duration-ms="13182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_dont_send_link_testcase -->
+        <test-method signature="validate_closing_alert_window_testcase()[pri:33, instance:com.oneapp.test_suits.SOS_testcases@4a00d9cf]" started-at="2023-03-10T18:48:37 IST" name="validate_closing_alert_window_testcase" finished-at="2023-03-10T18:48:51 IST" duration-ms="13133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_closing_alert_window_testcase -->
+      </class> <!-- com.oneapp.test_suits.SOS_testcases -->
     </test> <!-- LoginTest -->
   </suite> <!-- LoginSuite -->
 </testng-results>

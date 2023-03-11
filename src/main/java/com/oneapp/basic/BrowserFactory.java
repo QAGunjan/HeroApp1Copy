@@ -35,6 +35,8 @@ import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.google.common.io.Files;
+import com.oneapp.page_actions.Login_Page_Action;
+import com.oneapp.page_actions.OTP_Page_Actions;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
@@ -48,13 +50,11 @@ public class BrowserFactory {
 
 //	@Parameters({ "PLATFORM_NAME", "DEVICE_NAME", "AUTOMATION_NAME", "UDID" })
 	
-	 @BeforeSuite(alwaysRun = true)
+	 @BeforeClass(alwaysRun = true)
 	public void Browsers_open() throws MalformedURLException {
-		 
 		// This is origional
 		ad = Create_Driver_Session.Androidsession("Android");
 		Reporter.log("Android emulator gets opened", true);
-		
 		// For Pcloudy
 
 //            	ad = Pcloudy_Create_Driver_Session.creating_session("ios");
@@ -62,6 +62,17 @@ public class BrowserFactory {
 
 	}
 	 
+	 @BeforeMethod
+	 public void pre_condition() throws InterruptedException
+	 {
+		
+	 }
+	 
+	 @AfterMethod
+	 public void post_condition()
+	 {
+		 
+	 }
 	 
 	/*	private static String RTDataPortal_Url="https://202.56.244.135/siebel/app/edealer/enu?SWECmd=Start&SWEHo=202.56.244.135"; 
 		public static WebDriver launch_Browser(WebDriver driver)

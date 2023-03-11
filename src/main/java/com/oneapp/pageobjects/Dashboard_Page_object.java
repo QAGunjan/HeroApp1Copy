@@ -7,12 +7,20 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Dashboard_Page_object {
 	
 	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_one_time_button")
 	private WebElement Location_popup;
+	
+	@FindBy(xpath ="//*[@text='Key Actions']")
+	private WebElement key_action_text;
+	
+	@FindBy(xpath ="//*[@text='ALLOW']")
+	private WebElement Location_popup_Honor;
+	
 	
 	@FindBy(id="com.android.permissioncontroller:id/permission_allow_button")
 	private WebElement nearby_devices_popup;
@@ -54,7 +62,7 @@ public class Dashboard_Page_object {
 	
 	
 	
-	public Dashboard_Page_object(AndroidDriver ad) {
+	public Dashboard_Page_object(AppiumDriver ad) {
 
 		PageFactory.initElements(ad, this);
 
@@ -117,6 +125,17 @@ public class Dashboard_Page_object {
 		return goodlife_icon;
 	}
 
+
+
+	public WebElement getLocation_popup_Honor() {
+		return Location_popup_Honor;
+	}
+
+
+
+	public WebElement getKey_action_text() {
+		return key_action_text;
+	}
 	
 	
 	

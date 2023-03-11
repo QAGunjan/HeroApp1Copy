@@ -1,5 +1,6 @@
 package com.oneapp.page_actions;
 
+import com.oneapp.basic.Generic;
 import com.oneapp.pageobjects.Book_service_selfJobCard_page_object;
 import com.oneapp.pageobjects.SOS_page_object;
 
@@ -18,7 +19,7 @@ public class SOS_page_actions {
 
 	public void tapping_on_SOS_icon()
 	{
-		SOS_po.getSOS_icon().click();
+		Generic.click_on_WebElement(SOS_po.getSOS_icon());
 	}
 	
 }

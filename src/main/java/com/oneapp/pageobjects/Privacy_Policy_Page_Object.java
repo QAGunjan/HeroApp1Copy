@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Privacy_Policy_Page_Object {
@@ -22,7 +23,7 @@ public class Privacy_Policy_Page_Object {
 	private WebElement webpage_not_available_text;
 	
 	
-	public Privacy_Policy_Page_Object(AndroidDriver ad) {
+	public Privacy_Policy_Page_Object(AppiumDriver ad) {
 
 		PageFactory.initElements(ad, this);
 

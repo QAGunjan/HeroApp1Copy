@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Book_service_selfJobCard_page_object {
@@ -20,17 +21,14 @@ public class Book_service_selfJobCard_page_object {
 	@FindBy(xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.ImageView")
 	private WebElement service_radio_button;
 	
-	
-	
 	@FindBy(id="com.customerapp.hero:id/otherIssuesEdt")
 	private WebElement other_issues_textbox;
-	
 	
 	@FindBy(id="com.customerapp.hero:id/btn_lbl")
 	private WebElement book_service_btn;
 	
 	
-	public Book_service_selfJobCard_page_object(AndroidDriver ad)
+	public Book_service_selfJobCard_page_object(AppiumDriver ad)
 	{
 		
 		PageFactory.initElements(ad, this);
@@ -60,8 +58,6 @@ public class Book_service_selfJobCard_page_object {
 	public WebElement getBook_service_btn() {
 		return book_service_btn;
 	}
-
-	
 	
 	
 

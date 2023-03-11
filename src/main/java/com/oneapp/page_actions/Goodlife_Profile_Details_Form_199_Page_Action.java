@@ -2,6 +2,7 @@ package com.oneapp.page_actions;
 
 import java.time.Duration;
 
+import com.oneapp.basic.Generic;
 import com.oneapp.pageobjects.Goodlife_Profile_Details_Form_199_Page_Object;
 import com.oneapp.pageobjects.Goodlife_Select_Your_Plan_Page_Object;
 
@@ -28,14 +29,13 @@ public class Goodlife_Profile_Details_Form_199_Page_Action {
 		}
 		else
 		{
-			gpdf_199_po.getMy_immediate_family_mem_checkbox().click();
+			Generic.click_on_WebElement(gpdf_199_po.getMy_immediate_family_mem_checkbox());
 		}
 		
 		ta = new TouchAction(ad);
 		ta.press(PointOption.point(549, 1546)).moveTo(PointOption.point(549, 1114))
 		.waitAction(WaitOptions.waitOptions(Duration.ofMillis(6000))).release().perform();
 		Thread.sleep(4000);
-
 		
 		if(gpdf_199_po.getI_agree_T_and_C_checkbox().isSelected())
 		{
@@ -43,10 +43,9 @@ public class Goodlife_Profile_Details_Form_199_Page_Action {
 		}
 		else
 		{
-			gpdf_199_po.getI_agree_T_and_C_checkbox().click();
+			Generic.click_on_WebElement(gpdf_199_po.getI_agree_T_and_C_checkbox());
 		}
 		
-		gpdf_199_po.getPay_199_button().click();
-		Thread.sleep(12000);
+		Generic.click_on_WebElement(gpdf_199_po.getPay_199_button());
 	}
 }

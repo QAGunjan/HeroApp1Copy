@@ -1,5 +1,6 @@
 package com.oneapp.page_actions;
 
+import com.oneapp.basic.Generic;
 import com.oneapp.pageobjects.Goodlife_Plans_Page_Object;
 import com.oneapp.pageobjects.Goodlife_Select_Your_Plan_Page_Object;
 
@@ -17,7 +18,7 @@ public class Goodlife_Select_Your_Plan_Page_Action {
 	
 	public void Selecting_Plan()
 	{
-		gsyppo.getGoodlife_select_Plan_btn().click();
+		Generic.click_on_WebElement(gsyppo.getGoodlife_select_Plan_btn());
 	}
 
 }

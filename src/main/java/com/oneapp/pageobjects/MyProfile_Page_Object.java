@@ -26,9 +26,6 @@ public class MyProfile_Page_Object {
 	@FindBy(id = "com.customerapp.hero:id/emergency_contacts")
 	private WebElement emergency_contact_txt;
 	
-	@FindBy(id = "com.customerapp.hero:id/back_btn")
-	private WebElement back_icon;
-	
 	@FindBy(id = "com.customerapp.hero:id/manage_license")
 	private WebElement manage_license_text;
 	
@@ -70,11 +67,6 @@ public class MyProfile_Page_Object {
 
 	public WebElement getEmergency_contact_txt() {
 		return emergency_contact_txt;
-	}
-
-
-	public WebElement getBack_icon() {
-		return back_icon;
 	}
 
 

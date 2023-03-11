@@ -3,9 +3,11 @@ package com.oneapp.page_actions;
 import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 
+import com.oneapp.basic.Generic;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 import com.oneapp.pageobjects.Selected_Vehicle_Page_Object;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.offset.PointOption;
@@ -24,8 +26,14 @@ public class Dashboard_Page_Actions {
 	public void Handling_Dashboard_All_Popups() throws InterruptedException {
 		Thread.sleep(5000);
 		
-		dpo.getLocation_popup().click();
-		Thread.sleep(15000);
+		try {
+			Generic.click_on_WebElement(dpo.getLocation_popup_Honor());
+			Generic.click_on_WebElement(dpo.getLocation_popup());
+		}
+		catch(Exception e)
+		{
+		}
+		
 		
 //		String str= "Allow Hero App to access this device’s location?";
 //		String popup_dis = dpo.getLocation_pop_displaying().getText();
@@ -60,17 +68,17 @@ public class Dashboard_Page_Actions {
 	
 	public void MenubarList()
 	{
-		dpo.getMenu_bar_icon().click();
+		Generic.click_on_WebElement(dpo.getMenu_bar_icon());
 	}
 	
 	public void Services_icon()
 	{
-		dpo.getServices_icon().click();
+		Generic.click_on_WebElement(dpo.getServices_icon());
 	}
 	
 	public void Goodlife_icon()
 	{
-		dpo.getGoodlife_icon().click();
+		Generic.click_on_WebElement(dpo.getGoodlife_icon());
 	}
 	
 	

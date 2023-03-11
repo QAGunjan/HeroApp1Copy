@@ -22,10 +22,10 @@ public class Selected_Vehicle_Page_Object {
 	private WebElement continuebtn_selected_vehicle;
 	
 	@FindBy(xpath="//*[@text='Book service FSC']")
-	private WebElement book_service_vin;
+	private WebElement book_service_FSC_vin;
 	
-	@FindBy(xpath="//*[@text='Goodlife nonmem']")
-	private WebElement goodlife_vin;
+	@FindBy(xpath="//*[@text='Book service PAID']")
+	private WebElement book_service_PAID_vin;
 	
 	public Selected_Vehicle_Page_Object(AndroidDriver ad) {
 
@@ -45,13 +45,13 @@ public class Selected_Vehicle_Page_Object {
 		return continuebtn_selected_vehicle;
 	}
 
-	public WebElement getBook_service_vin() {
-		return book_service_vin;
+	public WebElement getBook_service_FSC_vin() {
+		return book_service_FSC_vin;
 	}
 
 
-	public WebElement getGoodlife_vin() {
-		return goodlife_vin;
+	public WebElement getbook_service_PAID_vin() {
+		return book_service_PAID_vin;
 	}
 
 	

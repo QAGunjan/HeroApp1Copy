@@ -21,8 +21,10 @@ import com.google.common.io.Files;
 import com.oneapp.basic.Create_Driver_Session;
 import com.oneapp.basic.ExcelData;
 import com.oneapp.basic.Generic;
+import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Contact_Us_page_object;
 import com.oneapp.pageobjects.Login_Page_Object;
+import com.oneapp.pageobjects.OTP_Page_Object;
 import com.oneapp.pageobjects.Privacy_Policy_Page_Object;
 import com.oneapp.pageobjects.Terms_and_condition_Page_Object;
 
@@ -41,24 +43,13 @@ public class Login_Page_Action {
 
 	public AndroidDriver ad;
 	public ExcelData exceldata;
-
 	public Login_Page_Object lpo;
 	public TouchAction ta;
 	public Privacy_Policy_Page_Object pppo;
 	public Terms_and_condition_Page_Object tcpo;
 	public Contact_Us_page_object cupo;
-
-//	String mob_num = "8800996793";
-//	String mob_num1 = "995859217";
-
-	/*public void Swipe_Login_page() throws InterruptedException {
-		ta = new TouchAction(ad);
-		Thread.sleep(12000);
-
-		ta.press(PointOption.point(573, 1618)).moveTo(PointOption.point(569, 1126))
-				.waitAction(WaitOptions.waitOptions(Duration.ofMillis(4000))).release().perform();
-		Thread.sleep(7000);
-	}*/
+	public CommonElements_Page_object cepo;
+	public OTP_Page_Object opo;
 
 	public Login_Page_Action(AndroidDriver ad) {
 		this.ad = ad;
@@ -67,109 +58,60 @@ public class Login_Page_Action {
 		tcpo = new Terms_and_condition_Page_Object(ad);
 		cupo = new Contact_Us_page_object(ad);
 		exceldata = new ExcelData();
+		cepo = new CommonElements_Page_object(ad);
+		opo = new OTP_Page_Object(ad);
+
 	}
 
-//	@DataProvider(name="LoginTestData")
-//	public Object[][] Login_Data_provider()
-//	{
-//		Object[][] data = new Object[2][2];
-//		data[0][0]= "9958592171";
-//		data[1][0]= "0002272829";
-//		data[2][0]= "972827";
-//		data[3][0]= "99hajckdiw";
-//		data[4][0]= "999&ueisj0";
-//		
-//		return data;
-//		
-//	}
-
-	public void validate_login() throws InterruptedException {
-//		ad.isAppInstalled("com.customerapp.hero");   //for checking app is installed or not?
-//		ad.lockDevice();
-//		System.out.println(ad.isDeviceLocked());
-//		ad.unlockDevice();
-//		Thread.sleep(5000);
-//		ta = new TouchAction(ad);
-		String actuallogo = lpo.getHerologo().getText();
-		String Expectedlogo = "Login";
-		Assert.assertEquals(actuallogo, Expectedlogo);
-//		System.out.println("My Validation has passed");
-		System.out.println(lpo.getHerologo().getText());
-		WebElement mob_num = lpo.getMobile_num_field();
-		mob_num.clear();
-		mob_num.sendKeys(exceldata.getStringData("Login Page", 0, 1));
-		lpo.getlogin_btn().click();
-		// ad.findElementByXPath("//*[@text='Continue']").click();
-		Thread.sleep(5000);
-//		exceldata.WriteExceldata("SR_ID","Kilometers", "RSRB-1023_RSRB-123");
+	public void valid_login() throws InterruptedException {
+		try {
+		cepo.getNonOfTheAbove().click();
+		}
+		catch(Exception e)
+		{
+			System.out.println("Exception Handled" + e);
+		}
+		Generic.clear_on_WebElement(lpo.getMobile_num_field());
+		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
+		Generic.click_on_WebElement(lpo.getlogin_btn());
 	}
 
-	public void Invalidate_login() throws InterruptedException {
+	public void assertion_of_valid_login() throws InterruptedException {
+		Generic.Hard_assertion_validation(opo.getVerify_with_OTP(), exceldata.getStringData("Login Page", 11, 1));
+}
 
-		WebElement hlogo = lpo.getHerologo();
-		ta = new TouchAction(ad);
-		String Expectedlogo = "Login";
-		Assert.assertEquals(hlogo.getText(), Expectedlogo);
+	public void invalid_login() throws InterruptedException {
 
-		StringBuilder sb = new StringBuilder();
-		StringBuilder rev = sb.append(exceldata.getStringData("Login Page", 1, 1));
-		StringBuilder reverse = rev.reverse();
-		lpo.getMobile_num_field().sendKeys(reverse);
-		Thread.sleep(10000);
-		// ta.tap(TapOptions.tapOptions().withPosition(PointOption.point(538,
-		// 1831))).perform();
-		lpo.getlogin_btn().click();
-		String expected_toast_message = "Mobile Number is not registered";
-		String actual_toast_message = lpo.getToast_message().getAttribute("name");
-		System.out.println(actual_toast_message);
-		Assert.assertEquals(expected_toast_message, actual_toast_message);
+		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 2, 1));
+		Generic.click_on_WebElement(lpo.getlogin_btn());
 	}
 
+	public void assertion_of_invalid_login() {
+		Generic.Hard_assertion_validation(cepo.getToast_message(), exceldata.getStringData("Login Page", 12, 1));
+	}
+
+	public void assertion_of_commom_login_page()
+	{
+		Generic.Hard_assertion_validation(cepo.getHerologo(), "Login");
+	}
 	public void Mininum_length_field() throws InterruptedException {
-
-		WebElement Enter_mob_num = lpo.getMobile_num_field();
-
-		Enter_mob_num.sendKeys(exceldata.getStringData("Login Page", 2, 1));
-
-		
-		if (exceldata.getStringData("Login Page", 2, 0).contains("9958")) {
-			Thread.sleep(3000);
-			boolean enabl_btn = lpo.getlogin_btn().isEnabled();
-			System.out.println("Button is disabled ---->" + enabl_btn);
-		}
-
-		else {
-			System.out.println("button is still enable and my test is getting failed");
-			Thread.sleep(2000);
-			lpo.getlogin_btn().click();
-		}
+		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 3, 1));
+		Generic.isClickable(lpo.getlogin_btn());
 	}
 
 	public void continue_with_no_internet() throws InterruptedException {
-		WebElement mob_num = lpo.getMobile_num_field();
-		mob_num.clear();
-		mob_num.sendKeys(exceldata.getStringData("Login Page", 0, 0));
+		Generic.clear_on_WebElement(lpo.getMobile_num_field());
+		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
 		Generic.WifiOff();
-		lpo.getlogin_btn().click();
-		String expected_toast_message = "Please check your network connection.";
-		String actual_toast_message = lpo.getToast_message().getAttribute("name");
-//		System.out.println(actual_toast_message);
-		Assert.assertEquals(expected_toast_message, actual_toast_message);
+		Generic.click_on_WebElement(lpo.getlogin_btn());
 		Generic.WifiOn();
-		Thread.sleep(3000);
 	}
 
 	public void Privacypage() throws InterruptedException {
 		Generic.swiping(573, 1618, 569, 1126, 4000);
 		ta.tap(TapOptions.tapOptions().withElement(ElementOption.element(lpo.getPrivacylink().get(7)))).perform();
-		System.out.println("Privacy gets clicked");
 		Thread.sleep(10000);
 		WebElement get_privacy_text = pppo.getPrivacytext_val().get(21);
-		// WebElement get_privacy_text = lpo.getPrivacytext_val().get(21); // - it is
-		// for emulator
-		// WebElement get_privacy_text = lpo.getPrivacytext_val().get(3); // it is for
-		// real devices
-		System.out.println("HOGYA");
 		boolean Privacy_displaying = get_privacy_text.isDisplayed();
 		System.out.println(Privacy_displaying);
 	}
@@ -177,39 +119,34 @@ public class Login_Page_Action {
 	public void Privacypage_with_no_internet() throws InterruptedException {
 		Generic.swiping(573, 1618, 569, 1126, 4000);
 		ta.tap(TapOptions.tapOptions().withElement(ElementOption.element(lpo.getPrivacylink().get(7)))).perform();
-		System.out.println("Privacy gets clicked");
-		Generic.WifiOff();
-		Thread.sleep(3000);
-//		System.out.println("HOGYA");
-		Generic.WifiOn();
 	}
 
 	public void Terms_and_Conditionspage() throws InterruptedException {
 		Generic.swiping(573, 1618, 569, 1126, 4000);
 		ta.tap(TapOptions.tapOptions().withElement(ElementOption.element(lpo.getTerm_and_condition_link().get(5))))
 				.perform();
-		System.out.println("Terms and conditions link gets clicked");
 		Thread.sleep(15000);
 		WebElement get_T_and_C_text = tcpo.getTerms_and_conditions_text_val().get(21);
 		System.out.println("FIRSE_HOGYA");
 		boolean T_and_C_displaying = get_T_and_C_text.isDisplayed();
 		System.out.println(T_and_C_displaying);
-
 	}
 
 	public void Contact_Us() throws InterruptedException {
 		Generic.swiping(573, 1618, 569, 1126, 4000);
 		ta.tap(TapOptions.tapOptions().withElement(ElementOption.element(lpo.getContact_us_link().get(9)))).perform();
-		System.out.println("Contact us link gets clicked");
 		Thread.sleep(12000);
-		System.out.println("FIRSE_HOGYA");
 		WebElement get_contact_us_text = cupo.getContact_us_text_val().get(1);
 		boolean Contact_us_displaying = get_contact_us_text.isDisplayed();
 		System.out.println(Contact_us_displaying);
 	}
 
 	public void App_minimizing_after_loggedin() throws InterruptedException {
+		Generic.clear_on_WebElement(lpo.getMobile_num_field());
+		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
 		Generic.Run_app_in_background();
+		Generic.click_on_WebElement(lpo.getlogin_btn());
+
 	}
 
 }

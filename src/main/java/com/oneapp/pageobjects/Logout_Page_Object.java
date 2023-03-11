@@ -10,18 +10,17 @@ public class Logout_Page_Object {
 	
 	@FindBy(id = "android:id/button1")
 	private WebElement yes_text;
-	
 
+	
 	public Logout_Page_Object(AndroidDriver ad) {
 
 		PageFactory.initElements(ad, this);
 	}
 
-
 	public WebElement getYes_text() {
 		return yes_text;
 	}
-	
+
 	
 	
 

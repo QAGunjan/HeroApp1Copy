@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Select_Service_Center_Page_Object {
@@ -32,12 +33,14 @@ public class Select_Service_Center_Page_Object {
 	private List<WebElement> city_typedropdown;
 	
 	
-	@FindBy(xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.ImageView")
+	@FindBy(xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[5]/android.widget.ImageView")
 	private WebElement service_center_radio_button;
 	
 	
+	@FindBy(xpath="//*[@text='HIMGIRI AUTOMOBILES (P) LTD.']")
+	private WebElement himgiri_service_center;
 	
-	public Select_Service_Center_Page_Object(AndroidDriver ad)
+	public Select_Service_Center_Page_Object(AppiumDriver ad)
 	{
 		
 		PageFactory.initElements(ad, this);
@@ -79,9 +82,12 @@ public class Select_Service_Center_Page_Object {
 	public WebElement getService_center_radio_button() {
 		return service_center_radio_button;
 	}
-	
-	
-	
+
+
+
+	public WebElement getHimgiri_service_center() {
+		return himgiri_service_center;
+	}
 	
 	
 	

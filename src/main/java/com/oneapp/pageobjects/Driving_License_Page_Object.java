@@ -1,6 +1,7 @@
 package com.oneapp.pageobjects;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -22,8 +23,6 @@ public class Driving_License_Page_Object {
 	
 	@FindBy(xpath = "//*[@text='Choose from library']")
 	private WebElement Choose_from_library_btn;
-	
-	
 
 	@FindBy(id = "com.customerapp.hero:id/image_capture_button")
 	private WebElement camera_capturing_icon;
@@ -31,22 +30,21 @@ public class Driving_License_Page_Object {
 	@FindBy(id = "com.google.android.documentsui:id/icon_thumb")
 	private WebElement image_under_emulator;
 	
+	@FindBy(id = "com.android.documentsui:id/icon_thumb")
+	private WebElement image_under_realDevice;
+	
 	@FindBy(id = "com.customerapp.hero:id/crop_image_menu_crop")
 	private WebElement crop_image;
 	
-	@FindBy(id = "com.customerapp.hero:id/back_btn")
-	private WebElement back_btn;
+	@FindBy(xpath="//*[@text='Allow Hero App to take pictures and record video?']")
+	private WebElement take_pictures_pop;
 	
-	
-
 	
 	public Driving_License_Page_Object(AndroidDriver ad) {
 
 		PageFactory.initElements(ad, this);
 
 	}
-
-
 
 
 	public WebElement getThree_dots() {
@@ -96,10 +94,13 @@ public class Driving_License_Page_Object {
 	}
 
 
+	public WebElement getTake_pictures_pop() {
+		return take_pictures_pop;
+	}
 
 
-	public WebElement getBack_btn() {
-		return back_btn;
+	public WebElement getImage_under_realDevice() {
+		return image_under_realDevice;
 	}
 
 

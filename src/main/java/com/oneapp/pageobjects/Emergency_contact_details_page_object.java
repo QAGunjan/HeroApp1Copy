@@ -3,6 +3,7 @@ package com.oneapp.pageobjects;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
@@ -28,7 +29,10 @@ public class Emergency_contact_details_page_object {
 
 	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
 	private WebElement continue_btn;
-
+	
+	@FindBy(xpath="//*[@text='Full Name']")
+	private WebElement fullName_text;
+	
 	public Emergency_contact_details_page_object(AndroidDriver ad) {
 
 		PageFactory.initElements(ad, this);
@@ -61,7 +65,9 @@ public class Emergency_contact_details_page_object {
 	}
 
 
-
+	public WebElement getFullName_text() {
+		return fullName_text;
+	}
 	
 	
 	

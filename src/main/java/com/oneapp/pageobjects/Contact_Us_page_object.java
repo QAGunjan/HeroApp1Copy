@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Contact_Us_page_object {
@@ -16,7 +17,7 @@ public class Contact_Us_page_object {
 	})
 	private List<WebElement> contact_us_text_val;
 	
-	public Contact_Us_page_object(AndroidDriver ad) {
+	public Contact_Us_page_object(AppiumDriver ad) {
 
 		PageFactory.initElements(ad, this);
 

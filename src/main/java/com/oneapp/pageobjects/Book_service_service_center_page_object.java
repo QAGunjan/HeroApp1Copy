@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Book_service_service_center_page_object {
@@ -11,21 +12,18 @@ public class Book_service_service_center_page_object {
 	@FindBy(id="com.customerapp.hero:id/centerName")
 	private WebElement select_service_center_textbox;
 	
-	@FindBy(id="com.customerapp.hero:id/radio1")
+	@FindBy(xpath="//*[@text='Free Service']")
 	private WebElement free_service_radio_button;
 	
-	@FindBy(id="com.customerapp.hero:id/btn_lbl")
+	@FindBy(xpath="//*[@text='Continue']")
 	private WebElement continue_btn;
 	
-	@FindBy(id="com.customerapp.hero:id/radio2")
+	@FindBy(xpath="//*[@text='Paid Service']")
 	private WebElement paid_service_radio_button;
 	
-	
-	public Book_service_service_center_page_object(AndroidDriver ad)
-	{
-		
-		PageFactory.initElements(ad, this);
-		
+	public Book_service_service_center_page_object(AppiumDriver ad)
+	{	
+		PageFactory.initElements(ad, this);	
 	}
 
 
@@ -47,7 +45,6 @@ public class Book_service_service_center_page_object {
 	public WebElement getPaid_service_radio_button() {
 		return paid_service_radio_button;
 	}
-
 	
 	
 	

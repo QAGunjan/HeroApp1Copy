@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Vehicle_Service_page_object {
@@ -14,7 +15,7 @@ public class Vehicle_Service_page_object {
 	@FindBy(id="com.customerapp.hero:id/btn_lbl")
 	private WebElement verifybtn;
 	
-	public Vehicle_Service_page_object(AndroidDriver ad)
+	public Vehicle_Service_page_object(AppiumDriver ad)
 	{
 		
 		PageFactory.initElements(ad, this);

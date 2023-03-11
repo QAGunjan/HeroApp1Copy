@@ -14,8 +14,8 @@ public class Pcloudy_Create_Driver_Session {
 
 	public static DesiredCapabilities capabilities;
 
-	public static AndroidDriver creating_session(String Platform_name) throws MalformedURLException {
-		AndroidDriver ad = null;
+	public static AppiumDriver creating_session(String Platform_name) throws MalformedURLException {
+		AppiumDriver ad = null;
 
 		if (Platform_name.equalsIgnoreCase("android")) {
 
@@ -55,10 +55,10 @@ public class Pcloudy_Create_Driver_Session {
 			capabilities.setCapability("pCloudy_Username", "mobileapp7.support@heromotocorp.com");
 			capabilities.setCapability("pCloudy_ApiKey", "4mmqmhz7zcctk866c7r6294h");
 			capabilities.setCapability("pCloudy_DurationInMinutes", 10);
-			capabilities.setCapability("newCommandTimeout", 600);
-			capabilities.setCapability("launchTimeout", 90000);
-			capabilities.setCapability("pCloudy_DeviceFullName", "APPLE_iPhone14_iOS_16.0.1_fe1c6");
-			capabilities.setCapability("platformVersion", "16.0.1");
+			capabilities.setCapability("newCommandTimeout", 900);
+			capabilities.setCapability("launchTimeout", 400000);
+			capabilities.setCapability("pCloudy_DeviceFullName", "APPLE_iPhone11_iOS_15.0.2_4414a");
+			capabilities.setCapability("platformVersion", "15.0.2");
 			capabilities.setCapability("platformName", "ios");
 			capabilities.setCapability("acceptAlerts", true);
 			capabilities.setCapability("automationName", "XCUITest");
@@ -73,9 +73,9 @@ public class Pcloudy_Create_Driver_Session {
 			URL url = new URL("https://device.pcloudy.com/appiumcloud/wd/hub");
 //			URL url = new URL	("https://device.pcloudy.com/progressive/wd/hub");
 
-			System.out.println("My app has launched in emulator in Android");
+			System.out.println("My app has launched in emulator in IOS");
 
-//			ad = new IOSDriver(url, capabilities);
+			ad = new IOSDriver(url, capabilities);
 
 		}
 

@@ -1,28 +1,33 @@
 package com.oneapp.page_actions;
 
+import com.oneapp.basic.Generic;
 import com.oneapp.pageobjects.Book_service_service_center_page_object;
+import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Vehicle_Service_page_object;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Book_service_service_center_page_actions {
 	
 	public AndroidDriver ad;
 	public Book_service_service_center_page_object bsscpo;
+	public CommonElements_Page_object cepo;
+
 
 	public Book_service_service_center_page_actions(AndroidDriver ad) {
 		this.ad = ad;
 		bsscpo = new Book_service_service_center_page_object(ad);
+		cepo= new CommonElements_Page_object(ad);
+
 	}
 	
-
 	public void Select_Service_Center() throws InterruptedException
 	{
-		bsscpo.getSelect_service_center_textbox().click();
-		Thread.sleep(5000);
+		Generic.click_on_WebElement(bsscpo.getSelect_service_center_textbox());
 	}
 	
-	public void ServiceType_and_continue_btn() throws InterruptedException
+	public void selecting_ServiceType() throws InterruptedException
 	{
 		if (bsscpo.getService_Type_radio_button().isSelected())
 		{
@@ -31,23 +36,40 @@ public class Book_service_service_center_page_actions {
 		
 		else
 		{
-			bsscpo.getService_Type_radio_button().click();
+			Generic.click_on_WebElement(bsscpo.getService_Type_radio_button());
 			System.out.println(" FSC was not selected but now selected. Thanks! ");
 		}
-
-		bsscpo.getContinue_btn().click();
 		
+	}
+	
+	public void assertion_on_continue_without_internet()
+	{
+		Generic.Soft_assertion_validation(cepo.getToast_message(),"Please check your network connection." );
+	}
+	
+	public void turning_OFF_the_internet()
+	{
+		Generic.WifiOff();
+	}
+	
+	public void turning_ON_the_internet()
+	{
+		Generic.WifiOn();
+	}
+	
+	
+	public void tapping_on_continue_button()
+	{
+		Generic.click_on_WebElement(bsscpo.getContinue_btn());
 	}
 	
 	public void Verifying_service_type()
 	{
-		String toast_message = ad.findElementByXPath("//android.widget.Toast[1]").getAttribute("name");
-		System.out.println(toast_message);
-		
-		if (toast_message.equalsIgnoreCase("You have consumed all your free services, Please select other service."));
+		String Expected = "You have consumed all your free services, Please select other service.";
+		if (cepo.getToast_message().getText().equalsIgnoreCase(Expected));
 		{
-			bsscpo.getPaid_service_radio_button().click();
-			bsscpo.getContinue_btn().click();
+			Generic.click_on_WebElement(bsscpo.getPaid_service_radio_button());
+			Generic.click_on_WebElement(bsscpo.getContinue_btn());
 		}
 		
 	}

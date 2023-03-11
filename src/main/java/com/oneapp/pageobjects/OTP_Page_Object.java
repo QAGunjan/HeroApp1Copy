@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class OTP_Page_Object {
@@ -32,15 +33,14 @@ public class OTP_Page_Object {
 	@FindBy(id="com.customerapp.hero:id/edit_phn_no_btn")
 	private WebElement edit_button;
 	
-	@FindBy(xpath="//android.widget.Toast[1]")
-	private WebElement toast_message;
-	
 	
 	@FindBy(id="com.customerapp.hero:id/resend_btn_lbl")
 	private WebElement resend_link;
 	
+	@FindBy(id="com.customerapp.hero:id/lbl2")
+	private WebElement verify_with_OTP;
 	
-	public OTP_Page_Object(AndroidDriver ad)
+	public OTP_Page_Object(AppiumDriver ad)
 	{
 		
 		PageFactory.initElements(ad, this);
@@ -79,12 +79,13 @@ public class OTP_Page_Object {
 		return edit_button;
 	}
 
-	public WebElement getToast_message() {
-		return toast_message;
-	}
 
 	public WebElement getResend_link() {
 		return resend_link;
+	}
+
+	public WebElement getVerify_with_OTP() {
+		return verify_with_OTP;
 	}
 
 	

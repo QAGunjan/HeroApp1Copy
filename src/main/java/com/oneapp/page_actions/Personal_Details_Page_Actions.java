@@ -10,6 +10,7 @@ import org.testng.asserts.SoftAssert;
 
 import com.oneapp.basic.ExcelData;
 import com.oneapp.basic.Generic;
+import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.MyProfile_Page_Object;
 import com.oneapp.pageobjects.Personal_Details_Page_Object;
 
@@ -26,21 +27,36 @@ public class Personal_Details_Page_Actions {
 	public ExcelData exceldata;
 	public Personal_Details_Page_Object pdpo;
 	public TouchAction ta;
+	public CommonElements_Page_object cepo;
+
 
 	public Personal_Details_Page_Actions(AndroidDriver ad) {
 		this.ad = ad;
 		pdpo = new Personal_Details_Page_Object(ad);
 		exceldata = new ExcelData();
+		cepo= new CommonElements_Page_object(ad);
+
 	}
 
 	public void fullName_field() throws InterruptedException {
-		Thread.sleep(4000);
-		WebElement fullname_field = pdpo.getFullname_textfield();
-		fullname_field.clear();
+		Generic.clear_on_WebElement(pdpo.getFullname_textfield());
 	}
 
 	public void EnterfullName() {
-		Generic.sendkeys_element(pdpo.getFullname_textfield(), exceldata.getStringData("My Profile", 0, 1));
+		
+		Generic.sendKeys(pdpo.getFullname_textfield(), exceldata.getStringData("My Profile", 1, 1));
+	}
+
+	public void validation_of_blank_fullName_field() {
+		Generic.assertion_notEquals_validation(pdpo.getFullname_textfield(), exceldata.getStringData("My Profile", 24, 1));
+	}
+
+	public void validation_of_enter_invalid_email_field() {
+		Generic.assertion_notEquals_validation(pdpo.getEmailfield(), exceldata.getStringData("My Profile", 25, 1));
+	}
+
+	public void validation_of_saving_without_internet() {
+		Generic.Soft_assertion_validation(cepo.getToast_message(), exceldata.getStringData("My Profile", 26, 1));
 	}
 
 	public void Gender_radio_button() throws InterruptedException {
@@ -54,173 +70,93 @@ public class Personal_Details_Page_Actions {
 			gender_selection.click();
 			System.out.println("Female was not selected earlier but now it has been selected");
 		}
-
-		ta = new TouchAction(ad);
-		Thread.sleep(3000);
-//		ta.press(PointOption.point(534, 1349)).moveTo(PointOption.point(538, 792))
-//				.waitAction(WaitOptions.waitOptions(Duration.ofMillis(4000))).release().perform();
-//		System.out.println("Swiped succesfully");
-//		Thread.sleep(5000);
 	}
 
 	public void Email_field() throws InterruptedException {
-		WebElement email = pdpo.getEmailfield();
-		email.clear();
+		Generic.clear_on_WebElement(pdpo.getEmailfield());
 	}
 
-	public void enter_email() throws InterruptedException {
+	public void enter_valid_email() throws InterruptedException {
 		Random randomGenerator = new Random();
 		int randomInt = randomGenerator.nextInt(100000);
-		String email = exceldata.getStringData("My Profile", 1, 1);
-		String front_email = email.substring(0,6);
-		String end_email = email.substring(9,19);
+		String email = exceldata.getStringData("My Profile", 2, 1);
+		String front_email = email.substring(0, 6);
+		String end_email = email.substring(9, 19);
 		pdpo.getEmailfield().sendKeys(front_email + randomInt + end_email);
-
-		System.out.println("*************************************");
-		Generic.swiping(534, 1349, 538, 792, 4000);
-		Thread.sleep(4000);
-//		ta.press(PointOption.point(466, 1626)).moveTo(PointOption.point(477, 781))
-//				.waitAction(WaitOptions.waitOptions(Duration.ofMillis(4000))).release().perform();
-//		System.out.println("Swiped succesfully");
-//		Thread.sleep(2000);
+//		Generic.swiping(534, 1349, 538, 792, 4000);    - for emulator
+		Generic.swiping(542, 1689, 542, 992, 4000);   // for real device
+		
 	}
 
 	public void enter_invalid_email() {
-		
-		Generic.sendkeys_element(pdpo.getEmailfield(), exceldata.getStringData("My Profile", 8, 1));
-		
+		Generic.sendKeys(pdpo.getEmailfield(), exceldata.getStringData("My Profile", 14, 1));
 	}
 
 	public void Date_field() throws InterruptedException {
 		WebElement date = pdpo.getDatefield();
-//		date.click();
-//		ta.tap(PointOption.point(931,717)).perform();
-		 ta.tap(TapOptions.tapOptions().withPosition(PointOption.point(815,1319))).perform();
-		 Thread.sleep(3000);
-		pdpo.getEdit_under_date_field().click();
-		Generic.sendkeys_element(pdpo.getEditing_date(),"1/2/02");
-		pdpo.getOk_text().click();
-		Thread.sleep(3000);
+		Generic.Tap_on_WebElement(815, 1319);
+		Generic.click_on_WebElement(pdpo.getEdit_under_date_field());
+		Generic.sendKeys(pdpo.getEditing_date(),exceldata.getStringData("My Profile", 3, 1) );
+		Generic.click_on_WebElement(pdpo.getOk_text());
+//		Generic.swiping(530, 1413, 519, 608, 3000);     - for emulator
+		Generic.swiping(513,1698,508,1256, 3000);   //   for real device
 	}
 
 	public void invalid_date() throws InterruptedException {
 		WebElement date = pdpo.getDatefield();
-		date.click();
-		Thread.sleep(3000);
-		pdpo.getEdit_under_date_field().click();
-		Generic.sendkeys_element(pdpo.getEditing_date(), "1/2/23");
-		pdpo.getOk_text().click();
-		Thread.sleep(3000);
+		Generic.Tap_on_WebElement(815, 1319);
+		Generic.click_on_WebElement(pdpo.getEdit_under_date_field());
+		Generic.sendKeys(pdpo.getEditing_date(), exceldata.getStringData("My Profile", 15, 1));
+		Generic.click_on_WebElement(pdpo.getOk_text());
 	}
 
+	public void validation_of_invalid_date() {
+		Generic.Soft_assertion_validation(pdpo.getAge_error_message(), exceldata.getStringData("My Profile", 27, 1));
+	}  
+
 	public void Address_field() throws InterruptedException {
-		Generic.swiping(466, 1626, 477, 781, 4000);
-		WebElement address = pdpo.getAddress_field();
-		address.clear();
+		Generic.clear_on_WebElement(pdpo.getAddress_field());
 	}
 
 	public void enter_address() {
-		Generic.sendkeys_element(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 3, 1));
+		Generic.sendKeys(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 4, 1));
+	}
+
+	public void validation_of_address() {
+		Generic.Soft_assertion_validation(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 28, 1));
 	}
 
 	public void enter_invalid_address() {
-		Generic.sendkeys_element(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 10, 1));
+		Generic.sendKeys(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 16, 1));
+	}
+
+	public void validation_of_invalid_pincode() {
+		Generic.Soft_assertion_validation(cepo.getToast_message(), exceldata.getStringData("My Profile", 29, 1));
 	}
 
 	public void Pincode_field() throws InterruptedException {
-		
-//		Generic.swiping(534, 1349, 538, 792, 4000);
-//		Generic.swiping(466, 1626, 477, 781, 4000);
-		WebElement pincode = pdpo.getPincode_field();
-		pincode.clear();
+		Generic.clear_on_WebElement(pdpo.getPincode_field());
+	}
+	
+	public void turning_OFF_the_internet()
+	{
+		Generic.WifiOff();
+	}
 
+	public void turning_ON_the_internet()
+	{
+		Generic.WifiOn();
 	}
 
 	public void enter_pincode() throws InterruptedException {
-		Generic.sendkeys_element(pdpo.getPincode_field(), exceldata.getStringData("My Profile", 4, 1));
-	
+		Generic.sendKeys(pdpo.getPincode_field(), exceldata.getStringData("My Profile", 5, 1));
 	}
 
 	public void enter_invalid_pincode() throws InterruptedException {
-		
-		Generic.sendkeys_element(pdpo.getPincode_field(), exceldata.getStringData("My Profile", 11, 1));
-		
+		Generic.sendKeys(pdpo.getPincode_field(), exceldata.getStringData("My Profile", 17, 1));
 	}
 
 	public void click_Save_button() throws InterruptedException {
-		pdpo.getSave_btn().click();
-		Thread.sleep(4000);
+		Generic.click_on_WebElement(pdpo.getSave_btn());
 	}
-
-//	public void Personal_details_page() throws InterruptedException {
-//
-////		Thread.sleep(4000);
-////		WebElement fullname_field = pdpo.getFullname_textfield();
-////		fullname_field.clear();
-////		fullname_field.sendKeys("Gunjan Rawat");
-////		WebElement gender_selection = pdpo.getGender_checkbox();
-////
-////		if (gender_selection.isSelected()) {
-////			System.out.println("Female is already selected");
-////		}
-////
-////		else {
-////			gender_selection.click();
-////			System.out.println("Female was not selected earlier but now it has been selected");
-////		}
-////
-////		ta = new TouchAction(ad);
-////		Thread.sleep(3000);
-////		ta.press(PointOption.point(534, 1349)).moveTo(PointOption.point(538, 792))
-////				.waitAction(WaitOptions.waitOptions(Duration.ofMillis(4000))).release().perform();
-////		System.out.println("Swiped succesfully");
-////		Thread.sleep(5000);
-//
-////		WebElement email = pdpo.getEmailfield();
-////		email.clear();
-////		
-////		Random randomGenerator = new Random();  
-////		int randomInt = randomGenerator.nextInt(10000);  
-////		email.sendKeys("gunjanrawat"+ randomInt +"@gmail.com"); 
-////		
-////		System.out.println("*************************************");
-////		Thread.sleep(4000);
-//
-////		if (pdpo.getDatefield().getText().contains("20")) 
-////		{
-////			System.out.println("Date has already selected");
-////		}
-////
-////		else {
-////			Thread.sleep(2000);		
-////			WebElement date_field = pdpo.getDatefield();
-////			date_field.click();
-////			Thread.sleep(2000);
-////			pdpo.getEdit_under_date_field().click();
-////			WebElement entering_date = pdpo.getEditing_date().get(0);
-////			entering_date.sendKeys("12/16/02");
-////			pdpo.getOk_text().click();
-////		}
-//
-////		ta.press(PointOption.point(466, 1626)).moveTo(PointOption.point(477, 781))
-////				.waitAction(WaitOptions.waitOptions(Duration.ofMillis(4000))).release().perform();
-////		System.out.println("Swiped succesfully");
-////		Thread.sleep(2000);
-////		WebElement date = pdpo.getDatefield();
-////		date.click();
-////		pdpo.getEdit_under_date_field().click();
-////		pdpo.getEditing_date().sendKeys("1/2/02");
-////		pdpo.getOk_text().click();
-////		Thread.sleep(3000);
-////		WebElement address = pdpo.getAddress_field();
-////		address.clear();
-////		address.sendKeys("f30, mumbai, bandra east");
-////		WebElement pincode = pdpo.getPincode_field();
-////		pincode.clear();
-////		pincode.sendKeys("110091");
-////		Thread.sleep(2000);
-////		pdpo.getSave_btn().click();
-////		Thread.sleep(5000);
-//
-//	}
 }
