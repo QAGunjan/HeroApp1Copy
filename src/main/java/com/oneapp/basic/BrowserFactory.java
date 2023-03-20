@@ -37,6 +37,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.google.common.io.Files;
 import com.oneapp.page_actions.Login_Page_Action;
 import com.oneapp.page_actions.OTP_Page_Actions;
+import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
@@ -54,7 +55,8 @@ public class BrowserFactory {
 	public void Browsers_open() throws MalformedURLException {
 		// This is origional
 		ad = Create_Driver_Session.Androidsession("Android");
-		Reporter.log("Android emulator gets opened", true);
+		TestUtils.log().debug("Android emulator gets opened");
+		
 		// For Pcloudy
 
 //            	ad = Pcloudy_Create_Driver_Session.creating_session("ios");
@@ -73,6 +75,7 @@ public class BrowserFactory {
 	 {
 		 
 	 }
+}
 	 
 	/*	private static String RTDataPortal_Url="https://202.56.244.135/siebel/app/edealer/enu?SWECmd=Start&SWEHo=202.56.244.135"; 
 		public static WebDriver launch_Browser(WebDriver driver)
@@ -178,4 +181,4 @@ public class BrowserFactory {
 	 
 	 
 
-}
+

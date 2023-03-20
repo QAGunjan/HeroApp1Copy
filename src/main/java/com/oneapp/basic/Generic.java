@@ -14,6 +14,9 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.asserts.SoftAssert;
 
+import com.oneapp.utils.Console_Colors;
+import com.oneapp.utils.TestUtils;
+
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
@@ -31,7 +34,7 @@ public class Generic extends BrowserFactory {
 
 	public static TouchAction ta;
 	public static WebDriverWait wait;
-	public static final long WAIT= 25;
+	public static final long WAIT= 20;
 	public static AndroidElement element;
 
 	
@@ -45,8 +48,8 @@ public class Generic extends BrowserFactory {
 		waitForVisibility(element);
 		String expected = expected_message;
 		String actual = element.getText();
-		System.out.println(actual);
 		Assert.assertEquals(expected, actual);
+		TestUtils.log().debug("This is the actual element --> " + actual);
 	}
 
 	public static void Soft_assertion_validation(WebElement element, String expected_message)
@@ -55,15 +58,15 @@ public class Generic extends BrowserFactory {
 		SoftAssert sa= new SoftAssert();
 		String expected = expected_message;
 		String actual = element.getText();
-		System.out.println(actual);
 		sa.assertEquals(actual, expected);
+		TestUtils.log().debug("This is the actual element --> " + actual);
 		sa.assertAll();
 	}
 	
 	public static void assertion_notEquals_validation(WebElement element, String expected_toast) {
 		String expected_toast_message = expected_toast;
 		String actual_toast_message = element.getText();
-		System.out.println(actual_toast_message);
+		TestUtils.log().debug("This is the toast element --> " + actual_toast_message);
 		Assert.assertNotEquals(actual_toast_message, expected_toast_message);
 	}
 	
@@ -72,10 +75,11 @@ public class Generic extends BrowserFactory {
         try{
         	waitForVisibility(element);
         	click_on_WebElement(element);
+        	 TestUtils.log().debug("This element is clickable ----> " + element.getText());
             return true;
         }
         catch (Exception e){
-        	 System.out.println("Exception Handled");
+        	TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
             return false;
         }
     }
@@ -84,7 +88,7 @@ public class Generic extends BrowserFactory {
 		try {
 			ad.setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
 		} catch (Exception e) {
-			System.out.println("Connection could not be switch OFF");
+			TestUtils.log().debug("Connection could not be switch OFF");
 		}
 	}
 
@@ -92,12 +96,14 @@ public class Generic extends BrowserFactory {
 		try {
 			ad.setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
 		} catch (Exception e) {
-			System.out.println("Connection could not be switch ON");
+			TestUtils.log().debug("Connection could not be switch ON");
 		}
 	}
 
 	public static void Run_app_in_background() throws InterruptedException {
 		((AndroidDriver) ad).runAppInBackground(Duration.ofSeconds(5));
+		TestUtils.log().debug("App goes in background");
+		
 	}
 
 	public static void swiping(int startx, int starty, int endx, int endy, long wait) {
@@ -109,7 +115,7 @@ public class Generic extends BrowserFactory {
 		}
 		ta.press(PointOption.point(startx, starty)).moveTo(PointOption.point(endx, endy))
 				.waitAction(WaitOptions.waitOptions(Duration.ofMillis(wait))).release().perform();
-		System.out.println("Swiped succesfully");
+		TestUtils.log().debug("Swiped successfully");
 	}
 	
 	public static void Tap_on_WebElement(int startx, int starty) {
@@ -120,9 +126,12 @@ public class Generic extends BrowserFactory {
 		}
 		ta = new TouchAction(ad);
 		ta.tap(TapOptions.tapOptions().withPosition(PointOption.point(startx, starty))).perform();
+		TestUtils.log().debug("Tap action performs succesfully");
+
 	}
 
 	public static void looping_on_webelement(List<WebElement> elements, String text) {
+		TestUtils.log().debug("Itration of the elements starts");
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
@@ -137,6 +146,7 @@ public class Generic extends BrowserFactory {
 					e.printStackTrace();
 				}
 				element.click();
+				TestUtils.log().debug("This element gets clicked ----> " + element.getText());
 				break;
 			}
 		}
@@ -144,13 +154,15 @@ public class Generic extends BrowserFactory {
 
 	public static void click_on_WebElement(WebElement element) {
 		 try {
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		waitForVisibility(element);
 		element.click();
+		TestUtils.log().debug("This element gets clicked ----> " + element);
+
 	}
 	
 	public static void waitForVisibility(WebElement element)
@@ -162,6 +174,7 @@ public class Generic extends BrowserFactory {
 		}
 		wait = new WebDriverWait(ad, Generic.WAIT);
 		wait.until(ExpectedConditions.visibilityOf(element));
+		TestUtils.log().debug("Waiting for Visibility of this element ----> " + element);
 	}
 	
 	 public static void clear_on_WebElement(WebElement element)  {
@@ -173,6 +186,8 @@ public class Generic extends BrowserFactory {
 		}
 		  waitForVisibility(element);
 		  element.clear();
+		  TestUtils.log().debug("This element textbox field has cleared ---> " + element.getText());
+		  
 	  } 
 	
 	 public static void sendKeys(WebElement element, String text)  {
@@ -184,6 +199,7 @@ public class Generic extends BrowserFactory {
 		}
 		  waitForVisibility(element);
 		  element.sendKeys(text);
+		  TestUtils.log().debug("This element gets input ----> " + text);
 	  }
 
 	

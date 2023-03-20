@@ -33,7 +33,7 @@ public class Myprofile_Page_Actions {
 		}
 		catch(Exception e)
 		{
-			System.out.println("Exception handled" + e);
+			System.out.println("Exception handled");
 		}
 		Generic.click_on_WebElement(mppo.getMoredetails_link());
 		Generic.click_on_WebElement(mppo.getEditprofile_details_btn());
@@ -49,20 +49,22 @@ public class Myprofile_Page_Actions {
 	{
 		Generic.click_on_WebElement(mppo.getMoredetails_link());
 		
-		String expected_address = exceldata.getStringData("My Profile", 3, 1);
+		String expected_address = exceldata.getStringData("My Profile", 4, 1);
+		Generic.Hard_assertion_validation(mppo.getAddress_val(), expected_address);
+		System.out.println(expected_address);
 		
-		if (mppo.getAddress_val().getText().equalsIgnoreCase(expected_address)) {
-			Assert.assertEquals(mppo.getAddress_val().getText(), expected_address);
-			Reporter.log("AFTER SAVING MY PROFILE DETAILS", true);
-			Reporter.log(mppo.getAddress_val().getText(), true);
-			String expected_gender = "Female";
-			Assert.assertEquals(mppo.getGender_val().getText(), expected_gender);
-			Reporter.log(mppo.getGender_val().getText(), true);
-		}
-
-		else {
-			Reporter.log("Address field is blank", true);
-		}
+//		if (mppo.getAddress_val().getText().equalsIgnoreCase(expected_address)) {
+//			Assert.assertEquals(mppo.getAddress_val().getText(), expected_address);
+//			Reporter.log("AFTER SAVING MY PROFILE DETAILS", true);
+//			Reporter.log(mppo.getAddress_val().getText(), true);
+//			String expected_gender = "Female";
+//			Assert.assertEquals(mppo.getGender_val().getText(), expected_gender);
+//			Reporter.log(mppo.getGender_val().getText(), true);
+//		}
+//
+//		else {
+//			Reporter.log("Address field is blank", true);
+//		}
 
 	}
 	

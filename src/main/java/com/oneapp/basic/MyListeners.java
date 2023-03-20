@@ -21,13 +21,13 @@ import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.google.common.io.Files;
 import com.oneapp.page_actions.Login_Page_Action;
+import com.oneapp.utils.Console_Colors;
+import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.android.AndroidDriver;
 
 public class MyListeners extends BrowserFactory implements ITestListener {
 
-
-	
 	ExtentReports extent= Extent_Reports_Generator.getreports();
 	ThreadLocal<ExtentTest> extent_test=new ThreadLocal<ExtentTest>();
 	
@@ -46,7 +46,8 @@ public class MyListeners extends BrowserFactory implements ITestListener {
 			String logText = "<b>Test Method " + result.getMethod().getMethodName() + " Successful</b>";
 			  Markup m = MarkupHelper.createLabel(logText, ExtentColor.GREEN);
 			  extent_test.get().log(Status.PASS,m);
-		}
+			  TestUtils.log().debug(Console_Colors.Green_color() + result.getMethod().getMethodName() + Console_Colors.Reset_color());
+		} 
 		
 		
 		
@@ -71,7 +72,7 @@ public class MyListeners extends BrowserFactory implements ITestListener {
 			  String logText = "<b>Test Method " + methodName + " Failed</b>";
 			  Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
 			  extent_test.get().log(Status.FAIL,m);
-			
+			  TestUtils.log().debug(Console_Colors.Red_color() + result.getMethod().getMethodName() + Console_Colors.Reset_color());
 		}
 	
 		public void onTestSkipped(ITestResult result) {
@@ -101,9 +102,11 @@ public class MyListeners extends BrowserFactory implements ITestListener {
 			{
 				File screenshot = ((TakesScreenshot)ad).getScreenshotAs(OutputType.FILE);
 				FileUtils.copyFile(screenshot, new File(path));
-				System.out.println("********************");
-				System.out.println("Screenshot stored at: " + path);
-				System.out.println("********************");
+	        	TestUtils.log().debug(Console_Colors.Red_color() + "Screenshot stored at: " + path + Console_Colors.Reset_color());
+
+//				System.out.println("********************");
+//				System.out.println("Screenshot stored at: " + path);
+//				System.out.println("********************");
 				
 			} catch (Exception e)
 			{

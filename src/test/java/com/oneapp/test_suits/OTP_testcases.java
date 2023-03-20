@@ -18,7 +18,7 @@ import com.oneapp.page_actions.Selected_Vehicle_Page_Actions;
 
 public class OTP_testcases extends BrowserFactory {
 	
-	@Test //(priority = 6, groups = { "Smoke","Regression" })
+	@Test (priority = 6, groups = { "Regression", "Negative" })
 	public void validate_valid_OTP_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.valid_login();
@@ -42,7 +42,7 @@ public class OTP_testcases extends BrowserFactory {
 	}
 	
 	
-	@Test //(priority = 7, groups = { "Regression", "Negative" })
+	@Test (priority = 7, dependsOnMethods = {"validate_valid_OTP_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_invalid_OTP_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.valid_login();
@@ -55,7 +55,7 @@ public class OTP_testcases extends BrowserFactory {
 		System.out.println("validate_invalid_OTP_testcase Passed");
 	}
 	
-	@Test //(priority = 8, groups = { "Regression", "Negative" })
+	@Test (priority = 8, dependsOnMethods = {"validate_valid_OTP_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_OTP_after_resend_testcase() throws InterruptedException {
 		OTP_Page_Actions opa = new OTP_Page_Actions(ad);
 		opa.click_resend_link();
@@ -90,7 +90,7 @@ public class OTP_testcases extends BrowserFactory {
 		System.out.println("validate_valid_OTP_with_no_internet_testcase Passed");
 	}
 	
-	@Test //(priority = 10, groups = { "Regression", "Negative" })
+	@Test (priority = 10, dependsOnMethods = {"validate_valid_OTP_testcase"} ,groups = { "Regression", "Negative" })
 	public void validation_valid_OTP_working_expected_after_minimizing_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.valid_login();
@@ -99,16 +99,6 @@ public class OTP_testcases extends BrowserFactory {
 		Generic.Run_app_in_background();
 		opa.validate_OTP();
 		opa.click_verify_button();
-//		Selected_Vehicle_Page_Actions svpa = new Selected_Vehicle_Page_Actions(ad);
-//		svpa.Assertion_selected_vehicle_page();
-//		svpa.Vehicle_Select();
-//		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
-//		dpa.MenubarList();
-//		Menu_Bar_Page_Actions mbpa = new Menu_Bar_Page_Actions(ad);
-//		mbpa.logout_Menu_bar();
-//		Logout_Page_Actions lgpa = new Logout_Page_Actions(ad);
-//		lgpa.click_yes_under_logout();
-//		lgpa.assertion_of_logout();
 		System.out.println("**********************");
 		System.out.println("validation_valid_OTP_working_expected_after_minimizing Passed");
 	}

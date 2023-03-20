@@ -59,8 +59,15 @@ public class Dashboard_Page_object {
 	@FindBy(xpath="//*[@text='GoodLife']")
 	private WebElement goodlife_icon;
 	
+	@FindBy(id="com.customerapp.hero:id/ic_sos")
+	private WebElement SOS_icon;
 	
 	
+	@FindBy(xpath="//*[@text='Allow Hero App to access this device’s location?']")
+	private WebElement device_location_popup_samsung;
+	
+	@FindBy(xpath ="//*[@text='Only this time']")
+	private WebElement allowing_location_popup_samsung;
 	
 	public Dashboard_Page_object(AppiumDriver ad) {
 
@@ -138,7 +145,22 @@ public class Dashboard_Page_object {
 	}
 	
 	
-	
+	public WebElement getSOS_icon() {
+		return SOS_icon;
+	}
+
+
+
+	public WebElement getDevice_location_popup_samsung() {
+		return device_location_popup_samsung;
+	}
+
+
+
+	public WebElement getAllowing_location_popup_samsung() {
+		return allowing_location_popup_samsung;
+	}
+
 	
 
 

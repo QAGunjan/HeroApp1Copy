@@ -27,6 +27,8 @@ import com.oneapp.pageobjects.Login_Page_Object;
 import com.oneapp.pageobjects.OTP_Page_Object;
 import com.oneapp.pageobjects.Privacy_Policy_Page_Object;
 import com.oneapp.pageobjects.Terms_and_condition_Page_Object;
+import com.oneapp.utils.Console_Colors;
+import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
@@ -64,13 +66,22 @@ public class Login_Page_Action {
 	}
 
 	public void valid_login() throws InterruptedException {
+//		try {
+//		Generic.click_on_WebElement(cepo.getNonOfTheAbove());
+//		Generic.click_on_WebElement(cepo.getallowing_commom_popup_honor());
+//		Generic.click_on_WebElement(cepo.getAllowing_commom_popup_samsung());
+//		}
+//		catch(Exception e)
+//		{
+//		}
 		try {
-		cepo.getNonOfTheAbove().click();
+			if (cepo.getNotification_pop_up_samsung().isDisplayed()) {
+				Generic.click_on_WebElement(cepo.getAllowing_commom_popup_samsung());
+			}
+		} catch (Exception e) {
+			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 		}
-		catch(Exception e)
-		{
-			System.out.println("Exception Handled" + e);
-		}
+
 		Generic.clear_on_WebElement(lpo.getMobile_num_field());
 		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
 		Generic.click_on_WebElement(lpo.getlogin_btn());
@@ -78,7 +89,7 @@ public class Login_Page_Action {
 
 	public void assertion_of_valid_login() throws InterruptedException {
 		Generic.Hard_assertion_validation(opo.getVerify_with_OTP(), exceldata.getStringData("Login Page", 11, 1));
-}
+	}
 
 	public void invalid_login() throws InterruptedException {
 
@@ -87,13 +98,13 @@ public class Login_Page_Action {
 	}
 
 	public void assertion_of_invalid_login() {
-		Generic.Hard_assertion_validation(cepo.getToast_message(), exceldata.getStringData("Login Page", 12, 1));
+		Generic.Hard_assertion_validation(cepo.getHerologo(), exceldata.getStringData("Login Page", 13, 1));
 	}
 
-	public void assertion_of_commom_login_page()
-	{
+	public void assertion_of_commom_login_page() {
 		Generic.Hard_assertion_validation(cepo.getHerologo(), "Login");
 	}
+
 	public void Mininum_length_field() throws InterruptedException {
 		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 3, 1));
 		Generic.isClickable(lpo.getlogin_btn());
@@ -127,7 +138,6 @@ public class Login_Page_Action {
 				.perform();
 		Thread.sleep(15000);
 		WebElement get_T_and_C_text = tcpo.getTerms_and_conditions_text_val().get(21);
-		System.out.println("FIRSE_HOGYA");
 		boolean T_and_C_displaying = get_T_and_C_text.isDisplayed();
 		System.out.println(T_and_C_displaying);
 	}

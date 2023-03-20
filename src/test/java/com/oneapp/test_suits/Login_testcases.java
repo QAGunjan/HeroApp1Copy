@@ -28,42 +28,33 @@ import com.oneapp.page_actions.Privacy_policy_Page_action;
 
 public class Login_testcases extends BrowserFactory {
 
-	@Test //(priority = 1, groups = { "Smoke", "Regression" })
+	@Test (priority = 1, groups = { "Smoke", "Regression" })
 	public void validate_validLogin_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		System.out.println(ad.getSessionId());
 		lpa.valid_login();
 		lpa.assertion_of_valid_login();
 		OTP_Page_Actions opa = new OTP_Page_Actions(ad);
 		opa.click_edit();
-		System.out.println("**********************");
-		System.out.println("Valid_Login_001 Passed");
 	}
 
-	@Test //(priority = 2, groups = { "Regression", "Negative" })
+	@Test (priority = 2, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_invalidLogin_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.invalid_login();
 		lpa.assertion_of_invalid_login();
-		System.out.println("**********************");
-		System.out.println("invalid_Login_002 Passed");
 	}
 
-	@Test //(priority = 3, groups = { "Regression", "Negative" })
+	@Test (priority = 3, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_mininum_length_field_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.Mininum_length_field();
 		lpa.assertion_of_commom_login_page();
-		System.out.println("**********************");
-		System.out.println("mininum_length_field_validation_003 Passed");
 	}
 
 	@Test //(priority = 4, groups = { "Regression", "Negative" })
 	public void validate_continue_with_no_internet_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.continue_with_no_internet();
-		System.out.println("**********************");
-		System.out.println("validate_continue_with_no_internet Passed");
 	}
 
 	@Test
@@ -80,15 +71,13 @@ public class Login_testcases extends BrowserFactory {
 		pppa.assertion_privacy_policy_page();
 	}
 
-	@Test //(priority = 5, groups = { "Regression", "Negative" })
+	@Test (priority = 5, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validation_app_working_expected_after_minimizing_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.App_minimizing_after_loggedin();
 //		lpa.assertion_of_valid_login();
 //		OTP_Page_Actions opa = new OTP_Page_Actions(ad);
 //		opa.Click_edit();
-		System.out.println("**********************");
-		System.out.println("validation_app_working_expected_after_minimizing Passed");
 	}
 
 	@Test

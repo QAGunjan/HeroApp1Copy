@@ -4,6 +4,8 @@ import com.oneapp.basic.Generic;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 import com.oneapp.pageobjects.Logout_Page_Object;
+import com.oneapp.utils.Console_Colors;
+import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
@@ -24,13 +26,15 @@ public class Logout_Page_Actions {
 	public void click_yes_under_logout() throws InterruptedException {
 		Generic.click_on_WebElement(lgpo.getYes_text());
 		
+		try {
 		if (cepo.getNonOfTheAbove().isDisplayed()) {
 			Generic.click_on_WebElement(cepo.getNonOfTheAbove());
 		}
-		else {
-			
 		}
-		 
+		catch(Exception e)
+		{
+        	TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+		}
 	}
 
 	public void assertion_of_logout() {

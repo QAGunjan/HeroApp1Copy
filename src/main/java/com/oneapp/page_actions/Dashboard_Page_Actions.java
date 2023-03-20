@@ -18,22 +18,34 @@ public class Dashboard_Page_Actions {
 	public TouchAction ta;
 	public Dashboard_Page_object dpo;
 
+
+
 	public Dashboard_Page_Actions(AndroidDriver ad) {
 		this.ad = ad;
 		dpo = new Dashboard_Page_object(ad);
+
 	}
 
 	public void Handling_Dashboard_All_Popups() throws InterruptedException {
 		Thread.sleep(5000);
-		
-		try {
-			Generic.click_on_WebElement(dpo.getLocation_popup_Honor());
-			Generic.click_on_WebElement(dpo.getLocation_popup());
-		}
-		catch(Exception e)
+//		
+//		try {
+//			Generic.click_on_WebElement(dpo.getLocation_popup_Honor());
+//			Generic.click_on_WebElement(dpo.getLocation_popup());
+//		}
+//		catch(Exception e)
+//		{
+//		}
+	try {
+		if (dpo.getDevice_location_popup_samsung().isDisplayed())
 		{
+			Generic.click_on_WebElement(dpo.getAllowing_location_popup_samsung());
 		}
-		
+	}
+	catch(Exception e)
+	{
+		System.out.println("Exception Handled" + e);
+	}
 		
 //		String str= "Allow Hero App to access this device’s location?";
 //		String popup_dis = dpo.getLocation_pop_displaying().getText();
@@ -81,7 +93,10 @@ public class Dashboard_Page_Actions {
 		Generic.click_on_WebElement(dpo.getGoodlife_icon());
 	}
 	
-	
+	public void tapping_on_SOS_icon()
+	{
+		Generic.click_on_WebElement(dpo.getSOS_icon());
+	}
 	
 	
 	

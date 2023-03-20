@@ -84,8 +84,7 @@ public class Personal_Details_Page_Actions {
 		String end_email = email.substring(9, 19);
 		pdpo.getEmailfield().sendKeys(front_email + randomInt + end_email);
 //		Generic.swiping(534, 1349, 538, 792, 4000);    - for emulator
-		Generic.swiping(542, 1689, 542, 992, 4000);   // for real device
-		
+		Generic.swiping(513, 1794, 517, 1147, 4000);   // for real device Samsung
 	}
 
 	public void enter_invalid_email() {
@@ -94,17 +93,17 @@ public class Personal_Details_Page_Actions {
 
 	public void Date_field() throws InterruptedException {
 		WebElement date = pdpo.getDatefield();
-		Generic.Tap_on_WebElement(815, 1319);
+		Generic.Tap_on_WebElement(955, 1287);
 		Generic.click_on_WebElement(pdpo.getEdit_under_date_field());
 		Generic.sendKeys(pdpo.getEditing_date(),exceldata.getStringData("My Profile", 3, 1) );
 		Generic.click_on_WebElement(pdpo.getOk_text());
 //		Generic.swiping(530, 1413, 519, 608, 3000);     - for emulator
-		Generic.swiping(513,1698,508,1256, 3000);   //   for real device
+//		Generic.swiping(513,1698,508,1256, 3000);   //   for real device
 	}
 
 	public void invalid_date() throws InterruptedException {
 		WebElement date = pdpo.getDatefield();
-		Generic.Tap_on_WebElement(815, 1319);
+		Generic.Tap_on_WebElement(955, 1287);
 		Generic.click_on_WebElement(pdpo.getEdit_under_date_field());
 		Generic.sendKeys(pdpo.getEditing_date(), exceldata.getStringData("My Profile", 15, 1));
 		Generic.click_on_WebElement(pdpo.getOk_text());
@@ -120,6 +119,7 @@ public class Personal_Details_Page_Actions {
 
 	public void enter_address() {
 		Generic.sendKeys(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 4, 1));
+		Generic.swiping(572, 1657, 559, 1218, 4000); 
 	}
 
 	public void validation_of_address() {
@@ -135,7 +135,11 @@ public class Personal_Details_Page_Actions {
 	}
 
 	public void Pincode_field() throws InterruptedException {
-		Generic.clear_on_WebElement(pdpo.getPincode_field());
+		if (pdpo.getPincode_field().getText().contains("11"))
+		{
+			Generic.clear_on_WebElement(pdpo.getPincode_field());
+		}
+		
 	}
 	
 	public void turning_OFF_the_internet()
@@ -149,11 +153,12 @@ public class Personal_Details_Page_Actions {
 	}
 
 	public void enter_pincode() throws InterruptedException {
-		Generic.sendKeys(pdpo.getPincode_field(), exceldata.getStringData("My Profile", 5, 1));
+		Generic.sendKeys(pdpo.getBlank_pincode_field(), exceldata.getStringData("My Profile", 5, 1));
 	}
 
 	public void enter_invalid_pincode() throws InterruptedException {
-		Generic.sendKeys(pdpo.getPincode_field(), exceldata.getStringData("My Profile", 17, 1));
+		
+		Generic.sendKeys(pdpo.getBlank_pincode_field(), exceldata.getStringData("My Profile", 17, 1));
 	}
 
 	public void click_Save_button() throws InterruptedException {

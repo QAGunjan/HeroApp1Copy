@@ -9,6 +9,8 @@ import com.oneapp.basic.ExcelData;
 import com.oneapp.basic.Generic;
 import com.oneapp.pageobjects.OTP_Page_Object;
 import com.oneapp.pageobjects.Selected_Vehicle_Page_Object;
+import com.oneapp.utils.Console_Colors;
+import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
@@ -40,12 +42,12 @@ public class Selected_Vehicle_Page_Actions {
 		if (svpo.getbook_service_PAID_vin().getText().equalsIgnoreCase(vin))
 		{
 			Generic.click_on_WebElement(svpo.getbook_service_PAID_vin());
-			System.out.println("Book service PAID Vin selected");
+        	TestUtils.log().debug("Book service PAID Vin selected");
 		}
 		
 		else
 		{
-			System.out.println("Book service PAID Vin is not selected");
+			TestUtils.log().debug("Book service PAID Vin is not selected");
 		}
 		
 		Generic.click_on_WebElement(svpo.getContinuebtn_selected_vehicle());

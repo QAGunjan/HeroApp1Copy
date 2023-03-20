@@ -54,6 +54,8 @@ public class Personal_Details_Page_Object {
 	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[6]/android.widget.FrameLayout/android.widget.EditText")
 	private WebElement pincode_field;
 	
+	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[7]/android.widget.FrameLayout/android.widget.EditText")
+	private WebElement blank_pincode_field;
 	
 	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
 	private WebElement save_btn;
@@ -122,7 +124,10 @@ public class Personal_Details_Page_Object {
 		return age_error_message;
 	}
 
-
+	public WebElement getBlank_pincode_field() {
+		return blank_pincode_field;
+	}
+   
 
 	
 	

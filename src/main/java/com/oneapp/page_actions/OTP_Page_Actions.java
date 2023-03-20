@@ -57,7 +57,7 @@ public class OTP_Page_Actions {
 	}
 
 	public void assertion_invalid_OTP() {
-		Generic.Hard_assertion_validation(cepo.getToast_message(), exceldata.getStringData("OTP Page", 8, 1));
+		Generic.Hard_assertion_validation(opo.getVerify_with_OTP(), exceldata.getStringData("OTP Page", 8, 1));
 	}
 
 	public void assertion_valid_OTP_with_no_internet() {

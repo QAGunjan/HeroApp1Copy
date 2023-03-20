@@ -11,14 +11,13 @@
       </run>
     </groups>
     <classes>
-      <class name="com.oneapp.test_suits.SOS_testcases">
+      <class name="com.oneapp.test_suits.OTP_testcases">
         <methods>
-          <include name="validate_dont_send_link_testcase"/>
+          <include name="validate_valid_OTP_testcase"/>
           <include name="Browsers_open"/>
-          <include name="validate_closing_alert_window_testcase"/>
-          <include name="validate_SOS_message_sending_testcase"/>
+          <include name="validate_invalid_OTP_testcase"/>
         </methods>
-      </class> <!-- com.oneapp.test_suits.SOS_testcases -->
+      </class> <!-- com.oneapp.test_suits.OTP_testcases -->
     </classes>
   </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [LoginSuite] -->

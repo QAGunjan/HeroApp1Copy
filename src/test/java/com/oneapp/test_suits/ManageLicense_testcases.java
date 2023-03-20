@@ -19,7 +19,7 @@ import com.oneapp.page_actions.Selected_Vehicle_Page_Actions;
 
 public class ManageLicense_testcases extends BrowserFactory {
 
-	@Test //(priority = 26, groups = { "Smoke", "Regression" })
+	@Test// (priority = 26, groups = { "Smoke", "Regression" })
 	public void validation_uploading_licence_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.valid_login();
@@ -48,7 +48,7 @@ public class ManageLicense_testcases extends BrowserFactory {
 //		mbpa.closing_menubar_icon();
 	}
 
-	@Test //(priority = 27, groups = {"Smoke", "Regression"})
+	@Test// (priority = 27, groups = {"Smoke", "Regression"})
 	public void validation__downloading_the_uploaded_license_testcase() throws InterruptedException, IOException {
 
 		Driving_License_Page_Actions dlpa = new Driving_License_Page_Actions(ad);

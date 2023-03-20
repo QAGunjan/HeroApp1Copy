@@ -14,6 +14,12 @@ public class CommonElements_Page_object {
 	@FindBy(xpath = "//*[@text='ALLOW']")
 	private WebElement allowing_commom_popup_honor;
 	
+	@FindBy(xpath = "//*[@text='Allow']")
+	private WebElement allowing_commom_popup_samsung;
+	
+	@FindBy(xpath = "//*[@text='Allow Hero App to send you notifications?']")
+	private WebElement notification_pop_up_samsung;
+	
 	@FindBy(id = "com.customerapp.hero:id/back_btn")
 	private  WebElement back_icon;
 	
@@ -22,6 +28,7 @@ public class CommonElements_Page_object {
 	
 	@FindBy(id = "com.customerapp.hero:id/lbl1")
 	private WebElement herologo;
+	
 	
 	public CommonElements_Page_object(AndroidDriver ad) 
 	{
@@ -47,9 +54,16 @@ public class CommonElements_Page_object {
 	public WebElement getallowing_commom_popup_honor() {
 		return allowing_commom_popup_honor;
 	}
-	
+
+
+	public WebElement getAllowing_commom_popup_samsung() {
+		return allowing_commom_popup_samsung;
+	}
+
+	public WebElement getNotification_pop_up_samsung() {
+		return notification_pop_up_samsung;
+	}
+
 
 	
-	
-
 }

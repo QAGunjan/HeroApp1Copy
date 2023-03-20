@@ -6,7 +6,6 @@ import com.oneapp.basic.Generic;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 import com.oneapp.pageobjects.SOS_alert_window_page_object;
-import com.oneapp.pageobjects.SOS_page_object;
 
 import io.appium.java_client.android.AndroidDriver;
 
