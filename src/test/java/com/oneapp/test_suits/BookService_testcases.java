@@ -31,38 +31,37 @@ public class BookService_testcases extends BrowserFactory {
 //		svpa.Assertion_selected_vehicle_page();
 //		svpa.Vehicle_Select();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
-		dpa.Handling_Dashboard_All_Popups();
-		dpa.Services_icon();
+		dpa.dashboardAllPopUpAction();
+		dpa.clickServiceIconAction();
 		Vehicle_Service_Page_actions vspa = new Vehicle_Service_Page_actions(ad);
-		vspa.Book_service_button();
+		vspa.bookServiceButtonAction();
 		Book_service_service_center_page_actions bsscpa = new Book_service_service_center_page_actions(ad);
-		bsscpa.Select_Service_Center();
+		bsscpa.clickServiceCenterfieldAction();
 		Select_Service_Center_Page_Actions sscpa = new Select_Service_Center_Page_Actions(ad);
-		sscpa.Selecting_Service_center_process();
-		bsscpa.selecting_ServiceType();
-		bsscpa.turning_OFF_the_internet();
-		bsscpa.tapping_on_continue_button();
-		bsscpa.assertion_on_continue_without_internet();
-		bsscpa.turning_ON_the_internet();
-		bsscpa.tapping_on_continue_button();
-		bsscpa.Verifying_service_type();
+		sscpa.selectingServiceCenterProcessAction();
+		bsscpa.serviceTypeRadioButtonAction();
+		bsscpa.turnOFFInternetAction();
+		bsscpa.clickContinueButtonAction();
+		bsscpa.continueWithNoInterneAction();
+//		bsscpa.turning_ON_the_internet();
+		bsscpa.clickContinueButtonAction();
+		bsscpa.validatingServiceTypeAction();
 		Book_service_selfJobCard_page_actions bssjcpa = new Book_service_selfJobCard_page_actions(ad);
-		bssjcpa.Self_Job_Card_Page();
-		bssjcpa.turning_OFF_the_internet();
-		bssjcpa.Tapping_on_book_service_button();
-		bssjcpa.assertion_on_bookService_button_without_internet();
-		bssjcpa.Tapping_on_book_service_button();
+		bssjcpa.selfJobCardAction();
+		bssjcpa.turnOFFInternetAction();
+		bssjcpa.tappingBookServiceButtonAction();
+		bssjcpa.continueBookServiceWithNoInternetAction();
+		bssjcpa.tappingBookServiceButtonAction();
 		Booking_confirmed_Page_Action bcpa = new Booking_confirmed_Page_Action(ad);
-		bcpa.fetching_SR_number();
-		bcpa.click_go_back_to_home();
+		bcpa.fetchingSRNumberAction();
+		bcpa.clickGoBackToHomeAction();
 //		dpa.MenubarList();
 //		Menu_Bar_Page_Actions mbpa = new Menu_Bar_Page_Actions(ad);
 //		mbpa.logout_Menu_bar();
 //		Logout_Page_Actions lgpa = new Logout_Page_Actions(ad);
 //		lgpa.click_yes_under_logout();
 //		lgpa.assertion_of_logout();
-		System.out.println("**********************");
-		System.out.println("validate_Bookservice_Paid_testcase Passed");
+		
 	}
 	
 	/*

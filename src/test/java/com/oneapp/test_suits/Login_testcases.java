@@ -20,7 +20,6 @@ import com.oneapp.page_actions.Privacy_policy_Page_action;
  * Validate login if mobile number is already registered
  * Validate login if mobile number is not  registred
  * Validate link "Term Of Use" & "Privacy Policy"
- * Validate link "Know more".
  */
 
 
@@ -31,50 +30,50 @@ public class Login_testcases extends BrowserFactory {
 	@Test (priority = 1, groups = { "Smoke", "Regression" })
 	public void validate_validLogin_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.valid_login();
-		lpa.assertion_of_valid_login();
+		lpa.validLoginAction();
+		lpa.validLoginAssertionAction();
 		OTP_Page_Actions opa = new OTP_Page_Actions(ad);
-		opa.click_edit();
+		opa.clickEditAction();
 	}
 
 	@Test (priority = 2, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_invalidLogin_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.invalid_login();
-		lpa.assertion_of_invalid_login();
+		lpa.invalidLoginAction();
+		lpa.invalidLoginAssertionAction();
 	}
 
 	@Test (priority = 3, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_mininum_length_field_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.Mininum_length_field();
-		lpa.assertion_of_commom_login_page();
+		lpa.minimumLengthFieldAction();
+		lpa.commonAssertionLoginPageAction();
 	}
 
-	@Test //(priority = 4, groups = { "Regression", "Negative" })
+	@Test (priority = 4, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_continue_with_no_internet_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.continue_with_no_internet();
+		lpa.continueWithNoInternetAction();
 	}
 
 	@Test
 	public void Privacy_validation_004() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.Privacypage();
+		lpa.PrivacypageAction();
 	}
 
-	@Test // (priority =1, groups = { "negative" })
+	@Test // (priority =1, groups = { "Regression", "Negative" })
 	public void validation_privacypage_with_no_internet() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.Privacypage_with_no_internet();
+		lpa.privacyPageWithNoInternetAction();
 		Privacy_policy_Page_action pppa = new Privacy_policy_Page_action(ad);
-		pppa.assertion_privacy_policy_page();
+		pppa.privacyPolicyAction();
 	}
 
 	@Test (priority = 5, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validation_app_working_expected_after_minimizing_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.App_minimizing_after_loggedin();
+		lpa.applicationMinimizingAfterLogInAction();
 //		lpa.assertion_of_valid_login();
 //		OTP_Page_Actions opa = new OTP_Page_Actions(ad);
 //		opa.Click_edit();
@@ -83,13 +82,13 @@ public class Login_testcases extends BrowserFactory {
 	@Test
 	public void T_and_C_validation_005() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.Terms_and_Conditionspage();
+		lpa.termsAndConditionsPageAction();
 	}
 
 	@Test
 	public void Contact_Us_005() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.Contact_Us();
+		lpa.contactUsAction();
 	}
 
 }

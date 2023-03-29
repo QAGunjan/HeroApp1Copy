@@ -39,58 +39,58 @@ public class Book_service_selfJobCard_page_actions {
 	}
 	
 	
-	public void turning_OFF_the_internet()
+	public void turnOFFInternetAction()
 	{
 		Generic.WifiOff();
 	}
 	
-	public void turning_ON_the_internet()
+	public void turnONInternetAction()
 	{
 		Generic.WifiOn();
 	}
 	
 	
-	public void Self_Job_Card_Page() throws InterruptedException {
-		Generic.Soft_assertion_validation(bssjcpo.getSelf_job_card_text(), "Self Job Card");
-		Generic.Soft_assertion_validation(bssjcpo.getKey_issues_text(), "Key Issues");
+	public void selfJobCardAction() throws InterruptedException {
+		Generic.softAssertion(bssjcpo.getSelf_job_card_text(), "Self Job Card");
+		Generic.softAssertion(bssjcpo.getKey_issues_text(), "Key Issues");
 		
 		String str3 = "Service";
 		if (bssjcpo.getService_text().getText().equals(str3)) {
-			Generic.click_on_WebElement(bssjcpo.getService_radio_button());
+			Generic.clickOnWebElement(bssjcpo.getService_radio_button());
 		}
 
 		else {
 			System.out.println("Service text is not avaiable on the page");
 		}
 		
-		Generic.click_on_WebElement(bssjcpo.getKey_issues_text());
-		Generic.sendKeys(bssjcpo.getOther_issues_textbox(), exceldata.getStringData("Book Service", 1, 1));
-		Generic.Soft_assertion_validation(bssjcpo.getBook_service_btn(), "Book Service");
+		Generic.clickOnWebElement(bssjcpo.getKey_issues_text());
+		Generic.sendKeysOnTextfields(bssjcpo.getOther_issues_textbox(), exceldata.getStringData("Book Service", 1, 1));
+		Generic.softAssertion(cepo.getbutton(), "Book Service");
 	}
 	
-	public void Tapping_on_book_service_button()
+	public void tappingBookServiceButtonAction()
 	{
-		Generic.click_on_WebElement(bssjcpo.getBook_service_btn());
+		Generic.clickOnWebElement(cepo.getbutton());
 	}
 	
-	public void Turning_OFF_the_internet()
+	public void turningOFFInternetAction()
 	{
 		Generic.WifiOff();
 	}
 	
-	public void Turning_ON_the_internet()
+	public void turningONInternetAction()
 	{
 		Generic.WifiOn();
 	}
 	
-	public void assertion_on_bookService_button_without_internet()
+	public void continueBookServiceWithNoInternetAction()
 	{
-		Generic.Hard_assertion_validation(cepo.getToast_message(), "Please check your network connection.");
+		Generic.hardAssertion(cepo.getToast_message(), "Please check your network connection.");
 	}
 	
-	public void Tapping_on_back_icon()
+	public void clickBackIconAction()
 	{
-		Generic.click_on_WebElement(cepo.getBack_icon());
+		Generic.clickOnWebElement(cepo.getBack_icon());
 	}
 
 }

@@ -1,5 +1,6 @@
 package com.oneapp.basic;
 
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
@@ -38,24 +39,21 @@ public class MyListeners extends BrowserFactory implements ITestListener {
 			
 			ExtentTest test = extent.createTest(result.getMethod().getMethodName());
 			extent_test.set(test);
+			TestUtils.log().debug(Console_Colors.Black_color() + result.getMethod().getMethodName().toUpperCase() + " - STARTS" + Console_Colors.Reset_color());
 		}
-	
-		
 		
 		public void onTestSuccess(ITestResult result) {
 			String logText = "<b>Test Method " + result.getMethod().getMethodName() + " Successful</b>";
 			  Markup m = MarkupHelper.createLabel(logText, ExtentColor.GREEN);
 			  extent_test.get().log(Status.PASS,m);
-			  TestUtils.log().debug(Console_Colors.Green_color() + result.getMethod().getMethodName() + Console_Colors.Reset_color());
+			  TestUtils.log().debug(Console_Colors.Green_color() + result.getMethod().getMethodName().toUpperCase() + " - PASSED"+ Console_Colors.Reset_color());
 		} 
 		
 		
-		
-		
-	
 		public void onTestFailure(ITestResult result) {
 			String methodName = result.getMethod().getMethodName();
 			String exceptionMessage = Arrays.toString(result.getThrowable().getStackTrace());
+			 TestUtils.log().debug(Console_Colors.Red_color() + exceptionMessage + Console_Colors.Reset_color());
 			extent_test.get().fail("<details><summary><b><font color=red>Exception Occured, Please see details:"
 					  + "</font></b><summary>" + exceptionMessage.replaceAll(",","<br>") + "</details> \n");
 			  
@@ -72,7 +70,7 @@ public class MyListeners extends BrowserFactory implements ITestListener {
 			  String logText = "<b>Test Method " + methodName + " Failed</b>";
 			  Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
 			  extent_test.get().log(Status.FAIL,m);
-			  TestUtils.log().debug(Console_Colors.Red_color() + result.getMethod().getMethodName() + Console_Colors.Reset_color());
+			  TestUtils.log().debug(Console_Colors.Red_color() + result.getMethod().getMethodName().toUpperCase() + " - FAILURE" + Console_Colors.Reset_color());
 		}
 	
 		public void onTestSkipped(ITestResult result) {
@@ -103,7 +101,7 @@ public class MyListeners extends BrowserFactory implements ITestListener {
 				File screenshot = ((TakesScreenshot)ad).getScreenshotAs(OutputType.FILE);
 				FileUtils.copyFile(screenshot, new File(path));
 	        	TestUtils.log().debug(Console_Colors.Red_color() + "Screenshot stored at: " + path + Console_Colors.Reset_color());
-
+//              +++++++++++++++++++++++++++++++++
 //				System.out.println("********************");
 //				System.out.println("Screenshot stored at: " + path);
 //				System.out.println("********************");

@@ -27,8 +27,8 @@ public class Emergency_contact_details_page_object {
 		})
 	private List<WebElement> relation_typedropdown;
 
-	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
-	private WebElement continue_btn;
+//	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
+//	private WebElement continue_btn;
 	
 	@FindBy(xpath="//*[@text='Full Name']")
 	private WebElement fullName_text;
@@ -60,9 +60,9 @@ public class Emergency_contact_details_page_object {
 	}
 
 
-	public WebElement getContinue_btn() {
-		return continue_btn;
-	}
+//	public WebElement getContinue_btn() {
+//		return continue_btn;
+//	}
 
 
 	public WebElement getFullName_text() {

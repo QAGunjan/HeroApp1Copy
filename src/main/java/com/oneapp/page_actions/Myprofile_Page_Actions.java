@@ -19,40 +19,34 @@ public class Myprofile_Page_Actions {
 	public ExcelData exceldata;
 	public CommonElements_Page_object cepo;
 
-
 	public Myprofile_Page_Actions(AndroidDriver ad) {
 		this.ad = ad;
 		mppo = new MyProfile_Page_Object(ad);
 		exceldata = new ExcelData();
-		cepo= new CommonElements_Page_object(ad);
+		cepo = new CommonElements_Page_object(ad);
 	}
 
-	public void Profiledetails_val() throws InterruptedException {
-		try {
-		Generic.Soft_assertion_validation(mppo.getProfiledetails_text(), "Profile Details");
-		}
-		catch(Exception e)
-		{
-			System.out.println("Exception handled");
-		}
-		Generic.click_on_WebElement(mppo.getMoredetails_link());
-		Generic.click_on_WebElement(mppo.getEditprofile_details_btn());
+	public void profileDetailsvalidateAction() throws InterruptedException {
+
+		Generic.softAssertion(mppo.getProfiledetails_text(), "Profile Details");
+		Generic.clickOnWebElement(mppo.getMoredetails_link());
+		Generic.clickOnWebElement(cepo.getbutton());
 	}
 
-	public void click_back_icon() throws InterruptedException
-	{
+	public void clickBackIconAction() throws InterruptedException {
 		Thread.sleep(4000);
-		Generic.click_on_WebElement(cepo.getBack_icon());
+		Generic.clickOnWebElement(cepo.getBack_icon());
 	}
-	public void profile_details_after_saving_validation()
+
+	public void profileDetailsAfterSavingValidationAction()
 
 	{
-		Generic.click_on_WebElement(mppo.getMoredetails_link());
-		
+		Generic.clickOnWebElement(mppo.getMoredetails_link());
+
 		String expected_address = exceldata.getStringData("My Profile", 4, 1);
-		Generic.Hard_assertion_validation(mppo.getAddress_val(), expected_address);
+		Generic.hardAssertion(mppo.getAddress_val(), expected_address);
 		System.out.println(expected_address);
-		
+
 //		if (mppo.getAddress_val().getText().equalsIgnoreCase(expected_address)) {
 //			Assert.assertEquals(mppo.getAddress_val().getText(), expected_address);
 //			Reporter.log("AFTER SAVING MY PROFILE DETAILS", true);
@@ -67,16 +61,13 @@ public class Myprofile_Page_Actions {
 //		}
 
 	}
-	
-	public void Emergency_contact() throws InterruptedException
-	{
-		Generic.click_on_WebElement(mppo.getEmergency_contact_txt());
-	
+
+	public void clickEmergencyContactAction() throws InterruptedException {
+		Generic.clickOnWebElement(mppo.getEmergency_contact_txt());
 	}
-	
-	public void click_manage_licence()
-	{
-		Generic.click_on_WebElement(mppo.getManage_license_text());
+
+	public void clickManageLicenceAction() {
+		Generic.clickOnWebElement(mppo.getManage_license_text());
 	}
 
 }

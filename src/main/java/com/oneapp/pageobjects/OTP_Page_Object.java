@@ -27,9 +27,6 @@ public class OTP_Page_Object {
 	@FindBy(id="com.customerapp.hero:id/otp_6_edtxt")
 	private WebElement sixthtxtbox;
 	
-	@FindBy(id="com.customerapp.hero:id/btn_lay")
-	private WebElement verifybtn;
-	
 	@FindBy(id="com.customerapp.hero:id/edit_phn_no_btn")
 	private WebElement edit_button;
 	
@@ -69,10 +66,6 @@ public class OTP_Page_Object {
 
 	public WebElement getSixthtxtbox() {
 		return sixthtxtbox;
-	}
-
-	public WebElement getVerifybtn() {
-		return verifybtn;
 	}
 
 	public WebElement getEdit_button() {

@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="LoginSuite">
+<suite name="RegressionSuite">
 	<listeners>
 		<listener class-name="com.oneapp.basic.MyListeners" />
 	</listeners>
-	<test thread-count="5" name="LoginTest">
+	<test thread-count="5" name="RegressionTests">
 		<groups>
 			<run>
-			<include name="Regression" />
+				<include name="Regression" />
 			</run>
 		</groups>
 		<classes>
-			<class name="com.oneapp.test_suits.Login_testcases"></class>
 			<class name="com.oneapp.test_suits.OTP_testcases"></class>
 			<class name="com.oneapp.test_suits.Myprofile_testcases"></class>
-			<class name="com.oneapp.test_suits.EmergencyContact_testcases"></class>
-			<class name="com.oneapp.test_suits.ManageLicense_testcases"></class>
-			<class name="com.oneapp.test_suits.SOS_testcases"></class>
-			<class name="com.oneapp.test_suits.BookService_testcases"></class>
-			<class name="com.oneapp.test_suits.GoodLife_testcases"></class>
 		</classes>
 	</test> <!-- LoginTest -->
 </suite> <!-- LoginSuite -->

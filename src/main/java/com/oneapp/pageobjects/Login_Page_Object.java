@@ -25,9 +25,6 @@ public class Login_Page_Object {
 	@FindBy(id = "com.customerapp.hero:id/text_input_editext")
 	private WebElement mobile_num_field;
 
-	@FindBy(id = "com.customerapp.hero:id/btn_lay")
-	private WebElement login_btn;
-
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> privacylink;
 
@@ -49,10 +46,6 @@ public class Login_Page_Object {
 
 	public WebElement getMobile_num_field() {
 		return mobile_num_field;
-	}
-
-	public WebElement getlogin_btn() {
-		return login_btn;
 	}
 
 	public List<WebElement> getPrivacylink() {

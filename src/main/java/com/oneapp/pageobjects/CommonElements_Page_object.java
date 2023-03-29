@@ -29,6 +29,10 @@ public class CommonElements_Page_object {
 	@FindBy(id = "com.customerapp.hero:id/lbl1")
 	private WebElement herologo;
 	
+	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
+	private WebElement button;
+	
+
 	
 	public CommonElements_Page_object(AndroidDriver ad) 
 	{
@@ -64,6 +68,9 @@ public class CommonElements_Page_object {
 		return notification_pop_up_samsung;
 	}
 
+	public WebElement getbutton() {
+		return button;
+	}
 
 	
 }

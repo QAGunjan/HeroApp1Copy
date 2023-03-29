@@ -48,24 +48,34 @@ public class Create_Driver_Session {
 //		For Real device - Samsung 
 
 			dcap.setCapability(MobileCapabilityType.PLATFORM_NAME, BrowserName);
+			TestUtils.log().info("PLATFORM NAME IS --> " + BrowserName);
 			dcap.setCapability(MobileCapabilityType.DEVICE_NAME, "Samsung");
+			TestUtils.log().info("DEVICE NAME IS --> " + "Samsung");
+			dcap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13.0");
+			TestUtils.log().info("PLATFORM VERSION IS --> " + "13.0");
 			dcap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
+			TestUtils.log().info("AUTOMATION NAME IS --> " + "UiAutomator2");
 			dcap.setCapability(MobileCapabilityType.UDID, "RZCT904J89D");
-			dcap.setCapability("appium:newCommandTimeout", 800);
-			String appURL = "D:\\JAVA\\Eclipse- workspace\\oneapp\\myfiles\\app-debug.apk";
-			TestUtils.log().info("app URL is" + appURL);
-			dcap.setCapability(MobileCapabilityType.APP, appURL);
-//			dcap.setCapability("appPackage", "com.customerapp.hero");
-//			dcap.setCapability("appActivity", "com.customerapp.hero.views.activity.splash.SplashActivity");
-
+			TestUtils.log().info("UDID IS --> " + "RZCT904J89D");
+			dcap.setCapability("appium:newCommandTimeout", 1200);
+//			String appURL = "D:\\ECLIPSE_LATEST\\HeroApp1\\myfiles\\app-debugNew.apk";
+			String AppNewURL = "https://hero-one-app-hero-one-app-sit.azurewebsites.net/";
+//			TestUtils.log().info("App Location is " + appURL);
+			TestUtils.log().info("App URL is " + AppNewURL);
+//			dcap.setCapability(MobileCapabilityType.APP, appURL);
+			dcap.setCapability("appPackage", "com.customerapp.hero");
+			dcap.setCapability("appActivity", "com.customerapp.hero.views.activity.splash.SplashActivity");
+			
 			URL url = new URL("http://0.0.0.0:4723/wd/hub");
+//			URL url = new URL("http://localhost:4723/wd/hub");
 
-//		URL url = new URL("http://127.0.0.1:4723");
+//			URL url = new URL("http://127.0.1.1:4723");
 
 			// AndroidDriver ad= new AndroidDriver(url, dcap);
 
 			ad = new AndroidDriver(url, dcap);
-			ad.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+			String sessionID = ad.getSessionId().toString();
+			ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		} catch (Exception e) {
 			e.printStackTrace();

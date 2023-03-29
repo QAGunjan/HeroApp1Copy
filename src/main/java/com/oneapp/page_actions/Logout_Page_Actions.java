@@ -23,24 +23,25 @@ public class Logout_Page_Actions {
 		cepo= new CommonElements_Page_object(ad);
 	}
 	
-	public void click_yes_under_logout() throws InterruptedException {
-		Generic.click_on_WebElement(lgpo.getYes_text());
+	public void clickYesUnderLogoutAction() throws InterruptedException {
+		Thread.sleep(4000);
+		Generic.clickOnWebElement(lgpo.getYes_text());
 		
 		try {
 		if (cepo.getNonOfTheAbove().isDisplayed()) {
-			Generic.click_on_WebElement(cepo.getNonOfTheAbove());
+			Generic.clickOnWebElement(cepo.getNonOfTheAbove());
 		}
 		}
 		catch(Exception e)
 		{
-        	TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+ //       	TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 		}
 	}
 
-	public void assertion_of_logout() {
+	public void logoutAssertionAction() {
 		
         
-		Generic.Hard_assertion_validation(cepo.getHerologo(), "Login");
+		Generic.hardAssertion(cepo.getHerologo(), "Login");
 	}
 
 }

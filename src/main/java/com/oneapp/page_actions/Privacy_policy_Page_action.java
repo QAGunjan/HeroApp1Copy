@@ -23,9 +23,9 @@ public class Privacy_policy_Page_action {
 		pppo = new Privacy_Policy_Page_Object(ad);
 	}
 	
-	public void assertion_privacy_policy_page()
+	public void privacyPolicyAction()
 	{
-		Generic.Soft_assertion_validation(pppo.getWebpage_not_available_text(), "Webpage not available");
+		Generic.softAssertion(pppo.getWebpage_not_available_text(), "Webpage not available");
 	}
 
 }

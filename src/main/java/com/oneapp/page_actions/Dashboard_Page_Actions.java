@@ -26,9 +26,10 @@ public class Dashboard_Page_Actions {
 
 	}
 
-	public void Handling_Dashboard_All_Popups() throws InterruptedException {
+	public void dashboardAllPopUpAction() throws InterruptedException {
 		Thread.sleep(5000);
-//		
+		
+//		Below Actions are for Honor Phone (Android - 9)
 //		try {
 //			Generic.click_on_WebElement(dpo.getLocation_popup_Honor());
 //			Generic.click_on_WebElement(dpo.getLocation_popup());
@@ -39,7 +40,7 @@ public class Dashboard_Page_Actions {
 	try {
 		if (dpo.getDevice_location_popup_samsung().isDisplayed())
 		{
-			Generic.click_on_WebElement(dpo.getAllowing_location_popup_samsung());
+			Generic.clickOnWebElement(dpo.getAllowing_location_popup_samsung());
 		}
 	}
 	catch(Exception e)
@@ -78,24 +79,24 @@ public class Dashboard_Page_Actions {
 		
 	}
 	
-	public void MenubarList()
+	public void clickMenuBarAction()
 	{
-		Generic.click_on_WebElement(dpo.getMenu_bar_icon());
+		Generic.clickOnWebElement(dpo.getMenu_bar_icon());
 	}
 	
-	public void Services_icon()
+	public void clickServiceIconAction()
 	{
-		Generic.click_on_WebElement(dpo.getServices_icon());
+		Generic.clickOnWebElement(dpo.getServices_icon());
 	}
 	
-	public void Goodlife_icon()
+	public void clickGoodlifeIconAction()
 	{
-		Generic.click_on_WebElement(dpo.getGoodlife_icon());
+		Generic.clickOnWebElement(dpo.getGoodlife_icon());
 	}
 	
-	public void tapping_on_SOS_icon()
+	public void clickSOSIconAction()
 	{
-		Generic.click_on_WebElement(dpo.getSOS_icon());
+		Generic.clickOnWebElement(dpo.getSOS_icon());
 	}
 	
 	

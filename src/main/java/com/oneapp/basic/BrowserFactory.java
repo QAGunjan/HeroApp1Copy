@@ -15,7 +15,6 @@ import org.bson.internal.Base64;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -41,10 +40,10 @@ import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
 
 public class BrowserFactory {
 
-//	public static WebDriver driver;
 	public static AndroidDriver ad;// Global AndroidDriver
 	public static ExtentTest extentTest;
 
@@ -55,8 +54,9 @@ public class BrowserFactory {
 	public void Browsers_open() throws MalformedURLException {
 		// This is origional
 		ad = Create_Driver_Session.Androidsession("Android");
-		TestUtils.log().debug("Android emulator gets opened");
-		
+		TestUtils.log().debug("Android Real device gets opened");
+		ad.resetApp();
+		TestUtils.log().debug("Application has been reset");
 		// For Pcloudy
 
 //            	ad = Pcloudy_Create_Driver_Session.creating_session("ios");
@@ -64,8 +64,16 @@ public class BrowserFactory {
 
 	}
 	 
+	 @AfterClass (alwaysRun = true)
+	 public void Quit_session()
+	 {
+		 ad.quit();
+		 TestUtils.log().debug("Android Real device gets closed");
+		 TestUtils.log().debug("++++++++++++++++++++++++++++++++");
+	 }
+	 
 	 @BeforeMethod
-	 public void pre_condition() throws InterruptedException
+	 public void pre_condition()
 	 {
 		
 	 }
@@ -75,6 +83,7 @@ public class BrowserFactory {
 	 {
 		 
 	 }
+	 
 }
 	 
 	/*	private static String RTDataPortal_Url="https://202.56.244.135/siebel/app/edealer/enu?SWECmd=Start&SWEHo=202.56.244.135"; 

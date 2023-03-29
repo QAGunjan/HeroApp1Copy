@@ -17,9 +17,9 @@ public class Goodlife_Dashboard_Non_mem_Page_Actions {
 	}
 
 	
-	public void Goodlife_dashboard_button()
+	public void clickGoodlifeButtonAction()
 	{
-		Generic.click_on_WebElement(gdnmpo.getGoodlife_dashboard_btn());
+		Generic.clickOnWebElement(gdnmpo.getGoodlife_dashboard_btn());
 	}
 	
 	

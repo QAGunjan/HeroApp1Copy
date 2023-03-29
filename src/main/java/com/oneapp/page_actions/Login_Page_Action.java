@@ -65,7 +65,7 @@ public class Login_Page_Action {
 
 	}
 
-	public void valid_login() throws InterruptedException {
+	public void validLoginAction() throws InterruptedException {
 //		try {
 //		Generic.click_on_WebElement(cepo.getNonOfTheAbove());
 //		Generic.click_on_WebElement(cepo.getallowing_commom_popup_honor());
@@ -75,74 +75,73 @@ public class Login_Page_Action {
 //		{
 //		}
 		try {
-			if (cepo.getNotification_pop_up_samsung().isDisplayed()) {
-				Generic.click_on_WebElement(cepo.getAllowing_commom_popup_samsung());
+			if (cepo.getNotification_pop_up_samsung().isDisplayed() == true) {
+				Generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
 			}
 		} catch (Exception e) {
-			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+//			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 		}
 
-		Generic.clear_on_WebElement(lpo.getMobile_num_field());
-		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
-		Generic.click_on_WebElement(lpo.getlogin_btn());
+		Generic.clearOnWebElement(lpo.getMobile_num_field());
+		Generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
+		Generic.clickOnWebElement(cepo.getbutton());
 	}
 
-	public void assertion_of_valid_login() throws InterruptedException {
-		Generic.Hard_assertion_validation(opo.getVerify_with_OTP(), exceldata.getStringData("Login Page", 11, 1));
+	public void validLoginAssertionAction() throws InterruptedException {
+		Generic.hardAssertion(opo.getVerify_with_OTP(), exceldata.getStringData("Login Page", 11, 1));
 	}
 
-	public void invalid_login() throws InterruptedException {
+	public void invalidLoginAction() throws InterruptedException {
 
-		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 2, 1));
-		Generic.click_on_WebElement(lpo.getlogin_btn());
+		Generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 2, 1));
+		Generic.clickOnWebElement(cepo.getbutton());
 	}
 
-	public void assertion_of_invalid_login() {
-		Generic.Hard_assertion_validation(cepo.getHerologo(), exceldata.getStringData("Login Page", 13, 1));
+	public void invalidLoginAssertionAction() {
+		Generic.hardAssertion(cepo.getHerologo(), exceldata.getStringData("Login Page", 13, 1));
 	}
 
-	public void assertion_of_commom_login_page() {
-		Generic.Hard_assertion_validation(cepo.getHerologo(), "Login");
+	public void commonAssertionLoginPageAction() {
+		Generic.hardAssertion(cepo.getHerologo(), "Login");
 	}
 
-	public void Mininum_length_field() throws InterruptedException {
-		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 3, 1));
-		Generic.isClickable(lpo.getlogin_btn());
+	public void minimumLengthFieldAction() throws InterruptedException {
+		Generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 3, 1));
+		Generic.isClickable(cepo.getbutton());
 	}
 
-	public void continue_with_no_internet() throws InterruptedException {
-		Generic.clear_on_WebElement(lpo.getMobile_num_field());
-		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
+	public void continueWithNoInternetAction() throws InterruptedException {
+		Generic.clearOnWebElement(lpo.getMobile_num_field());
+		Generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
 		Generic.WifiOff();
-		Generic.click_on_WebElement(lpo.getlogin_btn());
+		Generic.clickOnWebElement(cepo.getbutton());
+		commonAssertionLoginPageAction();
 		Generic.WifiOn();
 	}
 
-	public void Privacypage() throws InterruptedException {
+	public void PrivacypageAction() throws InterruptedException {
 		Generic.swiping(573, 1618, 569, 1126, 4000);
 		ta.tap(TapOptions.tapOptions().withElement(ElementOption.element(lpo.getPrivacylink().get(7)))).perform();
-		Thread.sleep(10000);
 		WebElement get_privacy_text = pppo.getPrivacytext_val().get(21);
 		boolean Privacy_displaying = get_privacy_text.isDisplayed();
 		System.out.println(Privacy_displaying);
 	}
 
-	public void Privacypage_with_no_internet() throws InterruptedException {
+	public void privacyPageWithNoInternetAction() throws InterruptedException {
 		Generic.swiping(573, 1618, 569, 1126, 4000);
 		ta.tap(TapOptions.tapOptions().withElement(ElementOption.element(lpo.getPrivacylink().get(7)))).perform();
 	}
 
-	public void Terms_and_Conditionspage() throws InterruptedException {
+	public void termsAndConditionsPageAction() throws InterruptedException {
 		Generic.swiping(573, 1618, 569, 1126, 4000);
 		ta.tap(TapOptions.tapOptions().withElement(ElementOption.element(lpo.getTerm_and_condition_link().get(5))))
 				.perform();
-		Thread.sleep(15000);
 		WebElement get_T_and_C_text = tcpo.getTerms_and_conditions_text_val().get(21);
 		boolean T_and_C_displaying = get_T_and_C_text.isDisplayed();
 		System.out.println(T_and_C_displaying);
 	}
 
-	public void Contact_Us() throws InterruptedException {
+	public void contactUsAction() throws InterruptedException {
 		Generic.swiping(573, 1618, 569, 1126, 4000);
 		ta.tap(TapOptions.tapOptions().withElement(ElementOption.element(lpo.getContact_us_link().get(9)))).perform();
 		Thread.sleep(12000);
@@ -151,11 +150,11 @@ public class Login_Page_Action {
 		System.out.println(Contact_us_displaying);
 	}
 
-	public void App_minimizing_after_loggedin() throws InterruptedException {
-		Generic.clear_on_WebElement(lpo.getMobile_num_field());
-		Generic.sendKeys(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
-		Generic.Run_app_in_background();
-		Generic.click_on_WebElement(lpo.getlogin_btn());
+	public void applicationMinimizingAfterLogInAction() throws InterruptedException {
+		Generic.clearOnWebElement(lpo.getMobile_num_field());
+		Generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
+		Generic.runningApplicationBackground();
+		Generic.clickOnWebElement(cepo.getbutton());
 
 	}
 

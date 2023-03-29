@@ -13,8 +13,8 @@ public class Goodlife_Profile_Details_Form_199_Page_Object {
 	@FindBy(id = "com.customerapp.hero:id/radio_button_term2")
 	private WebElement I_agree_T_and_C_checkbox;
 	
-	@FindBy(id = "com.customerapp.hero:id/btn_lay")
-	private WebElement pay_199_button;
+//	@FindBy(id = "com.customerapp.hero:id/btn_lay")
+//	private WebElement pay_199_button;
 	
 	
 	public Goodlife_Profile_Details_Form_199_Page_Object(AndroidDriver ad) {
@@ -30,9 +30,9 @@ public class Goodlife_Profile_Details_Form_199_Page_Object {
 		return I_agree_T_and_C_checkbox;
 	}
 
-	public WebElement getPay_199_button() {
-		return pay_199_button;
-	}
+//	public WebElement getPay_199_button() {
+//		return pay_199_button;
+//	}
 
 	
 	

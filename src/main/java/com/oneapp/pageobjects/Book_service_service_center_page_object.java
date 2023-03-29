@@ -15,8 +15,8 @@ public class Book_service_service_center_page_object {
 	@FindBy(xpath="//*[@text='Free Service']")
 	private WebElement free_service_radio_button;
 	
-	@FindBy(xpath="//*[@text='Continue']")
-	private WebElement continue_btn;
+//	@FindBy(xpath="//*[@text='Continue']")
+//	private WebElement continue_btn;
 	
 	@FindBy(xpath="//*[@text='Paid Service']")
 	private WebElement paid_service_radio_button;
@@ -37,9 +37,9 @@ public class Book_service_service_center_page_object {
 	}
 
 
-	public WebElement getContinue_btn() {
-		return continue_btn;
-	}
+//	public WebElement getContinue_btn() {
+//		return continue_btn;
+//	}
 
 
 	public WebElement getPaid_service_radio_button() {

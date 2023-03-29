@@ -16,9 +16,9 @@ public class Goodlife_Select_Your_Plan_Page_Action {
 		gsyppo = new Goodlife_Select_Your_Plan_Page_Object(ad);
 	}
 	
-	public void Selecting_Plan()
+	public void clickSelectingPlanAction()
 	{
-		Generic.click_on_WebElement(gsyppo.getGoodlife_select_Plan_btn());
+		Generic.clickOnWebElement(gsyppo.getGoodlife_select_Plan_btn());
 	}
 
 }

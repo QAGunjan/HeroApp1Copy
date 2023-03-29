@@ -19,15 +19,14 @@ public class Book_service_service_center_page_actions {
 		this.ad = ad;
 		bsscpo = new Book_service_service_center_page_object(ad);
 		cepo= new CommonElements_Page_object(ad);
-
 	}
 	
-	public void Select_Service_Center() throws InterruptedException
+	public void clickServiceCenterfieldAction() throws InterruptedException
 	{
-		Generic.click_on_WebElement(bsscpo.getSelect_service_center_textbox());
+		Generic.clickOnWebElement(bsscpo.getSelect_service_center_textbox());
 	}
 	
-	public void selecting_ServiceType() throws InterruptedException
+	public void serviceTypeRadioButtonAction() throws InterruptedException
 	{
 		if (bsscpo.getService_Type_radio_button().isSelected())
 		{
@@ -36,40 +35,40 @@ public class Book_service_service_center_page_actions {
 		
 		else
 		{
-			Generic.click_on_WebElement(bsscpo.getService_Type_radio_button());
+			Generic.clickOnWebElement(bsscpo.getService_Type_radio_button());
 			System.out.println(" FSC was not selected but now selected. Thanks! ");
 		}
 		
 	}
 	
-	public void assertion_on_continue_without_internet()
+	public void continueWithNoInterneAction()
 	{
-		Generic.Soft_assertion_validation(cepo.getToast_message(),"Please check your network connection." );
+		Generic.softAssertion(cepo.getToast_message(),"Please check your network connection." );
 	}
 	
-	public void turning_OFF_the_internet()
+	public void turnOFFInternetAction()
 	{
 		Generic.WifiOff();
 	}
 	
-	public void turning_ON_the_internet()
+	public void turnONInternetAction()
 	{
 		Generic.WifiOn();
 	}
 	
 	
-	public void tapping_on_continue_button()
+	public void clickContinueButtonAction()
 	{
-		Generic.click_on_WebElement(bsscpo.getContinue_btn());
+		Generic.clickOnWebElement(cepo.getbutton());
 	}
 	
-	public void Verifying_service_type()
+	public void validatingServiceTypeAction()
 	{
 		String Expected = "You have consumed all your free services, Please select other service.";
 		if (cepo.getToast_message().getText().equalsIgnoreCase(Expected));
 		{
-			Generic.click_on_WebElement(bsscpo.getPaid_service_radio_button());
-			Generic.click_on_WebElement(bsscpo.getContinue_btn());
+			Generic.clickOnWebElement(bsscpo.getPaid_service_radio_button());
+			Generic.clickOnWebElement(cepo.getbutton());
 		}
 		
 	}

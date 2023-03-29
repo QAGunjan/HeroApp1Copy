@@ -15,7 +15,6 @@ public class Goodlife_Dashboard_Non_mem_Page_Object {
 	public Goodlife_Dashboard_Non_mem_Page_Object(AndroidDriver ad) {
 
 		PageFactory.initElements(ad, this);
-
 	}
 
 

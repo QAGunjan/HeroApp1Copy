@@ -14,8 +14,8 @@ public class MyProfile_Page_Object {
 	@FindBy(id = "com.customerapp.hero:id/tv_details")
 	private WebElement moredetails_link;
 	
-	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
-	private WebElement editprofile_details_btn;
+//	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
+//	private WebElement editprofile_details_btn;
 	
 	@FindBy(id = "com.customerapp.hero:id/address")
 	private WebElement address_val;
@@ -49,9 +49,9 @@ public class MyProfile_Page_Object {
 	}
 
 
-	public WebElement getEditprofile_details_btn() {
-		return editprofile_details_btn;
-	}
+//	public WebElement getEditprofile_details_btn() {
+//		return editprofile_details_btn;
+//	}
 
 
 	public WebElement getAddress_val() {

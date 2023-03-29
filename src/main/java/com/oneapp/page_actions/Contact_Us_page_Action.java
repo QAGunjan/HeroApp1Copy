@@ -19,14 +19,14 @@ public class Contact_Us_page_Action {
 		cupo = new Contact_Us_page_object(ad);
 	}
 
-	public void Tapping_on_whatsapp()
+	public void clickWhatsappAction()
 	{
-	Generic.click_on_WebElement(cupo.getWhatsapp_text());
+	Generic.clickOnWebElement(cupo.getWhatsapp_text());
 	}
 	
-	public void Assertion_on_whatsapp_under_contactUS_page()
+	public void whatsappUnderContactUSAssertionAction()
 	{
-		Generic.Hard_assertion_validation(cupo.getWhatsapp_text(), "Whatsapp");
+		Generic.hardAssertion(cupo.getWhatsapp_text(), "Whatsapp");
 	}
 	
 }

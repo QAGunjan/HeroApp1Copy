@@ -33,7 +33,7 @@ public class OTP_Page_Actions {
 
 	}
 
-	public void validate_OTP()  {		
+	public void validOTPAction()  {		
 		opo.getFirsttxtbox().sendKeys("1");
 		opo.getSecondtxtbox().sendKeys("2");
 		opo.getThirdtxtbox().sendKeys("3");
@@ -43,7 +43,7 @@ public class OTP_Page_Actions {
 
 	}
 
-	public void invalid_Validate_OTP() {
+	public void invalidOTPAction() {
 		opo.getFirsttxtbox().sendKeys("1");
 		opo.getSecondtxtbox().sendKeys("2");
 		opo.getThirdtxtbox().sendKeys("3");
@@ -52,23 +52,34 @@ public class OTP_Page_Actions {
 		opo.getSixthtxtbox().sendKeys("8");
 	}
 
-	public void click_verify_button() {
-		Generic.click_on_WebElement(opo.getVerifybtn());
+	public void clickVerifyButtonAction() {
+		Generic.clickOnWebElement(cepo.getbutton());
 	}
 
-	public void assertion_invalid_OTP() {
-		Generic.Hard_assertion_validation(opo.getVerify_with_OTP(), exceldata.getStringData("OTP Page", 8, 1));
+	public void invalidOTPAssertionAction() {
+		Generic.hardAssertion(opo.getVerify_with_OTP(), exceldata.getStringData("OTP Page", 8, 1));
 	}
 
-	public void assertion_valid_OTP_with_no_internet() {
-		Generic.Hard_assertion_validation(cepo.getToast_message(), exceldata.getStringData("OTP Page", 9, 1));
+	public void validOTPWithNoInternetAction() {
+		
+		Generic.hardAssertion(opo.getVerify_with_OTP(), exceldata.getStringData("OTP Page", 8, 1));
 	}
 
-	public void click_edit() {
-		Generic.click_on_WebElement(opo.getEdit_button());
+	public void clickEditAction() {
+		Generic.clickOnWebElement(opo.getEdit_button());
 	}
 
-	public void click_resend_link() {
-		Generic.click_on_WebElement(opo.getResend_link());
+	public void clickResendLinkAction() {
+		Generic.clickOnWebElement(opo.getResend_link());
 	}
+	
+	public void continueWithNoInternetAction() throws InterruptedException {
+		validOTPAction();
+		Generic.WifiOff();
+		Generic.clickOnWebElement(cepo.getbutton());
+		validOTPWithNoInternetAction();
+		Generic.WifiOn();
+	}
+	
+	
 }

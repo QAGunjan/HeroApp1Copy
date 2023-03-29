@@ -24,45 +24,45 @@ public class SOS_alert_window_page_actions {
 		dpo = new Dashboard_Page_object(ad);
 	}
 	
-	public void tapping_on_close_icon()
+	public void tappingCloseIconAction()
 	{
-		Generic.Tap_on_WebElement(908, 732);
+		Generic.tappingOnWebelement(908, 732);
 	}
 
-	public void taping_on_dont_send_link()
+	public void tappingDontSendLinkAction()
 	{
-		Generic.Tap_on_WebElement(484, 1472);
+		Generic.tappingOnWebelement(484, 1472);
 	}
 	
-	public void taping_on_send_alert_now_button()
+	public void tapingSendAlertNowButtonAction()
 	{
-		Generic.click_on_WebElement(SOSawpo.getSend_alert_now_button());
+		Generic.clickOnWebElement(SOSawpo.getSend_alert_now_button());
 	}
 	
-	public void turning_off_the_internet()
+	public void turnOFFInternetAction()
 	{
 		Generic.WifiOff();
 	}
 	
-	public void turning_ON_the_internet()
+	public void turnONInternetAction()
 	{
 		Generic.WifiOn();
 	}
 	
-	public void assertion_of_closing_and_dont_send()
+	public void commonAssertionSOSAlertWindowAction()
 	{
-		Generic.Soft_assertion_validation(dpo.getKey_action_text(), "Key Actions");
+		Generic.softAssertion(dpo.getKey_action_text(), "Key Actions");
 		}
 	
 	
-	public void assertion_of_sending_SOS_without_internet()
+	public void continueWithNoInternetAction()
 	{
 //		Generic.assertion_validation(CommonElements_Page_object.getToast_message(), "Please check your network connection.");
 	}
 	
-	public void assert_SOS_message()
+	public void succesfullySOSMessageAssertion()
 	{	
-		Generic.Hard_assertion_validation(cepo.getToast_message(), "We have sent alert SMS successfully");
+		Generic.hardAssertion(cepo.getToast_message(), "We have sent alert SMS successfully");
 //		Generic.assertion_validation(SOSawpo.getToast_message(), "We have sent alert SMS successfully");
 	}
 	

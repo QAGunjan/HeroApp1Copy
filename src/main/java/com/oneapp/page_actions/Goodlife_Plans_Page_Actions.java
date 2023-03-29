@@ -17,15 +17,15 @@ public class Goodlife_Plans_Page_Actions {
 		gppo = new Goodlife_Plans_Page_Object(ad);
 	}
 
-	public void click_on_view_all_benefits_199Plan()
+	public void clickViewAllBenefits199PlanAction()
 	{
-		Generic.click_on_WebElement(gppo.getViewallbenefits_goodlife_199Plans());
+		Generic.clickOnWebElement(gppo.getViewallbenefits_goodlife_199Plans());
 	}
 	
-	public void click_on_view_all_benefits_299Plan()
+	public void clickViewAllBenefits299PlanAction()
 	{
 	   	Generic.swiping(527,1282,527,603,5000);
-	   	Generic.click_on_WebElement(gppo.getViewallbenefits_goodlife_299Plans());
+	   	Generic.clickOnWebElement(gppo.getViewallbenefits_goodlife_299Plans());
 	}
 
 }

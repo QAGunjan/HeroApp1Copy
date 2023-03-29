@@ -22,15 +22,15 @@ public class Booking_confirmed_Page_Action {
 		bcpo = new Booking_confirmed_Page_Object(ad);
 	}
 	
-	public void fetching_SR_number()
+	public void fetchingSRNumberAction()
 	{
 		System.out.println(bcpo.getSR_Number().getText());
 	}
 	
 	
-	public void click_go_back_to_home() throws InterruptedException
+	public void clickGoBackToHomeAction() throws InterruptedException
 	{
-		Generic.click_on_WebElement(bcpo.getGo_back_to_home_link());
+		Generic.clickOnWebElement(bcpo.getGo_back_to_home_link());
 		Thread.sleep(10000);
 	}
 

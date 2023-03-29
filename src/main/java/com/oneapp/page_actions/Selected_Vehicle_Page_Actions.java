@@ -7,6 +7,7 @@ import org.testng.Assert;
 
 import com.oneapp.basic.ExcelData;
 import com.oneapp.basic.Generic;
+import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.OTP_Page_Object;
 import com.oneapp.pageobjects.Selected_Vehicle_Page_Object;
 import com.oneapp.utils.Console_Colors;
@@ -18,30 +19,32 @@ import io.appium.java_client.android.AndroidDriver;
 public class Selected_Vehicle_Page_Actions {
 	public ExcelData exceldata;
 
-//	public String str = "MBLHA10EWBGE54873";
-//	public String str1="MBLHA10EWBGE54873";
 	public AndroidDriver ad;
 
 	public Selected_Vehicle_Page_Object svpo;
 	public TouchAction ta;
+	public CommonElements_Page_object cepo;
+
 
 	public Selected_Vehicle_Page_Actions(AndroidDriver ad) {
 		this.ad = ad;
 		svpo = new Selected_Vehicle_Page_Object(ad);
 		 exceldata= new ExcelData();
+			cepo = new CommonElements_Page_object(ad);
+
 	}
 	
-	public void Assertion_selected_vehicle_page() throws InterruptedException
+	public void selectedVehicleAssertion() throws InterruptedException
 	{	
-		Generic.waitForVisibility(svpo.getbook_service_PAID_vin());
-		Generic.Hard_assertion_validation(svpo.getbook_service_PAID_vin(), exceldata.getStringData("Selected Vehicle Page", 1, 1));
+//		Generic.waitForVisibility(svpo.getbook_service_PAID_vin());
+		Generic.hardAssertion(svpo.getbook_service_PAID_vin(), exceldata.getStringData("Selected Vehicle Page", 1, 1));
 	}
-	public void Vehicle_Select() throws InterruptedException {
+	public void vehicleSelectionAction() throws InterruptedException {
 		String vin=exceldata.getStringData("Selected Vehicle Page", 1, 1);
 
 		if (svpo.getbook_service_PAID_vin().getText().equalsIgnoreCase(vin))
 		{
-			Generic.click_on_WebElement(svpo.getbook_service_PAID_vin());
+			Generic.clickOnWebElement(svpo.getbook_service_PAID_vin());
         	TestUtils.log().debug("Book service PAID Vin selected");
 		}
 		
@@ -50,7 +53,7 @@ public class Selected_Vehicle_Page_Actions {
 			TestUtils.log().debug("Book service PAID Vin is not selected");
 		}
 		
-		Generic.click_on_WebElement(svpo.getContinuebtn_selected_vehicle());
+		Generic.clickOnWebElement(cepo.getbutton());
 	}
 
 	}

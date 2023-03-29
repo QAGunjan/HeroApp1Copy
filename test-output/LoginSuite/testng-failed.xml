@@ -11,13 +11,29 @@
       </run>
     </groups>
     <classes>
-      <class name="com.oneapp.test_suits.OTP_testcases">
+      <class name="com.oneapp.test_suits.EmergencyContact_testcases">
         <methods>
-          <include name="validate_valid_OTP_testcase"/>
+          <include name="validate_emergency_contact_deleted_succesfully_testcase"/>
+          <include name="validate_emergency_contact_with_blank_MobileNumber_testcase"/>
+          <include name="validate_emergency_contact_added_succesfully_testcase"/>
           <include name="Browsers_open"/>
-          <include name="validate_invalid_OTP_testcase"/>
+          <include name="validate_emergency_contact_already_exist_testcase"/>
+          <include name="validate_emergency_contact_saving_with_invalid_details_testcase"/>
+          <include name="validate_emergency_contact_with_blank_relationType_testcase"/>
+          <include name="validate_emergency_contact_with_blank_fullName_testcase"/>
         </methods>
-      </class> <!-- com.oneapp.test_suits.OTP_testcases -->
+      </class> <!-- com.oneapp.test_suits.EmergencyContact_testcases -->
+      <class name="com.oneapp.test_suits.Myprofile_testcases">
+        <methods>
+          <include name="validate_saving_with_invalid_dateofbirth_field_testcase"/>
+          <include name="validate_myprofile_with_valid_details_testcase"/>
+          <include name="Browsers_open"/>
+          <include name="validate_saving_with_blank_fullName_field_testcase"/>
+          <include name="validate_saving_with_invalid_email_field_testcase"/>
+          <include name="validate_saving_with_invalid_address_field_testcase"/>
+          <include name="validate_saving_with_invalid_pincode_field_testcase"/>
+        </methods>
+      </class> <!-- com.oneapp.test_suits.Myprofile_testcases -->
     </classes>
   </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [LoginSuite] -->

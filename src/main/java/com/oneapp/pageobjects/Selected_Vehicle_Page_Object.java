@@ -16,10 +16,6 @@ public class Selected_Vehicle_Page_Object {
 	
 	@FindBy(xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.TextView[1]")
 	private WebElement makeprimary;
-
-	
-	@FindBy(id="com.customerapp.hero:id/btn_lbl")
-	private WebElement continuebtn_selected_vehicle;
 	
 	@FindBy(xpath="//*[@text='Book service FSC']")
 	private WebElement book_service_FSC_vin;
@@ -39,10 +35,6 @@ public class Selected_Vehicle_Page_Object {
 
 	public WebElement getMakeprimary() {
 		return makeprimary;
-	}
-
-	public WebElement getContinuebtn_selected_vehicle() {
-		return continuebtn_selected_vehicle;
 	}
 
 	public WebElement getBook_service_FSC_vin() {

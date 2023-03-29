@@ -13,6 +13,7 @@ import com.oneapp.basic.Generic;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.MyProfile_Page_Object;
 import com.oneapp.pageobjects.Personal_Details_Page_Object;
+import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.TouchAction;
@@ -38,45 +39,45 @@ public class Personal_Details_Page_Actions {
 
 	}
 
-	public void fullName_field() throws InterruptedException {
-		Generic.clear_on_WebElement(pdpo.getFullname_textfield());
+	public void fullNameFieldAction() throws InterruptedException {
+		Generic.clearOnWebElement(pdpo.getFullname_textfield());
 	}
 
-	public void EnterfullName() {
+	public void enterfullNameAction() {
 		
-		Generic.sendKeys(pdpo.getFullname_textfield(), exceldata.getStringData("My Profile", 1, 1));
+		Generic.sendKeysOnTextfields(pdpo.getFullname_textfield(), exceldata.getStringData("My Profile", 1, 1));
 	}
 
-	public void validation_of_blank_fullName_field() {
+	public void blankFullNameFieldAction() {
 		Generic.assertion_notEquals_validation(pdpo.getFullname_textfield(), exceldata.getStringData("My Profile", 24, 1));
 	}
 
-	public void validation_of_enter_invalid_email_field() {
+	public void enterInvalidEmailFieldAction() {
 		Generic.assertion_notEquals_validation(pdpo.getEmailfield(), exceldata.getStringData("My Profile", 25, 1));
 	}
 
-	public void validation_of_saving_without_internet() {
-		Generic.Soft_assertion_validation(cepo.getToast_message(), exceldata.getStringData("My Profile", 26, 1));
+	public void savingWithNoInternetAction() {
+		Generic.softAssertion(cepo.getbutton(), exceldata.getStringData("My Profile", 26, 1));
 	}
 
-	public void Gender_radio_button() throws InterruptedException {
+	public void genderRadioButtonAction() throws InterruptedException {
 		WebElement gender_selection = pdpo.getGender_checkbox();
 
 		if (gender_selection.isSelected()) {
-			System.out.println("Female is already selected");
+			TestUtils.log().debug("Female is already selected");
 		}
 
 		else {
 			gender_selection.click();
-			System.out.println("Female was not selected earlier but now it has been selected");
+			TestUtils.log().debug("Female was not selected earlier but now it has been selected");
 		}
 	}
 
-	public void Email_field() throws InterruptedException {
-		Generic.clear_on_WebElement(pdpo.getEmailfield());
+	public void emailFieldAction() throws InterruptedException {
+		Generic.clearOnWebElement(pdpo.getEmailfield());
 	}
 
-	public void enter_valid_email() throws InterruptedException {
+	public void enterValidEmailAction() throws InterruptedException {
 		Random randomGenerator = new Random();
 		int randomInt = randomGenerator.nextInt(100000);
 		String email = exceldata.getStringData("My Profile", 2, 1);
@@ -87,81 +88,82 @@ public class Personal_Details_Page_Actions {
 		Generic.swiping(513, 1794, 517, 1147, 4000);   // for real device Samsung
 	}
 
-	public void enter_invalid_email() {
-		Generic.sendKeys(pdpo.getEmailfield(), exceldata.getStringData("My Profile", 14, 1));
+	public void enterInvalidEmailAction() {
+		Generic.sendKeysOnTextfields(pdpo.getEmailfield(), exceldata.getStringData("My Profile", 14, 1));
 	}
 
-	public void Date_field() throws InterruptedException {
+	public void dateFieldAction() throws InterruptedException {
 		WebElement date = pdpo.getDatefield();
-		Generic.Tap_on_WebElement(955, 1287);
-		Generic.click_on_WebElement(pdpo.getEdit_under_date_field());
-		Generic.sendKeys(pdpo.getEditing_date(),exceldata.getStringData("My Profile", 3, 1) );
-		Generic.click_on_WebElement(pdpo.getOk_text());
+		Generic.tappingOnWebelement(955, 1287);
+		Generic.clickOnWebElement(pdpo.getEdit_under_date_field());
+		Generic.sendKeysOnTextfields(pdpo.getEditing_date(),exceldata.getStringData("My Profile", 3, 1) );
+		Generic.clickOnWebElement(pdpo.getOk_text());
 //		Generic.swiping(530, 1413, 519, 608, 3000);     - for emulator
 //		Generic.swiping(513,1698,508,1256, 3000);   //   for real device
 	}
 
-	public void invalid_date() throws InterruptedException {
+	public void invalidDateAction() throws InterruptedException {
 		WebElement date = pdpo.getDatefield();
-		Generic.Tap_on_WebElement(955, 1287);
-		Generic.click_on_WebElement(pdpo.getEdit_under_date_field());
-		Generic.sendKeys(pdpo.getEditing_date(), exceldata.getStringData("My Profile", 15, 1));
-		Generic.click_on_WebElement(pdpo.getOk_text());
+		Generic.tappingOnWebelement(955, 1287);
+		Generic.clickOnWebElement(pdpo.getEdit_under_date_field());
+		Generic.sendKeysOnTextfields(pdpo.getEditing_date(), exceldata.getStringData("My Profile", 15, 1));
+		Generic.clickOnWebElement(pdpo.getOk_text());
 	}
 
-	public void validation_of_invalid_date() {
-		Generic.Soft_assertion_validation(pdpo.getAge_error_message(), exceldata.getStringData("My Profile", 27, 1));
+	public void invalidDateAssertionAction() {
+		Generic.softAssertion(pdpo.getAge_error_message(), exceldata.getStringData("My Profile", 27, 1));
 	}  
 
-	public void Address_field() throws InterruptedException {
-		Generic.clear_on_WebElement(pdpo.getAddress_field());
+	public void addressFieldAction() throws InterruptedException {
+		Generic.clearOnWebElement(pdpo.getAddress_field());
 	}
 
-	public void enter_address() {
-		Generic.sendKeys(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 4, 1));
+	public void enterAddressAction() {
+		Generic.sendKeysOnTextfields(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 4, 1));
 		Generic.swiping(572, 1657, 559, 1218, 4000); 
 	}
 
-	public void validation_of_address() {
-		Generic.Soft_assertion_validation(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 28, 1));
+	public void addressAssertionAction() {
+		Generic.softAssertion(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 28, 1));
 	}
 
-	public void enter_invalid_address() {
-		Generic.sendKeys(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 16, 1));
+	public void enterInvalidAddressAssertionAction() {
+		Generic.sendKeysOnTextfields(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 16, 1));
 	}
 
-	public void validation_of_invalid_pincode() {
-		Generic.Soft_assertion_validation(cepo.getToast_message(), exceldata.getStringData("My Profile", 29, 1));
+	public void invalidPincodeAssertionAction() {
+		Generic.softAssertion(cepo.getToast_message(), exceldata.getStringData("My Profile", 29, 1));
 	}
 
-	public void Pincode_field() throws InterruptedException {
+	public void pincodeFieldAction() throws InterruptedException {
 		if (pdpo.getPincode_field().getText().contains("11"))
 		{
-			Generic.clear_on_WebElement(pdpo.getPincode_field());
+			Generic.clearOnWebElement(pdpo.getPincode_field());
 		}
 		
 	}
 	
-	public void turning_OFF_the_internet()
+	public void savingWithNoInternetAction1()
 	{
 		Generic.WifiOff();
-	}
-
-	public void turning_ON_the_internet()
-	{
+		Generic.clickOnWebElement(cepo.getbutton());
+		savingWithNoInternetAction();
 		Generic.WifiOn();
+		Generic.clickOnWebElement(cepo.getbutton());
 	}
 
-	public void enter_pincode() throws InterruptedException {
-		Generic.sendKeys(pdpo.getBlank_pincode_field(), exceldata.getStringData("My Profile", 5, 1));
+	public void enterPincodeAction() throws InterruptedException {
+		Generic.sendKeysOnTextfields(pdpo.getBlank_pincode_field(), exceldata.getStringData("My Profile", 5, 1));
 	}
 
-	public void enter_invalid_pincode() throws InterruptedException {
+	public void enterInvalidPincodeAssertionAction() throws InterruptedException {
 		
-		Generic.sendKeys(pdpo.getBlank_pincode_field(), exceldata.getStringData("My Profile", 17, 1));
+		Generic.sendKeysOnTextfields(pdpo.getBlank_pincode_field(), exceldata.getStringData("My Profile", 17, 1));
 	}
 
-	public void click_Save_button() throws InterruptedException {
-		Generic.click_on_WebElement(pdpo.getSave_btn());
+	public void clickSaveButton() throws InterruptedException {
+		Generic.clickOnWebElement(cepo.getbutton());
 	}
+	
+	
 }

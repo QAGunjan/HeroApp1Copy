@@ -25,99 +25,98 @@ public class Emergency_contact_details_page_actions {
 	public Emergency_contact_details_page_object ecdpo;
 	public CommonElements_Page_object cepo;
 
-
 	public Emergency_contact_details_page_actions(AndroidDriver ad) {
 		this.ad = ad;
 		ecdpo = new Emergency_contact_details_page_object(ad);
 		exceldata = new ExcelData();
-		cepo= new CommonElements_Page_object(ad);
+		cepo = new CommonElements_Page_object(ad);
 
 	}
 
-	public void click_on_back_icon() {
-		Generic.click_on_WebElement(cepo.getBack_icon());
+	public void clickBackIconAction() {
+		Generic.clickOnWebElement(cepo.getBack_icon());
 	}
 
-	public void assertion_of_already_exist_contact() {
-		Generic.Hard_assertion_validation(cepo.getToast_message(), exceldata.getStringData("Emergency_contact", 20, 1));
+	public void alreadyExistContactAssertionAction() {
+		Generic.hardAssertion(cepo.getToast_message(), exceldata.getStringData("Emergency_contact", 20, 1));
 	}
 
-	public void Saving_with_invalid_fullName() {
-		Generic.clear_on_WebElement(ecdpo.getFullname_textbox());
-		Generic.sendKeys(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 9, 1));
-		Generic.isClickable(ecdpo.getContinue_btn());
-	}
-	
-	public void validation_of_invalid_fullName()
-	{
-		Generic.Soft_assertion_validation(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 21, 1) );
+	public void savingWithInvalidFullNameAction() {
+		Generic.clearOnWebElement(ecdpo.getFullname_textbox());
+		Generic.sendKeysOnTextfields(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 9, 1));
+		Generic.isClickable(cepo.getbutton());
 	}
 
-	public void Saving_with_invalid_mobNumber() {
-		Generic.clear_on_WebElement(ecdpo.getMob_number_txtbox());
-		Generic.sendKeys(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 10, 1));
-		Generic.click_on_WebElement(ecdpo.getRelation_type());
+	public void invalidFullNameAssertionAction() {
+		Generic.softAssertion(ecdpo.getFullname_textbox(),
+				exceldata.getStringData("Emergency_contact", 21, 1));
+	}
+
+	public void savingWithInvalidMobNumberAction() {
+		Generic.clearOnWebElement(ecdpo.getMob_number_txtbox());
+		Generic.sendKeysOnTextfields(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 10, 1));
+		Generic.clickOnWebElement(ecdpo.getRelation_type());
 		List<WebElement> options = ecdpo.getRelation_typedropdown();
-		Generic.looping_on_webelement(options, exceldata.getStringData("Emergency_contact", 11, 1));
-		Generic.isClickable(ecdpo.getContinue_btn());
+		Generic.itratingOnWebelements(options, exceldata.getStringData("Emergency_contact", 11, 1));
+		Generic.isClickable(cepo.getbutton());
 	}
 
-	public void Saving_contact_with_blank_fullName() {
-		Generic.clear_on_WebElement(ecdpo.getFullname_textbox());
-		Generic.sendKeys(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 2, 1));
-		Generic.click_on_WebElement(ecdpo.getRelation_type());
+	public void savingContactWithBlankFullNameAction() {
+		Generic.clearOnWebElement(ecdpo.getFullname_textbox());
+		Generic.sendKeysOnTextfields(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 2, 1));
+		Generic.clickOnWebElement(ecdpo.getRelation_type());
 		List<WebElement> options = ecdpo.getRelation_typedropdown();
-		Generic.looping_on_webelement(options, exceldata.getStringData("Emergency_contact", 3, 1));
-		Generic.isClickable(ecdpo.getContinue_btn());
-	}
-	
-	public void Validation_of_saving_blank_and_invalid_field()
-	{
-		Generic.Soft_assertion_validation(ecdpo.getFullName_text(), exceldata.getStringData("Emergency_contact", 22, 1));
+		Generic.itratingOnWebelements(options, exceldata.getStringData("Emergency_contact", 3, 1));
+		Generic.isClickable(cepo.getbutton());
 	}
 
-	public void Saving_contact_with_blank_MobileNumber() {
+	public void commonAssertionWithBlankAndInvalidFieldAction() {
+		Generic.softAssertion(ecdpo.getFullName_text(),
+				exceldata.getStringData("Emergency_contact", 22, 1));
+	}
 
-		Generic.sendKeys(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 1, 1));
-		Generic.clear_on_WebElement(ecdpo.getMob_number_txtbox());
-		Generic.click_on_WebElement(ecdpo.getRelation_type());
+	public void savingContactWithBlankMobileNumberAction() {
+
+		Generic.sendKeysOnTextfields(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 1, 1));
+		Generic.clearOnWebElement(ecdpo.getMob_number_txtbox());
+		Generic.clickOnWebElement(ecdpo.getRelation_type());
 		List<WebElement> options = ecdpo.getRelation_typedropdown();
-		Generic.looping_on_webelement(options, exceldata.getStringData("Emergency_contact", 3, 1));
-		Generic.isClickable(ecdpo.getContinue_btn());
+		Generic.itratingOnWebelements(options, exceldata.getStringData("Emergency_contact", 3, 1));
+		Generic.isClickable(cepo.getbutton());
 	}
 
-	public void Saving_contact_with_blank_relationType() {
+	public void savingContactWithBlankRelationTypeAction() {
 
-		Generic.sendKeys(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 1, 1));
-		Generic.sendKeys(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 2, 1));
-		Generic.click_on_WebElement(ecdpo.getRelation_type());
+		Generic.sendKeysOnTextfields(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 1, 1));
+		Generic.sendKeysOnTextfields(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 2, 1));
+		Generic.clickOnWebElement(ecdpo.getRelation_type());
 		List<WebElement> options = ecdpo.getRelation_typedropdown();
-		Generic.looping_on_webelement(options, exceldata.getStringData("Emergency_contact", 11, 1));
-		Generic.isClickable(ecdpo.getContinue_btn());
+		Generic.itratingOnWebelements(options, exceldata.getStringData("Emergency_contact", 11, 1));
+		Generic.isClickable(cepo.getbutton());
 	}
 
-	public void saving_contact_with_noInternet() {
-		Generic.sendKeys(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 1, 1));
-		Generic.sendKeys(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 2, 1));
-		Generic.click_on_WebElement(ecdpo.getRelation_type());
+	public void savingContactWithNoInternetAction() {
+		Generic.sendKeysOnTextfields(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 1, 1));
+		Generic.sendKeysOnTextfields(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 2, 1));
+		Generic.clickOnWebElement(ecdpo.getRelation_type());
 		List<WebElement> options = ecdpo.getRelation_typedropdown();
-		Generic.looping_on_webelement(options, exceldata.getStringData("Emergency_contact", 3, 1));
+		Generic.itratingOnWebelements(options, exceldata.getStringData("Emergency_contact", 3, 1));
 		Generic.WifiOff();
-		Generic.click_on_WebElement(ecdpo.getContinue_btn());
+		Generic.clickOnWebElement(cepo.getbutton());
 		Generic.WifiOn();
 	}
-	
-	public void validation_saving_with_no_internet()
-	{
-		Generic.Soft_assertion_validation(cepo.getToast_message(), exceldata.getStringData("Emergency_contact", 23, 1));
+
+	public void savingWithNoInternetAssertionAction() {
+		Generic.softAssertion(cepo.getToast_message(), exceldata.getStringData("Emergency_contact", 23, 1));
 	}
-	
-	public void filling_emergency_contact_details() {
-		Generic.sendKeys(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 1, 1));
-		Generic.sendKeys(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 2, 1));
-		Generic.click_on_WebElement(ecdpo.getRelation_type());
+
+	public void enterValidEmergencyContactDetailsAction() {
+		Generic.sendKeysOnTextfields(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 1, 1));
+		Generic.sendKeysOnTextfields(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 2, 1));
+		Generic.clickOnWebElement(ecdpo.getRelation_type());
+
 		List<WebElement> options = ecdpo.getRelation_typedropdown();
-		Generic.looping_on_webelement(options, exceldata.getStringData("Emergency_contact", 3, 1));
+		Generic.itratingOnWebelements(options, exceldata.getStringData("Emergency_contact", 3, 1));
 
 //		for loop
 //		
@@ -133,7 +132,7 @@ public class Emergency_contact_details_page_actions {
 //			 
 //		 }
 
-		Generic.click_on_WebElement(ecdpo.getContinue_btn());
+		Generic.clickOnWebElement(cepo.getbutton());
 	}
 
 }

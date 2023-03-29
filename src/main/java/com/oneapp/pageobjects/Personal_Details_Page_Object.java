@@ -57,8 +57,8 @@ public class Personal_Details_Page_Object {
 	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[7]/android.widget.FrameLayout/android.widget.EditText")
 	private WebElement blank_pincode_field;
 	
-	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
-	private WebElement save_btn;
+//	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
+//	private WebElement save_btn;
 
 	@FindBy(xpath = "//*[@text='Age must be of 18yr old']")
 	private WebElement age_error_message;
@@ -116,9 +116,9 @@ public class Personal_Details_Page_Object {
 		return pincode_field;
 	}
 
-	public WebElement getSave_btn() {
-		return save_btn;
-	}
+//	public WebElement getSave_btn() {
+//		return save_btn;
+//	}
 
 	public WebElement getAge_error_message() {
 		return age_error_message;

@@ -15,7 +15,9 @@ public class Emerygency_contacts_page_objects {
 	@FindBy(id = "com.android.permissioncontroller:id/permission_message")
 	private WebElement contact_allowing_popup;
 
-
+	@FindBy(xpath = "//*[@text='Allow Hero App to access your contacts?']")
+	private WebElement Contact_acess_popUpSamsung;
+	
 	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
 	private WebElement allow_btn;
 
@@ -31,6 +33,8 @@ public class Emerygency_contacts_page_objects {
 	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView")
 	private WebElement delete_btn;
 
+	
+	
 	public Emerygency_contacts_page_objects(AndroidDriver ad) {
 
 		PageFactory.initElements(ad, this);
@@ -63,6 +67,10 @@ public class Emerygency_contacts_page_objects {
 
 	public WebElement getDelete_btn() {
 		return delete_btn;
+	}
+
+	public WebElement getContact_acess_popUpSamsung() {
+		return Contact_acess_popUpSamsung;
 	}
 
 

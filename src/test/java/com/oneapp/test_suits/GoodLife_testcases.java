@@ -31,60 +31,58 @@ public class GoodLife_testcases extends BrowserFactory {
 //		svpa.Assertion_selected_vehicle_page();
 //		svpa.Vehicle_Select();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
-		dpa.Handling_Dashboard_All_Popups();
-		dpa.Goodlife_icon();
+		dpa.dashboardAllPopUpAction();
+		dpa.clickGoodlifeIconAction();
 		Goodlife_Dashboard_Non_mem_Page_Actions gdnmpa = new Goodlife_Dashboard_Non_mem_Page_Actions(ad);
-		gdnmpa.Goodlife_dashboard_button();
+		gdnmpa.clickGoodlifeButtonAction();
 		Goodlife_Plans_Page_Actions gppa = new Goodlife_Plans_Page_Actions(ad);
-		gppa.click_on_view_all_benefits_199Plan();
+		gppa.clickViewAllBenefits199PlanAction();
 		Goodlife_Select_Your_Plan_Page_Action gsyppa = new Goodlife_Select_Your_Plan_Page_Action(ad);
-		gsyppa.Selecting_Plan();
+		gsyppa.clickSelectingPlanAction();
 		Goodlife_Profile_Details_Form_199_Page_Action gpdf_199_pa = new Goodlife_Profile_Details_Form_199_Page_Action(
 				ad);
-		gpdf_199_pa.Profile_form_199_checkboxes_and_tap_pay_199_button();
-		System.out.println("**********************");
-		System.out.println("Goodlife_Nonmember_Owner_testcase Passed");
+		gpdf_199_pa.profileForm199PlanProcessAction();
+	
 
 	}
 
 	@Test //(priority = 36, groups = {"Smoke", "Regression" })
 	public void validate_Goodlife_Non_member_299Plan_asOwner_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.valid_login();
-		lpa.assertion_of_valid_login();
+		lpa.validLoginAction();
+		lpa.validLoginAssertionAction();
 		OTP_Page_Actions opa = new OTP_Page_Actions(ad);
-		opa.validate_OTP();
-		opa.click_verify_button();
+		opa.validOTPAction();
+		opa.clickVerifyButtonAction();
 		Selected_Vehicle_Page_Actions svpa = new Selected_Vehicle_Page_Actions(ad);
-		svpa.Assertion_selected_vehicle_page();
-		svpa.Vehicle_Select();
+		svpa.selectedVehicleAssertion();
+		svpa.vehicleSelectionAction();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
 //		dpa.Handling_Dashboard_All_Popups();
-		dpa.Goodlife_icon();
+		dpa.clickGoodlifeIconAction();
 		Goodlife_Dashboard_Non_mem_Page_Actions gdnmpa = new Goodlife_Dashboard_Non_mem_Page_Actions(ad);
-		gdnmpa.Goodlife_dashboard_button();
+		gdnmpa.clickGoodlifeButtonAction();
 		Goodlife_Plans_Page_Actions gppa = new Goodlife_Plans_Page_Actions(ad);
-		gppa.click_on_view_all_benefits_299Plan();
+		gppa.clickViewAllBenefits299PlanAction();
 		Goodlife_Select_Your_Plan_Page_Action gsyppa = new Goodlife_Select_Your_Plan_Page_Action(ad);
-		gsyppa.Selecting_Plan();
+		gsyppa.clickSelectingPlanAction();
 		Goodlife_Profile_Details_Form_299_Page_Action gpdf_299_pa= new Goodlife_Profile_Details_Form_299_Page_Action(ad);
-		gpdf_299_pa.validation_of_299Plan_owner_radio_button();
-		gpdf_299_pa.validation_of_299plan_mobileNumber_field();
-		gpdf_299_pa.validation_of_299Plan_address_field();
-		gpdf_299_pa.tapping_on_continue_button();
+		gpdf_299_pa.validation299PlanOwnerRadioButtonAction();
+		gpdf_299_pa.valition299PlanMobileNumberFieldAssertionAction();
+		gpdf_299_pa.addressField299PlanAssertionAction();
+		gpdf_299_pa.clickContinueButtonAction();
 		Goodlife_Insurance_Details_Form_299_Page_Action gidf_299_pa= new Goodlife_Insurance_Details_Form_299_Page_Action(ad);
-		gidf_299_pa.enter_nomineeName();
-		gidf_299_pa.Nominee_relationship_dropdown();
-		gidf_299_pa.NomineeContactNumber_field();
-		gidf_299_pa.Nominee_address_same_as_member_checkbox();
-		gidf_299_pa.validation_of_address_field();
-		gidf_299_pa.selecting_relationType();
-		gidf_299_pa.enter_relativeName();
-		gidf_299_pa.My_immediate_family_member_checkbox();
-		gidf_299_pa.terms_and_condition_checkbox();
-		gidf_299_pa.tap_on_pay299_button();
-		System.out.println("**********************");
-		System.out.println("validate_Goodlife_Non_member_299Plan_asOwner_testcase Passed");
+		gidf_299_pa.enterNomineeNameAction();
+		gidf_299_pa.selectingNomineeFromRelationshipDropdownAction();
+		gidf_299_pa.enterNomineeContactNumberAction();
+		gidf_299_pa.nomineeAddressSameAsMemberCheckboxActon();
+		gidf_299_pa.addressFieldAssertionAction();
+		gidf_299_pa.selectingRelationFromRelationTypeDropdownAction();
+		gidf_299_pa.enterRelativeNameAction();
+		gidf_299_pa.myImmediateFamilyMemberCheckboxAction();
+		gidf_299_pa.termsAndConditionCheckboxAction();
+		gidf_299_pa.tappingPay299ButtonAction();
+	
 
 	}
 	

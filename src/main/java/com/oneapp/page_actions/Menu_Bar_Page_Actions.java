@@ -20,23 +20,23 @@ public class Menu_Bar_Page_Actions {
 
 	}
 	
-	public void Myprofile_Menu_bar() throws InterruptedException
+	public void clickMyProfileFromMenuBarAction() throws InterruptedException
 	{
-		Generic.click_on_WebElement(mbpo.getMyprofile_menu_bar_txt());
+		Generic.clickOnWebElement(mbpo.getMyprofile_menu_bar_txt());
 	}
 
-	public void Tips_and_DIY_Menu_bar() throws InterruptedException
+	public void clickTipsAndDIYFromMenuBarAction() throws InterruptedException
 	{
-		Generic.click_on_WebElement(mbpo.getTips_and_DIY_videos_menu_bar_text());
+		Generic.clickOnWebElement(mbpo.getTips_and_DIY_videos_menu_bar_text());
 	}
 	
-	 public void logout_Menu_bar()
+	 public void clickLogoutFromMenuBarAction()
 	 {
-		 Generic.click_on_WebElement( mbpo.getLogout_menu_bar_txt());
+		 Generic.clickOnWebElement( mbpo.getLogout_menu_bar_txt());
 	 }
 	
-	 public void closing_menubar_icon() throws InterruptedException
+	 public void clickCloseIconFromMenuBarAction() throws InterruptedException
 	 {
-		 Generic.click_on_WebElement(mbpo.getMenu_bar_close_icon());
+		 Generic.clickOnWebElement(mbpo.getMenu_bar_close_icon());
 	 }
 }

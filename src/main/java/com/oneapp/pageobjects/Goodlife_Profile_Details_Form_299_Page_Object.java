@@ -9,19 +9,19 @@ import io.appium.java_client.android.AndroidDriver;
 
 public class Goodlife_Profile_Details_Form_299_Page_Object {
 
-	@CacheLookup
+	
 	@FindBy(id = "com.customerapp.hero:id/owner_radio")
 	private WebElement owner_selection_radio_button;
 	
-	@CacheLookup
+	
 	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.EditText")
 	private WebElement mobileNumber_field_299Plan;
 	
-	@CacheLookup
+	
 	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[4]/android.widget.FrameLayout/android.widget.EditText")
 	private WebElement address_field_299Plan;
 	
-	@CacheLookup
+	
 	@FindBy(xpath = "//*[@text='Continue']")
 	private WebElement continue_button;
 	

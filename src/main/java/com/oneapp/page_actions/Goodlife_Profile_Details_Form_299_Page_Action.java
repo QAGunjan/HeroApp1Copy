@@ -26,8 +26,7 @@ public class Goodlife_Profile_Details_Form_299_Page_Action {
 		exceldata = new ExcelData();
 	}
 
-	
-	public void validation_of_299Plan_owner_radio_button()
+	public void validation299PlanOwnerRadioButtonAction()
 	{
 		if(gpdf_299_po.getOwner_selection_radio_button().isSelected())
 		{
@@ -36,27 +35,26 @@ public class Goodlife_Profile_Details_Form_299_Page_Action {
 		
 		else
 		{
-			Generic.click_on_WebElement(gpdf_299_po.getOwner_selection_radio_button());
+			Generic.clickOnWebElement(gpdf_299_po.getOwner_selection_radio_button());
 			System.out.println("Now, owner is getting selected. Thanks!");
 		}
 	}
 	
-	
-	public void validation_of_299plan_mobileNumber_field()
+	public void valition299PlanMobileNumberFieldAssertionAction()
 	{
 		Generic.isClickable(gpdf_299_po.getMobileNumber_field_299Plan());
 				
 		}
 	
-	public void validation_of_299Plan_address_field()
+	public void addressField299PlanAssertionAction()
 	{  
-		Generic.Soft_assertion_validation(gpdf_299_po.getAddress_field_299Plan(), exceldata.getStringData("My Profile", 3, 1));
+		Generic.softAssertion(gpdf_299_po.getAddress_field_299Plan(), exceldata.getStringData("My Profile", 3, 1));
 	}
 	
-	public void tapping_on_continue_button()
+	public void clickContinueButtonAction()
 	{
 		Generic.swiping(542, 1565, 535, 715, 4000);
-		Generic.click_on_WebElement(gpdf_299_po.getContinue_button());
+		Generic.clickOnWebElement(gpdf_299_po.getContinue_button());
 	}
 	
 	

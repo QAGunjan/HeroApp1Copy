@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-LoginSuite" class="navigator-link">
-              <span class="suite-name border-passed">LoginSuite</span>
+            <a href="#" panel-name="suite-RegressionSuite" class="navigator-link">
+              <span class="suite-name border-failed">RegressionSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-LoginSuite" class="navigator-link ">
-                    <span>C:\Users\Lenovo\git\HeroApp1\testng.xml</span>
+                  <a href="#" panel-name="test-xml-RegressionSuite" class="navigator-link ">
+                    <span>D:\ECLIPSE_LATEST\HeroApp1\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-LoginSuite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-RegressionSuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-LoginSuite" class="navigator-link ">
+                  <a href="#" panel-name="group-RegressionSuite" class="navigator-link ">
                     <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-LoginSuite" class="navigator-link ">
+                  <a href="#" panel-name="times-RegressionSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-LoginSuite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-RegressionSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-LoginSuite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-RegressionSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-LoginSuite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-RegressionSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,56 +93,85 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods failed suite-RegressionSuite"> (hide)</a> <!-- hide-methods failed suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods failed suite-RegressionSuite"> (show)</a> <!-- show-methods failed suite-RegressionSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-RegressionSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.Myprofile_testcases" class="method navigator-link" hash-for-method="validate_saving_with_blank_fullName_field_testcase">validate_saving_with_blank_fullName_field_testcase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-RegressionSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-LoginSuite" class="hide-methods passed suite-LoginSuite"> (hide)</a> <!-- hide-methods passed suite-LoginSuite -->
-                      <a href="#" panel-name="suite-LoginSuite" class="show-methods passed suite-LoginSuite"> (show)</a> <!-- show-methods passed suite-LoginSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods passed suite-RegressionSuite"> (hide)</a> <!-- hide-methods passed suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods passed suite-RegressionSuite"> (show)</a> <!-- show-methods passed suite-RegressionSuite -->
                     </span>
-                    <div class="method-list-content passed suite-LoginSuite">
+                    <div class="method-list-content passed suite-RegressionSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LoginSuite" title="com.oneapp.test_suits.OTP_testcases" class="method navigator-link" hash-for-method="validate_OTP_after_resend_testcase">validate_OTP_after_resend_testcase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.OTP_testcases" class="method navigator-link" hash-for-method="validate_OTP_after_resend_testcase">validate_OTP_after_resend_testcase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LoginSuite" title="com.oneapp.test_suits.Login_testcases" class="method navigator-link" hash-for-method="validate_invalidLogin_testcase">validate_invalidLogin_testcase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.OTP_testcases" class="method navigator-link" hash-for-method="validate_invalid_OTP_testcase">validate_invalid_OTP_testcase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LoginSuite" title="com.oneapp.test_suits.OTP_testcases" class="method navigator-link" hash-for-method="validate_invalid_OTP_testcase">validate_invalid_OTP_testcase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.Myprofile_testcases" class="method navigator-link" hash-for-method="validate_myprofile_with_valid_details_testcase">validate_myprofile_with_valid_details_testcase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LoginSuite" title="com.oneapp.test_suits.Login_testcases" class="method navigator-link" hash-for-method="validate_mininum_length_field_testcase">validate_mininum_length_field_testcase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.Myprofile_testcases" class="method navigator-link" hash-for-method="validate_save_button_with_no_internet_testcase">validate_save_button_with_no_internet_testcase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LoginSuite" title="com.oneapp.test_suits.Login_testcases" class="method navigator-link" hash-for-method="validate_validLogin_testcase">validate_validLogin_testcase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.Myprofile_testcases" class="method navigator-link" hash-for-method="validate_saving_with_invalid_address_field_testcase">validate_saving_with_invalid_address_field_testcase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LoginSuite" title="com.oneapp.test_suits.OTP_testcases" class="method navigator-link" hash-for-method="validate_valid_OTP_testcase">validate_valid_OTP_testcase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.Myprofile_testcases" class="method navigator-link" hash-for-method="validate_saving_with_invalid_dateofbirth_field_testcase">validate_saving_with_invalid_dateofbirth_field_testcase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LoginSuite" title="com.oneapp.test_suits.Login_testcases" class="method navigator-link" hash-for-method="validation_app_working_expected_after_minimizing_testcase">validation_app_working_expected_after_minimizing_testcase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.Myprofile_testcases" class="method navigator-link" hash-for-method="validate_saving_with_invalid_email_field_testcase">validate_saving_with_invalid_email_field_testcase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LoginSuite" title="com.oneapp.test_suits.OTP_testcases" class="method navigator-link" hash-for-method="validation_valid_OTP_working_expected_after_minimizing_testcase">validation_valid_OTP_working_expected_after_minimizing_testcase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.Myprofile_testcases" class="method navigator-link" hash-for-method="validate_saving_with_invalid_pincode_field_testcase">validate_saving_with_invalid_pincode_field_testcase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-LoginSuite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.OTP_testcases" class="method navigator-link" hash-for-method="validate_valid_OTP_testcase">validate_valid_OTP_testcase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.OTP_testcases" class="method navigator-link" hash-for-method="validate_valid_OTP_with_no_internet_testcase">validate_valid_OTP_with_no_internet_testcase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="com.oneapp.test_suits.OTP_testcases" class="method navigator-link" hash-for-method="validation_valid_OTP_working_expected_after_minimizing_testcase">validation_valid_OTP_working_expected_after_minimizing_testcase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -153,44 +182,62 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-LoginSuite" class="panel LoginSuite">
-          <div class="suite-LoginSuite-class-passed">
+        <div panel-name="suite-RegressionSuite" class="panel RegressionSuite">
+          <div class="suite-RegressionSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.oneapp.test_suits.Login_testcases</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.oneapp.test_suits.Myprofile_testcases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validate_invalidLogin_testcase">
-                  </a> <!-- validate_invalidLogin_testcase -->
-                  <span class="method-name">validate_invalidLogin_testcase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validate_mininum_length_field_testcase">
-                  </a> <!-- validate_mininum_length_field_testcase -->
-                  <span class="method-name">validate_mininum_length_field_testcase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validate_validLogin_testcase">
-                  </a> <!-- validate_validLogin_testcase -->
-                  <span class="method-name">validate_validLogin_testcase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validation_app_working_expected_after_minimizing_testcase">
-                  </a> <!-- validation_app_working_expected_after_minimizing_testcase -->
-                  <span class="method-name">validation_app_working_expected_after_minimizing_testcase</span>
+                  <a name="validate_saving_with_blank_fullName_field_testcase">
+                  </a> <!-- validate_saving_with_blank_fullName_field_testcase -->
+                  <span class="method-name">validate_saving_with_blank_fullName_field_testcase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A2S9SMV&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e905104e-09eb-448b-a44a-fb542d6f1c6b
+*** Element info: {Using=id, value=com.customerapp.hero:id/lbl}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
+	at com.oneapp.basic.Generic.softAssertion(Generic.java:49)
+	at com.oneapp.page_actions.Myprofile_Page_Actions.profileDetailsvalidateAction(Myprofile_Page_Actions.java:31)
+	at com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_blank_fullName_field_testcase(Myprofile_testcases.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-LoginSuite-class-passed -->
-          <div class="suite-LoginSuite-class-passed">
+          </div> <!-- suite-RegressionSuite-class-failed -->
+          <div class="suite-RegressionSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.oneapp.test_suits.OTP_testcases</span>
@@ -219,62 +266,113 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="validate_valid_OTP_with_no_internet_testcase">
+                  </a> <!-- validate_valid_OTP_with_no_internet_testcase -->
+                  <span class="method-name">validate_valid_OTP_with_no_internet_testcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="validation_valid_OTP_working_expected_after_minimizing_testcase">
                   </a> <!-- validation_valid_OTP_working_expected_after_minimizing_testcase -->
                   <span class="method-name">validation_valid_OTP_working_expected_after_minimizing_testcase</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-LoginSuite-class-passed -->
-        </div> <!-- panel LoginSuite -->
-        <div panel-name="test-xml-LoginSuite" class="panel">
+          </div> <!-- suite-RegressionSuite-class-passed -->
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.oneapp.test_suits.Myprofile_testcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_myprofile_with_valid_details_testcase">
+                  </a> <!-- validate_myprofile_with_valid_details_testcase -->
+                  <span class="method-name">validate_myprofile_with_valid_details_testcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_save_button_with_no_internet_testcase">
+                  </a> <!-- validate_save_button_with_no_internet_testcase -->
+                  <span class="method-name">validate_save_button_with_no_internet_testcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_saving_with_invalid_address_field_testcase">
+                  </a> <!-- validate_saving_with_invalid_address_field_testcase -->
+                  <span class="method-name">validate_saving_with_invalid_address_field_testcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_saving_with_invalid_dateofbirth_field_testcase">
+                  </a> <!-- validate_saving_with_invalid_dateofbirth_field_testcase -->
+                  <span class="method-name">validate_saving_with_invalid_dateofbirth_field_testcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_saving_with_invalid_email_field_testcase">
+                  </a> <!-- validate_saving_with_invalid_email_field_testcase -->
+                  <span class="method-name">validate_saving_with_invalid_email_field_testcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_saving_with_invalid_pincode_field_testcase">
+                  </a> <!-- validate_saving_with_invalid_pincode_field_testcase -->
+                  <span class="method-name">validate_saving_with_invalid_pincode_field_testcase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+        </div> <!-- panel RegressionSuite -->
+        <div panel-name="test-xml-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Lenovo\git\HeroApp1\testng.xml</span>
+            <span class="header-content">D:\ECLIPSE_LATEST\HeroApp1\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;LoginSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;RegressionSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.oneapp.basic.MyListeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RegressionTests&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
         &lt;include name=&quot;Regression&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.oneapp.test_suits.Login_testcases&quot;/&gt;
       &lt;class name=&quot;com.oneapp.test_suits.OTP_testcases&quot;/&gt;
       &lt;class name=&quot;com.oneapp.test_suits.Myprofile_testcases&quot;/&gt;
-      &lt;class name=&quot;com.oneapp.test_suits.EmergencyContact_testcases&quot;/&gt;
-      &lt;class name=&quot;com.oneapp.test_suits.ManageLicense_testcases&quot;/&gt;
-      &lt;class name=&quot;com.oneapp.test_suits.SOS_testcases&quot;/&gt;
-      &lt;class name=&quot;com.oneapp.test_suits.BookService_testcases&quot;/&gt;
-      &lt;class name=&quot;com.oneapp.test_suits.GoodLife_testcases&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LoginTest --&gt;
-&lt;/suite&gt; &lt;!-- LoginSuite --&gt;
+  &lt;/test&gt; &lt;!-- RegressionTests --&gt;
+&lt;/suite&gt; &lt;!-- RegressionSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-LoginSuite" class="panel">
+        <div panel-name="testlist-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for LoginSuite</span>
+            <span class="header-content">Tests for RegressionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">LoginTest (8 classes)</span>
+                <span class="test-name">RegressionTests (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-LoginSuite" class="panel">
+        <div panel-name="group-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for LoginSuite</span>
+            <span class="header-content">Groups for RegressionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -285,15 +383,31 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">validate_invalidLogin_testcase</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
                 <span class="method-in-group-name">validate_invalid_OTP_testcase</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">validate_mininum_length_field_testcase</span>
+                <span class="method-in-group-name">validate_save_button_with_no_internet_testcase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_saving_with_blank_fullName_field_testcase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_saving_with_invalid_address_field_testcase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_saving_with_invalid_dateofbirth_field_testcase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_saving_with_invalid_email_field_testcase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_saving_with_invalid_pincode_field_testcase</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -301,7 +415,7 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">validation_app_working_expected_after_minimizing_testcase</span>
+                <span class="method-in-group-name">validate_valid_OTP_with_no_internet_testcase</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -317,19 +431,35 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">validate_invalidLogin_testcase</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
                 <span class="method-in-group-name">validate_invalid_OTP_testcase</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">validate_mininum_length_field_testcase</span>
+                <span class="method-in-group-name">validate_myprofile_with_valid_details_testcase</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">validate_validLogin_testcase</span>
+                <span class="method-in-group-name">validate_save_button_with_no_internet_testcase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_saving_with_blank_fullName_field_testcase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_saving_with_invalid_address_field_testcase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_saving_with_invalid_dateofbirth_field_testcase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_saving_with_invalid_email_field_testcase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_saving_with_invalid_pincode_field_testcase</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -337,7 +467,7 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">validation_app_working_expected_after_minimizing_testcase</span>
+                <span class="method-in-group-name">validate_valid_OTP_with_no_internet_testcase</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -349,237 +479,175 @@
               <span class="test-group-name">Smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">validate_validLogin_testcase</span>
+                <span class="method-in-group-name">validate_myprofile_with_valid_details_testcase</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-LoginSuite" class="panel">
+        <div panel-name="times-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for LoginSuite</span>
+            <span class="header-content">Times for RegressionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_LoginSuite');
-function tableData_LoginSuite() {
+suiteTableInitFunctions.push('tableData_RegressionSuite');
+function tableData_RegressionSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validate_valid_OTP_testcase')
-data.setCell(0, 2, 'com.oneapp.test_suits.OTP_testcases')
-data.setCell(0, 3, 195642);
+data.setCell(0, 1, 'validate_myprofile_with_valid_details_testcase')
+data.setCell(0, 2, 'com.oneapp.test_suits.Myprofile_testcases')
+data.setCell(0, 3, 278420);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validate_OTP_after_resend_testcase')
-data.setCell(1, 2, 'com.oneapp.test_suits.OTP_testcases')
-data.setCell(1, 3, 141158);
+data.setCell(1, 1, 'validate_saving_with_blank_fullName_field_testcase')
+data.setCell(1, 2, 'com.oneapp.test_suits.Myprofile_testcases')
+data.setCell(1, 3, 160071);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validate_validLogin_testcase')
-data.setCell(2, 2, 'com.oneapp.test_suits.Login_testcases')
-data.setCell(2, 3, 70318);
+data.setCell(2, 1, 'validate_valid_OTP_testcase')
+data.setCell(2, 2, 'com.oneapp.test_suits.OTP_testcases')
+data.setCell(2, 3, 134015);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validation_valid_OTP_working_expected_after_minimizing_testcase')
+data.setCell(3, 1, 'validate_OTP_after_resend_testcase')
 data.setCell(3, 2, 'com.oneapp.test_suits.OTP_testcases')
-data.setCell(3, 3, 62226);
+data.setCell(3, 3, 107155);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validate_invalid_OTP_testcase')
-data.setCell(4, 2, 'com.oneapp.test_suits.OTP_testcases')
-data.setCell(4, 3, 55542);
+data.setCell(4, 1, 'validate_save_button_with_no_internet_testcase')
+data.setCell(4, 2, 'com.oneapp.test_suits.Myprofile_testcases')
+data.setCell(4, 3, 80621);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validation_app_working_expected_after_minimizing_testcase')
-data.setCell(5, 2, 'com.oneapp.test_suits.Login_testcases')
-data.setCell(5, 3, 26070);
+data.setCell(5, 1, 'validate_saving_with_invalid_dateofbirth_field_testcase')
+data.setCell(5, 2, 'com.oneapp.test_suits.Myprofile_testcases')
+data.setCell(5, 3, 66140);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validate_mininum_length_field_testcase')
-data.setCell(6, 2, 'com.oneapp.test_suits.Login_testcases')
-data.setCell(6, 3, 19941);
+data.setCell(6, 1, 'validate_valid_OTP_with_no_internet_testcase')
+data.setCell(6, 2, 'com.oneapp.test_suits.OTP_testcases')
+data.setCell(6, 3, 52600);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validate_invalidLogin_testcase')
-data.setCell(7, 2, 'com.oneapp.test_suits.Login_testcases')
-data.setCell(7, 3, 17948);
-window.suiteTableData['LoginSuite']= { tableData: data, tableDiv: 'times-div-LoginSuite'}
+data.setCell(7, 1, 'validate_invalid_OTP_testcase')
+data.setCell(7, 2, 'com.oneapp.test_suits.OTP_testcases')
+data.setCell(7, 3, 44567);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validate_saving_with_invalid_email_field_testcase')
+data.setCell(8, 2, 'com.oneapp.test_suits.Myprofile_testcases')
+data.setCell(8, 3, 37631);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validate_saving_with_invalid_address_field_testcase')
+data.setCell(9, 2, 'com.oneapp.test_suits.Myprofile_testcases')
+data.setCell(9, 3, 19896);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validation_valid_OTP_working_expected_after_minimizing_testcase')
+data.setCell(10, 2, 'com.oneapp.test_suits.OTP_testcases')
+data.setCell(10, 3, 18403);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validate_saving_with_invalid_pincode_field_testcase')
+data.setCell(11, 2, 'com.oneapp.test_suits.Myprofile_testcases')
+data.setCell(11, 3, 11222);
+window.suiteTableData['RegressionSuite']= { tableData: data, tableDiv: 'times-div-RegressionSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 minutes</span>
-              <div id="times-div-LoginSuite">
-              </div> <!-- times-div-LoginSuite -->
+              <span class="suite-total-time">Total running time: 16 minutes</span>
+              <div id="times-div-RegressionSuite">
+              </div> <!-- times-div-RegressionSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-LoginSuite" class="panel">
+        <div panel-name="reporter-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for LoginSuite</span>
+            <span class="header-content">Reporter output for RegressionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-LoginSuite" class="panel">
+        <div panel-name="ignored-methods-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">32 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.oneapp.test_suits.ManageLicense_testcases</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validation_download_license_without_internet_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validation_uploading_licence_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validation_uploading_license_without_internet_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validation__downloading_the_uploaded_license_testcase</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.oneapp.test_suits.SOS_testcases</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_dont_send_link_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_closing_alert_window_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_SOS_message_sending_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_sending_SOS_alert_without_internet_testcase</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.oneapp.test_suits.BookService_testcases</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_Bookservice_Paid_testcase</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.oneapp.test_suits.EmergencyContact_testcases</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_emergency_contact_deleted_succesfully_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_emergency_contact_with_blank_MobileNumber_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_emergency_contact_added_succesfully_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_emergency_contact_with_blank_relationType_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_emergency_contact_saving_with_invalid_details_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_emergency_contact_already_exist_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_emergency_contact_saving_with_no_internet_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_emergency_contact_with_blank_fullName_testcase</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.oneapp.test_suits.Myprofile_testcases</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_saving_with_invalid_dateofbirth_field_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_myprofile_with_valid_details_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_save_button_with_no_internet_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_saving_with_invalid_email_field_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_saving_with_blank_fullName_field_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_saving_with_invalid_address_field_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_saving_with_invalid_pincode_field_testcase</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.oneapp.test_suits.Login_testcases</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">T_and_C_validation_005</span>
-                <br/>
-                <span class="ignored-method-name">Privacy_validation_004</span>
-                <br/>
-                <span class="ignored-method-name">validate_continue_with_no_internet_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validation_privacypage_with_no_internet</span>
-                <br/>
-                <span class="ignored-method-name">Contact_Us_005</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.oneapp.test_suits.GoodLife_testcases</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_Goodlife_Non_member_199Plan_testcase</span>
-                <br/>
-                <span class="ignored-method-name">validate_Goodlife_Non_member_299Plan_asOwner_testcase</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.oneapp.test_suits.OTP_testcases</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_valid_OTP_with_no_internet_testcase</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-LoginSuite" class="panel">
+        <div panel-name="chronological-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.oneapp.test_suits.Login_testcases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.oneapp.test_suits.OTP_testcases</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Browsers_open</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">validate_validLogin_testcase</span>
-                <span class="method-start">12657 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validate_invalidLogin_testcase</span>
-                <span class="method-start">82999 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validate_mininum_length_field_testcase</span>
-                <span class="method-start">100951 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validation_app_working_expected_after_minimizing_testcase</span>
-                <span class="method-start">120897 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.oneapp.test_suits.OTP_testcases</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">Browsers_open</span>
-                <span class="method-start">146971 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
                 <span class="method-name">validate_valid_OTP_testcase</span>
-                <span class="method-start">156512 ms</span>
+                <span class="method-start">24217 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validate_invalid_OTP_testcase</span>
-                <span class="method-start">352159 ms</span>
+                <span class="method-start">158271 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validate_OTP_after_resend_testcase</span>
-                <span class="method-start">407703 ms</span>
+                <span class="method-start">202853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_valid_OTP_with_no_internet_testcase</span>
+                <span class="method-start">310018 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validation_valid_OTP_working_expected_after_minimizing_testcase</span>
-                <span class="method-start">548864 ms</span>
+                <span class="method-start">362621 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Quit_session</span>
+                <span class="method-start">381033 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.oneapp.test_suits.Myprofile_testcases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browsers_open</span>
+                <span class="method-start">382881 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validate_myprofile_with_valid_details_testcase</span>
+                <span class="method-start">405033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validate_saving_with_blank_fullName_field_testcase</span>
+                <span class="method-start">683461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_saving_with_invalid_email_field_testcase</span>
+                <span class="method-start">844048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_saving_with_invalid_dateofbirth_field_testcase</span>
+                <span class="method-start">881684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_saving_with_invalid_address_field_testcase</span>
+                <span class="method-start">947832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_saving_with_invalid_pincode_field_testcase</span>
+                <span class="method-start">967736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_save_button_with_no_internet_testcase</span>
+                <span class="method-start">978964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Quit_session</span>
+                <span class="method-start">1059588 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

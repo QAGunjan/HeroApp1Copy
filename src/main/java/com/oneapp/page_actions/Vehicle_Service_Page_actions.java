@@ -18,11 +18,11 @@ public class Vehicle_Service_Page_actions {
 		vspo = new Vehicle_Service_page_object(ad);
 	}
 	
-	public void Book_service_button()
+	public void bookServiceButtonAction()
 	{
-	   if(vspo.getBook_service_btn().isEnabled())
+	   if(vspo.getBook_service_btn().isDisplayed())
 	   {
-		   Generic.click_on_WebElement(vspo.getBook_service_btn());
+		   Generic.clickOnWebElement(vspo.getBook_service_btn());
 	   }
 	   
 	   else
