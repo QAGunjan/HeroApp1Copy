@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>RegressionTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>42/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 28 17:21:55 IST 2023</td>
+<td>Started on:</td><td>Tue Apr 04 11:08:52 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>1061 seconds (1061599 ms)</td>
+<tr><td>Total time:</td><td>3428 seconds (3428193 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>Regression </td>
 </tr><tr>
@@ -67,126 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_blank_fullName_field_testcase()'><b>validate_saving_with_blank_fullName_field_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-A2S9SMV&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: e905104e-09eb-448b-a44a-fb542d6f1c6b
-*** Element info: {Using=id, value=com.customerapp.hero:id/lbl}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
-	at com.oneapp.basic.Generic.softAssertion(Generic.java:49)
-	at com.oneapp.page_actions.Myprofile_Page_Actions.profileDetailsvalidateAction(Myprofile_Page_Actions.java:31)
-	at com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_blank_fullName_field_testcase(Myprofile_testcases.java:76)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1434984256", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1434984256'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-A2S9SMV&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: e905104e-09eb-448b-a44a-fb542d6f1c6b
-*** Element info: {Using=id, value=com.customerapp.hero:id/lbl}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
-	at com.oneapp.basic.Generic.softAssertion(Generic.java:49)
-	at com.oneapp.page_actions.Myprofile_Page_Actions.profileDetailsvalidateAction(Myprofile_Page_Actions.java:31)
-	at com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_blank_fullName_field_testcase(Myprofile_testcases.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>160</td>
-<td>com.oneapp.test_suits.Myprofile_testcases@723e88f9</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -195,60 +75,215 @@ Session ID: e905104e-09eb-448b-a44a-fb542d6f1c6b
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_invalid_email_field_testcase()'><b>validate_saving_with_invalid_email_field_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
+<td title='com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_invalid_dateofbirth_field_testcase()'><b>validate_saving_with_invalid_dateofbirth_field_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
 <td></td>
-<td>37</td>
-<td>com.oneapp.test_suits.Myprofile_testcases@723e88f9</td></tr>
+<td>56</td>
+<td>com.oneapp.test_suits.Myprofile_testcases@62833051</td></tr>
 <tr>
-<td title='com.oneapp.test_suits.OTP_testcases.validate_invalid_OTP_testcase()'><b>validate_invalid_OTP_testcase</b><br>Test class: com.oneapp.test_suits.OTP_testcases</td>
+<td title='com.oneapp.test_suits.SOS_testcases.validate_dont_send_link_testcase()'><b>validate_dont_send_link_testcase</b><br>Test class: com.oneapp.test_suits.SOS_testcases</td>
 <td></td>
-<td>44</td>
-<td>com.oneapp.test_suits.OTP_testcases@2205a05d</td></tr>
+<td>15</td>
+<td>com.oneapp.test_suits.SOS_testcases@5d99c6b5</td></tr>
 <tr>
-<td title='com.oneapp.test_suits.Myprofile_testcases.validate_save_button_with_no_internet_testcase()'><b>validate_save_button_with_no_internet_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
+<td title='com.oneapp.test_suits.SOS_testcases.validate_SOS_message_sending_testcase()'><b>validate_SOS_message_sending_testcase</b><br>Test class: com.oneapp.test_suits.SOS_testcases</td>
 <td></td>
-<td>80</td>
-<td>com.oneapp.test_suits.Myprofile_testcases@723e88f9</td></tr>
+<td>86</td>
+<td>com.oneapp.test_suits.SOS_testcases@5d99c6b5</td></tr>
 <tr>
-<td title='com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_invalid_address_field_testcase()'><b>validate_saving_with_invalid_address_field_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
+<td title='com.oneapp.test_suits.Login_testcases.validate_invalidLogin_testcase()'><b>validate_invalidLogin_testcase</b><br>Test class: com.oneapp.test_suits.Login_testcases</td>
 <td></td>
 <td>19</td>
-<td>com.oneapp.test_suits.Myprofile_testcases@723e88f9</td></tr>
+<td>com.oneapp.test_suits.Login_testcases@6736fa8d</td></tr>
 <tr>
-<td title='com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_with_no_internet_testcase()'><b>validate_valid_OTP_with_no_internet_testcase</b><br>Test class: com.oneapp.test_suits.OTP_testcases</td>
+<td title='com.oneapp.test_suits.ContactUS_testcases.validate_ContactUS_testcase()'><b>validate_ContactUS_testcase</b><br>Test class: com.oneapp.test_suits.ContactUS_testcases</td>
 <td></td>
-<td>52</td>
-<td>com.oneapp.test_suits.OTP_testcases@2205a05d</td></tr>
-<tr>
-<td title='com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_testcase()'><b>validate_valid_OTP_testcase</b><br>Test class: com.oneapp.test_suits.OTP_testcases</td>
-<td></td>
-<td>134</td>
-<td>com.oneapp.test_suits.OTP_testcases@2205a05d</td></tr>
+<td>95</td>
+<td>com.oneapp.test_suits.ContactUS_testcases@24c4ddae</td></tr>
 <tr>
 <td title='com.oneapp.test_suits.OTP_testcases.validation_valid_OTP_working_expected_after_minimizing_testcase()'><b>validation_valid_OTP_working_expected_after_minimizing_testcase</b><br>Test class: com.oneapp.test_suits.OTP_testcases</td>
 <td></td>
-<td>18</td>
-<td>com.oneapp.test_suits.OTP_testcases@2205a05d</td></tr>
+<td>11</td>
+<td>com.oneapp.test_suits.OTP_testcases@1c39680d</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_saving_with_no_internet_testcase()'><b>validate_emergency_contact_saving_with_no_internet_testcase</b><br>Test class: com.oneapp.test_suits.EmergencyContact_testcases</td>
+<td></td>
+<td>53</td>
+<td>com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_already_exist_testcase()'><b>validate_emergency_contact_already_exist_testcase</b><br>Test class: com.oneapp.test_suits.EmergencyContact_testcases</td>
+<td></td>
+<td>238</td>
+<td>com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_with_blank_MobileNumber_testcase()'><b>validate_emergency_contact_with_blank_MobileNumber_testcase</b><br>Test class: com.oneapp.test_suits.EmergencyContact_testcases</td>
+<td></td>
+<td>37</td>
+<td>com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Login_testcases.validate_continue_with_no_internet_testcase()'><b>validate_continue_with_no_internet_testcase</b><br>Test class: com.oneapp.test_suits.Login_testcases</td>
+<td></td>
+<td>36</td>
+<td>com.oneapp.test_suits.Login_testcases@6736fa8d</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_with_Invalid_details_testcase()'><b>validate_ReferToFriend_with_Invalid_details_testcase</b><br>Test class: com.oneapp.test_suits.ReferToFriend_testcases</td>
+<td></td>
+<td>33</td>
+<td>com.oneapp.test_suits.ReferToFriend_testcases@266374ef</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Dashboard_testcases.validate_relationshipManager_testcase()'><b>validate_relationshipManager_testcase</b><br>Test class: com.oneapp.test_suits.Dashboard_testcases</td>
+<td></td>
+<td>39</td>
+<td>com.oneapp.test_suits.Dashboard_testcases@37fb0bed</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_invalid_address_field_testcase()'><b>validate_saving_with_invalid_address_field_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
+<td></td>
+<td>40</td>
+<td>com.oneapp.test_suits.Myprofile_testcases@62833051</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.OTP_testcases.validate_invalid_OTP_testcase()'><b>validate_invalid_OTP_testcase</b><br>Test class: com.oneapp.test_suits.OTP_testcases</td>
+<td></td>
+<td>47</td>
+<td>com.oneapp.test_suits.OTP_testcases@1c39680d</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.ReferToFriend_testcases.validate_referYourself_testcase()'><b>validate_referYourself_testcase</b><br>Test class: com.oneapp.test_suits.ReferToFriend_testcases</td>
+<td></td>
+<td>42</td>
+<td>com.oneapp.test_suits.ReferToFriend_testcases@266374ef</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.TipsAndDIYVideos_testcases.validate_DIYVideos_successfully()'><b>validate_DIYVideos_successfully</b><br>Test class: com.oneapp.test_suits.TipsAndDIYVideos_testcases</td>
+<td></td>
+<td>25</td>
+<td>com.oneapp.test_suits.TipsAndDIYVideos_testcases@13b3d178</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_with_blank_fullName_testcase()'><b>validate_emergency_contact_with_blank_fullName_testcase</b><br>Test class: com.oneapp.test_suits.EmergencyContact_testcases</td>
+<td></td>
+<td>126</td>
+<td>com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.TipsAndDIYVideos_testcases.validate_TipsPDF_successfully()'><b>validate_TipsPDF_successfully</b><br>Test class: com.oneapp.test_suits.TipsAndDIYVideos_testcases</td>
+<td></td>
+<td>106</td>
+<td>com.oneapp.test_suits.TipsAndDIYVideos_testcases@13b3d178</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_testcase()'><b>validate_valid_OTP_testcase</b><br>Test class: com.oneapp.test_suits.OTP_testcases</td>
+<td></td>
+<td>107</td>
+<td>com.oneapp.test_suits.OTP_testcases@1c39680d</td></tr>
 <tr>
 <td title='com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_invalid_pincode_field_testcase()'><b>validate_saving_with_invalid_pincode_field_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
 <td></td>
-<td>11</td>
-<td>com.oneapp.test_suits.Myprofile_testcases@723e88f9</td></tr>
+<td>31</td>
+<td>com.oneapp.test_suits.Myprofile_testcases@62833051</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_deleted_succesfully_testcase()'><b>validate_emergency_contact_deleted_succesfully_testcase</b><br>Test class: com.oneapp.test_suits.EmergencyContact_testcases</td>
+<td></td>
+<td>63</td>
+<td>com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.ManageLicense_testcases.validation__downloading_the_uploaded_license_testcase()'><b>validation__downloading_the_uploaded_license_testcase</b><br>Test class: com.oneapp.test_suits.ManageLicense_testcases</td>
+<td></td>
+<td>50</td>
+<td>com.oneapp.test_suits.ManageLicense_testcases@a37aefe</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Myprofile_testcases.validate_save_button_with_no_internet_testcase()'><b>validate_save_button_with_no_internet_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
+<td></td>
+<td>62</td>
+<td>com.oneapp.test_suits.Myprofile_testcases@62833051</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_saving_with_invalid_details_testcase()'><b>validate_emergency_contact_saving_with_invalid_details_testcase</b><br>Test class: com.oneapp.test_suits.EmergencyContact_testcases</td>
+<td></td>
+<td>78</td>
+<td>com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.SOS_testcases.validate_closing_alert_window_testcase()'><b>validate_closing_alert_window_testcase</b><br>Test class: com.oneapp.test_suits.SOS_testcases</td>
+<td></td>
+<td>15</td>
+<td>com.oneapp.test_suits.SOS_testcases@5d99c6b5</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_invalid_email_field_testcase()'><b>validate_saving_with_invalid_email_field_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
+<td></td>
+<td>34</td>
+<td>com.oneapp.test_suits.Myprofile_testcases@62833051</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_blank_fullName_field_testcase()'><b>validate_saving_with_blank_fullName_field_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
+<td></td>
+<td>115</td>
+<td>com.oneapp.test_suits.Myprofile_testcases@62833051</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.ManageLicense_testcases.validation_uploading_licence_testcase()'><b>validation_uploading_licence_testcase</b><br>Test class: com.oneapp.test_suits.ManageLicense_testcases</td>
+<td></td>
+<td>134</td>
+<td>com.oneapp.test_suits.ManageLicense_testcases@a37aefe</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.GoodLife_testcases.validate_Goodlife_Non_member_299Plan_asOwner_testcase()'><b>validate_Goodlife_Non_member_299Plan_asOwner_testcase</b><br>Test class: com.oneapp.test_suits.GoodLife_testcases</td>
+<td></td>
+<td>294</td>
+<td>com.oneapp.test_suits.GoodLife_testcases@a82c5f1</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Login_testcases.validate_mininum_length_field_testcase()'><b>validate_mininum_length_field_testcase</b><br>Test class: com.oneapp.test_suits.Login_testcases</td>
+<td></td>
+<td>22</td>
+<td>com.oneapp.test_suits.Login_testcases@6736fa8d</td></tr>
 <tr>
 <td title='com.oneapp.test_suits.OTP_testcases.validate_OTP_after_resend_testcase()'><b>validate_OTP_after_resend_testcase</b><br>Test class: com.oneapp.test_suits.OTP_testcases</td>
 <td></td>
-<td>107</td>
-<td>com.oneapp.test_suits.OTP_testcases@2205a05d</td></tr>
+<td>60</td>
+<td>com.oneapp.test_suits.OTP_testcases@1c39680d</td></tr>
 <tr>
 <td title='com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase()'><b>validate_myprofile_with_valid_details_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
 <td></td>
-<td>278</td>
-<td>com.oneapp.test_suits.Myprofile_testcases@723e88f9</td></tr>
+<td>243</td>
+<td>com.oneapp.test_suits.Myprofile_testcases@62833051</td></tr>
 <tr>
-<td title='com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_invalid_dateofbirth_field_testcase()'><b>validate_saving_with_invalid_dateofbirth_field_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
+<td title='com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_with_No_Internet_testcase()'><b>validate_ReferToFriend_with_No_Internet_testcase</b><br>Test class: com.oneapp.test_suits.ReferToFriend_testcases</td>
 <td></td>
-<td>66</td>
-<td>com.oneapp.test_suits.Myprofile_testcases@723e88f9</td></tr>
+<td>49</td>
+<td>com.oneapp.test_suits.ReferToFriend_testcases@266374ef</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Login_testcases.validation_app_working_expected_after_minimizing_testcase()'><b>validation_app_working_expected_after_minimizing_testcase</b><br>Test class: com.oneapp.test_suits.Login_testcases</td>
+<td></td>
+<td>25</td>
+<td>com.oneapp.test_suits.Login_testcases@6736fa8d</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_with_blank_fields_testcase()'><b>validate_ReferToFriend_with_blank_fields_testcase</b><br>Test class: com.oneapp.test_suits.ReferToFriend_testcases</td>
+<td></td>
+<td>36</td>
+<td>com.oneapp.test_suits.ReferToFriend_testcases@266374ef</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_successfully()'><b>validate_ReferToFriend_successfully</b><br>Test class: com.oneapp.test_suits.ReferToFriend_testcases</td>
+<td></td>
+<td>159</td>
+<td>com.oneapp.test_suits.ReferToFriend_testcases@266374ef</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase()'><b>validate_emergency_contact_added_succesfully_testcase</b><br>Test class: com.oneapp.test_suits.EmergencyContact_testcases</td>
+<td></td>
+<td>137</td>
+<td>com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_with_no_internet_testcase()'><b>validate_valid_OTP_with_no_internet_testcase</b><br>Test class: com.oneapp.test_suits.OTP_testcases</td>
+<td></td>
+<td>60</td>
+<td>com.oneapp.test_suits.OTP_testcases@1c39680d</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_with_blank_relationType_testcase()'><b>validate_emergency_contact_with_blank_relationType_testcase</b><br>Test class: com.oneapp.test_suits.EmergencyContact_testcases</td>
+<td></td>
+<td>43</td>
+<td>com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Dashboard_testcases.validate_RSA_testcase()'><b>validate_RSA_testcase</b><br>Test class: com.oneapp.test_suits.Dashboard_testcases</td>
+<td></td>
+<td>32</td>
+<td>com.oneapp.test_suits.Dashboard_testcases@37fb0bed</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Login_testcases.validate_validLogin_testcase()'><b>validate_validLogin_testcase</b><br>Test class: com.oneapp.test_suits.Login_testcases</td>
+<td></td>
+<td>34</td>
+<td>com.oneapp.test_suits.Login_testcases@6736fa8d</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.Dashboard_testcases.validate_DealorLocator_testcase()'><b>validate_DealorLocator_testcase</b><br>Test class: com.oneapp.test_suits.Dashboard_testcases</td>
+<td></td>
+<td>147</td>
+<td>com.oneapp.test_suits.Dashboard_testcases@37fb0bed</td></tr>
 </table><p>
 </body>
 </html>

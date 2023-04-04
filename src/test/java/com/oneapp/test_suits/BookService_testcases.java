@@ -19,7 +19,7 @@ import com.oneapp.page_actions.Vehicle_Service_Page_actions;
 
 public class BookService_testcases extends BrowserFactory {
 
-	@Test //(priority = 35, groups = {"Smoke", "Regression" })
+	@Test (priority = 40, groups = {"Smoke", "Regression" })
 	public void validate_Bookservice_Paid_testcase() throws InterruptedException {
 //		Login_Page_Action lpa = new Login_Page_Action(ad);
 //		lpa.valid_login();
@@ -65,7 +65,7 @@ public class BookService_testcases extends BrowserFactory {
 	}
 	
 	/*
-	@Test (priority = 35, groups = { "Regression", "Negative" })
+	@Test (priority = 41, groups = { "Regression", "Negative" })
 	public void validate_continue_on_service_center_page_without_internet_testcase() throws InterruptedException {
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
 		dpa.Services_icon();
@@ -83,7 +83,7 @@ public class BookService_testcases extends BrowserFactory {
 		System.out.println("validate_continue_on_service_center_page_without_internet_testcase Passed");
 	}
 	
-	@Test (priority = 36, groups = { "Regression", "Negative" })
+	@Test (priority = 42, groups = { "Regression", "Negative" })
 	public void validate_continue_on_self_job_card_page_without_internet_testcase() throws InterruptedException {
 		Book_service_service_center_page_actions bsscpa = new Book_service_service_center_page_actions(ad);
 		bsscpa.tapping_on_continue_button();

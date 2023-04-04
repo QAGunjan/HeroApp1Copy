@@ -13,13 +13,14 @@ import com.oneapp.page_actions.Goodlife_Profile_Details_Form_299_Page_Action;
 import com.oneapp.page_actions.Goodlife_Select_Your_Plan_Page_Action;
 import com.oneapp.page_actions.Login_Page_Action;
 import com.oneapp.page_actions.OTP_Page_Actions;
+import com.oneapp.page_actions.PaymentPage_page_action;
 import com.oneapp.page_actions.Selected_Vehicle_Page_Actions;
 
 @Listeners(com.oneapp.basic.MyListeners.class)
 
 public class GoodLife_testcases extends BrowserFactory {
 	
-	@Test //(priority = 36, groups = {"Smoke", "Regression" })
+	@Test //(priority = 43, groups = {"Smoke", "Regression" })
 	public void validate_Goodlife_Non_member_199Plan_testcase() throws InterruptedException {
 //		Login_Page_Action lpa = new Login_Page_Action(ad);
 //		lpa.valid_login();
@@ -42,11 +43,9 @@ public class GoodLife_testcases extends BrowserFactory {
 		Goodlife_Profile_Details_Form_199_Page_Action gpdf_199_pa = new Goodlife_Profile_Details_Form_199_Page_Action(
 				ad);
 		gpdf_199_pa.profileForm199PlanProcessAction();
-	
-
 	}
 
-	@Test //(priority = 36, groups = {"Smoke", "Regression" })
+	@Test (priority = 46, groups = {"Smoke", "Regression" })
 	public void validate_Goodlife_Non_member_299Plan_asOwner_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.validLoginAction();
@@ -58,7 +57,7 @@ public class GoodLife_testcases extends BrowserFactory {
 		svpa.selectedVehicleAssertion();
 		svpa.vehicleSelectionAction();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
-//		dpa.Handling_Dashboard_All_Popups();
+		dpa.dashboardAllPopUpAction();
 		dpa.clickGoodlifeIconAction();
 		Goodlife_Dashboard_Non_mem_Page_Actions gdnmpa = new Goodlife_Dashboard_Non_mem_Page_Actions(ad);
 		gdnmpa.clickGoodlifeButtonAction();
@@ -82,6 +81,8 @@ public class GoodLife_testcases extends BrowserFactory {
 		gidf_299_pa.myImmediateFamilyMemberCheckboxAction();
 		gidf_299_pa.termsAndConditionCheckboxAction();
 		gidf_299_pa.tappingPay299ButtonAction();
+		PaymentPage_page_action pppa= new PaymentPage_page_action(ad);
+		pppa.PaymentpageAssertionAction();
 	
 
 	}

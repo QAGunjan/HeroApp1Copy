@@ -10,6 +10,7 @@ import com.oneapp.basic.ExcelData;
 import com.oneapp.basic.Generic;
 import com.oneapp.pageobjects.Goodlife_Profile_Details_Form_199_Page_Object;
 import com.oneapp.pageobjects.Goodlife_Profile_Details_Form_299_Page_Object;
+import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
@@ -30,13 +31,13 @@ public class Goodlife_Profile_Details_Form_299_Page_Action {
 	{
 		if(gpdf_299_po.getOwner_selection_radio_button().isSelected())
 		{
-			System.out.println("Owner is already selected. Thanks!");
+			TestUtils.log().debug("Owner is already selected. Thanks!");
 		}
 		
 		else
 		{
 			Generic.clickOnWebElement(gpdf_299_po.getOwner_selection_radio_button());
-			System.out.println("Now, owner is getting selected. Thanks!");
+			TestUtils.log().debug("Now, owner is getting selected. Thanks!");
 		}
 	}
 	
@@ -48,13 +49,14 @@ public class Goodlife_Profile_Details_Form_299_Page_Action {
 	
 	public void addressField299PlanAssertionAction()
 	{  
-		Generic.softAssertion(gpdf_299_po.getAddress_field_299Plan(), exceldata.getStringData("My Profile", 3, 1));
+		Generic.softAssertion(gpdf_299_po.getAddress_field_299Plan(), exceldata.getStringData("My Profile", 4, 1));
 	}
 	
-	public void clickContinueButtonAction()
+	public void clickContinueButtonAction() throws InterruptedException
 	{
 		Generic.swiping(542, 1565, 535, 715, 4000);
 		Generic.clickOnWebElement(gpdf_299_po.getContinue_button());
+		Thread.sleep(6000);
 	}
 	
 	

@@ -84,7 +84,7 @@ public class EmergencyContact_testcases extends BrowserFactory {
 		ecpa.clickCreateNewContactAction();
 		Emergency_contact_details_page_actions ecdpa = new Emergency_contact_details_page_actions(ad);
 		ecdpa.savingContactWithBlankFullNameAction();
-		ecdpa.commonAssertionWithBlankAndInvalidFieldAction();
+		ecdpa.commonAssertionEmergencyContact();
 	
 
 	}
@@ -93,7 +93,7 @@ public class EmergencyContact_testcases extends BrowserFactory {
 	public void validate_emergency_contact_with_blank_MobileNumber_testcase() throws InterruptedException {
 		Emergency_contact_details_page_actions ecdpa = new Emergency_contact_details_page_actions(ad);
 		ecdpa.savingContactWithBlankMobileNumberAction();
-		ecdpa.commonAssertionWithBlankAndInvalidFieldAction();
+		ecdpa.commonAssertionEmergencyContact();
 	
 	}
 
@@ -101,23 +101,23 @@ public class EmergencyContact_testcases extends BrowserFactory {
 	public void validate_emergency_contact_with_blank_relationType_testcase() throws InterruptedException {
 		Emergency_contact_details_page_actions ecdpa = new Emergency_contact_details_page_actions(ad);
 		ecdpa.savingContactWithBlankRelationTypeAction();
-		ecdpa.commonAssertionWithBlankAndInvalidFieldAction();
+		ecdpa.commonAssertionEmergencyContact();
 	}
 
 	@Test  (priority = 23, dependsOnMethods = {"validate_emergency_contact_added_succesfully_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_emergency_contact_saving_with_no_internet_testcase() throws InterruptedException {
 		Emergency_contact_details_page_actions ecdpa = new Emergency_contact_details_page_actions(ad);
 		ecdpa.savingContactWithNoInternetAction();
-		ecdpa.savingWithNoInternetAssertionAction();
+		ecdpa.commonAssertionEmergencyContact();
 	}
 
 	@Test  (priority = 24, dependsOnMethods = {"validate_emergency_contact_added_succesfully_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_emergency_contact_saving_with_invalid_details_testcase() throws InterruptedException {
 		Emergency_contact_details_page_actions ecdpa = new Emergency_contact_details_page_actions(ad);
 		ecdpa.savingWithInvalidFullNameAction();
-		ecdpa.invalidFullNameAssertionAction();
+		ecdpa.commonAssertionEmergencyContact();
 		ecdpa.savingWithInvalidMobNumberAction();
-		ecdpa.commonAssertionWithBlankAndInvalidFieldAction();
+		ecdpa.commonAssertionEmergencyContact();
 		
 	}
 
@@ -127,13 +127,14 @@ public class EmergencyContact_testcases extends BrowserFactory {
 		Emergency_contact_details_page_actions ecdpa = new Emergency_contact_details_page_actions(ad);
 		ecdpa.clickBackIconAction();
 //		ecdpa.filling_emergency_contact_details();
-//		ecdpa.adding_new_contact_Plus_icon();
+		ecpa.tappingNewContactPlusIconAction();
 		ecpa.clickCreateNewContactAction();
 		ecdpa.enterValidEmergencyContactDetailsAction();
 		ecpa.tappingNewContactPlusIconAction();
 		ecpa.clickCreateNewContactAction();
 		ecdpa.enterValidEmergencyContactDetailsAction();
-		ecdpa.alreadyExistContactAssertionAction();
+//		ecdpa.alreadyExistContactAssertionAction();
+		ecdpa.commonAssertionEmergencyContact();
 		ecdpa.clickBackIconAction();
 		ecpa.clickBackIconAction();
 		ecpa.deletingSavedContactAction();

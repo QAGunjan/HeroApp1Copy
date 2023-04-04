@@ -1,193 +1,377 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+<testng-results ignored="8" total="50" passed="42" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-28T17:21:55 IST" name="RegressionSuite" finished-at="2023-03-28T17:39:37 IST" duration-ms="1061599">
+  <suite started-at="2023-04-04T11:08:52 IST" name="RegressionSuite" finished-at="2023-04-04T12:06:00 IST" duration-ms="3428193">
     <groups>
       <group name="Negative">
-        <method signature="Myprofile_testcases.validate_save_button_with_no_internet_testcase()[pri:17, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_save_button_with_no_internet_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_saving_with_blank_fullName_field_testcase()[pri:12, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_saving_with_blank_fullName_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_saving_with_invalid_address_field_testcase()[pri:15, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_saving_with_invalid_address_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_saving_with_invalid_dateofbirth_field_testcase()[pri:14, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_saving_with_invalid_dateofbirth_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_saving_with_invalid_email_field_testcase()[pri:13, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_saving_with_invalid_email_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_saving_with_invalid_pincode_field_testcase()[pri:16, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_saving_with_invalid_pincode_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="OTP_testcases.validate_valid_OTP_testcase()[pri:6, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" name="validate_valid_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
-        <method signature="OTP_testcases.validate_OTP_after_resend_testcase()[pri:8, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" name="validate_OTP_after_resend_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
-        <method signature="OTP_testcases.validate_invalid_OTP_testcase()[pri:7, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" name="validate_invalid_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
-        <method signature="OTP_testcases.validate_valid_OTP_with_no_internet_testcase()[pri:9, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" name="validate_valid_OTP_with_no_internet_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
-        <method signature="OTP_testcases.validation_valid_OTP_working_expected_after_minimizing_testcase()[pri:10, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" name="validation_valid_OTP_working_expected_after_minimizing_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_already_exist_testcase()[pri:25, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_already_exist_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_saving_with_invalid_details_testcase()[pri:24, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_saving_with_invalid_details_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_saving_with_no_internet_testcase()[pri:23, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_saving_with_no_internet_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_with_blank_MobileNumber_testcase()[pri:21, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_with_blank_MobileNumber_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_with_blank_fullName_testcase()[pri:20, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_with_blank_fullName_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_with_blank_relationType_testcase()[pri:22, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_with_blank_relationType_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="Login_testcases.validate_continue_with_no_internet_testcase()[pri:4, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" name="validate_continue_with_no_internet_testcase" class="com.oneapp.test_suits.Login_testcases"/>
+        <method signature="Login_testcases.validate_invalidLogin_testcase()[pri:2, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" name="validate_invalidLogin_testcase" class="com.oneapp.test_suits.Login_testcases"/>
+        <method signature="Login_testcases.validate_mininum_length_field_testcase()[pri:3, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" name="validate_mininum_length_field_testcase" class="com.oneapp.test_suits.Login_testcases"/>
+        <method signature="Login_testcases.validation_app_working_expected_after_minimizing_testcase()[pri:5, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" name="validation_app_working_expected_after_minimizing_testcase" class="com.oneapp.test_suits.Login_testcases"/>
+        <method signature="Myprofile_testcases.validate_save_button_with_no_internet_testcase()[pri:17, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_save_button_with_no_internet_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_saving_with_blank_fullName_field_testcase()[pri:12, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_saving_with_blank_fullName_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_saving_with_invalid_address_field_testcase()[pri:15, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_saving_with_invalid_address_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_saving_with_invalid_dateofbirth_field_testcase()[pri:14, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_saving_with_invalid_dateofbirth_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_saving_with_invalid_email_field_testcase()[pri:13, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_saving_with_invalid_email_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_saving_with_invalid_pincode_field_testcase()[pri:16, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_saving_with_invalid_pincode_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="OTP_testcases.validate_valid_OTP_testcase()[pri:6, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" name="validate_valid_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="OTP_testcases.validate_OTP_after_resend_testcase()[pri:8, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" name="validate_OTP_after_resend_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="OTP_testcases.validate_invalid_OTP_testcase()[pri:7, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" name="validate_invalid_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="OTP_testcases.validate_valid_OTP_with_no_internet_testcase()[pri:9, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" name="validate_valid_OTP_with_no_internet_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="OTP_testcases.validation_valid_OTP_working_expected_after_minimizing_testcase()[pri:10, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" name="validation_valid_OTP_working_expected_after_minimizing_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="ReferToFriend_testcases.validate_ReferToFriend_with_Invalid_details_testcase()[pri:37, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" name="validate_ReferToFriend_with_Invalid_details_testcase" class="com.oneapp.test_suits.ReferToFriend_testcases"/>
+        <method signature="ReferToFriend_testcases.validate_ReferToFriend_with_No_Internet_testcase()[pri:38, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" name="validate_ReferToFriend_with_No_Internet_testcase" class="com.oneapp.test_suits.ReferToFriend_testcases"/>
+        <method signature="ReferToFriend_testcases.validate_ReferToFriend_with_blank_fields_testcase()[pri:36, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" name="validate_ReferToFriend_with_blank_fields_testcase" class="com.oneapp.test_suits.ReferToFriend_testcases"/>
+        <method signature="ReferToFriend_testcases.validate_referYourself_testcase()[pri:39, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" name="validate_referYourself_testcase" class="com.oneapp.test_suits.ReferToFriend_testcases"/>
       </group> <!-- Negative -->
       <group name="Regression">
-        <method signature="Myprofile_testcases.validate_myprofile_with_valid_details_testcase()[pri:11, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_myprofile_with_valid_details_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_save_button_with_no_internet_testcase()[pri:17, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_save_button_with_no_internet_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_saving_with_blank_fullName_field_testcase()[pri:12, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_saving_with_blank_fullName_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_saving_with_invalid_address_field_testcase()[pri:15, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_saving_with_invalid_address_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_saving_with_invalid_dateofbirth_field_testcase()[pri:14, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_saving_with_invalid_dateofbirth_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_saving_with_invalid_email_field_testcase()[pri:13, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_saving_with_invalid_email_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="Myprofile_testcases.validate_saving_with_invalid_pincode_field_testcase()[pri:16, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_saving_with_invalid_pincode_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
-        <method signature="OTP_testcases.validate_valid_OTP_testcase()[pri:6, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" name="validate_valid_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
-        <method signature="OTP_testcases.validate_OTP_after_resend_testcase()[pri:8, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" name="validate_OTP_after_resend_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
-        <method signature="OTP_testcases.validate_invalid_OTP_testcase()[pri:7, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" name="validate_invalid_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
-        <method signature="OTP_testcases.validate_valid_OTP_with_no_internet_testcase()[pri:9, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" name="validate_valid_OTP_with_no_internet_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
-        <method signature="OTP_testcases.validation_valid_OTP_working_expected_after_minimizing_testcase()[pri:10, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" name="validation_valid_OTP_working_expected_after_minimizing_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="ContactUS_testcases.validate_ContactUS_testcase()[pri:42, instance:com.oneapp.test_suits.ContactUS_testcases@24c4ddae]" name="validate_ContactUS_testcase" class="com.oneapp.test_suits.ContactUS_testcases"/>
+        <method signature="Dashboard_testcases.validate_DealorLocator_testcase()[pri:43, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" name="validate_DealorLocator_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="Dashboard_testcases.validate_RSA_testcase()[pri:45, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" name="validate_RSA_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="Dashboard_testcases.validate_relationshipManager_testcase()[pri:44, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" name="validate_relationshipManager_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase()[pri:18, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_added_succesfully_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_already_exist_testcase()[pri:25, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_already_exist_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_deleted_succesfully_testcase()[pri:19, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_deleted_succesfully_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_saving_with_invalid_details_testcase()[pri:24, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_saving_with_invalid_details_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_saving_with_no_internet_testcase()[pri:23, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_saving_with_no_internet_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_with_blank_MobileNumber_testcase()[pri:21, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_with_blank_MobileNumber_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_with_blank_fullName_testcase()[pri:20, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_with_blank_fullName_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_with_blank_relationType_testcase()[pri:22, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_with_blank_relationType_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="GoodLife_testcases.validate_Goodlife_Non_member_299Plan_asOwner_testcase()[pri:46, instance:com.oneapp.test_suits.GoodLife_testcases@a82c5f1]" name="validate_Goodlife_Non_member_299Plan_asOwner_testcase" class="com.oneapp.test_suits.GoodLife_testcases"/>
+        <method signature="Login_testcases.validate_validLogin_testcase()[pri:1, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" name="validate_validLogin_testcase" class="com.oneapp.test_suits.Login_testcases"/>
+        <method signature="Login_testcases.validate_continue_with_no_internet_testcase()[pri:4, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" name="validate_continue_with_no_internet_testcase" class="com.oneapp.test_suits.Login_testcases"/>
+        <method signature="Login_testcases.validate_invalidLogin_testcase()[pri:2, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" name="validate_invalidLogin_testcase" class="com.oneapp.test_suits.Login_testcases"/>
+        <method signature="Login_testcases.validate_mininum_length_field_testcase()[pri:3, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" name="validate_mininum_length_field_testcase" class="com.oneapp.test_suits.Login_testcases"/>
+        <method signature="Login_testcases.validation_app_working_expected_after_minimizing_testcase()[pri:5, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" name="validation_app_working_expected_after_minimizing_testcase" class="com.oneapp.test_suits.Login_testcases"/>
+        <method signature="ManageLicense_testcases.validation_uploading_licence_testcase()[pri:26, instance:com.oneapp.test_suits.ManageLicense_testcases@a37aefe]" name="validation_uploading_licence_testcase" class="com.oneapp.test_suits.ManageLicense_testcases"/>
+        <method signature="ManageLicense_testcases.validation__downloading_the_uploaded_license_testcase()[pri:27, instance:com.oneapp.test_suits.ManageLicense_testcases@a37aefe]" name="validation__downloading_the_uploaded_license_testcase" class="com.oneapp.test_suits.ManageLicense_testcases"/>
+        <method signature="Myprofile_testcases.validate_myprofile_with_valid_details_testcase()[pri:11, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_myprofile_with_valid_details_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_save_button_with_no_internet_testcase()[pri:17, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_save_button_with_no_internet_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_saving_with_blank_fullName_field_testcase()[pri:12, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_saving_with_blank_fullName_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_saving_with_invalid_address_field_testcase()[pri:15, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_saving_with_invalid_address_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_saving_with_invalid_dateofbirth_field_testcase()[pri:14, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_saving_with_invalid_dateofbirth_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_saving_with_invalid_email_field_testcase()[pri:13, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_saving_with_invalid_email_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="Myprofile_testcases.validate_saving_with_invalid_pincode_field_testcase()[pri:16, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_saving_with_invalid_pincode_field_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="OTP_testcases.validate_valid_OTP_testcase()[pri:6, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" name="validate_valid_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="OTP_testcases.validate_OTP_after_resend_testcase()[pri:8, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" name="validate_OTP_after_resend_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="OTP_testcases.validate_invalid_OTP_testcase()[pri:7, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" name="validate_invalid_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="OTP_testcases.validate_valid_OTP_with_no_internet_testcase()[pri:9, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" name="validate_valid_OTP_with_no_internet_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="OTP_testcases.validation_valid_OTP_working_expected_after_minimizing_testcase()[pri:10, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" name="validation_valid_OTP_working_expected_after_minimizing_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="ReferToFriend_testcases.validate_ReferToFriend_successfully()[pri:35, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" name="validate_ReferToFriend_successfully" class="com.oneapp.test_suits.ReferToFriend_testcases"/>
+        <method signature="ReferToFriend_testcases.validate_ReferToFriend_with_Invalid_details_testcase()[pri:37, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" name="validate_ReferToFriend_with_Invalid_details_testcase" class="com.oneapp.test_suits.ReferToFriend_testcases"/>
+        <method signature="ReferToFriend_testcases.validate_ReferToFriend_with_No_Internet_testcase()[pri:38, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" name="validate_ReferToFriend_with_No_Internet_testcase" class="com.oneapp.test_suits.ReferToFriend_testcases"/>
+        <method signature="ReferToFriend_testcases.validate_ReferToFriend_with_blank_fields_testcase()[pri:36, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" name="validate_ReferToFriend_with_blank_fields_testcase" class="com.oneapp.test_suits.ReferToFriend_testcases"/>
+        <method signature="ReferToFriend_testcases.validate_referYourself_testcase()[pri:39, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" name="validate_referYourself_testcase" class="com.oneapp.test_suits.ReferToFriend_testcases"/>
+        <method signature="SOS_testcases.validate_SOS_message_sending_testcase()[pri:31, instance:com.oneapp.test_suits.SOS_testcases@5d99c6b5]" name="validate_SOS_message_sending_testcase" class="com.oneapp.test_suits.SOS_testcases"/>
+        <method signature="SOS_testcases.validate_closing_alert_window_testcase()[pri:33, instance:com.oneapp.test_suits.SOS_testcases@5d99c6b5]" name="validate_closing_alert_window_testcase" class="com.oneapp.test_suits.SOS_testcases"/>
+        <method signature="SOS_testcases.validate_dont_send_link_testcase()[pri:32, instance:com.oneapp.test_suits.SOS_testcases@5d99c6b5]" name="validate_dont_send_link_testcase" class="com.oneapp.test_suits.SOS_testcases"/>
+        <method signature="TipsAndDIYVideos_testcases.validate_DIYVideos_successfully()[pri:41, instance:com.oneapp.test_suits.TipsAndDIYVideos_testcases@13b3d178]" name="validate_DIYVideos_successfully" class="com.oneapp.test_suits.TipsAndDIYVideos_testcases"/>
+        <method signature="TipsAndDIYVideos_testcases.validate_TipsPDF_successfully()[pri:40, instance:com.oneapp.test_suits.TipsAndDIYVideos_testcases@13b3d178]" name="validate_TipsPDF_successfully" class="com.oneapp.test_suits.TipsAndDIYVideos_testcases"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="Myprofile_testcases.validate_myprofile_with_valid_details_testcase()[pri:11, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" name="validate_myprofile_with_valid_details_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="ContactUS_testcases.validate_ContactUS_testcase()[pri:42, instance:com.oneapp.test_suits.ContactUS_testcases@24c4ddae]" name="validate_ContactUS_testcase" class="com.oneapp.test_suits.ContactUS_testcases"/>
+        <method signature="Dashboard_testcases.validate_DealorLocator_testcase()[pri:43, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" name="validate_DealorLocator_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="Dashboard_testcases.validate_RSA_testcase()[pri:45, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" name="validate_RSA_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="Dashboard_testcases.validate_relationshipManager_testcase()[pri:44, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" name="validate_relationshipManager_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase()[pri:18, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_added_succesfully_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="EmergencyContact_testcases.validate_emergency_contact_deleted_succesfully_testcase()[pri:19, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" name="validate_emergency_contact_deleted_succesfully_testcase" class="com.oneapp.test_suits.EmergencyContact_testcases"/>
+        <method signature="GoodLife_testcases.validate_Goodlife_Non_member_299Plan_asOwner_testcase()[pri:46, instance:com.oneapp.test_suits.GoodLife_testcases@a82c5f1]" name="validate_Goodlife_Non_member_299Plan_asOwner_testcase" class="com.oneapp.test_suits.GoodLife_testcases"/>
+        <method signature="Login_testcases.validate_validLogin_testcase()[pri:1, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" name="validate_validLogin_testcase" class="com.oneapp.test_suits.Login_testcases"/>
+        <method signature="ManageLicense_testcases.validation_uploading_licence_testcase()[pri:26, instance:com.oneapp.test_suits.ManageLicense_testcases@a37aefe]" name="validation_uploading_licence_testcase" class="com.oneapp.test_suits.ManageLicense_testcases"/>
+        <method signature="ManageLicense_testcases.validation__downloading_the_uploaded_license_testcase()[pri:27, instance:com.oneapp.test_suits.ManageLicense_testcases@a37aefe]" name="validation__downloading_the_uploaded_license_testcase" class="com.oneapp.test_suits.ManageLicense_testcases"/>
+        <method signature="Myprofile_testcases.validate_myprofile_with_valid_details_testcase()[pri:11, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" name="validate_myprofile_with_valid_details_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="ReferToFriend_testcases.validate_ReferToFriend_successfully()[pri:35, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" name="validate_ReferToFriend_successfully" class="com.oneapp.test_suits.ReferToFriend_testcases"/>
+        <method signature="SOS_testcases.validate_SOS_message_sending_testcase()[pri:31, instance:com.oneapp.test_suits.SOS_testcases@5d99c6b5]" name="validate_SOS_message_sending_testcase" class="com.oneapp.test_suits.SOS_testcases"/>
+        <method signature="TipsAndDIYVideos_testcases.validate_DIYVideos_successfully()[pri:41, instance:com.oneapp.test_suits.TipsAndDIYVideos_testcases@13b3d178]" name="validate_DIYVideos_successfully" class="com.oneapp.test_suits.TipsAndDIYVideos_testcases"/>
+        <method signature="TipsAndDIYVideos_testcases.validate_TipsPDF_successfully()[pri:40, instance:com.oneapp.test_suits.TipsAndDIYVideos_testcases@13b3d178]" name="validate_TipsPDF_successfully" class="com.oneapp.test_suits.TipsAndDIYVideos_testcases"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-03-28T17:21:55 IST" name="RegressionTests" finished-at="2023-03-28T17:39:37 IST" duration-ms="1061599">
-      <class name="com.oneapp.test_suits.OTP_testcases">
-        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" started-at="2023-03-28T17:21:55 IST" name="Browsers_open" finished-at="2023-03-28T17:22:20 IST" duration-ms="24194" status="PASS">
+    <test started-at="2023-04-04T11:08:52 IST" name="RegressionTests" finished-at="2023-04-04T12:06:00 IST" duration-ms="3428193">
+      <class name="com.oneapp.test_suits.SOS_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.SOS_testcases@5d99c6b5]" started-at="2023-04-04T11:43:55 IST" name="Browsers_open" finished-at="2023-04-04T11:44:18 IST" duration-ms="23203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browsers_open -->
-        <test-method signature="validate_valid_OTP_testcase()[pri:6, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" started-at="2023-03-28T17:22:20 IST" name="validate_valid_OTP_testcase" finished-at="2023-03-28T17:24:34 IST" duration-ms="134015" status="PASS">
+        <test-method signature="validate_SOS_message_sending_testcase()[pri:31, instance:com.oneapp.test_suits.SOS_testcases@5d99c6b5]" started-at="2023-04-04T11:44:18 IST" name="validate_SOS_message_sending_testcase" finished-at="2023-04-04T11:45:44 IST" duration-ms="86245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_SOS_message_sending_testcase -->
+        <test-method signature="validate_dont_send_link_testcase()[pri:32, instance:com.oneapp.test_suits.SOS_testcases@5d99c6b5]" started-at="2023-04-04T11:45:44 IST" name="validate_dont_send_link_testcase" finished-at="2023-04-04T11:46:00 IST" depends-on-methods="com.oneapp.test_suits.SOS_testcases.validate_SOS_message_sending_testcase" duration-ms="15914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_dont_send_link_testcase -->
+        <test-method signature="validate_closing_alert_window_testcase()[pri:33, instance:com.oneapp.test_suits.SOS_testcases@5d99c6b5]" started-at="2023-04-04T11:46:00 IST" name="validate_closing_alert_window_testcase" finished-at="2023-04-04T11:46:16 IST" depends-on-methods="com.oneapp.test_suits.SOS_testcases.validate_SOS_message_sending_testcase" duration-ms="15490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_closing_alert_window_testcase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.SOS_testcases@5d99c6b5]" started-at="2023-04-04T11:46:16 IST" name="Quit_session" finished-at="2023-04-04T11:46:18 IST" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_session -->
+      </class> <!-- com.oneapp.test_suits.SOS_testcases -->
+      <class name="com.oneapp.test_suits.GoodLife_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.GoodLife_testcases@a82c5f1]" started-at="2023-04-04T12:00:42 IST" name="Browsers_open" finished-at="2023-04-04T12:01:04 IST" duration-ms="22097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers_open -->
+        <test-method signature="validate_Goodlife_Non_member_299Plan_asOwner_testcase()[pri:46, instance:com.oneapp.test_suits.GoodLife_testcases@a82c5f1]" started-at="2023-04-04T12:01:04 IST" name="validate_Goodlife_Non_member_299Plan_asOwner_testcase" finished-at="2023-04-04T12:05:58 IST" duration-ms="294470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Goodlife_Non_member_299Plan_asOwner_testcase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.GoodLife_testcases@a82c5f1]" started-at="2023-04-04T12:05:58 IST" name="Quit_session" finished-at="2023-04-04T12:06:00 IST" duration-ms="1806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_session -->
+      </class> <!-- com.oneapp.test_suits.GoodLife_testcases -->
+      <class name="com.oneapp.test_suits.EmergencyContact_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" started-at="2023-04-04T11:27:02 IST" name="Browsers_open" finished-at="2023-04-04T11:27:25 IST" duration-ms="22756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers_open -->
+        <test-method signature="validate_emergency_contact_added_succesfully_testcase()[pri:18, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" started-at="2023-04-04T11:27:25 IST" name="validate_emergency_contact_added_succesfully_testcase" finished-at="2023-04-04T11:29:42 IST" duration-ms="137389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_emergency_contact_added_succesfully_testcase -->
+        <test-method signature="validate_emergency_contact_deleted_succesfully_testcase()[pri:19, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" started-at="2023-04-04T11:29:42 IST" name="validate_emergency_contact_deleted_succesfully_testcase" finished-at="2023-04-04T11:30:45 IST" depends-on-methods="com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase" duration-ms="63028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_emergency_contact_deleted_succesfully_testcase -->
+        <test-method signature="validate_emergency_contact_with_blank_fullName_testcase()[pri:20, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" started-at="2023-04-04T11:30:45 IST" name="validate_emergency_contact_with_blank_fullName_testcase" finished-at="2023-04-04T11:32:52 IST" depends-on-methods="com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase" duration-ms="126578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_emergency_contact_with_blank_fullName_testcase -->
+        <test-method signature="validate_emergency_contact_with_blank_MobileNumber_testcase()[pri:21, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" started-at="2023-04-04T11:32:52 IST" name="validate_emergency_contact_with_blank_MobileNumber_testcase" finished-at="2023-04-04T11:33:29 IST" depends-on-methods="com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase" duration-ms="37285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_emergency_contact_with_blank_MobileNumber_testcase -->
+        <test-method signature="validate_emergency_contact_with_blank_relationType_testcase()[pri:22, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" started-at="2023-04-04T11:33:29 IST" name="validate_emergency_contact_with_blank_relationType_testcase" finished-at="2023-04-04T11:34:13 IST" depends-on-methods="com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase" duration-ms="43678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_emergency_contact_with_blank_relationType_testcase -->
+        <test-method signature="validate_emergency_contact_saving_with_no_internet_testcase()[pri:23, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" started-at="2023-04-04T11:34:13 IST" name="validate_emergency_contact_saving_with_no_internet_testcase" finished-at="2023-04-04T11:35:06 IST" depends-on-methods="com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase" duration-ms="53279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_emergency_contact_saving_with_no_internet_testcase -->
+        <test-method signature="validate_emergency_contact_saving_with_invalid_details_testcase()[pri:24, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" started-at="2023-04-04T11:35:06 IST" name="validate_emergency_contact_saving_with_invalid_details_testcase" finished-at="2023-04-04T11:36:24 IST" depends-on-methods="com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase" duration-ms="78272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_emergency_contact_saving_with_invalid_details_testcase -->
+        <test-method signature="validate_emergency_contact_already_exist_testcase()[pri:25, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" started-at="2023-04-04T11:36:24 IST" name="validate_emergency_contact_already_exist_testcase" finished-at="2023-04-04T11:40:22 IST" depends-on-methods="com.oneapp.test_suits.EmergencyContact_testcases.validate_emergency_contact_added_succesfully_testcase" duration-ms="238091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_emergency_contact_already_exist_testcase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.EmergencyContact_testcases@1c852c0f]" started-at="2023-04-04T11:40:22 IST" name="Quit_session" finished-at="2023-04-04T11:40:24 IST" duration-ms="1972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_session -->
+      </class> <!-- com.oneapp.test_suits.EmergencyContact_testcases -->
+      <class name="com.oneapp.test_suits.ReferToFriend_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" started-at="2023-04-04T11:46:18 IST" name="Browsers_open" finished-at="2023-04-04T11:46:42 IST" duration-ms="24169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers_open -->
+        <test-method signature="validate_ReferToFriend_successfully()[pri:35, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" started-at="2023-04-04T11:46:42 IST" name="validate_ReferToFriend_successfully" finished-at="2023-04-04T11:49:21 IST" duration-ms="159066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_ReferToFriend_successfully -->
+        <test-method signature="validate_ReferToFriend_with_blank_fields_testcase()[pri:36, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" started-at="2023-04-04T11:49:21 IST" name="validate_ReferToFriend_with_blank_fields_testcase" finished-at="2023-04-04T11:49:57 IST" depends-on-methods="com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_successfully" duration-ms="36502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_ReferToFriend_with_blank_fields_testcase -->
+        <test-method signature="validate_ReferToFriend_with_Invalid_details_testcase()[pri:37, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" started-at="2023-04-04T11:49:57 IST" name="validate_ReferToFriend_with_Invalid_details_testcase" finished-at="2023-04-04T11:50:31 IST" depends-on-methods="com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_successfully" duration-ms="33872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_ReferToFriend_with_Invalid_details_testcase -->
+        <test-method signature="validate_ReferToFriend_with_No_Internet_testcase()[pri:38, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" started-at="2023-04-04T11:50:31 IST" name="validate_ReferToFriend_with_No_Internet_testcase" finished-at="2023-04-04T11:51:20 IST" depends-on-methods="com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_successfully" duration-ms="49078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_ReferToFriend_with_No_Internet_testcase -->
+        <test-method signature="validate_referYourself_testcase()[pri:39, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" started-at="2023-04-04T11:51:20 IST" name="validate_referYourself_testcase" finished-at="2023-04-04T11:52:03 IST" depends-on-methods="com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_successfully" duration-ms="42440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_referYourself_testcase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.ReferToFriend_testcases@266374ef]" started-at="2023-04-04T11:52:03 IST" name="Quit_session" finished-at="2023-04-04T11:52:05 IST" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_session -->
+      </class> <!-- com.oneapp.test_suits.ReferToFriend_testcases -->
+      <class name="com.oneapp.test_suits.TipsAndDIYVideos_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.TipsAndDIYVideos_testcases@13b3d178]" started-at="2023-04-04T11:52:05 IST" name="Browsers_open" finished-at="2023-04-04T11:52:26 IST" duration-ms="21717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers_open -->
+        <test-method signature="validate_TipsPDF_successfully()[pri:40, instance:com.oneapp.test_suits.TipsAndDIYVideos_testcases@13b3d178]" started-at="2023-04-04T11:52:26 IST" name="validate_TipsPDF_successfully" finished-at="2023-04-04T11:54:13 IST" duration-ms="106134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_TipsPDF_successfully -->
+        <test-method signature="validate_DIYVideos_successfully()[pri:41, instance:com.oneapp.test_suits.TipsAndDIYVideos_testcases@13b3d178]" started-at="2023-04-04T11:54:13 IST" name="validate_DIYVideos_successfully" finished-at="2023-04-04T11:54:38 IST" duration-ms="25661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_DIYVideos_successfully -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.TipsAndDIYVideos_testcases@13b3d178]" started-at="2023-04-04T11:54:38 IST" name="Quit_session" finished-at="2023-04-04T11:54:40 IST" duration-ms="1994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_session -->
+      </class> <!-- com.oneapp.test_suits.TipsAndDIYVideos_testcases -->
+      <class name="com.oneapp.test_suits.OTP_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" started-at="2023-04-04T11:11:40 IST" name="Browsers_open" finished-at="2023-04-04T11:12:03 IST" duration-ms="23107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers_open -->
+        <test-method signature="validate_valid_OTP_testcase()[pri:6, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" started-at="2023-04-04T11:12:03 IST" name="validate_valid_OTP_testcase" finished-at="2023-04-04T11:13:50 IST" duration-ms="107490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_valid_OTP_testcase -->
-        <test-method signature="validate_invalid_OTP_testcase()[pri:7, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" started-at="2023-03-28T17:24:34 IST" name="validate_invalid_OTP_testcase" finished-at="2023-03-28T17:25:18 IST" depends-on-methods="com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_testcase" duration-ms="44567" status="PASS">
+        <test-method signature="validate_invalid_OTP_testcase()[pri:7, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" started-at="2023-04-04T11:13:50 IST" name="validate_invalid_OTP_testcase" finished-at="2023-04-04T11:14:38 IST" depends-on-methods="com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_testcase" duration-ms="47798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_invalid_OTP_testcase -->
-        <test-method signature="validate_OTP_after_resend_testcase()[pri:8, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" started-at="2023-03-28T17:25:18 IST" name="validate_OTP_after_resend_testcase" finished-at="2023-03-28T17:27:05 IST" depends-on-methods="com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_testcase" duration-ms="107155" status="PASS">
+        <test-method signature="validate_OTP_after_resend_testcase()[pri:8, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" started-at="2023-04-04T11:14:38 IST" name="validate_OTP_after_resend_testcase" finished-at="2023-04-04T11:15:39 IST" depends-on-methods="com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_testcase" duration-ms="60722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_OTP_after_resend_testcase -->
-        <test-method signature="validate_valid_OTP_with_no_internet_testcase()[pri:9, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" started-at="2023-03-28T17:27:05 IST" name="validate_valid_OTP_with_no_internet_testcase" finished-at="2023-03-28T17:27:58 IST" depends-on-methods="com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_testcase" duration-ms="52600" status="PASS">
+        <test-method signature="validate_valid_OTP_with_no_internet_testcase()[pri:9, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" started-at="2023-04-04T11:15:39 IST" name="validate_valid_OTP_with_no_internet_testcase" finished-at="2023-04-04T11:16:40 IST" depends-on-methods="com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_testcase" duration-ms="60774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_valid_OTP_with_no_internet_testcase -->
-        <test-method signature="validation_valid_OTP_working_expected_after_minimizing_testcase()[pri:10, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" started-at="2023-03-28T17:27:58 IST" name="validation_valid_OTP_working_expected_after_minimizing_testcase" finished-at="2023-03-28T17:28:16 IST" depends-on-methods="com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_testcase" duration-ms="18403" status="PASS">
+        <test-method signature="validation_valid_OTP_working_expected_after_minimizing_testcase()[pri:10, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" started-at="2023-04-04T11:16:40 IST" name="validation_valid_OTP_working_expected_after_minimizing_testcase" finished-at="2023-04-04T11:16:51 IST" depends-on-methods="com.oneapp.test_suits.OTP_testcases.validate_valid_OTP_testcase" duration-ms="11425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validation_valid_OTP_working_expected_after_minimizing_testcase -->
-        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.OTP_testcases@2205a05d]" started-at="2023-03-28T17:28:16 IST" name="Quit_session" finished-at="2023-03-28T17:28:18 IST" duration-ms="1847" status="PASS">
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.OTP_testcases@1c39680d]" started-at="2023-04-04T11:16:51 IST" name="Quit_session" finished-at="2023-04-04T11:16:53 IST" duration-ms="1992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Quit_session -->
       </class> <!-- com.oneapp.test_suits.OTP_testcases -->
       <class name="com.oneapp.test_suits.Myprofile_testcases">
-        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" started-at="2023-03-28T17:28:18 IST" name="Browsers_open" finished-at="2023-03-28T17:28:40 IST" duration-ms="22152" status="PASS">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" started-at="2023-04-04T11:16:53 IST" name="Browsers_open" finished-at="2023-04-04T11:17:16 IST" duration-ms="22892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browsers_open -->
-        <test-method signature="validate_myprofile_with_valid_details_testcase()[pri:11, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" started-at="2023-03-28T17:28:40 IST" name="validate_myprofile_with_valid_details_testcase" finished-at="2023-03-28T17:33:19 IST" duration-ms="278420" status="PASS">
+        <test-method signature="validate_myprofile_with_valid_details_testcase()[pri:11, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" started-at="2023-04-04T11:17:16 IST" name="validate_myprofile_with_valid_details_testcase" finished-at="2023-04-04T11:21:20 IST" duration-ms="243845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_myprofile_with_valid_details_testcase -->
-        <test-method signature="validate_saving_with_blank_fullName_field_testcase()[pri:12, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" started-at="2023-03-28T17:33:19 IST" name="validate_saving_with_blank_fullName_field_testcase" finished-at="2023-03-28T17:35:59 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="160071" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: e905104e-09eb-448b-a44a-fb542d6f1c6b
-*** Element info: {Using=id, value=com.customerapp.hero:id/lbl}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: e905104e-09eb-448b-a44a-fb542d6f1c6b
-*** Element info: {Using=id, value=com.customerapp.hero:id/lbl}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
-at com.oneapp.basic.Generic.softAssertion(Generic.java:49)
-at com.oneapp.page_actions.Myprofile_Page_Actions.profileDetailsvalidateAction(Myprofile_Page_Actions.java:31)
-at com.oneapp.test_suits.Myprofile_testcases.validate_saving_with_blank_fullName_field_testcase(Myprofile_testcases.java:76)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="validate_saving_with_blank_fullName_field_testcase()[pri:12, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" started-at="2023-04-04T11:21:20 IST" name="validate_saving_with_blank_fullName_field_testcase" finished-at="2023-04-04T11:23:15 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="115599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_saving_with_blank_fullName_field_testcase -->
-        <test-method signature="validate_saving_with_invalid_email_field_testcase()[pri:13, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" started-at="2023-03-28T17:35:59 IST" name="validate_saving_with_invalid_email_field_testcase" finished-at="2023-03-28T17:36:37 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="37631" status="PASS">
+        <test-method signature="validate_saving_with_invalid_email_field_testcase()[pri:13, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" started-at="2023-04-04T11:23:16 IST" name="validate_saving_with_invalid_email_field_testcase" finished-at="2023-04-04T11:23:50 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="34160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_saving_with_invalid_email_field_testcase -->
-        <test-method signature="validate_saving_with_invalid_dateofbirth_field_testcase()[pri:14, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" started-at="2023-03-28T17:36:37 IST" name="validate_saving_with_invalid_dateofbirth_field_testcase" finished-at="2023-03-28T17:37:43 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="66140" status="PASS">
+        <test-method signature="validate_saving_with_invalid_dateofbirth_field_testcase()[pri:14, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" started-at="2023-04-04T11:23:50 IST" name="validate_saving_with_invalid_dateofbirth_field_testcase" finished-at="2023-04-04T11:24:46 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="56432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_saving_with_invalid_dateofbirth_field_testcase -->
-        <test-method signature="validate_saving_with_invalid_address_field_testcase()[pri:15, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" started-at="2023-03-28T17:37:43 IST" name="validate_saving_with_invalid_address_field_testcase" finished-at="2023-03-28T17:38:03 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="19896" status="PASS">
+        <test-method signature="validate_saving_with_invalid_address_field_testcase()[pri:15, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" started-at="2023-04-04T11:24:46 IST" name="validate_saving_with_invalid_address_field_testcase" finished-at="2023-04-04T11:25:27 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="40553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_saving_with_invalid_address_field_testcase -->
-        <test-method signature="validate_saving_with_invalid_pincode_field_testcase()[pri:16, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" started-at="2023-03-28T17:38:03 IST" name="validate_saving_with_invalid_pincode_field_testcase" finished-at="2023-03-28T17:38:14 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="11222" status="PASS">
+        <test-method signature="validate_saving_with_invalid_pincode_field_testcase()[pri:16, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" started-at="2023-04-04T11:25:27 IST" name="validate_saving_with_invalid_pincode_field_testcase" finished-at="2023-04-04T11:25:58 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="31537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_saving_with_invalid_pincode_field_testcase -->
-        <test-method signature="validate_save_button_with_no_internet_testcase()[pri:17, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" started-at="2023-03-28T17:38:14 IST" name="validate_save_button_with_no_internet_testcase" finished-at="2023-03-28T17:39:35 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="80621" status="PASS">
+        <test-method signature="validate_save_button_with_no_internet_testcase()[pri:17, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" started-at="2023-04-04T11:25:58 IST" name="validate_save_button_with_no_internet_testcase" finished-at="2023-04-04T11:27:00 IST" depends-on-methods="com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase" duration-ms="62031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_save_button_with_no_internet_testcase -->
-        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.Myprofile_testcases@723e88f9]" started-at="2023-03-28T17:39:35 IST" name="Quit_session" finished-at="2023-03-28T17:39:37 IST" duration-ms="1980" status="PASS">
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.Myprofile_testcases@62833051]" started-at="2023-04-04T11:27:00 IST" name="Quit_session" finished-at="2023-04-04T11:27:02 IST" duration-ms="1869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Quit_session -->
       </class> <!-- com.oneapp.test_suits.Myprofile_testcases -->
+      <class name="com.oneapp.test_suits.Login_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" started-at="2023-04-04T11:08:52 IST" name="Browsers_open" finished-at="2023-04-04T11:09:19 IST" duration-ms="26643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers_open -->
+        <test-method signature="validate_validLogin_testcase()[pri:1, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" started-at="2023-04-04T11:09:19 IST" name="validate_validLogin_testcase" finished-at="2023-04-04T11:09:54 IST" duration-ms="34974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_validLogin_testcase -->
+        <test-method signature="validate_invalidLogin_testcase()[pri:2, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" started-at="2023-04-04T11:09:54 IST" name="validate_invalidLogin_testcase" finished-at="2023-04-04T11:10:13 IST" depends-on-methods="com.oneapp.test_suits.Login_testcases.validate_validLogin_testcase" duration-ms="19294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_invalidLogin_testcase -->
+        <test-method signature="validate_mininum_length_field_testcase()[pri:3, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" started-at="2023-04-04T11:10:13 IST" name="validate_mininum_length_field_testcase" finished-at="2023-04-04T11:10:36 IST" depends-on-methods="com.oneapp.test_suits.Login_testcases.validate_validLogin_testcase" duration-ms="22980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_mininum_length_field_testcase -->
+        <test-method signature="validate_continue_with_no_internet_testcase()[pri:4, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" started-at="2023-04-04T11:10:36 IST" name="validate_continue_with_no_internet_testcase" finished-at="2023-04-04T11:11:12 IST" depends-on-methods="com.oneapp.test_suits.Login_testcases.validate_validLogin_testcase" duration-ms="36093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_continue_with_no_internet_testcase -->
+        <test-method signature="validation_app_working_expected_after_minimizing_testcase()[pri:5, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" started-at="2023-04-04T11:11:12 IST" name="validation_app_working_expected_after_minimizing_testcase" finished-at="2023-04-04T11:11:38 IST" depends-on-methods="com.oneapp.test_suits.Login_testcases.validate_validLogin_testcase" duration-ms="25785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_app_working_expected_after_minimizing_testcase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.Login_testcases@6736fa8d]" started-at="2023-04-04T11:11:38 IST" name="Quit_session" finished-at="2023-04-04T11:11:40 IST" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_session -->
+      </class> <!-- com.oneapp.test_suits.Login_testcases -->
+      <class name="com.oneapp.test_suits.Dashboard_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" started-at="2023-04-04T11:56:39 IST" name="Browsers_open" finished-at="2023-04-04T11:57:00 IST" duration-ms="21338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers_open -->
+        <test-method signature="validate_DealorLocator_testcase()[pri:43, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" started-at="2023-04-04T11:57:00 IST" name="validate_DealorLocator_testcase" finished-at="2023-04-04T11:59:28 IST" duration-ms="147736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_DealorLocator_testcase -->
+        <test-method signature="validate_relationshipManager_testcase()[pri:44, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" started-at="2023-04-04T11:59:28 IST" name="validate_relationshipManager_testcase" finished-at="2023-04-04T12:00:07 IST" duration-ms="39350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_relationshipManager_testcase -->
+        <test-method signature="validate_RSA_testcase()[pri:45, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" started-at="2023-04-04T12:00:07 IST" name="validate_RSA_testcase" finished-at="2023-04-04T12:00:40 IST" duration-ms="32524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_RSA_testcase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.Dashboard_testcases@37fb0bed]" started-at="2023-04-04T12:00:40 IST" name="Quit_session" finished-at="2023-04-04T12:00:42 IST" duration-ms="1777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_session -->
+      </class> <!-- com.oneapp.test_suits.Dashboard_testcases -->
+      <class name="com.oneapp.test_suits.ManageLicense_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.ManageLicense_testcases@a37aefe]" started-at="2023-04-04T11:40:24 IST" name="Browsers_open" finished-at="2023-04-04T11:40:47 IST" duration-ms="22930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers_open -->
+        <test-method signature="validation_uploading_licence_testcase()[pri:26, instance:com.oneapp.test_suits.ManageLicense_testcases@a37aefe]" started-at="2023-04-04T11:40:47 IST" name="validation_uploading_licence_testcase" finished-at="2023-04-04T11:43:02 IST" duration-ms="134739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_uploading_licence_testcase -->
+        <test-method signature="validation__downloading_the_uploaded_license_testcase()[pri:27, instance:com.oneapp.test_suits.ManageLicense_testcases@a37aefe]" started-at="2023-04-04T11:43:02 IST" name="validation__downloading_the_uploaded_license_testcase" finished-at="2023-04-04T11:43:53 IST" depends-on-methods="com.oneapp.test_suits.ManageLicense_testcases.validation_uploading_licence_testcase" duration-ms="50826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation__downloading_the_uploaded_license_testcase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.ManageLicense_testcases@a37aefe]" started-at="2023-04-04T11:43:53 IST" name="Quit_session" finished-at="2023-04-04T11:43:55 IST" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_session -->
+      </class> <!-- com.oneapp.test_suits.ManageLicense_testcases -->
+      <class name="com.oneapp.test_suits.ContactUS_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.ContactUS_testcases@24c4ddae]" started-at="2023-04-04T11:54:40 IST" name="Browsers_open" finished-at="2023-04-04T11:55:01 IST" duration-ms="21165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers_open -->
+        <test-method signature="validate_ContactUS_testcase()[pri:42, instance:com.oneapp.test_suits.ContactUS_testcases@24c4ddae]" started-at="2023-04-04T11:55:01 IST" name="validate_ContactUS_testcase" finished-at="2023-04-04T11:56:37 IST" duration-ms="95945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_ContactUS_testcase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.ContactUS_testcases@24c4ddae]" started-at="2023-04-04T11:56:37 IST" name="Quit_session" finished-at="2023-04-04T11:56:39 IST" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit_session -->
+      </class> <!-- com.oneapp.test_suits.ContactUS_testcases -->
     </test> <!-- RegressionTests -->
   </suite> <!-- RegressionSuite -->
 </testng-results>

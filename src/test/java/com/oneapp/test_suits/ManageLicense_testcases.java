@@ -40,6 +40,7 @@ public class ManageLicense_testcases extends BrowserFactory {
 		Driving_License_Page_Actions dlpa = new Driving_License_Page_Actions(ad);
 		dlpa.clickThreeDotsAction();
 		dlpa.uploadingLicenseProcessAction();
+//		dlpa.uploadedLicenseAssertionAction();
 		
 //		dlpa.click_back_button();
 //		mppa.click_back_icon();
@@ -51,10 +52,8 @@ public class ManageLicense_testcases extends BrowserFactory {
 	public void validation__downloading_the_uploaded_license_testcase() throws InterruptedException, IOException {
 
 		Driving_License_Page_Actions dlpa = new Driving_License_Page_Actions(ad);
-		dlpa.clickThreeDotsAction();
 		dlpa.downloadingLicenceprocessAction();
-//		dlpa.assertion_of_downloaded_license();
-		
+//		dlpa.downloadedLicenseAssertionAction();
 		Myprofile_Page_Actions mppa = new Myprofile_Page_Actions(ad);
 		dlpa.clickBackIconAction();
 		mppa.clickBackIconAction();
@@ -67,18 +66,16 @@ public class ManageLicense_testcases extends BrowserFactory {
 //		mbpa.closing_menubar_icon();
 	}
 
-	/*
-	@Test (priority = 28, groups = {"Smoke", "Regression" })
+	
+	@Test //(priority = 28, dependsOnMethods = {"validation_uploading_licence_testcase"} ,groups = {"Smoke", "Regression" })
 	public void validation__sharing_the_uploaded_license_testcase() throws InterruptedException, IOException {
 
 		Driving_License_Page_Actions dlpa = new Driving_License_Page_Actions(ad);
-		dlpa.click_three_dots();
-		dlpa.sharing_license();
-		dlpa.assertion_of_sharing_license();
-		System.out.println("**********************");
-		System.out.println("validation__sharing_the_uploaded_license_testcase Passed");
+		dlpa.clickThreeDotsAction();
+		dlpa.sharingLicenseAction();
+		dlpa.sharingLicenseAssertionAction();
 	}
-*/
+
 	@Test //(priority = 29, groups = { "Regression", "Negative" })
 	public void validation_uploading_license_without_internet_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
@@ -91,6 +88,7 @@ public class ManageLicense_testcases extends BrowserFactory {
 		svpa.selectedVehicleAssertion();
 		svpa.vehicleSelectionAction();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
+		dpa.dashboardAllPopUpAction();
 		dpa.clickMenuBarAction();
 		Menu_Bar_Page_Actions mbpa = new Menu_Bar_Page_Actions(ad);
 		mbpa.clickMyProfileFromMenuBarAction();

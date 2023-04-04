@@ -23,13 +23,13 @@ public class Extent_Reports_Generator {
 		String path= directory + fileName;
 		report = new ExtentHtmlReporter(path);
 		
-		report.config().setDocumentTitle("Hero_App-Automation Test Report");
-		report.config().setReportName("Hero_App");
-		report.config().setTheme(Theme.DARK);
+		report.config().setDocumentTitle("HeroApp-Automation Test Report");
+		report.config().setReportName("HeroApp");
+//		report.config().setTheme(Theme.DARK);
 		
 		extent=new ExtentReports();
 		extent.attachReporter(report);
-		extent.setSystemInfo("Project Name", "Hero_App");
+		extent.setSystemInfo("Project Name", "HeroApp");
 		extent.setSystemInfo("QA", "Gunjan Rawat");
 		extent.setSystemInfo("Operating system", "Windows 10");
 		return extent;
@@ -39,6 +39,7 @@ public class Extent_Reports_Generator {
 	 {
 		 Date d= new Date();
 		 String fileName = "AutomationReport_" + "_"+ d.toString().replace(":", "_").replace("", "_") + ".html";
+
 		 return fileName;
 	 }
 

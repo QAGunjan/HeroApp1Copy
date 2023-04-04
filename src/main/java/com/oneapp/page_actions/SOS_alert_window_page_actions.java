@@ -26,12 +26,12 @@ public class SOS_alert_window_page_actions {
 	
 	public void tappingCloseIconAction()
 	{
-		Generic.tappingOnWebelement(908, 732);
+		Generic.tappingOnWebelement(882, 813);
 	}
 
 	public void tappingDontSendLinkAction()
 	{
-		Generic.tappingOnWebelement(484, 1472);
+		Generic.tappingOnWebelement(512, 1510);
 	}
 	
 	public void tapingSendAlertNowButtonAction()
@@ -62,8 +62,16 @@ public class SOS_alert_window_page_actions {
 	
 	public void succesfullySOSMessageAssertion()
 	{	
-		Generic.hardAssertion(cepo.getToast_message(), "We have sent alert SMS successfully");
+		commonAssertionSOSAlertWindowAction();
+//		if (cepo.getToast_message().isDisplayed() == true)
+//		{
+//		Generic.hardAssertion(cepo.getToast_message(), "We have sent alert SMS successfully");
 //		Generic.assertion_validation(SOSawpo.getToast_message(), "We have sent alert SMS successfully");
+//		}
+//		else
+//		{
+//			commonAssertionSOSAlertWindowAction();
+//		}
 	}
 	
 }

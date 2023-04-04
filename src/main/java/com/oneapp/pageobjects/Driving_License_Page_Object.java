@@ -12,8 +12,8 @@ public class Driving_License_Page_Object {
 	@FindBy(id = "com.customerapp.hero:id/icon2")
 	private WebElement three_dots;
 
-	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_foreground_only_button")
-	private WebElement take_pictures_pop_up;
+//	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_foreground_only_button")
+//	private WebElement take_pictures_pop_up;
 	
 	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
 	private WebElement acess_photos_and_medio_pop_up;
@@ -30,7 +30,7 @@ public class Driving_License_Page_Object {
 	@FindBy(id = "com.google.android.documentsui:id/icon_thumb")
 	private WebElement image_under_emulator;
 	
-	@FindBy(id = "com.android.documentsui:id/icon_thumb")
+	@FindBy(id = "com.google.android.documentsui:id/icon_thumb")
 	private WebElement image_under_realDevice;
 	
 	@FindBy(id = "com.customerapp.hero:id/crop_image_menu_crop")
@@ -39,6 +39,8 @@ public class Driving_License_Page_Object {
 	@FindBy(xpath="//*[@text='Allow Hero App to take pictures and record video?']")
 	private WebElement take_pictures_pop;
 	
+	@FindBy(xpath="//*[@text='Allow Hero App to access photos and videos on this device?']")
+	private WebElement accessPhotosAndVideos;
 	
 	public Driving_License_Page_Object(AndroidDriver ad) {
 
@@ -51,9 +53,9 @@ public class Driving_License_Page_Object {
 		return three_dots;
 	}
 
-	public WebElement getTake_pictures_pop_up() {
-		return take_pictures_pop_up;
-	}
+//	public WebElement getTake_pictures_pop_up() {
+//		return take_pictures_pop_up;
+//	}
 
 
 	public WebElement getAcess_photos_and_medio_pop_up() {
@@ -102,6 +104,12 @@ public class Driving_License_Page_Object {
 	public WebElement getImage_under_realDevice() {
 		return image_under_realDevice;
 	}
+
+
+	public WebElement getAccessPhotosAndVideos() {
+		return accessPhotosAndVideos;
+	}
+
 
 
 

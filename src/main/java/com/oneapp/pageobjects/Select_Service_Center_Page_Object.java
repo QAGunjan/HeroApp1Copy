@@ -16,7 +16,7 @@ public class Select_Service_Center_Page_Object {
 	private WebElement list_view_icon;
 	
 	
-	@FindBy(id="com.customerapp.hero:id/state_sp")
+	@FindBy(id="com.customerapp.hero:id/state_sp") 
 	private WebElement state_box;
 	
 	@FindBy(id="com.customerapp.hero:id/city_sp")

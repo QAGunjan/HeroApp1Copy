@@ -1,0 +1,886 @@
+[INFO ] 2023-03-31 09:25:07.455 Create_Driver_Session:51 - PLATFORM NAME IS --> Android
+[INFO ] 2023-03-31 09:25:07.477 Create_Driver_Session:53 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-03-31 09:25:07.479 Create_Driver_Session:55 - PLATFORM VERSION IS --> 13.0
+[INFO ] 2023-03-31 09:25:07.480 Create_Driver_Session:57 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-03-31 09:25:07.481 Create_Driver_Session:59 - UDID IS --> RZCT904J89D
+[INFO ] 2023-03-31 09:25:07.484 Create_Driver_Session:63 - App Location is D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-master-with-sit.apk
+[INFO ] 2023-03-31 09:25:07.487 Create_Driver_Session:64 - App URL is https://hero-one-app-hero-one-app-sit.azurewebsites.net/
+[DEBUG] 2023-03-31 09:25:32.895 BrowserFactory:57 - Android Real device gets opened
+[DEBUG] 2023-03-31 09:25:36.516 BrowserFactory:59 - Application has been reset
+[DEBUG] 2023-03-31 09:25:36.551 MyListeners:42 - [1;30mVALIDATE_GOODLIFE_NON_MEMBER_299PLAN_ASOWNER_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 09:25:38.959 Generic:167 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-03-31 09:25:39.413 Generic:151 - Successfully Click  ----> Allow
+[DEBUG] 2023-03-31 09:25:40.518 Generic:167 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 09:25:40.519 Generic:177 - Successfully cleared textbox
+[DEBUG] 2023-03-31 09:25:41.542 Generic:167 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 09:25:43.556 Generic:189 - Successfully enter value ----> 9958592171
+[DEBUG] 2023-03-31 09:25:45.241 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 09:25:45.610 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 09:25:47.784 Generic:171 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.id: com.customerapp.hero:id/lbl2' is not linked to the same object in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\ECLIPSE_LATEST\HeroApp1\..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\ECLIPSE_LATEST\HeroApp1\..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a20e0f4d-2f3c-4575-9ecf-56bb1cd98e5d[0m
+[DEBUG] 2023-03-31 09:25:47.885 Generic:42 - Actual element --> Verify with OTP
+[DEBUG] 2023-03-31 09:25:54.967 Generic:167 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-03-31 09:25:55.927 Generic:151 - Successfully Click  ----> Verify
+[DEBUG] 2023-03-31 09:26:12.530 Generic:167 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 09:26:12.734 Generic:42 - Actual element --> Book service PAID
+[DEBUG] 2023-03-31 09:26:13.398 Generic:167 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 09:26:13.884 Generic:151 - Successfully Click  ----> Book service PAID
+[DEBUG] 2023-03-31 09:26:14.676 Selected_Vehicle_Page_Actions:48 - Book service PAID Vin selected
+[DEBUG] 2023-03-31 09:26:15.067 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 09:26:15.497 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 09:26:21.273 Generic:167 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-03-31 09:26:21.702 Generic:151 - Successfully Click  ----> Only this time
+[DEBUG] 2023-03-31 09:26:34.067 Generic:167 - Successfully Visibility  ----> GoodLife
+[DEBUG] 2023-03-31 09:26:34.937 Generic:151 - Successfully Click  ----> GoodLife
+[DEBUG] 2023-03-31 09:26:38.280 Generic:167 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 09:26:39.391 Generic:151 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 09:26:43.565 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 09:26:51.637 Generic:167 - Successfully Visibility  ----> View all Benefits
+[DEBUG] 2023-03-31 09:26:52.223 Generic:151 - Successfully Click  ----> View all Benefits
+[DEBUG] 2023-03-31 09:26:53.879 Generic:167 - Successfully Visibility  ----> Select Plan
+[DEBUG] 2023-03-31 09:26:54.638 Generic:151 - Successfully Click  ----> Select Plan
+[DEBUG] 2023-03-31 09:26:56.266 Generic:167 - Successfully Visibility  ----> Owner
+[DEBUG] 2023-03-31 09:26:56.601 Generic:151 - Successfully Click  ----> Owner
+[DEBUG] 2023-03-31 09:26:56.766 Goodlife_Profile_Details_Form_299_Page_Action:40 - Now, owner is getting selected. Thanks!
+[DEBUG] 2023-03-31 09:26:57.832 Generic:167 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 09:26:58.422 Generic:167 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 09:27:18.607 Generic:155 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-master-with-sit.apk, appActivity=com.customerapp.hero.views.activity.splash.SplashActivity, appPackage=com.customerapp.hero, automationName=UiAutomator2, databaseEnabled=false, desired={platformName=android, app=D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-master-with-sit.apk, appActivity=com.customerapp.hero.views.activity.splash.SplashActivity, appPackage=com.customerapp.hero, newCommandTimeout=1200, automationName=UiAutomator2, deviceName=Samsung, platformVersion=13.0, udid=RZCT904J89D}, deviceApiLevel=33, deviceManufacturer=samsung, deviceModel=SM-M536B, deviceName=RZCT904J89D, deviceScreenDensity=450, deviceScreenSize=1080x2400, deviceUDID=RZCT904J89D, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=1200, pixelRatio=2.8125, platform=LINUX, platformName=Android, platformVersion=13, statBarHeight=90, takesScreenshot=true, udid=RZCT904J89D, viewportRect={left=0, top=90, width=1080, height=2085}, warnings={}, webStorageEnabled=false}] -> xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.EditText] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\ECLIPSE_LATEST\HeroApp1\..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\ECLIPSE_LATEST\HeroApp1\..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a20e0f4d-2f3c-4575-9ecf-56bb1cd98e5d[0m
+[DEBUG] 2023-03-31 09:27:19.145 Generic:167 - Successfully Visibility  ----> Mumbai Colony 1152
+[DEBUG] 2023-03-31 09:27:19.319 Generic:51 - Actual element --> Mumbai Colony 1152
+[DEBUG] 2023-03-31 09:27:23.321 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 09:27:30.241 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 09:27:30.783 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 09:27:31.941 Generic:167 - Successfully Visibility  ----> Nominee Name
+[DEBUG] 2023-03-31 09:27:33.955 Generic:189 - Successfully enter value ----> Karan
+[DEBUG] 2023-03-31 09:27:35.200 Generic:167 - Successfully Visibility  ----> Nominee Relationship with Member
+[DEBUG] 2023-03-31 09:27:35.331 Generic:151 - Successfully Click  ----> Nominee Relationship with Member
+[DEBUG] 2023-03-31 09:27:39.456 Generic:117 - Tap action performs succesfully
+[DEBUG] 2023-03-31 09:27:43.586 Generic:167 - Successfully Visibility  ----> Nominee Contact Number
+[DEBUG] 2023-03-31 09:27:45.600 Generic:189 - Successfully enter value ----> 8130998133
+[DEBUG] 2023-03-31 09:27:46.873 Generic:167 - Successfully Visibility  ----> Nominee address same as member
+[DEBUG] 2023-03-31 09:27:46.993 Generic:151 - Successfully Click  ----> Nominee address same as member
+[DEBUG] 2023-03-31 09:27:48.079 Generic:167 - Successfully Visibility  ----> Mumbai Colony 1152
+[DEBUG] 2023-03-31 09:27:48.130 Generic:51 - Actual element --> Mumbai Colony 1152
+[DEBUG] 2023-03-31 09:27:52.145 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 09:27:58.772 Generic:167 - Successfully Visibility  ----> Relation Type
+[DEBUG] 2023-03-31 09:27:58.872 Generic:151 - Successfully Click  ----> Relation Type
+[DEBUG] 2023-03-31 09:28:03.854 Generic:117 - Tap action performs succesfully
+[DEBUG] 2023-03-31 09:28:38.628 Generic:171 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[6]/android.widget.FrameLayout/android.widget.EditText' (tried for 20 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-03-31 09:28:40.643 Generic:189 - Successfully enter value ----> Raj
+[DEBUG] 2023-03-31 09:28:50.757 MyListeners:56 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428), io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151), io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1), org.openqa.selenium.By$ByXPath.findElement(By.java:353), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source), com.oneapp.basic.Generic.sendKeysOnTextfields(Generic.java:190), com.oneapp.page_actions.Goodlife_Insurance_Details_Form_299_Page_Action.enterRelativeNameAction(Goodlife_Insurance_Details_Form_299_Page_Action.java:59), com.oneapp.test_suits.GoodLife_testcases.validate_Goodlife_Non_member_299Plan_asOwner_testcase(GoodLife_testcases.java:79), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-03-31 09:28:51.219 MyListeners:103 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1/screenshots/validate_Goodlife_Non_member_299Plan_asOwner_testcase__F_r_i_ _M_a_r_ _3_1_ _0_9___2_8___5_0_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-03-31 09:28:51.232 MyListeners:73 - [1;31mVALIDATE_GOODLIFE_NON_MEMBER_299PLAN_ASOWNER_TESTCASE - FAILURE[0m
+[DEBUG] 2023-03-31 09:28:53.025 BrowserFactory:71 - Android Real device gets closed
+[DEBUG] 2023-03-31 09:28:53.026 BrowserFactory:72 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-03-31 10:07:25.977 Create_Driver_Session:51 - PLATFORM NAME IS --> Android
+[INFO ] 2023-03-31 10:07:25.984 Create_Driver_Session:53 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-03-31 10:07:25.985 Create_Driver_Session:55 - PLATFORM VERSION IS --> 13.0
+[INFO ] 2023-03-31 10:07:25.987 Create_Driver_Session:57 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-03-31 10:07:25.988 Create_Driver_Session:59 - UDID IS --> RZCT904J89D
+[INFO ] 2023-03-31 10:07:25.988 Create_Driver_Session:63 - App Location is D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-master-with-sit.apk
+[INFO ] 2023-03-31 10:07:25.989 Create_Driver_Session:64 - App URL is https://hero-one-app-hero-one-app-sit.azurewebsites.net/
+[DEBUG] 2023-03-31 10:07:48.867 BrowserFactory:57 - Android Real device gets opened
+[DEBUG] 2023-03-31 10:07:52.447 BrowserFactory:59 - Application has been reset
+[DEBUG] 2023-03-31 10:07:52.549 MyListeners:42 - [1;30mVALIDATE_GOODLIFE_NON_MEMBER_299PLAN_ASOWNER_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 10:07:54.724 Generic:167 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-03-31 10:07:55.143 Generic:151 - Successfully Click  ----> Allow
+[DEBUG] 2023-03-31 10:07:56.219 Generic:167 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 10:07:56.221 Generic:177 - Successfully cleared textbox
+[DEBUG] 2023-03-31 10:07:57.158 Generic:167 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 10:07:59.160 Generic:189 - Successfully enter value ----> 9958592171
+[DEBUG] 2023-03-31 10:08:01.100 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 10:08:01.480 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 10:08:03.902 Generic:167 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-03-31 10:08:03.997 Generic:42 - Actual element --> Verify with OTP
+[DEBUG] 2023-03-31 10:08:10.943 Generic:167 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-03-31 10:08:11.839 Generic:151 - Successfully Click  ----> Verify
+[DEBUG] 2023-03-31 10:08:16.080 Generic:167 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 10:08:16.232 Generic:42 - Actual element --> Book service PAID
+[DEBUG] 2023-03-31 10:08:16.898 Generic:167 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 10:08:17.307 Generic:151 - Successfully Click  ----> Book service PAID
+[DEBUG] 2023-03-31 10:08:18.037 Selected_Vehicle_Page_Actions:48 - Book service PAID Vin selected
+[DEBUG] 2023-03-31 10:08:18.406 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 10:08:18.681 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 10:08:24.255 Generic:167 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-03-31 10:08:24.542 Generic:151 - Successfully Click  ----> Only this time
+[DEBUG] 2023-03-31 10:08:31.396 Generic:167 - Successfully Visibility  ----> GoodLife
+[DEBUG] 2023-03-31 10:08:32.176 Generic:151 - Successfully Click  ----> GoodLife
+[DEBUG] 2023-03-31 10:08:34.896 Generic:167 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 10:08:35.265 Generic:151 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 10:08:39.442 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 10:08:47.489 Generic:167 - Successfully Visibility  ----> View all Benefits
+[DEBUG] 2023-03-31 10:08:48.030 Generic:151 - Successfully Click  ----> View all Benefits
+[DEBUG] 2023-03-31 10:08:49.694 Generic:167 - Successfully Visibility  ----> Select Plan
+[DEBUG] 2023-03-31 10:08:50.435 Generic:151 - Successfully Click  ----> Select Plan
+[DEBUG] 2023-03-31 10:08:52.069 Generic:167 - Successfully Visibility  ----> Owner
+[DEBUG] 2023-03-31 10:08:52.345 Generic:151 - Successfully Click  ----> Owner
+[DEBUG] 2023-03-31 10:08:52.490 Goodlife_Profile_Details_Form_299_Page_Action:40 - Now, owner is getting selected. Thanks!
+[DEBUG] 2023-03-31 10:08:53.566 Generic:167 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 10:08:54.164 Generic:167 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 10:09:14.946 Generic:155 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-master-with-sit.apk, appActivity=com.customerapp.hero.views.activity.splash.SplashActivity, appPackage=com.customerapp.hero, automationName=UiAutomator2, databaseEnabled=false, desired={platformName=android, app=D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-master-with-sit.apk, appActivity=com.customerapp.hero.views.activity.splash.SplashActivity, appPackage=com.customerapp.hero, newCommandTimeout=1200, automationName=UiAutomator2, deviceName=Samsung, platformVersion=13.0, udid=RZCT904J89D}, deviceApiLevel=33, deviceManufacturer=samsung, deviceModel=SM-M536B, deviceName=RZCT904J89D, deviceScreenDensity=450, deviceScreenSize=1080x2400, deviceUDID=RZCT904J89D, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=1200, pixelRatio=2.8125, platform=LINUX, platformName=Android, platformVersion=13, statBarHeight=90, takesScreenshot=true, udid=RZCT904J89D, viewportRect={left=0, top=90, width=1080, height=2085}, warnings={}, webStorageEnabled=false}] -> xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.EditText] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\ECLIPSE_LATEST\HeroApp1\..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\ECLIPSE_LATEST\HeroApp1\..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a9aa74e6-b27e-44fb-b666-89173a47217b[0m
+[DEBUG] 2023-03-31 10:09:15.452 Generic:167 - Successfully Visibility  ----> Mumbai Colony 1152
+[DEBUG] 2023-03-31 10:09:15.674 Generic:51 - Actual element --> Mumbai Colony 1152
+[DEBUG] 2023-03-31 10:09:19.687 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 10:09:26.542 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 10:09:27.067 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 10:09:28.485 Generic:167 - Successfully Visibility  ----> Nominee Name
+[DEBUG] 2023-03-31 10:09:30.500 Generic:189 - Successfully enter value ----> Karan
+[DEBUG] 2023-03-31 10:09:31.990 Generic:167 - Successfully Visibility  ----> Nominee Relationship with Member
+[DEBUG] 2023-03-31 10:09:32.280 Generic:151 - Successfully Click  ----> Nominee Relationship with Member
+[DEBUG] 2023-03-31 10:09:36.504 Generic:117 - Tap action performs succesfully
+[DEBUG] 2023-03-31 10:09:40.966 Generic:167 - Successfully Visibility  ----> Nominee Contact Number
+[DEBUG] 2023-03-31 10:09:42.982 Generic:189 - Successfully enter value ----> 8130998133
+[DEBUG] 2023-03-31 10:09:44.614 Generic:167 - Successfully Visibility  ----> Nominee address same as member
+[DEBUG] 2023-03-31 10:09:44.944 Generic:151 - Successfully Click  ----> Nominee address same as member
+[DEBUG] 2023-03-31 10:09:46.298 Generic:167 - Successfully Visibility  ----> Mumbai Colony 1152
+[DEBUG] 2023-03-31 10:09:46.428 Generic:51 - Actual element --> Mumbai Colony 1152
+[DEBUG] 2023-03-31 10:09:50.430 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 10:09:57.215 Generic:167 - Successfully Visibility  ----> Relation Type
+[DEBUG] 2023-03-31 10:09:57.608 Generic:151 - Successfully Click  ----> Relation Type
+[DEBUG] 2023-03-31 10:10:02.659 Generic:117 - Tap action performs succesfully
+[DEBUG] 2023-03-31 10:10:06.987 Generic:167 - Successfully Visibility  ----> Relative Name
+[DEBUG] 2023-03-31 10:10:08.991 Generic:189 - Successfully enter value ----> Raj
+[DEBUG] 2023-03-31 10:10:13.690 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 10:10:20.473 Generic:167 - Successfully Visibility  ----> My immediate family member is an employee at Hero MotoCorp Ltd. or its associated Dealership/Agency
+[DEBUG] 2023-03-31 10:10:20.889 Generic:151 - Successfully Click  ----> My immediate family member is an employee at Hero MotoCorp Ltd. or its associated Dealership/Agency
+[DEBUG] 2023-03-31 10:10:22.038 Generic:167 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 10:10:22.430 Generic:151 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 10:10:23.600 Generic:167 - Successfully Visibility  ----> Pay ₹299
+[DEBUG] 2023-03-31 10:10:23.999 Generic:151 - Successfully Click  ----> Pay ₹299
+[DEBUG] 2023-03-31 10:10:24.141 MyListeners:49 - [1;32mVALIDATE_GOODLIFE_NON_MEMBER_299PLAN_ASOWNER_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 10:10:26.505 BrowserFactory:71 - Android Real device gets closed
+[DEBUG] 2023-03-31 10:10:26.508 BrowserFactory:72 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-03-31 10:45:04.760 Create_Driver_Session:51 - PLATFORM NAME IS --> Android
+[INFO ] 2023-03-31 10:45:04.765 Create_Driver_Session:53 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-03-31 10:45:04.766 Create_Driver_Session:55 - PLATFORM VERSION IS --> 13.0
+[INFO ] 2023-03-31 10:45:04.767 Create_Driver_Session:57 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-03-31 10:45:04.768 Create_Driver_Session:59 - UDID IS --> RZCT904J89D
+[INFO ] 2023-03-31 10:45:04.769 Create_Driver_Session:63 - App Location is D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-master-with-sit.apk
+[INFO ] 2023-03-31 10:45:04.770 Create_Driver_Session:64 - App URL is https://hero-one-app-hero-one-app-sit.azurewebsites.net/
+[DEBUG] 2023-03-31 10:45:29.988 BrowserFactory:57 - Android Real device gets opened
+[DEBUG] 2023-03-31 10:45:33.605 BrowserFactory:59 - Application has been reset
+[DEBUG] 2023-03-31 10:45:33.637 MyListeners:42 - [1;30mVALIDATE_GOODLIFE_NON_MEMBER_299PLAN_ASOWNER_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 10:45:36.613 Generic:167 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-03-31 10:45:36.956 Generic:151 - Successfully Click  ----> Allow
+[DEBUG] 2023-03-31 10:45:37.992 Generic:167 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 10:45:37.992 Generic:177 - Successfully cleared textbox
+[DEBUG] 2023-03-31 10:45:38.965 Generic:167 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 10:45:40.977 Generic:189 - Successfully enter value ----> 9958592171
+[DEBUG] 2023-03-31 10:45:42.486 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 10:45:42.765 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 10:45:44.830 Generic:167 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-03-31 10:45:44.901 Generic:42 - Actual element --> Verify with OTP
+[DEBUG] 2023-03-31 10:45:52.673 Generic:167 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-03-31 10:45:52.967 Generic:151 - Successfully Click  ----> Verify
+[DEBUG] 2023-03-31 10:45:57.864 Generic:167 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 10:45:58.033 Generic:42 - Actual element --> Book service PAID
+[DEBUG] 2023-03-31 10:45:58.616 Generic:167 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 10:45:59.096 Generic:151 - Successfully Click  ----> Book service PAID
+[DEBUG] 2023-03-31 10:45:59.290 Selected_Vehicle_Page_Actions:48 - Book service PAID Vin selected
+[DEBUG] 2023-03-31 10:46:00.725 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 10:46:01.117 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 10:46:06.725 Generic:167 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-03-31 10:46:07.098 Generic:151 - Successfully Click  ----> Only this time
+[DEBUG] 2023-03-31 10:46:15.009 Generic:167 - Successfully Visibility  ----> GoodLife
+[DEBUG] 2023-03-31 10:46:15.751 Generic:151 - Successfully Click  ----> GoodLife
+[DEBUG] 2023-03-31 10:46:18.487 Generic:167 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 10:46:18.923 Generic:151 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 10:46:23.111 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 10:46:31.237 Generic:167 - Successfully Visibility  ----> View all Benefits
+[DEBUG] 2023-03-31 10:46:31.784 Generic:151 - Successfully Click  ----> View all Benefits
+[DEBUG] 2023-03-31 10:46:33.298 Generic:167 - Successfully Visibility  ----> Select Plan
+[DEBUG] 2023-03-31 10:46:34.123 Generic:151 - Successfully Click  ----> Select Plan
+[DEBUG] 2023-03-31 10:46:40.752 Generic:167 - Successfully Visibility  ----> Owner
+[DEBUG] 2023-03-31 10:46:41.031 Generic:151 - Successfully Click  ----> Owner
+[DEBUG] 2023-03-31 10:46:41.153 Goodlife_Profile_Details_Form_299_Page_Action:40 - Now, owner is getting selected. Thanks!
+[DEBUG] 2023-03-31 10:46:42.161 Generic:167 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 10:46:42.745 Generic:167 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 10:47:13.515 Generic:155 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.EditText' (tried for 20 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-03-31 10:47:14.172 Generic:167 - Successfully Visibility  ----> Address
+[DEBUG] 2023-03-31 10:47:14.330 Generic:51 - Actual element --> Address
+[DEBUG] 2023-03-31 10:47:14.337 MyListeners:56 - [1;31m[org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47), org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31), com.oneapp.basic.Generic.softAssertion(Generic.java:52), com.oneapp.page_actions.Goodlife_Profile_Details_Form_299_Page_Action.addressField299PlanAssertionAction(Goodlife_Profile_Details_Form_299_Page_Action.java:52), com.oneapp.test_suits.GoodLife_testcases.validate_Goodlife_Non_member_299Plan_asOwner_testcase(GoodLife_testcases.java:71), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-03-31 10:47:14.854 MyListeners:103 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1/screenshots/validate_Goodlife_Non_member_299Plan_asOwner_testcase__F_r_i_ _M_a_r_ _3_1_ _1_0___4_7___1_4_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-03-31 10:47:14.858 MyListeners:73 - [1;31mVALIDATE_GOODLIFE_NON_MEMBER_299PLAN_ASOWNER_TESTCASE - FAILURE[0m
+[DEBUG] 2023-03-31 10:47:16.886 BrowserFactory:71 - Android Real device gets closed
+[DEBUG] 2023-03-31 10:47:16.887 BrowserFactory:72 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-03-31 10:48:11.838 Create_Driver_Session:51 - PLATFORM NAME IS --> Android
+[INFO ] 2023-03-31 10:48:11.845 Create_Driver_Session:53 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-03-31 10:48:11.846 Create_Driver_Session:55 - PLATFORM VERSION IS --> 13.0
+[INFO ] 2023-03-31 10:48:11.848 Create_Driver_Session:57 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-03-31 10:48:11.851 Create_Driver_Session:59 - UDID IS --> RZCT904J89D
+[INFO ] 2023-03-31 10:48:11.853 Create_Driver_Session:63 - App Location is D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-master-with-sit.apk
+[INFO ] 2023-03-31 10:48:11.855 Create_Driver_Session:64 - App URL is https://hero-one-app-hero-one-app-sit.azurewebsites.net/
+[DEBUG] 2023-03-31 10:48:34.381 BrowserFactory:57 - Android Real device gets opened
+[DEBUG] 2023-03-31 10:48:38.066 BrowserFactory:59 - Application has been reset
+[DEBUG] 2023-03-31 10:48:38.112 MyListeners:42 - [1;30mVALIDATE_GOODLIFE_NON_MEMBER_299PLAN_ASOWNER_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 10:48:40.679 Generic:167 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-03-31 10:48:41.075 Generic:151 - Successfully Click  ----> Allow
+[DEBUG] 2023-03-31 10:48:42.139 Generic:167 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 10:48:42.140 Generic:177 - Successfully cleared textbox
+[DEBUG] 2023-03-31 10:48:43.538 Generic:167 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 10:48:45.541 Generic:189 - Successfully enter value ----> 9958592171
+[DEBUG] 2023-03-31 10:48:47.032 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 10:48:47.365 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 10:48:48.789 Generic:171 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.id: com.customerapp.hero:id/lbl2' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\ECLIPSE_LATEST\HeroApp1\..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\ECLIPSE_LATEST\HeroApp1\..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 103d6167-f8a4-4666-84e8-2553da72458e[0m
+[DEBUG] 2023-03-31 10:48:49.838 Generic:42 - Actual element --> Verify with OTP
+[DEBUG] 2023-03-31 10:48:57.179 Generic:167 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-03-31 10:48:58.144 Generic:151 - Successfully Click  ----> Verify
+[DEBUG] 2023-03-31 10:49:03.200 Generic:167 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 10:49:03.309 Generic:42 - Actual element --> Book service PAID
+[DEBUG] 2023-03-31 10:49:03.960 Generic:167 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 10:49:04.448 Generic:151 - Successfully Click  ----> Book service PAID
+[DEBUG] 2023-03-31 10:49:05.255 Selected_Vehicle_Page_Actions:48 - Book service PAID Vin selected
+[DEBUG] 2023-03-31 10:49:05.628 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 10:49:05.919 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 10:49:11.526 Generic:167 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-03-31 10:49:12.288 Generic:151 - Successfully Click  ----> Only this time
+[DEBUG] 2023-03-31 10:49:21.565 Generic:167 - Successfully Visibility  ----> GoodLife
+[DEBUG] 2023-03-31 10:49:22.290 Generic:151 - Successfully Click  ----> GoodLife
+[DEBUG] 2023-03-31 10:49:25.345 Generic:167 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 10:49:25.739 Generic:151 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 10:49:29.898 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 10:49:37.986 Generic:167 - Successfully Visibility  ----> View all Benefits
+[DEBUG] 2023-03-31 10:49:38.604 Generic:151 - Successfully Click  ----> View all Benefits
+[DEBUG] 2023-03-31 10:49:40.190 Generic:167 - Successfully Visibility  ----> Select Plan
+[DEBUG] 2023-03-31 10:49:40.985 Generic:151 - Successfully Click  ----> Select Plan
+[DEBUG] 2023-03-31 10:49:42.776 Generic:167 - Successfully Visibility  ----> Owner
+[DEBUG] 2023-03-31 10:49:43.073 Generic:151 - Successfully Click  ----> Owner
+[DEBUG] 2023-03-31 10:49:43.212 Goodlife_Profile_Details_Form_299_Page_Action:40 - Now, owner is getting selected. Thanks!
+[DEBUG] 2023-03-31 10:49:44.248 Generic:167 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 10:49:44.794 Generic:167 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 10:50:05.619 Generic:155 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-master-with-sit.apk, appActivity=com.customerapp.hero.views.activity.splash.SplashActivity, appPackage=com.customerapp.hero, automationName=UiAutomator2, databaseEnabled=false, desired={platformName=android, app=D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-master-with-sit.apk, appActivity=com.customerapp.hero.views.activity.splash.SplashActivity, appPackage=com.customerapp.hero, newCommandTimeout=1200, automationName=UiAutomator2, deviceName=Samsung, platformVersion=13.0, udid=RZCT904J89D}, deviceApiLevel=33, deviceManufacturer=samsung, deviceModel=SM-M536B, deviceName=RZCT904J89D, deviceScreenDensity=450, deviceScreenSize=1080x2400, deviceUDID=RZCT904J89D, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=1200, pixelRatio=2.8125, platform=LINUX, platformName=Android, platformVersion=13, statBarHeight=90, takesScreenshot=true, udid=RZCT904J89D, viewportRect={left=0, top=90, width=1080, height=2085}, warnings={}, webStorageEnabled=false}] -> xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.EditText] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\ECLIPSE_LATEST\HeroApp1\..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\ECLIPSE_LATEST\HeroApp1\..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 103d6167-f8a4-4666-84e8-2553da72458e[0m
+[DEBUG] 2023-03-31 10:50:06.130 Generic:167 - Successfully Visibility  ----> Mumbai Colony 1152
+[DEBUG] 2023-03-31 10:50:06.304 Generic:51 - Actual element --> Mumbai Colony 1152
+[DEBUG] 2023-03-31 10:50:10.306 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 10:50:17.221 Generic:167 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 10:50:17.783 Generic:151 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 10:50:24.644 Generic:167 - Successfully Visibility  ----> Nominee Name
+[DEBUG] 2023-03-31 10:50:26.657 Generic:189 - Successfully enter value ----> Karan
+[DEBUG] 2023-03-31 10:50:27.664 Generic:167 - Successfully Visibility  ----> Nominee Relationship with Member
+[DEBUG] 2023-03-31 10:50:28.494 Generic:151 - Successfully Click  ----> Nominee Relationship with Member
+[DEBUG] 2023-03-31 10:50:32.714 Generic:117 - Tap action performs succesfully
+[DEBUG] 2023-03-31 10:50:37.223 Generic:167 - Successfully Visibility  ----> Nominee Contact Number
+[DEBUG] 2023-03-31 10:50:39.227 Generic:189 - Successfully enter value ----> 8130998133
+[DEBUG] 2023-03-31 10:50:40.795 Generic:167 - Successfully Visibility  ----> Nominee address same as member
+[DEBUG] 2023-03-31 10:50:41.143 Generic:151 - Successfully Click  ----> Nominee address same as member
+[DEBUG] 2023-03-31 10:50:42.836 Generic:167 - Successfully Visibility  ----> Mumbai Colony 1152
+[DEBUG] 2023-03-31 10:50:42.943 Generic:51 - Actual element --> Mumbai Colony 1152
+[DEBUG] 2023-03-31 10:50:46.944 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 10:50:53.709 Generic:167 - Successfully Visibility  ----> Relation Type
+[DEBUG] 2023-03-31 10:50:54.050 Generic:151 - Successfully Click  ----> Relation Type
+[DEBUG] 2023-03-31 10:50:59.102 Generic:117 - Tap action performs succesfully
+[DEBUG] 2023-03-31 10:51:03.461 Generic:167 - Successfully Visibility  ----> Relative Name
+[DEBUG] 2023-03-31 10:51:05.477 Generic:189 - Successfully enter value ----> Raj
+[DEBUG] 2023-03-31 10:51:10.257 Generic:103 - Swiped successfully
+[DEBUG] 2023-03-31 10:51:17.117 Generic:167 - Successfully Visibility  ----> My immediate family member is an employee at Hero MotoCorp Ltd. or its associated Dealership/Agency
+[DEBUG] 2023-03-31 10:51:17.563 Generic:151 - Successfully Click  ----> My immediate family member is an employee at Hero MotoCorp Ltd. or its associated Dealership/Agency
+[DEBUG] 2023-03-31 10:51:18.618 Generic:167 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 10:51:18.945 Generic:151 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 10:51:20.063 Generic:167 - Successfully Visibility  ----> Pay ₹299
+[DEBUG] 2023-03-31 10:51:20.456 Generic:151 - Successfully Click  ----> Pay ₹299
+[DEBUG] 2023-03-31 10:51:36.507 Generic:167 - Successfully Visibility  ----> Payment
+[DEBUG] 2023-03-31 10:51:36.565 Generic:42 - Actual element --> Payment
+[DEBUG] 2023-03-31 10:51:36.584 MyListeners:49 - [1;32mVALIDATE_GOODLIFE_NON_MEMBER_299PLAN_ASOWNER_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 10:51:38.756 BrowserFactory:71 - Android Real device gets closed
+[DEBUG] 2023-03-31 10:51:38.757 BrowserFactory:72 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-03-31 19:13:50.618 Create_Driver_Session:51 - PLATFORM NAME IS --> Android
+[INFO ] 2023-03-31 19:13:50.623 Create_Driver_Session:53 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-03-31 19:13:50.624 Create_Driver_Session:55 - PLATFORM VERSION IS --> 13.0
+[INFO ] 2023-03-31 19:13:50.624 Create_Driver_Session:57 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-03-31 19:13:50.625 Create_Driver_Session:59 - UDID IS --> RZCT904J89D
+[INFO ] 2023-03-31 19:13:50.626 Create_Driver_Session:63 - App Location is D:\ECLIPSE_LATEST\HeroApp1\myfiles\app-debug-connected.apk
+[INFO ] 2023-03-31 19:13:50.627 Create_Driver_Session:64 - App URL is https://hero-one-app-hero-one-app-sit.azurewebsites.net/
+[DEBUG] 2023-03-31 19:14:19.341 BrowserFactory:57 - Android Real device gets opened
+[DEBUG] 2023-03-31 19:14:23.507 BrowserFactory:59 - Application has been reset
+[DEBUG] 2023-03-31 19:14:23.538 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - STARTS[0m
+[DEBUG] 2023-03-31 19:14:26.033 Generic:168 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-03-31 19:14:26.409 Generic:152 - Successfully Click  ----> Allow
+[DEBUG] 2023-03-31 19:14:27.562 Generic:168 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:14:27.563 Generic:178 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:14:28.467 Generic:168 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:14:30.902 Generic:168 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:14:30.904 Generic:178 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:14:31.036 Generic:191 - Successfully enter value ----> 9958592171
+[DEBUG] 2023-03-31 19:14:33.068 Generic:168 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:14:33.475 Generic:152 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:14:36.241 Generic:168 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-03-31 19:14:36.835 Generic:42 - Actual element --> Verify with OTP
+[DEBUG] 2023-03-31 19:14:43.285 Generic:168 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-03-31 19:14:44.236 Generic:152 - Successfully Click  ----> Verify
+[DEBUG] 2023-03-31 19:14:49.311 Generic:168 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:14:49.415 Generic:42 - Actual element --> Book service PAID
+[DEBUG] 2023-03-31 19:14:50.019 Generic:168 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:14:50.467 Generic:152 - Successfully Click  ----> Book service PAID
+[DEBUG] 2023-03-31 19:14:51.230 Selected_Vehicle_Page_Actions:48 - Book service PAID Vin selected
+[DEBUG] 2023-03-31 19:14:51.624 Generic:168 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:14:51.946 Generic:152 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:14:57.652 Generic:168 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-03-31 19:14:57.981 Generic:152 - Successfully Click  ----> Only this time
+[DEBUG] 2023-03-31 19:15:05.190 Generic:168 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:15:05.500 Generic:152 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:15:06.886 Generic:168 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2023-03-31 19:15:07.528 Generic:152 - Successfully Click  ----> Refer a friend
+[DEBUG] 2023-03-31 19:15:09.834 Generic:168 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:15:09.927 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:15:10.456 Generic:168 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:15:12.909 Generic:168 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:15:12.911 Generic:178 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:15:13.092 Generic:191 - Successfully enter value ----> Race 3 kai Salman khan
+[DEBUG] 2023-03-31 19:15:15.193 Generic:168 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:15:17.638 Generic:168 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:15:17.639 Generic:178 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:15:17.786 Generic:191 - Successfully enter value ----> 8130998133
+[DEBUG] 2023-03-31 19:15:19.758 Generic:168 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:15:20.068 Generic:152 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:15:20.208 Generic:130 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:15:25.388 Generic:139 - This element gets clicked ----> DELHI
+[DEBUG] 2023-03-31 19:15:26.847 Generic:168 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:15:27.153 Generic:152 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:15:27.291 Generic:130 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:15:32.254 Generic:139 - This element gets clicked ----> NEW DELHI
+[DEBUG] 2023-03-31 19:15:33.273 Generic:168 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:15:33.526 Generic:152 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:15:33.628 Generic:130 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:15:47.359 Generic:168 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:15:48.898 Generic:152 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:15:59.139 MyListeners:56 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428), io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151), io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1), org.openqa.selenium.By$ByXPath.findElement(By.java:353), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy29.isDisplayed(Unknown Source), com.oneapp.page_actions.ReferToFriend_page_Actions.referToFriendProcessAction(ReferToFriend_page_Actions.java:55), com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_successfully(ReferToFriend_testcases.java:36), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-03-31 19:15:59.569 MyListeners:103 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1/screenshots/validate_ReferToFriend_successfully__F_r_i_ _M_a_r_ _3_1_ _1_9___1_5___5_9_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-03-31 19:15:59.574 MyListeners:73 - [1;31mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - FAILURE[0m
+[DEBUG] 2023-03-31 19:15:59.588 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_BLANK_FIELDS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:15:59.595 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_INVALID_DETAILS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:15:59.602 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_NO_INTERNET_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:15:59.607 MyListeners:42 - [1;30mVALIDATE_REFERYOURSELF_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:16:01.528 BrowserFactory:71 - Android Real device gets closed
+[DEBUG] 2023-03-31 19:16:01.529 BrowserFactory:72 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-03-31 19:19:11.330 Create_Driver_Session:51 - PLATFORM NAME IS --> Android
+[INFO ] 2023-03-31 19:19:11.333 Create_Driver_Session:53 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-03-31 19:19:11.334 Create_Driver_Session:55 - PLATFORM VERSION IS --> 13.0
+[INFO ] 2023-03-31 19:19:11.336 Create_Driver_Session:57 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-03-31 19:19:11.336 Create_Driver_Session:59 - UDID IS --> RZCT904J89D
+[INFO ] 2023-03-31 19:19:11.337 Create_Driver_Session:64 - App URL is https://hero-one-app-hero-one-app-sit.azurewebsites.net/
+[DEBUG] 2023-03-31 19:19:32.616 BrowserFactory:57 - Android Real device gets opened
+[DEBUG] 2023-03-31 19:19:36.784 BrowserFactory:59 - Application has been reset
+[DEBUG] 2023-03-31 19:19:36.830 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - STARTS[0m
+[DEBUG] 2023-03-31 19:19:39.328 Generic:168 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-03-31 19:19:39.738 Generic:152 - Successfully Click  ----> Allow
+[DEBUG] 2023-03-31 19:19:40.841 Generic:168 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:19:40.842 Generic:178 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:19:41.803 Generic:168 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:19:44.173 Generic:168 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:19:44.175 Generic:178 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:19:44.320 Generic:191 - Successfully enter value ----> 9958592171
+[DEBUG] 2023-03-31 19:19:46.361 Generic:168 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:19:46.834 Generic:152 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:19:49.851 Generic:168 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-03-31 19:19:50.001 Generic:42 - Actual element --> Verify with OTP
+[DEBUG] 2023-03-31 19:19:56.933 Generic:168 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-03-31 19:19:57.275 Generic:152 - Successfully Click  ----> Verify
+[DEBUG] 2023-03-31 19:20:02.307 Generic:168 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:20:02.492 Generic:42 - Actual element --> Book service PAID
+[DEBUG] 2023-03-31 19:20:03.244 Generic:168 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:20:03.735 Generic:152 - Successfully Click  ----> Book service PAID
+[DEBUG] 2023-03-31 19:20:04.521 Selected_Vehicle_Page_Actions:48 - Book service PAID Vin selected
+[DEBUG] 2023-03-31 19:20:04.931 Generic:168 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:20:05.374 Generic:152 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:20:11.018 Generic:168 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-03-31 19:20:11.324 Generic:152 - Successfully Click  ----> Only this time
+[DEBUG] 2023-03-31 19:20:17.931 Generic:168 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:20:18.234 Generic:152 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:20:19.655 Generic:168 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2023-03-31 19:20:20.271 Generic:152 - Successfully Click  ----> Refer a friend
+[DEBUG] 2023-03-31 19:20:22.513 Generic:168 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:20:22.600 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:20:23.117 Generic:168 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:20:25.560 Generic:168 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:20:25.562 Generic:178 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:20:25.736 Generic:191 - Successfully enter value ----> Race
+[DEBUG] 2023-03-31 19:20:27.902 Generic:168 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:20:30.356 Generic:168 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:20:30.357 Generic:178 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:20:30.514 Generic:191 - Successfully enter value ----> 8130998133
+[DEBUG] 2023-03-31 19:20:32.447 Generic:168 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:20:32.769 Generic:152 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:20:32.890 Generic:130 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:20:38.217 Generic:139 - This element gets clicked ----> DELHI
+[DEBUG] 2023-03-31 19:20:39.635 Generic:168 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:20:39.932 Generic:152 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:20:40.058 Generic:130 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:20:45.119 Generic:139 - This element gets clicked ----> NEW DELHI
+[DEBUG] 2023-03-31 19:20:46.114 Generic:168 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:20:46.400 Generic:152 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:20:46.523 Generic:130 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:20:51.513 Generic:139 - This element gets clicked ----> Destini 125
+[DEBUG] 2023-03-31 19:20:52.539 Generic:168 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:20:52.880 Generic:152 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:20:54.672 Generic:168 - Successfully Visibility  ----> OK
+[DEBUG] 2023-03-31 19:20:54.972 Generic:152 - Successfully Click  ----> OK
+[DEBUG] 2023-03-31 19:20:58.064 Generic:168 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2023-03-31 19:20:58.305 Generic:42 - Actual element --> Key Actions
+[DEBUG] 2023-03-31 19:20:58.342 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - PASSED[0m
+[DEBUG] 2023-03-31 19:20:58.372 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_BLANK_FIELDS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:21:13.778 Generic:168 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:21:13.947 Generic:152 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:21:15.180 Generic:168 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2023-03-31 19:21:15.671 Generic:152 - Successfully Click  ----> Refer a friend
+[DEBUG] 2023-03-31 19:21:17.738 Generic:168 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:17.831 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:18.185 Generic:168 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:21:18.548 Generic:152 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:21:18.910 Generic:168 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:18.997 Generic:51 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:19.000 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_WITH_BLANK_FIELDS_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 19:21:19.006 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_INVALID_DETAILS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:21:19.376 Generic:168 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:19.432 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:19.771 Generic:168 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:21:22.163 Generic:168 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:21:22.164 Generic:178 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:21:22.319 Generic:191 - Successfully enter value ----> asdas@#$#$%%^&%^
+[DEBUG] 2023-03-31 19:21:24.373 Generic:168 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:21:26.751 Generic:168 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:21:26.752 Generic:178 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:21:26.905 Generic:191 - Successfully enter value ----> 880099
+[DEBUG] 2023-03-31 19:21:28.843 Generic:168 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:21:29.198 Generic:152 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:21:29.584 Generic:168 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:29.665 Generic:51 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:29.667 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_WITH_INVALID_DETAILS_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 19:21:29.675 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_NO_INTERNET_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:21:29.974 Generic:168 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:30.043 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:30.466 Generic:168 - Successfully Visibility  ----> Refer yourself
+[DEBUG] 2023-03-31 19:21:30.931 Generic:152 - Successfully Click  ----> Refer yourself
+[DEBUG] 2023-03-31 19:21:32.863 Generic:168 - Successfully Visibility  ----> Gunjan
+[DEBUG] 2023-03-31 19:21:33.009 Generic:51 - Actual element --> Gunjan
+[DEBUG] 2023-03-31 19:21:33.457 Generic:168 - Successfully Visibility  ----> Gunjan
+[DEBUG] 2023-03-31 19:21:33.602 Generic:51 - Actual element --> Gunjan
+[DEBUG] 2023-03-31 19:21:33.605 MyListeners:56 - [1;31m[org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47), org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31), com.oneapp.basic.Generic.softAssertion(Generic.java:52), com.oneapp.page_actions.ReferToFriend_page_Actions.tryToReferWithNoInternet(ReferToFriend_page_Actions.java:110), com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_with_No_Internet_testcase(ReferToFriend_testcases.java:65), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-03-31 19:21:34.055 MyListeners:103 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1/screenshots/validate_ReferToFriend_with_No_Internet_testcase__F_r_i_ _M_a_r_ _3_1_ _1_9___2_1___3_3_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-03-31 19:21:34.059 MyListeners:73 - [1;31mVALIDATE_REFERTOFRIEND_WITH_NO_INTERNET_TESTCASE - FAILURE[0m
+[DEBUG] 2023-03-31 19:21:34.066 MyListeners:42 - [1;30mVALIDATE_REFERYOURSELF_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:21:34.450 Generic:168 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:34.503 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:21:34.874 Generic:168 - Successfully Visibility  ----> Refer yourself
+[DEBUG] 2023-03-31 19:21:35.280 Generic:152 - Successfully Click  ----> Refer yourself
+[DEBUG] 2023-03-31 19:21:36.304 Generic:168 - Successfully Visibility  ----> Gunjan
+[DEBUG] 2023-03-31 19:21:36.499 Generic:51 - Actual element --> Gunjan
+[DEBUG] 2023-03-31 19:21:37.440 Generic:168 - Successfully Visibility  ----> Gunjan
+[DEBUG] 2023-03-31 19:21:37.545 Generic:51 - Actual element --> Gunjan
+[DEBUG] 2023-03-31 19:21:37.546 MyListeners:56 - [1;31m[org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47), org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31), com.oneapp.basic.Generic.softAssertion(Generic.java:52), com.oneapp.page_actions.ReferToFriend_page_Actions.tryToReferYourselfAction(ReferToFriend_page_Actions.java:84), com.oneapp.test_suits.ReferToFriend_testcases.validate_referYourself_testcase(ReferToFriend_testcases.java:72), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-03-31 19:21:37.947 MyListeners:103 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1/screenshots/validate_referYourself_testcase__F_r_i_ _M_a_r_ _3_1_ _1_9___2_1___3_7_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-03-31 19:21:37.948 MyListeners:73 - [1;31mVALIDATE_REFERYOURSELF_TESTCASE - FAILURE[0m
+[DEBUG] 2023-03-31 19:21:39.790 BrowserFactory:71 - Android Real device gets closed
+[DEBUG] 2023-03-31 19:21:39.792 BrowserFactory:72 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-03-31 19:28:25.725 Create_Driver_Session:51 - PLATFORM NAME IS --> Android
+[INFO ] 2023-03-31 19:28:25.730 Create_Driver_Session:53 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-03-31 19:28:25.732 Create_Driver_Session:55 - PLATFORM VERSION IS --> 13.0
+[INFO ] 2023-03-31 19:28:25.733 Create_Driver_Session:57 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-03-31 19:28:25.735 Create_Driver_Session:59 - UDID IS --> RZCT904J89D
+[INFO ] 2023-03-31 19:28:25.736 Create_Driver_Session:64 - App URL is https://hero-one-app-hero-one-app-sit.azurewebsites.net/
+[DEBUG] 2023-03-31 19:28:45.260 BrowserFactory:57 - Android Real device gets opened
+[DEBUG] 2023-03-31 19:28:49.365 BrowserFactory:59 - Application has been reset
+[DEBUG] 2023-03-31 19:28:49.407 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - STARTS[0m
+[DEBUG] 2023-03-31 19:28:51.868 Generic:170 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-03-31 19:28:52.258 Generic:154 - Successfully Click  ----> Allow
+[DEBUG] 2023-03-31 19:28:53.375 Generic:170 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:28:53.378 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:28:54.361 Generic:170 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:28:56.828 Generic:170 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:28:56.830 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:28:56.989 Generic:193 - Successfully enter value ----> 9958592171
+[DEBUG] 2023-03-31 19:28:59.035 Generic:170 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:28:59.365 Generic:154 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:29:02.845 Generic:170 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-03-31 19:29:03.025 Generic:42 - Actual element --> Verify with OTP
+[DEBUG] 2023-03-31 19:29:09.340 Generic:170 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-03-31 19:29:10.946 Generic:154 - Successfully Click  ----> Verify
+[DEBUG] 2023-03-31 19:29:15.284 Generic:170 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:29:15.457 Generic:42 - Actual element --> Book service PAID
+[DEBUG] 2023-03-31 19:29:16.075 Generic:170 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:29:16.486 Generic:154 - Successfully Click  ----> Book service PAID
+[DEBUG] 2023-03-31 19:29:17.270 Selected_Vehicle_Page_Actions:48 - Book service PAID Vin selected
+[DEBUG] 2023-03-31 19:29:17.588 Generic:170 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:29:17.892 Generic:154 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:29:23.677 Generic:170 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-03-31 19:29:23.986 Generic:154 - Successfully Click  ----> Only this time
+[DEBUG] 2023-03-31 19:29:31.353 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:29:31.580 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:29:32.969 Generic:170 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2023-03-31 19:29:33.520 Generic:154 - Successfully Click  ----> Refer a friend
+[DEBUG] 2023-03-31 19:29:35.682 Generic:170 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:29:35.775 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:29:36.282 Generic:170 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:29:38.755 Generic:170 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:29:38.756 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:29:38.918 Generic:193 - Successfully enter value ----> Race
+[DEBUG] 2023-03-31 19:29:40.955 Generic:170 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:29:43.393 Generic:170 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:29:43.395 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:29:43.560 Generic:193 - Successfully enter value ----> 8130998133
+[DEBUG] 2023-03-31 19:29:45.507 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:29:45.825 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:29:45.962 Generic:132 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:29:51.238 Generic:141 - This element gets clicked ----> DELHI
+[DEBUG] 2023-03-31 19:29:52.683 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:29:53.001 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:29:53.129 Generic:132 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:29:58.099 Generic:141 - This element gets clicked ----> NEW DELHI
+[DEBUG] 2023-03-31 19:29:59.122 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:29:59.383 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:29:59.494 Generic:132 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:30:04.651 Generic:141 - This element gets clicked ----> Destini 125
+[DEBUG] 2023-03-31 19:30:05.703 Generic:170 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:30:06.017 Generic:154 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:30:07.878 Generic:170 - Successfully Visibility  ----> OK
+[DEBUG] 2023-03-31 19:30:08.236 Generic:154 - Successfully Click  ----> OK
+[DEBUG] 2023-03-31 19:30:11.595 Generic:170 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2023-03-31 19:30:11.810 Generic:42 - Actual element --> Key Actions
+[DEBUG] 2023-03-31 19:30:11.817 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - PASSED[0m
+[DEBUG] 2023-03-31 19:30:11.827 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_BLANK_FIELDS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:30:27.222 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:30:27.418 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:30:28.653 Generic:170 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2023-03-31 19:30:29.102 Generic:154 - Successfully Click  ----> Refer a friend
+[DEBUG] 2023-03-31 19:30:31.189 Generic:170 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:30:31.277 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:30:31.557 Generic:170 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:30:31.882 Generic:154 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:30:32.236 Generic:170 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:30:32.312 Generic:51 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:30:32.313 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_WITH_BLANK_FIELDS_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 19:30:32.319 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_INVALID_DETAILS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:30:32.673 Generic:170 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:30:32.727 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:30:33.113 Generic:170 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:30:35.533 Generic:170 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:30:35.534 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:30:35.684 Generic:193 - Successfully enter value ----> asdas@#$#$%%^&%^
+[DEBUG] 2023-03-31 19:30:37.679 Generic:170 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:30:40.077 Generic:170 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:30:40.078 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:30:40.213 Generic:193 - Successfully enter value ----> 880099
+[DEBUG] 2023-03-31 19:30:42.168 Generic:170 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:30:42.493 Generic:154 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:30:42.824 Generic:170 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:30:42.875 Generic:51 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:30:42.876 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_WITH_INVALID_DETAILS_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 19:30:42.880 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_NO_INTERNET_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:30:43.158 Generic:170 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:30:43.222 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:30:43.625 Generic:170 - Successfully Visibility  ----> Refer yourself
+[DEBUG] 2023-03-31 19:30:44.041 Generic:154 - Successfully Click  ----> Refer yourself
+[DEBUG] 2023-03-31 19:30:45.942 Generic:170 - Successfully Visibility  ----> Gunjan
+[DEBUG] 2023-03-31 19:30:46.086 Generic:51 - Actual element --> Gunjan
+[DEBUG] 2023-03-31 19:30:46.483 Generic:170 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 19:30:46.624 Generic:51 - Actual element --> 9958592171
+[DEBUG] 2023-03-31 19:30:46.896 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:30:47.183 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:30:47.314 Generic:132 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:30:52.294 Generic:141 - This element gets clicked ----> Destini 125
+[DEBUG] 2023-03-31 19:31:02.407 Generic:80 - Interet has been switch OFF
+[DEBUG] 2023-03-31 19:31:02.708 Generic:170 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:31:03.032 Generic:154 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:31:04.045 Generic:170 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:31:04.106 Generic:51 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:31:13.128 Generic:90 - Interet has been switch ON
+[DEBUG] 2023-03-31 19:31:13.129 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_WITH_NO_INTERNET_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 19:31:13.133 MyListeners:42 - [1;30mVALIDATE_REFERYOURSELF_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:31:13.368 Generic:170 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:31:13.419 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:31:13.820 Generic:170 - Successfully Visibility  ----> Refer yourself
+[DEBUG] 2023-03-31 19:31:14.194 Generic:154 - Successfully Click  ----> Refer yourself
+[DEBUG] 2023-03-31 19:31:15.609 Generic:170 - Successfully Visibility  ----> Gunjan
+[DEBUG] 2023-03-31 19:31:15.751 Generic:51 - Actual element --> Gunjan
+[DEBUG] 2023-03-31 19:31:16.169 Generic:170 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 19:31:16.267 Generic:51 - Actual element --> 9958592171
+[DEBUG] 2023-03-31 19:31:16.517 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:31:16.829 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:31:16.928 Generic:132 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:31:17.866 MyListeners:56 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285), io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45), io.appium.java_client.MobileElement.execute(MobileElement.java:1), io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1), org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166), com.oneapp.basic.Generic.itratingOnWebelements(Generic.java:134), com.oneapp.page_actions.ReferToFriend_page_Actions.tryToReferYourselfAction(ReferToFriend_page_Actions.java:87), com.oneapp.test_suits.ReferToFriend_testcases.validate_referYourself_testcase(ReferToFriend_testcases.java:72), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-03-31 19:31:18.295 MyListeners:103 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1/screenshots/validate_referYourself_testcase__F_r_i_ _M_a_r_ _3_1_ _1_9___3_1___1_7_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-03-31 19:31:18.300 MyListeners:73 - [1;31mVALIDATE_REFERYOURSELF_TESTCASE - FAILURE[0m
+[DEBUG] 2023-03-31 19:31:20.188 BrowserFactory:71 - Android Real device gets closed
+[DEBUG] 2023-03-31 19:31:20.189 BrowserFactory:72 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-03-31 19:32:05.957 Create_Driver_Session:51 - PLATFORM NAME IS --> Android
+[INFO ] 2023-03-31 19:32:05.966 Create_Driver_Session:53 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-03-31 19:32:05.967 Create_Driver_Session:55 - PLATFORM VERSION IS --> 13.0
+[INFO ] 2023-03-31 19:32:05.968 Create_Driver_Session:57 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-03-31 19:32:05.969 Create_Driver_Session:59 - UDID IS --> RZCT904J89D
+[INFO ] 2023-03-31 19:32:05.971 Create_Driver_Session:64 - App URL is https://hero-one-app-hero-one-app-sit.azurewebsites.net/
+[DEBUG] 2023-03-31 19:32:25.923 BrowserFactory:57 - Android Real device gets opened
+[DEBUG] 2023-03-31 19:32:29.907 BrowserFactory:59 - Application has been reset
+[DEBUG] 2023-03-31 19:32:29.949 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - STARTS[0m
+[DEBUG] 2023-03-31 19:32:32.356 Generic:170 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-03-31 19:32:32.819 Generic:154 - Successfully Click  ----> Allow
+[DEBUG] 2023-03-31 19:32:33.973 Generic:170 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:32:33.975 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:32:35.000 Generic:170 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:32:37.378 Generic:170 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:32:37.379 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:32:37.527 Generic:193 - Successfully enter value ----> 9958592171
+[DEBUG] 2023-03-31 19:32:39.482 Generic:170 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:32:39.885 Generic:154 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:32:41.296 Generic:174 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.id: com.customerapp.hero:id/lbl2' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 4fe78c83-bf1e-43d2-a554-367fd02a6745[0m
+[DEBUG] 2023-03-31 19:32:42.471 Generic:42 - Actual element --> Verify with OTP
+[DEBUG] 2023-03-31 19:32:49.633 Generic:170 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-03-31 19:32:51.243 Generic:154 - Successfully Click  ----> Verify
+[DEBUG] 2023-03-31 19:32:56.119 Generic:170 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:32:56.300 Generic:42 - Actual element --> Book service PAID
+[DEBUG] 2023-03-31 19:32:56.847 Generic:170 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:32:57.273 Generic:154 - Successfully Click  ----> Book service PAID
+[DEBUG] 2023-03-31 19:32:58.052 Selected_Vehicle_Page_Actions:48 - Book service PAID Vin selected
+[DEBUG] 2023-03-31 19:32:58.382 Generic:170 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:32:58.711 Generic:154 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:33:04.425 Generic:170 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-03-31 19:33:04.805 Generic:154 - Successfully Click  ----> Only this time
+[DEBUG] 2023-03-31 19:33:06.918 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:33:07.104 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:33:08.358 Generic:170 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2023-03-31 19:33:08.871 Generic:154 - Successfully Click  ----> Refer a friend
+[DEBUG] 2023-03-31 19:33:11.172 Generic:170 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:33:11.268 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:33:11.743 Generic:170 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:33:14.120 Generic:170 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:33:14.121 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:33:14.263 Generic:193 - Successfully enter value ----> Race
+[DEBUG] 2023-03-31 19:33:15.808 Generic:170 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:33:18.235 Generic:170 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:33:18.236 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:33:18.394 Generic:193 - Successfully enter value ----> 8130998133
+[DEBUG] 2023-03-31 19:33:20.328 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:33:20.685 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:33:20.812 Generic:132 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:33:21.743 MyListeners:56 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285), io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45), io.appium.java_client.MobileElement.execute(MobileElement.java:1), io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1), org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166), com.oneapp.basic.Generic.itratingOnWebelements(Generic.java:134), com.oneapp.page_actions.ReferToFriend_page_Actions.referToFriendProcessAction(ReferToFriend_page_Actions.java:46), com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_successfully(ReferToFriend_testcases.java:36), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-03-31 19:33:22.229 MyListeners:103 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1/screenshots/validate_ReferToFriend_successfully__F_r_i_ _M_a_r_ _3_1_ _1_9___3_3___2_1_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-03-31 19:33:22.236 MyListeners:73 - [1;31mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - FAILURE[0m
+[DEBUG] 2023-03-31 19:33:22.251 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_BLANK_FIELDS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:33:22.260 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_INVALID_DETAILS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:33:22.269 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_NO_INTERNET_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:33:22.275 MyListeners:42 - [1;30mVALIDATE_REFERYOURSELF_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:33:24.090 BrowserFactory:71 - Android Real device gets closed
+[DEBUG] 2023-03-31 19:33:24.092 BrowserFactory:72 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-03-31 19:37:38.942 Create_Driver_Session:51 - PLATFORM NAME IS --> Android
+[INFO ] 2023-03-31 19:37:38.949 Create_Driver_Session:53 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-03-31 19:37:38.950 Create_Driver_Session:55 - PLATFORM VERSION IS --> 13.0
+[INFO ] 2023-03-31 19:37:38.952 Create_Driver_Session:57 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-03-31 19:37:38.953 Create_Driver_Session:59 - UDID IS --> RZCT904J89D
+[INFO ] 2023-03-31 19:37:38.954 Create_Driver_Session:64 - App URL is https://hero-one-app-hero-one-app-sit.azurewebsites.net/
+[DEBUG] 2023-03-31 19:37:58.536 BrowserFactory:57 - Android Real device gets opened
+[DEBUG] 2023-03-31 19:38:02.610 BrowserFactory:59 - Application has been reset
+[DEBUG] 2023-03-31 19:38:02.642 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - STARTS[0m
+[DEBUG] 2023-03-31 19:38:05.191 Generic:170 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-03-31 19:38:05.555 Generic:154 - Successfully Click  ----> Allow
+[DEBUG] 2023-03-31 19:38:06.539 Generic:170 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:38:06.541 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:38:07.509 Generic:170 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:38:09.986 Generic:170 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:38:09.988 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:38:10.135 Generic:193 - Successfully enter value ----> 9958592171
+[DEBUG] 2023-03-31 19:38:12.216 Generic:170 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:38:12.646 Generic:154 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:38:15.663 Generic:170 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-03-31 19:38:15.780 Generic:42 - Actual element --> Verify with OTP
+[DEBUG] 2023-03-31 19:38:22.118 Generic:170 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-03-31 19:38:23.121 Generic:154 - Successfully Click  ----> Verify
+[DEBUG] 2023-03-31 19:38:28.982 Generic:170 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:38:29.141 Generic:42 - Actual element --> Book service PAID
+[DEBUG] 2023-03-31 19:38:29.806 Generic:170 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:38:30.257 Generic:154 - Successfully Click  ----> Book service PAID
+[DEBUG] 2023-03-31 19:38:31.036 Selected_Vehicle_Page_Actions:48 - Book service PAID Vin selected
+[DEBUG] 2023-03-31 19:38:31.405 Generic:170 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:38:31.730 Generic:154 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:38:37.444 Generic:170 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-03-31 19:38:37.656 Generic:154 - Successfully Click  ----> Only this time
+[DEBUG] 2023-03-31 19:38:45.643 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:38:45.879 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:38:47.290 Generic:170 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2023-03-31 19:38:47.844 Generic:154 - Successfully Click  ----> Refer a friend
+[DEBUG] 2023-03-31 19:38:49.374 Generic:170 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:38:49.442 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:38:50.498 Generic:170 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:38:52.976 Generic:170 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:38:52.977 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:38:53.138 Generic:193 - Successfully enter value ----> Race
+[DEBUG] 2023-03-31 19:38:54.802 Generic:170 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:38:57.261 Generic:170 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:38:57.263 Generic:180 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:38:57.421 Generic:193 - Successfully enter value ----> 8130998133
+[DEBUG] 2023-03-31 19:38:59.342 Generic:170 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:38:59.631 Generic:154 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:38:59.775 Generic:132 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:39:00.743 MyListeners:56 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285), io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45), io.appium.java_client.MobileElement.execute(MobileElement.java:1), io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1), org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166), com.oneapp.basic.Generic.itratingOnWebelements(Generic.java:134), com.oneapp.page_actions.ReferToFriend_page_Actions.referToFriendProcessAction(ReferToFriend_page_Actions.java:46), com.oneapp.test_suits.ReferToFriend_testcases.validate_ReferToFriend_successfully(ReferToFriend_testcases.java:36), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-03-31 19:39:01.273 MyListeners:103 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1/screenshots/validate_ReferToFriend_successfully__F_r_i_ _M_a_r_ _3_1_ _1_9___3_9___0_0_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-03-31 19:39:01.281 MyListeners:73 - [1;31mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - FAILURE[0m
+[DEBUG] 2023-03-31 19:39:01.294 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_BLANK_FIELDS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:39:01.302 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_INVALID_DETAILS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:39:01.309 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_NO_INTERNET_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:39:01.313 MyListeners:42 - [1;30mVALIDATE_REFERYOURSELF_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:39:03.085 BrowserFactory:71 - Android Real device gets closed
+[DEBUG] 2023-03-31 19:39:03.086 BrowserFactory:72 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-03-31 19:43:11.024 Create_Driver_Session:51 - PLATFORM NAME IS --> Android
+[INFO ] 2023-03-31 19:43:11.030 Create_Driver_Session:53 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-03-31 19:43:11.031 Create_Driver_Session:55 - PLATFORM VERSION IS --> 13.0
+[INFO ] 2023-03-31 19:43:11.031 Create_Driver_Session:57 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-03-31 19:43:11.032 Create_Driver_Session:59 - UDID IS --> RZCT904J89D
+[INFO ] 2023-03-31 19:43:11.034 Create_Driver_Session:64 - App URL is https://hero-one-app-hero-one-app-sit.azurewebsites.net/
+[DEBUG] 2023-03-31 19:43:30.373 BrowserFactory:57 - Android Real device gets opened
+[DEBUG] 2023-03-31 19:43:34.352 BrowserFactory:59 - Application has been reset
+[DEBUG] 2023-03-31 19:43:34.377 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - STARTS[0m
+[DEBUG] 2023-03-31 19:43:36.509 Generic:175 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-03-31 19:43:36.833 Generic:159 - Successfully Click  ----> Allow
+[DEBUG] 2023-03-31 19:43:37.956 Generic:175 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:43:37.960 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:43:38.998 Generic:175 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:43:41.383 Generic:175 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-03-31 19:43:41.386 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:43:41.525 Generic:198 - Successfully enter value ----> 9958592171
+[DEBUG] 2023-03-31 19:43:43.033 Generic:175 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:43:43.414 Generic:159 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:43:45.800 Generic:175 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-03-31 19:43:46.435 Generic:42 - Actual element --> Verify with OTP
+[DEBUG] 2023-03-31 19:43:52.851 Generic:175 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-03-31 19:43:53.840 Generic:159 - Successfully Click  ----> Verify
+[DEBUG] 2023-03-31 19:43:59.832 Generic:175 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:44:00.546 Generic:42 - Actual element --> Book service PAID
+[DEBUG] 2023-03-31 19:44:01.253 Generic:175 - Successfully Visibility  ----> Book service PAID
+[DEBUG] 2023-03-31 19:44:01.721 Generic:159 - Successfully Click  ----> Book service PAID
+[DEBUG] 2023-03-31 19:44:01.889 Selected_Vehicle_Page_Actions:48 - Book service PAID Vin selected
+[DEBUG] 2023-03-31 19:44:02.810 Generic:175 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-03-31 19:44:03.183 Generic:159 - Successfully Click  ----> Continue
+[DEBUG] 2023-03-31 19:44:08.825 Generic:175 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-03-31 19:44:09.161 Generic:159 - Successfully Click  ----> Only this time
+[DEBUG] 2023-03-31 19:44:15.676 Generic:175 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:44:15.953 Generic:159 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:44:17.357 Generic:175 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2023-03-31 19:44:17.937 Generic:159 - Successfully Click  ----> Refer a friend
+[DEBUG] 2023-03-31 19:44:20.241 Generic:175 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:44:20.334 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:44:20.828 Generic:175 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:44:23.286 Generic:175 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:44:23.288 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:44:23.445 Generic:198 - Successfully enter value ----> Race
+[DEBUG] 2023-03-31 19:44:25.537 Generic:175 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:44:27.987 Generic:175 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:44:27.988 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:44:28.139 Generic:198 - Successfully enter value ----> 8130998133
+[DEBUG] 2023-03-31 19:44:30.085 Generic:175 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:44:30.368 Generic:159 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:44:33.510 Generic:137 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:44:37.894 Generic:146 - This element gets clicked ----> DELHI
+[DEBUG] 2023-03-31 19:44:39.295 Generic:175 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:44:39.581 Generic:159 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:44:42.721 Generic:137 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:44:46.837 Generic:146 - This element gets clicked ----> NEW DELHI
+[DEBUG] 2023-03-31 19:44:47.821 Generic:175 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:44:48.098 Generic:159 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:44:51.195 Generic:137 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:44:55.321 Generic:146 - This element gets clicked ----> Destini 125
+[DEBUG] 2023-03-31 19:44:56.340 Generic:175 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:44:56.659 Generic:159 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:44:58.648 Generic:175 - Successfully Visibility  ----> OK
+[DEBUG] 2023-03-31 19:44:58.973 Generic:159 - Successfully Click  ----> OK
+[DEBUG] 2023-03-31 19:45:02.309 Generic:175 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2023-03-31 19:45:02.618 Generic:42 - Actual element --> Key Actions
+[DEBUG] 2023-03-31 19:45:02.630 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_SUCCESSFULLY - PASSED[0m
+[DEBUG] 2023-03-31 19:45:02.640 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_BLANK_FIELDS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:45:18.085 Generic:175 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:45:18.328 Generic:159 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:45:19.595 Generic:175 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2023-03-31 19:45:20.019 Generic:159 - Successfully Click  ----> Refer a friend
+[DEBUG] 2023-03-31 19:45:22.164 Generic:175 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:22.263 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:22.554 Generic:175 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:45:22.832 Generic:159 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:45:23.186 Generic:175 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:23.281 Generic:51 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:23.283 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_WITH_BLANK_FIELDS_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 19:45:23.292 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_INVALID_DETAILS_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:45:23.599 Generic:175 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:23.655 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:24.053 Generic:175 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:45:26.498 Generic:175 - Successfully Visibility  ----> Friends' Name
+[DEBUG] 2023-03-31 19:45:26.499 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:45:26.655 Generic:198 - Successfully enter value ----> asdas@#$#$%%^&%^
+[DEBUG] 2023-03-31 19:45:28.671 Generic:175 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:45:31.073 Generic:175 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2023-03-31 19:45:31.075 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-03-31 19:45:31.212 Generic:198 - Successfully enter value ----> 880099
+[DEBUG] 2023-03-31 19:45:33.149 Generic:175 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:45:33.483 Generic:159 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:45:33.799 Generic:175 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:33.855 Generic:51 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:33.856 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_WITH_INVALID_DETAILS_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 19:45:33.860 MyListeners:42 - [1;30mVALIDATE_REFERTOFRIEND_WITH_NO_INTERNET_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:45:34.136 Generic:175 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:34.199 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:34.556 Generic:175 - Successfully Visibility  ----> Refer yourself
+[DEBUG] 2023-03-31 19:45:34.926 Generic:159 - Successfully Click  ----> Refer yourself
+[DEBUG] 2023-03-31 19:45:36.850 Generic:175 - Successfully Visibility  ----> Gunjan
+[DEBUG] 2023-03-31 19:45:36.995 Generic:51 - Actual element --> Gunjan
+[DEBUG] 2023-03-31 19:45:37.408 Generic:175 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 19:45:37.544 Generic:51 - Actual element --> 9958592171
+[DEBUG] 2023-03-31 19:45:37.787 Generic:175 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:45:38.060 Generic:159 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:45:41.188 Generic:137 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:45:45.295 Generic:146 - This element gets clicked ----> Destini 125
+[DEBUG] 2023-03-31 19:45:55.229 Generic:80 - Interet has been switch OFF
+[DEBUG] 2023-03-31 19:45:55.576 Generic:175 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:45:55.893 Generic:159 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:45:56.932 Generic:175 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:45:57.020 Generic:51 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:46:03.384 Generic:90 - Interet has been switch ON
+[DEBUG] 2023-03-31 19:46:03.386 MyListeners:49 - [1;32mVALIDATE_REFERTOFRIEND_WITH_NO_INTERNET_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 19:46:03.393 MyListeners:42 - [1;30mVALIDATE_REFERYOURSELF_TESTCASE - STARTS[0m
+[DEBUG] 2023-03-31 19:46:03.668 Generic:175 - Successfully Visibility  ----> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:46:03.728 Generic:42 - Actual element --> Vehicle purchase referral
+[DEBUG] 2023-03-31 19:46:04.117 Generic:175 - Successfully Visibility  ----> Refer yourself
+[DEBUG] 2023-03-31 19:46:04.562 Generic:159 - Successfully Click  ----> Refer yourself
+[DEBUG] 2023-03-31 19:46:06.343 Generic:175 - Successfully Visibility  ----> Gunjan
+[DEBUG] 2023-03-31 19:46:07.085 Generic:51 - Actual element --> Gunjan
+[DEBUG] 2023-03-31 19:46:07.554 Generic:175 - Successfully Visibility  ----> 9958592171
+[DEBUG] 2023-03-31 19:46:07.714 Generic:51 - Actual element --> 9958592171
+[DEBUG] 2023-03-31 19:46:08.009 Generic:175 - Successfully Visibility  ----> 
+[DEBUG] 2023-03-31 19:46:08.301 Generic:159 - Successfully Click  ----> 
+[DEBUG] 2023-03-31 19:46:11.425 Generic:137 - Itration of the elements starts
+[DEBUG] 2023-03-31 19:46:15.519 Generic:146 - This element gets clicked ----> Destini 125
+[DEBUG] 2023-03-31 19:46:16.525 Generic:175 - Successfully Visibility  ----> Submit
+[DEBUG] 2023-03-31 19:46:16.851 Generic:159 - Successfully Click  ----> Submit
+[DEBUG] 2023-03-31 19:46:18.584 Generic:175 - Successfully Visibility  ----> OK
+[DEBUG] 2023-03-31 19:46:18.879 Generic:159 - Successfully Click  ----> OK
+[DEBUG] 2023-03-31 19:46:22.100 Generic:175 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2023-03-31 19:46:22.320 Generic:42 - Actual element --> Key Actions
+[DEBUG] 2023-03-31 19:46:22.321 MyListeners:49 - [1;32mVALIDATE_REFERYOURSELF_TESTCASE - PASSED[0m
+[DEBUG] 2023-03-31 19:46:24.159 BrowserFactory:71 - Android Real device gets closed
+[DEBUG] 2023-03-31 19:46:24.161 BrowserFactory:72 - ++++++++++++++++++++++++++++++++

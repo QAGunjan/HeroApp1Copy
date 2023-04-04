@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -39,7 +40,7 @@ public class Generic extends BrowserFactory {
 		String expected = expected_message;
 		String actual = element.getText();
 		Assert.assertEquals(expected, actual);
-		TestUtils.log().debug("This is the actual element --> " + actual);
+		TestUtils.log().debug("Actual element --> " + actual);
 	}
 
 	public static void softAssertion(WebElement element, String expected_message) {
@@ -48,14 +49,15 @@ public class Generic extends BrowserFactory {
 		String expected = expected_message;
 		String actual = element.getText();
 		sa.assertEquals(actual, expected);
-		TestUtils.log().debug("This is the actual element --> " + actual);
+		TestUtils.log().debug("Actual element --> " + actual);
 		sa.assertAll();
 	}
 
 	public static void assertion_notEquals_validation(WebElement element, String expected_toast) {
+		waitForVisibility(element);
 		String expected_toast_message = expected_toast;
 		String actual_toast_message = element.getText();
-		TestUtils.log().debug("This is the toast element --> " + actual_toast_message);
+		TestUtils.log().debug("Actual element --> " + actual_toast_message);
 		Assert.assertNotEquals(actual_toast_message, expected_toast_message);
 	}
 
@@ -74,6 +76,7 @@ public class Generic extends BrowserFactory {
 
 	public static void WifiOff() {
 		try {
+			Thread.sleep(2000);
 			ad.setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
 			TestUtils.log().debug("Interet has been switch OFF");
 		} catch (Exception e) {
@@ -83,6 +86,7 @@ public class Generic extends BrowserFactory {
 
 	public static void WifiOn() {
 		try {
+			Thread.sleep(2000);
 			ad.setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
 			TestUtils.log().debug("Interet has been switch ON");
 		} catch (Exception e) {
@@ -125,7 +129,12 @@ public class Generic extends BrowserFactory {
 	}
 
 	public static void itratingOnWebelements(List<WebElement> elements, String text) {
-
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		TestUtils.log().debug("Itration of the elements starts");
 		for (WebElement element : elements) {
 			String val = element.getText();
@@ -143,13 +152,14 @@ public class Generic extends BrowserFactory {
 	}
 
 	public static void clickOnWebElement(WebElement element) {
+		waitForVisibility(element);
 		try {
 			wait = new WebDriverWait(ad, Generic.WAIT);
 			wait.until(ExpectedConditions.elementToBeClickable(element));
-			Thread.sleep(5000);
+
 			TestUtils.log().debug("Successfully Click  ----> " + element.getText());
 			element.click();
-			Thread.sleep(5000);
+
 		} catch (Exception e) {
 			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 		}
@@ -158,9 +168,9 @@ public class Generic extends BrowserFactory {
 
 	public static void waitForVisibility(WebElement element) {
 		try {
+			 Thread.sleep(3500);
 			wait = new WebDriverWait(ad, Generic.WAIT);
-			wait.until(ExpectedConditions.visibilityOf(element));
-			
+			wait.until(ExpectedConditions.visibilityOf(element)); 
 			if (element.isDisplayed() == true) {
 				String text = element.getText();
 				TestUtils.log().debug("Successfully Visibility  ----> " + text);
@@ -173,18 +183,19 @@ public class Generic extends BrowserFactory {
 
 	public static void clearOnWebElement(WebElement element) {
 		waitForVisibility(element);
-		TestUtils.log().debug("Successfully cleared textbox ---> " + element);
+		TestUtils.log().debug("Successfully cleared textbox");
 		element.clear();
 	}
 
 	public static void sendKeysOnTextfields(WebElement element, String text) {
+		waitForVisibility(element);
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		waitForVisibility(element);
+		clearOnWebElement(element);
 		TestUtils.log().debug("Successfully enter value ----> " + text);
 		element.sendKeys(text);
 	}

@@ -69,6 +69,7 @@ public class Myprofile_testcases extends BrowserFactory {
 		svpa.selectedVehicleAssertion();
 		svpa.vehicleSelectionAction();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
+		dpa.dashboardAllPopUpAction();
 		dpa.clickMenuBarAction();
 		Menu_Bar_Page_Actions mbpa = new Menu_Bar_Page_Actions(ad);
 		mbpa.clickMyProfileFromMenuBarAction();
@@ -125,7 +126,7 @@ public class Myprofile_testcases extends BrowserFactory {
 	public void validate_saving_with_invalid_pincode_field_testcase() throws InterruptedException {
 		Personal_Details_Page_Actions pdpa = new Personal_Details_Page_Actions(ad);
 		pdpa.pincodeFieldAction();
-		pdpa.enterInvalidPincodeAssertionAction();
+		pdpa.enterInvalidPincodeAction();
 		pdpa.invalidPincodeAssertionAction();
 		pdpa.enterPincodeAction();
 //		pdpa.click_Save_button();

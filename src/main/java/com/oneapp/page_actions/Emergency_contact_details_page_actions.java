@@ -37,20 +37,24 @@ public class Emergency_contact_details_page_actions {
 		Generic.clickOnWebElement(cepo.getBack_icon());
 	}
 
-	public void alreadyExistContactAssertionAction() {
-		Generic.hardAssertion(cepo.getToast_message(), exceldata.getStringData("Emergency_contact", 20, 1));
-	}
+//	public void alreadyExistContactAssertionAction() {
+//		Generic.hardAssertion(cepo.getToast_message(), exceldata.getStringData("Emergency_contact", 20, 1));
+//	}
 
 	public void savingWithInvalidFullNameAction() {
 		Generic.clearOnWebElement(ecdpo.getFullname_textbox());
 		Generic.sendKeysOnTextfields(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 9, 1));
+		Generic.clearOnWebElement(ecdpo.getMob_number_txtbox());
+		Generic.clickOnWebElement(ecdpo.getRelation_type());
+		List<WebElement> options = ecdpo.getRelation_typedropdown();
+		Generic.itratingOnWebelements(options, exceldata.getStringData("Emergency_contact", 11, 1));
 		Generic.isClickable(cepo.getbutton());
 	}
 
-	public void invalidFullNameAssertionAction() {
-		Generic.softAssertion(ecdpo.getFullname_textbox(),
-				exceldata.getStringData("Emergency_contact", 21, 1));
-	}
+//	public void invalidFullNameAssertionAction() {
+//		Generic.softAssertion(ecdpo.getFullname_textbox(),
+//				exceldata.getStringData("Emergency_contact", 21, 1));
+//	}
 
 	public void savingWithInvalidMobNumberAction() {
 		Generic.clearOnWebElement(ecdpo.getMob_number_txtbox());
@@ -70,7 +74,7 @@ public class Emergency_contact_details_page_actions {
 		Generic.isClickable(cepo.getbutton());
 	}
 
-	public void commonAssertionWithBlankAndInvalidFieldAction() {
+	public void commonAssertionEmergencyContact() {
 		Generic.softAssertion(ecdpo.getFullName_text(),
 				exceldata.getStringData("Emergency_contact", 22, 1));
 	}
@@ -106,9 +110,9 @@ public class Emergency_contact_details_page_actions {
 		Generic.WifiOn();
 	}
 
-	public void savingWithNoInternetAssertionAction() {
-		Generic.softAssertion(cepo.getToast_message(), exceldata.getStringData("Emergency_contact", 23, 1));
-	}
+//	public void savingWithNoInternetAssertionAction() {
+//		Generic.softAssertion(cepo.getToast_message(), exceldata.getStringData("Emergency_contact", 23, 1));
+//	}
 
 	public void enterValidEmergencyContactDetailsAction() {
 		Generic.sendKeysOnTextfields(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 1, 1));

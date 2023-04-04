@@ -13,10 +13,12 @@
     <classes>
       <class name="com.oneapp.test_suits.Myprofile_testcases">
         <methods>
-          <include name="validate_myprofile_with_valid_details_testcase"/>
+          <include name="validate_saving_with_invalid_dateofbirth_field_testcase"/>
           <include name="Browsers_open"/>
           <include name="Quit_session"/>
-          <include name="validate_saving_with_blank_fullName_field_testcase"/>
+          <include name="validate_saving_with_invalid_email_field_testcase"/>
+          <include name="validate_saving_with_invalid_address_field_testcase"/>
+          <include name="validate_saving_with_invalid_pincode_field_testcase"/>
         </methods>
       </class> <!-- com.oneapp.test_suits.Myprofile_testcases -->
     </classes>

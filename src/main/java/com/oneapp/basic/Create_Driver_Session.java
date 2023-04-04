@@ -58,10 +58,10 @@ public class Create_Driver_Session {
 			dcap.setCapability(MobileCapabilityType.UDID, "RZCT904J89D");
 			TestUtils.log().info("UDID IS --> " + "RZCT904J89D");
 			dcap.setCapability("appium:newCommandTimeout", 1200);
-//			String appURL = "D:\\ECLIPSE_LATEST\\HeroApp1\\myfiles\\app-debugNew.apk";
-			String AppNewURL = "https://hero-one-app-hero-one-app-sit.azurewebsites.net/";
+//			String appURL = "D:\\ECLIPSE_LATEST\\HeroApp1\\myfiles\\app-debug(19).apk";
+//			String AppNewURL = "https://hero-one-app-hero-one-app-sit.azurewebsites.net/";
 //			TestUtils.log().info("App Location is " + appURL);
-			TestUtils.log().info("App URL is " + AppNewURL);
+//			TestUtils.log().info("App URL is " + AppNewURL);
 //			dcap.setCapability(MobileCapabilityType.APP, appURL);
 			dcap.setCapability("appPackage", "com.customerapp.hero");
 			dcap.setCapability("appActivity", "com.customerapp.hero.views.activity.splash.SplashActivity");

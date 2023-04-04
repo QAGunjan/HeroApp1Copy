@@ -91,8 +91,9 @@ public class Emergency_contact_page_actions {
 		Generic.clickOnWebElement(cepo.getBack_icon());
 	}
 
-	public void tappingNewContactPlusIconAction() {
-		Generic.tappingOnWebelement(994, 176);
+	public void tappingNewContactPlusIconAction() throws InterruptedException {
+		Thread.sleep(5000);
+		Generic.clickOnWebElement(ecpo.getEmerygencyContactPlusIcon());
 	}
 
 }

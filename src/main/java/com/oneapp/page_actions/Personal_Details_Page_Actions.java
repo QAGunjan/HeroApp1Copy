@@ -132,7 +132,8 @@ public class Personal_Details_Page_Actions {
 	}
 
 	public void invalidPincodeAssertionAction() {
-		Generic.softAssertion(cepo.getToast_message(), exceldata.getStringData("My Profile", 29, 1));
+		Generic.softAssertion(pdpo.getBlank_pincode_field(), exceldata.getStringData("My Profile", 29, 1));
+		
 	}
 
 	public void pincodeFieldAction() throws InterruptedException {
@@ -156,7 +157,7 @@ public class Personal_Details_Page_Actions {
 		Generic.sendKeysOnTextfields(pdpo.getBlank_pincode_field(), exceldata.getStringData("My Profile", 5, 1));
 	}
 
-	public void enterInvalidPincodeAssertionAction() throws InterruptedException {
+	public void enterInvalidPincodeAction() throws InterruptedException {
 		
 		Generic.sendKeysOnTextfields(pdpo.getBlank_pincode_field(), exceldata.getStringData("My Profile", 17, 1));
 	}

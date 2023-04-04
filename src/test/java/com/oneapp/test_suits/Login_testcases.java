@@ -56,14 +56,14 @@ public class Login_testcases extends BrowserFactory {
 		lpa.continueWithNoInternetAction();
 	}
 
-	@Test
-	public void Privacy_validation_004() throws InterruptedException {
+	@Test //(priority = 5, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression"})
+	public void validate_PrivacyPage_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.PrivacypageAction();
 	}
 
-	@Test // (priority =1, groups = { "Regression", "Negative" })
-	public void validation_privacypage_with_no_internet() throws InterruptedException {
+	@Test // (priority =6, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression"})
+	public void validation_privacypage_with_no_internet_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.privacyPageWithNoInternetAction();
 		Privacy_policy_Page_action pppa = new Privacy_policy_Page_action(ad);
@@ -79,16 +79,10 @@ public class Login_testcases extends BrowserFactory {
 //		opa.Click_edit();
 	}
 
-	@Test
-	public void T_and_C_validation_005() throws InterruptedException {
+	@Test // (priority =7, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression"})
+	public void validate_TermsAndConditionPage_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.termsAndConditionsPageAction();
-	}
-
-	@Test
-	public void Contact_Us_005() throws InterruptedException {
-		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.contactUsAction();
 	}
 
 }

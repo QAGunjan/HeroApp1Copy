@@ -28,7 +28,7 @@ public class Myprofile_Page_Actions {
 
 	public void profileDetailsvalidateAction() throws InterruptedException {
 
-		Generic.softAssertion(mppo.getProfiledetails_text(), "Profile Details");
+		Generic.softAssertion(cepo.getPageTitleText(), "Profile Details");
 		Generic.clickOnWebElement(mppo.getMoredetails_link());
 		Generic.clickOnWebElement(cepo.getbutton());
 	}

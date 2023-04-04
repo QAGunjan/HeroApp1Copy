@@ -46,13 +46,13 @@ public class Goodlife_Insurance_Details_Form_299_Page_Action {
 	}
 
 	public void addressFieldAssertionAction() {
-		Generic.softAssertion(gidf_299_po.getAddress_field(), exceldata.getStringData("My Profile", 3, 1));
+		Generic.softAssertion(gidf_299_po.getAddress_field(), exceldata.getStringData("My Profile", 4, 1));
 		Generic.swiping(508, 1641, 496, 512, 4000);
 	}
 
 	public void selectingRelationFromRelationTypeDropdownAction() {
 		Generic.clickOnWebElement(gidf_299_po.getRelationType_dropdown());
-		Generic.tappingOnWebelement(174, 1547);
+		Generic.tappingOnWebelement(165, 1594);
 	}
 
 	public void enterRelativeNameAction() {
@@ -68,8 +68,9 @@ public class Goodlife_Insurance_Details_Form_299_Page_Action {
 		Generic.clickOnWebElement(gidf_299_po.getTerms_and_condition_checkbox());
 	}
 
-	public void tappingPay299ButtonAction() {
+	public void tappingPay299ButtonAction() throws InterruptedException {
 		Generic.clickOnWebElement(gidf_299_po.getPay_299_button());
+		Thread.sleep(10000);
 	}
 
 }
