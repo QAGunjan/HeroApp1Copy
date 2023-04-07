@@ -41,7 +41,7 @@ import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class Login_Page_Action {
+public class Login_Page_Action{
 
 	public AndroidDriver ad;
 	public ExcelData exceldata;
@@ -65,7 +65,7 @@ public class Login_Page_Action {
 
 	}
 
-	public void validLoginAction() throws InterruptedException {
+	public void validLoginAction() {
 //		try {
 //		Generic.click_on_WebElement(cepo.getNonOfTheAbove());
 //		Generic.click_on_WebElement(cepo.getallowing_commom_popup_honor());
@@ -86,6 +86,22 @@ public class Login_Page_Action {
 		Generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
 		Generic.clickOnWebElement(cepo.getbutton());
 	}
+	
+//	public void validLoginAction(String SheetName)
+//	{
+//		try {
+//			if (cepo.getNotification_pop_up_samsung().isDisplayed() == true) {
+//				Generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
+//			}
+//		} catch (Exception e) {
+////			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+//		}
+//
+//		Generic.clearOnWebElement(lpo.getMobile_num_field());
+//		Generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData(SheetName, 1, 1));
+//		Generic.clickOnWebElement(cepo.getbutton());
+//		
+//	}
 
 	public void validLoginAssertionAction() throws InterruptedException {
 		Generic.hardAssertion(opo.getVerify_with_OTP(), exceldata.getStringData("Login Page", 11, 1));

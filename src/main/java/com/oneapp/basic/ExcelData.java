@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.HashMap;
 
 import org.apache.poi.hssf.usermodel.HSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -14,13 +15,19 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import com.oneapp.utils.TestUtils;
+
 public class ExcelData {
 
-	public XSSFWorkbook wb;
+	public  XSSFWorkbook wb;
 	public File file;
-
+	public HashMap<String, String> hm;
 	public ExcelData() {
-
+		GetExcel();
+	}
+	
+	public void GetExcel ()
+	{
 		file = new File("./TestData/Data.xlsx");
 		try {
 			FileInputStream fis = new FileInputStream(file); // for converting the excel file into a RAW data.
@@ -28,18 +35,16 @@ public class ExcelData {
 		} catch (Exception e) {
 			System.out.println("Unable to read excel file " + e.getMessage());
 		}
-
 	}
 
-	public void WriteExceldata(String SR,String Kilometers, String SR_ID) {
+	public void WriteExceldata(String SR, String Kilometers, String SR_ID) {
 //		XSSFSheet sheet3 = wb.createSheet("Book Service");
 		XSSFSheet sheet3 = wb.getSheetAt(2);
-		
+
 		XSSFRow rowheading = sheet3.createRow(0);
 		rowheading.createCell(0).setCellValue(SR);
 		rowheading.createCell(1).setCellValue(Kilometers);
-		for(int i=0; i<2; i++)
-		{
+		for (int i = 0; i < 2; i++) {
 			XSSFCellStyle stylerowheading = wb.createCellStyle();
 			XSSFFont font = wb.createFont();
 			font.setBold(true);
@@ -48,16 +53,14 @@ public class ExcelData {
 			stylerowheading.setFont(font);
 			rowheading.getCell(i).setCellStyle(stylerowheading);
 		}
-		
+
 		XSSFRow row = sheet3.createRow(1);
 		row.createCell(0).setCellValue(SR_ID);
-		
-		
-		for(int i=0; i<2; i++)
-		{
+
+		for (int i = 0; i < 2; i++) {
 			sheet3.autoSizeColumn(i);
 		}
-		
+
 		try {
 			FileOutputStream fos = new FileOutputStream(file);
 			wb.write(fos);
@@ -67,7 +70,6 @@ public class ExcelData {
 		} catch (Exception e) {
 			System.out.println("Unable to write on excel file " + e.getMessage());
 		}
-
 
 	}
 
@@ -79,4 +81,30 @@ public class ExcelData {
 		return wb.getSheet(SheetName).getRow(Row).getCell(Column).getNumericCellValue();
 	}
 
-}
+	public  HashMap<String, String> getMapData(String SheetName) {
+		hm = new HashMap<String, String>();
+		try {
+		GetExcel();
+		 XSSFSheet sheet = wb.getSheet(SheetName);
+		 int lastRowNumber =sheet.getLastRowNum();
+		TestUtils.log().debug(lastRowNumber);
+
+		for (int i = 1; i <= lastRowNumber; i++) {
+			XSSFRow row = wb.getSheet(SheetName).getRow(i);
+			XSSFCell KeyCell = row.getCell(0);
+			String Key = KeyCell.getStringCellValue().trim();
+
+			XSSFCell valueCell = row.getCell(1);
+			String Value = valueCell.getStringCellValue().trim();
+			hm.put(Key, Value);
+
+		}
+	}
+	
+	catch(Exception e)
+	{
+		System.out.println("Yes");
+	}
+		return hm;
+
+	}}

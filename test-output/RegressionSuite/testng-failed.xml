@@ -11,16 +11,13 @@
       </run>
     </groups>
     <classes>
-      <class name="com.oneapp.test_suits.Myprofile_testcases">
+      <class name="com.oneapp.test_suits.OTP_testcases">
         <methods>
-          <include name="validate_saving_with_invalid_dateofbirth_field_testcase"/>
+          <include name="validate_valid_OTP_testcase"/>
           <include name="Browsers_open"/>
           <include name="Quit_session"/>
-          <include name="validate_saving_with_invalid_email_field_testcase"/>
-          <include name="validate_saving_with_invalid_address_field_testcase"/>
-          <include name="validate_saving_with_invalid_pincode_field_testcase"/>
         </methods>
-      </class> <!-- com.oneapp.test_suits.Myprofile_testcases -->
+      </class> <!-- com.oneapp.test_suits.OTP_testcases -->
     </classes>
   </test> <!-- RegressionTests(failed) -->
 </suite> <!-- Failed suite [RegressionSuite] -->
