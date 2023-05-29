@@ -2,7 +2,8 @@ package com.oneapp.page_actions;
 
 import org.testng.Assert;
 
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.ConfigData;
+import com.oneapp.utils.Generic;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 import com.oneapp.pageobjects.SOS_alert_window_page_object;
@@ -15,6 +16,9 @@ public class SOS_alert_window_page_actions {
 	public SOS_alert_window_page_object SOSawpo;
 	public CommonElements_Page_object cepo;
 	public Dashboard_Page_object dpo;
+	public ConfigData configdata;
+	public Generic generic;
+
 
 	
 	public SOS_alert_window_page_actions(AndroidDriver ad) {
@@ -22,36 +26,39 @@ public class SOS_alert_window_page_actions {
 		SOSawpo = new SOS_alert_window_page_object(ad);
 		cepo= new CommonElements_Page_object(ad);
 		dpo = new Dashboard_Page_object(ad);
+		configdata	= new ConfigData();
+		generic = new Generic();
+
 	}
 	
 	public void tappingCloseIconAction()
 	{
-		Generic.tappingOnWebelement(882, 813);
+		generic.tappingOnWebelement(882, 813);
 	}
 
 	public void tappingDontSendLinkAction()
 	{
-		Generic.tappingOnWebelement(512, 1510);
+		generic.tappingOnWebelement(512, 1510);
 	}
 	
 	public void tapingSendAlertNowButtonAction()
 	{
-		Generic.clickOnWebElement(SOSawpo.getSend_alert_now_button());
+		generic.clickOnWebElement(SOSawpo.getSend_alert_now_button());
 	}
 	
 	public void turnOFFInternetAction()
 	{
-		Generic.WifiOff();
+		generic.WifiOff();
 	}
 	
 	public void turnONInternetAction()
 	{
-		Generic.WifiOn();
+		generic.WifiOn();
 	}
 	
 	public void commonAssertionSOSAlertWindowAction()
 	{
-		Generic.softAssertion(dpo.getKey_action_text(), "Key Actions");
+		generic.softAssertion(dpo.getKey_action_text(), configdata.getcommonAssertionSOSAlertWindowExpected() );
 		}
 	
 	

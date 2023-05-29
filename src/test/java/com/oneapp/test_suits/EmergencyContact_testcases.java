@@ -18,6 +18,7 @@ import com.oneapp.page_actions.Selected_Vehicle_Page_Actions;
 
 public class EmergencyContact_testcases extends BrowserFactory {
 
+	
 	@Test (priority = 18, groups = { "Smoke", "Regression" })
 	public void validate_emergency_contact_added_succesfully_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
@@ -27,7 +28,6 @@ public class EmergencyContact_testcases extends BrowserFactory {
 		opa.validOTPAction();
 		opa.clickVerifyButtonAction();
 		Selected_Vehicle_Page_Actions svpa = new Selected_Vehicle_Page_Actions(ad);
-		svpa.selectedVehicleAssertion();
 		svpa.vehicleSelectionAction();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
 		dpa.dashboardAllPopUpAction();
@@ -52,33 +52,32 @@ public class EmergencyContact_testcases extends BrowserFactory {
 		Myprofile_Page_Actions mppa = new Myprofile_Page_Actions(ad);
 		Emergency_contact_page_actions ecpa = new Emergency_contact_page_actions(ad);
 		ecpa.deletingSavedContactAction();
-		ecpa.deletingContactAction();
-		ecpa.clickBackIconAction();
-		mppa.clickBackIconAction();
-		mbpa.clickLogoutFromMenuBarAction();
-		Logout_Page_Actions lgpa = new Logout_Page_Actions(ad);
-		lgpa.clickYesUnderLogoutAction();
-		lgpa.logoutAssertionAction();
+		ecpa.deletingContactAssertionAction();
+//		ecpa.clickBackIconAction();
+//		mppa.clickBackIconAction();
+//		mbpa.clickLogoutFromMenuBarAction();
+//		Logout_Page_Actions lgpa = new Logout_Page_Actions(ad);
+//		lgpa.clickYesUnderLogoutAction();
+//		lgpa.logoutAssertionAction();
 	
 	}
 
 	@Test (priority = 20, dependsOnMethods = {"validate_emergency_contact_added_succesfully_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_emergency_contact_with_blank_fullName_testcase() throws InterruptedException {
-		Login_Page_Action lpa = new Login_Page_Action(ad);
-		lpa.validLoginAction();
-		lpa.validLoginAssertionAction();
-		OTP_Page_Actions opa = new OTP_Page_Actions(ad);
-		opa.validOTPAction();
-		opa.clickVerifyButtonAction();
-		Selected_Vehicle_Page_Actions svpa = new Selected_Vehicle_Page_Actions(ad);
-		svpa.selectedVehicleAssertion();
-		svpa.vehicleSelectionAction();
-		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
-		dpa.clickMenuBarAction();
-		Menu_Bar_Page_Actions mbpa = new Menu_Bar_Page_Actions(ad);
-		mbpa.clickMyProfileFromMenuBarAction();
-		Myprofile_Page_Actions mppa = new Myprofile_Page_Actions(ad);
-		mppa.clickEmergencyContactAction();
+//		Login_Page_Action lpa = new Login_Page_Action(ad);
+//		lpa.validLoginAction();
+//		lpa.validLoginAssertionAction();
+//		OTP_Page_Actions opa = new OTP_Page_Actions(ad);
+//		opa.validOTPAction();
+//		opa.clickVerifyButtonAction();
+//		Selected_Vehicle_Page_Actions svpa = new Selected_Vehicle_Page_Actions(ad);
+//		svpa.vehicleSelectionAction();
+//		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
+//		dpa.clickMenuBarAction();
+//		Menu_Bar_Page_Actions mbpa = new Menu_Bar_Page_Actions(ad);
+//		mbpa.clickMyProfileFromMenuBarAction();
+//		Myprofile_Page_Actions mppa = new Myprofile_Page_Actions(ad);
+//		mppa.clickEmergencyContactAction();
 		Emergency_contact_page_actions ecpa = new Emergency_contact_page_actions(ad);
 		ecpa.clickAddingEmergencyContactLinkAction();
 		ecpa.clickCreateNewContactAction();

@@ -1,31 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-06T15:04:45 IST" name="RegressionSuite" finished-at="2023-04-06T15:06:56 IST" duration-ms="130326">
+  <suite started-at="2023-05-11T18:30:34 IST" name="Default suite" finished-at="2023-05-11T18:38:05 IST" duration-ms="451127">
     <groups>
-      <group name="Negative">
-        <method signature="OTP_testcases.validate_valid_OTP_testcase()[pri:6, instance:com.oneapp.test_suits.OTP_testcases@189cbd7c]" name="validate_valid_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
-      </group> <!-- Negative -->
       <group name="Regression">
-        <method signature="OTP_testcases.validate_valid_OTP_testcase()[pri:6, instance:com.oneapp.test_suits.OTP_testcases@189cbd7c]" name="validate_valid_OTP_testcase" class="com.oneapp.test_suits.OTP_testcases"/>
+        <method signature="Dashboard_testcases.validate_DashboardVideoIsPresent_testcase()[pri:43, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" name="validate_DashboardVideoIsPresent_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="Dashboard_testcases.validate_DealorLocator_testcase()[pri:46, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" name="validate_DealorLocator_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="Dashboard_testcases.validate_RSA_testcase()[pri:45, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" name="validate_RSA_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="Dashboard_testcases.validate_relationshipManager_testcase()[pri:44, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" name="validate_relationshipManager_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
       </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Dashboard_testcases.validate_DashboardVideoIsPresent_testcase()[pri:43, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" name="validate_DashboardVideoIsPresent_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="Dashboard_testcases.validate_DealorLocator_testcase()[pri:46, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" name="validate_DealorLocator_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="Dashboard_testcases.validate_RSA_testcase()[pri:45, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" name="validate_RSA_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+        <method signature="Dashboard_testcases.validate_relationshipManager_testcase()[pri:44, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" name="validate_relationshipManager_testcase" class="com.oneapp.test_suits.Dashboard_testcases"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-04-06T15:04:45 IST" name="RegressionTests" finished-at="2023-04-06T15:06:56 IST" duration-ms="130326">
-      <class name="com.oneapp.test_suits.OTP_testcases">
-        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.OTP_testcases@189cbd7c]" started-at="2023-04-06T15:04:45 IST" name="Browsers_open" finished-at="2023-04-06T15:05:09 IST" duration-ms="23230" status="PASS">
+    <test started-at="2023-05-11T18:30:34 IST" name="Default test" finished-at="2023-05-11T18:38:05 IST" duration-ms="451127">
+      <class name="com.oneapp.test_suits.Dashboard_testcases">
+        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" started-at="2023-05-11T18:30:34 IST" name="Browsers_open" finished-at="2023-05-11T18:31:00 IST" duration-ms="26662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browsers_open -->
-        <test-method signature="validate_valid_OTP_testcase()[pri:6, instance:com.oneapp.test_suits.OTP_testcases@189cbd7c]" started-at="2023-04-06T15:05:09 IST" name="validate_valid_OTP_testcase" finished-at="2023-04-06T15:06:54 IST" duration-ms="104939" status="PASS">
+        <test-method signature="validate_DashboardVideoIsPresent_testcase()[pri:43, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" started-at="2023-05-11T18:31:00 IST" name="validate_DashboardVideoIsPresent_testcase" finished-at="2023-05-11T18:32:13 IST" duration-ms="72759" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_valid_OTP_testcase -->
-        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.OTP_testcases@189cbd7c]" started-at="2023-04-06T15:06:54 IST" name="Quit_session" finished-at="2023-04-06T15:06:56 IST" duration-ms="2099" status="PASS">
+        </test-method> <!-- validate_DashboardVideoIsPresent_testcase -->
+        <test-method signature="validate_relationshipManager_testcase()[pri:44, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" started-at="2023-05-11T18:32:13 IST" name="validate_relationshipManager_testcase" finished-at="2023-05-11T18:34:16 IST" duration-ms="123318" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 35d12f7d-9c25-4947-88c0-6453abc72a16
+*** Element info: {Using=id, value=com.customerapp.hero:id/lbl}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 35d12f7d-9c25-4947-88c0-6453abc72a16
+*** Element info: {Using=id, value=com.customerapp.hero:id/lbl}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
+at com.oneapp.utils.Generic.hardAssertion(Generic.java:30)
+at com.oneapp.page_actions.RelationshipManager_Page_Action.relationshipManagerPageAssertionAction(RelationshipManager_Page_Action.java:32)
+at com.oneapp.test_suits.Dashboard_testcases.validate_relationshipManager_testcase(Dashboard_testcases.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_relationshipManager_testcase -->
+        <test-method signature="validate_RSA_testcase()[pri:45, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" started-at="2023-05-11T18:34:17 IST" name="validate_RSA_testcase" finished-at="2023-05-11T18:36:20 IST" duration-ms="123208" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 35d12f7d-9c25-4947-88c0-6453abc72a16
+*** Element info: {Using=id, value=com.customerapp.hero:id/lbl}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, platformVersion: 13.0, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 35d12f7d-9c25-4947-88c0-6453abc72a16
+*** Element info: {Using=id, value=com.customerapp.hero:id/lbl}
+at jdk.internal.reflect.GeneratedConstructorAccessor37.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
+at com.oneapp.utils.Generic.hardAssertion(Generic.java:30)
+at com.oneapp.page_actions.RSA_Page_Action.RSAPageAssertionAction(RSA_Page_Action.java:32)
+at com.oneapp.test_suits.Dashboard_testcases.validate_RSA_testcase(Dashboard_testcases.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_RSA_testcase -->
+        <test-method signature="validate_DealorLocator_testcase()[pri:46, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" started-at="2023-05-11T18:36:21 IST" name="validate_DealorLocator_testcase" finished-at="2023-05-11T18:38:03 IST" duration-ms="102113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_DealorLocator_testcase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.Dashboard_testcases@35aea049]" started-at="2023-05-11T18:38:03 IST" name="Quit_session" finished-at="2023-05-11T18:38:05 IST" duration-ms="1771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Quit_session -->
-      </class> <!-- com.oneapp.test_suits.OTP_testcases -->
-    </test> <!-- RegressionTests -->
-  </suite> <!-- RegressionSuite -->
+      </class> <!-- com.oneapp.test_suits.Dashboard_testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

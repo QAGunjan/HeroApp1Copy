@@ -21,7 +21,7 @@ import com.oneapp.page_actions.TipsAndDIYVideos_page_action;
 public class Dashboard_testcases extends BrowserFactory {
 
 	@Test(priority = 43, groups = { "Smoke", "Regression" })
-	public void validate_DealorLocator_testcase() throws InterruptedException, IOException {
+	public void validate_DashboardVideoIsPresent_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.validLoginAction();
 		lpa.validLoginAssertionAction();
@@ -29,15 +29,10 @@ public class Dashboard_testcases extends BrowserFactory {
 		opa.validOTPAction();
 		opa.clickVerifyButtonAction();
 		Selected_Vehicle_Page_Actions svpa = new Selected_Vehicle_Page_Actions(ad);
-		svpa.selectedVehicleAssertion();
 		svpa.vehicleSelectionAction();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
 		dpa.dashboardAllPopUpAction();
-		dpa.clickDealerLocatorAction();
-		DealerLocator_Page_Action dlpa = new DealerLocator_Page_Action(ad);
-		dlpa.dealerLocatorPageAssertionAction();
-		dlpa.dealerLocatorProcessAction();
-
+		dpa.dashboardVideoAction();
 	}
 
 	@Test(priority = 44, groups = { "Smoke", "Regression" })
@@ -58,7 +53,16 @@ public class Dashboard_testcases extends BrowserFactory {
 		RSA_Page_Action RSApa = new RSA_Page_Action(ad);
 		RSApa.RSAPageAssertionAction();
 		RSApa.RSAProcessAction();
-
 	}
 
+	@Test(priority = 46, groups = { "Smoke", "Regression" })
+	public void validate_DealorLocator_testcase() throws InterruptedException, IOException {
+		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
+		dpa.dashboardAllPopUpAction();
+		dpa.clickDealerLocatorAction();
+		DealerLocator_Page_Action dlpa = new DealerLocator_Page_Action(ad);
+		dlpa.dealerLocatorPageAssertionAction();
+		dlpa.dealerLocatorProcessAction();
+
+	}
 }

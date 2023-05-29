@@ -5,7 +5,8 @@ import org.testng.Assert;
 
 import com.oneapp.basic.Create_Driver_Session;
 import com.oneapp.basic.ExcelData;
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.ConfigData;
+import com.oneapp.utils.Generic;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Login_Page_Object;
 import com.oneapp.pageobjects.OTP_Page_Object;
@@ -23,17 +24,20 @@ public class OTP_Page_Actions {
 	public OTP_Page_Object opo;
 	public CommonElements_Page_object cepo;
 	public ExcelData exceldata;
-
+	public ConfigData configdata;
+	public Generic generic;
 
 	public OTP_Page_Actions(AndroidDriver ad) {
 		this.ad = ad;
 		opo = new OTP_Page_Object(ad);
-		cepo= new CommonElements_Page_object(ad);
+		cepo = new CommonElements_Page_object(ad);
 		exceldata = new ExcelData();
+		configdata = new ConfigData();
+		generic = new Generic();
 
 	}
 
-	public void validOTPAction()  {		
+	public void validOTPAction() {
 		opo.getFirsttxtbox().sendKeys("1");
 		opo.getSecondtxtbox().sendKeys("2");
 		opo.getThirdtxtbox().sendKeys("3");
@@ -53,33 +57,38 @@ public class OTP_Page_Actions {
 	}
 
 	public void clickVerifyButtonAction() {
-		Generic.clickOnWebElement(cepo.getbutton());
+		generic.clickOnWebElement(cepo.getbutton());
 	}
 
 	public void invalidOTPAssertionAction() {
-		Generic.hardAssertion(opo.getVerify_with_OTP(), exceldata.getStringData("OTP Page", 8, 1));
+		generic.hardAssertion(opo.getVerify_with_OTP(), configdata.getInvalidOTPExpected());
 	}
 
 	public void validOTPWithNoInternetAction() {
-		
-		Generic.hardAssertion(opo.getVerify_with_OTP(), exceldata.getStringData("OTP Page", 8, 1));
+
+		generic.hardAssertion(opo.getVerify_with_OTP(), configdata.getValidOTPWithNoInternet());
 	}
 
 	public void clickEditAction() {
-		Generic.clickOnWebElement(opo.getEdit_button());
+		generic.clickOnWebElement(opo.getEdit_button());
 	}
 
 	public void clickResendLinkAction() {
-		Generic.clickOnWebElement(opo.getResend_link());
+		generic.clickOnWebElement(opo.getResend_link());
 	}
-	
+
 	public void continueWithNoInternetAction() throws InterruptedException {
 		validOTPAction();
-		Generic.WifiOff();
-		Generic.clickOnWebElement(cepo.getbutton());
+		generic.WifiOff();
+		generic.clickOnWebElement(cepo.getbutton());
 		validOTPWithNoInternetAction();
-		Generic.WifiOn();
+		generic.WifiOn();
 	}
 	
-	
+	public void applicationMinimizing() throws InterruptedException {
+		generic.runningApplicationBackground();
+		generic.clickOnWebElement(cepo.getbutton());
+
+	}
+
 }

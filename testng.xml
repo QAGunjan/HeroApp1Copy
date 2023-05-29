@@ -11,7 +11,11 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.oneapp.test_suits.OTP_testcases"></class>
+			<class name="com.oneapp.test_suits.Dashboard_testcases">
+				<methods>
+					<include name="validate_DashboardVideoIsPresent_testcase"></include>
+				</methods>
+			</class>
 		</classes>
 	</test> <!-- LoginTest -->
 </suite> <!-- LoginSuite -->

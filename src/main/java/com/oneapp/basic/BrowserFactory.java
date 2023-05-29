@@ -37,20 +37,19 @@ import com.google.common.io.Files;
 import com.oneapp.page_actions.Login_Page_Action;
 import com.oneapp.page_actions.OTP_Page_Actions;
 import com.oneapp.utils.TestUtils;
-
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.screenrecording.CanRecordScreen;
 
 public class BrowserFactory {
 
 	public static AndroidDriver ad;// Global AndroidDriver
 	public static ExtentTest extentTest;
 
-
 //	@Parameters({ "PLATFORM_NAME", "DEVICE_NAME", "AUTOMATION_NAME", "UDID" })
-	
-	 @BeforeClass(alwaysRun = true)
+
+	@BeforeClass(alwaysRun = true)
 	public void Browsers_open() throws MalformedURLException {
 		// This is origional
 		ad = Create_Driver_Session.Androidsession("Android");
@@ -63,43 +62,69 @@ public class BrowserFactory {
 //            	Reporter.log("Android emulator gets opened", true);
 
 	}
-	 
-	 @AfterClass (alwaysRun = true)
-	 public void Quit_session()
-	 {
-		 ad.quit();
-		 TestUtils.log().debug("Android Real device gets closed");
-		 TestUtils.log().debug("++++++++++++++++++++++++++++++++");
-	 }
-	 
-	 @BeforeMethod
-	 public void pre_condition()
-	 {
-		
-	 }
-	 
-	 @AfterMethod
-	 public void post_condition()
-	 {
-		 
-	 }
-	 
+
+	@AfterClass(alwaysRun = true)
+	public void Quit_session() {
+		ad.quit();
+		TestUtils.log().debug("Android Real device gets closed");
+		TestUtils.log().debug("++++++++++++++++++++++++++++++++");
+	}
+
+	
+//	@BeforeMethod(alwaysRun = true)
+//	public void pre_condition() {
+//		((CanRecordScreen) ad).startRecordingScreen();
+//		TestUtils.log().info("Recording has been started");
+//	}
+//
+//	@AfterMethod(alwaysRun = true)
+//	public void post_condition() {
+//		TestUtils.log().info("Recording has been stopped");
+//
+//		String media = ((CanRecordScreen) ad).stopRecordingScreen();
+//
+//		String videodir = System.getProperty("user.dir") + "/videos/";
+//		File videoDir = new File(videodir);
+//
+//		synchronized (videoDir) {
+//			if (!videoDir.exists()) {
+//				videoDir.mkdirs();
+//				TestUtils.log().debug("Videos folder does not exist in the framework");
+//			}
+//		}
+//		FileOutputStream stream = null;
+//		try {
+//			stream = new FileOutputStream(videoDir + ".mp4");
+//			stream.write(Base64.decode(media));
+//			stream.close();
+//			TestUtils.log().info("video path: " + videoDir + ".mp4");
+//		} catch (Exception e) {
+//			TestUtils.log().error("error during video capture" + e.toString());
+//		} finally {
+//			if (stream != null) {
+//				try {
+//					stream.close();
+//				} catch (IOException e) {
+//					e.printStackTrace();
+//				}
+//			}
+//		}
+//	}
+
 }
-	 
-	/*	private static String RTDataPortal_Url="https://202.56.244.135/siebel/app/edealer/enu?SWECmd=Start&SWEHo=202.56.244.135"; 
-		public static WebDriver launch_Browser(WebDriver driver)
-		{
-		
-			System.setProperty("webdriver.chrome.driver", "./myfiles/chromedriver.exe");
-			//WebDriver driver = new ChromeDriver();
-			driver= new ChromeDriver();
-			
-			driver.navigate().to(RTDataPortal_Url);
-			
-			return driver;
-		}*/
-	 
-	 
+
+/*
+ * private static String RTDataPortal_Url=
+ * "https://202.56.244.135/siebel/app/edealer/enu?SWECmd=Start&SWEHo=202.56.244.135";
+ * public static WebDriver launch_Browser(WebDriver driver) {
+ * 
+ * System.setProperty("webdriver.chrome.driver", "./myfiles/chromedriver.exe");
+ * //WebDriver driver = new ChromeDriver(); driver= new ChromeDriver();
+ * 
+ * driver.navigate().to(RTDataPortal_Url);
+ * 
+ * return driver; }
+ */
 
 //	 @AfterMethod(alwaysRun = true)
 //	public void Browsers_teardown(ITestResult result) 
@@ -168,26 +193,10 @@ public class BrowserFactory {
 //		 String fileName = methodName + "_"+ d.toString().replace(":", "_").replace("", "_") + ".png";
 //		 return fileName;
 //	 }
-	 
+
 //	 @AfterClass (alwaysRun = true)
 //	 public void tearn_down()
 //	 {
 //		 System.out.println("****************************");
 //		 System.out.println("All test cases have executed");
 //	 }
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-
-

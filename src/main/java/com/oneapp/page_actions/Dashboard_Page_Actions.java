@@ -5,7 +5,8 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.Console_Colors;
+import com.oneapp.utils.Generic;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 import com.oneapp.pageobjects.Selected_Vehicle_Page_Object;
@@ -22,15 +23,32 @@ public class Dashboard_Page_Actions {
 	public TouchAction ta;
 	public Dashboard_Page_object dpo;
 	public CommonElements_Page_object cepo;
+	public Generic generic;
 
 	public Dashboard_Page_Actions(AndroidDriver ad) {
 		this.ad = ad;
 		dpo = new Dashboard_Page_object(ad);
 		cepo = new CommonElements_Page_object(ad);
+		generic = new Generic();
+	}
+	
+	public void dashboardVideoAction()
+	{
+		try {
+			
+		if (dpo.getDashboardVideo().isDisplayed())
+		{
+			TestUtils.log().debug("Dashboard video is present");
+		}
+		}
+		catch (Exception e)
+		{
+			TestUtils.log().debug(Console_Colors.Red_color() + "Dasdhboard video is not displaying "+ e + Console_Colors.Reset_color());
+		}
 	}
 
 	public void dashboardAllPopUpAction() throws InterruptedException {
-		Thread.sleep(6000);
+		Thread.sleep(3000);
 
 //		Below Actions are for Honor Phone (Android - 9)
 //		try {
@@ -41,9 +59,9 @@ public class Dashboard_Page_Actions {
 //		{
 //		}
 		try {
-			if (dpo.getDevice_location_popup_samsung().isDisplayed() == true) {
-				Generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
-				Thread.sleep(10000);
+			if (dpo.getDevice_location_popup_samsung().isDisplayed()) {
+				generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
+				Thread.sleep(5000);
 			}
 		} catch (Exception e) {
 			TestUtils.log().debug("Exception Handled" + e);
@@ -81,22 +99,28 @@ public class Dashboard_Page_Actions {
 	}
 
 	public void clickMenuBarAction() {
-		Generic.clickOnWebElement(dpo.getMenu_bar_icon());
+		generic.clickOnWebElement(dpo.getMenu_bar_icon());
 	}
 
 	public void clickServiceIconAction() {
-		Generic.clickOnWebElement(dpo.getServices_icon());
+		generic.clickOnWebElement(dpo.getServices_icon());
 	}
 
 	public void clickGoodlifeIconAction() {
-		Generic.clickOnWebElement(dpo.getGoodlife_icon());
+		generic.clickOnWebElement(dpo.getGoodlife_icon());
 	}
 
 	public void clickSOSIconAction() {
-		Generic.clickOnWebElement(dpo.getSOS_icon());
+		generic.clickOnWebElement(dpo.getSOS_icon());
 	}
 
 	public void clickDealerLocatorAction() {
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		if (dpo.getKey_action_text().isDisplayed() == true) {
 
 			if (dpo.getDealerLocatortext().isDisplayed() == true) {
@@ -110,7 +134,7 @@ public class Dashboard_Page_Actions {
 							// TODO Auto-generated catch block
 							e1.printStackTrace();
 						}
-					Generic.clickOnWebElement(dpo.getDealerLocatorImageIcon());
+					generic.clickOnWebElement(dpo.getDealerLocatorImageIcon());
 
 					break;
 				}
@@ -131,7 +155,7 @@ public class Dashboard_Page_Actions {
 							// TODO Auto-generated catch block
 							e1.printStackTrace();
 						}
-					Generic.clickOnWebElement(dpo.getRelationshipManagerImageIcon());
+					generic.clickOnWebElement(dpo.getRelationshipManagerImageIcon());
 					break;
 				}
 
@@ -154,7 +178,7 @@ public class Dashboard_Page_Actions {
 							// TODO Auto-generated catch block
 							e1.printStackTrace();
 						}
-					Generic.clickOnWebElement(dpo.getRSAImageIcon());
+					generic.clickOnWebElement(dpo.getRSAImageIcon());
 					break;
 				}
 

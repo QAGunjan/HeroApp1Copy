@@ -17,7 +17,7 @@ public class RelationshipManager_Page_Object {
 	@FindBy(xpath = "//*[@text='TSM']")
 	private WebElement TSM_text;
 
-	@FindBy(xpath = "//*[@text='chavakula.rakshit@heromotocorp.com']")
+	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[3]")
 	private WebElement TSM_email;
 
 	public RelationshipManager_Page_Object(AndroidDriver ad) {

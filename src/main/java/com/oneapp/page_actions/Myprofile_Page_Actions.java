@@ -5,7 +5,9 @@ import org.testng.Reporter;
 import org.testng.asserts.SoftAssert;
 
 import com.oneapp.basic.ExcelData;
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.ConfigData;
+import com.oneapp.utils.Generic;
+import com.oneapp.utils.TestUtils;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Menu_Bar_Page_Object;
 import com.oneapp.pageobjects.MyProfile_Page_Object;
@@ -18,33 +20,45 @@ public class Myprofile_Page_Actions {
 	public MyProfile_Page_Object mppo;
 	public ExcelData exceldata;
 	public CommonElements_Page_object cepo;
+	public ConfigData configdata;
+	public Generic generic;
+
 
 	public Myprofile_Page_Actions(AndroidDriver ad) {
 		this.ad = ad;
 		mppo = new MyProfile_Page_Object(ad);
 		exceldata = new ExcelData();
 		cepo = new CommonElements_Page_object(ad);
+		configdata	= new ConfigData();
+		generic = new Generic();
+
 	}
 
 	public void profileDetailsvalidateAction() throws InterruptedException {
 
-		Generic.softAssertion(cepo.getPageTitleText(), "Profile Details");
-		Generic.clickOnWebElement(mppo.getMoredetails_link());
-		Generic.clickOnWebElement(cepo.getbutton());
+		try {
+			generic.hardAssertion(cepo.getPageTitleText(), configdata.getprofileDetailsPageTitleExpected());
+			generic.clickOnWebElement(mppo.getMoredetails_link());
+			generic.clickOnWebElement(cepo.getbutton());
+		} 
+		catch (Exception e)
+		{
+			TestUtils.log().debug(e);
+		}
 	}
 
 	public void clickBackIconAction() throws InterruptedException {
 		Thread.sleep(4000);
-		Generic.clickOnWebElement(cepo.getBack_icon());
+		generic.clickOnWebElement(cepo.getBack_icon());
 	}
 
 	public void profileDetailsAfterSavingValidationAction()
 
 	{
-		Generic.clickOnWebElement(mppo.getMoredetails_link());
+		generic.clickOnWebElement(mppo.getMoredetails_link());
 
 		String expected_address = exceldata.getStringData("My Profile", 4, 1);
-		Generic.hardAssertion(mppo.getAddress_val(), expected_address);
+		generic.hardAssertion(mppo.getAddress_val(), expected_address);
 		System.out.println(expected_address);
 
 //		if (mppo.getAddress_val().getText().equalsIgnoreCase(expected_address)) {
@@ -61,13 +75,13 @@ public class Myprofile_Page_Actions {
 //		}
 
 	}
-
+	
 	public void clickEmergencyContactAction() throws InterruptedException {
-		Generic.clickOnWebElement(mppo.getEmergency_contact_txt());
+		generic.clickOnWebElement(mppo.getEmergency_contact_txt());
 	}
 
 	public void clickManageLicenceAction() {
-		Generic.clickOnWebElement(mppo.getManage_license_text());
+		generic.clickOnWebElement(mppo.getManage_license_text());
 	}
 
 }

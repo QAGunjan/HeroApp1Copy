@@ -4,7 +4,8 @@ import static org.testng.Assert.assertEquals;
 
 import org.testng.Assert;
 
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.ConfigData;
+import com.oneapp.utils.Generic;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 import com.oneapp.pageobjects.Privacy_Policy_Page_Object;
 
@@ -17,15 +18,21 @@ public class Privacy_policy_Page_action {
 	public AndroidDriver ad;
 	public TouchAction ta;
 	public Privacy_Policy_Page_Object pppo;
+	public ConfigData configdata;
+	public Generic generic;
+
 
 	public Privacy_policy_Page_action(AndroidDriver ad) {
 		this.ad = ad;
 		pppo = new Privacy_Policy_Page_Object(ad);
+		configdata	= new ConfigData();
+		generic = new Generic();
+
 	}
 	
-	public void privacyPolicyAction()
+	public void privacyPolicyPageAssertionAction()
 	{
-		Generic.softAssertion(pppo.getWebpage_not_available_text(), "Webpage not available");
+		generic.softAssertion(pppo.getWebpage_not_available_text(), configdata.getprivacyPolicyPageExpected());
 	}
 
 }

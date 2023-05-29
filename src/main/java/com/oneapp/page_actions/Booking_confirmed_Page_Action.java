@@ -2,7 +2,7 @@ package com.oneapp.page_actions;
 
 import org.openqa.selenium.WebDriver;
 
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.Generic;
 import com.oneapp.pageobjects.Book_service_selfJobCard_page_object;
 import com.oneapp.pageobjects.Booking_confirmed_Page_Object;
 
@@ -16,10 +16,12 @@ public class Booking_confirmed_Page_Action {
 	public AndroidDriver ad;
 	public TouchAction action;
 	public Booking_confirmed_Page_Object bcpo;
+	public Generic generic;
 
 	public Booking_confirmed_Page_Action(AndroidDriver ad) {
 		this.ad = ad;
 		bcpo = new Booking_confirmed_Page_Object(ad);
+		generic = new Generic();
 	}
 	
 	public void fetchingSRNumberAction()
@@ -30,7 +32,7 @@ public class Booking_confirmed_Page_Action {
 	
 	public void clickGoBackToHomeAction() throws InterruptedException
 	{
-		Generic.clickOnWebElement(bcpo.getGo_back_to_home_link());
+		generic.clickOnWebElement(bcpo.getGo_back_to_home_link());
 		Thread.sleep(10000);
 	}
 

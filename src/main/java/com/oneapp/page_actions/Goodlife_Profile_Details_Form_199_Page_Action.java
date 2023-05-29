@@ -2,7 +2,7 @@ package com.oneapp.page_actions;
 
 import java.time.Duration;
 
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.Generic;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Goodlife_Profile_Details_Form_199_Page_Object;
 import com.oneapp.pageobjects.Goodlife_Select_Your_Plan_Page_Object;
@@ -17,12 +17,13 @@ public class Goodlife_Profile_Details_Form_199_Page_Action {
 	public Goodlife_Profile_Details_Form_199_Page_Object gpdf_199_po;
 	TouchAction ta;
 	public CommonElements_Page_object cepo;
-
+	public Generic generic;
 	
 	public Goodlife_Profile_Details_Form_199_Page_Action(AndroidDriver ad) {
 		this.ad = ad;
 		gpdf_199_po = new Goodlife_Profile_Details_Form_199_Page_Object(ad);
 		cepo = new CommonElements_Page_object(ad);
+		generic = new Generic();
 
 	}
 
@@ -34,7 +35,7 @@ public class Goodlife_Profile_Details_Form_199_Page_Action {
 		}
 		else
 		{
-			Generic.clickOnWebElement(gpdf_199_po.getMy_immediate_family_mem_checkbox());
+			generic.clickOnWebElement(gpdf_199_po.getMy_immediate_family_mem_checkbox());
 		}
 		
 		ta = new TouchAction(ad);
@@ -48,9 +49,9 @@ public class Goodlife_Profile_Details_Form_199_Page_Action {
 		}
 		else
 		{
-			Generic.clickOnWebElement(gpdf_199_po.getI_agree_T_and_C_checkbox());
+			generic.clickOnWebElement(gpdf_199_po.getI_agree_T_and_C_checkbox());
 		}
 		
-		Generic.clickOnWebElement(cepo.getbutton());
+		generic.clickOnWebElement(cepo.getbutton());
 	}
 }

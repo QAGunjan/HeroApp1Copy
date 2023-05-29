@@ -26,13 +26,11 @@ public class DealerLocator_Page_object {
 	@FindBy(xpath = "//*[@text='Hans Motors']")
 	private WebElement HansMotorsDealerLocatorName;
 
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.ImageView")
+	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.ImageView")
 	private WebElement callIconBesidesHansMotorsDealer;
 
 	@FindBy(xpath = "//*[@text='Something went wrong - 102']")
 	private WebElement somethingWentWrong_text;
-	
-	
 
 	public DealerLocator_Page_object(AndroidDriver ad) {
 
@@ -62,7 +60,5 @@ public class DealerLocator_Page_object {
 	public WebElement getSomethingWentWrong_text() {
 		return somethingWentWrong_text;
 	}
-	
-	
 
 }

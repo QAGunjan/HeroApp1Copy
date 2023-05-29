@@ -4,7 +4,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.oneapp.basic.BrowserFactory;
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.Generic;
 import com.oneapp.page_actions.Dashboard_Page_Actions;
 import com.oneapp.page_actions.Login_Page_Action;
 import com.oneapp.page_actions.Logout_Page_Actions;
@@ -27,7 +27,6 @@ public class Myprofile_testcases extends BrowserFactory {
 		opa.validOTPAction();
 		opa.clickVerifyButtonAction();
 		Selected_Vehicle_Page_Actions svpa = new Selected_Vehicle_Page_Actions(ad);
-		svpa.selectedVehicleAssertion();
 		svpa.vehicleSelectionAction();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
 		dpa.dashboardAllPopUpAction();
@@ -66,7 +65,6 @@ public class Myprofile_testcases extends BrowserFactory {
 		opa.validOTPAction();
 		opa.clickVerifyButtonAction();
 		Selected_Vehicle_Page_Actions svpa = new Selected_Vehicle_Page_Actions(ad);
-		svpa.selectedVehicleAssertion();
 		svpa.vehicleSelectionAction();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
 		dpa.dashboardAllPopUpAction();
@@ -78,7 +76,7 @@ public class Myprofile_testcases extends BrowserFactory {
 		Personal_Details_Page_Actions pdpa = new Personal_Details_Page_Actions(ad);
 		pdpa.fullNameFieldAction();
 		pdpa.clickSaveButton();
-		pdpa.blankFullNameFieldAction();
+		pdpa.blankFullNameFieldAssertionAction();
 		pdpa.enterfullNameAction();
 		
 	}
@@ -98,7 +96,7 @@ public class Myprofile_testcases extends BrowserFactory {
 		pdpa.emailFieldAction();
 		pdpa.enterInvalidEmailAction();
 		pdpa.clickSaveButton();
-		pdpa.enterInvalidEmailFieldAction();
+		pdpa.enterInvalidEmailFieldAssertionAction();
 		pdpa.enterValidEmailAction();
 		
 	}

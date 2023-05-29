@@ -3,16 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.oneapp.test_suits.OTP_testcases">
+      <class name="com.oneapp.test_suits.Dashboard_testcases">
         <methods>
-          <include name="validate_valid_OTP_with_no_internet_testcase"/>
-          <include name="validate_OTP_after_resend_testcase"/>
           <include name="Browsers_open"/>
-          <include name="validate_OTP_testcase"/>
-          <include name="validate_invalid_OTP_testcase"/>
-          <include name="validation_valid_OTP_working_expected_after_minimizing"/>
+          <include name="Quit_session"/>
+          <include name="validate_relationshipManager_testcase"/>
+          <include name="validate_RSA_testcase"/>
         </methods>
-      </class> <!-- com.oneapp.test_suits.OTP_testcases -->
+      </class> <!-- com.oneapp.test_suits.Dashboard_testcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

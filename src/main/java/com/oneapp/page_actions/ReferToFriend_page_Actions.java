@@ -6,7 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.oneapp.basic.ExcelData;
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.ConfigData;
+import com.oneapp.utils.Generic;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 import com.oneapp.pageobjects.Menu_Bar_Page_Object;
@@ -23,6 +24,9 @@ public class ReferToFriend_page_Actions {
 	public Menu_Bar_Page_Object mbpo;
 	public CommonElements_Page_object cepo;
 	public Dashboard_Page_object dpo;
+	public ConfigData configdata;
+	public Generic generic;
+
 
 	public ReferToFriend_page_Actions(AndroidDriver ad) {
 		this.ad = ad;
@@ -31,29 +35,31 @@ public class ReferToFriend_page_Actions {
 		cepo = new CommonElements_Page_object(ad);
 		dpo = new Dashboard_Page_object(ad);
 		exceldata = new ExcelData();
+		configdata	= new ConfigData();
+		 generic = new Generic();
 
 	}
 
 	public void referToFriendPageAssertionAction() {
-		Generic.hardAssertion(cepo.getPageTitleText(), "Vehicle purchase referral");
+		generic.hardAssertion(cepo.getPageTitleText(), configdata.getreferToFriendPageTitleExpected());
 	}
 
 	public void referToFriendProcessAction() {
-		Generic.sendKeysOnTextfields(rtfpo.getFriendName_field(), "Race");
-		Generic.sendKeysOnTextfields(rtfpo.getMobileNumber_field(), "8130998133");
-		Generic.clickOnWebElement(cepo.getState_box());
+		generic.sendKeysOnTextfields(rtfpo.getFriendName_field(), "Race");
+		generic.sendKeysOnTextfields(rtfpo.getMobileNumber_field(), "8130998133");
+		generic.clickOnWebElement(cepo.getState_box());
 		List<WebElement> options = cepo.getState_typedropdown();
-		Generic.itratingOnWebelements(options, "delhi");
-		Generic.clickOnWebElement(cepo.getCity_box());
+		generic.itratingOnWebelements(options, "delhi");
+		generic.clickOnWebElement(cepo.getCity_box());
 		List<WebElement> options1 = cepo.getCity_typedropdown();
-		Generic.itratingOnWebelements(options1, "new delhi");
-		Generic.clickOnWebElement(rtfpo.getSelectModel_box());
+		generic.itratingOnWebelements(options1, "new delhi");
+		generic.clickOnWebElement(rtfpo.getSelectModel_box());
 		List<WebElement> options3 = rtfpo.getSelectModel_typedropdown();
-		Generic.itratingOnWebelements(options3, "Destini 125");
-		Generic.clickOnWebElement(cepo.getbutton());
+		generic.itratingOnWebelements(options3, "Destini 125");
+		generic.clickOnWebElement(cepo.getbutton());
 
 		if (rtfpo.getSuccessfullyReferral_PopUp().isDisplayed() == true) {
-			Generic.clickOnWebElement(rtfpo.getOk_text());
+			generic.clickOnWebElement(rtfpo.getOk_text());
 
 		}
 
@@ -65,30 +71,30 @@ public class ReferToFriend_page_Actions {
 	}
 
 	public void referSuccessfullyAssertionAction() {
-		Generic.hardAssertion(dpo.getKey_action_text(), "Key Actions");
+		generic.hardAssertion(dpo.getKey_action_text(), configdata.getreferSuccessfullyExpected());
 	}
 
 	public void tryToSubmitingWithBlankFieldsAction() {
-		Generic.clickOnWebElement(cepo.getbutton());
+		generic.clickOnWebElement(cepo.getbutton());
 	}
 
 	public void commonReferToFriendPageAsserstionAction()
 
 	{
-		Generic.softAssertion(cepo.getPageTitleText(), "Vehicle purchase referral");
+		generic.softAssertion(cepo.getPageTitleText(), configdata.getreferToFriendPageTitleExpected());
 	}
 
 	public void tryToReferYourselfAction() {
-		Generic.clickOnWebElement(rtfpo.getReferYourself_link());
-		Generic.softAssertion(rtfpo.getFriendName_field(), exceldata.getStringData("My Profile", 1, 1));
-		Generic.softAssertion(rtfpo.getMobileNumber_field(), "9958592171");
-		Generic.clickOnWebElement(rtfpo.getSelectModel_box());
+		generic.clickOnWebElement(rtfpo.getReferYourself_link());
+		generic.softAssertion(rtfpo.getFriendName_field(), exceldata.getStringData("My Profile", 1, 1));
+		generic.softAssertion(rtfpo.getMobileNumber_field(), "9958592171");
+		generic.clickOnWebElement(rtfpo.getSelectModel_box());
 		List<WebElement> options3 = rtfpo.getSelectModel_typedropdown();
-		Generic.itratingOnWebelements(options3, "Destini 125");
-		Generic.clickOnWebElement(cepo.getbutton());
+		generic.itratingOnWebelements(options3, "Destini 125");
+		generic.clickOnWebElement(cepo.getbutton());
 
 		if (rtfpo.getSuccessfullyReferral_PopUp().isDisplayed() == true) {
-			Generic.clickOnWebElement(rtfpo.getOk_text());
+			generic.clickOnWebElement(rtfpo.getOk_text());
 
 		}
 
@@ -99,21 +105,21 @@ public class ReferToFriend_page_Actions {
 	}
 
 	public void tryToReferWithInvalidDetailsAction() {
-		Generic.sendKeysOnTextfields(rtfpo.getFriendName_field(), "asdas@#$#$%%^&%^");
-		Generic.sendKeysOnTextfields(rtfpo.getMobileNumber_field(), "880099");
-		Generic.clickOnWebElement(cepo.getbutton());
+		generic.sendKeysOnTextfields(rtfpo.getFriendName_field(), "asdas@#$#$%%^&%^");
+		generic.sendKeysOnTextfields(rtfpo.getMobileNumber_field(), "880099");
+		generic.clickOnWebElement(cepo.getbutton());
 	}
 
 	public void tryToReferWithNoInternet() {
-		Generic.clickOnWebElement(rtfpo.getReferYourself_link());
-		Generic.softAssertion(rtfpo.getFriendName_field(), exceldata.getStringData("My Profile", 1, 1));
-		Generic.softAssertion(rtfpo.getMobileNumber_field(), "9958592171");
-		Generic.clickOnWebElement(rtfpo.getSelectModel_box());
+		generic.clickOnWebElement(rtfpo.getReferYourself_link());
+		generic.softAssertion(rtfpo.getFriendName_field(), exceldata.getStringData("My Profile", 1, 1));
+		generic.softAssertion(rtfpo.getMobileNumber_field(), "9958592171");
+		generic.clickOnWebElement(rtfpo.getSelectModel_box());
 		List<WebElement> options3 = rtfpo.getSelectModel_typedropdown();
-		Generic.itratingOnWebelements(options3, "Destini 125");
-		Generic.WifiOff();
-		Generic.clickOnWebElement(cepo.getbutton());
+		generic.itratingOnWebelements(options3, "Destini 125");
+		generic.WifiOff();
+		generic.clickOnWebElement(cepo.getbutton());
 		commonReferToFriendPageAsserstionAction();
-		Generic.WifiOn();
+		generic.WifiOn();
 	}
 }

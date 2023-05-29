@@ -26,6 +26,9 @@ public class Menu_Bar_Page_Object {
 	@FindBy(xpath = "//*[@text='Tips and DIY videos']")
 	private WebElement tipsAndDIYVideos_menu_bar_txt;
 
+	@FindBy(id = "//*[@text='Feedback']")
+	private WebElement feedback_menu_bar_text;
+	
 	public Menu_Bar_Page_Object(AndroidDriver ad) {
 
 		PageFactory.initElements(ad, this);
@@ -55,5 +58,10 @@ public class Menu_Bar_Page_Object {
 	public WebElement getContactUs_menu_bar_txt() {
 		return ContactUs_menu_bar_txt;
 	}
+
+	public WebElement getFeedback_menu_bar_text() {
+		return feedback_menu_bar_text;
+	}
+	
 
 }

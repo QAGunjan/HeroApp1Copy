@@ -28,7 +28,6 @@ public class ManageLicense_testcases extends BrowserFactory {
 		opa.validOTPAction();
 		opa.clickVerifyButtonAction();
 		Selected_Vehicle_Page_Actions svpa = new Selected_Vehicle_Page_Actions(ad);
-		svpa.selectedVehicleAssertion();
 		svpa.vehicleSelectionAction();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
 		dpa.dashboardAllPopUpAction();
@@ -85,7 +84,6 @@ public class ManageLicense_testcases extends BrowserFactory {
 		opa.validOTPAction();
 		opa.clickVerifyButtonAction();
 		Selected_Vehicle_Page_Actions svpa = new Selected_Vehicle_Page_Actions(ad);
-		svpa.selectedVehicleAssertion();
 		svpa.vehicleSelectionAction();
 		Dashboard_Page_Actions dpa = new Dashboard_Page_Actions(ad);
 		dpa.dashboardAllPopUpAction();

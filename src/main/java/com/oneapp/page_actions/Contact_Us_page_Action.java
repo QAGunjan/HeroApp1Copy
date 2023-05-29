@@ -1,6 +1,7 @@
 package com.oneapp.page_actions;
 
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.ConfigData;
+import com.oneapp.utils.Generic;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Contact_Us_page_object;
 import com.oneapp.pageobjects.Dashboard_Page_object;
@@ -15,30 +16,36 @@ public class Contact_Us_page_Action {
 	public TouchAction ta;
 	public Contact_Us_page_object cupo;
 	public CommonElements_Page_object cepo;
+	public ConfigData configdata;
+	public Generic generic;
+
 
 
 	public Contact_Us_page_Action(AndroidDriver ad) {
 		this.ad = ad;
 		cupo = new Contact_Us_page_object(ad);
 	       cepo = new CommonElements_Page_object(ad);
+			configdata = new ConfigData();
+			generic = new Generic();
+
 
 	}
 
 	public void clickWhatsappAction()
 	{
-	Generic.clickOnWebElement(cupo.getWhatsapp_text());
+		generic.clickOnWebElement(cupo.getWhatsapp_text());
 	}
 	
 	public void ContactUsPageAssertionAction()
 	{
-		Generic.hardAssertion(cepo.getPageTitleText(), "Contact Us"); 
+		generic.hardAssertion(cepo.getPageTitleText(),configdata.getContactUsPageTitleExpected() ); 
 	}
 	public void whatsappUnderContactUSAssertionAction()
 	{
 		if (cupo.getWhatsapp_text().isDisplayed() == true)
 		{
 			TestUtils.log().debug("We can’t find WhatsApp on your device. Please install for better experience");
-			Generic.hardAssertion(cupo.getWhatsapp_text(), "Whatsapp");
+			generic.hardAssertion(cupo.getWhatsapp_text(), configdata.getwhatsappUnderContactUSExpected());
 		}
 		
 	}

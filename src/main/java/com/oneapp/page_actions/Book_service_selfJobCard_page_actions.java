@@ -8,7 +8,8 @@ import org.testng.Reporter;
 import org.testng.asserts.SoftAssert;
 
 import com.oneapp.basic.ExcelData;
-import com.oneapp.basic.Generic;
+import com.oneapp.utils.ConfigData;
+import com.oneapp.utils.Generic;
 import com.oneapp.pageobjects.Book_service_selfJobCard_page_object;
 import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Select_Service_Center_Page_Object;
@@ -28,6 +29,9 @@ public class Book_service_selfJobCard_page_actions {
 	public ExcelData exceldata;
 	public Book_service_selfJobCard_page_object bssjcpo;
 	public CommonElements_Page_object cepo;
+	public ConfigData configdata;
+	public Generic generic;
+
 
 
 	public Book_service_selfJobCard_page_actions(AndroidDriver ad) {
@@ -35,62 +39,64 @@ public class Book_service_selfJobCard_page_actions {
 		bssjcpo = new Book_service_selfJobCard_page_object(ad);
 		exceldata = new ExcelData();
 		cepo= new CommonElements_Page_object(ad);
+		configdata = new ConfigData();
+		generic = new Generic();
 
 	}
 	
 	
 	public void turnOFFInternetAction()
 	{
-		Generic.WifiOff();
+		generic.WifiOff();
 	}
 	
 	public void turnONInternetAction()
 	{
-		Generic.WifiOn();
+		generic.WifiOn();
 	}
 	
 	
 	public void selfJobCardAction() throws InterruptedException {
-		Generic.softAssertion(bssjcpo.getSelf_job_card_text(), "Self Job Card");
-		Generic.softAssertion(bssjcpo.getKey_issues_text(), "Key Issues");
+		generic.softAssertion(bssjcpo.getSelf_job_card_text(), configdata.getselfJobCardPageTextExpected());
+		generic.softAssertion(bssjcpo.getKey_issues_text(), configdata.getkeyissuesTextExpected());
 		
 		String str3 = "Service";
 		if (bssjcpo.getService_text().getText().equals(str3)) {
-			Generic.clickOnWebElement(bssjcpo.getService_radio_button());
+			generic.clickOnWebElement(bssjcpo.getService_radio_button());
 		}
 
 		else {
 			System.out.println("Service text is not avaiable on the page");
 		}
 		
-		Generic.clickOnWebElement(bssjcpo.getKey_issues_text());
-		Generic.sendKeysOnTextfields(bssjcpo.getOther_issues_textbox(), exceldata.getStringData("Book Service", 1, 1));
-		Generic.softAssertion(cepo.getbutton(), "Book Service");
+		generic.clickOnWebElement(bssjcpo.getKey_issues_text());
+		generic.sendKeysOnTextfields(bssjcpo.getOther_issues_textbox(), exceldata.getStringData("Book Service", 1, 1));
+		generic.softAssertion(cepo.getbutton(), configdata.getbookServiceButtonExpected());
 	}
 	
 	public void tappingBookServiceButtonAction()
 	{
-		Generic.clickOnWebElement(cepo.getbutton());
+		generic.clickOnWebElement(cepo.getbutton());
 	}
 	
 	public void turningOFFInternetAction()
 	{
-		Generic.WifiOff();
+		generic.WifiOff();
 	}
 	
 	public void turningONInternetAction()
 	{
-		Generic.WifiOn();
+		generic.WifiOn();
 	}
 	
 	public void continueBookServiceWithNoInternetAction()
 	{
-		Generic.hardAssertion(cepo.getToast_message(), "Please check your network connection.");
+		generic.hardAssertion(cepo.getToast_message(), configdata.getcontinueWithNoInternetExpected());
 	}
 	
 	public void clickBackIconAction()
 	{
-		Generic.clickOnWebElement(cepo.getBack_icon());
+		generic.clickOnWebElement(cepo.getBack_icon());
 	}
 
 }

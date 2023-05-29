@@ -27,7 +27,7 @@ import com.oneapp.page_actions.Privacy_policy_Page_action;
 
 public class Login_testcases extends BrowserFactory {
 
-	@Test (priority = 1, groups = { "Smoke", "Regression" })
+	@Test //(priority = 1, groups = { "Smoke", "Regression" })
 	public void validate_validLogin_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.validLoginAction();
@@ -36,21 +36,21 @@ public class Login_testcases extends BrowserFactory {
 		opa.clickEditAction();
 	}
 
-	@Test (priority = 2, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
+	@Test //(priority = 2, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_invalidLogin_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.invalidLoginAction();
 		lpa.invalidLoginAssertionAction();
 	}
 
-	@Test (priority = 3, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
+	@Test //(priority = 3, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_mininum_length_field_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.minimumLengthFieldAction();
 		lpa.commonAssertionLoginPageAction();
 	}
 
-	@Test (priority = 4, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
+	@Test //(priority = 4, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_continue_with_no_internet_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.continueWithNoInternetAction();
@@ -67,10 +67,10 @@ public class Login_testcases extends BrowserFactory {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.privacyPageWithNoInternetAction();
 		Privacy_policy_Page_action pppa = new Privacy_policy_Page_action(ad);
-		pppa.privacyPolicyAction();
+		pppa.privacyPolicyPageAssertionAction();
 	}
 
-	@Test (priority = 5, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
+	@Test //(priority = 5, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validation_app_working_expected_after_minimizing_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.applicationMinimizingAfterLogInAction();
