@@ -17,22 +17,23 @@ import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Emergency_contact_details_page_object;
 import com.oneapp.pageobjects.Emerygency_contacts_page_objects;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Emergency_contact_details_page_actions {
 
 	public ExcelData exceldata;
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public Emergency_contact_details_page_object ecdpo;
 	public CommonElements_Page_object cepo;
 	public ConfigData configdata;
 	public Generic generic;
 
-	public Emergency_contact_details_page_actions(AndroidDriver ad) {
-		this.ad = ad;
-		ecdpo = new Emergency_contact_details_page_object(ad);
+	public Emergency_contact_details_page_actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		ecdpo = new Emergency_contact_details_page_object(ad2);
 		exceldata = new ExcelData();
-		cepo = new CommonElements_Page_object(ad);
+		cepo = new CommonElements_Page_object(ad2);
 		configdata	= new ConfigData();
 		generic = new Generic();
 

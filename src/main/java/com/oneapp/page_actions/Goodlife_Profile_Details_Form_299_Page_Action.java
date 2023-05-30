@@ -12,19 +12,20 @@ import com.oneapp.pageobjects.Goodlife_Profile_Details_Form_199_Page_Object;
 import com.oneapp.pageobjects.Goodlife_Profile_Details_Form_299_Page_Object;
 import com.oneapp.utils.TestUtils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Goodlife_Profile_Details_Form_299_Page_Action {
 	
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public Goodlife_Profile_Details_Form_299_Page_Object gpdf_299_po;
 	public ExcelData exceldata;
 	public Generic generic;
 	
-	public Goodlife_Profile_Details_Form_299_Page_Action(AndroidDriver ad) {
-		this.ad = ad;
-		gpdf_299_po = new Goodlife_Profile_Details_Form_299_Page_Object(ad);
+	public Goodlife_Profile_Details_Form_299_Page_Action(AppiumDriver ad2) {
+		this.ad = ad2;
+		gpdf_299_po = new Goodlife_Profile_Details_Form_299_Page_Object(ad2);
 		exceldata = new ExcelData();
 		generic = new Generic();
 	}

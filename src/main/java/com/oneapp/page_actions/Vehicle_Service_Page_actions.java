@@ -10,13 +10,13 @@ import io.appium.java_client.android.AndroidDriver;
 
 public class Vehicle_Service_Page_actions {
 	
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public Vehicle_Service_page_object vspo;
 	public Generic generic;
 
-	public Vehicle_Service_Page_actions(AndroidDriver ad) {
-		this.ad = ad;
-		vspo = new Vehicle_Service_page_object(ad);
+	public Vehicle_Service_Page_actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		vspo = new Vehicle_Service_page_object(ad2);
 		 generic = new Generic();
 	}
 	

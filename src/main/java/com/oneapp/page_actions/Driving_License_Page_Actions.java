@@ -8,6 +8,7 @@ import com.oneapp.pageobjects.Driving_License_Page_Object;
 import com.oneapp.pageobjects.MyProfile_Page_Object;
 import com.oneapp.utils.TestUtils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.TapOptions;
@@ -15,16 +16,16 @@ import io.appium.java_client.touch.offset.PointOption;
 
 public class Driving_License_Page_Actions {
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public Driving_License_Page_Object dlpo;
 	public TouchAction ta;
 	public CommonElements_Page_object cepo;
 	public Generic generic;
 
-	public Driving_License_Page_Actions(AndroidDriver ad) {
-		this.ad = ad;
-		dlpo = new Driving_License_Page_Object(ad);
-		cepo = new CommonElements_Page_object(ad);
+	public Driving_License_Page_Actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		dlpo = new Driving_License_Page_Object(ad2);
+		cepo = new CommonElements_Page_object(ad2);
 		generic = new Generic();
 	}
 

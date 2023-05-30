@@ -7,18 +7,19 @@ import com.oneapp.utils.Generic;
 import com.oneapp.pageobjects.Goodlife_Insurance_Details_Form_299_Page_Object;
 import com.oneapp.pageobjects.Goodlife_Profile_Details_Form_299_Page_Object;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Goodlife_Insurance_Details_Form_299_Page_Action {
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public Goodlife_Insurance_Details_Form_299_Page_Object gidf_299_po;
 	public ExcelData exceldata;
 	public Generic generic;
 	
-	public Goodlife_Insurance_Details_Form_299_Page_Action(AndroidDriver ad) {
-		this.ad = ad;
-		gidf_299_po = new Goodlife_Insurance_Details_Form_299_Page_Object(ad);
+	public Goodlife_Insurance_Details_Form_299_Page_Action(AppiumDriver ad2) {
+		this.ad = ad2;
+		gidf_299_po = new Goodlife_Insurance_Details_Form_299_Page_Object(ad2);
 		exceldata = new ExcelData();
 		generic = new Generic();
 	}

@@ -8,21 +8,22 @@ import com.oneapp.utils.ConfigData;
 import com.oneapp.utils.Console_Colors;
 import com.oneapp.utils.TestUtils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Logout_Page_Actions {
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public TouchAction ta;
 	public Logout_Page_Object lgpo;
 	public CommonElements_Page_object cepo;
 	public ConfigData configdata;
 	public Generic generic;
 
-	public Logout_Page_Actions(AndroidDriver ad) {
-		this.ad = ad;
-		lgpo = new Logout_Page_Object(ad);
-		cepo = new CommonElements_Page_object(ad);
+	public Logout_Page_Actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		lgpo = new Logout_Page_Object(ad2);
+		cepo = new CommonElements_Page_object(ad2);
 		configdata = new ConfigData();
 		generic = new Generic();
 

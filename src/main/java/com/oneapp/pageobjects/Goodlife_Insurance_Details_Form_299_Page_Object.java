@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Goodlife_Insurance_Details_Form_299_Page_Object {
@@ -42,9 +43,9 @@ public class Goodlife_Insurance_Details_Form_299_Page_Object {
 	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
 	private WebElement Pay_299_button;
 
-	public Goodlife_Insurance_Details_Form_299_Page_Object(AndroidDriver ad) {
+	public Goodlife_Insurance_Details_Form_299_Page_Object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 	}
 
 	public WebElement getNomineeName_field() {

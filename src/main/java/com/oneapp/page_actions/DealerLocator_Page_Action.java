@@ -14,12 +14,13 @@ import com.oneapp.utils.ConfigData;
 import com.oneapp.utils.Console_Colors;
 import com.oneapp.utils.TestUtils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class DealerLocator_Page_Action {
 
 	public ExcelData exceldata;
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public DealerLocator_Page_object dlpo;
 	public CommonElements_Page_object cepo;
 	public String val;
@@ -27,11 +28,11 @@ public class DealerLocator_Page_Action {
 	public Generic generic;
 
 
-	public DealerLocator_Page_Action(AndroidDriver ad) {
-		this.ad = ad;
-		dlpo = new DealerLocator_Page_object(ad);
+	public DealerLocator_Page_Action(AppiumDriver ad2) {
+		this.ad = ad2;
+		dlpo = new DealerLocator_Page_object(ad2);
 		exceldata = new ExcelData();
-		cepo = new CommonElements_Page_object(ad);
+		cepo = new CommonElements_Page_object(ad2);
 		configdata = new ConfigData();
 		generic = new Generic();
 

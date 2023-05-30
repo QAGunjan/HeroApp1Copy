@@ -13,14 +13,14 @@ import io.appium.java_client.android.AndroidDriver;
 public class Booking_confirmed_Page_Action {
 
 	public WebDriver driver;
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public TouchAction action;
 	public Booking_confirmed_Page_Object bcpo;
 	public Generic generic;
 
-	public Booking_confirmed_Page_Action(AndroidDriver ad) {
-		this.ad = ad;
-		bcpo = new Booking_confirmed_Page_Object(ad);
+	public Booking_confirmed_Page_Action(AppiumDriver ad2) {
+		this.ad = ad2;
+		bcpo = new Booking_confirmed_Page_Object(ad2);
 		generic = new Generic();
 	}
 	

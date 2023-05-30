@@ -15,6 +15,7 @@ import com.oneapp.pageobjects.Selected_Vehicle_Page_Object;
 import com.oneapp.utils.Console_Colors;
 import com.oneapp.utils.TestUtils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
@@ -31,11 +32,11 @@ public class Selected_Vehicle_Page_Actions {
 	public CommonElements_Page_object cepo;
 	public Generic generic;
 
-	public Selected_Vehicle_Page_Actions(AndroidDriver ad) {
-		this.ad = ad;
-		svpo = new Selected_Vehicle_Page_Object(ad);
+	public Selected_Vehicle_Page_Actions(AppiumDriver ad2) {
+		this.ad = (AndroidDriver) ad2;
+		svpo = new Selected_Vehicle_Page_Object(ad2);
 		exceldata = new ExcelData();
-		cepo = new CommonElements_Page_object(ad);
+		cepo = new CommonElements_Page_object(ad2);
 		 generic = new Generic();
 
 	}

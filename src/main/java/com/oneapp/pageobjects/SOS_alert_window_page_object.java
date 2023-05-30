@@ -5,6 +5,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class SOS_alert_window_page_object {
@@ -18,9 +19,9 @@ public class SOS_alert_window_page_object {
 	@FindBy(id = "com.customerapp.hero:id/custom_radius_close")
 	private WebElement close_icon;
 
-	public SOS_alert_window_page_object(AndroidDriver ad) {
+	public SOS_alert_window_page_object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 
 	}
 

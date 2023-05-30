@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class CommonElements_Page_object {
@@ -53,8 +54,8 @@ public class CommonElements_Page_object {
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> city_typedropdown;
 
-	public CommonElements_Page_object(AndroidDriver ad) {
-		PageFactory.initElements(ad, this);
+	public CommonElements_Page_object(AppiumDriver ad2) {
+		PageFactory.initElements(ad2, this);
 	}
 
 	public WebElement getBack_icon() {

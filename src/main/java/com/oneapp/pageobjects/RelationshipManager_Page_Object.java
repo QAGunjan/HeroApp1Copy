@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class RelationshipManager_Page_Object {
@@ -20,9 +21,9 @@ public class RelationshipManager_Page_Object {
 	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[3]")
 	private WebElement TSM_email;
 
-	public RelationshipManager_Page_Object(AndroidDriver ad) {
+	public RelationshipManager_Page_Object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 
 	}
 

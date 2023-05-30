@@ -14,11 +14,12 @@ import com.oneapp.pageobjects.Menu_Bar_Page_Object;
 import com.oneapp.pageobjects.ReferToFriend_Page_object;
 import com.oneapp.utils.TestUtils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class ReferToFriend_page_Actions {
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public ExcelData exceldata;
 	public ReferToFriend_Page_object rtfpo;
 	public Menu_Bar_Page_Object mbpo;
@@ -28,12 +29,12 @@ public class ReferToFriend_page_Actions {
 	public Generic generic;
 
 
-	public ReferToFriend_page_Actions(AndroidDriver ad) {
-		this.ad = ad;
-		rtfpo = new ReferToFriend_Page_object(ad);
-		mbpo = new Menu_Bar_Page_Object(ad);
-		cepo = new CommonElements_Page_object(ad);
-		dpo = new Dashboard_Page_object(ad);
+	public ReferToFriend_page_Actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		rtfpo = new ReferToFriend_Page_object(ad2);
+		mbpo = new Menu_Bar_Page_Object(ad2);
+		cepo = new CommonElements_Page_object(ad2);
+		dpo = new Dashboard_Page_object(ad2);
 		exceldata = new ExcelData();
 		configdata	= new ConfigData();
 		 generic = new Generic();

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class TipsAndDIYVideos_page_object {
@@ -23,9 +24,9 @@ public class TipsAndDIYVideos_page_object {
 	@FindBy(xpath = "//*[@text='Watch Now']")
 	private WebElement WatchNowUnderTyrecareSection;
 
-	public TipsAndDIYVideos_page_object(AndroidDriver ad) {
+	public TipsAndDIYVideos_page_object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 
 	}
 

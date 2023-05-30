@@ -5,6 +5,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Emerygency_contacts_page_objects {
@@ -36,9 +37,9 @@ public class Emerygency_contacts_page_objects {
 	@FindBy(id = "com.customerapp.hero:id/icon2")
 	private WebElement EmerygencyContactPlusIcon;
 
-	public Emerygency_contacts_page_objects(AndroidDriver ad) {
+	public Emerygency_contacts_page_objects(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 
 	}
 

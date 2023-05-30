@@ -32,9 +32,9 @@ public class DealerLocator_Page_object {
 	@FindBy(xpath = "//*[@text='Something went wrong - 102']")
 	private WebElement somethingWentWrong_text;
 
-	public DealerLocator_Page_object(AndroidDriver ad) {
+	public DealerLocator_Page_object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 	}
 
 	public WebElement getListViewicon() {

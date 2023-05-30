@@ -16,6 +16,7 @@ import com.oneapp.pageobjects.MyProfile_Page_Object;
 import com.oneapp.pageobjects.Personal_Details_Page_Object;
 import com.oneapp.utils.TestUtils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
@@ -25,7 +26,7 @@ import io.appium.java_client.touch.offset.PointOption;
 
 public class Personal_Details_Page_Actions {
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public ExcelData exceldata;
 	public Personal_Details_Page_Object pdpo;
 	public TouchAction ta;
@@ -33,11 +34,11 @@ public class Personal_Details_Page_Actions {
 	public ConfigData configdata;
 	public Generic generic;
 
-	public Personal_Details_Page_Actions(AndroidDriver ad) {
-		this.ad = ad;
-		pdpo = new Personal_Details_Page_Object(ad);
+	public Personal_Details_Page_Actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		pdpo = new Personal_Details_Page_Object(ad2);
 		exceldata = new ExcelData();
-		cepo = new CommonElements_Page_object(ad);
+		cepo = new CommonElements_Page_object(ad2);
 		configdata = new ConfigData();
 		generic = new Generic();
 

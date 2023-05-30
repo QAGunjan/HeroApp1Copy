@@ -8,11 +8,12 @@ import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 import com.oneapp.pageobjects.SOS_alert_window_page_object;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class SOS_alert_window_page_actions {
 	
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public SOS_alert_window_page_object SOSawpo;
 	public CommonElements_Page_object cepo;
 	public Dashboard_Page_object dpo;
@@ -21,11 +22,11 @@ public class SOS_alert_window_page_actions {
 
 
 	
-	public SOS_alert_window_page_actions(AndroidDriver ad) {
-		this.ad = ad;
-		SOSawpo = new SOS_alert_window_page_object(ad);
-		cepo= new CommonElements_Page_object(ad);
-		dpo = new Dashboard_Page_object(ad);
+	public SOS_alert_window_page_actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		SOSawpo = new SOS_alert_window_page_object(ad2);
+		cepo= new CommonElements_Page_object(ad2);
+		dpo = new Dashboard_Page_object(ad2);
 		configdata	= new ConfigData();
 		generic = new Generic();
 

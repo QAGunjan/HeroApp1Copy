@@ -44,7 +44,7 @@ import io.appium.java_client.touch.offset.PointOption;
 
 public class Login_Page_Action{
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public ExcelData exceldata;
 	public Login_Page_Object lpo;
 	public TouchAction ta;
@@ -56,15 +56,15 @@ public class Login_Page_Action{
 	public ConfigData configdata;
 	public Generic generic;
 
-	public Login_Page_Action(AndroidDriver ad) {
-		this.ad = ad;
-		lpo = new Login_Page_Object(ad);
-		pppo = new Privacy_Policy_Page_Object(ad);
-		tcpo = new Terms_and_condition_Page_Object(ad);
-		cupo = new Contact_Us_page_object(ad);
+	public Login_Page_Action(AppiumDriver ad2) {
+		this.ad = ad2;
+		lpo = new Login_Page_Object(ad2);
+		pppo = new Privacy_Policy_Page_Object(ad2);
+		tcpo = new Terms_and_condition_Page_Object(ad2);
+		cupo = new Contact_Us_page_object(ad2);
 		exceldata = new ExcelData();
-		cepo = new CommonElements_Page_object(ad);
-		opo = new OTP_Page_Object(ad);
+		cepo = new CommonElements_Page_object(ad2);
+		opo = new OTP_Page_Object(ad2);
 		configdata	= new ConfigData();
 		generic = new Generic();
 		

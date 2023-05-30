@@ -7,12 +7,13 @@ import com.oneapp.pageobjects.Contact_Us_page_object;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 import com.oneapp.utils.TestUtils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Contact_Us_page_Action {
 	
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public TouchAction ta;
 	public Contact_Us_page_object cupo;
 	public CommonElements_Page_object cepo;
@@ -21,10 +22,10 @@ public class Contact_Us_page_Action {
 
 
 
-	public Contact_Us_page_Action(AndroidDriver ad) {
-		this.ad = ad;
-		cupo = new Contact_Us_page_object(ad);
-	       cepo = new CommonElements_Page_object(ad);
+	public Contact_Us_page_Action(AppiumDriver ad2) {
+		this.ad = ad2;
+		cupo = new Contact_Us_page_object(ad2);
+	       cepo = new CommonElements_Page_object(ad2);
 			configdata = new ConfigData();
 			generic = new Generic();
 

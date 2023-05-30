@@ -7,22 +7,23 @@ import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Goodlife_Profile_Details_Form_199_Page_Object;
 import com.oneapp.pageobjects.Goodlife_Select_Your_Plan_Page_Object;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
 public class Goodlife_Profile_Details_Form_199_Page_Action {
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public Goodlife_Profile_Details_Form_199_Page_Object gpdf_199_po;
 	TouchAction ta;
 	public CommonElements_Page_object cepo;
 	public Generic generic;
 	
-	public Goodlife_Profile_Details_Form_199_Page_Action(AndroidDriver ad) {
-		this.ad = ad;
-		gpdf_199_po = new Goodlife_Profile_Details_Form_199_Page_Object(ad);
-		cepo = new CommonElements_Page_object(ad);
+	public Goodlife_Profile_Details_Form_199_Page_Action(AppiumDriver ad2) {
+		this.ad = ad2;
+		gpdf_199_po = new Goodlife_Profile_Details_Form_199_Page_Object(ad2);
+		cepo = new CommonElements_Page_object(ad2);
 		generic = new Generic();
 
 	}

@@ -15,16 +15,16 @@ import io.appium.java_client.android.AndroidDriver;
 
 public class Privacy_policy_Page_action {
 	
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public TouchAction ta;
 	public Privacy_Policy_Page_Object pppo;
 	public ConfigData configdata;
 	public Generic generic;
 
 
-	public Privacy_policy_Page_action(AndroidDriver ad) {
-		this.ad = ad;
-		pppo = new Privacy_Policy_Page_Object(ad);
+	public Privacy_policy_Page_action(AppiumDriver ad2) {
+		this.ad = ad2;
+		pppo = new Privacy_Policy_Page_Object(ad2);
 		configdata	= new ConfigData();
 		generic = new Generic();
 

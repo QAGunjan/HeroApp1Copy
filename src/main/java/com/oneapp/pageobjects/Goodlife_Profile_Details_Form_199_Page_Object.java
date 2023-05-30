@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Goodlife_Profile_Details_Form_199_Page_Object {
@@ -17,9 +18,9 @@ public class Goodlife_Profile_Details_Form_199_Page_Object {
 //	private WebElement pay_199_button;
 	
 	
-	public Goodlife_Profile_Details_Form_199_Page_Object(AndroidDriver ad) {
+	public Goodlife_Profile_Details_Form_199_Page_Object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 	}
 
 	public WebElement getMy_immediate_family_mem_checkbox() {

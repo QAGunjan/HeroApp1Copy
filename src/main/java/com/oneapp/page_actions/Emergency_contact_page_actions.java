@@ -11,6 +11,7 @@ import com.oneapp.pageobjects.Emerygency_contacts_page_objects;
 import com.oneapp.pageobjects.MyProfile_Page_Object;
 import com.oneapp.utils.TestUtils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.TapOptions;
@@ -18,7 +19,7 @@ import io.appium.java_client.touch.offset.PointOption;
 
 public class Emergency_contact_page_actions {
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public Emerygency_contacts_page_objects ecpo;
 	public TouchAction ta;
 	public CommonElements_Page_object cepo;
@@ -27,10 +28,10 @@ public class Emergency_contact_page_actions {
 	public Generic generic;
 
 
-	public Emergency_contact_page_actions(AndroidDriver ad) {
-		this.ad = ad;
-		ecpo = new Emerygency_contacts_page_objects(ad);
-		cepo = new CommonElements_Page_object(ad);
+	public Emergency_contact_page_actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		ecpo = new Emerygency_contacts_page_objects(ad2);
+		cepo = new CommonElements_Page_object(ad2);
 		exceldata = new ExcelData();
 		configdata	= new ConfigData();
 		generic = new Generic();

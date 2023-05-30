@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Logout_Page_Object {
@@ -12,9 +13,9 @@ public class Logout_Page_Object {
 	private WebElement yes_text;
 
 	
-	public Logout_Page_Object(AndroidDriver ad) {
+	public Logout_Page_Object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 	}
 
 	public WebElement getYes_text() {

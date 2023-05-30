@@ -12,11 +12,12 @@ import com.oneapp.pageobjects.TipsAndDIYVideos_page_object;
 import com.oneapp.utils.ReadPDFText;
 import com.oneapp.utils.TestUtils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class TipsAndDIYVideos_page_action {
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public TipsAndDIYVideos_page_object tadpo;
 	public CommonElements_Page_object cepo;
 	public ReadPDFText readpdf;
@@ -24,10 +25,10 @@ public class TipsAndDIYVideos_page_action {
 	public Generic generic;
 
 
-	public TipsAndDIYVideos_page_action(AndroidDriver ad) {
-		this.ad = ad;
-		tadpo = new TipsAndDIYVideos_page_object(ad);
-		cepo = new CommonElements_Page_object(ad);
+	public TipsAndDIYVideos_page_action(AppiumDriver ad2) {
+		this.ad = ad2;
+		tadpo = new TipsAndDIYVideos_page_object(ad2);
+		cepo = new CommonElements_Page_object(ad2);
 		 readpdf = new ReadPDFText();
 			configdata	= new ConfigData();
 			generic = new Generic();

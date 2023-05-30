@@ -91,9 +91,9 @@ public class Dashboard_Page_object {
 //		@FindBy(id = "com.customerapp.hero:id/exo_controls_background")
 		private WebElement dashboardVideo;
 
-	public Dashboard_Page_object(AndroidDriver ad) {
+	public Dashboard_Page_object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 
 	}
 

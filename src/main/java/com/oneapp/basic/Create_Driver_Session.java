@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -20,9 +21,12 @@ public class Create_Driver_Session {
 
 	public static DesiredCapabilities dcap;
 
-	public static AndroidDriver Androidsession(String BrowserName) {
-		AndroidDriver ad = null;
+	public static AppiumDriver Androidsession(String BrowserName) {
+		AppiumDriver ad = null;
+		
 		try {
+			if (BrowserName.equalsIgnoreCase("Android"))
+			{
 
 			dcap = new DesiredCapabilities();
 //	    For Android Emulator
@@ -51,8 +55,8 @@ public class Create_Driver_Session {
 			TestUtils.log().info("PLATFORM NAME IS --> " + BrowserName);
 			dcap.setCapability(MobileCapabilityType.DEVICE_NAME, "Samsung");
 			TestUtils.log().info("DEVICE NAME IS --> " + "Samsung");
-			dcap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13.0");
-			TestUtils.log().info("PLATFORM VERSION IS --> " + "13.0");
+//			dcap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13.0");
+//			TestUtils.log().info("PLATFORM VERSION IS --> " + "13.0");
 			dcap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 			TestUtils.log().info("AUTOMATION NAME IS --> " + "UiAutomator2");
 			dcap.setCapability(MobileCapabilityType.UDID, "RZCT904J89D");
@@ -66,16 +70,37 @@ public class Create_Driver_Session {
 			dcap.setCapability("appPackage", "com.customerapp.hero");
 			dcap.setCapability("appActivity", "com.customerapp.hero.views.activity.splash.SplashActivity");
 			
-			URL url = new URL("http://0.0.0.0:4723/wd/hub");
+//			URL url = new URL("http://0.0.0.0:4723/wd/hub");
 //			URL url = new URL("http://localhost:4723/wd/hub");
 
 //			URL url = new URL("http://127.0.1.1:4723");
 
 			// AndroidDriver ad= new AndroidDriver(url, dcap);
 
-			ad = new AndroidDriver(url, dcap);
+//			ad = new AndroidDriver(url, dcap);
+			
+			}
+			
+			else if (BrowserName.equalsIgnoreCase("ios"))  {
+				
+				dcap.setCapability(MobileCapabilityType.PLATFORM_NAME, BrowserName);
+				TestUtils.log().info("PLATFORM NAME IS --> " + BrowserName);
+				dcap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 14");
+				TestUtils.log().info("DEVICE NAME IS --> " + "Samsung");
+				dcap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
+				TestUtils.log().info("AUTOMATION NAME IS --> " + "XCUITest");
+				dcap.setCapability(MobileCapabilityType.UDID, "RZCT904J89D");
+				TestUtils.log().info("UDID IS --> " + "RZCT904J89D");
+				
+//				URL url = new URL("http://0.0.0.0:4723/wd/hub");
+				
+//				ad = new IOSDriver(url, dcap);
+			}
+			
+			URL url = new URL("http://0.0.0.0:4723/wd/hub");
+			ad = new AppiumDriver(url,dcap);
+			ad.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			String sessionID = ad.getSessionId().toString();
-			ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		} catch (Exception e) {
 			e.printStackTrace();

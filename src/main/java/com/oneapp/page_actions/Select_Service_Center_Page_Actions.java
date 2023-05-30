@@ -14,15 +14,15 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Select_Service_Center_Page_Actions {
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public Select_Service_Center_Page_Object sscpo;
 	public ConfigData configdata;
 	public Generic generic;
 
 
-	public Select_Service_Center_Page_Actions(AndroidDriver ad) {
-		this.ad = ad;
-		sscpo = new Select_Service_Center_Page_Object(ad);
+	public Select_Service_Center_Page_Actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		sscpo = new Select_Service_Center_Page_Object(ad2);
 		configdata	= new ConfigData();
 		generic = new Generic();
 

@@ -24,7 +24,7 @@ import io.appium.java_client.touch.offset.PointOption;
 
 public class Book_service_selfJobCard_page_actions {
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public TouchAction action;
 	public ExcelData exceldata;
 	public Book_service_selfJobCard_page_object bssjcpo;
@@ -34,11 +34,11 @@ public class Book_service_selfJobCard_page_actions {
 
 
 
-	public Book_service_selfJobCard_page_actions(AndroidDriver ad) {
-		this.ad = ad;
-		bssjcpo = new Book_service_selfJobCard_page_object(ad);
+	public Book_service_selfJobCard_page_actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		bssjcpo = new Book_service_selfJobCard_page_object(ad2);
 		exceldata = new ExcelData();
-		cepo= new CommonElements_Page_object(ad);
+		cepo= new CommonElements_Page_object(ad2);
 		configdata = new ConfigData();
 		generic = new Generic();
 

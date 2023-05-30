@@ -17,6 +17,7 @@ import com.oneapp.interfaces.GenericInterface;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.connection.ConnectionStateBuilder;
+import io.appium.java_client.android.connection.HasNetworkConnection;
 import io.appium.java_client.touch.TapOptions;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
@@ -65,7 +66,8 @@ public class Generic extends BrowserFactory implements GenericInterface {
 	public void WifiOff() {
 		try {
 			Thread.sleep(2000);
-			ad.setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
+//			ad.setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
+			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
 			TestUtils.log().debug("Interet has been switch OFF");
 		} catch (Exception e) {
 			TestUtils.log().debug("Connection could not be switch OFF");
@@ -75,7 +77,8 @@ public class Generic extends BrowserFactory implements GenericInterface {
 	public void WifiOn() {
 		try {
 			Thread.sleep(2000);
-			ad.setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
+//			ad.setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
+			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
 			TestUtils.log().debug("Interet has been switch ON");
 		} catch (Exception e) {
 			TestUtils.log().debug("Connection could not be switch ON" + e);

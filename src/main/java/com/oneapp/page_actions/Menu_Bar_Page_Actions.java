@@ -5,19 +5,20 @@ import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 import com.oneapp.pageobjects.Menu_Bar_Page_Object;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Menu_Bar_Page_Actions {
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public Menu_Bar_Page_Object mbpo;
 	public Generic generic;
 
 
-	public Menu_Bar_Page_Actions(AndroidDriver ad) {
-		this.ad = ad;
-		mbpo = new Menu_Bar_Page_Object(ad);
+	public Menu_Bar_Page_Actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		mbpo = new Menu_Bar_Page_Object(ad2);
 		generic = new Generic();
 	}
 	

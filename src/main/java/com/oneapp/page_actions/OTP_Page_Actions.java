@@ -19,7 +19,7 @@ import io.appium.java_client.touch.offset.PointOption;
 
 public class OTP_Page_Actions {
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 
 	public OTP_Page_Object opo;
 	public CommonElements_Page_object cepo;
@@ -27,10 +27,10 @@ public class OTP_Page_Actions {
 	public ConfigData configdata;
 	public Generic generic;
 
-	public OTP_Page_Actions(AndroidDriver ad) {
-		this.ad = ad;
-		opo = new OTP_Page_Object(ad);
-		cepo = new CommonElements_Page_object(ad);
+	public OTP_Page_Actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		opo = new OTP_Page_Object(ad2);
+		cepo = new CommonElements_Page_object(ad2);
 		exceldata = new ExcelData();
 		configdata = new ConfigData();
 		generic = new Generic();

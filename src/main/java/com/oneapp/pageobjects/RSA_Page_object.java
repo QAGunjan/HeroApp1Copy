@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class RSA_Page_object {
@@ -11,9 +12,9 @@ public class RSA_Page_object {
 	@FindBy(xpath = "//*[@text='To purchase a RSA policy please contact your nearest dealer']") 	
 	private WebElement RSAPage_Text;
 
-	public RSA_Page_object(AndroidDriver ad) {
+	public RSA_Page_object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 
 	}
 

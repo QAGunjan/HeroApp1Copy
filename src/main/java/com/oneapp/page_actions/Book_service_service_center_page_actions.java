@@ -11,16 +11,16 @@ import io.appium.java_client.android.AndroidDriver;
 
 public class Book_service_service_center_page_actions {
 	
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public Book_service_service_center_page_object bsscpo;
 	public CommonElements_Page_object cepo;
 	public ConfigData configdata;
 	public Generic generic;
 
-	public Book_service_service_center_page_actions(AndroidDriver ad) {
-		this.ad = ad;
-		bsscpo = new Book_service_service_center_page_object(ad);
-		cepo= new CommonElements_Page_object(ad);
+	public Book_service_service_center_page_actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		bsscpo = new Book_service_service_center_page_object(ad2);
+		cepo= new CommonElements_Page_object(ad2);
 		configdata = new ConfigData();
 		generic = new Generic();
 

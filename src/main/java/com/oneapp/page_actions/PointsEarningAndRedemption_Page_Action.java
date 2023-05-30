@@ -7,11 +7,12 @@ import com.oneapp.pageobjects.WinnerOfTheMonth_Page_Object;
 import com.oneapp.utils.ConfigData;
 import com.oneapp.utils.Generic;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class PointsEarningAndRedemption_Page_Action {
 	
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public PointsEarningAndRedemption_Page_Object pear_po;
 	public CommonElements_Page_object cepo;
 	public ExcelData exceldata;
@@ -19,10 +20,10 @@ public class PointsEarningAndRedemption_Page_Action {
 	public Generic generic;
 
 
-	public PointsEarningAndRedemption_Page_Action(AndroidDriver ad) {
-		this.ad = ad;
-		pear_po = new PointsEarningAndRedemption_Page_Object(ad);
-		cepo = new CommonElements_Page_object(ad);
+	public PointsEarningAndRedemption_Page_Action(AppiumDriver ad2) {
+		this.ad = ad2;
+		pear_po = new PointsEarningAndRedemption_Page_Object(ad2);
+		cepo = new CommonElements_Page_object(ad2);
 		exceldata = new ExcelData();
 		configdata	= new ConfigData();
 		generic = new Generic();

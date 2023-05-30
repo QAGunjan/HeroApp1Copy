@@ -12,11 +12,12 @@ import com.oneapp.pageobjects.CommonElements_Page_object;
 import com.oneapp.pageobjects.Menu_Bar_Page_Object;
 import com.oneapp.pageobjects.MyProfile_Page_Object;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Myprofile_Page_Actions {
 
-	public AndroidDriver ad;
+	public AppiumDriver ad;
 	public MyProfile_Page_Object mppo;
 	public ExcelData exceldata;
 	public CommonElements_Page_object cepo;
@@ -24,11 +25,11 @@ public class Myprofile_Page_Actions {
 	public Generic generic;
 
 
-	public Myprofile_Page_Actions(AndroidDriver ad) {
-		this.ad = ad;
-		mppo = new MyProfile_Page_Object(ad);
+	public Myprofile_Page_Actions(AppiumDriver ad2) {
+		this.ad = ad2;
+		mppo = new MyProfile_Page_Object(ad2);
 		exceldata = new ExcelData();
-		cepo = new CommonElements_Page_object(ad);
+		cepo = new CommonElements_Page_object(ad2);
 		configdata	= new ConfigData();
 		generic = new Generic();
 

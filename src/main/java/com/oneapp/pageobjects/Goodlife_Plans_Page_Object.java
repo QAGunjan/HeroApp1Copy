@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Goodlife_Plans_Page_Object {
@@ -15,9 +16,9 @@ public class Goodlife_Plans_Page_Object {
 	private WebElement viewallbenefits_goodlife_299Plans;
 	
 	
-	public Goodlife_Plans_Page_Object(AndroidDriver ad) {
+	public Goodlife_Plans_Page_Object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad, this);
+		PageFactory.initElements(ad2, this);
 
 	}
 

@@ -44,7 +44,7 @@ import io.appium.java_client.screenrecording.CanRecordScreen;
 
 public class BrowserFactory {
 
-	public static AndroidDriver ad;// Global AndroidDriver
+	public static AppiumDriver ad;// Global AndroidDriver
 	public static ExtentTest extentTest;
 
 //	@Parameters({ "PLATFORM_NAME", "DEVICE_NAME", "AUTOMATION_NAME", "UDID" })
