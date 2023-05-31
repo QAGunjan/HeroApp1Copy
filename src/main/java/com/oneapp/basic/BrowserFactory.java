@@ -53,7 +53,6 @@ public class BrowserFactory {
 	public void Browsers_open() throws MalformedURLException {
 		// This is origional
 		ad = Create_Driver_Session.Androidsession("Android");
-		TestUtils.log().debug("Android Real device gets opened");
 		ad.resetApp();
 		TestUtils.log().debug("Application has been reset");
 		// For Pcloudy
@@ -66,7 +65,7 @@ public class BrowserFactory {
 	@AfterClass(alwaysRun = true)
 	public void Quit_session() {
 		ad.quit();
-		TestUtils.log().debug("Android Real device gets closed");
+		TestUtils.log().debug("Session gets closed");
 		TestUtils.log().debug("++++++++++++++++++++++++++++++++");
 	}
 

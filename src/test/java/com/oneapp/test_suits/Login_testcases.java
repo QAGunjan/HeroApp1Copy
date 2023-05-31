@@ -27,7 +27,7 @@ import com.oneapp.page_actions.Privacy_policy_Page_action;
 
 public class Login_testcases extends BrowserFactory {
 
-	@Test //(priority = 1, groups = { "Smoke", "Regression" })
+	@Test (priority = 1, groups = { "Smoke", "Regression" })
 	public void validate_validLogin_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.validLoginAction();

@@ -11,9 +11,9 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.oneapp.test_suits.Dashboard_testcases">
+			<class name="com.oneapp.test_suits.Login_testcases">
 				<methods>
-					<include name="validate_DashboardVideoIsPresent_testcase"></include>
+					<include name="validate_validLogin_testcase"></include>
 				</methods>
 			</class>
 		</classes>

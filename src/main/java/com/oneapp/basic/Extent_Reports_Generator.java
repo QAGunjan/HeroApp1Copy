@@ -17,8 +17,9 @@ public class Extent_Reports_Generator {
 		String fileName = getReportName();
 		
 //		String directory= "D:\\JAVA\\Eclipse- workspace\\oneapp\\Reports\\index.html ";
+		String directory="./Reports/index.html";
 		
-		String directory= "C:\\Users\\Lenovo\\.jenkins\\workspace\\Smoke_Suite\\Reports\\index.html ";
+//		String directory= "C:\\Users\\Lenovo\\.jenkins\\workspace\\Smoke_Suite\\Reports\\index.html ";
 		
 		String path= directory + fileName;
 		report = new ExtentHtmlReporter(path);

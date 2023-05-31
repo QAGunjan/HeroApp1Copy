@@ -70,6 +70,7 @@ public class Create_Driver_Session {
 			dcap.setCapability("appPackage", "com.customerapp.hero");
 			dcap.setCapability("appActivity", "com.customerapp.hero.views.activity.splash.SplashActivity");
 			
+			TestUtils.log().debug("Android Real device gets opened");
 //			URL url = new URL("http://0.0.0.0:4723/wd/hub");
 //			URL url = new URL("http://localhost:4723/wd/hub");
 
@@ -91,6 +92,8 @@ public class Create_Driver_Session {
 				TestUtils.log().info("AUTOMATION NAME IS --> " + "XCUITest");
 				dcap.setCapability(MobileCapabilityType.UDID, "RZCT904J89D");
 				TestUtils.log().info("UDID IS --> " + "RZCT904J89D");
+				
+				TestUtils.log().debug("IOS Simulator gets opened");
 				
 //				URL url = new URL("http://0.0.0.0:4723/wd/hub");
 				
