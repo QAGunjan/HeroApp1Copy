@@ -1,9 +1,13 @@
 package com.oneapp.page_actions;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map.Entry;
 import java.util.Random;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.asserts.SoftAssert;
@@ -18,13 +22,14 @@ import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.TapOptions;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class Personal_Details_Page_Actions {
+public class Personal_Details_Page_Actions extends Myprofile_Page_Actions{
 
 	public AppiumDriver ad;
 	public ExcelData exceldata;
@@ -33,8 +38,12 @@ public class Personal_Details_Page_Actions {
 	public CommonElements_Page_object cepo;
 	public ConfigData configdata;
 	public Generic generic;
+	public JavascriptExecutor js;
+	Entry<String, String> map;
+	public String  value="Personal Details";
 
 	public Personal_Details_Page_Actions(AppiumDriver ad2) {
+		super(ad2);
 		this.ad = ad2;
 		pdpo = new Personal_Details_Page_Object(ad2);
 		exceldata = new ExcelData();
@@ -44,13 +53,39 @@ public class Personal_Details_Page_Actions {
 
 	}
 
+	
+	
 	public void fullNameFieldAction() throws InterruptedException {
 		generic.clearOnTexBox(pdpo.getFullname_textfield());
+		
+		
+//		List<String> al= new ArrayList<String>(testD.keySet());
+//		
+//		for(String t:al)
+//		{
+//			System.out.println(t);
+//			Thread.sleep(5000);
+//			generic.sendKeysOnTextfields(pdpo.getFullname_textfield(), t);
+//			Thread.sleep(5000);
+//		}
+		
 	}
 
 	public void enterfullNameAction() {
-
-		generic.sendKeysOnTextfields(pdpo.getFullname_textfield(), exceldata.getStringData("My Profile", 1, 1));
+		HashMap<String, String> testD = exceldata.hashmapping("My Profile");
+		for (Entry<String, String> map:testD.entrySet())
+		{
+			generic.sendKeysOnTextfields(pdpo.getFullname_textfield(), map.getValue()); //"My Profile"
+			generic.clickOnWebElement(cepo.getbutton());
+			
+		if(!value.equalsIgnoreCase(pdpo.getPersonalDetails().getText()))
+		{
+			super.clickMoreDetailsLink();
+			generic.clickOnWebElement(cepo.getbutton());
+		}
+		
+		}
+//		generic.sendKeysOnTextfields(pdpo.getFullname_textfield(), exceldata.getStringData("My Profile", 1, 1));
 	}
 
 	public void blankFullNameFieldAssertionAction() {
@@ -69,7 +104,7 @@ public class Personal_Details_Page_Actions {
 	public void genderRadioButtonAction() throws InterruptedException {
 		WebElement gender_selection = pdpo.getGender_checkbox();
 
-		if (gender_selection.isSelected()) {
+		if (generic.elementSelecting(gender_selection)) {
 			TestUtils.log().debug("Female is already selected");
 		}
 
@@ -80,6 +115,7 @@ public class Personal_Details_Page_Actions {
 	}
 
 	public void emailFieldAction() throws InterruptedException {
+//		generic.clickOnWebElement(pdpo.getEmailfield());
 		generic.clearOnTexBox(pdpo.getEmailfield());
 	}
 
@@ -91,7 +127,9 @@ public class Personal_Details_Page_Actions {
 		String end_email = email.substring(9, 19);
 		pdpo.getEmailfield().sendKeys(front_email + randomInt + end_email);
 //		Generic.swiping(534, 1349, 538, 792, 4000);    - for emulator
-		generic.swiping(513, 1794, 517, 1147, 4000); // for real device Samsung
+//		generic.swiping(513, 1794, 517, 1147, 4000); // for real device Samsung
+		generic.scrollingToWebElement("Address");
+		
 	}
 
 	public void enterInvalidEmailAction() {
@@ -99,8 +137,10 @@ public class Personal_Details_Page_Actions {
 	}
 
 	public void dateFieldAction() throws InterruptedException {
+
 		WebElement date = pdpo.getDatefield();
-		generic.tappingOnWebelement(955, 1287);
+		generic.clickOnWebElement(date);
+//		generic.tappingOnWebelement(955, 1287);
 		generic.clickOnWebElement(pdpo.getEdit_under_date_field());
 		generic.sendKeysOnTextfields(pdpo.getEditing_date(), exceldata.getStringData("My Profile", 3, 1));
 		generic.clickOnWebElement(pdpo.getOk_text());
@@ -126,7 +166,7 @@ public class Personal_Details_Page_Actions {
 
 	public void enterAddressAction() {
 		generic.sendKeysOnTextfields(pdpo.getAddress_field(), exceldata.getStringData("My Profile", 4, 1));
-		generic.swiping(572, 1657, 559, 1218, 4000);
+//		generic.swiping(572, 1657, 559, 1218, 4000);
 	}
 
 	public void addressAssertionAction() {

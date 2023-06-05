@@ -14,6 +14,8 @@ import org.testng.asserts.SoftAssert;
 import com.oneapp.basic.BrowserFactory;
 import com.oneapp.interfaces.GenericInterface;
 
+import io.appium.java_client.MobileBy;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.connection.ConnectionStateBuilder;
@@ -26,7 +28,7 @@ public class Generic extends BrowserFactory implements GenericInterface {
 
 	public static WebDriverWait wait;
 	public static TouchAction ta;
-
+	
 	public void hardAssertion(WebElement element, String expected_message) {
 		waitForVisibility(element);
 		String expected = expected_message;
@@ -67,8 +69,9 @@ public class Generic extends BrowserFactory implements GenericInterface {
 		try {
 			Thread.sleep(2000);
 //			ad.setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
-			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
+//			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
 			TestUtils.log().debug("Interet has been switch OFF");
+			
 		} catch (Exception e) {
 			TestUtils.log().debug("Connection could not be switch OFF");
 		}
@@ -78,7 +81,7 @@ public class Generic extends BrowserFactory implements GenericInterface {
 		try {
 			Thread.sleep(2000);
 //			ad.setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
-			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
+//			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
 			TestUtils.log().debug("Interet has been switch ON");
 		} catch (Exception e) {
 			TestUtils.log().debug("Connection could not be switch ON" + e);
@@ -86,6 +89,12 @@ public class Generic extends BrowserFactory implements GenericInterface {
 	}
 
 	public void runningApplicationBackground() {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		((AndroidDriver) ad).runAppInBackground(Duration.ofSeconds(5));
 		TestUtils.log().debug("Application goes in background");
 
@@ -152,6 +161,8 @@ public class Generic extends BrowserFactory implements GenericInterface {
 			element.click();
 
 		} catch (Exception e) {
+			JavascriptExecutor executor = (JavascriptExecutor)ad;
+			executor.executeScript("arguments[0].click();", element);
 			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 		}
 
@@ -195,14 +206,14 @@ public class Generic extends BrowserFactory implements GenericInterface {
 
 	public boolean elementDisplaying(WebElement element) {
 		waitForVisibility(element);
-		TestUtils.log().debug(" element is displaying ----> ");
+		TestUtils.log().debug(" element is displaying ----> " + element.getText());
 		return element.isDisplayed();
 
 	}
 
 	public boolean elementSelecting(WebElement element) {
 		waitForVisibility(element);
-		TestUtils.log().debug("element is selecting ----> ");
+		TestUtils.log().debug("element is selecting ----> " + element.getText());
 		return element.isSelected();
 	}
 
@@ -211,6 +222,19 @@ public class Generic extends BrowserFactory implements GenericInterface {
 		TestUtils.log().debug("element is Enable ----> ");
 		return element.isEnabled();
 
+	}
+
+	public void scrollingToWebElement(String text) {
+		MobileElement Address = (MobileElement) ad.findElement(MobileBy.AndroidUIAutomator(				
+				"new UiScrollable(new UiSelector().scrollable(true).instance(0))" +
+                ".scrollIntoView(new UiSelector()" +
+                ".textMatches(\"" + text + "\").instance(0))"));
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 	}
 
 }

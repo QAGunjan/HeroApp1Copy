@@ -36,14 +36,14 @@ public class Login_testcases extends BrowserFactory {
 		opa.clickEditAction();
 	}
 
-	@Test //(priority = 2, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
+	@Test (priority = 2, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_invalidLogin_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.invalidLoginAction();
 		lpa.invalidLoginAssertionAction();
 	}
 
-	@Test //(priority = 3, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
+	@Test (priority = 3, dependsOnMethods = {"validate_validLogin_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_mininum_length_field_testcase() throws InterruptedException, IOException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.minimumLengthFieldAction();

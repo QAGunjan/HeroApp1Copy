@@ -1,5 +1,7 @@
 package com.oneapp.test_suits;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -18,6 +20,25 @@ import com.oneapp.page_actions.Selected_Vehicle_Page_Actions;
 
 public class Myprofile_testcases extends BrowserFactory {
 
+	
+	@DataProvider(name ="TestData")
+//	public Object[][] getProfileDetails()
+//	{
+//		Object [][] data= {
+//				{"Gunjan","gunjanRawat0001@gmail.com","F-30,galinumber-1","110091"},
+//				{"    ","@@2@gmail.com","312","110"},
+//				{"123","0001","   ","00sdasdaadf"},
+//				{"@@@@","    "," @#$@#4","#$@#$"},
+//				{"Gunjas123241%$^&$^","SDFFSDkjsdhfkjshdkjfsdkjfhskjdfhksdjf","F-30,galinumber-1","ad34@3"},
+//				
+//		}; 
+//		return data;
+//	}
+	
+	
+	
+	
+	
 	@Test (priority = 11, groups = { "Smoke", "Regression" })
 	public void validate_myprofile_with_valid_details_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
@@ -137,7 +158,7 @@ public class Myprofile_testcases extends BrowserFactory {
 //		lgpa.assertion_of_logout();
 	}
 
-	@Test  (priority = 17, dependsOnMethods = {"validate_myprofile_with_valid_details_testcase"} ,groups = { "Regression", "Negative" })
+	@Test // (priority = 17, dependsOnMethods = {"validate_myprofile_with_valid_details_testcase"} ,groups = { "Regression", "Negative" })
 	public void validate_save_button_with_no_internet_testcase() throws InterruptedException {
 		
 		Personal_Details_Page_Actions pdpa = new Personal_Details_Page_Actions(ad);

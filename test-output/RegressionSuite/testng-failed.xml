@@ -11,13 +11,13 @@
       </run>
     </groups>
     <classes>
-      <class name="com.oneapp.test_suits.Dashboard_testcases">
+      <class name="com.oneapp.test_suits.Myprofile_testcases">
         <methods>
+          <include name="validate_myprofile_with_valid_details_testcase"/>
           <include name="Browsers_open"/>
           <include name="Quit_session"/>
-          <include name="validate_DashboardVideoIsPresent_testcase"/>
         </methods>
-      </class> <!-- com.oneapp.test_suits.Dashboard_testcases -->
+      </class> <!-- com.oneapp.test_suits.Myprofile_testcases -->
     </classes>
   </test> <!-- RegressionTests(failed) -->
 </suite> <!-- Failed suite [RegressionSuite] -->

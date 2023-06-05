@@ -11,9 +11,9 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.oneapp.test_suits.Login_testcases">
+			<class name="com.oneapp.test_suits.Myprofile_testcases">
 				<methods>
-					<include name="validate_validLogin_testcase"></include>
+					<include name="validate_myprofile_with_valid_details_testcase"></include>
 				</methods>
 			</class>
 		</classes>

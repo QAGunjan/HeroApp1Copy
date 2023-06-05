@@ -64,6 +64,11 @@ public class ConfigData {
 		return pro.getProperty("invalidPincodeExpected");
 	}
 	
+
+	public String getsavedFullNameExpected() {
+		return pro.getProperty("savedFullNameExpected");
+	}
+	
 	public String getcommonAssertionEmergencyContactExpected() {
 		return pro.getProperty("commonAssertionEmergencyContactExpected");
 	}

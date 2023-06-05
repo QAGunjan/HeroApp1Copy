@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 import org.apache.poi.hssf.usermodel.HSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -27,14 +28,39 @@ public class ExcelData {
 		GetExcel();
 	}
 
-	public void GetExcel() {
+	public void GetExcel( ) {
 		file = new File("./TestData/Data.xlsx");
 		try {
 			FileInputStream fis = new FileInputStream(file); // for converting the excel file into a RAW data.
 			wb = new XSSFWorkbook(fis); // In order to read xlsx, we need XSSFworkbook class
+    
 		} catch (Exception e) {
 			System.out.println("Unable to read excel file " + e.getMessage());
 		}
+	}
+
+	public HashMap<String, String> hashmapping(String SheetName) {
+		HashMap<String, String> testdata = new LinkedHashMap<String, String>();
+ try {
+		
+		XSSFSheet sheet = wb.getSheet(SheetName);
+		int lastRowNumber = sheet.getLastRowNum();
+
+		for (int i = 1; i <= lastRowNumber; i++) {
+			XSSFRow rowData = sheet.getRow(i);
+			XSSFCell KeyCell = rowData.getCell(0);
+			String key = KeyCell.getStringCellValue().trim();
+
+			XSSFCell ValueCell = rowData.getCell(1);
+			String value = ValueCell.getStringCellValue().trim();
+			testdata.put(key, value);
+		}
+ }
+  catch (Exception e) {
+	  System.out.println("Unable to read excel file " + e.getMessage());
+	  
+  }
+		return testdata;
 	}
 
 	// For Book Service Module

@@ -67,7 +67,7 @@ public class OTP_testcases extends BrowserFactory {
 		lgpa.logoutAssertionAction();
 	}
 
-	@Test (priority = 9, dependsOnMethods = { "validate_valid_OTP_testcase" }, groups = { "Regression", "Negative" })
+	@Test //(priority = 9, dependsOnMethods = { "validate_valid_OTP_testcase" }, groups = { "Regression", "Negative" })
 	public void validate_valid_OTP_with_no_internet_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.validLoginAction();
@@ -76,7 +76,7 @@ public class OTP_testcases extends BrowserFactory {
 		opa.continueWithNoInternetAction();
 	}
 
-	@Test (priority = 10, dependsOnMethods = { "validate_valid_OTP_testcase" }, groups = { "Regression", "Negative" })
+	@Test //(priority = 10, dependsOnMethods = { "validate_valid_OTP_testcase" }, groups = { "Regression", "Negative" })
 	public void validation_valid_OTP_working_expected_after_minimizing_testcase() throws InterruptedException {
 		Login_Page_Action lpa = new Login_Page_Action(ad);
 		lpa.validLoginAction();

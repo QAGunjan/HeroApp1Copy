@@ -84,5 +84,14 @@ public class Myprofile_Page_Actions {
 	public void clickManageLicenceAction() {
 		generic.clickOnWebElement(mppo.getManage_license_text());
 	}
+	
+	public void clickMoreDetailsLink()
+	{
+		generic.clickOnWebElement(mppo.getMoredetails_link());
+	}
 
+	public void savedFullNameValidation()
+	{
+		generic.softAssertion(mppo.getSavedFullName(), configdata.getsavedFullNameExpected());
+	}
 }

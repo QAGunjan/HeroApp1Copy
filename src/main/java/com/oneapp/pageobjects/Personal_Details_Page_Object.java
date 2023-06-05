@@ -15,24 +15,31 @@ public class Personal_Details_Page_Object {
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> Personal_details_text;
 
+	
+	@FindBy(xpath = "//android.widget.TextView[@index='4']")
+	private WebElement personalDetails;
+	
 	@FindBy(id = "com.customerapp.hero:id/text_input_editext")
 	private WebElement fullname_textfield;
 
-	@FindBy(id = "com.customerapp.hero:id/female_rd")
+	@FindBy(xpath = "//android.widget.RadioButton[@index='1']")
 	private WebElement Gender_checkbox;
-
+	
+	@FindBy(xpath = "//android.widget.TextView[@index='11']")
+	private WebElement Address_text;
+	
 //	@FindBys({
 //		@FindBy(className = "android.widget.EditText")
 //		})
 //		private List<WebElement> emailfield;
 
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.EditText")
+	@FindBy(xpath = "(//android.widget.EditText[@index='0'])[2]")
 	private WebElement emailfield;
 
 //	@FindBy(xpath ="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[3]/android.widget.FrameLayout/android.widget.EditText")
 //	private WebElement datefield;
 
-	@FindBy(xpath= "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[3]/android.widget.FrameLayout/android.widget.EditText")
+	@FindBy(xpath= "(//android.widget.EditText[@resource-id='com.customerapp.hero:id/text_input_editext'])[3]")
 	private WebElement datefield;
 
 	@FindBy(id = "com.customerapp.hero:id/mtrl_picker_header_toggle")
@@ -52,10 +59,10 @@ public class Personal_Details_Page_Object {
 	private WebElement address_field;
 	
 	
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[6]/android.widget.FrameLayout/android.widget.EditText")
+	@FindBy(xpath = "(//android.widget.EditText[@index='0'])[5]")
 	private WebElement pincode_field;
 	
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[7]/android.widget.FrameLayout/android.widget.EditText")
+	@FindBy(xpath = "(//android.widget.EditText[@index='0'])[6]")
 	private WebElement blank_pincode_field;
 	
 //	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
@@ -128,7 +135,14 @@ public class Personal_Details_Page_Object {
 	public WebElement getBlank_pincode_field() {
 		return blank_pincode_field;
 	}
-   
+
+	public WebElement getAddress_text() {
+		return Address_text;
+	}
+
+	public WebElement getPersonalDetails() {
+		return personalDetails;
+	}
 
 	
 	

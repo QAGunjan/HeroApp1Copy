@@ -15,6 +15,10 @@ public class MyProfile_Page_Object {
 	@FindBy(id = "com.customerapp.hero:id/tv_details")
 	private WebElement moredetails_link;
 	
+	
+	@FindBy(id = "com.customerapp.hero:id/user_name")
+	private WebElement SavedFullName;
+	
 //	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
 //	private WebElement editprofile_details_btn;
 	
@@ -73,6 +77,11 @@ public class MyProfile_Page_Object {
 
 	public WebElement getManage_license_text() {
 		return manage_license_text;
+	}
+
+
+	public WebElement getSavedFullName() {
+		return SavedFullName;
 	}
 
 	

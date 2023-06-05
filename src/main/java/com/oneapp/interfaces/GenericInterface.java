@@ -27,4 +27,5 @@ public interface GenericInterface {
 	public boolean elementDisplaying(WebElement element);
 	public boolean elementSelecting(WebElement element);
 	public  boolean elementEnable(WebElement element);
+	public void scrollingToWebElement(String text);
 }
