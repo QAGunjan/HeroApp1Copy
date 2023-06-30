@@ -4,49 +4,47 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.oneapp.basic.BaseClass;
+
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class TipsAndDIYVideos_page_object {
+public class TipsAndDIYVideos_page_object extends BaseClass {
 
-	@FindBy(xpath = "//*[@text='Pre Bike Riding Tips_Battery']")
-	private WebElement tipsPDFTitleText;
+	@AndroidFindBy(xpath = "//*[@text='Pre Bike Riding Tips_Battery']")
+	private MobileElement tipsPDFTitleText;
 
-	@FindBy(xpath = "//*[@text='DIY Videos']")
-	private WebElement DIYVideosText;
+	@AndroidFindBy(xpath = "//*[@text='DIY Videos']")
+	private MobileElement DIYVideosText;
 
-	@FindBy(xpath = "//*[@text='Tyre Care']")
-	private WebElement TypeCareTextUnderDIYVideos;
+	@AndroidFindBy(xpath = "(//android.widget.TextView[@index='2'])[1]")
+	private MobileElement TypeCareTextUnderDIYVideos;
 
-	@FindBy(xpath = "//*[@text='Play']")
-	private WebElement VideoPlayerTextUnderTyrecareSection;
+	@AndroidFindBy(xpath = "//android.widget.Button[@index='1']")
+	private MobileElement VideoPlayerTextUnderTyrecareSection;
 
-	@FindBy(xpath = "//*[@text='Watch Now']")
-	private WebElement WatchNowUnderTyrecareSection;
+	@AndroidFindBy(xpath = "//*[@text='Watch Now']")
+	private MobileElement WatchNowUnderTyrecareSection;
 
-	public TipsAndDIYVideos_page_object(AppiumDriver ad2) {
-
-		PageFactory.initElements(ad2, this);
-
-	}
-
-	public WebElement getTipsPDFTitleText() {
+	public MobileElement getTipsPDFTitleText() {
 		return tipsPDFTitleText;
 	}
 
-	public WebElement getDIYVideosText() {
+	public MobileElement getDIYVideosText() {
 		return DIYVideosText;
 	}
 
-	public WebElement getTypeCareTextUnderDIYVideos() {
+	public MobileElement getTypeCareTextUnderDIYVideos() {
 		return TypeCareTextUnderDIYVideos;
 	}
 
-	public WebElement getVideoPlayerTextUnderTyrecareDIYVideos() {
+	public MobileElement getVideoPlayerTextUnderTyrecareDIYVideos() {
 		return VideoPlayerTextUnderTyrecareSection;
 	}
 
-	public WebElement getWatchNowUnderTyrecareSection() {
+	public MobileElement getWatchNowUnderTyrecareSection() {
 		return WatchNowUnderTyrecareSection;
 	}
 

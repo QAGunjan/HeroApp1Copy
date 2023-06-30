@@ -5,37 +5,34 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.oneapp.basic.BaseClass;
+
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class SOS_alert_window_page_object {
+public class SOS_alert_window_page_object extends BaseClass{
 
-	@FindBy(id = "com.customerapp.hero:id/button_red")
-	private WebElement Send_alert_now_button;
-	
-	@FindBy(xpath = "//*[@text='Don't send.']")
-	private WebElement dont_send_link;
+	@AndroidFindBy(id = "com.customerapp.hero:id/button_red")
+	private MobileElement Send_alert_now_button;
 
-	@FindBy(id = "com.customerapp.hero:id/custom_radius_close")
-	private WebElement close_icon;
+	@AndroidFindBy(xpath = "//*[@text='Don't send.']")
+	private MobileElement dont_send_link;
 
-	public SOS_alert_window_page_object(AppiumDriver ad2) {
+	@AndroidFindBy(id = "com.customerapp.hero:id/custom_radius_close")
+	private MobileElement close_icon;
 
-		PageFactory.initElements(ad2, this);
-
-	}
-
-	public WebElement getSend_alert_now_button() {
+	public MobileElement getSend_alert_now_button() {
 		return Send_alert_now_button;
 	}
 
-	public WebElement getDont_send_link() {
+	public MobileElement getDont_send_link() {
 		return dont_send_link;
 	}
 
-	public WebElement getClose_icon() {
+	public MobileElement getClose_icon() {
 		return close_icon;
 	}
-	
 
 }

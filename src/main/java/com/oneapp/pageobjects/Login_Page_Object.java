@@ -11,19 +11,21 @@ import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
+import com.oneapp.basic.BaseClass;
+
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
-public class Login_Page_Object {
-
-//	@FindBy(how=How.ID,using =("com.customerapp.hero:id/lbl1"))
-//	@CacheLookup
-//	private WebElement herologo;
+public class Login_Page_Object extends BaseClass {
 
 
-	@FindBy(id = "com.customerapp.hero:id/text_input_editext")
-	private WebElement mobile_num_field;
+
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/text_input_editext")
+	private MobileElement mobile_num_field;
 
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> privacylink;
@@ -38,13 +40,13 @@ public class Login_Page_Object {
 			@FindBy(className = "android.widget.TextView") })
 	private List<WebElement> contact_us_link;
 
-	public Login_Page_Object(AppiumDriver ad) {
+//	public Login_Page_Object() {
+//           super();
+//		
+//
+//	}
 
-		PageFactory.initElements(ad, this);
-
-	}
-
-	public WebElement getMobile_num_field() {
+	public MobileElement getMobile_num_field() {
 		return mobile_num_field;
 	}
 

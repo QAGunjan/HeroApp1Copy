@@ -4,38 +4,38 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.oneapp.basic.BaseClass;
+
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class RelationshipManager_Page_Object {
+public class RelationshipManager_Page_Object extends BaseClass{
 
-	@FindBy(xpath = "//*[@text='GoodLife']")
-	private WebElement goodlife_icon;
+	@AndroidFindBy(xpath = "//*[@text='GoodLife']")
+	private MobileElement goodlife_icon;
 
-	@FindBy(id = "com.customerapp.hero:id/noDataTitle")
-	private WebElement noDataFound;
+	@AndroidFindBy(id = "com.customerapp.hero:id/noDataTitle")
+	private MobileElement noDataFound;
 
-	@FindBy(xpath = "//*[@text='TSM']")
-	private WebElement TSM_text;
+	@AndroidFindBy(xpath = "//*[@text='TSM']")
+	private MobileElement TSM_text;
 
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[3]")
-	private WebElement TSM_email;
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[3]")
+	private MobileElement TSM_email;
 
-	public RelationshipManager_Page_Object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad2, this);
 
-	}
-
-	public WebElement getNoDataFound() {
+	public MobileElement getNoDataFound() {
 		return noDataFound;
 	}
 
-	public WebElement getTSM_text() {
+	public MobileElement getTSM_text() {
 		return TSM_text;
 	}
 
-	public WebElement getTSM_email() {
+	public MobileElement getTSM_email() {
 		return TSM_email;
 	}
 

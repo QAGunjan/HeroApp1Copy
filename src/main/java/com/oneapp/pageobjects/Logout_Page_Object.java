@@ -4,26 +4,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.oneapp.basic.BaseClass;
+
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class Logout_Page_Object {
-	
-	@FindBy(id = "android:id/button1")
-	private WebElement yes_text;
+public class Logout_Page_Object extends BaseClass {
 
-	
-	public Logout_Page_Object(AppiumDriver ad2) {
+	@AndroidFindBy(id = "android:id/button1")
+	private MobileElement yes_text;
 
-		PageFactory.initElements(ad2, this);
-	}
-
-	public WebElement getYes_text() {
+	public MobileElement getYes_text() {
 		return yes_text;
 	}
-
-	
-	
-
 
 }

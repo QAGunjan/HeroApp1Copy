@@ -7,46 +7,50 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import com.oneapp.basic.BaseClass;
+
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class CommonElements_Page_object {
+public class CommonElements_Page_object extends BaseClass {
 
-	@FindBy(id = "com.google.android.gms:id/cancel")
-	private WebElement nonOfTheAbove;
+	@AndroidFindBy(id = "com.google.android.gms:id/cancel")
+	private MobileElement nonOfTheAbove;
 
-	@FindBy(xpath = "//*[@text='ALLOW']")
-	private WebElement allowing_commom_popup_honor;
+	@AndroidFindBy(xpath = "//*[@text='ALLOW']")
+	private MobileElement allowing_commom_popup_honor;
 
-	@FindBy(xpath = "//*[@text='Allow']")
-	private WebElement allowing_commom_popup_samsung;
+	@AndroidFindBy(xpath = "//*[@text='Allow']")
+	private MobileElement allowing_commom_popup_samsung;
 
-	@FindBy(xpath = "//*[@text='Allow Hero App to send you notifications?']")
-	private WebElement notification_pop_up_samsung;
+	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to send you notifications?']")
+	private MobileElement notification_pop_up_samsung;
 
-	@FindBy(id = "com.customerapp.hero:id/back_btn")
-	private WebElement back_icon;
+	@AndroidFindBy(id = "com.customerapp.hero:id/back_btn")
+	private MobileElement back_icon;
 
-	@FindBy(id = "com.customerapp.hero:id/snackbar_text")
-	private WebElement toast_message;
+	@AndroidFindBy(id = "com.customerapp.hero:id/snackbar_text")
+	private MobileElement toast_message;
 
-	@FindBy(id = "com.customerapp.hero:id/lbl1")
-	private WebElement herologo;
+	@AndroidFindBy(id = "com.customerapp.hero:id/lbl1")
+	private MobileElement herologo;
 
-	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
-	private WebElement button;
+	@AndroidFindBy(id = "com.customerapp.hero:id/btn_lbl")
+	private MobileElement button;
 
-	@FindBy(xpath = "//*[@text='Only this time']")
-	private WebElement onlyThisTime_popup_samsung;
+	@AndroidFindBy(xpath = "//*[@text='Only this time']")
+	private MobileElement onlyThisTime_popup_samsung;
 
-	@FindBy(id = "com.customerapp.hero:id/lbl")
-	private WebElement pageTitleText;
+	@AndroidFindBy(id = "com.customerapp.hero:id/lbl")
+	private MobileElement pageTitleText;
 
-	@FindBy(id = "com.customerapp.hero:id/state_sp")
-	private WebElement state_box;
+	@AndroidFindBy(id = "com.customerapp.hero:id/state_sp")
+	private MobileElement state_box;
 
-	@FindBy(id = "com.customerapp.hero:id/city_sp")
-	private WebElement city_box;
+	@AndroidFindBy(id = "com.customerapp.hero:id/city_sp")
+	private MobileElement city_box;
 
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> state_typedropdown;
@@ -54,55 +58,55 @@ public class CommonElements_Page_object {
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> city_typedropdown;
 
-	public CommonElements_Page_object(AppiumDriver ad2) {
-		PageFactory.initElements(ad2, this);
-	}
+//	public CommonElements_Page_object(AppiumDriver ad2) {
+//		PageFactory.initElements(ad2, this);
+//	}
 
-	public WebElement getBack_icon() {
+	public MobileElement getBack_icon() {
 		return back_icon;
 	}
 
-	public WebElement getToast_message() {
+	public MobileElement getToast_message() {
 		return toast_message;
 	}
 
-	public WebElement getHerologo() {
+	public MobileElement getHerologo() {
 		return herologo;
 	}
 
-	public WebElement getNonOfTheAbove() {
+	public MobileElement getNonOfTheAbove() {
 		return nonOfTheAbove;
 	}
 
-	public WebElement getallowing_commom_popup_honor() {
+	public MobileElement getallowing_commom_popup_honor() {
 		return allowing_commom_popup_honor;
 	}
 
-	public WebElement getAllowing_commom_popup_samsung() {
+	public MobileElement getAllowing_commom_popup_samsung() {
 		return allowing_commom_popup_samsung;
 	}
 
-	public WebElement getNotification_pop_up_samsung() {
+	public MobileElement getNotification_pop_up_samsung() {
 		return notification_pop_up_samsung;
 	}
 
-	public WebElement getbutton() {
+	public MobileElement getbutton() {
 		return button;
 	}
 
-	public WebElement getOnlyThisTime_popup_samsung() {
+	public MobileElement getOnlyThisTime_popup_samsung() {
 		return onlyThisTime_popup_samsung;
 	}
 
-	public WebElement getPageTitleText() {
+	public MobileElement getPageTitleText() {
 		return pageTitleText;
 	}
 
-	public WebElement getState_box() {
+	public MobileElement getState_box() {
 		return state_box;
 	}
 
-	public WebElement getCity_box() {
+	public MobileElement getCity_box() {
 		return city_box;
 	}
 

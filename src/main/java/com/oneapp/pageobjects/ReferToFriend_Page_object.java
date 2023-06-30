@@ -7,39 +7,39 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import com.oneapp.basic.BaseClass;
+
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class ReferToFriend_Page_object {
+public class ReferToFriend_Page_object extends BaseClass{
 
-	@FindBy(id = "com.customerapp.hero:id/spinner_vehicle")
-	private WebElement selectModel_box;
+	@AndroidFindBy(id = "com.customerapp.hero:id/spinner_vehicle")
+	private MobileElement selectModel_box;
 
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> selectModel_typedropdown;
 
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText")
-	private WebElement friendName_field;
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText")
+	private MobileElement friendName_field;
 
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.EditText")
-	private WebElement MobileNumber_field;
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.EditText")
+	private MobileElement MobileNumber_field;
 
-	@FindBy(xpath = "//*[@text='We have successfully captured the Referral. Stay Tuned for more update.']")
-	private WebElement successfullyReferral_PopUp;
+	@AndroidFindBy(xpath = "//*[@text='We have successfully captured the Referral. Stay Tuned for more update.']")
+	private MobileElement successfullyReferral_PopUp;
 	
-	@FindBy(xpath = "//*[@text='OK']")
-	private WebElement Ok_text;
+	@AndroidFindBy(xpath = "//*[@text='OK']")
+	private MobileElement Ok_text;
 	
-	@FindBy(xpath = "//*[@text='Refer yourself']")
-	private WebElement referYourself_link;
+	@AndroidFindBy(xpath = "//*[@text='Refer yourself']")
+	private MobileElement referYourself_link;
 	
 	
-	public ReferToFriend_Page_object(AppiumDriver ad) {
+	
 
-		PageFactory.initElements(ad, this);
-
-	}
-
-	public WebElement getSelectModel_box() {
+	public MobileElement getSelectModel_box() {
 		return selectModel_box;
 	}
 
@@ -47,23 +47,23 @@ public class ReferToFriend_Page_object {
 		return selectModel_typedropdown;
 	}
 
-	public WebElement getFriendName_field() {
+	public MobileElement getFriendName_field() {
 		return friendName_field;
 	}
 
-	public WebElement getMobileNumber_field() {
+	public MobileElement getMobileNumber_field() {
 		return MobileNumber_field;
 	}
 
-	public WebElement getSuccessfullyReferral_PopUp() {
+	public MobileElement getSuccessfullyReferral_PopUp() {
 		return successfullyReferral_PopUp;
 	}
 
-	public WebElement getOk_text() {
+	public MobileElement getOk_text() {
 		return Ok_text;
 	}
 
-	public WebElement getReferYourself_link() {
+	public MobileElement getReferYourself_link() {
 		return referYourself_link;
 	}
 	

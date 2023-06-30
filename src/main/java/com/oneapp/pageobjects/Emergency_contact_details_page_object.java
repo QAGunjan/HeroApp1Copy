@@ -8,70 +8,55 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
+import com.oneapp.basic.BaseClass;
 
-public class Emergency_contact_details_page_object {
-	
-	@FindBy(id = "com.customerapp.hero:id/user_name")
-	private WebElement fullname_textbox;
-	
-	@FindBy(id = "com.customerapp.hero:id/phn_no_edtxt")
-	private WebElement mob_number_txtbox;
-	
-	@FindBy(id = "com.customerapp.hero:id/name")
-	private WebElement relation_type;
-	
-	
-	@FindBys({ 
-		@FindBy(className = "android.widget.TextView") 
-		})
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+
+public class Emergency_contact_details_page_object extends BaseClass{
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/user_name")
+	private MobileElement fullname_textbox;
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/phn_no_edtxt")
+	private MobileElement mob_number_txtbox;
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/name")
+	private MobileElement relation_type;
+
+	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> relation_typedropdown;
 
 //	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
 //	private WebElement continue_btn;
-	
-	@FindBy(xpath="//*[@text='Full Name']")
-	private WebElement fullName_text;
-	
-	public Emergency_contact_details_page_object(AppiumDriver ad2) {
 
-		PageFactory.initElements(ad2, this);
+	@AndroidFindBy(xpath = "//*[@text='Full Name']")
+	private MobileElement fullName_text;
 
-	}
-
-
-	public WebElement getFullname_textbox() {
+	public MobileElement getFullname_textbox() {
 		return fullname_textbox;
 	}
 
-
-	public WebElement getMob_number_txtbox() {
+	public MobileElement getMob_number_txtbox() {
 		return mob_number_txtbox;
 	}
-
 
 	public List<WebElement> getRelation_typedropdown() {
 		return relation_typedropdown;
 	}
 
-
-	public WebElement getRelation_type() {
+	public MobileElement getRelation_type() {
 		return relation_type;
 	}
-
 
 //	public WebElement getContinue_btn() {
 //		return continue_btn;
 //	}
 
-
-	public WebElement getFullName_text() {
+	public MobileElement getFullName_text() {
 		return fullName_text;
 	}
-	
-	
-	
-	
 
 }

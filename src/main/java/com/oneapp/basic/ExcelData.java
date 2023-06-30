@@ -39,14 +39,14 @@ public class ExcelData {
 		}
 	}
 
-	public HashMap<String, String> hashmapping(String SheetName) {
+	public HashMap<String, String> hashmapping(String SheetName, int j) {
 		HashMap<String, String> testdata = new LinkedHashMap<String, String>();
  try {
 		
 		XSSFSheet sheet = wb.getSheet(SheetName);
 		int lastRowNumber = sheet.getLastRowNum();
 
-		for (int i = 1; i <= lastRowNumber; i++) {
+		for (int i = j; i <= lastRowNumber; i++) {
 			XSSFRow rowData = sheet.getRow(i);
 			XSSFCell KeyCell = rowData.getCell(0);
 			String key = KeyCell.getStringCellValue().trim();

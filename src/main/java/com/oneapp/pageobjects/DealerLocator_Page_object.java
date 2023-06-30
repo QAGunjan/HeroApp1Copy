@@ -7,37 +7,38 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import com.oneapp.basic.BaseClass;
+
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class DealerLocator_Page_object {
+public class DealerLocator_Page_object extends BaseClass{
 
-	@FindBy(id = "com.customerapp.hero:id/floating_button2")
-	private WebElement listViewicon;
+	@AndroidFindBy(id = "com.customerapp.hero:id/floating_button2")
+	private MobileElement listViewicon;
 
-	@FindBy(id = "com.samsung.android.dialer:id/digits")
-	private WebElement DialerPad;
+	@AndroidFindBy(id = "com.samsung.android.dialer:id/digits")
+	private MobileElement DialerPad;
 
 	@FindBys({ @FindBy(className = "android.widget.TextView")
 
 	})
 	private List<WebElement> DealerLocatorsName;
 
-	@FindBy(xpath = "//*[@text='Hans Motors']")
-	private WebElement HansMotorsDealerLocatorName;
+	@AndroidFindBy(xpath = "//*[@text='Hans Motors']")
+	private MobileElement HansMotorsDealerLocatorName;
 
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.ImageView")
-	private WebElement callIconBesidesHansMotorsDealer;
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.ImageView")
+	private MobileElement callIconBesidesHansMotorsDealer;
 
-	@FindBy(xpath = "//*[@text='Something went wrong - 102']")
-	private WebElement somethingWentWrong_text;
+	@AndroidFindBy(xpath = "//*[@text='Something went wrong - 102']")
+	private MobileElement somethingWentWrong_text;
 
-	public DealerLocator_Page_object(AppiumDriver ad2) {
+	
 
-		PageFactory.initElements(ad2, this);
-	}
-
-	public WebElement getListViewicon() {
+	public MobileElement getListViewicon() {
 		return listViewicon;
 	}
 
@@ -45,19 +46,19 @@ public class DealerLocator_Page_object {
 		return DealerLocatorsName;
 	}
 
-	public WebElement getHansMotorsDealerLocatorName() {
+	public MobileElement getHansMotorsDealerLocatorName() {
 		return HansMotorsDealerLocatorName;
 	}
 
-	public WebElement getCallIconBesidesHansMotorsDealer() {
+	public MobileElement getCallIconBesidesHansMotorsDealer() {
 		return callIconBesidesHansMotorsDealer;
 	}
 
-	public WebElement getDialerPad() {
+	public MobileElement getDialerPad() {
 		return DialerPad;
 	}
 
-	public WebElement getSomethingWentWrong_text() {
+	public MobileElement getSomethingWentWrong_text() {
 		return somethingWentWrong_text;
 	}
 

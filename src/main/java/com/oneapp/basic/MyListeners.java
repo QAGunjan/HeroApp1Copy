@@ -20,13 +20,12 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.google.common.io.Files;
-import com.oneapp.page_actions.Login_Page_Action;
 import com.oneapp.utils.Console_Colors;
 import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class MyListeners extends BrowserFactory implements ITestListener {
+public class MyListeners extends BaseClass implements ITestListener {
 
 	ExtentReports extent = Extent_Reports_Generator.getreports();
 	ThreadLocal<ExtentTest> extent_test = new ThreadLocal<ExtentTest>();
@@ -94,6 +93,7 @@ public class MyListeners extends BrowserFactory implements ITestListener {
 		String path = directory + fileName;
 
 		try {
+
 			File screenshot = ((TakesScreenshot) ad).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(screenshot, new File(path));
 			TestUtils.log()

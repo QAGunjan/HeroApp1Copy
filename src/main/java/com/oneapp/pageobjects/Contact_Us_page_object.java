@@ -7,26 +7,26 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
+import com.oneapp.basic.BaseClass;
 
-public class Contact_Us_page_object {
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+
+public class Contact_Us_page_object extends BaseClass {
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> contact_us_text_val;
 
-	@FindBy(xpath = "//*[@text='Whatsapp']")
-	private WebElement Whatsapp_text;
-
-	public Contact_Us_page_object(AppiumDriver ad) {
-		PageFactory.initElements(ad, this);
-	}
+	@AndroidFindBy(xpath = "//*[@text='Whatsapp']")
+	private MobileElement Whatsapp_text;
 
 	public List<WebElement> getContact_us_text_val() {
 		return contact_us_text_val;
 	}
 
-	public WebElement getWhatsapp_text() {
+	public MobileElement getWhatsapp_text() {
 		return Whatsapp_text;
 	}
-	
+
 }

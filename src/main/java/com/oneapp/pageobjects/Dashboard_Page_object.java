@@ -8,52 +8,56 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import com.oneapp.basic.BaseClass;
+
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class Dashboard_Page_object {
+public class Dashboard_Page_object extends BaseClass {
 
-	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_one_time_button")
-	private WebElement Location_popup;
+	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_one_time_button")
+	private MobileElement Location_popup;
 
-	@FindBy(xpath = "//*[@text='Key Actions']")
-	private WebElement key_action_text;
+	@AndroidFindBy(xpath = "//*[@text='Key Actions']")
+	private MobileElement key_action_text;
 
-	@FindBy(xpath = "//*[@text='ALLOW']")
-	private WebElement Location_popup_Honor;
+	@AndroidFindBy(xpath = "//*[@text='ALLOW']")
+	private MobileElement Location_popup_Honor;
 
-	@FindBy(xpath = "//*[@text='Dealer Locator']")
-	private WebElement dealerLocatortext;
+	@AndroidFindBy(xpath = "//*[@text='Dealer Locator']")
+	private MobileElement dealerLocatortext;
 
-	@FindBy(xpath = "//*[@text='Relationship Manager']")
-	private WebElement relationshipManagertext;
+	@AndroidFindBy(xpath = "//*[@text='Relationship Manager']")
+	private MobileElement relationshipManagertext;
 
-	@FindBy(xpath = "//*[@text='RSA']")
-	private WebElement RSAtext;
+	@AndroidFindBy(xpath = "//*[@text='RSA']")
+	private MobileElement RSAtext;
 
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.view.View")
-	private WebElement RSAImageIcon;
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.view.View")
+	private MobileElement RSAImageIcon;
 
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[6]/android.view.View")
-	private WebElement dealerLocatorImageIcon;
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[6]/android.view.View")
+	private MobileElement dealerLocatorImageIcon;
 
-	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.view.View")
-	private WebElement relationshipManagerImageIcon;
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.view.View")
+	private MobileElement relationshipManagerImageIcon;
 
-	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
-	private WebElement nearby_devices_popup;
+	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+	private MobileElement nearby_devices_popup;
 
-	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
-	private WebElement calllogs_popup;
+	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+	private MobileElement calllogs_popup;
 
-	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
-	private WebElement contacts_popup;
+	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+	private MobileElement contacts_popup;
 
-	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
-	private WebElement managephonecalls_popup;
+	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+	private MobileElement managephonecalls_popup;
 
-	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
-	private WebElement sms_messages_popup;
+	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+	private MobileElement sms_messages_popup;
 
 //	@FindBy(className="android.widget.LinearLayout")
 //	private List<WebElement> Location_pop_displaying;
@@ -61,25 +65,25 @@ public class Dashboard_Page_object {
 //	@FindBy(xpath="//*[contains(text(), 'Allow Hero App to access this?')]")
 //	private WebElement Location_pop_displaying;
 
-	@FindBy(id = "com.android.permissioncontroller:id/permission_message")
-	private WebElement Location_pop_displaying;
+	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_message")
+	private MobileElement Location_pop_displaying;
 
 	// *[@text='Allow Hero App to access this device’s location?']
 
-	@FindBy(id = "com.customerapp.hero:id/side_menu_btn")
-	private WebElement menu_bar_icon;
+	@AndroidFindBy(id = "com.customerapp.hero:id/side_menu_btn")
+	private MobileElement menu_bar_icon;
 
-	@FindBy(xpath = "//*[@text='Services']")
-	private WebElement services_icon;
+	@AndroidFindBy(xpath = "//*[@text='Services']")
+	private MobileElement services_icon;
 
-	@FindBy(xpath = "//*[@text='GoodLife']")
-	private WebElement goodlife_icon;
+	@AndroidFindBy(xpath = "//*[@text='GoodLife']")
+	private MobileElement goodlife_icon;
 
-	@FindBy(id = "com.customerapp.hero:id/ic_sos")
-	private WebElement SOS_icon;
+	@AndroidFindBy(id = "com.customerapp.hero:id/ic_sos")
+	private MobileElement SOS_icon;
 
-	@FindBy(xpath = "//*[@text='Allow Hero App to access this device’s location?']")
-	private WebElement device_location_popup_samsung;
+	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to access this device’s location?']")
+	private MobileElement device_location_popup_samsung;
 
 //	@FindBy(xpath ="//*[@text='Only this time']")
 //	private WebElement allowing_location_popup_samsung;
@@ -87,73 +91,71 @@ public class Dashboard_Page_object {
 	@FindAll({ @FindBy(className = "android.view.ViewGroup") })
 	private List<WebElement> ImageIconUnderKeyAction;
 
-	@FindBy(id ="com.customerapp.hero:id/iv_pause")
+	@AndroidFindBy(id = "com.customerapp.hero:id/iv_pause")
 //		@FindBy(id = "com.customerapp.hero:id/exo_controls_background")
-		private WebElement dashboardVideo;
+	private MobileElement dashboardVideo;
 
-	public Dashboard_Page_object(AppiumDriver ad2) {
-
-		PageFactory.initElements(ad2, this);
-
-	}
-
-	public WebElement getLocation_popup() {
+	
+	@AndroidFindBy(id ="com.customerapp.hero:id/iv_close")  	
+	private MobileElement dashboardVideoCloseIcon;
+	
+	public MobileElement getLocation_popup() {
 		return Location_popup;
 	}
 
-	public WebElement getNearby_devices_popup() {
+	public MobileElement getNearby_devices_popup() {
 		return nearby_devices_popup;
 	}
 
-	public WebElement getCalllogs_popup() {
+	public MobileElement getCalllogs_popup() {
 		return calllogs_popup;
 	}
 
-	public WebElement getManagephonecalls_popup() {
+	public MobileElement getManagephonecalls_popup() {
 		return managephonecalls_popup;
 	}
 
-	public WebElement getContacts_popup() {
+	public MobileElement getContacts_popup() {
 		return contacts_popup;
 	}
 
-	public WebElement getSms_messages_popup() {
+	public MobileElement getSms_messages_popup() {
 		return sms_messages_popup;
 	}
 
-	public WebElement getMenu_bar_icon() {
+	public MobileElement getMenu_bar_icon() {
 		return menu_bar_icon;
 	}
 
-	public WebElement getLocation_pop_displaying() {
+	public MobileElement getLocation_pop_displaying() {
 		return Location_pop_displaying;
 	}
 
-	public WebElement getServices_icon() {
+	public MobileElement getServices_icon() {
 		return services_icon;
 	}
 
-	public WebElement getGoodlife_icon() {
+	public MobileElement getGoodlife_icon() {
 		return goodlife_icon;
 	}
 
-	public WebElement getLocation_popup_Honor() {
+	public MobileElement getLocation_popup_Honor() {
 		return Location_popup_Honor;
 	}
 
-	public WebElement getKey_action_text() {
+	public MobileElement getKey_action_text() {
 		return key_action_text;
 	}
 
-	public WebElement getSOS_icon() {
+	public MobileElement getSOS_icon() {
 		return SOS_icon;
 	}
 
-	public WebElement getDevice_location_popup_samsung() {
+	public MobileElement getDevice_location_popup_samsung() {
 		return device_location_popup_samsung;
 	}
 
-	public WebElement getDealerLocatortext() {
+	public MobileElement getDealerLocatortext() {
 		return dealerLocatortext;
 	}
 
@@ -161,32 +163,33 @@ public class Dashboard_Page_object {
 		return ImageIconUnderKeyAction;
 	}
 
-	public WebElement getDealerLocatorImageIcon() {
+	public MobileElement getDealerLocatorImageIcon() {
 		return dealerLocatorImageIcon;
 	}
 
-	public WebElement getRelationshipManagertext() {
+	public MobileElement getRelationshipManagertext() {
 		return relationshipManagertext;
 	}
 
-	public WebElement getRelationshipManagerImageIcon() {
+	public MobileElement getRelationshipManagerImageIcon() {
 		return relationshipManagerImageIcon;
 	}
 
-	public WebElement getRSAtext() {
+	public MobileElement getRSAtext() {
 		return RSAtext;
 	}
 
-	public WebElement getRSAImageIcon() {
+	public MobileElement getRSAImageIcon() {
 		return RSAImageIcon;
 	}
 
-	public WebElement getDashboardVideo() {
+	public MobileElement getDashboardVideo() {
 		return dashboardVideo;
 	}
 
-//	public WebElement getAllowing_location_popup_samsung() {
-//		return allowing_location_popup_samsung;
-//	}
+	public MobileElement getDashboardVideoCloseIcon() {
+		return dashboardVideoCloseIcon;
+	}
+
 
 }

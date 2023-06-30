@@ -4,84 +4,84 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.oneapp.basic.BaseClass;
+
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class OTP_Page_Object {
-	
-	@FindBy(id="com.customerapp.hero:id/otp_one_edtxt")
-	private static WebElement firsttxtbox;
-	
-	@FindBy(id="com.customerapp.hero:id/otp_two_edtxt")
-	private WebElement secondtxtbox;
+public class OTP_Page_Object extends BaseClass {
 
-	@FindBy(id="com.customerapp.hero:id/otp_three_edtxt")
-	private WebElement thirdtxtbox;
-	
-	@FindBy(id="com.customerapp.hero:id/otp_four_edtxt")
-	private static WebElement fourthtxtbox;
-	
-	@FindBy(id="com.customerapp.hero:id/otp_5_edtxt")
-	private WebElement fifthtxtbox;
+	@AndroidFindBy(className = "android.widget.EditText")
+	private MobileElement textboxes;
 
-	@FindBy(id="com.customerapp.hero:id/otp_6_edtxt")
-	private WebElement sixthtxtbox;
-	
-	@FindBy(id="com.customerapp.hero:id/edit_phn_no_btn")
-	private WebElement edit_button;
-	
-	
-	@FindBy(id="com.customerapp.hero:id/resend_btn_lbl")
-	private WebElement resend_link;
-	
-	@FindBy(id="com.customerapp.hero:id/lbl2")
-	private WebElement verify_with_OTP;
-	
-	public OTP_Page_Object(AppiumDriver ad)
-	{
-		
-		PageFactory.initElements(ad, this);
-		
-	}
+	@AndroidFindBy(id = "com.customerapp.hero:id/otp_one_edtxt")
+	private MobileElement firsttxtbox;
 
-	public WebElement getFirsttxtbox() {
+	@AndroidFindBy(id = "com.customerapp.hero:id/otp_two_edtxt")
+	private MobileElement secondtxtbox;
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/otp_three_edtxt")
+	private MobileElement thirdtxtbox;
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/otp_four_edtxt")
+	private MobileElement fourthtxtbox;
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/otp_5_edtxt")
+	private MobileElement fifthtxtbox;
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/otp_6_edtxt")
+	private MobileElement sixthtxtbox;
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/edit_phn_no_btn")
+	private MobileElement edit_button;
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/resend_btn_lbl")
+	private MobileElement resend_link;
+
+	@AndroidFindBy(id = "com.customerapp.hero:id/lbl2")
+	private MobileElement verify_with_OTP;
+
+	public MobileElement getFirsttxtbox() {
 		return firsttxtbox;
 	}
 
-	public WebElement getSecondtxtbox() {
+	public MobileElement getSecondtxtbox() {
 		return secondtxtbox;
 	}
 
-	public WebElement getThirdtxtbox() {
+	public MobileElement getThirdtxtbox() {
 		return thirdtxtbox;
 	}
 
-	public  WebElement getFourthtxtbox() {
+	public MobileElement getFourthtxtbox() {
 		return fourthtxtbox;
 	}
 
-	public WebElement getFifthtxtbox() {
+	public MobileElement getFifthtxtbox() {
 		return fifthtxtbox;
 	}
 
-	public WebElement getSixthtxtbox() {
+	public MobileElement getSixthtxtbox() {
 		return sixthtxtbox;
 	}
 
-	public WebElement getEdit_button() {
+	public MobileElement getEdit_button() {
 		return edit_button;
 	}
 
-
-	public WebElement getResend_link() {
+	public MobileElement getResend_link() {
 		return resend_link;
 	}
 
-	public WebElement getVerify_with_OTP() {
+	public MobileElement getVerify_with_OTP() {
 		return verify_with_OTP;
 	}
 
-	
-	
+	public MobileElement getTextboxes() {
+		return textboxes;
+	}
+
 	
 }

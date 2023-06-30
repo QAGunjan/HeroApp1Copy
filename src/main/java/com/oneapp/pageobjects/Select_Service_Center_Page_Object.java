@@ -33,12 +33,24 @@ public class Select_Service_Center_Page_Object {
 	private List<WebElement> city_typedropdown;
 	
 	
-	@FindBy(xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[5]/android.widget.ImageView")
+	@FindBy(xpath="(//android.widget.ImageView[@index='5'])[5]")
 	private WebElement service_center_radio_button;
 	
 	
 	@FindBy(xpath="//*[@text='HIMGIRI AUTOMOBILES (P) LTD.']")
 	private WebElement himgiri_service_center;
+	
+	@FindBy(xpath="(//android.widget.TextView[@index='0'])[3]")
+	private WebElement servicelistClick;
+	
+	
+	@FindBys({
+		@FindBy	(xpath="android.widget.TextView")
+})
+	private List<WebElement> serviceCentersNames;
+	
+	
+	
 	
 	public Select_Service_Center_Page_Object(AppiumDriver ad)
 	{
@@ -88,7 +100,22 @@ public class Select_Service_Center_Page_Object {
 	public WebElement getHimgiri_service_center() {
 		return himgiri_service_center;
 	}
-	
+
+
+
+	public List<WebElement> getServiceCentersNames() {
+		return serviceCentersNames;
+	}
+
+
+
+	public WebElement getServicelistClick() {
+		return servicelistClick;
+	}
+
+
+
+
 	
 	
 	

@@ -5,13 +5,14 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
-import com.oneapp.basic.BrowserFactory;
+import com.oneapp.basic.BaseClass;
 import com.oneapp.interfaces.GenericInterface;
 
 import io.appium.java_client.MobileBy;
@@ -24,81 +25,55 @@ import io.appium.java_client.touch.TapOptions;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class Generic extends BrowserFactory implements GenericInterface {
+public class Generic extends BaseClass implements GenericInterface {
 
 	public static WebDriverWait wait;
 	public static TouchAction ta;
-	
-	public void hardAssertion(WebElement element, String expected_message) {
-		waitForVisibility(element);
-		String expected = expected_message;
-		String actual = element.getText();
-		Assert.assertEquals(expected, actual);
-		TestUtils.log().debug("Actual element --> " + actual);
-	}
 
-	public void softAssertion(WebElement element, String expected_message) {
-		waitForVisibility(element);
-		SoftAssert sa = new SoftAssert();
-		String expected = expected_message;
-		String actual = element.getText();
-		sa.assertEquals(actual, expected);
-		TestUtils.log().debug("Actual element --> " + actual);
-		sa.assertAll();
-	}
+//	public boolean ElementIsClickable(MobileElement element) {
+//		try {
+//			waitForVisibility(element);
+//			clickOnWebElement(element);
+//			return true;
+//		} catch (Exception e) {
+//			return false;
+//		}
+//	}
 
-	public void assertion_notEquals_validation(WebElement element, String expected_toast) {
-		waitForVisibility(element);
-		String expected_toast_message = expected_toast;
-		String actual_toast_message = element.getText();
-		TestUtils.log().debug("Actual element --> " + actual_toast_message);
-		Assert.assertNotEquals(actual_toast_message, expected_toast_message);
-	}
+//	public void WifiOff() {
+//		try {
+//			Thread.sleep(2000);
+////			ad.setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
+////			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
+//			TestUtils.log().debug("Interet has been switch OFF");
+//			
+//		} catch (Exception e) {
+//			TestUtils.log().debug("Connection could not be switch OFF");
+//		}
+//	}
 
-	public boolean isClickable(WebElement element) {
-		try {
-			waitForVisibility(element);
-			clickOnWebElement(element);
-			return true;
-		} catch (Exception e) {
-			return false;
-		}
-	}
+//	public void WifiOn() {
+//		try {
+//			Thread.sleep(2000);
+////			ad.setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
+////			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
+//			TestUtils.log().debug("Interet has been switch ON");
+//		} catch (Exception e) {
+//			TestUtils.log().debug("Connection could not be switch ON" + e);
+//		}
+//	}
 
-	public void WifiOff() {
-		try {
-			Thread.sleep(2000);
-//			ad.setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
-//			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
-			TestUtils.log().debug("Interet has been switch OFF");
-			
-		} catch (Exception e) {
-			TestUtils.log().debug("Connection could not be switch OFF");
-		}
-	}
-
-	public void WifiOn() {
-		try {
-			Thread.sleep(2000);
-//			ad.setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
-//			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
-			TestUtils.log().debug("Interet has been switch ON");
-		} catch (Exception e) {
-			TestUtils.log().debug("Connection could not be switch ON" + e);
-		}
-	}
-
-	public void runningApplicationBackground() {
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		((AndroidDriver) ad).runAppInBackground(Duration.ofSeconds(5));
-		TestUtils.log().debug("Application goes in background");
-
-	}
+//	public void runningApplicationBackground() {
+//		try {
+//			Thread.sleep(5000);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		((AndroidDriver<MobileElement>) ad).runAppInBackground(Duration.ofSeconds(5));
+//		TestUtils.log().debug("Application goes in background");
+//
+//	}
 
 	public void swiping(int startx, int starty, int endx, int endy, long wait) {
 		ta = new TouchAction(ad);
@@ -151,7 +126,7 @@ public class Generic extends BrowserFactory implements GenericInterface {
 		}
 	}
 
-	public void clickOnWebElement(WebElement element) {
+	public void clickOnWebElement(MobileElement element) {
 		waitForVisibility(element);
 		try {
 			wait = new WebDriverWait(ad, Generic.WAIT);
@@ -161,19 +136,78 @@ public class Generic extends BrowserFactory implements GenericInterface {
 			element.click();
 
 		} catch (Exception e) {
-			JavascriptExecutor executor = (JavascriptExecutor)ad;
+			JavascriptExecutor executor = (JavascriptExecutor) ad;
 			executor.executeScript("arguments[0].click();", element);
 			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 		}
 
 	}
 
-	public void waitForVisibility(WebElement element) {
+	public void clearOnTexBox(MobileElement element) {
+		waitForVisibility(element);
+		TestUtils.log().debug("Successfully cleared textbox");
+		element.clear();
+	}
+
+	public void getTextOfElement(MobileElement element) {
+		waitForVisibility(element);
+		TestUtils.log().debug("This is the element text  ----> " + element.getText());
+		getAttribute(element);
+	}
+
+//	public void getText(WebElement element)
+//	{
+//		getAttribute(element);
+//	}
+
+	public String getAttribute(WebElement element) {
+		return element.getAttribute("text");
+	}
+
+	public boolean elementDisplaying(MobileElement element) {
+		waitForVisibility(element);
+		TestUtils.log().debug("Successfully Displaying ----> " + element.getText());
+		return element.isDisplayed();
+
+	}
+
+	public boolean elementSelecting(MobileElement element) {
+		waitForVisibility(element);
+		TestUtils.log().debug("Successfully Selecting ----> " + element.getText());
+		return element.isSelected();
+	}
+
+	public boolean elementEnable(MobileElement element) {
+		waitForVisibility(element);
+		TestUtils.log().debug("Successfully Enabled ----> ");
+		return element.isEnabled();
+
+	}
+
+	public void scrollingToWebElement(String text) {
+		MobileElement Address = (MobileElement) ad.findElement(
+				MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0))"
+						+ ".scrollIntoView(new UiSelector()" + ".textMatches(\"" + text + "\").instance(0))"));
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	public void sendKeysOnTextfields(MobileElement element, String text) {
+		clearOnTexBox(element);
+		TestUtils.log().debug("Successfully enter value ----> " + text);
+		element.sendKeys(text);
+	}
+
+	public void waitForVisibility(MobileElement element) {
 
 		try {
 			wait = new WebDriverWait(ad, Generic.WAIT);
 			wait.until(ExpectedConditions.visibilityOf(element));
-			if (element.isDisplayed() == true) {
+			if (element.isDisplayed()) {
 				String text = element.getText();
 				TestUtils.log().debug("Successfully Visibility  ----> " + text);
 			}
@@ -184,57 +218,7 @@ public class Generic extends BrowserFactory implements GenericInterface {
 		finally {
 			ad.manage().timeouts().implicitlyWait(ImpWait, TimeUnit.SECONDS);
 		}
-	}
 
-	public void clearOnTexBox(WebElement element) {
-		waitForVisibility(element);
-		TestUtils.log().debug("Successfully cleared textbox");
-		element.clear();
-	}
-
-	public void sendKeysOnTextfields(WebElement element, String text) {
-		clearOnTexBox(element);
-		TestUtils.log().debug("Successfully enter value ----> " + text);
-		element.sendKeys(text);
-	}
-
-	public String getTextOfWebelement(WebElement element) {
-		waitForVisibility(element);
-		TestUtils.log().debug("This is the element text  ----> " + element.getText());
-		return element.getText();
-	}
-
-	public boolean elementDisplaying(WebElement element) {
-		waitForVisibility(element);
-		TestUtils.log().debug(" element is displaying ----> " + element.getText());
-		return element.isDisplayed();
-
-	}
-
-	public boolean elementSelecting(WebElement element) {
-		waitForVisibility(element);
-		TestUtils.log().debug("element is selecting ----> " + element.getText());
-		return element.isSelected();
-	}
-
-	public boolean elementEnable(WebElement element) {
-		waitForVisibility(element);
-		TestUtils.log().debug("element is Enable ----> ");
-		return element.isEnabled();
-
-	}
-
-	public void scrollingToWebElement(String text) {
-		MobileElement Address = (MobileElement) ad.findElement(MobileBy.AndroidUIAutomator(				
-				"new UiScrollable(new UiSelector().scrollable(true).instance(0))" +
-                ".scrollIntoView(new UiSelector()" +
-                ".textMatches(\"" + text + "\").instance(0))"));
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		
 	}
 
 }

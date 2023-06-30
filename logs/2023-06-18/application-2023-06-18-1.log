@@ -1,0 +1,452 @@
+[INFO ] 2023-06-18 12:02:09.324 BaseClass:56 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 12:02:09.338 BaseClass:58 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 12:02:09.339 BaseClass:60 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 12:02:09.343 BaseClass:62 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 12:02:09.346 BaseClass:72 - Android Real device gets opened
+[DEBUG] 2023-06-18 12:02:30.362 BaseClass:105 - 5eb833a0-a1e2-45bb-83c0-016d79da8b40
+[DEBUG] 2023-06-18 12:02:30.475 MyListeners:40 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 12:02:32.050 BaseClass:118 - Session gets closed
+[DEBUG] 2023-06-18 12:02:32.050 BaseClass:119 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 12:06:41.465 BaseClass:56 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 12:06:41.475 BaseClass:58 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 12:06:41.476 BaseClass:60 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 12:06:41.477 BaseClass:62 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 12:06:41.479 BaseClass:72 - Android Real device gets opened
+[DEBUG] 2023-06-18 12:06:58.675 BaseClass:105 - 6ad5f184-d095-4f08-ade9-1a115cb5647d
+[DEBUG] 2023-06-18 12:06:58.805 MyListeners:40 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 12:07:00.515 BaseClass:118 - Session gets closed
+[DEBUG] 2023-06-18 12:07:00.516 BaseClass:119 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 12:14:46.214 BaseClass:56 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 12:14:46.219 BaseClass:58 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 12:14:46.221 BaseClass:60 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 12:14:46.222 BaseClass:62 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 12:14:46.226 BaseClass:72 - Android Real device gets opened
+[DEBUG] 2023-06-18 12:15:05.143 BaseClass:105 - 48636ed4-2ab5-44f4-86f6-8efbacfb5915
+[DEBUG] 2023-06-18 12:15:05.327 MyListeners:40 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 12:15:07.254 BaseClass:118 - Session gets closed
+[DEBUG] 2023-06-18 12:15:07.254 BaseClass:119 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 12:17:44.448 BaseClass:56 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 12:17:44.457 BaseClass:58 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 12:17:44.458 BaseClass:60 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 12:17:44.460 BaseClass:62 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 12:17:44.462 BaseClass:72 - Android Real device gets opened
+[DEBUG] 2023-06-18 12:18:01.386 BaseClass:105 - d5f82922-c56b-4695-9d0e-ebaa5f9e3a83
+[DEBUG] 2023-06-18 12:18:01.487 MyListeners:40 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 12:18:03.132 BaseClass:118 - Session gets closed
+[DEBUG] 2023-06-18 12:18:03.133 BaseClass:119 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 12:37:14.588 BaseClass:56 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 12:37:14.594 BaseClass:58 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 12:37:14.595 BaseClass:60 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 12:37:14.596 BaseClass:62 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 12:37:14.598 BaseClass:72 - Android Real device gets opened
+[DEBUG] 2023-06-18 12:37:31.374 BaseClass:105 - 91a482e0-0954-4cf7-8815-34a0afa1f0f6
+[DEBUG] 2023-06-18 12:37:31.442 MyListeners:40 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 12:37:32.951 BaseClass:118 - Session gets closed
+[DEBUG] 2023-06-18 12:37:32.953 BaseClass:119 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 12:48:16.701 BaseClass:56 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 12:48:16.705 BaseClass:58 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 12:48:16.705 BaseClass:60 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 12:48:16.706 BaseClass:62 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 12:48:16.706 BaseClass:72 - Android Real device gets opened
+[DEBUG] 2023-06-18 12:48:34.540 BaseClass:105 - 26b2514c-f90a-41e1-a24f-6ccc7ffc37a0
+[DEBUG] 2023-06-18 12:48:35.906 MyListeners:40 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 12:48:54.765 Generic:254 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 12:48:54.784 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 12:48:56.079 Generic:254 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 12:48:56.101 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 12:48:56.231 Generic:244 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 12:48:57.823 Generic:257 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2023-06-18 12:48:57.896 MyListeners:57 - [1;31m[sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source), sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source), java.lang.reflect.Constructor.newInstance(Unknown Source), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489), com.oneapp.utils.Generic.clickOnWebElement(Generic.java:175), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:51), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source), sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source), java.lang.reflect.Method.invoke(Unknown Source), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.util.ArrayList.forEach(Unknown Source), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-06-18 12:48:58.818 MyListeners:100 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__S_u_n_ _J_u_n_ _1_8_ _1_2___4_8___5_7_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-06-18 12:48:58.824 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-06-18 12:49:00.451 BaseClass:118 - Session gets closed
+[DEBUG] 2023-06-18 12:49:00.452 BaseClass:119 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 12:52:32.847 BaseClass:56 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 12:52:32.851 BaseClass:58 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 12:52:32.852 BaseClass:60 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 12:52:32.852 BaseClass:62 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 12:52:32.853 BaseClass:72 - Android Real device gets opened
+[DEBUG] 2023-06-18 12:52:49.375 BaseClass:105 - 81281625-55f1-4074-9813-e6e0c554d510
+[DEBUG] 2023-06-18 12:52:51.220 MyListeners:40 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 12:52:51.746 Generic:254 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 12:52:52.557 Generic:170 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 12:52:53.482 Generic:254 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 12:52:53.500 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 12:52:54.715 Generic:254 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 12:52:54.725 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 12:52:54.830 Generic:244 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 12:52:57.221 Generic:254 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 12:52:57.532 Generic:170 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 12:52:57.663 MyListeners:48 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-06-18 12:52:59.452 BaseClass:118 - Session gets closed
+[DEBUG] 2023-06-18 12:52:59.452 BaseClass:119 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 14:02:34.522 BaseClass:60 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 14:02:34.526 BaseClass:62 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 14:02:34.527 BaseClass:64 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 14:02:34.528 BaseClass:66 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 14:02:34.529 BaseClass:76 - Android Real device gets opened
+[DEBUG] 2023-06-18 14:02:51.245 BaseClass:109 - 3a6d416a-a2b6-4046-bbd8-7cf1fba11a84
+[DEBUG] 2023-06-18 14:02:52.917 MyListeners:40 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 14:02:53.683 Generic:254 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 14:02:53.984 Generic:170 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 14:02:54.921 Generic:254 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 14:02:54.942 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 14:02:55.793 Generic:254 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 14:02:55.811 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 14:02:55.934 Generic:244 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 14:02:59.037 Generic:254 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 14:02:59.369 Generic:170 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 14:02:59.529 MyListeners:48 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-06-18 14:03:01.407 BaseClass:122 - Session gets closed
+[DEBUG] 2023-06-18 14:03:01.408 BaseClass:123 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 16:09:58.672 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 16:09:58.678 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 16:09:58.679 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 16:09:58.680 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 16:09:58.681 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 16:10:16.660 BaseClass:120 - a6cfb9ea-0ae6-474e-843e-69266ba2ae29
+[DEBUG] 2023-06-18 16:10:18.510 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 16:10:19.086 Generic:261 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 16:10:20.009 Generic:170 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 16:10:21.775 Generic:261 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 16:10:21.820 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:10:23.036 Generic:261 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 16:10:23.075 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:10:23.750 Generic:244 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 16:10:26.148 Generic:261 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 16:10:26.560 Generic:170 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 16:10:28.691 Generic:264 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.clazz: android.widget.EditText' is not linked to the same object in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_371'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a6cfb9ea-0ae6-474e-843e-69266ba2ae29[0m
+[DEBUG] 2023-06-18 16:10:28.713 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:10:29.343 Generic:244 - Successfully enter value ----> [C@34cf294c
+[DEBUG] 2023-06-18 16:10:32.415 Generic:261 - Successfully Visibility  ----> [
+[DEBUG] 2023-06-18 16:10:32.430 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:10:32.562 Generic:244 - Successfully enter value ----> [C@573284a5
+[DEBUG] 2023-06-18 16:10:35.332 Generic:261 - Successfully Visibility  ----> [
+[DEBUG] 2023-06-18 16:10:35.385 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:10:35.573 Generic:244 - Successfully enter value ----> [C@3402b4c9
+[DEBUG] 2023-06-18 16:10:37.661 Generic:261 - Successfully Visibility  ----> [
+[DEBUG] 2023-06-18 16:10:37.681 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:10:38.440 Generic:244 - Successfully enter value ----> [C@73a19967
+[DEBUG] 2023-06-18 16:10:40.745 Generic:261 - Successfully Visibility  ----> [
+[DEBUG] 2023-06-18 16:10:40.781 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:10:41.445 Generic:244 - Successfully enter value ----> [C@2c6aed22
+[DEBUG] 2023-06-18 16:10:43.636 Generic:261 - Successfully Visibility  ----> [
+[DEBUG] 2023-06-18 16:10:43.660 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:10:44.348 Generic:244 - Successfully enter value ----> [C@35e8316e
+[DEBUG] 2023-06-18 16:10:46.710 Generic:261 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-06-18 16:10:47.824 Generic:170 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-06-18 16:10:48.018 MyListeners:48 - [1;32mTC102_INVALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2023-06-18 16:10:49.603 BaseClass:133 - Session gets closed
+[DEBUG] 2023-06-18 16:10:49.604 BaseClass:134 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 16:35:53.244 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 16:35:53.248 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 16:35:53.248 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 16:35:53.249 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 16:35:53.249 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 16:36:09.911 BaseClass:120 - 9eed12b5-a76b-4a04-b1cf-2d6081343cdf
+[DEBUG] 2023-06-18 16:36:11.801 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 16:36:12.375 Generic:263 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 16:36:13.309 Generic:170 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 16:36:14.372 Generic:263 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 16:36:14.410 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:36:16.056 Generic:263 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 16:36:16.092 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:36:16.293 Generic:251 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 16:36:19.029 Generic:263 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 16:36:19.537 Generic:170 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 16:36:22.709 Generic:263 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 16:36:22.752 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:36:23.762 MyListeners:57 - [1;31m[sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source), sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source), java.lang.reflect.Constructor.newInstance(Unknown Source), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489), com.oneapp.utils.Generic.sendKeysOnTextfields(Generic.java:233), com.oneapp.test_suits.OtpTestCases.TC102_InValidOtpTestcase(OtpTestCases.java:54), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source), sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source), java.lang.reflect.Method.invoke(Unknown Source), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.util.ArrayList.forEach(Unknown Source), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-06-18 16:36:24.184 MyListeners:100 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1Copy/screenshots/TC102_InValidOtpTestcase__S_u_n_ _J_u_n_ _1_8_ _1_6___3_6___2_3_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-06-18 16:36:24.195 MyListeners:73 - [1;31mTC102_INVALIDOTPTESTCASE - FAILURE[0m
+[DEBUG] 2023-06-18 16:36:25.739 BaseClass:133 - Session gets closed
+[DEBUG] 2023-06-18 16:36:25.741 BaseClass:134 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 16:38:40.269 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 16:38:40.276 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 16:38:40.277 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 16:38:40.277 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 16:38:40.278 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 16:38:57.072 BaseClass:120 - 4a965656-bc6a-4366-8d50-1861f09a3574
+[DEBUG] 2023-06-18 16:38:58.718 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 16:38:59.218 Generic:261 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 16:38:59.959 Generic:170 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 16:39:01.042 Generic:261 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 16:39:01.061 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:39:02.254 Generic:261 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 16:39:02.272 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:39:02.393 Generic:249 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 16:39:04.234 Generic:261 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 16:39:04.567 Generic:170 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 16:39:06.548 MyListeners:57 - [1;31m[sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source), sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source), java.lang.reflect.Constructor.newInstance(Unknown Source), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489), com.oneapp.test_suits.OtpTestCases.TC102_InValidOtpTestcase(OtpTestCases.java:53), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source), sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source), java.lang.reflect.Method.invoke(Unknown Source), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.util.ArrayList.forEach(Unknown Source), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-06-18 16:39:07.055 MyListeners:100 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1Copy/screenshots/TC102_InValidOtpTestcase__S_u_n_ _J_u_n_ _1_8_ _1_6___3_9___0_6_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-06-18 16:39:07.064 MyListeners:73 - [1;31mTC102_INVALIDOTPTESTCASE - FAILURE[0m
+[DEBUG] 2023-06-18 16:39:08.782 BaseClass:133 - Session gets closed
+[DEBUG] 2023-06-18 16:39:08.783 BaseClass:134 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 16:39:58.990 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 16:39:58.995 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 16:39:58.997 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 16:39:58.998 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 16:39:58.999 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 16:40:16.008 BaseClass:120 - ddea2f8c-6ec5-4145-8dfa-3cfbe72b7243
+[DEBUG] 2023-06-18 16:40:17.896 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 16:40:18.947 Generic:261 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 16:40:19.458 Generic:170 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 16:40:21.210 Generic:261 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 16:40:21.253 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:40:22.857 Generic:261 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 16:40:22.901 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:40:23.132 Generic:249 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 16:40:25.849 Generic:261 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 16:40:27.054 Generic:170 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 16:40:33.126 Generic:261 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-06-18 16:40:34.187 Generic:170 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-06-18 16:40:34.982 MyListeners:48 - [1;32mTC102_INVALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2023-06-18 16:40:36.489 BaseClass:133 - Session gets closed
+[DEBUG] 2023-06-18 16:40:36.490 BaseClass:134 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 16:41:34.279 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 16:41:34.283 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 16:41:34.284 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 16:41:34.284 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 16:41:34.284 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 16:41:51.286 BaseClass:120 - a974a187-b8a3-4d6d-9aaa-0442194600fd
+[DEBUG] 2023-06-18 16:41:53.185 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 16:41:53.724 Generic:261 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 16:41:54.736 Generic:170 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 16:41:56.402 Generic:261 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 16:41:56.462 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:41:57.668 Generic:261 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 16:41:57.704 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:41:58.408 Generic:249 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 16:42:01.325 Generic:261 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 16:42:01.769 Generic:170 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 16:42:05.561 Generic:261 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 16:42:05.592 Generic:185 - Successfully cleared textbox
+[DEBUG] 2023-06-18 16:42:06.339 Generic:249 - Successfully enter value ----> 123456
+[DEBUG] 2023-06-18 16:42:10.338 Generic:261 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-06-18 16:42:11.553 Generic:170 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-06-18 16:42:12.386 MyListeners:48 - [1;32mTC102_INVALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2023-06-18 16:42:14.049 BaseClass:133 - Session gets closed
+[DEBUG] 2023-06-18 16:42:14.050 BaseClass:134 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 17:07:38.537 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 17:07:38.545 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 17:07:38.546 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 17:07:38.546 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 17:07:38.548 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 17:07:57.032 BaseClass:120 - d69a3a3f-5f3e-4d84-bddc-439b67f1f426
+[DEBUG] 2023-06-18 17:07:58.889 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 17:08:00.030 Generic:262 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 17:08:01.048 Generic:171 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 17:08:02.128 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 17:08:02.143 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:08:03.188 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 17:08:03.230 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:08:03.997 Generic:250 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 17:08:06.346 Generic:262 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 17:08:06.821 Generic:171 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 17:08:10.003 Generic:262 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 17:08:10.022 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:08:10.144 Generic:250 - Successfully enter value ----> 123456
+[DEBUG] 2023-06-18 17:08:12.993 Generic:262 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-06-18 17:08:14.035 Generic:171 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-06-18 17:08:14.250 MyListeners:48 - [1;32mTC102_INVALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2023-06-18 17:08:15.943 BaseClass:133 - Session gets closed
+[DEBUG] 2023-06-18 17:08:15.945 BaseClass:134 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 17:09:03.296 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 17:09:03.300 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 17:09:03.301 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 17:09:03.301 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 17:09:03.303 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 17:09:20.401 BaseClass:120 - 96bfa678-bd62-477b-bc6b-85b94331e81b
+[DEBUG] 2023-06-18 17:09:22.221 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 17:09:22.771 Generic:262 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 17:09:23.639 Generic:171 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 17:09:24.666 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 17:09:24.682 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:09:26.406 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 17:09:26.443 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:09:26.618 Generic:250 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 17:09:28.449 Generic:262 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 17:09:29.504 Generic:171 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 17:09:32.533 Generic:262 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 17:09:32.607 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:09:32.772 Generic:250 - Successfully enter value ----> 1
+[DEBUG] 2023-06-18 17:09:35.610 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:09:35.660 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:09:36.429 Generic:250 - Successfully enter value ----> 12
+[DEBUG] 2023-06-18 17:09:39.338 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:09:39.378 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:09:39.585 Generic:250 - Successfully enter value ----> 123
+[DEBUG] 2023-06-18 17:09:41.634 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:09:41.654 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:09:41.780 Generic:250 - Successfully enter value ----> 1234
+[DEBUG] 2023-06-18 17:09:43.683 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:09:43.701 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:09:43.842 Generic:250 - Successfully enter value ----> 12345
+[DEBUG] 2023-06-18 17:09:45.711 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:09:45.758 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:09:46.537 Generic:250 - Successfully enter value ----> 123456
+[DEBUG] 2023-06-18 17:09:48.870 Generic:262 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-06-18 17:09:50.435 Generic:171 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-06-18 17:09:50.690 MyListeners:48 - [1;32mTC102_INVALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2023-06-18 17:09:52.385 BaseClass:133 - Session gets closed
+[DEBUG] 2023-06-18 17:09:52.387 BaseClass:134 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 17:23:47.442 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 17:23:47.449 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 17:23:47.450 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 17:23:47.451 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 17:23:47.451 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 17:24:04.331 BaseClass:120 - f1add746-2615-4877-a4fe-f217ec6334b4
+[DEBUG] 2023-06-18 17:24:06.154 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 17:24:06.666 Generic:262 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 17:24:07.559 Generic:171 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 17:24:08.608 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 17:24:08.637 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:24:10.341 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 17:24:10.364 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:24:10.564 Generic:250 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 17:24:12.365 Generic:262 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 17:24:13.438 Generic:171 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 17:24:16.433 Generic:262 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 17:24:16.464 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:24:16.576 Generic:250 - Successfully enter value ----> 
+[DEBUG] 2023-06-18 17:24:19.325 Generic:262 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 17:24:19.365 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:24:19.499 Generic:250 - Successfully enter value ----> 
+[DEBUG] 2023-06-18 17:24:21.626 Generic:262 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 17:24:21.659 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:24:22.364 Generic:250 - Successfully enter value ----> 
+[DEBUG] 2023-06-18 17:24:23.418 MyListeners:57 - [1;31m[java.lang.AbstractStringBuilder.charAt(Unknown Source), java.lang.StringBuilder.charAt(Unknown Source), com.oneapp.test_suits.OtpTestCases.TC102_InValidOtpTestcase(OtpTestCases.java:60), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source), sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source), java.lang.reflect.Method.invoke(Unknown Source), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.util.ArrayList.forEach(Unknown Source), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-06-18 17:24:23.988 MyListeners:100 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1Copy/screenshots/TC102_InValidOtpTestcase__S_u_n_ _J_u_n_ _1_8_ _1_7___2_4___2_3_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-06-18 17:24:24.000 MyListeners:73 - [1;31mTC102_INVALIDOTPTESTCASE - FAILURE[0m
+[DEBUG] 2023-06-18 17:24:25.646 BaseClass:133 - Session gets closed
+[DEBUG] 2023-06-18 17:24:25.646 BaseClass:134 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 17:25:43.653 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 17:25:43.657 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 17:25:43.658 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 17:25:43.659 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 17:25:43.659 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 17:26:00.186 BaseClass:120 - c6c68527-b51a-43ad-ad47-782fe5edf3a3
+[DEBUG] 2023-06-18 17:26:02.056 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 17:26:02.580 Generic:262 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 17:26:03.483 Generic:171 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 17:26:04.551 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 17:26:04.593 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:26:06.172 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 17:26:06.203 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:26:06.395 Generic:250 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 17:26:09.352 Generic:262 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 17:26:09.877 Generic:171 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 17:26:12.991 Generic:262 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 17:26:13.039 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:26:13.767 Generic:250 - Successfully enter value ----> 
+[DEBUG] 2023-06-18 17:26:17.763 Generic:262 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 17:26:17.802 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:26:17.982 Generic:250 - Successfully enter value ----> 
+[DEBUG] 2023-06-18 17:26:20.127 Generic:262 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 17:26:20.154 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:26:20.865 Generic:250 - Successfully enter value ----> 
+[DEBUG] 2023-06-18 17:26:23.151 Generic:262 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-06-18 17:26:24.188 Generic:171 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-06-18 17:26:24.936 MyListeners:48 - [1;32mTC102_INVALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2023-06-18 17:26:26.507 BaseClass:133 - Session gets closed
+[DEBUG] 2023-06-18 17:26:26.508 BaseClass:134 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-06-18 17:33:55.431 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 17:33:55.435 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 17:33:55.435 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 17:33:55.436 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 17:33:55.436 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 17:34:12.969 BaseClass:120 - 78ab3da6-4e42-49e7-bb03-73267b9bdff7
+[DEBUG] 2023-06-18 17:34:14.967 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 17:34:15.575 Generic:262 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 17:34:16.482 Generic:171 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 17:34:17.358 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 17:34:17.377 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:18.579 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 17:34:18.610 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:18.751 Generic:250 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 17:34:20.522 Generic:262 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 17:34:20.891 Generic:171 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 17:34:23.530 Generic:262 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 17:34:23.554 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:23.679 Generic:250 - Successfully enter value ----> 1
+[DEBUG] 2023-06-18 17:34:26.623 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:26.654 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:26.862 Generic:250 - Successfully enter value ----> 13
+[DEBUG] 2023-06-18 17:34:28.771 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:28.796 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:29.490 Generic:250 - Successfully enter value ----> 135
+[DEBUG] 2023-06-18 17:34:31.800 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:31.817 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:32.486 Generic:250 - Successfully enter value ----> 1351
+[DEBUG] 2023-06-18 17:34:34.815 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:34.832 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:35.506 Generic:250 - Successfully enter value ----> 13513
+[DEBUG] 2023-06-18 17:34:37.776 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:37.803 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:38.495 Generic:250 - Successfully enter value ----> 135133
+[DEBUG] 2023-06-18 17:34:40.741 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:40.757 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:40.879 Generic:250 - Successfully enter value ----> 1351331
+[DEBUG] 2023-06-18 17:34:42.345 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:42.359 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:42.487 Generic:250 - Successfully enter value ----> 13513315
+[DEBUG] 2023-06-18 17:34:43.934 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:43.950 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:44.067 Generic:250 - Successfully enter value ----> 135133151
+[DEBUG] 2023-06-18 17:34:45.549 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:45.569 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:45.695 Generic:250 - Successfully enter value ----> 1351331515
+[DEBUG] 2023-06-18 17:34:47.143 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:47.165 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:47.293 Generic:250 - Successfully enter value ----> 13513315153
+[DEBUG] 2023-06-18 17:34:48.761 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:48.784 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:48.896 Generic:250 - Successfully enter value ----> 135133151533
+[DEBUG] 2023-06-18 17:34:50.346 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 17:34:50.367 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 17:34:50.492 Generic:250 - Successfully enter value ----> 1351331515331
+[INFO ] 2023-06-18 18:06:21.873 BaseClass:71 - PLATFORM NAME IS --> Android
+[INFO ] 2023-06-18 18:06:21.877 BaseClass:73 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-06-18 18:06:21.877 BaseClass:75 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-06-18 18:06:21.878 BaseClass:77 - UDID IS --> RZCT904J89D
+[DEBUG] 2023-06-18 18:06:21.878 BaseClass:87 - Android Real device gets opened
+[DEBUG] 2023-06-18 18:06:38.813 BaseClass:120 - a8f458b9-d102-47f5-a865-33c711445c38
+[DEBUG] 2023-06-18 18:06:40.658 MyListeners:40 - [1;30mTC102_INVALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-06-18 18:06:41.188 Generic:262 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-06-18 18:06:42.032 Generic:171 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-06-18 18:06:43.022 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 18:06:43.035 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 18:06:44.348 Generic:262 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-06-18 18:06:44.384 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 18:06:44.580 Generic:250 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-06-18 18:06:46.881 Generic:262 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-06-18 18:06:47.901 Generic:171 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-06-18 18:06:50.869 Generic:262 - Successfully Visibility  ----> 
+[DEBUG] 2023-06-18 18:06:50.883 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 18:06:51.011 Generic:250 - Successfully enter value ----> 1
+[DEBUG] 2023-06-18 18:06:53.656 Generic:262 - Successfully Visibility  ----> 1
+[DEBUG] 2023-06-18 18:06:53.672 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 18:06:53.774 Generic:250 - Successfully enter value ----> 2
+[DEBUG] 2023-06-18 18:06:55.901 Generic:262 - Successfully Visibility  ----> 2
+[DEBUG] 2023-06-18 18:06:55.912 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 18:06:56.015 Generic:250 - Successfully enter value ----> 3
+[DEBUG] 2023-06-18 18:06:57.937 Generic:262 - Successfully Visibility  ----> 3
+[DEBUG] 2023-06-18 18:06:57.946 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 18:06:58.051 Generic:250 - Successfully enter value ----> 4
+[DEBUG] 2023-06-18 18:06:59.915 Generic:262 - Successfully Visibility  ----> 4
+[DEBUG] 2023-06-18 18:06:59.930 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 18:07:00.019 Generic:250 - Successfully enter value ----> 5
+[DEBUG] 2023-06-18 18:07:01.894 Generic:262 - Successfully Visibility  ----> 5
+[DEBUG] 2023-06-18 18:07:01.904 Generic:186 - Successfully cleared textbox
+[DEBUG] 2023-06-18 18:07:01.995 Generic:250 - Successfully enter value ----> 6
+[DEBUG] 2023-06-18 18:07:03.842 Generic:262 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-06-18 18:07:04.761 Generic:171 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-06-18 18:07:04.984 MyListeners:48 - [1;32mTC102_INVALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2023-06-18 18:07:06.651 BaseClass:133 - Session gets closed
+[DEBUG] 2023-06-18 18:07:06.652 BaseClass:134 - ++++++++++++++++++++++++++++++++

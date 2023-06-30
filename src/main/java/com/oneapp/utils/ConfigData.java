@@ -81,8 +81,8 @@ public class ConfigData {
 		return pro.getProperty("tipsPageTitleExpected");
 	}
 	
-	public String gettypeCareTextUnderDIYVideosExpected() {
-		return pro.getProperty("typeCareTextUnderDIYVideosExpected");
+	public String gettyreCareTextUnderDIYVideosExpected() {
+		return pro.getProperty("tyreCareTextUnderDIYVideosExpected");
 	}
 	
 	public String getVideoPlayerTextUnderTyrecareDIYVideosExpected() {

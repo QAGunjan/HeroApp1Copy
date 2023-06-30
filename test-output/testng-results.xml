@@ -1,120 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="7" passed="0" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-03T16:48:21 IST" name="RegressionSuite" finished-at="2023-06-03T16:52:54 IST" duration-ms="272847">
+  <suite name="RegressionSuite" duration-ms="129894" started-at="2023-06-30T12:40:38 IST" finished-at="2023-06-30T12:42:48 IST">
     <groups>
       <group name="Regression">
-        <method signature="Myprofile_testcases.validate_myprofile_with_valid_details_testcase()[pri:11, instance:com.oneapp.test_suits.Myprofile_testcases@560348e6]" name="validate_myprofile_with_valid_details_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="ReferToFriendTestCases.TC901_ValidateValidReferToFriend()[pri:800, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="TC901_ValidateValidReferToFriend" class="com.oneapp.test_suits.ReferToFriendTestCases"/>
+        <method signature="ReferToFriendTestCases.TC902_ValidateReferToYourSelfLink()[pri:801, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="TC902_ValidateReferToYourSelfLink" class="com.oneapp.test_suits.ReferToFriendTestCases"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="Myprofile_testcases.validate_myprofile_with_valid_details_testcase()[pri:11, instance:com.oneapp.test_suits.Myprofile_testcases@560348e6]" name="validate_myprofile_with_valid_details_testcase" class="com.oneapp.test_suits.Myprofile_testcases"/>
+        <method signature="ReferToFriendTestCases.TC901_ValidateValidReferToFriend()[pri:800, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="TC901_ValidateValidReferToFriend" class="com.oneapp.test_suits.ReferToFriendTestCases"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-06-03T16:48:21 IST" name="RegressionTests" finished-at="2023-06-03T16:52:54 IST" duration-ms="272847">
-      <class name="com.oneapp.test_suits.Myprofile_testcases">
-        <test-method is-config="true" signature="Browsers_open()[pri:0, instance:com.oneapp.test_suits.Myprofile_testcases@560348e6]" started-at="2023-06-03T16:48:21 IST" name="Browsers_open" finished-at="2023-06-03T16:48:41 IST" duration-ms="19850" status="PASS">
+    <test name="RegressionTests" duration-ms="129894" started-at="2023-06-30T12:40:38 IST" finished-at="2023-06-30T12:42:48 IST">
+      <class name="com.oneapp.test_suits.ReferToFriendTestCases">
+        <test-method status="PASS" signature="AppiumServerStarts()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="AppiumServerStarts" is-config="true" duration-ms="14378" started-at="2023-06-30T12:40:24 IST" finished-at="2023-06-30T12:40:38 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Browsers_open -->
-        <test-method signature="validate_myprofile_with_valid_details_testcase()[pri:11, instance:com.oneapp.test_suits.Myprofile_testcases@560348e6]" started-at="2023-06-03T16:48:41 IST" name="validate_myprofile_with_valid_details_testcase" finished-at="2023-06-03T16:52:52 IST" duration-ms="250959" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: io.appium.java_client.AppiumDriver
-Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 0adb99cd-2ac2-4974-bb77-c706df82be72
-*** Element info: {Using=id, value=com.customerapp.hero:id/btn_lbl}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-A2S9SMV', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: io.appium.java_client.AppiumDriver
-Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 0adb99cd-2ac2-4974-bb77-c706df82be72
-*** Element info: {Using=id, value=com.customerapp.hero:id/btn_lbl}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy28.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
-at com.oneapp.utils.Generic.clickOnWebElement(Generic.java:165)
-at com.oneapp.page_actions.Personal_Details_Page_Actions.enterfullNameAction(Personal_Details_Page_Actions.java:88)
-at com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase(Myprofile_testcases.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- AppiumServerStarts -->
+        <test-method status="PASS" signature="BrowserSetUp()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="BrowserSetUp" is-config="true" duration-ms="18014" started-at="2023-06-30T12:40:38 IST" finished-at="2023-06-30T12:40:56 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_myprofile_with_valid_details_testcase -->
-        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.Myprofile_testcases@560348e6]" started-at="2023-06-03T16:52:53 IST" name="Quit_session" finished-at="2023-06-03T16:52:54 IST" duration-ms="1496" status="PASS">
+        </test-method> <!-- BrowserSetUp -->
+        <test-method status="PASS" signature="PreConditions()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="PreConditions" is-config="true" duration-ms="1251" started-at="2023-06-30T12:40:56 IST" finished-at="2023-06-30T12:40:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreConditions -->
+        <test-method status="PASS" signature="TC901_ValidateValidReferToFriend()[pri:800, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="TC901_ValidateValidReferToFriend" duration-ms="86594" started-at="2023-06-30T12:40:58 IST" finished-at="2023-06-30T12:42:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC901_ValidateValidReferToFriend -->
+        <test-method status="PASS" signature="PreConditions()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="PreConditions" is-config="true" duration-ms="129" started-at="2023-06-30T12:42:24 IST" finished-at="2023-06-30T12:42:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreConditions -->
+        <test-method status="PASS" signature="TC902_ValidateReferToYourSelfLink()[pri:801, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="TC902_ValidateReferToYourSelfLink" duration-ms="22786" started-at="2023-06-30T12:42:25 IST" finished-at="2023-06-30T12:42:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC902_ValidateReferToYourSelfLink -->
+        <test-method status="PASS" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="Quit_session" is-config="true" duration-ms="976" started-at="2023-06-30T12:42:47 IST" finished-at="2023-06-30T12:42:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Quit_session -->
-      </class> <!-- com.oneapp.test_suits.Myprofile_testcases -->
+        <test-method status="PASS" signature="AppiumServiceStops()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="AppiumServiceStops" is-config="true" duration-ms="64" started-at="2023-06-30T12:42:49 IST" finished-at="2023-06-30T12:42:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumServiceStops -->
+      </class> <!-- com.oneapp.test_suits.ReferToFriendTestCases -->
     </test> <!-- RegressionTests -->
   </suite> <!-- RegressionSuite -->
 </testng-results>

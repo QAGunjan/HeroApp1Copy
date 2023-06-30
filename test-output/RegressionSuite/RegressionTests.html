@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>RegressionTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 03 16:48:21 IST 2023</td>
+<td>Started on:</td><td>Fri Jun 30 12:40:38 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>272 seconds (272847 ms)</td>
+<tr><td>Total time:</td><td>129 seconds (129894 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>Regression </td>
 </tr><tr>
@@ -67,135 +67,23 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase()'><b>validate_myprofile_with_valid_details_testcase</b><br>Test class: com.oneapp.test_suits.Myprofile_testcases</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-A2S9SMV&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: io.appium.java_client.AppiumDriver
-Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 0adb99cd-2ac2-4974-bb77-c706df82be72
-*** Element info: {Using=id, value=com.customerapp.hero:id/btn_lbl}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
-	at com.oneapp.utils.Generic.clickOnWebElement(Generic.java:165)
-	at com.oneapp.page_actions.Personal_Details_Page_Actions.enterfullNameAction(Personal_Details_Page_Actions.java:88)
-	at com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase(Myprofile_testcases.java:61)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1222908765", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1222908765'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-A2S9SMV&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: io.appium.java_client.AppiumDriver
-Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 0adb99cd-2ac2-4974-bb77-c706df82be72
-*** Element info: {Using=id, value=com.customerapp.hero:id/btn_lbl}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
-	at com.oneapp.utils.Generic.clickOnWebElement(Generic.java:165)
-	at com.oneapp.page_actions.Personal_Details_Page_Actions.enterfullNameAction(Personal_Details_Page_Actions.java:88)
-	at com.oneapp.test_suits.Myprofile_testcases.validate_myprofile_with_valid_details_testcase(Myprofile_testcases.java:61)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>250</td>
-<td>com.oneapp.test_suits.Myprofile_testcases@560348e6</td></tr>
+<td title='com.oneapp.test_suits.ReferToFriendTestCases.TC901_ValidateValidReferToFriend()'><b>TC901_ValidateValidReferToFriend</b><br>Test class: com.oneapp.test_suits.ReferToFriendTestCases</td>
+<td></td>
+<td>86</td>
+<td>com.oneapp.test_suits.ReferToFriendTestCases@69b2283a</td></tr>
+<tr>
+<td title='com.oneapp.test_suits.ReferToFriendTestCases.TC902_ValidateReferToYourSelfLink()'><b>TC902_ValidateReferToYourSelfLink</b><br>Test class: com.oneapp.test_suits.ReferToFriendTestCases</td>
+<td></td>
+<td>22</td>
+<td>com.oneapp.test_suits.ReferToFriendTestCases@69b2283a</td></tr>
 </table><p>
 </body>
 </html>
