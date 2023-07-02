@@ -202,3 +202,143 @@ Stopping the Appium Server.....
 ----------------------------------------
 Stopping the Appium Server.....
 2023-07-02 13:37:36.566
+[DEBUG] 2023-07-02 15:04:57.675 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:04:57.668
+--------------------------------------------------------------
+[INFO ] 2023-07-02 15:05:11.207 BaseClass:154 - PLATFORM NAME IS --> Android
+[INFO ] 2023-07-02 15:05:11.209 BaseClass:156 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-07-02 15:05:11.209 BaseClass:158 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-07-02 15:05:11.210 BaseClass:160 - UDID IS --> RZCT904J89D
+[INFO ] 2023-07-02 15:05:11.211 BaseClass:170 - Android Real device gets opened
+[DEBUG] 2023-07-02 15:06:13.834 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:06:13.827
+--------------------------------------------------------------
+[DEBUG] 2023-07-02 15:07:21.070 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:07:21.063
+--------------------------------------------------------------
+[DEBUG] 2023-07-02 15:08:59.337 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:08:59.332
+--------------------------------------------------------------
+[INFO ] 2023-07-02 15:09:12.482 BaseClass:154 - PLATFORM NAME IS --> Android
+[INFO ] 2023-07-02 15:09:12.483 BaseClass:156 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-07-02 15:09:12.483 BaseClass:158 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-07-02 15:09:12.484 BaseClass:160 - UDID IS --> RZCT904J89D
+[INFO ] 2023-07-02 15:09:12.485 BaseClass:170 - Android Real device gets opened
+[DEBUG] 2023-07-02 15:17:05.922 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:17:05.914
+--------------------------------------------------------------
+[INFO ] 2023-07-02 15:17:19.480 BaseClass:154 - PLATFORM NAME IS --> Android
+[INFO ] 2023-07-02 15:17:19.482 BaseClass:156 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-07-02 15:17:19.485 BaseClass:158 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-07-02 15:17:19.487 BaseClass:160 - UDID IS --> RZCT904J89D
+[INFO ] 2023-07-02 15:17:19.489 BaseClass:170 - Android Real device gets opened
+[DEBUG] 2023-07-02 15:18:59.506 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:18:59.499
+--------------------------------------------------------------
+[DEBUG] 2023-07-02 15:20:10.038 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:20:10.031
+--------------------------------------------------------------
+[INFO ] 2023-07-02 15:20:23.513 BaseClass:154 - PLATFORM NAME IS --> Android
+[INFO ] 2023-07-02 15:20:23.514 BaseClass:156 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-07-02 15:20:23.515 BaseClass:158 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-07-02 15:20:23.515 BaseClass:160 - UDID IS --> RZCT904J89D
+[INFO ] 2023-07-02 15:20:23.516 BaseClass:170 - Android Real device gets opened
+[DEBUG] 2023-07-02 15:22:52.696 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:22:52.689
+--------------------------------------------------------------
+[DEBUG] 2023-07-02 15:24:24.916 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:24:24.911
+--------------------------------------------------------------
+[INFO ] 2023-07-02 15:24:38.066 BaseClass:154 - PLATFORM NAME IS --> Android
+[INFO ] 2023-07-02 15:24:38.067 BaseClass:156 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-07-02 15:24:38.068 BaseClass:158 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-07-02 15:24:38.069 BaseClass:160 - UDID IS --> RZCT904J89D
+[INFO ] 2023-07-02 15:24:38.070 BaseClass:170 - Android Real device gets opened
+[DEBUG] 2023-07-02 15:29:16.259 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:29:16.251
+--------------------------------------------------------------
+[INFO ] 2023-07-02 15:29:29.434 BaseClass:154 - PLATFORM NAME IS --> Android
+[INFO ] 2023-07-02 15:29:29.437 BaseClass:156 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-07-02 15:29:29.439 BaseClass:158 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-07-02 15:29:29.441 BaseClass:160 - UDID IS --> RZCT904J89D
+[INFO ] 2023-07-02 15:29:29.443 BaseClass:170 - Android Real device gets opened
+[INFO ] 2023-07-02 15:33:55.893 BaseClass:154 - PLATFORM NAME IS --> Android
+[INFO ] 2023-07-02 15:33:55.896 BaseClass:156 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-07-02 15:33:55.897 BaseClass:158 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-07-02 15:33:55.898 BaseClass:160 - UDID IS --> RZCT904J89D
+[INFO ] 2023-07-02 15:33:55.898 BaseClass:170 - Android Real device gets opened
+[DEBUG] 2023-07-02 15:34:13.388 BaseClass:205 - d387fda3-fff6-45c2-94d1-4682b3b9ed66
+[DEBUG] 2023-07-02 15:34:14.984 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-07-02 15:34:15.544 Generic:212 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-07-02 15:34:15.708 Generic:169 - Successfully Displaying ----> Allow
+[DEBUG] 2023-07-02 15:34:16.695 Generic:212 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-07-02 15:34:17.003 Generic:135 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-07-02 15:34:18.702 Generic:212 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-07-02 15:34:18.717 Generic:148 - Successfully cleared textbox
+[DEBUG] 2023-07-02 15:34:19.688 Generic:212 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-07-02 15:34:19.712 Generic:148 - Successfully cleared textbox
+[DEBUG] 2023-07-02 15:34:19.844 Generic:201 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-07-02 15:34:22.547 Generic:212 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-07-02 15:34:23.014 Generic:135 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-07-02 15:34:24.828 Generic:212 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-07-02 15:34:24.978 MyListeners:56 - [1;31m[org.testng.Assert.fail(Assert.java:110), org.testng.Assert.failNotEquals(Assert.java:1413), org.testng.Assert.assertEqualsImpl(Assert.java:149), org.testng.Assert.assertEquals(Assert.java:131), org.testng.Assert.assertEquals(Assert.java:655), org.testng.Assert.assertEquals(Assert.java:665), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:31), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:566), org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135), org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673), org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220), org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50), org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945), org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193), org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1541), org.testng.TestRunner.privateRun(TestRunner.java:808), org.testng.TestRunner.run(TestRunner.java:603), org.testng.SuiteRunner.runTest(SuiteRunner.java:429), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423), org.testng.SuiteRunner.privateRun(SuiteRunner.java:383), org.testng.SuiteRunner.run(SuiteRunner.java:326), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95), org.testng.TestNG.runSuitesSequentially(TestNG.java:1249), org.testng.TestNG.runSuitesLocally(TestNG.java:1169), org.testng.TestNG.runSuites(TestNG.java:1092), org.testng.TestNG.run(TestNG.java:1060), org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308), org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71), org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113), org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385), org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162), org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507), org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)][0m
+[DEBUG] 2023-07-02 15:34:26.012 MyListeners:100 - [1;31mScreenshot stored at: D:\ECLIPSE_LATEST\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__S_u_n_ _J_u_l_ _0_2_ _1_5___3_4___2_4_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-07-02 15:34:26.016 MyListeners:72 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-07-02 15:34:27.120 BaseClass:218 - Session gets closed
+[DEBUG] 2023-07-02 15:34:27.121 BaseClass:219 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-07-02 15:35:31.619 BaseClass:228 - Starting the Appium Service....
+2023-07-02 15:35:31.612
+--------------------------------------------------------------
+[INFO ] 2023-07-02 15:35:45.085 BaseClass:154 - PLATFORM NAME IS --> Android
+[INFO ] 2023-07-02 15:35:45.086 BaseClass:156 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-07-02 15:35:45.087 BaseClass:158 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-07-02 15:35:45.088 BaseClass:160 - UDID IS --> RZCT904J89D
+[INFO ] 2023-07-02 15:35:45.089 BaseClass:170 - Android Real device gets opened
+[INFO ] 2023-07-02 15:37:59.686 BaseClass:154 - PLATFORM NAME IS --> Android
+[INFO ] 2023-07-02 15:37:59.692 BaseClass:156 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-07-02 15:37:59.693 BaseClass:158 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-07-02 15:37:59.694 BaseClass:160 - UDID IS --> RZCT904J89D
+[INFO ] 2023-07-02 15:37:59.695 BaseClass:170 - Android Real device gets opened
+[DEBUG] 2023-07-02 15:38:17.014 BaseClass:205 - d3dd61fc-ae2d-4a21-bea8-87f0c035e4da
+[DEBUG] 2023-07-02 15:38:18.458 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-07-02 15:38:19.107 Generic:212 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-07-02 15:38:19.238 Generic:169 - Successfully Displaying ----> Allow
+[DEBUG] 2023-07-02 15:38:20.277 Generic:212 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-07-02 15:38:20.721 Generic:135 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-07-02 15:38:22.417 Generic:212 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-07-02 15:38:22.440 Generic:148 - Successfully cleared textbox
+[DEBUG] 2023-07-02 15:38:23.464 Generic:212 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-07-02 15:38:23.497 Generic:148 - Successfully cleared textbox
+[DEBUG] 2023-07-02 15:38:24.201 Generic:201 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-07-02 15:38:26.403 Generic:212 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-07-02 15:38:26.820 Generic:135 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-07-02 15:38:29.951 Generic:212 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-07-02 15:38:30.973 Generic:212 - Successfully Visibility  ----> 
+[DEBUG] 2023-07-02 15:38:32.094 Generic:135 - Successfully Clicked  ----> 
+[DEBUG] 2023-07-02 15:38:32.277 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-07-02 15:38:33.333 BaseClass:218 - Session gets closed
+[DEBUG] 2023-07-02 15:38:33.334 BaseClass:219 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-07-02 15:38:49.316 BaseClass:154 - PLATFORM NAME IS --> Android
+[INFO ] 2023-07-02 15:38:49.321 BaseClass:156 - DEVICE NAME IS --> Samsung
+[INFO ] 2023-07-02 15:38:49.323 BaseClass:158 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-07-02 15:38:49.324 BaseClass:160 - UDID IS --> RZCT904J89D
+[INFO ] 2023-07-02 15:38:49.324 BaseClass:170 - Android Real device gets opened
+[DEBUG] 2023-07-02 15:39:03.736 BaseClass:205 - 5a0686e4-a93e-40dc-a8b0-73019a39baaa
+[DEBUG] 2023-07-02 15:39:05.296 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-07-02 15:39:05.816 Generic:212 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-07-02 15:39:05.923 Generic:169 - Successfully Displaying ----> Allow
+[DEBUG] 2023-07-02 15:39:06.802 Generic:212 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-07-02 15:39:07.276 Generic:135 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-07-02 15:39:08.900 Generic:212 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-07-02 15:39:08.934 Generic:148 - Successfully cleared textbox
+[DEBUG] 2023-07-02 15:39:09.921 Generic:212 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-07-02 15:39:09.941 Generic:148 - Successfully cleared textbox
+[DEBUG] 2023-07-02 15:39:10.070 Generic:201 - Successfully enter value ----> 9926438293
+[DEBUG] 2023-07-02 15:39:12.792 Generic:212 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-07-02 15:39:13.177 Generic:135 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-07-02 15:39:16.196 Generic:212 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-07-02 15:39:17.142 Generic:212 - Successfully Visibility  ----> 
+[DEBUG] 2023-07-02 15:39:17.438 Generic:135 - Successfully Clicked  ----> 
+[DEBUG] 2023-07-02 15:39:18.447 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-07-02 15:39:19.459 BaseClass:218 - Session gets closed
+[DEBUG] 2023-07-02 15:39:19.460 BaseClass:219 - ++++++++++++++++++++++++++++++++
