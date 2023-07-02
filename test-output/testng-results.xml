@@ -1,52 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="129894" started-at="2023-06-30T12:40:38 IST" finished-at="2023-06-30T12:42:48 IST">
+  <suite started-at="2023-07-02T13:37:02 IST" name="SmokeSuite" finished-at="2023-07-02T13:37:35 IST" duration-ms="33776">
     <groups>
       <group name="Regression">
-        <method signature="ReferToFriendTestCases.TC901_ValidateValidReferToFriend()[pri:800, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="TC901_ValidateValidReferToFriend" class="com.oneapp.test_suits.ReferToFriendTestCases"/>
-        <method signature="ReferToFriendTestCases.TC902_ValidateReferToYourSelfLink()[pri:801, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="TC902_ValidateReferToYourSelfLink" class="com.oneapp.test_suits.ReferToFriendTestCases"/>
+        <method signature="LoginTestCases.TC001_ValidLoginTestCase()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@44c73c26]" name="TC001_ValidLoginTestCase" class="com.oneapp.test_suits.LoginTestCases"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="ReferToFriendTestCases.TC901_ValidateValidReferToFriend()[pri:800, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="TC901_ValidateValidReferToFriend" class="com.oneapp.test_suits.ReferToFriendTestCases"/>
+        <method signature="LoginTestCases.TC001_ValidLoginTestCase()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@44c73c26]" name="TC001_ValidLoginTestCase" class="com.oneapp.test_suits.LoginTestCases"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="RegressionTests" duration-ms="129894" started-at="2023-06-30T12:40:38 IST" finished-at="2023-06-30T12:42:48 IST">
-      <class name="com.oneapp.test_suits.ReferToFriendTestCases">
-        <test-method status="PASS" signature="AppiumServerStarts()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="AppiumServerStarts" is-config="true" duration-ms="14378" started-at="2023-06-30T12:40:24 IST" finished-at="2023-06-30T12:40:38 IST">
+    <test started-at="2023-07-02T13:37:02 IST" name="SmokeTest" finished-at="2023-07-02T13:37:35 IST" duration-ms="33776">
+      <class name="com.oneapp.test_suits.LoginTestCases">
+        <test-method is-config="true" signature="AppiumServerStarts()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@44c73c26]" started-at="2023-07-02T13:36:47 IST" name="AppiumServerStarts" finished-at="2023-07-02T13:37:02 IST" duration-ms="14191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppiumServerStarts -->
-        <test-method status="PASS" signature="BrowserSetUp()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="BrowserSetUp" is-config="true" duration-ms="18014" started-at="2023-06-30T12:40:38 IST" finished-at="2023-06-30T12:40:56 IST">
+        <test-method is-config="true" signature="BrowserSetUp()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@44c73c26]" started-at="2023-07-02T13:37:02 IST" name="BrowserSetUp" finished-at="2023-07-02T13:37:20 IST" duration-ms="18662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetUp -->
-        <test-method status="PASS" signature="PreConditions()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="PreConditions" is-config="true" duration-ms="1251" started-at="2023-06-30T12:40:56 IST" finished-at="2023-06-30T12:40:58 IST">
+        <test-method is-config="true" signature="PreConditions()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@44c73c26]" started-at="2023-07-02T13:37:20 IST" name="PreConditions" finished-at="2023-07-02T13:37:22 IST" duration-ms="1985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreConditions -->
-        <test-method status="PASS" signature="TC901_ValidateValidReferToFriend()[pri:800, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="TC901_ValidateValidReferToFriend" duration-ms="86594" started-at="2023-06-30T12:40:58 IST" finished-at="2023-06-30T12:42:24 IST">
+        <test-method signature="TC001_ValidLoginTestCase()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@44c73c26]" started-at="2023-07-02T13:37:22 IST" name="TC001_ValidLoginTestCase" finished-at="2023-07-02T13:37:34 IST" duration-ms="11986" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC901_ValidateValidReferToFriend -->
-        <test-method status="PASS" signature="PreConditions()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="PreConditions" is-config="true" duration-ms="129" started-at="2023-06-30T12:42:24 IST" finished-at="2023-06-30T12:42:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PreConditions -->
-        <test-method status="PASS" signature="TC902_ValidateReferToYourSelfLink()[pri:801, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="TC902_ValidateReferToYourSelfLink" duration-ms="22786" started-at="2023-06-30T12:42:25 IST" finished-at="2023-06-30T12:42:47 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC902_ValidateReferToYourSelfLink -->
-        <test-method status="PASS" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="Quit_session" is-config="true" duration-ms="976" started-at="2023-06-30T12:42:47 IST" finished-at="2023-06-30T12:42:48 IST">
+        </test-method> <!-- TC001_ValidLoginTestCase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@44c73c26]" started-at="2023-07-02T13:37:34 IST" name="Quit_session" finished-at="2023-07-02T13:37:35 IST" duration-ms="1079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Quit_session -->
-        <test-method status="PASS" signature="AppiumServiceStops()[pri:0, instance:com.oneapp.test_suits.ReferToFriendTestCases@69b2283a]" name="AppiumServiceStops" is-config="true" duration-ms="64" started-at="2023-06-30T12:42:49 IST" finished-at="2023-06-30T12:42:49 IST">
+        <test-method is-config="true" signature="AppiumServiceStops()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@44c73c26]" started-at="2023-07-02T13:37:36 IST" name="AppiumServiceStops" finished-at="2023-07-02T13:37:36 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppiumServiceStops -->
-      </class> <!-- com.oneapp.test_suits.ReferToFriendTestCases -->
-    </test> <!-- RegressionTests -->
-  </suite> <!-- RegressionSuite -->
+      </class> <!-- com.oneapp.test_suits.LoginTestCases -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- SmokeSuite -->
 </testng-results>

@@ -11,7 +11,14 @@
 			</run>
 		</groups>
 		<classes>
+			<class name="com.oneapp.test_suits.OtpTestCases" />
+			<class name="com.oneapp.test_suits.DashboardTestCases" />
+			<class name="com.oneapp.test_suits.SOSTestCases" />
+			<class name="com.oneapp.test_suits.MyProfileTestCases" />
+			<class name="com.oneapp.test_suits.EmergencyContactTestCases" />
+			<class name="com.oneapp.test_suits.ContactUsTestCases" />
 			<class name="com.oneapp.test_suits.ReferToFriendTestCases" />
+			<class name="com.oneapp.test_suits.TipsAndDiyVideosTestCases" />
 		</classes>
 	</test> <!-- LoginTest -->
 </suite> <!-- SmokeSuite -->
