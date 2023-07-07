@@ -10,13 +10,16 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
-public class Menu_Bar_Page_Object extends BaseClass{
+public class Menu_Bar_Page_Object extends BaseClass {
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/rv_item_lbl")
 	private MobileElement myprofile_menu_bar_txt;
 
 	@AndroidFindBy(xpath = "//*[@text='Logout']")
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Logout\"]")
+
 	private MobileElement logout_menu_bar_txt;
 
 	@AndroidFindBy(xpath = "//*[@text='Contact Us']")
@@ -33,7 +36,7 @@ public class Menu_Bar_Page_Object extends BaseClass{
 
 	@AndroidFindBy(id = "//*[@text='Feedback']")
 	private MobileElement feedback_menu_bar_text;
-	
+
 	public MobileElement getMyprofile_menu_bar_txt() {
 		return myprofile_menu_bar_txt;
 	}
@@ -61,6 +64,5 @@ public class Menu_Bar_Page_Object extends BaseClass{
 	public MobileElement getFeedback_menu_bar_text() {
 		return feedback_menu_bar_text;
 	}
-	
 
 }

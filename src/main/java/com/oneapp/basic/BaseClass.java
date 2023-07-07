@@ -69,12 +69,21 @@ public class BaseClass {
 	public static ExtentTest extentTest;
 
 	// -------------------------- Desired capabilites -----------------------
-	public DesiredCapabilities dcap;
-	public String PLATFORM_NAME = "Android";
-	public String DEVICE_NAME = "Samsung";
-	public String AUTOMATION_NAME = "UiAutomator2";
-	public String UDID = "RZCT904J89D";
+//	public DesiredCapabilities dcap;
+//	public String PLATFORM_NAME = "Android";
+//	public String DEVICE_NAME = "Samsung";
+//	public String AUTOMATION_NAME = "UiAutomator2";
+//	public String UDID = "RZCT904J89D";
 	public int AndroidConnectionTimeout = 1200;
+	
+	// -------------------------- Desired capabilites -----------------------
+		public DesiredCapabilities dcap;
+		public String PLATFORM_NAME = "iOS";
+		public String AUTOMATION_NAME = "XCUITest";
+//		public String DEVICE_NAME = "iPhone 13";
+//		public String UDID = "00008110-001E24A20180401E";
+		public String DEVICE_NAME = "iPhone 14";
+		public String UDID = "B0CE327B-3A79-4C2B-A162-97D9C43A202C";
 
 	// -------------------- Page objects variables -----------------------------
 	public Login_Page_Object lpo;
@@ -146,7 +155,7 @@ public class BaseClass {
 
 			if (PLATFORM_NAME.equalsIgnoreCase("Android")) {
 
-				dcap = new DesiredCapabilities();
+				
 
 //		+++++++++++++++++++++++++ For Real device - Samsung ++++++++++++++++++++++++++++ 
 
@@ -181,6 +190,8 @@ public class BaseClass {
 
 			else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
 
+				dcap = new DesiredCapabilities(); 
+				
 				dcap.setCapability(MobileCapabilityType.PLATFORM_NAME, PLATFORM_NAME);
 				TestUtils.log().info("PLATFORM NAME IS --> " + PLATFORM_NAME);
 				dcap.setCapability(MobileCapabilityType.DEVICE_NAME, DEVICE_NAME);
@@ -189,12 +200,18 @@ public class BaseClass {
 				TestUtils.log().info("AUTOMATION NAME IS --> " + AUTOMATION_NAME);
 				dcap.setCapability(MobileCapabilityType.UDID, UDID);
 				TestUtils.log().info("UDID IS --> " + UDID);
+				
+				
+				dcap.setCapability("bundleId", "com.customerapp.hero");
 
+				dcap.setCapability("autoAcceptAlerts", "true");
 				TestUtils.log().debug("IOS Simulator gets opened");
+				dcap.setCapability("noReset", true);
 
-				URL url = new URL("http://0.0.0.0:4723/wd/hub");
+				URL url = new URL("http://127.0.0.1:4723");
 
 				ad = new IOSDriver(url, dcap);
+				ad.resetApp();
 			}
 
 //			URL url = new URL("http://0.0.0.0:4723/wd/hub");

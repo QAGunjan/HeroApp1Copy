@@ -21,10 +21,8 @@ import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
 public class Login_Page_Object extends BaseClass {
 
-
-
-
 	@AndroidFindBy(id = "com.customerapp.hero:id/text_input_editext")
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@name=\" Enter mobile number\"]")
 	private MobileElement mobile_num_field;
 
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
@@ -61,10 +59,5 @@ public class Login_Page_Object extends BaseClass {
 	public List<WebElement> getContact_us_link() {
 		return contact_us_link;
 	}
-
-	
-
-	
-	
 
 }

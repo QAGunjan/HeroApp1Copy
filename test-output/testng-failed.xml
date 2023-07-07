@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+<suite name="Failed suite [SmokeSuite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.oneapp.basic.MyListeners"/>
   </listeners>
-  <test thread-count="5" name="RegressionTests(failed)">
+  <test thread-count="5" name="SmokeTest(failed)">
     <groups>
       <run>
-        <include name="Regression"/>
+        <include name="Smoke"/>
       </run>
     </groups>
     <classes>
-      <class name="com.oneapp.test_suits.ReferToFriendTestCases">
+      <class name="com.oneapp.test_suits.OtpTestCases">
         <methods>
           <include name="Quit_session"/>
-          <include name="TC902_ValidateReferToYourSelfLink"/>
           <include name="BrowserSetUp"/>
-          <include name="AppiumServerStarts"/>
+          <include name="TC101_ValidOtpTestcase"/>
           <include name="PreConditions"/>
-          <include name="AppiumServiceStops"/>
         </methods>
-      </class> <!-- com.oneapp.test_suits.ReferToFriendTestCases -->
+      </class> <!-- com.oneapp.test_suits.OtpTestCases -->
     </classes>
-  </test> <!-- RegressionTests(failed) -->
-</suite> <!-- Failed suite [RegressionSuite] -->
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->
