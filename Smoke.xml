@@ -11,7 +11,10 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.oneapp.test_suits.LoginTestCases" />
+			<class name="com.oneapp.test_suits.OtpTestCases">
+			</class>
 		</classes>
-	</test> <!-- LoginTest -->
-</suite> <!-- SmokeSuite -->
+	</test> <!--
+	LoginTest -->
+</suite> <!--
+SmokeSuite -->

@@ -13,6 +13,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
 public class CommonElements_Page_object extends BaseClass {
 
@@ -35,10 +36,24 @@ public class CommonElements_Page_object extends BaseClass {
 	private MobileElement toast_message;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/lbl1")
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Login\"]")
+
 	private MobileElement herologo;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/btn_lbl")
 	private MobileElement button;
+
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Continue\"]")
+
+	private MobileElement continuebuttonIOS;
+
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Verify\"]")
+
+	private MobileElement verifybuttonIOS;
+
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Save\"]")
+
+	private MobileElement savebuttonIOS;
 
 	@AndroidFindBy(xpath = "//*[@text='Only this time']")
 	private MobileElement onlyThisTime_popup_samsung;
@@ -91,7 +106,20 @@ public class CommonElements_Page_object extends BaseClass {
 	}
 
 	public MobileElement getbutton() {
+
 		return button;
+	}
+
+	public MobileElement getContinuebuttonIOS() {
+		return continuebuttonIOS;
+	}
+
+	public MobileElement getVerifybuttonIOS() {
+		return verifybuttonIOS;
+	}
+
+	public MobileElement getsavebuttonIOS() {
+		return savebuttonIOS;
 	}
 
 	public MobileElement getOnlyThisTime_popup_samsung() {

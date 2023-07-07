@@ -28,9 +28,13 @@ public class DashboardTestCases extends BaseClass {
 //			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 //		}
 
-		generic.clearOnTexBox(lpo.getMobile_num_field());
 		generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
-		generic.clickOnWebElement(cepo.getbutton());
+
+		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
+			generic.clickOnWebElement(cepo.getbutton());
+		} else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
+			generic.clickOnWebElement(cepo.getContinuebuttonIOS());
+		}
 
 		generic.waitForVisibility(opo.getVerify_with_OTP());
 
@@ -43,29 +47,43 @@ public class DashboardTestCases extends BaseClass {
 		opo.getFifthtxtbox().sendKeys("5");
 		opo.getSixthtxtbox().sendKeys("6");
 
-		generic.clickOnWebElement(cepo.getbutton());
-
-		if (generic.elementDisplaying(svpo.getbook_service_PAID_vin())) {
-			generic.clickOnWebElement(svpo.getbook_service_PAID_vin());
-			TestUtils.log().debug("Book service PAID vin selected");
+		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
 			generic.clickOnWebElement(cepo.getbutton());
+
+			if (generic.elementDisplaying(svpo.getbook_service_PAID_vin())) {
+				generic.clickOnWebElement(svpo.getbook_service_PAID_vin());
+				TestUtils.log().debug("Book service PAID vin selected");
+				generic.clickOnWebElement(cepo.getbutton());
+
+				try {
+					if (generic.elementDisplaying(dpo.getDevice_location_popup_samsung())) {
+						generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
+						Thread.sleep(5000);
+					}
+				} catch (Exception e) {
+					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+				}
+
+			}
 		}
 
-//		try {
-//			if (generic.elementDisplaying(dpo.getDevice_location_popup_samsung())) {
-//				generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
-//				Thread.sleep(5000);
-//			}
-//		} catch (Exception e) {
-//			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-//		}
+		else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
+			generic.clickOnWebElement(cepo.getVerifybuttonIOS());
 
+			if (generic.elementDisplaying(svpo.getbook_service_PAID_vin())) {
+				generic.clickOnWebElement(svpo.getbook_service_PAID_vin());
+				generic.clickOnWebElement(cepo.getsavebuttonIOS());
+				TestUtils.log().debug("Book service PAID vin selected");
+				generic.clickOnWebElement(cepo.getContinuebuttonIOS());
+			}
+		}
 		try {
 
 			if (generic.elementDisplaying(dpo.getDashboardVideo())) {
 				TestUtils.log().debug("Dashboard video is present");
 				generic.clickOnWebElement(dpo.getDashboardVideoCloseIcon());
 			}
+		
 		} catch (Exception e) {
 			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 
@@ -76,6 +94,7 @@ public class DashboardTestCases extends BaseClass {
 		
 		sa.assertAll();
 	}
+	
 
 	@Test(priority = 201, groups = { "Smoke", "Regression" })
 	public void TC602_ValidateRelationShipManager() throws InterruptedException {

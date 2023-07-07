@@ -14,6 +14,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
 public class Selected_Vehicle_Page_Object extends BaseClass {
 
@@ -27,6 +28,8 @@ public class Selected_Vehicle_Page_Object extends BaseClass {
 	private MobileElement goodlife_membership_vin;
 
 	@AndroidFindBy(xpath = "//*[@text='book service paid']")
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"book service paid\"]")
+
 	private MobileElement book_service_PAID_vin;
 
 	@FindAll({
@@ -37,6 +40,8 @@ public class Selected_Vehicle_Page_Object extends BaseClass {
 	@AndroidFindBy(id = "com.customerapp.hero:id/normal_text_input_layout")
 	private MobileElement NickName_TextField;
 
+	
+	
 	public MobileElement getMakeprimary() {
 		return makeprimary;
 	}

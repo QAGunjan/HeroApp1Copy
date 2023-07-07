@@ -10,6 +10,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
 public class OTP_Page_Object extends BaseClass {
 
@@ -17,30 +18,45 @@ public class OTP_Page_Object extends BaseClass {
 	private MobileElement textboxes;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/otp_one_edtxt")
+	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[1]")
 	private MobileElement firsttxtbox;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/otp_two_edtxt")
+	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[2]")
 	private MobileElement secondtxtbox;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/otp_three_edtxt")
+	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[3]")
+
 	private MobileElement thirdtxtbox;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/otp_four_edtxt")
+	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[4]")
+
 	private MobileElement fourthtxtbox;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/otp_5_edtxt")
+	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[5]")
+
 	private MobileElement fifthtxtbox;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/otp_6_edtxt")
+	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[6]")
+
 	private MobileElement sixthtxtbox;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/edit_phn_no_btn")
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"editredcircle\"]")
+
 	private MobileElement edit_button;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/resend_btn_lbl")
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Resend\"]")
+
 	private MobileElement resend_link;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/lbl2")
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Verify with OTP\"]")
 	private MobileElement verify_with_OTP;
 
 	public MobileElement getFirsttxtbox() {
@@ -83,5 +99,4 @@ public class OTP_Page_Object extends BaseClass {
 		return textboxes;
 	}
 
-	
 }

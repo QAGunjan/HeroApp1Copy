@@ -14,6 +14,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
 public class Dashboard_Page_object extends BaseClass {
 
@@ -71,6 +72,8 @@ public class Dashboard_Page_object extends BaseClass {
 	// *[@text='Allow Hero App to access this device’s location?']
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/side_menu_btn")
+	@iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"menu\"]")
+
 	private MobileElement menu_bar_icon;
 
 	@AndroidFindBy(xpath = "//*[@text='Services']")
@@ -95,10 +98,9 @@ public class Dashboard_Page_object extends BaseClass {
 //		@FindBy(id = "com.customerapp.hero:id/exo_controls_background")
 	private MobileElement dashboardVideo;
 
-	
-	@AndroidFindBy(id ="com.customerapp.hero:id/iv_close")  	
+	@AndroidFindBy(id = "com.customerapp.hero:id/iv_close")
 	private MobileElement dashboardVideoCloseIcon;
-	
+
 	public MobileElement getLocation_popup() {
 		return Location_popup;
 	}
@@ -190,6 +192,5 @@ public class Dashboard_Page_object extends BaseClass {
 	public MobileElement getDashboardVideoCloseIcon() {
 		return dashboardVideoCloseIcon;
 	}
-
 
 }
