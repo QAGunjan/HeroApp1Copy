@@ -69,21 +69,21 @@ public class BaseClass {
 	public static ExtentTest extentTest;
 
 	// -------------------------- Desired capabilites -----------------------
-//	public DesiredCapabilities dcap;
-//	public String PLATFORM_NAME = "Android";
-//	public String DEVICE_NAME = "Samsung";
-//	public String AUTOMATION_NAME = "UiAutomator2";
-//	public String UDID = "RZCT904J89D";
+	public DesiredCapabilities dcap;
+	public String PLATFORM_NAME = "Android";
+	public String DEVICE_NAME = "Samsung";
+	public String AUTOMATION_NAME = "UiAutomator2";
+	public String UDID = "RZCT904J89D";
 	public int AndroidConnectionTimeout = 1200;
 	
 	// -------------------------- Desired capabilites -----------------------
-		public DesiredCapabilities dcap;
-		public String PLATFORM_NAME = "iOS";
-		public String AUTOMATION_NAME = "XCUITest";
+		// public DesiredCapabilities dcap;
+		// public String PLATFORM_NAME = "iOS";
+		// public String AUTOMATION_NAME = "XCUITest";
 //		public String DEVICE_NAME = "iPhone 13";
 //		public String UDID = "00008110-001E24A20180401E";
-		public String DEVICE_NAME = "iPhone 14";
-		public String UDID = "B0CE327B-3A79-4C2B-A162-97D9C43A202C";
+		// public String DEVICE_NAME = "iPhone 14";
+		// public String UDID = "B0CE327B-3A79-4C2B-A162-97D9C43A202C";
 
 	// -------------------- Page objects variables -----------------------------
 	public Login_Page_Object lpo;
@@ -155,7 +155,7 @@ public class BaseClass {
 
 			if (PLATFORM_NAME.equalsIgnoreCase("Android")) {
 
-				
+				dcap = new DesiredCapabilities(); 
 
 //		+++++++++++++++++++++++++ For Real device - Samsung ++++++++++++++++++++++++++++ 
 
