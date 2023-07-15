@@ -236,27 +236,27 @@ public class BaseClass {
 		TestUtils.log().debug("++++++++++++++++++++++++++++++++");
 	}
 
-	@BeforeSuite(alwaysRun = true)
-	public void AppiumServerStarts() throws InterruptedException {
-		service = AppiumDriverLocalService
-				.buildService(new AppiumServiceBuilder().usingDriverExecutable(new File(NodePath))
-						.withAppiumJS(new File(appiummainJSPath)).withIPAddress("0.0.0.0").usingPort(4723));
+	// @BeforeSuite(alwaysRun = true)
+	// public void AppiumServerStarts() throws InterruptedException {
+	// 	service = AppiumDriverLocalService
+	// 			.buildService(new AppiumServiceBuilder().usingDriverExecutable(new File(NodePath))
+	// 					.withAppiumJS(new File(appiummainJSPath)).withIPAddress("0.0.0.0").usingPort(4723));
 
-		TestUtils.log().debug("Starting the Appium Service...." + "\n" + df.format(new Date())
-				+ "\n--------------------------------------------------------------");
-		service.start();
-		service.clearOutPutStreams();
-		Thread.sleep(10000);
-	}
+	// 	TestUtils.log().debug("Starting the Appium Service...." + "\n" + df.format(new Date())
+	// 			+ "\n--------------------------------------------------------------");
+	// 	service.start();
+	// 	service.clearOutPutStreams();
+	// 	Thread.sleep(10000);
+	// }
 
-	@AfterSuite(alwaysRun = true)
-	public void AppiumServiceStops() {
-		if (service.isRunning() == true) {
-			service.stop();
+	// @AfterSuite(alwaysRun = true)
+	// public void AppiumServiceStops() {
+	// 	if (service.isRunning() == true) {
+	// 		service.stop();
 
-			TestUtils.log().debug("\n----------------------------------------" + "\nStopping the Appium Server....."
-					+ "\n" + df.format(new Date()));
-		}
-	}
+	// 		TestUtils.log().debug("\n----------------------------------------" + "\nStopping the Appium Server....."
+	// 				+ "\n" + df.format(new Date()));
+	// 	}
+	// }
 
 }
