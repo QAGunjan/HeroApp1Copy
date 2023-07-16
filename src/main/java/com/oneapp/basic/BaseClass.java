@@ -251,8 +251,9 @@ public class BaseClass {
 		TestUtils.log().debug("Starting the Appium Service...." + "\n" + df.format(new Date())
 				+ "\n--------------------------------------------------------------");
 		service.start();
+		Thread.sleep(6000);
 		service.clearOutPutStreams();
-		Thread.sleep(10000);
+		Thread.sleep(6000);
 	}
 	
 
