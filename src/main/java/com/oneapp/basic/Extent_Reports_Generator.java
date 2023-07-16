@@ -39,7 +39,8 @@ public class Extent_Reports_Generator {
 	 public static String getReportName()
 	 {
 		 Date d= new Date();
-		 String fileName = "AutomationReport_" + "_"+ d.toString().replace(":", "_").replace("", "_") + ".html";
+	//	 String fileName = "AutomationReport_" + "_"+ d.toString().replace(":", "_").replace("", "_") + ".html";
+		  String fileName = "index.html";
 
 		 return fileName;
 	 }
