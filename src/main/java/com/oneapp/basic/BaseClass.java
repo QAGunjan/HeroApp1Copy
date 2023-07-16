@@ -56,12 +56,14 @@ import com.oneapp.utils.TestUtils;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
+import io.appium.java_client.service.local.flags.GeneralServerFlag;
 
 public class BaseClass {
 
 	// -------------------- Appium Server Details ----------------------------
 	public static String NodePath = "C:\\Program Files\\nodejs\\node.exe";
-	public String appiummainJSPath = "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
+	public static String appiummainJSPath = "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
+	public static String ServerAddress="0.0.0.0";
 	public AppiumDriverLocalService service;
 	public SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 
@@ -69,21 +71,23 @@ public class BaseClass {
 	public static ExtentTest extentTest;
 
 	// -------------------------- Desired capabilites -----------------------
-//	public DesiredCapabilities dcap;
-//	public String PLATFORM_NAME = "Android";
-//	public String DEVICE_NAME = "Samsung";
-//	public String AUTOMATION_NAME = "UiAutomator2";
-//	public String UDID = "RZCT904J89D";
+	public DesiredCapabilities dcap;
+	public String PLATFORM_NAME = "Android";
+	public String DEVICE_NAME = "Samsung";
+	public String AUTOMATION_NAME = "UiAutomator2";
+	public String UDID = "RZCT904J89D";
 	public int AndroidConnectionTimeout = 1200;
-	
-	// -------------------------- Desired capabilites -----------------------
-		public DesiredCapabilities dcap;
-		public String PLATFORM_NAME = "iOS";
-		public String AUTOMATION_NAME = "XCUITest";
+
+	// -------------------------- IOS Desired capabilites -----------------------
+//		public DesiredCapabilities dcap;
+//		public String PLATFORM_NAME = "iOS";
+//		public String AUTOMATION_NAME = "XCUITest";
+//		public String DEVICE_NAME = "iPhone 14";
+//		public String UDID = "B0CE327B-3A79-4C2B-A162-97D9C43A202C";
+
+	// --------- Real Device info -----
 //		public String DEVICE_NAME = "iPhone 13";
 //		public String UDID = "00008110-001E24A20180401E";
-		public String DEVICE_NAME = "iPhone 14";
-		public String UDID = "B0CE327B-3A79-4C2B-A162-97D9C43A202C";
 
 	// -------------------- Page objects variables -----------------------------
 	public Login_Page_Object lpo;
@@ -155,10 +159,9 @@ public class BaseClass {
 
 			if (PLATFORM_NAME.equalsIgnoreCase("Android")) {
 
-				
-
 //		+++++++++++++++++++++++++ For Real device - Samsung ++++++++++++++++++++++++++++ 
-
+				dcap = new DesiredCapabilities();
+				
 				dcap.setCapability(MobileCapabilityType.PLATFORM_NAME, PLATFORM_NAME);
 				TestUtils.log().info("PLATFORM NAME IS --> " + PLATFORM_NAME);
 				dcap.setCapability(MobileCapabilityType.DEVICE_NAME, DEVICE_NAME);
@@ -184,14 +187,14 @@ public class BaseClass {
 
 				// AndroidDriver ad= new AndroidDriver(url, dcap);
 				ad = new AndroidDriver(url, dcap);
-				ad.resetApp();
+//				ad.resetApp();
 
 			}
 
 			else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
 
-				dcap = new DesiredCapabilities(); 
-				
+				dcap = new DesiredCapabilities();
+
 				dcap.setCapability(MobileCapabilityType.PLATFORM_NAME, PLATFORM_NAME);
 				TestUtils.log().info("PLATFORM NAME IS --> " + PLATFORM_NAME);
 				dcap.setCapability(MobileCapabilityType.DEVICE_NAME, DEVICE_NAME);
@@ -200,8 +203,7 @@ public class BaseClass {
 				TestUtils.log().info("AUTOMATION NAME IS --> " + AUTOMATION_NAME);
 				dcap.setCapability(MobileCapabilityType.UDID, UDID);
 				TestUtils.log().info("UDID IS --> " + UDID);
-				
-				
+
 				dcap.setCapability("bundleId", "com.customerapp.hero");
 
 				dcap.setCapability("autoAcceptAlerts", "true");
@@ -236,27 +238,32 @@ public class BaseClass {
 		TestUtils.log().debug("++++++++++++++++++++++++++++++++");
 	}
 
-//	@BeforeSuite(alwaysRun = true)
-//	public void AppiumServerStarts() throws InterruptedException {
-//		service = AppiumDriverLocalService
-//				.buildService(new AppiumServiceBuilder().usingDriverExecutable(new File(NodePath))
-//						.withAppiumJS(new File(appiummainJSPath)).withIPAddress("0.0.0.0").usingPort(4723));
-//
-//		TestUtils.log().debug("Starting the Appium Service...." + "\n" + df.format(new Date())
-//				+ "\n--------------------------------------------------------------");
-//		service.start();
-//		service.clearOutPutStreams();
-//		Thread.sleep(10000);
-//	}
-//
-//	@AfterSuite(alwaysRun = true)
-//	public void AppiumServiceStops() {
-//		if (service.isRunning() == true) {
-//			service.stop();
-//
-//			TestUtils.log().debug("\n----------------------------------------" + "\nStopping the Appium Server....."
-//					+ "\n" + df.format(new Date()));
-//		}
-//	}
+	@BeforeSuite(alwaysRun = true)
+	public void AppiumServerStarts() throws InterruptedException {
+		
+		
+		service = AppiumDriverLocalService
+				.buildService(new AppiumServiceBuilder().usingDriverExecutable(new File(NodePath))
+						.withAppiumJS(new File(appiummainJSPath)).withIPAddress(ServerAddress).withArgument(GeneralServerFlag.BASEPATH, "/wd/hub").usingPort(4723));
+
+		TestUtils.log().debug("Starting the Appium Service...." + "\n" + df.format(new Date())
+				+ "\n--------------------------------------------------------------");
+		service.start();
+		service.clearOutPutStreams();
+		Thread.sleep(10000);
+	}
+	
+
+	@AfterSuite(alwaysRun = true)
+	public void AppiumServiceStops() {
+		
+		if (service.isRunning() == true) {
+			service.stop();
+
+			TestUtils.log().debug("\n----------------------------------------" + "\nStopping the Appium Server....."
+					+ "\n" + df.format(new Date()));
+		
+		}
+	}
 
 }
