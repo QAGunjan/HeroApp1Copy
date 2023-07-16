@@ -159,6 +159,7 @@ public class BaseClass {
 
 			if (PLATFORM_NAME.equalsIgnoreCase("Android")) {
 
+
 //		+++++++++++++++++++++++++ For Real device - Samsung ++++++++++++++++++++++++++++ 
 				dcap = new DesiredCapabilities();
 				
@@ -238,6 +239,7 @@ public class BaseClass {
 		TestUtils.log().debug("++++++++++++++++++++++++++++++++");
 	}
 
+
 	@BeforeSuite(alwaysRun = true)
 	public void AppiumServerStarts() throws InterruptedException {
 		
@@ -267,3 +269,4 @@ public class BaseClass {
 	}
 
 }
+
