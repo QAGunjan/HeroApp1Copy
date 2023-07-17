@@ -11,9 +11,9 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.oneapp.test_suits.OtpTestCases">
+			<class name="com.oneapp.test_suits.LoginTestCases">
 				<methods>
-					<include name="TC101_ValidOtpTestcase"></include>
+					<include name="TC001_ValidLoginTestCase"></include>
 				</methods>
 			</class>
 		</classes>
