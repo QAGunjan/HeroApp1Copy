@@ -21,7 +21,7 @@ public class Extent_Reports_Generator {
 		
 //		String directory= "C:\\Users\\Lenovo\\.jenkins\\workspace\\Smoke_Suite\\Reports\\index.html ";
 //        String directory = "C:\\Users\\Lenovo\\.jenkins\\workspace\\SmokeSuiteTestCases\\Reports\\index.html";
-  String directory  ="C:\Users\Lenovo\.jenkins\workspace\SmokeSuiteTestCases\Reports";
+  String directory  ="C:/Users/Lenovo/.jenkins/workspace/SmokeSuiteTestCases/Reports/index.html";
 		//                String path= directory + fileName;
 		
 		String path= directory;
