@@ -12,6 +12,9 @@
 		</groups>
 		<classes>
 			<class name="com.oneapp.test_suits.OtpTestCases">
+				<methods>
+					<include name="TC101_ValidOtpTestcase"></include>
+				</methods>
 			</class>
 		</classes>
 	</test> <!-- LoginTest -->
