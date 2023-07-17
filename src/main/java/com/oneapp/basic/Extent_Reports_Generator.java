@@ -16,7 +16,7 @@ public class Extent_Reports_Generator {
 	public static ExtentReports getreports() {
 		String fileName = getReportName();
 		
-			String directory= "D:\\ECLIPSE_LATEST\\HeroApp1Copy\\Reports";
+			String directory= "D:/ECLIPSE_LATEST/HeroApp1Copy/Reports/index.html";
 //		String directory="./Reports/index.html";
 		
 //		String directory= "C:\\Users\\Lenovo\\.jenkins\\workspace\\Smoke_Suite\\Reports\\index.html ";
