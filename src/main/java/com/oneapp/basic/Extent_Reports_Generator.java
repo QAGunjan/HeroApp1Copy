@@ -16,12 +16,15 @@ public class Extent_Reports_Generator {
 	public static ExtentReports getreports() {
 		String fileName = getReportName();
 		
-		String directory= "D:\\ECLIPSE_LATEST\\HeroApp1Copy\\Reports";
+		//	String directory= "D:/ECLIPSE_LATEST/HeroApp1Copy/Reports/index.html";
 //		String directory="./Reports/index.html";
 		
 //		String directory= "C:\\Users\\Lenovo\\.jenkins\\workspace\\Smoke_Suite\\Reports\\index.html ";
 //        String directory = "C:\\Users\\Lenovo\\.jenkins\\workspace\\SmokeSuiteTestCases\\Reports\\index.html";
-		String path= directory + fileName;
+  String directory  ="C:/Users/Lenovo/.jenkins/workspace/SmokeSuiteTestCases/Reports/index.html";
+		//                String path= directory + fileName;
+		
+		String path= directory;
 		report = new ExtentHtmlReporter(path);
 		
 		report.config().setDocumentTitle("HeroApp-Automation Test Report");
@@ -40,6 +43,7 @@ public class Extent_Reports_Generator {
 	 {
 		 Date d= new Date();
 		 String fileName = "AutomationReport_" + "_"+ d.toString().replace(":", "_").replace("", "_") + ".html";
+		  
 
 		 return fileName;
 	 }
