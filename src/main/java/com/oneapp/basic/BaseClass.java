@@ -63,7 +63,7 @@ public class BaseClass {
 	// -------------------- Appium Server Details ----------------------------
 	public static String NodePath = "C:\\Program Files\\nodejs\\node.exe";
 	public static String appiummainJSPath = "C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
-	public static String ServerAddress="0.0.0.0";
+	public static String ServerAddress = "0.0.0.0";
 	public AppiumDriverLocalService service;
 	public SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 
@@ -159,10 +159,9 @@ public class BaseClass {
 
 			if (PLATFORM_NAME.equalsIgnoreCase("Android")) {
 
-
 //		+++++++++++++++++++++++++ For Real device - Samsung ++++++++++++++++++++++++++++ 
 				dcap = new DesiredCapabilities();
-				
+
 				dcap.setCapability(MobileCapabilityType.PLATFORM_NAME, PLATFORM_NAME);
 				TestUtils.log().info("PLATFORM NAME IS --> " + PLATFORM_NAME);
 				dcap.setCapability(MobileCapabilityType.DEVICE_NAME, DEVICE_NAME);
@@ -239,35 +238,32 @@ public class BaseClass {
 		TestUtils.log().debug("++++++++++++++++++++++++++++++++");
 	}
 
-
 	@BeforeSuite(alwaysRun = true)
 	public void AppiumServerStarts() throws InterruptedException {
-		
-		
-		service = AppiumDriverLocalService
-				.buildService(new AppiumServiceBuilder().usingDriverExecutable(new File(NodePath))
-						.withAppiumJS(new File(appiummainJSPath)).withIPAddress(ServerAddress).withArgument(GeneralServerFlag.BASEPATH, "/wd/hub").usingPort(4723));
+
+		service = AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
+				.usingDriverExecutable(new File(NodePath)).withAppiumJS(new File(appiummainJSPath))
+				.withIPAddress(ServerAddress).withArgument(GeneralServerFlag.BASEPATH, "/wd/hub").usingPort(4723));
 
 		TestUtils.log().debug("Starting the Appium Service...." + "\n" + df.format(new Date())
 				+ "\n--------------------------------------------------------------");
 		service.start();
-		Thread.sleep(6000);
+		Thread.sleep(5000);
 		service.clearOutPutStreams();
-		Thread.sleep(6000);
+		Thread.sleep(5000);
+
 	}
-	
 
 	@AfterSuite(alwaysRun = true)
 	public void AppiumServiceStops() {
-		
+
 		if (service.isRunning() == true) {
 			service.stop();
 
 			TestUtils.log().debug("\n----------------------------------------" + "\nStopping the Appium Server....."
 					+ "\n" + df.format(new Date()));
-		
+
 		}
 	}
 
 }
-
