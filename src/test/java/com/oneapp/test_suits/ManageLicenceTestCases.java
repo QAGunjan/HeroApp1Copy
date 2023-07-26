@@ -100,6 +100,9 @@ public class ManageLicenceTestCases extends BaseClass {
 
 		generic.waitForVisibility(cepo.getToast_message());
 		Assert.assertEquals(cepo.getToast_message(), "Download start");
+		Thread.sleep(5000);
+		generic.clickOnWebElement(cepo.getBack_icon());
+		generic.clickOnWebElement(cepo.getBack_icon());
 	}
 
 }

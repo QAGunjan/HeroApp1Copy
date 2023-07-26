@@ -49,6 +49,7 @@ import com.oneapp.pageobjects.SOS_alert_window_page_object;
 import com.oneapp.pageobjects.Selected_Vehicle_Page_Object;
 import com.oneapp.pageobjects.TipsAndDIYVideos_page_object;
 import com.oneapp.utils.ConfigData;
+import com.oneapp.utils.Console_Colors;
 import com.oneapp.utils.Generic;
 import com.oneapp.utils.ReadPDFText;
 import com.oneapp.utils.TestUtils;
@@ -114,6 +115,7 @@ public class BaseClass {
 	public TipsAndDIYVideos_page_object tadpo;
 	public ReadPDFText readpdf;
 	public ReferToFriend_Page_object rtfpo;
+	public BaseClass base;
 
 	public BaseClass() {
 
@@ -123,6 +125,7 @@ public class BaseClass {
 
 	@BeforeMethod(alwaysRun = true)
 	public void PreConditions() {
+		base = new BaseClass();
 		lpo = new Login_Page_Object();
 		generic = new Generic();
 		cepo = new CommonElements_Page_object();
@@ -266,4 +269,64 @@ public class BaseClass {
 		}
 	}
 
+	public void dashboardAllPopUp(MobileElement DeviceLocationPopUp, MobileElement OnlyThisTime,
+			MobileElement AcessYourPhoneCallLogsPopUp, MobileElement Allowing_commom_popup_samsung,
+			MobileElement AcessYourContactsPopUp, MobileElement ManagePhoneCallsPopUp,
+			MobileElement SendAndViewSMSMessagesPopUp, MobileElement Nearby_devices_popup) {
+
+		try {
+			Thread.sleep(2000);
+			if (DeviceLocationPopUp.isDisplayed()) {
+				OnlyThisTime.click();
+			}
+		} catch (Exception e) {
+			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+		}
+
+		try {
+			Thread.sleep(2000);
+			if (AcessYourPhoneCallLogsPopUp.isDisplayed()) {
+				Allowing_commom_popup_samsung.click();
+			}
+		} catch (Exception e) {
+			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+		}
+
+		try {
+			Thread.sleep(2000);
+			if (AcessYourContactsPopUp.isDisplayed()) {
+				Allowing_commom_popup_samsung.click();
+			}
+		} catch (Exception e) {
+			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+		}
+
+		try {
+			Thread.sleep(2000);
+			if (ManagePhoneCallsPopUp.isDisplayed()) {
+				Allowing_commom_popup_samsung.click();
+			}
+		} catch (Exception e) {
+			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+		}
+		try {
+			Thread.sleep(2000);
+			if (SendAndViewSMSMessagesPopUp.isDisplayed()) {
+				Allowing_commom_popup_samsung.click();
+			}
+		} catch (Exception e) {
+			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+		}
+
+		try {
+			Thread.sleep(2000);
+			if (Nearby_devices_popup.isDisplayed()) {
+				Allowing_commom_popup_samsung.click();
+			}
+
+		} catch (Exception e) {
+			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+		}
+
+	}
 }

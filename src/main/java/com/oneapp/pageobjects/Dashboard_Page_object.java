@@ -98,8 +98,43 @@ public class Dashboard_Page_object extends BaseClass {
 //		@FindBy(id = "com.customerapp.hero:id/exo_controls_background")
 	private MobileElement dashboardVideo;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/iv_close")
+	@AndroidFindBy(xpath = "com.customerapp.hero:id/iv_close")
 	private MobileElement dashboardVideoCloseIcon;
+
+	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to access your phone call logs?']")
+	private MobileElement acessYourPhoneCallLogsPopUp;
+
+	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to access your contacts?']")
+	private MobileElement acessYourContactsPopUp;
+
+	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to make and manage phone calls?']")
+	private MobileElement managePhoneCallsPopUp;
+
+	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to send and view SMS messages?']")
+	private MobileElement sendAndViewSMSMessagesPopUp;
+
+	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to find, connect to and determine the relative position of nearby devices?']")
+	private MobileElement connectNearByDevicesPopUp;
+
+	public MobileElement getAcessYourPhoneCallLogsPopUp() {
+		return acessYourPhoneCallLogsPopUp;
+	}
+
+	public MobileElement getAcessYourContactsPopUp() {
+		return acessYourContactsPopUp;
+	}
+
+	public MobileElement getManagePhoneCallsPopUp() {
+		return managePhoneCallsPopUp;
+	}
+
+	public MobileElement getSendAndViewSMSMessagesPopUp() {
+		return sendAndViewSMSMessagesPopUp;
+	}
+
+	public MobileElement getConnectNearByDevicesPopUp() {
+		return connectNearByDevicesPopUp;
+	}
 
 	public MobileElement getLocation_popup() {
 		return Location_popup;

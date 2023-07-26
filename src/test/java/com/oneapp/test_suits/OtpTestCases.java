@@ -52,15 +52,57 @@ public class OtpTestCases extends BaseClass {
 				TestUtils.log().debug("Book service PAID vin selected");
 				generic.clickOnWebElement(cepo.getbutton());
 
-				try {
-					if (generic.elementDisplaying(dpo.getDevice_location_popup_samsung())) {
-						generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
-						Thread.sleep(5000);
-					}
-				} catch (Exception e) {
-					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-				}
+//				try {
+//					if (generic.elementDisplaying(dpo.getDevice_location_popup_samsung())) {
+//						generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
+//					}
+//				} catch (Exception e) {
+//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+//				}
+//				try {
+//					if (generic.elementDisplaying(dpo.getAcessYourPhoneCallLogsPopUp())) {
+//						generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
+//					}
+//				} catch (Exception e) {
+//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+//				}
+//
+//				try {
+//					if (generic.elementDisplaying(dpo.getAcessYourContactsPopUp())) {
+//						generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
+//					}
+//				} catch (Exception e) {
+//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+//				}
+//
+//				try {
+//					if (generic.elementDisplaying(dpo.getManagePhoneCallsPopUp())) {
+//						generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
+//					}
+//				} catch (Exception e) {
+//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+//				}
+//				try {
+//					if (generic.elementDisplaying(dpo.getSendAndViewSMSMessagesPopUp())) {
+//						generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
+//					}
+//				} catch (Exception e) {
+//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+//				}
+//
+//				try {
+//					if (generic.elementDisplaying(dpo.getNearby_devices_popup())) {
+//						generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
+//					}
+//
+//				} catch (Exception e) {
+//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
+//				}
 
+				base.dashboardAllPopUp(dpo.getDevice_location_popup_samsung(), cepo.getOnlyThisTime_popup_samsung(),
+						dpo.getAcessYourPhoneCallLogsPopUp(), cepo.getAllowing_commom_popup_samsung(),
+						dpo.getAcessYourContactsPopUp(), dpo.getManagePhoneCallsPopUp(),
+						dpo.getSendAndViewSMSMessagesPopUp(), dpo.getNearby_devices_popup());
 			}
 		}
 

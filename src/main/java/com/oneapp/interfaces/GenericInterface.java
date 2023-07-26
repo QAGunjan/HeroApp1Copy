@@ -35,4 +35,6 @@ public interface GenericInterface {
 
 	public void scrollingToWebElement(String text);
 	
+//	public void dashboardAllPopUp(MobileElement DeviceLocationPopUp, MobileElement OnlyThisTime,MobileElement AcessYourPhoneCallLogsPopUp,MobileElement Allowing_commom_popup_samsung,MobileElement AcessYourContactsPopUp,MobileElement ManagePhoneCallsPopUp,MobileElement SendAndViewSMSMessagesPopUp,MobileElement Nearby_devices_popup);
+	
 }

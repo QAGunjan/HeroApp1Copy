@@ -16,7 +16,6 @@ public class ContactUsTestCases extends BaseClass {
 
 	@Test(priority = 700, groups = { "Smoke", "Regression" })
 	public void TC701_ValidateContactUSlink() throws InterruptedException {
-		/*
 		try {
 			if (generic.elementDisplaying(cepo.getAllowing_commom_popup_samsung())) {
 				generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
@@ -58,8 +57,6 @@ public class ContactUsTestCases extends BaseClass {
 		}
 
 		generic.clickOnWebElement(dpo.getMenu_bar_icon());
-		
-		*/
 		generic.clickOnWebElement(mbpo.getContactUs_menu_bar_txt());
 
 		generic.waitForVisibility(cepo.getPageTitleText());

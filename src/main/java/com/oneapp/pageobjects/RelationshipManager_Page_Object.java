@@ -11,7 +11,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class RelationshipManager_Page_Object extends BaseClass{
+public class RelationshipManager_Page_Object extends BaseClass {
 
 	@AndroidFindBy(xpath = "//*[@text='GoodLife']")
 	private MobileElement goodlife_icon;
@@ -22,10 +22,8 @@ public class RelationshipManager_Page_Object extends BaseClass{
 	@AndroidFindBy(xpath = "//*[@text='TSM']")
 	private MobileElement TSM_text;
 
-	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[3]")
+	@AndroidFindBy(xpath = "(//android.view.ViewGroup)[10]/child::android.widget.TextView[3]")
 	private MobileElement TSM_email;
-
-
 
 	public MobileElement getNoDataFound() {
 		return noDataFound;

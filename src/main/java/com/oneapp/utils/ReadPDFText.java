@@ -9,8 +9,7 @@ import com.testautomationguru.utility.PDFUtil;
 
 public class ReadPDFText {
 	public PDFUtil pdf;
-	public String PDFLocation = "D:\\ECLIPSE_LATEST\\HeroApp1\\PdfFiles\\Pre Bike Riding Tips-Battery.pdf";
-
+	public String PDFLocation = "D:\\ECLIPSE_LATEST\\HeroApp1Copy\\PdfFiles\\Pre Bike Riding Tips-Battery.pdf";
 	public ReadPDFText() {
 		pdf = new PDFUtil();
 	}
