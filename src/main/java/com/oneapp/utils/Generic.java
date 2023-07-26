@@ -14,6 +14,7 @@ import org.testng.asserts.SoftAssert;
 
 import com.oneapp.basic.BaseClass;
 import com.oneapp.interfaces.GenericInterface;
+import com.oneapp.pageobjects.Dashboard_Page_object;
 
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
@@ -133,7 +134,7 @@ public class Generic extends BaseClass implements GenericInterface {
 			wait.until(ExpectedConditions.elementToBeClickable(element));
 
 			TestUtils.log().debug("Successfully Clicked  ----> " + element.getText());
-			element.click();
+		element.click();
 
 		} catch (Exception e) {
 			JavascriptExecutor executor = (JavascriptExecutor) ad;
@@ -168,7 +169,6 @@ public class Generic extends BaseClass implements GenericInterface {
 		waitForVisibility(element);
 		TestUtils.log().debug("Successfully Displaying ----> " + element.getText());
 		return element.isDisplayed();
-
 	}
 
 	public boolean elementSelecting(MobileElement element) {
@@ -220,5 +220,7 @@ public class Generic extends BaseClass implements GenericInterface {
 		}
 
 	}
+
+	
 
 }

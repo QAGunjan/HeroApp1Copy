@@ -14,6 +14,8 @@ import io.appium.java_client.MobileBy;
 
 public class LoginTestCases extends BaseClass {
 
+	SoftAssert sa = new SoftAssert();
+
 	@Test(priority = 0, groups = { "Smoke", "Regression" })
 	public void TC001_ValidLoginTestCase() throws InterruptedException {
 
@@ -37,8 +39,10 @@ public class LoginTestCases extends BaseClass {
 		}
 
 		generic.waitForVisibility(opo.getVerify_with_OTP());
-		Assert.assertEquals(opo.getVerify_with_OTP().getText(), configdata.getValidLoginExpected());
+		sa.assertEquals(opo.getVerify_with_OTP().getText(), configdata.getValidLoginExpected());
+
 		generic.clickOnWebElement(opo.getEdit_button());
+		sa.assertAll();
 	}
 
 	@Test(priority = 1, groups = { "Regression" })

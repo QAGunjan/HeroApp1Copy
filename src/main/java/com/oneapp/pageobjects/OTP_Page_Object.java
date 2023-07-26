@@ -55,7 +55,7 @@ public class OTP_Page_Object extends BaseClass {
 
 	private MobileElement resend_link;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/lbl2")
+	@AndroidFindBy(xpath = "//*[@text='Verify with OTP']")
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Verify with OTP\"]")
 	private MobileElement verify_with_OTP;
 

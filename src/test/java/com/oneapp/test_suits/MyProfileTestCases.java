@@ -16,7 +16,7 @@ import com.oneapp.utils.TestUtils;
 
 public class MyProfileTestCases extends BaseClass {
 
-	public String value = "Personal Details";
+	protected String value = "Personal Details";
 	SoftAssert sa = new SoftAssert();
 	protected List<WebElement> AllText;
 
