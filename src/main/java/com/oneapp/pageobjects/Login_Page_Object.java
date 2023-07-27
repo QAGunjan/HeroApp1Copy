@@ -38,11 +38,14 @@ public class Login_Page_Object extends BaseClass {
 			@FindBy(className = "android.widget.TextView") })
 	private List<WebElement> contact_us_link;
 
-//	public Login_Page_Object() {
-//           super();
-//		
-//
-//	}
+@AndroidFindBy(id="com.customerapp.hero:id/button_neg")
+	private MobileElement cancelbtn;
+
+	
+	
+	public MobileElement getCancelbtn() {
+		return cancelbtn;
+	}
 
 	public MobileElement getMobile_num_field() {
 		return mobile_num_field;
