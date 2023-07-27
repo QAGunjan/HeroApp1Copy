@@ -50,6 +50,7 @@ public class LoginTestCases extends BaseClass {
 		generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 2, 1));
 		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
 			generic.clickOnWebElement(cepo.getbutton());
+			generic.clickOnWebElement(lpo.getCancelbtn());
 		} else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
 			generic.clickOnWebElement(cepo.getContinuebuttonIOS());
 		}
