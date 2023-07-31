@@ -11,7 +11,6 @@
 			</run>
 		</groups>
 		<classes>
-				<class name="com.oneapp.test_suits.LoginTestCases" />
 			<class name="com.oneapp.test_suits.OtpTestCases" />
 			<class name="com.oneapp.test_suits.DashboardTestCases" />
 			<class name="com.oneapp.test_suits.SOSTestCases" />
