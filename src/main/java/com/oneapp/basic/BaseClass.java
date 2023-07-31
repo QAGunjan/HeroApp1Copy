@@ -190,7 +190,7 @@ public class BaseClass {
 
 				// AndroidDriver ad= new AndroidDriver(url, dcap);
 				ad = new AndroidDriver(url, dcap);
-//				ad.resetApp();
+				ad.resetApp();
 
 			}
 
