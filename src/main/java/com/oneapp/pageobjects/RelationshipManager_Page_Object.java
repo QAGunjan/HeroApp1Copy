@@ -19,7 +19,7 @@ public class RelationshipManager_Page_Object extends BaseClass {
 	@AndroidFindBy(id = "com.customerapp.hero:id/noDataTitle")
 	private MobileElement noDataFound;
 
-	@AndroidFindBy(xpath = "//*[@text='TSM']")
+	@AndroidFindBy(xpath = "(//android.view.ViewGroup//android.widget.TextView)[7]")
 	private MobileElement TSM_text;
 
 	@AndroidFindBy(xpath = "(//android.view.ViewGroup)[10]/child::android.widget.TextView[3]")

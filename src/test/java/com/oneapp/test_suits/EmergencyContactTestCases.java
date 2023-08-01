@@ -1,6 +1,8 @@
 package com.oneapp.test_suits;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map.Entry;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -18,7 +20,7 @@ public class EmergencyContactTestCases extends BaseClass {
 	SoftAssert sa = new SoftAssert();
 
 	@Test(priority = 500, groups = { "Smoke", "Regression" })
-	public void TC301_ValidateValidAdddingEmergencyContactTestcase() {
+	public void TC301_ValidateValidAndInValidAdddingEmergencyContactTestcase() throws InterruptedException {
 
 //		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
 //			try {
@@ -57,8 +59,6 @@ public class EmergencyContactTestCases extends BaseClass {
 //				TestUtils.log().debug("Book service PAID vin selected");
 //				generic.clickOnWebElement(cepo.getbutton());
 //
-//
-//
 //				base.dashboardAllPopUp(dpo.getDevice_location_popup_samsung(), cepo.getOnlyThisTime_popup_samsung(),
 //						dpo.getAcessYourPhoneCallLogsPopUp(), cepo.getAllowing_commom_popup_samsung(),
 //						dpo.getAcessYourContactsPopUp(), dpo.getManagePhoneCallsPopUp(),
@@ -76,7 +76,6 @@ public class EmergencyContactTestCases extends BaseClass {
 //				generic.clickOnWebElement(cepo.getContinuebuttonIOS());
 //			}
 //		}
-//
 //
 //		generic.clickOnWebElement(dpo.getMenu_bar_icon());
 //		generic.clickOnWebElement(mbpo.getMyprofile_menu_bar_txt());
@@ -96,6 +95,34 @@ public class EmergencyContactTestCases extends BaseClass {
 		}
 
 		generic.clickOnWebElement(ecpo.getCreate_text());
+
+		generic.clickOnWebElement(cepo.getbutton());
+
+		String fullNameText = ecdpo.getFullName_text().getText();
+		Assert.assertTrue(fullNameText.equalsIgnoreCase("full name"));
+
+		HashMap<String, String> testD = exceldata.hashmapping("Emergency_contact", 9);
+		for (Entry<String, String> map : testD.entrySet()) {
+			generic.sendKeysOnTextfields(ecdpo.getFullname_textbox(), map.getValue()); // "Emergency_contact"
+			Thread.sleep(3000);
+			String FullNameField = ecdpo.getFullname_textbox().getText();
+			Assert.assertFalse(FullNameField.contains("++++++++++++@#%@#%#^$%&&)*)!#$!"));
+			Assert.assertFalse(FullNameField.contains("@"));
+			Assert.assertFalse(FullNameField.contains("//"));
+			Assert.assertFalse(FullNameField.contains("</>"));
+		}
+
+//		HashMap<String, String> testD1 = exceldata.hashmapping("Emergency_contact", 17);
+//		for (Entry<String, String> map1 : testD1.entrySet()) {
+//			generic.sendKeysOnTextfields(ecdpo.getMob_number_txtbox(), map1.getValue()); // "Emergency_contact"
+//			Thread.sleep(3000);
+//			String MobileNumberField = ecdpo.getMob_number_txtbox().getText();
+//			Assert.assertFalse(MobileNumberField.contains("ABCD"));
+//			Assert.assertFalse(MobileNumberField.contains("//"));
+//			Assert.assertFalse(MobileNumberField.contains("</h2>"));
+//			Assert.assertFalse(MobileNumberField.contains("+!@#$%^&*()"));
+//			Assert.assertFalse(MobileNumberField.contains("Yes"));
+//		}
 
 		generic.sendKeysOnTextfields(ecdpo.getFullname_textbox(), exceldata.getStringData("Emergency_contact", 1, 1));
 		generic.sendKeysOnTextfields(ecdpo.getMob_number_txtbox(), exceldata.getStringData("Emergency_contact", 2, 1));

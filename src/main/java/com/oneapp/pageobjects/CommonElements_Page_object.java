@@ -55,7 +55,7 @@ public class CommonElements_Page_object extends BaseClass {
 
 	private MobileElement savebuttonIOS;
 
-	@AndroidFindBy(xpath = "//*[@text='Only this time']")
+	@AndroidFindBy(xpath = "(//android.widget.LinearLayout/android.widget.Button)[1]")
 	private MobileElement onlyThisTime_popup_samsung;
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/lbl")
