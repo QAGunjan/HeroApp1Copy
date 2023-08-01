@@ -16,7 +16,7 @@ public class TipsAndDIYVideos_page_object extends BaseClass {
 	@AndroidFindBy(xpath = "//*[@text='Pre Bike Riding Tips_Battery']")
 	private MobileElement tipsPDFTitleText;
 
-	@AndroidFindBy(xpath = "//*[@text='DIY Videos']")
+	@AndroidFindBy(xpath = "(//android.widget.LinearLayout)[5]//android.widget.TextView")
 	private MobileElement DIYVideosText;
 
 	@AndroidFindBy(xpath = "(//android.widget.TextView[@index='2'])[1]")

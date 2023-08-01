@@ -87,6 +87,7 @@ public class Dashboard_Page_object extends BaseClass {
 
 	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to access this device’s location?']")
 	private MobileElement device_location_popup_samsung;
+	
 
 //	@FindBy(xpath ="//*[@text='Only this time']")
 //	private WebElement allowing_location_popup_samsung;
