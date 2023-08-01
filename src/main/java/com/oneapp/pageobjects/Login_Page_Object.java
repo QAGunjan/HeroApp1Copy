@@ -39,7 +39,8 @@ public class Login_Page_Object extends BaseClass {
 	private List<WebElement> contact_us_link;
 
 
-	@AndroidFindBy(id="com.customerapp.hero:id/button_neg")
+
+@AndroidFindBy(id="com.customerapp.hero:id/button_neg")
 	private MobileElement cancelbtn;
 
 	
