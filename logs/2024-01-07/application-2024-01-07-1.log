@@ -1,0 +1,55 @@
+[DEBUG] 2024-01-07 17:27:48.559 BaseClass:210 - Starting the Appium Service....
+2024-01-07 17:27:48.548
+--------------------------------------------------------------
+[INFO ] 2024-01-07 17:27:58.804 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-07 17:28:11.025 BaseClass:186 - fe260601-3b08-4ef4-94cb-e0fe8daf69a2
+[DEBUG] 2024-01-07 17:28:18.430 Generic:232 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-07 17:28:18.753 Generic:190 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-07 17:28:20.145 Generic:232 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-07 17:28:21.267 Generic:156 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-07 17:28:23.253 Generic:232 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-07 17:28:25.277 Generic:232 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-07 17:28:26.380 Generic:232 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2024-01-07 17:28:26.419 Generic:169 - Successfully cleared textbox
+[DEBUG] 2024-01-07 17:28:27.874 Generic:232 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2024-01-07 17:28:27.910 Generic:169 - Successfully cleared textbox
+[DEBUG] 2024-01-07 17:28:28.129 Generic:221 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-07 17:28:31.506 Generic:232 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-07 17:28:32.301 Generic:156 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-07 17:28:36.450 Generic:232 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-07 17:29:03.172 Generic:235 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/snackbar_text' (tried for 10 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-07 17:29:12.404 Generic:232 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-07 17:29:13.705 Generic:232 - Successfully Visibility  ----> +91 6666600022
+[DEBUG] 2024-01-07 17:29:39.182 Generic:235 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 10 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-07 17:29:39.194 Generic:169 - Successfully cleared textbox
+[DEBUG] 2024-01-07 17:29:48.365 Generic:232 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-07 17:29:49.695 Generic:232 - Successfully Visibility  ----> +91 6666600022
+[DEBUG] 2024-01-07 17:30:15.163 Generic:235 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 10 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-07 17:30:15.186 Generic:169 - Successfully cleared textbox
+[DEBUG] 2024-01-07 17:30:24.229 Generic:232 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-07 17:30:25.519 Generic:232 - Successfully Visibility  ----> +91 6666600022
+[DEBUG] 2024-01-07 17:30:50.954 Generic:235 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 10 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-07 17:30:50.992 Generic:169 - Successfully cleared textbox
+[DEBUG] 2024-01-07 17:30:59.700 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-07 17:30:59.703 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-07 17:33:16.577 BaseClass:210 - Starting the Appium Service....
+2024-01-07 17:33:16.564
+--------------------------------------------------------------
+[INFO ] 2024-01-07 17:33:26.772 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-07 17:33:37.273 BaseClass:186 - 0d09b0f3-5cb7-4e27-b393-bbc2614db7cf
+[DEBUG] 2024-01-07 17:33:44.924 Generic:232 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-07 17:33:45.232 Generic:190 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-07 17:33:46.676 Generic:232 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-07 17:33:47.767 Generic:156 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-07 17:33:49.760 Generic:232 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-07 17:33:51.762 Generic:232 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-07 17:33:52.856 Generic:232 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2024-01-07 17:33:52.903 Generic:169 - Successfully cleared textbox
+[DEBUG] 2024-01-07 17:33:54.349 Generic:232 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2024-01-07 17:33:54.389 Generic:169 - Successfully cleared textbox
+[DEBUG] 2024-01-07 17:33:54.651 Generic:221 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-07 17:33:58.194 Generic:232 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-07 17:34:00.026 Generic:156 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-07 17:34:04.062 Generic:232 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-07 17:34:32.080 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-07 17:34:32.083 BaseClass:200 - ++++++++++++++++++++++++++++++++

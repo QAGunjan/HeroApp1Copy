@@ -1,0 +1,123 @@
+[DEBUG] 2023-12-14 14:51:43.578 BaseClass:276 - Starting the Appium Service....
+2023-12-14 14:51:43.570
+--------------------------------------------------------------
+[INFO ] 2023-12-14 14:51:59.391 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-14 14:51:59.396 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-14 14:51:59.399 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-14 14:51:59.403 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-14 14:51:59.406 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-14 14:52:33.996 BaseClass:252 - 9bd151cb-9729-4650-971d-7d35de405b55
+[DEBUG] 2023-12-14 14:52:34.132 MyListeners:39 - [1;30mTC601_VALIDATEDASHBOARDVIDEO - STARTS[0m
+[DEBUG] 2023-12-14 14:52:49.818 Generic:226 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-14 14:52:49.916 Generic:181 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-14 14:52:50.290 Generic:226 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-14 14:52:50.707 Generic:147 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-14 14:52:52.559 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 14:52:52.730 Generic:181 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-14 14:52:53.406 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 14:52:53.767 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 14:52:55.997 Generic:226 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-14 14:52:56.439 Generic:226 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-14 14:52:58.850 Generic:226 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-14 14:52:58.867 Generic:160 - Successfully cleared textbox
+[DEBUG] 2023-12-14 14:53:00.458 Generic:226 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-14 14:53:00.486 Generic:160 - Successfully cleared textbox
+[DEBUG] 2023-12-14 14:53:00.700 Generic:215 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-14 14:53:03.584 Generic:226 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-14 14:53:04.154 Generic:147 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-14 14:53:08.303 Generic:226 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-14 14:53:17.313 Generic:226 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-12-14 14:53:18.002 Generic:147 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-12-14 14:53:26.942 Generic:226 - Successfully Visibility  ----> book service paid
+[DEBUG] 2023-12-14 14:53:27.583 Generic:147 - Successfully Clicked  ----> book service paid
+[DEBUG] 2023-12-14 14:53:29.108 Generic:226 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-14 14:53:29.769 Generic:147 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-14 14:53:37.295 Generic:226 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-12-14 14:53:37.640 Generic:147 - Successfully Clicked  ----> Only this time
+[DEBUG] 2023-12-14 14:53:39.657 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 14:53:40.192 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 14:53:41.267 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 14:53:41.698 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 14:53:43.331 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 14:53:43.673 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 14:53:45.218 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 14:53:45.637 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 14:53:46.699 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 14:53:47.087 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 14:54:47.908 Generic:229 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/iv_pause' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-14 14:55:18.023 Dashboard_Page_object:199 - [1;31morg.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.19.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, avd: Pixel_3, avdLaunchTimeout: 400000, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, avd: Pixel_3, avdLaunchTimeout: 400000, deviceName: Pixel 3, platformName: android, readyTimeout: 400000, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, readyTimeout: 400000, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2028, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 9bd151cb-9729-4650-971d-7d35de405b55
+*** Element info: {Using=id, value=com.customerapp.hero:id/iv_pause}[0m
+[DEBUG] 2023-12-14 14:55:18.025 Dashboard_Page_object:201 - [1;31mDasdhboard video is not displaying [0m
+[DEBUG] 2023-12-14 14:55:18.040 MyListeners:59 - [1;31m[org.testng.Assert.fail(Assert.java:99), org.testng.Assert.fail(Assert.java:106), com.oneapp.pageobjects.Dashboard_Page_object.toCheckDashboardVideoOrNot(Dashboard_Page_object.java:203), com.oneapp.test_suits.DashboardTestCases.TC601_ValidateDashboardVideo(DashboardTestCases.java:79), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-14 14:55:19.739 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC601_ValidateDashboardVideo__T_h_u_ _D_e_c_ _1_4_ _1_4___5_5___1_8_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-14 14:55:19.749 MyListeners:75 - [1;31mTC601_VALIDATEDASHBOARDVIDEO - FAILURE[0m
+[DEBUG] 2023-12-14 14:55:20.729 BaseClass:265 - Session gets closed
+[DEBUG] 2023-12-14 14:55:20.732 BaseClass:266 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-14 14:55:21.704 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-14 14:55:21.704
+[DEBUG] 2023-12-14 15:22:09.081 BaseClass:276 - Starting the Appium Service....
+2023-12-14 15:22:09.072
+--------------------------------------------------------------
+[INFO ] 2023-12-14 15:22:20.916 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-14 15:22:20.921 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-14 15:22:20.937 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-14 15:22:20.946 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-14 15:22:20.952 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-14 15:22:51.612 BaseClass:252 - 9084e75e-0e7f-4786-8695-7e4115bf8ea0
+[DEBUG] 2023-12-14 15:22:51.700 MyListeners:39 - [1;30mTC602_VALIDATERELATIONSHIPMANAGER - STARTS[0m
+[DEBUG] 2023-12-14 15:23:06.741 Generic:226 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-14 15:23:06.853 Generic:181 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-14 15:23:07.226 Generic:226 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-14 15:23:07.613 Generic:147 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-14 15:23:09.661 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 15:23:09.763 Generic:181 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-14 15:23:10.139 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 15:23:10.397 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 15:23:11.803 Generic:226 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-14 15:23:13.170 Generic:226 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-14 15:23:15.144 Generic:226 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-14 15:23:15.155 Generic:160 - Successfully cleared textbox
+[DEBUG] 2023-12-14 15:23:16.533 Generic:226 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-14 15:23:16.548 Generic:160 - Successfully cleared textbox
+[DEBUG] 2023-12-14 15:23:16.633 Generic:215 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-14 15:23:18.536 Generic:226 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-14 15:23:18.769 Generic:147 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-14 15:23:23.150 Generic:226 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-14 15:23:33.160 Generic:226 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-12-14 15:23:34.130 Generic:147 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-12-14 15:23:42.567 Generic:226 - Successfully Visibility  ----> book service paid
+[DEBUG] 2023-12-14 15:23:43.218 Generic:147 - Successfully Clicked  ----> book service paid
+[DEBUG] 2023-12-14 15:23:44.683 Generic:226 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-14 15:23:45.350 Generic:147 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-14 15:23:52.633 Generic:226 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-12-14 15:23:52.921 Generic:147 - Successfully Clicked  ----> Only this time
+[DEBUG] 2023-12-14 15:23:54.502 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 15:23:54.921 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 15:23:55.973 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 15:23:56.248 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 15:23:57.749 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 15:23:58.130 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 15:23:59.569 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 15:23:59.810 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 15:24:00.896 Generic:226 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-14 15:24:01.840 Generic:147 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-14 15:24:05.961 Generic:226 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2023-12-14 15:24:06.157 Generic:181 - Successfully Displaying ----> Key Actions
+[DEBUG] 2023-12-14 15:25:06.739 Generic:229 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@text='Relationship Manager']' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-14 15:25:36.920 MyListeners:59 - [1;31m[jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428), io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151), io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1), org.openqa.selenium.By$ByXPath.findElement(By.java:353), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source), com.oneapp.utils.Generic.elementDisplaying(Generic.java:181), com.oneapp.pageobjects.Dashboard_Page_object.clickOnRelationShipManager(Dashboard_Page_object.java:149), com.oneapp.test_suits.DashboardTestCases.TC602_ValidateRelationShipManager(DashboardTestCases.java:147), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-14 15:25:38.055 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC602_ValidateRelationShipManager__T_h_u_ _D_e_c_ _1_4_ _1_5___2_5___3_6_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-14 15:25:38.060 MyListeners:75 - [1;31mTC602_VALIDATERELATIONSHIPMANAGER - FAILURE[0m
+[DEBUG] 2023-12-14 15:25:39.038 BaseClass:265 - Session gets closed
+[DEBUG] 2023-12-14 15:25:39.039 BaseClass:266 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-14 15:25:39.746 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-14 15:25:39.746

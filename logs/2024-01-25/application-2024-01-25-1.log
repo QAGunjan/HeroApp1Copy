@@ -1,0 +1,87 @@
+[DEBUG] 2024-01-25 11:49:05.730 BaseClass:214 - Starting the Appium Service....
+2024-01-25 11:49:05.708
+--------------------------------------------------------------
+[DEBUG] 2024-01-25 11:49:42.942 BaseClass:214 - Starting the Appium Service....
+2024-01-25 11:49:42.929
+--------------------------------------------------------------
+[DEBUG] 2024-01-25 11:50:15.186 BaseClass:190 - 847fe773-c780-4bb2-8b56-195acae196e9
+[DEBUG] 2024-01-25 11:50:22.350 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-25 11:50:22.380 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-25 11:50:23.760 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-25 11:50:23.777 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-25 11:50:24.432 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-25 11:50:27.623 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-25 11:50:28.236 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-25 11:50:32.262 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-25 11:50:40.448 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-25 11:50:41.666 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-25 11:50:49.295 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-25 11:50:50.727 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-25 11:50:52.994 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-25 11:50:54.145 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-25 11:51:01.644 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-25 11:51:02.114 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-25 11:51:02.461 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-25 11:51:05.538 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-25 11:51:07.228 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-25 11:51:23.929 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-25 11:51:24.119 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-25 11:51:24.118
+[DEBUG] 2024-01-25 11:53:14.269 BaseClass:214 - Starting the Appium Service....
+2024-01-25 11:53:14.254
+--------------------------------------------------------------
+[DEBUG] 2024-01-25 11:53:49.943 BaseClass:190 - 7a8d448d-e0a0-4576-a83d-85026a30ff50
+[DEBUG] 2024-01-25 11:53:57.202 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-25 11:53:57.229 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-25 11:53:58.564 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-25 11:53:58.581 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-25 11:53:58.766 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-25 11:54:02.436 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-25 11:54:02.993 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-25 11:54:06.734 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-25 11:54:14.952 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-25 11:54:16.129 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-25 11:54:25.236 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-25 11:54:26.768 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-25 11:54:29.368 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-25 11:54:30.534 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-25 11:54:37.256 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-25 11:54:37.698 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-25 11:54:38.047 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-25 11:54:41.132 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-25 11:54:42.815 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-25 11:54:59.550 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-25 11:54:59.784 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-25 11:54:59.782
+[DEBUG] 2024-01-25 14:03:26.460 BaseClass:214 - Starting the Appium Service....
+2024-01-25 14:03:26.451
+--------------------------------------------------------------
+[DEBUG] 2024-01-25 14:03:55.964 BaseClass:190 - 0422b9f0-0fd1-487b-ab56-6603533bac0e
+[DEBUG] 2024-01-25 14:04:03.659 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-25 14:04:03.675 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-25 14:04:04.988 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-25 14:04:05.009 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-25 14:04:05.187 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-25 14:04:07.562 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-25 14:04:08.723 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-25 14:04:12.777 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-25 14:04:20.984 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-25 14:04:22.157 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-25 14:04:31.079 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-25 14:04:32.504 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-25 14:04:34.776 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-25 14:04:35.904 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-25 14:04:43.366 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-25 14:04:43.805 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-25 14:04:44.139 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-25 14:04:46.656 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-25 14:04:48.268 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-25 14:05:04.226 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-25 14:05:04.354 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-25 14:05:04.353

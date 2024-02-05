@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SOSSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SOSTest(failed)">
+    <classes>
+      <class name="com.oneapp.test_suits.SOSTestCases">
+        <methods>
+          <include name="TC502_ValidateDontSentLinkTestcase"/>
+          <include name="TC503_ValidatecloseIconTestcase"/>
+          <include name="afterclass"/>
+          <include name="TC501_ValidateSendSOSAlertMessageSendTestcase"/>
+          <include name="AppiumServerStarts"/>
+          <include name="AppiumServiceStops"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.oneapp.test_suits.SOSTestCases -->
+    </classes>
+  </test> <!-- SOSTest(failed) -->
+</suite> <!-- Failed suite [SOSSuite] -->

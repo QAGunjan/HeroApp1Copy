@@ -2,10 +2,12 @@ package com.oneapp.utils;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,9 +15,9 @@ import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import com.oneapp.basic.BaseClass;
-import com.oneapp.interfaces.GenericInterface;
 import com.oneapp.pageobjects.Dashboard_Page_object;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
@@ -26,68 +28,53 @@ import io.appium.java_client.touch.TapOptions;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class Generic extends BaseClass implements GenericInterface {
+public class Generic extends BaseClass {
 
 	public static WebDriverWait wait;
 	public static TouchAction ta;
+	public static final int ImpWait = 20;
+	public static final int WAIT = 20;
 
-//	public boolean ElementIsClickable(MobileElement element) {
-//		try {
-//			waitForVisibility(element);
-//			clickOnWebElement(element);
-//			return true;
-//		} catch (Exception e) {
-//			return false;
-//		}
-//	}
+	public void JavaScriptExecutor(WebElement webElement) {
+		JavascriptExecutor executor = (JavascriptExecutor) ad;
+		executor.executeScript("arguments[0].click();", webElement); // for click
+		executor.executeScript("arguments[0].scrollIntoView(true);", webElement); // for scrollUp
+		executor.executeScript("arguments[0].scrollIntoView(false);", webElement); // for scroll down
+		executor.executeScript("arguments[0].setAttribute('value','input text'", webElement); // for intput value in
+																								// textbox
+	}
 
-//	public void WifiOff() {
-//		try {
-//			Thread.sleep(2000);
-////			ad.setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
-////			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiDisabled().build());
-//			TestUtils.log().debug("Interet has been switch OFF");
-//			
-//		} catch (Exception e) {
-//			TestUtils.log().debug("Connection could not be switch OFF");
-//		}
-//	}
+	public void verticalScrollBy1500() {
+		JavascriptExecutor js = (JavascriptExecutor) ad;
+		js.executeScript("window.scrollBy(0,1500)");
+	}
 
-//	public void WifiOn() {
-//		try {
-//			Thread.sleep(2000);
-////			ad.setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
-////			((HasNetworkConnection) ad).setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
-//			TestUtils.log().debug("Interet has been switch ON");
-//		} catch (Exception e) {
-//			TestUtils.log().debug("Connection could not be switch ON" + e);
-//		}
-//	}
+	public void horizontalScrollBy() {
+		JavascriptExecutor js = (JavascriptExecutor) ad;
+		js.executeScript("window.scrollBy(600,0)");
+	}
 
-//	public void runningApplicationBackground() {
-//		try {
-//			Thread.sleep(5000);
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		((AndroidDriver<MobileElement>) ad).runAppInBackground(Duration.ofSeconds(5));
-//		TestUtils.log().debug("Application goes in background");
-//
-//	}
+	public void scrollToElement(WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) ad;
+		js.executeScript("arguments[0].scrollIntoView()", element);
+	}
 
-	public void swiping(int startx, int starty, int endx, int endy, long wait) {
-		ta = new TouchAction(ad);
-		try {
-			Thread.sleep(4000);
-			TestUtils.log().debug("Swiped successfully");
-			ta.press(PointOption.point(startx, starty)).moveTo(PointOption.point(endx, endy))
-					.waitAction(WaitOptions.waitOptions(Duration.ofMillis(wait))).release().perform();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-		}
+	public void scrollToEnd() {
+		JavascriptExecutor js = (JavascriptExecutor) ad;
+		js.executeScript("window.scrollTo(0,document.body.scrollHeight");
+	}
 
+	public void scrollToTop() {
+		JavascriptExecutor js = (JavascriptExecutor) ad;
+		js.executeScript("window.scrollTo(0,0)");
+	}
+
+	public void Scrolling(String text) throws InterruptedException {
+
+		Thread.sleep(8000);
+
+		ad.findElement(MobileBy
+				.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"" + text + "\"))"));
 	}
 
 	public void tappingOnWebelement(int startx, int starty) {
@@ -127,30 +114,30 @@ public class Generic extends BaseClass implements GenericInterface {
 		}
 	}
 
-	public void clickOnWebElement(MobileElement element) {
-		waitForVisibility(element);
+	public void clickOnWebElement(WebElement webElement) {
+		waitForVisibility(webElement);
 		try {
 			wait = new WebDriverWait(ad, Generic.WAIT);
-			wait.until(ExpectedConditions.elementToBeClickable(element));
+			wait.until(ExpectedConditions.elementToBeClickable(webElement));
 
-			TestUtils.log().debug("Successfully Clicked  ----> " + element.getText());
-		element.click();
+			TestUtils.log().debug("Successfully Clicked  ----> " + webElement.getText());
+			webElement.click();
 
 		} catch (Exception e) {
 			JavascriptExecutor executor = (JavascriptExecutor) ad;
-			executor.executeScript("arguments[0].click();", element);
+			executor.executeScript("arguments[0].click();", webElement);
 			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 		}
 
 	}
 
-	public void clearOnTexBox(MobileElement element) {
+	public void clearOnTexBox(WebElement element) {
 		waitForVisibility(element);
 		TestUtils.log().debug("Successfully cleared textbox");
 		element.clear();
 	}
 
-	public void getTextOfElement(MobileElement element) {
+	public void getTextOfElement(WebElement element) {
 		waitForVisibility(element);
 		TestUtils.log().debug("This is the element text  ----> " + element.getText());
 		getAttribute(element);
@@ -165,19 +152,19 @@ public class Generic extends BaseClass implements GenericInterface {
 		return element.getAttribute("text");
 	}
 
-	public boolean elementDisplaying(MobileElement element) {
-		waitForVisibility(element);
-		TestUtils.log().debug("Successfully Displaying ----> " + element.getText());
-		return element.isDisplayed();
+	public boolean elementDisplaying(WebElement webElement) {
+		waitForVisibility(webElement);
+		TestUtils.log().debug("Successfully Displaying ----> " + webElement.getText());
+		return webElement.isDisplayed();
 	}
 
-	public boolean elementSelecting(MobileElement element) {
+	public boolean elementSelecting(WebElement element) {
 		waitForVisibility(element);
 		TestUtils.log().debug("Successfully Selecting ----> " + element.getText());
 		return element.isSelected();
 	}
 
-	public boolean elementEnable(MobileElement element) {
+	public boolean elementEnable(WebElement element) {
 		waitForVisibility(element);
 		TestUtils.log().debug("Successfully Enabled ----> ");
 		return element.isEnabled();
@@ -196,31 +183,36 @@ public class Generic extends BaseClass implements GenericInterface {
 
 	}
 
-	public void sendKeysOnTextfields(MobileElement element, String text) {
+	public void sendKeysOnTextfields(WebElement element, String text) {
 		clearOnTexBox(element);
 		TestUtils.log().debug("Successfully enter value ----> " + text);
 		element.sendKeys(text);
 	}
 
-	public void waitForVisibility(MobileElement element) {
+	public void waitForVisibility(WebElement webElement) {
 
 		try {
 			wait = new WebDriverWait(ad, Generic.WAIT);
-			wait.until(ExpectedConditions.visibilityOf(element));
-			if (element.isDisplayed()) {
-				String text = element.getText();
+			wait.until(ExpectedConditions.visibilityOf(webElement));
+			if (webElement.isDisplayed()) {
+				String text = webElement.getText();
 				TestUtils.log().debug("Successfully Visibility  ----> " + text);
 			}
+
 		} catch (Exception e) {
 			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 		}
 
 		finally {
 			ad.manage().timeouts().implicitlyWait(ImpWait, TimeUnit.SECONDS);
+
 		}
 
 	}
 
-	
+	public void swiping(int startx, int starty, int endx, int endy, long wait) {
+		// TODO Auto-generated method stub
+
+	}
 
 }

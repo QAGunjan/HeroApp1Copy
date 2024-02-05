@@ -1,102 +1,110 @@
 package com.oneapp.pageobjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 import com.oneapp.basic.BaseClass;
+import com.oneapp.utils.Generic;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 
 public class OTP_Page_Object extends BaseClass {
 
-	@AndroidFindBy(className = "android.widget.EditText")
-	private MobileElement textboxes;
+	public Generic generic = new Generic();
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/otp_one_edtxt")
+	@FindBys({ @FindBy(className = "android.widget.EditText") })
+	private List<WebElement> textboxes;
+
+	@FindBy(id = "com.customerapp.hero:id/otp_one_edtxt")
 	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[1]")
-	private MobileElement firsttxtbox;
+	private WebElement firsttxtbox;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/otp_two_edtxt")
+	@FindBy(id = "com.customerapp.hero:id/otp_two_edtxt")
 	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[2]")
-	private MobileElement secondtxtbox;
+	private WebElement secondtxtbox;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/otp_three_edtxt")
+	@FindBy(id = "com.customerapp.hero:id/otp_three_edtxt")
 	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[3]")
 
-	private MobileElement thirdtxtbox;
+	private WebElement thirdtxtbox;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/otp_four_edtxt")
+	@FindBy(id = "com.customerapp.hero:id/otp_four_edtxt")
 	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[4]")
 
-	private MobileElement fourthtxtbox;
+	private WebElement fourthtxtbox;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/otp_5_edtxt")
+	@FindBy(id = "com.customerapp.hero:id/otp_5_edtxt")
 	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[5]")
 
-	private MobileElement fifthtxtbox;
+	private WebElement fifthtxtbox;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/otp_6_edtxt")
+	@FindBy(id = "com.customerapp.hero:id/otp_6_edtxt")
 	@iOSXCUITFindBy(xpath = "((//XCUIElementTypeButton[@name=\"editredcircle\"]/following-sibling::XCUIElementTypeOther)[1]/XCUIElementTypeTextField)[6]")
 
-	private MobileElement sixthtxtbox;
+	private WebElement sixthtxtbox;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/edit_phn_no_btn")
+	@FindBy(id = "com.customerapp.hero:id/edit_phn_no_btn")
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"editredcircle\"]")
 
-	private MobileElement edit_button;
+	private WebElement edit_button;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/resend_btn_lbl")
+	@FindBy(id = "com.customerapp.hero:id/resend_btn_lbl")
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Resend\"]")
 
-	private MobileElement resend_link;
+	private WebElement resend_link;
 
-	@AndroidFindBy(xpath = "//*[@text='Verify with OTP']")
+	@FindBy(xpath = "//*[@text='Verify with OTP']")
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Verify with OTP\"]")
-	private MobileElement verify_with_OTP;
+	private WebElement verify_with_OTP;
 
-	public MobileElement getFirsttxtbox() {
-		return firsttxtbox;
+	@FindBy(xpath = "(//android.view.ViewGroup//android.widget.TextView)[1]")
+	private WebElement WelcomeToHero_Text;
+
+	@FindBy(xpath = "(//android.view.ViewGroup//android.widget.TextView)[3]")
+	private WebElement Enter6digitOTPsentto_Text;
+
+	@FindBy(xpath = "(//android.widget.LinearLayout//android.widget.TextView)[5]")
+	private WebElement ResendOTPin_Text;
+
+	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
+	private WebElement verifyBtn;
+
+	public OTP_Page_Object(AppiumDriver ad) {
+		PageFactory.initElements(ad, this);
 	}
 
-	public MobileElement getSecondtxtbox() {
-		return secondtxtbox;
+	public Selected_Vehicle_Page_Object clickOnVerifyButton() {
+
+		generic.clickOnWebElement(verifyBtn);
+
+		return new Selected_Vehicle_Page_Object(ad);
 	}
 
-	public MobileElement getThirdtxtbox() {
-		return thirdtxtbox;
-	}
+	public void TypeInField() {
 
-	public MobileElement getFourthtxtbox() {
-		return fourthtxtbox;
-	}
+		generic.waitForVisibility(verify_with_OTP);
 
-	public MobileElement getFifthtxtbox() {
-		return fifthtxtbox;
-	}
-
-	public MobileElement getSixthtxtbox() {
-		return sixthtxtbox;
-	}
-
-	public MobileElement getEdit_button() {
-		return edit_button;
-	}
-
-	public MobileElement getResend_link() {
-		return resend_link;
-	}
-
-	public MobileElement getVerify_with_OTP() {
-		return verify_with_OTP;
-	}
-
-	public MobileElement getTextboxes() {
-		return textboxes;
+		String val = "123456";
+		List<WebElement> elements = textboxes;
+		elements.clear();
+		int i = 0;
+		for (WebElement e : elements) {
+			e.sendKeys(String.valueOf(val.charAt(i)));
+			i++;
+		}
 	}
 
 }

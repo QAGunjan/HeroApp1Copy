@@ -1,0 +1,1113 @@
+[DEBUG] 2024-01-23 12:49:45.110 BaseClass:212 - Starting the Appium Service....
+2024-01-23 12:49:45.100
+--------------------------------------------------------------
+[DEBUG] 2024-01-23 12:51:57.412 BaseClass:212 - Starting the Appium Service....
+2024-01-23 12:51:57.406
+--------------------------------------------------------------
+[INFO ] 2024-01-23 12:52:09.920 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 12:52:28.340 BaseClass:188 - e9064597-fafe-482c-ab55-ff1216065175
+[DEBUG] 2024-01-23 12:52:28.385 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 12:52:35.865 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 12:52:35.898 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 12:52:37.779 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 12:52:37.790 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 12:52:38.642 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 12:52:41.184 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 12:52:41.805 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 12:52:45.546 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 12:52:53.463 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 12:52:55.229 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 12:53:02.109 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 12:53:04.102 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 12:53:06.293 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 12:53:07.415 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 12:53:14.385 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 12:53:14.804 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 12:53:15.150 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 12:53:17.740 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 12:53:19.334 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 12:53:21.622 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 12:53:22.254 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 12:53:25.915 Generic:201 - Successfully Visibility  ----> Select a Time
+[DEBUG] 2024-01-23 12:53:29.137 Generic:201 - Successfully Visibility  ----> Service Centre
+[DEBUG] 2024-01-23 12:53:30.297 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 12:53:31.456 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 12:53:34.380 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 12:53:34.915 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 12:53:36.112 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 12:53:36.546 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 12:53:39.762 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 12:53:44.261 Generic:110 - This element gets clicked ----> GOA
+[DEBUG] 2024-01-23 12:53:45.926 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 12:53:46.437 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 12:53:49.620 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 12:53:53.808 Generic:110 - This element gets clicked ----> BICHOLIM
+[DEBUG] 2024-01-23 12:53:56.445 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 12:53:57.023 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 12:54:10.370 Generic:201 - Successfully Visibility  ----> Customer Requests
+[DEBUG] 2024-01-23 12:54:11.877 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 12:54:13.372 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 12:54:16.017 Generic:201 - Successfully Visibility  ----> Additional Instructions
+[DEBUG] 2024-01-23 12:54:17.147 Generic:201 - Successfully Visibility  ----> Facing any other issues?
+[DEBUG] 2024-01-23 12:54:17.163 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 12:54:17.558 Generic:189 - Successfully enter value ----> 123912731!@#!@#ADASDASD
+[DEBUG] 2024-01-23 12:54:20.431 Generic:201 - Successfully Visibility  ----> Review Service Details
+[DEBUG] 2024-01-23 12:54:21.676 Generic:124 - Successfully Clicked  ----> Review Service Details
+[DEBUG] 2024-01-23 12:54:23.542 Generic:201 - Successfully Visibility  ----> Service Scheduled
+[DEBUG] 2024-01-23 12:54:24.349 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 12:54:25.176 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 12:54:29.222 Generic:201 - Successfully Visibility  ----> Service booked
+[DEBUG] 2024-01-23 12:54:29.981 Generic:201 - Successfully Visibility  ----> Service booked!
+[DEBUG] 2024-01-23 12:54:30.816 Generic:201 - Successfully Visibility  ----> Serial Number : 60201-03-RSRB-0124-222
+[DEBUG] 2024-01-23 12:54:31.726 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 12:54:33.157 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 12:54:34.252 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 12:54:35.349 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 12:54:43.399 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 12:54:43.980 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 12:54:45.111 MyListeners:57 - [1;31m[org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47), org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31), com.oneapp.test_suits.BookServiceTestCases.TC601_ValidateBookServiceTestcase(BookServiceTestCases.java:127), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-23 12:54:45.670 MyListeners:73 - [1;31mTC601_VALIDATEBOOKSERVICETESTCASE - FAILURE[0m
+[DEBUG] 2024-01-23 12:54:45.680 MyListeners:39 - [1;30mVALIDATESERVICERESCHEDULED - STARTS[0m
+[DEBUG] 2024-01-23 12:54:45.687 MyListeners:39 - [1;30mVALIDATESERVICECANCELLED - STARTS[0m
+[DEBUG] 2024-01-23 12:54:46.029 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 12:54:46.030 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 12:54:46.792 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 12:54:46.792
+[DEBUG] 2024-01-23 12:59:01.068 BaseClass:212 - Starting the Appium Service....
+2024-01-23 12:59:01.061
+--------------------------------------------------------------
+[INFO ] 2024-01-23 12:59:13.242 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 12:59:30.660 BaseClass:188 - dcbac6ad-ce56-4308-83ea-a0804e1f5e8f
+[DEBUG] 2024-01-23 12:59:30.694 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 12:59:38.134 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 12:59:38.151 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 12:59:39.557 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 12:59:39.582 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 12:59:39.792 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 12:59:43.240 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 12:59:43.882 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 12:59:47.956 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 12:59:56.177 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 12:59:57.384 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 13:00:18.455 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428), io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151), io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1), org.openqa.selenium.By$ByXPath.findElement(By.java:353), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source), com.oneapp.pageobjects.Selected_Vehicle_Page_Object.vinSelection(Selected_Vehicle_Page_Object.java:63), com.oneapp.test_suits.BookServiceTestCases.TC601_ValidateBookServiceTestcase(BookServiceTestCases.java:62), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-23 13:00:18.930 MyListeners:73 - [1;31mTC601_VALIDATEBOOKSERVICETESTCASE - FAILURE[0m
+[DEBUG] 2024-01-23 13:00:18.940 MyListeners:39 - [1;30mVALIDATESERVICERESCHEDULED - STARTS[0m
+[DEBUG] 2024-01-23 13:00:18.950 MyListeners:39 - [1;30mVALIDATESERVICECANCELLED - STARTS[0m
+[DEBUG] 2024-01-23 13:00:19.310 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 13:00:19.311 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 13:00:20.148 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 13:00:20.148
+[DEBUG] 2024-01-23 13:56:55.202 BaseClass:212 - Starting the Appium Service....
+2024-01-23 13:56:55.193
+--------------------------------------------------------------
+[INFO ] 2024-01-23 13:57:07.719 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 13:57:25.519 BaseClass:188 - 9b0a15ac-5c3a-4ed6-8d0c-98c12b294b1d
+[DEBUG] 2024-01-23 13:57:25.557 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 13:57:42.673 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 13:57:42.690 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 13:57:44.512 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 13:57:44.534 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 13:57:44.781 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 13:57:47.826 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 13:57:48.479 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 13:57:52.113 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 13:58:00.101 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 13:58:01.792 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 13:58:09.571 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 13:58:11.194 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 13:58:13.539 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 13:58:14.679 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 13:58:26.200 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 13:58:26.638 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 13:58:26.996 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 13:58:29.576 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 13:58:31.169 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 13:58:33.395 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 13:58:34.053 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 13:58:37.997 Generic:201 - Successfully Visibility  ----> Select a Time
+[DEBUG] 2024-01-23 13:58:41.187 Generic:201 - Successfully Visibility  ----> Service Centre
+[DEBUG] 2024-01-23 13:58:42.370 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 13:58:43.544 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 13:58:46.848 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 13:58:47.416 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 13:58:48.621 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 13:58:49.039 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 13:58:52.223 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 13:58:56.731 Generic:110 - This element gets clicked ----> GOA
+[DEBUG] 2024-01-23 13:58:58.445 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 13:58:59.515 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 13:59:02.725 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 13:59:06.943 Generic:110 - This element gets clicked ----> BICHOLIM
+[DEBUG] 2024-01-23 13:59:09.724 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 13:59:10.362 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 13:59:23.496 Generic:201 - Successfully Visibility  ----> Customer Requests
+[DEBUG] 2024-01-23 13:59:25.101 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 13:59:26.651 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 13:59:29.295 Generic:201 - Successfully Visibility  ----> Additional Instructions
+[DEBUG] 2024-01-23 13:59:30.461 Generic:201 - Successfully Visibility  ----> Facing any other issues?
+[DEBUG] 2024-01-23 13:59:30.483 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 13:59:30.891 Generic:189 - Successfully enter value ----> 123912731!@#!@#ADASDASD
+[DEBUG] 2024-01-23 13:59:33.735 Generic:201 - Successfully Visibility  ----> Review Service Details
+[DEBUG] 2024-01-23 13:59:34.972 Generic:124 - Successfully Clicked  ----> Review Service Details
+[DEBUG] 2024-01-23 13:59:36.952 Generic:201 - Successfully Visibility  ----> Service Scheduled
+[DEBUG] 2024-01-23 13:59:37.762 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 13:59:38.652 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 13:59:43.556 Generic:201 - Successfully Visibility  ----> Service booked
+[DEBUG] 2024-01-23 13:59:44.331 Generic:201 - Successfully Visibility  ----> Service booked!
+[DEBUG] 2024-01-23 13:59:45.562 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 13:59:46.931 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 13:59:48.045 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 13:59:49.011 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 13:59:56.875 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 13:59:57.420 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 13:59:59.229 MyListeners:47 - [1;32mTC601_VALIDATEBOOKSERVICETESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 13:59:59.239 MyListeners:39 - [1;30mVALIDATESERVICERESCHEDULED - STARTS[0m
+[DEBUG] 2024-01-23 14:00:01.046 Generic:201 - Successfully Visibility  ----> Reschedule
+[DEBUG] 2024-01-23 14:00:02.417 Generic:124 - Successfully Clicked  ----> Reschedule
+[DEBUG] 2024-01-23 14:00:04.982 Generic:201 - Successfully Visibility  ----> Service Rescheduling
+[DEBUG] 2024-01-23 14:00:06.452 Generic:201 - Successfully Visibility  ----> Confirm
+[DEBUG] 2024-01-23 14:00:07.870 Generic:124 - Successfully Clicked  ----> Confirm
+[DEBUG] 2024-01-23 14:00:11.357 Generic:201 - Successfully Visibility  ----> Service rescheduled!
+[DEBUG] 2024-01-23 14:00:12.014 Generic:201 - Successfully Visibility  ----> Serial Number : 60201-03-RSRB-0124-222
+[DEBUG] 2024-01-23 14:00:12.920 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 14:00:14.172 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:00:15.185 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:00:16.202 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 14:00:23.900 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 14:00:24.467 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 14:00:24.678 MyListeners:57 - [1;31m[org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47), org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31), com.oneapp.test_suits.BookServiceTestCases.ValidateServiceRescheduled(BookServiceTestCases.java:162), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-23 14:00:25.291 MyListeners:73 - [1;31mVALIDATESERVICERESCHEDULED - FAILURE[0m
+[DEBUG] 2024-01-23 14:00:25.294 MyListeners:39 - [1;30mVALIDATESERVICECANCELLED - STARTS[0m
+[DEBUG] 2024-01-23 14:00:25.666 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 14:00:25.667 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 14:00:26.335 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 14:00:26.334
+[DEBUG] 2024-01-23 14:02:17.663 BaseClass:212 - Starting the Appium Service....
+2024-01-23 14:02:17.653
+--------------------------------------------------------------
+[INFO ] 2024-01-23 14:02:29.502 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 14:02:47.047 BaseClass:188 - 23922591-31b9-4962-9ffd-128dfad5ed44
+[DEBUG] 2024-01-23 14:02:47.077 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 14:02:54.871 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 14:02:54.892 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 14:02:56.267 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 14:02:56.294 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 14:02:56.513 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 14:03:00.127 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 14:03:00.736 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 14:03:05.131 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 14:03:12.903 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 14:03:14.122 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 14:03:23.554 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 14:03:24.985 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 14:03:27.235 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 14:03:28.377 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 14:03:35.350 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:03:35.795 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:03:36.071 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:03:38.577 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 14:03:40.190 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 14:03:42.379 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 14:03:43.010 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 14:03:46.820 Generic:201 - Successfully Visibility  ----> Select a Time
+[DEBUG] 2024-01-23 14:03:49.962 Generic:201 - Successfully Visibility  ----> Service Centre
+[DEBUG] 2024-01-23 14:03:51.097 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:03:52.247 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:03:55.325 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:03:55.860 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:03:57.000 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:03:57.464 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:04:00.657 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 14:04:05.165 Generic:110 - This element gets clicked ----> GOA
+[DEBUG] 2024-01-23 14:04:06.802 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:04:07.302 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:04:10.508 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 14:04:14.704 Generic:110 - This element gets clicked ----> BICHOLIM
+[DEBUG] 2024-01-23 14:04:17.550 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:04:18.203 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:04:31.377 Generic:201 - Successfully Visibility  ----> Customer Requests
+[DEBUG] 2024-01-23 14:04:32.981 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:04:34.485 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:04:37.123 Generic:201 - Successfully Visibility  ----> Additional Instructions
+[DEBUG] 2024-01-23 14:04:38.239 Generic:201 - Successfully Visibility  ----> Facing any other issues?
+[DEBUG] 2024-01-23 14:04:38.256 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 14:04:38.663 Generic:189 - Successfully enter value ----> 123912731!@#!@#ADASDASD
+[DEBUG] 2024-01-23 14:04:41.501 Generic:201 - Successfully Visibility  ----> Review Service Details
+[DEBUG] 2024-01-23 14:04:42.672 Generic:124 - Successfully Clicked  ----> Review Service Details
+[DEBUG] 2024-01-23 14:04:44.632 Generic:201 - Successfully Visibility  ----> Service Scheduled
+[DEBUG] 2024-01-23 14:04:45.326 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 14:04:46.049 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 14:04:50.399 Generic:201 - Successfully Visibility  ----> Service booked
+[DEBUG] 2024-01-23 14:04:51.251 Generic:201 - Successfully Visibility  ----> Service booked!
+[DEBUG] 2024-01-23 14:04:52.454 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 14:04:53.965 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:04:55.080 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:04:56.123 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 14:05:04.018 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 14:05:04.610 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 14:05:05.747 MyListeners:47 - [1;32mTC601_VALIDATEBOOKSERVICETESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 14:05:05.756 MyListeners:39 - [1;30mVALIDATESERVICERESCHEDULED - STARTS[0m
+[DEBUG] 2024-01-23 14:05:07.631 Generic:201 - Successfully Visibility  ----> Reschedule
+[DEBUG] 2024-01-23 14:05:09.061 Generic:124 - Successfully Clicked  ----> Reschedule
+[DEBUG] 2024-01-23 14:05:11.584 Generic:201 - Successfully Visibility  ----> Service Rescheduling
+[DEBUG] 2024-01-23 14:05:12.953 Generic:201 - Successfully Visibility  ----> Confirm
+[DEBUG] 2024-01-23 14:05:14.332 Generic:124 - Successfully Clicked  ----> Confirm
+[DEBUG] 2024-01-23 14:05:17.855 Generic:201 - Successfully Visibility  ----> Service rescheduled!
+[DEBUG] 2024-01-23 14:05:19.016 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 14:05:20.372 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:05:21.317 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:05:22.364 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 14:05:30.124 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 14:05:30.667 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 14:05:30.855 MyListeners:47 - [1;32mVALIDATESERVICERESCHEDULED - PASSED[0m
+[DEBUG] 2024-01-23 14:05:30.859 MyListeners:39 - [1;30mVALIDATESERVICECANCELLED - STARTS[0m
+[DEBUG] 2024-01-23 14:05:32.339 Generic:201 - Successfully Visibility  ----> BEHIND SIYA COMPLEX MAIN ROAD,BORDEM NORTH GOA BICHOLIM GOA 403504
+[DEBUG] 2024-01-23 14:05:33.630 Generic:124 - Successfully Clicked  ----> BEHIND SIYA COMPLEX MAIN ROAD,BORDEM NORTH GOA BICHOLIM GOA 403504
+[DEBUG] 2024-01-23 14:05:36.790 Generic:201 - Successfully Visibility  ----> Navigation
+[DEBUG] 2024-01-23 14:05:56.939 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source), com.oneapp.test_suits.BookServiceTestCases.ValidateServiceCancelled(BookServiceTestCases.java:173), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-23 14:05:57.744 MyListeners:73 - [1;31mVALIDATESERVICECANCELLED - FAILURE[0m
+[DEBUG] 2024-01-23 14:05:58.139 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 14:05:58.140 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 14:05:58.833 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 14:05:58.831
+[DEBUG] 2024-01-23 14:11:16.702 BaseClass:212 - Starting the Appium Service....
+2024-01-23 14:11:16.695
+--------------------------------------------------------------
+[INFO ] 2024-01-23 14:11:28.583 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 14:11:48.301 BaseClass:188 - 23f0da20-694a-4001-b6bc-df6488a62be6
+[DEBUG] 2024-01-23 14:11:48.363 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 14:11:56.333 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 14:11:56.386 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 14:11:58.157 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 14:11:58.169 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 14:11:58.359 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 14:12:01.510 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 14:12:02.249 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 14:12:07.519 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 14:12:15.777 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 14:12:17.503 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 14:12:26.266 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 14:12:27.803 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 14:12:30.163 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 14:12:31.340 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 14:12:38.459 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:12:39.000 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:12:39.410 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:12:42.014 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 14:12:43.782 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 14:12:46.015 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 14:12:46.650 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 14:12:50.295 Generic:201 - Successfully Visibility  ----> Select a Time
+[DEBUG] 2024-01-23 14:12:53.553 Generic:201 - Successfully Visibility  ----> Service Centre
+[DEBUG] 2024-01-23 14:12:54.735 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:12:55.916 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:12:59.425 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:13:00.034 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:13:01.272 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:13:01.782 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:13:05.008 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 14:13:09.649 Generic:110 - This element gets clicked ----> GOA
+[DEBUG] 2024-01-23 14:13:11.397 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:13:11.961 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:13:15.197 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 14:13:19.443 Generic:110 - This element gets clicked ----> BICHOLIM
+[DEBUG] 2024-01-23 14:13:22.269 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:13:22.981 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:13:36.125 Generic:201 - Successfully Visibility  ----> Customer Requests
+[DEBUG] 2024-01-23 14:13:37.774 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:13:39.340 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:13:41.986 Generic:201 - Successfully Visibility  ----> Additional Instructions
+[DEBUG] 2024-01-23 14:13:43.195 Generic:201 - Successfully Visibility  ----> Facing any other issues?
+[DEBUG] 2024-01-23 14:13:43.223 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 14:13:43.666 Generic:189 - Successfully enter value ----> 123912731!@#!@#ADASDASD
+[DEBUG] 2024-01-23 14:13:46.883 Generic:201 - Successfully Visibility  ----> Review Service Details
+[DEBUG] 2024-01-23 14:13:48.094 Generic:124 - Successfully Clicked  ----> Review Service Details
+[DEBUG] 2024-01-23 14:13:50.040 Generic:201 - Successfully Visibility  ----> Service Scheduled
+[DEBUG] 2024-01-23 14:13:50.814 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 14:13:51.610 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 14:13:57.846 Generic:201 - Successfully Visibility  ----> Service booked
+[DEBUG] 2024-01-23 14:13:59.229 Generic:201 - Successfully Visibility  ----> Service booked!
+[DEBUG] 2024-01-23 14:14:00.597 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 14:14:02.104 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:14:03.192 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:14:04.280 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 14:14:12.460 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 14:14:13.085 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 14:14:14.374 MyListeners:47 - [1;32mTC601_VALIDATEBOOKSERVICETESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 14:14:14.395 MyListeners:39 - [1;30mVALIDATESERVICERESCHEDULED - STARTS[0m
+[DEBUG] 2024-01-23 14:14:16.223 Generic:201 - Successfully Visibility  ----> Reschedule
+[DEBUG] 2024-01-23 14:14:17.658 Generic:124 - Successfully Clicked  ----> Reschedule
+[DEBUG] 2024-01-23 14:14:19.728 Generic:201 - Successfully Visibility  ----> Service Rescheduling
+[DEBUG] 2024-01-23 14:14:21.336 Generic:201 - Successfully Visibility  ----> Confirm
+[DEBUG] 2024-01-23 14:14:22.782 Generic:124 - Successfully Clicked  ----> Confirm
+[DEBUG] 2024-01-23 14:14:26.433 Generic:201 - Successfully Visibility  ----> Service rescheduled!
+[DEBUG] 2024-01-23 14:14:27.722 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 14:14:28.975 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:14:29.977 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:14:30.974 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 14:14:38.991 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 14:14:39.539 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 14:14:39.750 MyListeners:47 - [1;32mVALIDATESERVICERESCHEDULED - PASSED[0m
+[DEBUG] 2024-01-23 14:14:39.757 MyListeners:39 - [1;30mVALIDATESERVICECANCELLED - STARTS[0m
+[DEBUG] 2024-01-23 14:14:41.914 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-23 14:14:43.240 Generic:124 - Successfully Clicked  ----> Cancel Service
+[DEBUG] 2024-01-23 14:14:44.833 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285), io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45), io.appium.java_client.MobileElement.execute(MobileElement.java:1), io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1), org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166), jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51), jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source), com.oneapp.test_suits.BookServiceTestCases.ValidateServiceCancelled(BookServiceTestCases.java:170), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-23 14:14:45.476 MyListeners:73 - [1;31mVALIDATESERVICECANCELLED - FAILURE[0m
+[DEBUG] 2024-01-23 14:14:45.992 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 14:14:45.992 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 14:14:46.918 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 14:14:46.918
+[DEBUG] 2024-01-23 14:20:16.308 BaseClass:212 - Starting the Appium Service....
+2024-01-23 14:20:16.299
+--------------------------------------------------------------
+[INFO ] 2024-01-23 14:20:28.143 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 14:20:47.665 BaseClass:188 - 4909aa34-aa1c-48dc-a964-5769907f348d
+[DEBUG] 2024-01-23 14:20:47.723 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 14:20:55.310 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 14:20:55.331 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 14:20:56.704 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 14:20:56.738 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 14:20:56.973 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 14:21:00.787 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 14:21:01.480 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 14:21:06.531 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 14:21:14.763 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 14:21:16.554 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 14:21:33.920 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 14:21:35.482 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 14:21:37.795 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 14:21:39.072 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 14:21:49.945 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:21:50.468 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:21:50.868 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:21:53.387 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 14:21:55.095 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 14:21:57.229 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 14:21:57.888 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 14:22:01.716 Generic:201 - Successfully Visibility  ----> Select a Time
+[DEBUG] 2024-01-23 14:22:05.093 Generic:201 - Successfully Visibility  ----> Service Centre
+[DEBUG] 2024-01-23 14:22:06.173 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:22:07.374 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:22:09.969 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:22:11.760 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:22:13.083 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:22:13.612 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:22:16.813 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 14:22:21.398 Generic:110 - This element gets clicked ----> GOA
+[DEBUG] 2024-01-23 14:22:23.152 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:22:23.700 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:22:26.937 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 14:22:31.133 Generic:110 - This element gets clicked ----> BICHOLIM
+[DEBUG] 2024-01-23 14:22:33.907 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:22:34.609 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:22:47.742 Generic:201 - Successfully Visibility  ----> Customer Requests
+[DEBUG] 2024-01-23 14:22:49.305 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 14:22:50.904 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 14:22:53.596 Generic:201 - Successfully Visibility  ----> Additional Instructions
+[DEBUG] 2024-01-23 14:22:54.780 Generic:201 - Successfully Visibility  ----> Facing any other issues?
+[DEBUG] 2024-01-23 14:22:54.795 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 14:22:55.212 Generic:189 - Successfully enter value ----> 123912731!@#!@#ADASDASD
+[DEBUG] 2024-01-23 14:22:58.073 Generic:201 - Successfully Visibility  ----> Review Service Details
+[DEBUG] 2024-01-23 14:22:59.921 Generic:124 - Successfully Clicked  ----> Review Service Details
+[DEBUG] 2024-01-23 14:23:01.883 Generic:201 - Successfully Visibility  ----> Service Scheduled
+[DEBUG] 2024-01-23 14:23:02.634 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 14:23:03.407 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 14:23:10.807 Generic:201 - Successfully Visibility  ----> Service booked
+[DEBUG] 2024-01-23 14:23:11.696 Generic:201 - Successfully Visibility  ----> Service booked!
+[DEBUG] 2024-01-23 14:23:12.994 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 14:23:14.418 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:23:15.464 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:23:16.547 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 14:23:24.953 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 14:23:29.349 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 14:23:30.885 MyListeners:47 - [1;32mTC601_VALIDATEBOOKSERVICETESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 14:23:30.897 MyListeners:39 - [1;30mVALIDATESERVICERESCHEDULED - STARTS[0m
+[DEBUG] 2024-01-23 14:23:32.699 Generic:201 - Successfully Visibility  ----> Reschedule
+[DEBUG] 2024-01-23 14:23:34.062 Generic:124 - Successfully Clicked  ----> Reschedule
+[DEBUG] 2024-01-23 14:23:36.123 Generic:201 - Successfully Visibility  ----> Service Rescheduling
+[DEBUG] 2024-01-23 14:23:37.776 Generic:201 - Successfully Visibility  ----> Confirm
+[DEBUG] 2024-01-23 14:23:39.157 Generic:124 - Successfully Clicked  ----> Confirm
+[DEBUG] 2024-01-23 14:23:58.056 Generic:201 - Successfully Visibility  ----> Service rescheduled!
+[DEBUG] 2024-01-23 14:23:59.825 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 14:24:01.179 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:24:02.159 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 14:24:03.165 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 14:24:11.333 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 14:24:20.278 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 14:24:20.800 MyListeners:47 - [1;32mVALIDATESERVICERESCHEDULED - PASSED[0m
+[DEBUG] 2024-01-23 14:24:20.806 MyListeners:39 - [1;30mVALIDATESERVICECANCELLED - STARTS[0m
+[DEBUG] 2024-01-23 14:24:22.585 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-23 14:24:23.924 Generic:124 - Successfully Clicked  ----> Cancel Service
+[DEBUG] 2024-01-23 14:24:25.795 Generic:201 - Successfully Visibility  ----> Cancel Service?
+[DEBUG] 2024-01-23 14:24:26.238 Generic:201 - Successfully Visibility  ----> Are you sure you want to cancel this 
+service?
+[DEBUG] 2024-01-23 14:24:27.049 Generic:201 - Successfully Visibility  ----> No
+[DEBUG] 2024-01-23 14:24:27.842 Generic:201 - Successfully Visibility  ----> Yes
+[DEBUG] 2024-01-23 14:24:28.404 Generic:201 - Successfully Visibility  ----> No
+[DEBUG] 2024-01-23 14:24:29.030 Generic:124 - Successfully Clicked  ----> No
+[DEBUG] 2024-01-23 14:24:31.528 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-23 14:24:32.815 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 14:24:34.097 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 14:24:36.297 Generic:201 - Successfully Visibility  ----> Vehicle Service
+[DEBUG] 2024-01-23 14:24:37.944 Generic:201 - Successfully Visibility  ----> DESTINI 125
+[DEBUG] 2024-01-23 14:25:39.277 Generic:204 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/iv_close' (tried for 25 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-23 14:27:00.349 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy29.getWrappedElement(Unknown Source), org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50), java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197), java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992), java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509), java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499), java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921), java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234), java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682), org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484), com.oneapp.utils.Generic.clickOnWebElement(Generic.java:129), com.oneapp.pageobjects.CancelServiceWindow_Page_Object.clickOnCloseIcon(CancelServiceWindow_Page_Object.java:57), com.oneapp.test_suits.BookServiceTestCases.ValidateServiceCancelled(BookServiceTestCases.java:194), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-23 14:27:03.195 MyListeners:73 - [1;31mVALIDATESERVICECANCELLED - FAILURE[0m
+[DEBUG] 2024-01-23 14:27:03.686 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 14:27:03.687 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 14:27:04.326 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 14:27:04.325
+[DEBUG] 2024-01-23 15:06:58.525 BaseClass:212 - Starting the Appium Service....
+2024-01-23 15:06:58.511
+--------------------------------------------------------------
+[INFO ] 2024-01-23 15:07:10.666 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 15:07:30.202 BaseClass:188 - 5e26ec2b-d34b-46e4-9c23-d12a592d52be
+[DEBUG] 2024-01-23 15:07:30.246 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 15:07:37.744 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:07:37.784 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:07:39.505 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:07:39.521 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:07:39.731 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 15:07:42.505 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:07:43.204 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:07:47.408 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 15:07:55.604 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 15:07:56.809 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 15:08:04.860 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 15:08:06.547 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 15:08:08.957 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:08:10.206 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:08:17.055 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:08:17.501 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:08:17.931 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:08:20.560 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 15:08:22.343 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 15:08:24.483 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 15:08:25.179 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 15:08:28.908 Generic:201 - Successfully Visibility  ----> Select a Time
+[DEBUG] 2024-01-23 15:08:32.380 Generic:201 - Successfully Visibility  ----> Service Centre
+[DEBUG] 2024-01-23 15:08:33.686 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:08:34.941 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:08:37.927 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:08:38.412 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:08:39.548 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:08:40.033 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:08:43.262 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:08:47.932 Generic:110 - This element gets clicked ----> GOA
+[DEBUG] 2024-01-23 15:08:49.853 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:08:50.447 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:08:53.712 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:08:57.991 Generic:110 - This element gets clicked ----> BICHOLIM
+[DEBUG] 2024-01-23 15:09:00.437 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:09:01.095 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:09:14.289 Generic:201 - Successfully Visibility  ----> Customer Requests
+[DEBUG] 2024-01-23 15:09:15.955 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:09:17.632 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:09:20.446 Generic:201 - Successfully Visibility  ----> Additional Instructions
+[DEBUG] 2024-01-23 15:09:21.670 Generic:201 - Successfully Visibility  ----> Facing any other issues?
+[DEBUG] 2024-01-23 15:09:21.681 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:09:22.093 Generic:189 - Successfully enter value ----> 123912731!@#!@#ADASDASD
+[DEBUG] 2024-01-23 15:09:25.384 Generic:201 - Successfully Visibility  ----> Review Service Details
+[DEBUG] 2024-01-23 15:09:26.727 Generic:124 - Successfully Clicked  ----> Review Service Details
+[DEBUG] 2024-01-23 15:09:28.780 Generic:201 - Successfully Visibility  ----> Service Scheduled
+[DEBUG] 2024-01-23 15:09:29.560 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 15:09:30.292 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 15:09:34.459 Generic:201 - Successfully Visibility  ----> Service booked
+[DEBUG] 2024-01-23 15:09:35.286 Generic:201 - Successfully Visibility  ----> Service booked!
+[DEBUG] 2024-01-23 15:09:36.655 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 15:09:38.093 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:09:39.049 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:09:39.932 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 15:09:48.067 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 15:09:48.695 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 15:09:49.826 MyListeners:47 - [1;32mTC601_VALIDATEBOOKSERVICETESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 15:09:49.842 MyListeners:39 - [1;30mVALIDATESERVICERESCHEDULED - STARTS[0m
+[DEBUG] 2024-01-23 15:09:51.818 Generic:201 - Successfully Visibility  ----> Reschedule
+[DEBUG] 2024-01-23 15:09:53.241 Generic:124 - Successfully Clicked  ----> Reschedule
+[DEBUG] 2024-01-23 15:09:55.679 Generic:201 - Successfully Visibility  ----> Service Rescheduling
+[DEBUG] 2024-01-23 15:09:57.231 Generic:201 - Successfully Visibility  ----> Confirm
+[DEBUG] 2024-01-23 15:09:59.051 Generic:124 - Successfully Clicked  ----> Confirm
+[DEBUG] 2024-01-23 15:10:02.593 Generic:201 - Successfully Visibility  ----> Service rescheduled!
+[DEBUG] 2024-01-23 15:10:03.784 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 15:10:05.164 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:10:06.149 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:10:07.145 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 15:10:15.104 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 15:10:15.687 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 15:10:15.904 MyListeners:47 - [1;32mVALIDATESERVICERESCHEDULED - PASSED[0m
+[DEBUG] 2024-01-23 15:10:15.909 MyListeners:39 - [1;30mVALIDATESERVICECANCELLED - STARTS[0m
+[DEBUG] 2024-01-23 15:10:17.824 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-23 15:10:19.171 Generic:124 - Successfully Clicked  ----> Cancel Service
+[DEBUG] 2024-01-23 15:10:21.000 Generic:201 - Successfully Visibility  ----> Cancel Service?
+[DEBUG] 2024-01-23 15:10:21.394 Generic:201 - Successfully Visibility  ----> Are you sure you want to cancel this 
+service?
+[DEBUG] 2024-01-23 15:10:22.288 Generic:201 - Successfully Visibility  ----> No
+[DEBUG] 2024-01-23 15:10:23.174 Generic:201 - Successfully Visibility  ----> Yes
+[DEBUG] 2024-01-23 15:10:23.904 Generic:201 - Successfully Visibility  ----> No
+[DEBUG] 2024-01-23 15:10:24.569 Generic:124 - Successfully Clicked  ----> No
+[DEBUG] 2024-01-23 15:10:26.837 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-23 15:10:28.207 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-23 15:10:29.533 Generic:124 - Successfully Clicked  ----> Cancel Service
+[DEBUG] 2024-01-23 15:10:31.330 Generic:201 - Successfully Visibility  ----> Yes
+[DEBUG] 2024-01-23 15:10:31.929 Generic:124 - Successfully Clicked  ----> Yes
+[DEBUG] 2024-01-23 15:10:33.323 Generic:201 - Successfully Visibility  ----> Cancel Service?
+[DEBUG] 2024-01-23 15:10:35.018 Generic:201 - Successfully Visibility  ----> Your service has been cancelled
+[DEBUG] 2024-01-23 15:10:35.314 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:10:35.607 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:10:38.740 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 15:10:43.405 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 15:10:45.371 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 15:10:46.617 Generic:201 - Successfully Visibility  ----> Home
+[DEBUG] 2024-01-23 15:10:47.883 Generic:124 - Successfully Clicked  ----> Home
+[DEBUG] 2024-01-23 15:10:49.272 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:10:49.787 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:10:58.210 MyListeners:57 - [1;31m[com.oneapp.test_suits.BookServiceTestCases.LoggingOut(BookServiceTestCases.java:215), com.oneapp.test_suits.BookServiceTestCases.ValidateServiceCancelled(BookServiceTestCases.java:205), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-23 15:10:58.869 MyListeners:73 - [1;31mVALIDATESERVICECANCELLED - FAILURE[0m
+[DEBUG] 2024-01-23 15:10:59.275 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 15:10:59.276 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 15:11:00.309 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 15:11:00.309
+[DEBUG] 2024-01-23 15:26:21.073 BaseClass:212 - Starting the Appium Service....
+2024-01-23 15:26:21.065
+--------------------------------------------------------------
+[INFO ] 2024-01-23 15:26:31.250 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 15:26:47.981 BaseClass:188 - dedeb6dc-39bb-42b0-b690-3ce1b4419dbe
+[DEBUG] 2024-01-23 15:26:48.041 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 15:26:55.660 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:26:55.716 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:26:57.623 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:26:57.640 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:26:57.892 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 15:27:01.117 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:27:02.502 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:27:06.752 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 15:27:15.852 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 15:27:17.571 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 15:27:25.397 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 15:27:27.055 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 15:27:29.519 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:27:30.911 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:27:38.002 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:27:38.677 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:27:39.212 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:27:41.951 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 15:27:43.767 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 15:27:46.328 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 15:27:47.075 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 15:27:51.485 Generic:201 - Successfully Visibility  ----> Select a Time
+[DEBUG] 2024-01-23 15:27:55.035 Generic:201 - Successfully Visibility  ----> Service Centre
+[DEBUG] 2024-01-23 15:27:56.448 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:27:57.884 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:28:01.187 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:28:01.823 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:28:03.177 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:28:03.741 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:28:06.949 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:28:11.772 Generic:110 - This element gets clicked ----> GOA
+[DEBUG] 2024-01-23 15:28:13.524 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:28:14.161 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:28:17.401 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:28:21.701 Generic:110 - This element gets clicked ----> BICHOLIM
+[DEBUG] 2024-01-23 15:28:24.397 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:28:25.202 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:28:38.655 Generic:201 - Successfully Visibility  ----> Customer Requests
+[DEBUG] 2024-01-23 15:28:40.321 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:28:42.073 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:28:44.904 Generic:201 - Successfully Visibility  ----> Additional Instructions
+[DEBUG] 2024-01-23 15:28:46.258 Generic:201 - Successfully Visibility  ----> Facing any other issues?
+[DEBUG] 2024-01-23 15:28:46.291 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:28:46.737 Generic:189 - Successfully enter value ----> 123912731!@#!@#ADASDASD
+[DEBUG] 2024-01-23 15:28:50.036 Generic:201 - Successfully Visibility  ----> Review Service Details
+[DEBUG] 2024-01-23 15:28:51.392 Generic:124 - Successfully Clicked  ----> Review Service Details
+[DEBUG] 2024-01-23 15:28:53.500 Generic:201 - Successfully Visibility  ----> Service Scheduled
+[DEBUG] 2024-01-23 15:28:54.446 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 15:28:55.281 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-23 15:28:59.702 Generic:201 - Successfully Visibility  ----> Service booked
+[DEBUG] 2024-01-23 15:29:00.611 Generic:201 - Successfully Visibility  ----> Service booked!
+[DEBUG] 2024-01-23 15:29:01.917 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 15:29:03.558 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:29:04.818 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:29:05.891 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 15:29:13.998 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 15:29:14.704 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 15:29:15.910 MyListeners:47 - [1;32mTC601_VALIDATEBOOKSERVICETESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 15:29:15.922 MyListeners:39 - [1;30mVALIDATESERVICERESCHEDULED - STARTS[0m
+[DEBUG] 2024-01-23 15:29:17.921 Generic:201 - Successfully Visibility  ----> Reschedule
+[DEBUG] 2024-01-23 15:29:19.488 Generic:124 - Successfully Clicked  ----> Reschedule
+[DEBUG] 2024-01-23 15:29:22.155 Generic:201 - Successfully Visibility  ----> Service Rescheduling
+[DEBUG] 2024-01-23 15:29:23.562 Generic:201 - Successfully Visibility  ----> Confirm
+[DEBUG] 2024-01-23 15:29:24.990 Generic:124 - Successfully Clicked  ----> Confirm
+[DEBUG] 2024-01-23 15:29:28.526 Generic:201 - Successfully Visibility  ----> Service rescheduled!
+[DEBUG] 2024-01-23 15:29:29.887 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-23 15:29:31.291 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:29:32.372 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:29:33.482 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 15:29:41.589 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 15:29:42.233 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 15:29:42.412 MyListeners:47 - [1;32mVALIDATESERVICERESCHEDULED - PASSED[0m
+[DEBUG] 2024-01-23 15:29:42.415 MyListeners:39 - [1;30mVALIDATESERVICECANCELLED - STARTS[0m
+[DEBUG] 2024-01-23 15:29:44.208 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-23 15:29:45.628 Generic:124 - Successfully Clicked  ----> Cancel Service
+[DEBUG] 2024-01-23 15:29:47.525 Generic:201 - Successfully Visibility  ----> Cancel Service?
+[DEBUG] 2024-01-23 15:29:48.055 Generic:201 - Successfully Visibility  ----> Are you sure you want to cancel this 
+service?
+[DEBUG] 2024-01-23 15:29:49.012 Generic:201 - Successfully Visibility  ----> No
+[DEBUG] 2024-01-23 15:29:49.943 Generic:201 - Successfully Visibility  ----> Yes
+[DEBUG] 2024-01-23 15:29:50.644 Generic:201 - Successfully Visibility  ----> No
+[DEBUG] 2024-01-23 15:29:51.402 Generic:124 - Successfully Clicked  ----> No
+[DEBUG] 2024-01-23 15:29:54.020 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-23 15:29:55.489 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-23 15:29:56.815 Generic:124 - Successfully Clicked  ----> Cancel Service
+[DEBUG] 2024-01-23 15:29:59.327 Generic:201 - Successfully Visibility  ----> Yes
+[DEBUG] 2024-01-23 15:30:00.047 Generic:124 - Successfully Clicked  ----> Yes
+[DEBUG] 2024-01-23 15:30:03.823 Generic:201 - Successfully Visibility  ----> Service Cancelled
+[DEBUG] 2024-01-23 15:30:04.542 Generic:201 - Successfully Visibility  ----> Your service has been cancelled
+[DEBUG] 2024-01-23 15:30:04.913 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:30:05.324 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:30:10.813 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-23 15:30:12.270 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-23 15:30:14.300 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-23 15:30:15.635 Generic:201 - Successfully Visibility  ----> Home
+[DEBUG] 2024-01-23 15:30:16.976 Generic:124 - Successfully Clicked  ----> Home
+[DEBUG] 2024-01-23 15:30:18.492 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:30:18.989 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:30:28.572 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-23 15:30:29.667 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-23 15:30:31.246 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-23 15:30:31.692 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-23 15:30:34.102 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-23 15:30:35.386 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-23 15:30:35.413 MyListeners:47 - [1;32mVALIDATESERVICECANCELLED - PASSED[0m
+[DEBUG] 2024-01-23 15:30:35.822 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 15:30:35.823 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 15:31:46.615 BaseClass:212 - Starting the Appium Service....
+2024-01-23 15:31:46.606
+--------------------------------------------------------------
+[INFO ] 2024-01-23 15:31:56.738 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 15:32:30.465 BaseClass:212 - Starting the Appium Service....
+2024-01-23 15:32:30.434
+--------------------------------------------------------------
+[DEBUG] 2024-01-23 15:33:11.269 BaseClass:212 - Starting the Appium Service....
+2024-01-23 15:33:11.262
+--------------------------------------------------------------
+[INFO ] 2024-01-23 15:33:23.444 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 15:33:42.151 BaseClass:188 - ccbb4bf8-a1ec-4e6a-9cc3-d25d567c3221
+[DEBUG] 2024-01-23 15:33:42.226 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 15:33:49.906 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-23 15:33:59.931 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-23 15:34:01.294 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:34:01.311 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:34:03.223 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:34:03.236 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:34:03.488 Generic:189 - Successfully enter value ----> 88009966
+[DEBUG] 2024-01-23 15:34:06.869 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:34:07.577 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:35:09.154 Generic:204 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@text='Verify with OTP']' (tried for 25 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-23 15:36:39.738 BaseClass:212 - Starting the Appium Service....
+2024-01-23 15:36:39.724
+--------------------------------------------------------------
+[INFO ] 2024-01-23 15:36:52.275 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 15:37:15.335 BaseClass:188 - a3501459-ef4c-41c9-bbd6-788aa2a96c93
+[DEBUG] 2024-01-23 15:37:15.381 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 15:37:22.899 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-23 15:37:32.707 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-23 15:37:34.072 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:37:34.090 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:37:35.795 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:37:35.802 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:37:36.099 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 15:37:38.873 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:37:39.987 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:37:43.898 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 15:37:46.117 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:37:47.180 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:37:47.362 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 15:37:47.364 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 15:37:48.410 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-23 15:37:57.838 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-23 15:37:59.793 Generic:201 - Successfully Visibility  ----> 8800996677
+[DEBUG] 2024-01-23 15:37:59.803 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:38:01.162 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:38:01.189 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:38:01.953 Generic:189 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-01-23 15:38:04.335 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:38:04.952 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:38:06.784 Generic:201 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-23 15:38:07.804 Generic:201 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-01-23 15:38:08.294 Generic:201 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-23 15:38:08.971 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:38:09.783 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:38:09.913 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 15:38:09.921 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 15:38:11.128 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-23 15:38:20.612 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-23 15:38:21.996 Generic:201 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-01-23 15:38:22.007 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:38:23.903 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:38:23.922 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:38:24.149 Generic:189 - Successfully enter value ----> 666660000
+[DEBUG] 2024-01-23 15:38:26.374 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:38:26.973 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:38:28.327 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-23 15:38:28.525 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 15:38:28.881 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 15:38:28.882 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 15:38:30.009 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 15:38:30.007
+[DEBUG] 2024-01-23 15:38:30.105 BaseClass:212 - Starting the Appium Service....
+2024-01-23 15:38:30.104
+--------------------------------------------------------------
+[INFO ] 2024-01-23 15:38:42.878 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 15:39:00.907 BaseClass:188 - bab40054-b7bb-4e60-9bb1-0f2cea56b022
+[DEBUG] 2024-01-23 15:39:00.910 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 15:39:08.505 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:39:08.529 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:39:09.986 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:39:09.994 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:39:10.192 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 15:39:13.681 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:39:14.301 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:39:17.234 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 15:39:21.257 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 15:39:29.899 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 15:39:31.194 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 15:39:40.067 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 15:39:41.591 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 15:39:43.914 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:39:45.084 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:39:51.981 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:39:52.559 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:39:52.935 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:39:54.764 Generic:201 - Successfully Visibility  ----> Edit List
+[DEBUG] 2024-01-23 15:39:55.455 Generic:124 - Successfully Clicked  ----> Edit List
+[DEBUG] 2024-01-23 15:39:57.100 Generic:201 - Successfully Visibility  ----> Save List
+[DEBUG] 2024-01-23 15:39:57.858 Generic:124 - Successfully Clicked  ----> Save List
+[DEBUG] 2024-01-23 15:39:59.406 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:39:59.949 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:40:01.540 Generic:204 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//android.view.ViewGroup//android.widget.TextView)[1]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.28.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bab40054-b7bb-4e60-9bb1-0f2cea56b022[0m
+[DEBUG] 2024-01-23 15:40:03.181 Generic:201 - Successfully Visibility  ----> You are using
+[DEBUG] 2024-01-23 15:40:04.749 Generic:201 - Successfully Visibility  ----> Vehicle Details
+[DEBUG] 2024-01-23 15:40:06.276 Generic:201 - Successfully Visibility  ----> Wheels of Trust
+[DEBUG] 2024-01-23 15:40:07.805 Generic:201 - Successfully Visibility  ----> Joyride
+[DEBUG] 2024-01-23 15:40:17.121 Generic:201 - Successfully Visibility  ----> App Ver 9.1.9
+[DEBUG] 2024-01-23 15:40:18.594 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-23 15:40:19.803 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-23 15:40:21.399 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-23 15:40:22.342 Generic:201 - Successfully Visibility  ----> Are you sure to logout?
+[DEBUG] 2024-01-23 15:40:22.938 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-23 15:40:23.381 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-23 15:40:25.777 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-23 15:40:25.945 MyListeners:47 - [1;32mTC101_VALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 15:40:26.424 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 15:40:26.424 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 15:40:26.549 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 15:40:26.549
+[DEBUG] 2024-01-23 15:40:26.561 BaseClass:212 - Starting the Appium Service....
+2024-01-23 15:40:26.561
+--------------------------------------------------------------
+[INFO ] 2024-01-23 15:40:38.677 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 15:40:56.303 BaseClass:188 - 31215e88-eb3e-481a-879e-95931f13a138
+[DEBUG] 2024-01-23 15:40:56.307 MyListeners:39 - [1;30mTC501_VALIDATESENDSOSALERTMESSAGESENDTESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 15:41:03.924 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:41:03.983 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:41:05.290 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:41:05.314 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:41:05.495 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 15:41:07.943 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:41:09.210 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:41:12.147 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 15:41:19.855 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 15:41:21.063 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 15:41:28.463 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 15:41:30.298 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 15:41:32.701 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:41:33.965 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:41:40.775 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:41:41.372 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:41:41.707 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:41:43.033 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:41:43.540 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:41:45.422 Generic:201 - Successfully Visibility  ----> Panic Alert!
+[DEBUG] 2024-01-23 15:41:46.330 Generic:201 - Successfully Visibility  ----> We have sent an SMS to emergency contact.
+[DEBUG] 2024-01-23 15:41:47.242 Generic:201 - Successfully Visibility  ----> I'm safe
+[DEBUG] 2024-01-23 15:41:48.238 Generic:201 - Successfully Visibility  ----> Send Alert Now
+[DEBUG] 2024-01-23 15:41:48.653 Generic:124 - Successfully Clicked  ----> Send Alert Now
+[DEBUG] 2024-01-23 15:41:51.888 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-23 15:41:55.517 MyListeners:47 - [1;32mTC501_VALIDATESENDSOSALERTMESSAGESENDTESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 15:41:55.529 MyListeners:39 - [1;30mTC502_VALIDATEDONTSENTLINKTESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 15:41:55.972 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:41:56.491 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:41:58.290 Generic:201 - Successfully Visibility  ----> Don't send. 
+[DEBUG] 2024-01-23 15:42:03.082 Generic:84 - Tap action performs succesfully
+[DEBUG] 2024-01-23 15:42:07.962 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-23 15:42:08.518 MyListeners:47 - [1;32mTC502_VALIDATEDONTSENTLINKTESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 15:42:08.520 MyListeners:39 - [1;30mTC503_VALIDATECLOSEICONTESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 15:42:09.074 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:42:09.516 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:42:13.742 Generic:84 - Tap action performs succesfully
+[DEBUG] 2024-01-23 15:42:18.474 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-23 15:42:18.990 MyListeners:47 - [1;32mTC503_VALIDATECLOSEICONTESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 15:42:19.471 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 15:42:19.472 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 15:42:19.594 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 15:42:19.594
+[DEBUG] 2024-01-23 15:42:19.602 BaseClass:212 - Starting the Appium Service....
+2024-01-23 15:42:19.601
+--------------------------------------------------------------
+[INFO ] 2024-01-23 15:42:31.957 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 15:42:49.889 BaseClass:188 - 2bde8ee9-4053-4893-8bba-3383088e7dd7
+[DEBUG] 2024-01-23 15:42:49.896 MyListeners:39 - [1;30mTC901_VALIDATEVALIDREFERTOFRIEND - STARTS[0m
+[DEBUG] 2024-01-23 15:42:57.619 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:42:57.667 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:42:59.573 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:42:59.580 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:43:00.402 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 15:43:02.890 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:43:03.545 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:43:07.737 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 15:43:15.693 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 15:43:17.393 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 15:43:24.536 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 15:43:26.408 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 15:43:28.712 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:43:29.912 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:43:36.322 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:43:36.872 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:43:37.467 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:43:39.510 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:43:40.041 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:43:42.660 Generic:201 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-23 15:43:43.853 Generic:124 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-23 15:43:47.681 Generic:201 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-23 15:43:47.714 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:43:48.306 Generic:189 - Successfully enter value ----> Randhir Kumar
+[DEBUG] 2024-01-23 15:43:52.158 Generic:201 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-23 15:43:52.171 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:43:52.765 Generic:189 - Successfully enter value ----> 8505803061
+[DEBUG] 2024-01-23 15:43:56.062 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:43:57.469 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:44:15.343 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:44:19.796 Generic:110 - This element gets clicked ----> PUNJAB
+[DEBUG] 2024-01-23 15:44:22.251 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:44:23.461 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:44:41.398 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:44:45.666 Generic:110 - This element gets clicked ----> BEAS
+[DEBUG] 2024-01-23 15:44:47.713 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:44:48.923 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:44:52.352 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:44:56.631 Generic:110 - This element gets clicked ----> Duet
+[DEBUG] 2024-01-23 15:44:59.038 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:45:00.293 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 15:45:10.643 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-23 15:45:11.652 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:45:12.194 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:45:21.590 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-23 15:45:22.617 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-23 15:45:24.141 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-23 15:45:24.561 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-23 15:45:26.918 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-23 15:45:27.152 MyListeners:47 - [1;32mTC901_VALIDATEVALIDREFERTOFRIEND - PASSED[0m
+[DEBUG] 2024-01-23 15:45:27.157 MyListeners:39 - [1;30mTC901_VALIDATEVALIDREFERTOFRIEND - STARTS[0m
+[DEBUG] 2024-01-23 15:45:28.281 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:45:28.306 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:45:30.611 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:45:30.635 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:45:30.848 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 15:45:34.082 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:45:34.702 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:45:38.323 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 15:45:46.318 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 15:45:47.452 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 15:45:53.299 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 15:45:54.542 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 15:45:56.610 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:45:57.617 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:46:03.106 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:46:03.557 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:46:03.935 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:46:05.179 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:46:05.658 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:46:08.202 Generic:201 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-23 15:46:09.264 Generic:124 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-23 15:46:12.795 Generic:201 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-23 15:46:12.813 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:46:13.348 Generic:189 - Successfully enter value ----> Randhir
+[DEBUG] 2024-01-23 15:46:16.756 Generic:201 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-23 15:46:16.771 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:46:17.261 Generic:189 - Successfully enter value ----> 8800996768
+[DEBUG] 2024-01-23 15:46:19.725 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:46:20.795 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:46:38.592 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:46:43.057 Generic:110 - This element gets clicked ----> SIKKIM
+[DEBUG] 2024-01-23 15:46:45.273 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:46:46.343 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:46:57.848 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:47:02.411 Generic:110 - This element gets clicked ----> PELLING
+[DEBUG] 2024-01-23 15:47:04.282 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:47:05.399 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:47:08.827 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:47:13.183 Generic:110 - This element gets clicked ----> HF 100
+[DEBUG] 2024-01-23 15:47:15.079 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:47:16.214 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 15:47:26.017 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-23 15:47:26.897 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:47:27.336 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:47:36.833 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-23 15:47:37.855 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-23 15:47:39.350 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-23 15:47:39.796 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-23 15:47:42.052 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-23 15:47:42.233 MyListeners:47 - [1;32mTC901_VALIDATEVALIDREFERTOFRIEND - PASSED[0m
+[DEBUG] 2024-01-23 15:47:42.235 MyListeners:39 - [1;30mTC901_VALIDATEVALIDREFERTOFRIEND - STARTS[0m
+[DEBUG] 2024-01-23 15:47:43.272 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:47:43.292 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:47:45.418 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 15:47:45.436 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:47:45.608 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 15:47:48.236 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:47:49.253 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:47:52.869 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 15:48:00.108 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 15:48:01.114 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 15:48:06.470 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 15:48:07.722 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 15:48:10.076 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 15:48:10.981 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 15:48:16.546 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:48:17.000 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:48:17.342 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:48:18.525 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:48:18.877 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:48:21.108 Generic:201 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-23 15:48:22.189 Generic:124 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-23 15:48:25.887 Generic:201 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-23 15:48:25.899 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:48:26.379 Generic:189 - Successfully enter value ----> Randhir
+[DEBUG] 2024-01-23 15:48:29.679 Generic:201 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-23 15:48:29.698 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 15:48:30.180 Generic:189 - Successfully enter value ----> 9891803084
+[DEBUG] 2024-01-23 15:48:33.169 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:48:34.193 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:48:49.405 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:48:53.596 Generic:110 - This element gets clicked ----> HARYANA
+[DEBUG] 2024-01-23 15:48:55.837 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:48:56.912 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:49:24.633 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:49:29.277 Generic:110 - This element gets clicked ----> KARNAL
+[DEBUG] 2024-01-23 15:49:31.045 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:49:32.065 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:49:49.648 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-23 15:49:54.151 Generic:110 - This element gets clicked ----> Xpulse 200
+[DEBUG] 2024-01-23 15:49:56.088 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-23 15:49:57.184 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-23 15:50:06.935 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-23 15:50:07.855 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 15:50:08.298 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 15:50:17.772 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-23 15:50:18.829 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-23 15:50:20.275 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-23 15:50:20.647 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-23 15:50:22.940 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-23 15:50:23.103 MyListeners:47 - [1;32mTC901_VALIDATEVALIDREFERTOFRIEND - PASSED[0m
+[DEBUG] 2024-01-23 15:50:23.564 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 15:50:23.565 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 15:50:23.687 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 15:50:23.687
+[DEBUG] 2024-01-23 16:48:56.425 BaseClass:212 - Starting the Appium Service....
+2024-01-23 16:48:56.415
+--------------------------------------------------------------
+[INFO ] 2024-01-23 16:49:08.553 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-23 16:49:27.808 BaseClass:188 - d8bd45e5-3142-4d03-949b-97d782237c0e
+[DEBUG] 2024-01-23 16:49:27.850 MyListeners:39 - [1;30mTC201_VALIDATEVALIDPROFILEDETAILSTESTCASE - STARTS[0m
+[DEBUG] 2024-01-23 16:49:35.422 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 16:49:35.449 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 16:49:36.723 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-23 16:49:36.738 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 16:49:36.920 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-23 16:49:38.797 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 16:49:39.372 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 16:49:43.375 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-23 16:49:51.615 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-23 16:49:53.407 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-23 16:50:01.389 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-23 16:50:02.806 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-23 16:50:04.991 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-23 16:50:06.120 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-23 16:50:15.847 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 16:50:16.326 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 16:50:16.710 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 16:50:18.018 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 16:50:18.480 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 16:50:20.329 Generic:201 - Successfully Visibility  ----> My Profile
+[DEBUG] 2024-01-23 16:50:20.845 Generic:124 - Successfully Clicked  ----> My Profile
+[DEBUG] 2024-01-23 16:50:23.432 Generic:201 - Successfully Visibility  ----> More details
+[DEBUG] 2024-01-23 16:50:24.225 Generic:124 - Successfully Clicked  ----> More details
+[DEBUG] 2024-01-23 16:50:27.192 Generic:201 - Successfully Visibility  ----> Edit Profile Details
+[DEBUG] 2024-01-23 16:50:27.906 Generic:124 - Successfully Clicked  ----> Edit Profile Details
+[DEBUG] 2024-01-23 16:50:29.875 Generic:201 - Successfully Visibility  ----> Randhir
+[DEBUG] 2024-01-23 16:50:29.901 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 16:50:30.103 Generic:189 - Successfully enter value ----> Randhir
+[DEBUG] 2024-01-23 16:50:33.532 Generic:201 - Successfully Visibility  ----> Randhir@gmail.com
+[DEBUG] 2024-01-23 16:50:33.547 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 16:50:34.067 Generic:189 - Successfully enter value ----> Randhir@gmail.com
+[DEBUG] 2024-01-23 16:50:38.014 Generic:201 - Successfully Visibility  ----> 14 Jan 2006
+[DEBUG] 2024-01-23 16:50:39.813 Generic:124 - Successfully Clicked  ----> 14 Jan 2006
+[DEBUG] 2024-01-23 16:50:42.843 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 16:50:43.212 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 16:50:44.964 Generic:201 - Successfully Visibility  ----> 14/01/2006
+[DEBUG] 2024-01-23 16:50:44.982 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 16:50:45.220 Generic:189 - Successfully enter value ----> 28/12/2000
+[DEBUG] 2024-01-23 16:50:47.789 Generic:201 - Successfully Visibility  ----> OK
+[DEBUG] 2024-01-23 16:50:48.188 Generic:124 - Successfully Clicked  ----> OK
+[DEBUG] 2024-01-23 16:51:03.538 Generic:201 - Successfully Visibility  ----> asdaskdhasd
+[DEBUG] 2024-01-23 16:51:03.555 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 16:51:03.835 Generic:189 - Successfully enter value ----> asdaskdhasd
+[DEBUG] 2024-01-23 16:51:08.146 Generic:201 - Successfully Visibility  ----> PIN Code
+[DEBUG] 2024-01-23 16:51:08.167 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-23 16:51:08.821 Generic:189 - Successfully enter value ----> 110091
+[DEBUG] 2024-01-23 16:51:12.851 Generic:201 - Successfully Visibility  ----> Save
+[DEBUG] 2024-01-23 16:51:13.727 Generic:124 - Successfully Clicked  ----> Save
+[DEBUG] 2024-01-23 16:51:21.456 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 16:51:21.797 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 16:51:22.981 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-23 16:51:23.416 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-23 16:51:32.791 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-23 16:51:33.835 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-23 16:51:35.371 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-23 16:51:35.787 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-23 16:51:38.118 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-23 16:51:38.317 MyListeners:47 - [1;32mTC201_VALIDATEVALIDPROFILEDETAILSTESTCASE - PASSED[0m
+[DEBUG] 2024-01-23 16:51:38.690 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-23 16:51:38.691 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-23 16:51:39.511 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-23 16:51:39.511

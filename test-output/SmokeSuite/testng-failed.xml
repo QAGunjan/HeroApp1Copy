@@ -11,14 +11,15 @@
       </run>
     </groups>
     <classes>
-      <class name="com.oneapp.test_suits.OtpTestCases">
+      <class name="com.oneapp.test_suits.MyProfileTestCases">
         <methods>
-          <include name="Quit_session"/>
-          <include name="BrowserSetUp"/>
-          <include name="TC101_ValidOtpTestcase"/>
-          <include name="PreConditions"/>
+          <include name="TC201_ValidateValidProfileDetailsTestcase" invocation-numbers="0"/>
+          <include name="afterclass"/>
+          <include name="AppiumServerStarts"/>
+          <include name="AppiumServiceStops"/>
+          <include name="beforeclass"/>
         </methods>
-      </class> <!-- com.oneapp.test_suits.OtpTestCases -->
+      </class> <!-- com.oneapp.test_suits.MyProfileTestCases -->
     </classes>
   </test> <!-- SmokeTest(failed) -->
 </suite> <!-- Failed suite [SmokeSuite] -->

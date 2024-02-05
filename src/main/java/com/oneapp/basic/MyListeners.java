@@ -42,16 +42,22 @@ public class MyListeners extends BaseClass implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) {
 		String logText = "<b>Test Method " + result.getMethod().getMethodName() + " Successful</b>";
+
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.GREEN);
+
 		extent_test.get().log(Status.PASS, m);
 		TestUtils.log().debug(Console_Colors.Green_color() + result.getMethod().getMethodName().toUpperCase()
 				+ " - PASSED" + Console_Colors.Reset_color());
 	}
 
 	public void onTestFailure(ITestResult result) {
+
 		String methodName = result.getMethod().getMethodName();
 
-		String exceptionMessage = Arrays.toString(result.getThrowable().getStackTrace());
+//		String exceptionMessage = Arrays.toString(result.getThrowable().getStackTrace());
+		
+		String exceptionMessage = result.getThrowable().toString();
+		
 
 		TestUtils.log().debug(Console_Colors.Red_color() + exceptionMessage + Console_Colors.Reset_color());
 
@@ -88,7 +94,8 @@ public class MyListeners extends BaseClass implements ITestListener {
 
 	public String takeScreenshot(String methodName) {
 		String fileName = getScreenshotName(methodName);
-		String directory = System.getProperty("user.dir") + "/screenshots/";
+//		String directory = "D:\\My\\HeroApp1Copy\\screenshots";
+		String directory = System.getProperty("user.dir") + "/Screenshots/";
 		new File(directory).mkdir();
 		String path = directory + fileName;
 
@@ -96,12 +103,7 @@ public class MyListeners extends BaseClass implements ITestListener {
 
 			File screenshot = ((TakesScreenshot) ad).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(screenshot, new File(path));
-			TestUtils.log()
-					.debug(Console_Colors.Red_color() + "Screenshot stored at: " + path + Console_Colors.Reset_color());
-//              +++++++++++++++++++++++++++++++++
-//				System.out.println("********************");
-//				System.out.println("Screenshot stored at: " + path);
-//				System.out.println("********************");
+			System.out.println("Screenshot Taken");
 
 		} catch (Exception e) {
 			e.printStackTrace();

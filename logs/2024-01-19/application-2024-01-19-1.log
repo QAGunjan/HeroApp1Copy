@@ -1,0 +1,316 @@
+[DEBUG] 2024-01-19 12:32:33.649 BaseClass:212 - Starting the Appium Service....
+2024-01-19 12:32:33.641
+--------------------------------------------------------------
+[INFO ] 2024-01-19 12:32:47.816 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-19 12:33:06.920 BaseClass:188 - fc8cb3bd-2fb3-46a6-9784-f2486d04e6bb
+[DEBUG] 2024-01-19 12:33:14.692 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 12:33:14.722 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:33:16.388 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 12:33:16.407 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:33:16.593 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-19 12:33:19.905 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 12:33:20.589 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 12:33:25.238 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-19 12:33:33.447 Generic:200 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-19 12:33:35.257 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-19 12:33:42.304 Generic:200 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-19 12:33:43.840 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-19 12:33:46.255 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 12:33:47.492 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 12:33:55.229 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:33:56.147 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:33:56.495 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:33:58.684 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:33:59.780 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:34:02.463 Generic:200 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-19 12:34:03.747 Generic:123 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-19 12:34:09.716 Generic:200 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-19 12:34:09.753 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:34:10.712 Generic:188 - Successfully enter value ----> Randhir Kumar
+[DEBUG] 2024-01-19 12:34:17.739 Generic:200 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-19 12:34:17.776 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:34:18.758 Generic:188 - Successfully enter value ----> 8505803061
+[DEBUG] 2024-01-19 12:34:24.772 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:34:27.137 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:34:31.159 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 12:34:35.815 Generic:110 - This element gets clicked ----> DELHI
+[DEBUG] 2024-01-19 12:34:39.830 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:34:42.837 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:34:46.897 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 12:34:50.999 Generic:110 - This element gets clicked ----> NEW DELHI
+[DEBUG] 2024-01-19 12:34:53.946 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:34:56.925 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:35:01.029 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 12:35:05.281 Generic:110 - This element gets clicked ----> Duet
+[DEBUG] 2024-01-19 12:35:08.981 Generic:200 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-19 12:35:11.454 Generic:123 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-19 12:35:23.673 Generic:200 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-19 12:35:25.679 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:35:26.688 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:35:36.338 Generic:200 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-19 12:35:37.475 Generic:123 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-19 12:35:39.019 Generic:200 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-19 12:35:39.473 Generic:123 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-19 12:35:41.827 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-19 12:35:43.364 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 12:35:43.392 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:35:45.497 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 12:35:45.513 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:35:45.675 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-19 12:35:48.019 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 12:35:49.126 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 12:35:51.891 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-19 12:35:59.728 Generic:200 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-19 12:36:01.001 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-19 12:36:07.364 Generic:200 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-19 12:36:08.620 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-19 12:36:10.720 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 12:36:11.723 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 12:36:17.285 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:36:17.767 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:36:18.167 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:36:20.187 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:36:21.194 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:36:23.734 Generic:200 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-19 12:36:24.873 Generic:123 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-19 12:36:29.417 Generic:200 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-19 12:36:29.446 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:36:30.436 Generic:188 - Successfully enter value ----> Randhir
+[DEBUG] 2024-01-19 12:36:37.449 Generic:200 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-19 12:36:37.482 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:36:38.472 Generic:188 - Successfully enter value ----> 8800996768
+[DEBUG] 2024-01-19 12:36:43.848 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:36:45.942 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:36:49.826 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 12:36:54.501 Generic:110 - This element gets clicked ----> GOA
+[DEBUG] 2024-01-19 12:36:56.944 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:36:58.909 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:37:02.681 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 12:37:07.397 Generic:110 - This element gets clicked ----> BORIM
+[DEBUG] 2024-01-19 12:37:10.022 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:37:12.014 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:37:15.727 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 12:37:20.181 Generic:110 - This element gets clicked ----> HF 100
+[DEBUG] 2024-01-19 12:37:21.849 Generic:200 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-19 12:37:23.036 Generic:123 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-19 12:37:35.779 Generic:200 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-19 12:37:37.783 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:37:38.862 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:37:49.545 Generic:200 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-19 12:37:50.684 Generic:123 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-19 12:37:52.158 Generic:200 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-19 12:37:52.632 Generic:123 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-19 12:37:54.985 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-19 12:37:56.328 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 12:37:56.343 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:37:58.468 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 12:37:58.474 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:37:58.670 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-19 12:38:01.186 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 12:38:02.231 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 12:38:05.023 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-19 12:38:12.771 Generic:200 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-19 12:38:13.902 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-19 12:38:19.236 Generic:200 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-19 12:38:20.458 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-19 12:38:22.320 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 12:38:23.704 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 12:38:29.395 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:38:29.948 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:38:30.344 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:38:32.056 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:38:33.048 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:38:35.986 Generic:200 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-19 12:38:37.108 Generic:123 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-19 12:38:41.830 Generic:200 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-19 12:38:41.845 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:38:42.292 Generic:188 - Successfully enter value ----> Randhir
+[DEBUG] 2024-01-19 12:38:48.856 Generic:200 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-19 12:38:48.888 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 12:38:49.876 Generic:188 - Successfully enter value ----> 9891803084
+[DEBUG] 2024-01-19 12:38:55.233 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:38:57.226 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:39:12.835 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 12:39:17.034 Generic:110 - This element gets clicked ----> HARYANA
+[DEBUG] 2024-01-19 12:39:19.994 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:39:21.362 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:39:50.206 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 12:39:54.786 Generic:110 - This element gets clicked ----> KARNAL
+[DEBUG] 2024-01-19 12:39:57.575 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:39:59.551 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:40:18.533 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 12:40:22.989 Generic:110 - This element gets clicked ----> Xpulse 200
+[DEBUG] 2024-01-19 12:40:26.341 Generic:200 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-19 12:40:27.705 Generic:123 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-19 12:40:41.793 Generic:200 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-19 12:40:43.802 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 12:40:44.806 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 12:40:54.170 Generic:200 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-19 12:40:55.329 Generic:123 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-19 12:40:56.717 Generic:200 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-19 12:40:57.119 Generic:123 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-19 12:40:59.537 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-19 12:41:00.156 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-19 12:41:00.158 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-19 12:41:00.318 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-19 12:41:00.316
+[DEBUG] 2024-01-19 16:35:45.669 BaseClass:212 - Starting the Appium Service....
+2024-01-19 16:35:45.658
+--------------------------------------------------------------
+[INFO ] 2024-01-19 16:35:58.667 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-19 16:36:16.531 BaseClass:188 - b577ef8a-1640-4122-8be4-6e60337bf81d
+[DEBUG] 2024-01-19 16:36:24.395 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 16:36:24.423 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:36:25.663 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 16:36:25.672 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:36:25.848 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-19 16:36:28.348 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 16:36:29.479 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 16:36:32.869 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-19 16:36:40.620 Generic:200 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-19 16:36:41.870 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-19 16:36:50.931 Generic:200 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-19 16:36:52.370 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-19 16:36:54.655 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 16:36:55.740 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 16:37:03.073 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:37:03.585 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:37:03.956 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:37:05.294 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:37:05.758 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:37:08.512 Generic:200 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-19 16:37:09.668 Generic:123 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-19 16:37:17.186 Generic:200 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-19 16:37:17.201 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:37:18.450 Generic:188 - Successfully enter value ----> Randhir Kumar
+[DEBUG] 2024-01-19 16:37:25.485 Generic:200 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-19 16:37:25.505 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:37:26.468 Generic:188 - Successfully enter value ----> 8505803061
+[DEBUG] 2024-01-19 16:37:31.979 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:37:34.489 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:37:53.746 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 16:37:58.152 Generic:110 - This element gets clicked ----> PUNJAB
+[DEBUG] 2024-01-19 16:38:01.605 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:38:03.998 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:38:21.881 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 16:38:26.286 Generic:110 - This element gets clicked ----> BEAS
+[DEBUG] 2024-01-19 16:38:29.746 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:38:31.758 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:38:36.093 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 16:38:40.401 Generic:110 - This element gets clicked ----> Duet
+[DEBUG] 2024-01-19 16:38:43.797 Generic:200 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-19 16:38:46.107 Generic:123 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-19 16:38:56.305 Generic:200 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-19 16:38:57.195 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:38:57.610 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:39:07.096 Generic:200 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-19 16:39:08.150 Generic:123 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-19 16:39:09.649 Generic:200 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-19 16:39:10.052 Generic:123 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-19 16:39:12.505 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-19 16:39:13.823 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 16:39:13.831 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:39:15.710 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 16:39:15.729 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:39:15.906 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-19 16:39:18.507 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 16:39:19.535 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 16:39:23.090 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-19 16:39:30.132 Generic:200 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-19 16:39:31.292 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-19 16:39:38.237 Generic:200 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-19 16:39:39.492 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-19 16:39:41.733 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 16:39:42.625 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 16:39:49.042 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:39:49.423 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:39:49.732 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:39:50.917 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:39:51.342 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:39:53.645 Generic:200 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-19 16:39:54.566 Generic:123 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-19 16:39:58.326 Generic:200 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-19 16:39:58.347 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:39:58.793 Generic:188 - Successfully enter value ----> Randhir
+[DEBUG] 2024-01-19 16:40:02.019 Generic:200 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-19 16:40:02.027 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:40:02.511 Generic:188 - Successfully enter value ----> 8800996768
+[DEBUG] 2024-01-19 16:40:05.378 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:40:06.534 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:40:23.547 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 16:40:28.188 Generic:110 - This element gets clicked ----> SIKKIM
+[DEBUG] 2024-01-19 16:40:30.591 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:40:32.292 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:40:43.859 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 16:40:48.304 Generic:110 - This element gets clicked ----> PELLING
+[DEBUG] 2024-01-19 16:40:51.401 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:40:53.860 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:40:57.732 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 16:41:02.091 Generic:110 - This element gets clicked ----> HF 100
+[DEBUG] 2024-01-19 16:41:05.537 Generic:200 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-19 16:41:07.848 Generic:123 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-19 16:41:17.999 Generic:200 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-19 16:41:18.792 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:41:19.126 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:41:29.116 Generic:200 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-19 16:41:30.055 Generic:123 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-19 16:41:31.484 Generic:200 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-19 16:41:31.827 Generic:123 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-19 16:41:34.312 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-19 16:41:35.609 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 16:41:35.630 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:41:37.605 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-19 16:41:37.625 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:41:37.769 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-19 16:41:40.259 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 16:41:40.728 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 16:41:45.027 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-19 16:41:52.067 Generic:200 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-19 16:41:53.065 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-19 16:41:58.208 Generic:200 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-19 16:41:59.257 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-19 16:42:01.395 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-19 16:42:03.167 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-19 16:42:08.913 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:42:09.344 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:42:09.648 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:42:11.135 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:42:12.110 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:42:15.377 Generic:200 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-19 16:42:16.468 Generic:123 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-19 16:42:22.306 Generic:200 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-19 16:42:22.313 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:42:23.323 Generic:188 - Successfully enter value ----> Randhir
+[DEBUG] 2024-01-19 16:42:30.342 Generic:200 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-19 16:42:30.352 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-19 16:42:31.362 Generic:188 - Successfully enter value ----> 9891803084
+[DEBUG] 2024-01-19 16:42:36.647 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:42:38.382 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:42:53.643 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 16:42:58.208 Generic:110 - This element gets clicked ----> HARYANA
+[DEBUG] 2024-01-19 16:43:01.492 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:43:02.841 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:43:31.431 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 16:43:35.804 Generic:110 - This element gets clicked ----> KARNAL
+[DEBUG] 2024-01-19 16:43:37.977 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:43:39.677 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:43:57.321 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-19 16:44:01.605 Generic:110 - This element gets clicked ----> Xpulse 200
+[DEBUG] 2024-01-19 16:44:04.190 Generic:200 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-19 16:44:05.871 Generic:123 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-19 16:44:17.156 Generic:200 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-19 16:44:18.940 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-19 16:44:19.814 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-19 16:44:29.145 Generic:200 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-19 16:44:30.132 Generic:123 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-19 16:44:31.531 Generic:200 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-19 16:44:31.823 Generic:123 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-19 16:44:34.208 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-19 16:44:34.800 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-19 16:44:34.801 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-19 16:44:35.134 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-19 16:44:35.134

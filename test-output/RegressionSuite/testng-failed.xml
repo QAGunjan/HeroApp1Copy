@@ -11,16 +11,30 @@
       </run>
     </groups>
     <classes>
-      <class name="com.oneapp.test_suits.LoginTestCases">
+      <class name="com.oneapp.test_suits.SOSTestCases">
         <methods>
           <include name="Quit_session"/>
-          <include name="TC001_ValidLoginTestCase"/>
-          <include name="TC002_InValidLoginTestCase"/>
-          <include name="TC003_MinimumLengthLoginTestCase"/>
+          <include name="TC502_ValidateDontSentLinkTestcase"/>
+          <include name="TC503_ValidatecloseIconTestcase"/>
           <include name="BrowserSetUp"/>
+          <include name="AppiumServerStarts"/>
+          <include name="TC501_ValidateSendSOSAlertTestcase"/>
           <include name="PreConditions"/>
+          <include name="AppiumServiceStops"/>
         </methods>
-      </class> <!-- com.oneapp.test_suits.LoginTestCases -->
+      </class> <!-- com.oneapp.test_suits.SOSTestCases -->
+      <class name="com.oneapp.test_suits.DashboardTestCases">
+        <methods>
+          <include name="Quit_session"/>
+          <include name="BrowserSetUp"/>
+          <include name="AppiumServerStarts"/>
+          <include name="PreConditions"/>
+          <include name="TC603_ValidateRSA"/>
+          <include name="AppiumServiceStops"/>
+          <include name="TC604_ValidateDealerLocator"/>
+          <include name="TC602_ValidateRelationShipManager"/>
+        </methods>
+      </class> <!-- com.oneapp.test_suits.DashboardTestCases -->
     </classes>
   </test> <!-- RegressionTests(failed) -->
 </suite> <!-- Failed suite [RegressionSuite] -->

@@ -19,7 +19,7 @@ pipeline {
     }
     stage('TestRunning') {
             steps {
-                bat 'mvn clean test -DxmlSuiteFileName=Smoke.xml'          
+                bat 'mvn clean test -DxmlSuiteFileName=MainTestSuite.xml'          
             }
     }
     }
