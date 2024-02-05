@@ -12,18 +12,26 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 import com.oneapp.basic.BaseClass;
+import com.oneapp.utils.Generic;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 
 public class Login_Page_Object extends BaseClass {
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/text_input_editext")
+	Generic generic = new Generic();
+
+	@FindBy(id = "com.customerapp.hero:id/text_input_editext")
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeTextField[@name=\" Enter mobile number\"]")
-	private MobileElement mobile_num_field;
+	private WebElement mobile_num_field;
 
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> privacylink;
@@ -38,31 +46,65 @@ public class Login_Page_Object extends BaseClass {
 			@FindBy(className = "android.widget.TextView") })
 	private List<WebElement> contact_us_link;
 
+	@FindBy(id = "com.customerapp.hero:id/button_neg")
+	private WebElement cancelbtn;
 
+	@FindBy(id = "com.customerapp.hero:id/lbl2")
+	private WebElement PleaseProceedWithYourRegisteredHeroMobileNumber_Text;
 
-@AndroidFindBy(id="com.customerapp.hero:id/button_neg")
-	private MobileElement cancelbtn;
+	@FindBy(id = "com.customerapp.hero:id/lbl3")
+	private WebElement ByTappingOnLoginOrRegisterYouAreAgreeingToHero_Text;
 
-	
-	
-	public MobileElement getCancelbtn() {
-		return cancelbtn;
+	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
+	private WebElement continueBtn;
+
+	@FindBy(id = "com.customerapp.hero:id/snackbar_text")
+	private WebElement otpGeneratedToastMessage;
+
+	@FindBy(id = "com.customerapp.hero:id/tv_title")
+	private WebElement numberNotRegisteredWithAnyHeroVehicle_Text;
+
+	@FindBy(id = "com.customerapp.hero:id/textMessage")
+	private WebElement updateRegisteredMobileNumberForYourHeroVehicleOrTryWithAnotherNumber_Text;
+
+	@FindBy(xpath = "(//android.view.ViewGroup//android.widget.TextView)[3]")
+	private WebElement updateNumberButton;
+
+	@FindBy(xpath = "(//android.view.ViewGroup//android.widget.TextView)[4]")
+	private WebElement continueAsGuestButton;
+
+	@FindBy(id = "com.customerapp.hero:id/iv_cross")
+	private WebElement closeIcon;
+
+	public Login_Page_Object(AppiumDriver ad) {
+		PageFactory.initElements(ad, this);
 	}
 
-	public MobileElement getMobile_num_field() {
-		return mobile_num_field;
+	public void clickOnCloseIcon() {
+		generic.clickOnWebElement(closeIcon);
 	}
 
-	public List<WebElement> getPrivacylink() {
-		return privacylink;
+	public void clickOnUpdateNumberButton() {
+		generic.clickOnWebElement(updateNumberButton);
 	}
 
-	public List<WebElement> getTerm_and_condition_link() {
-		return term_and_condition_link;
+	public void clickOnContinueAsGuestButton() {
+		generic.clickOnWebElement(continueAsGuestButton);
 	}
 
-	public List<WebElement> getContact_us_link() {
-		return contact_us_link;
+	public void clickOnCancelButton() {
+		generic.clickOnWebElement(cancelbtn);
+	}
+
+	public void enterLoginMobileNumber(String text) {
+		generic.clearOnTexBox(mobile_num_field);
+		generic.sendKeysOnTextfields(mobile_num_field, text);
+	}
+
+	public OTP_Page_Object clickOnContinuebutton() {
+		generic.clickOnWebElement(continueBtn);
+
+		return new OTP_Page_Object(ad);
 	}
 
 }

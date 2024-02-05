@@ -1,0 +1,153 @@
+[DEBUG] 2024-02-01 10:54:20.643 BaseClass:241 - Starting the Appium Service....
+2024-02-01 10:54:20.566
+--------------------------------------------------------------
+[DEBUG] 2024-02-01 10:54:40.865 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2024-02-01 10:54:42.148 Generic:204 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-01 10:54:42.165 MyListeners:59 - [1;31m[com.oneapp.utils.Generic.waitForVisibility(Generic.java:208), com.oneapp.utils.Generic.clearOnTexBox(Generic.java:136), com.oneapp.pageobjects.Login_Page_Object.enterLoginMobileNumber(Login_Page_Object.java:100), com.oneapp.test_suits.OtpTestCases.TC101_ValidOtpTestcase(OtpTestCases.java:50), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-02-01 10:54:42.185 MyListeners:75 - [1;31mTC101_VALIDOTPTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-01 10:54:42.968 BaseClass:256 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-01 10:54:42.967
+[DEBUG] 2024-02-01 14:50:42.706 BaseClass:239 - Starting the Appium Service....
+2024-02-01 14:50:42.688
+--------------------------------------------------------------
+[DEBUG] 2024-02-01 14:51:57.422 BaseClass:215 - a1306c39-80f3-4db0-a745-2460d318a861
+[DEBUG] 2024-02-01 14:51:57.451 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2024-02-01 14:52:06.017 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-01 14:52:06.155 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-02-01 14:52:09.070 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-01 14:52:09.174 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-02-01 14:52:09.565 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-02-01 14:52:13.745 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-01 14:52:15.526 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-01 14:52:37.173 MyListeners:59 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428), io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151), io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1), org.openqa.selenium.By$ByXPath.findElement(By.java:353), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source), com.oneapp.test_suits.OtpTestCases.TC101_ValidOtpTestcase(OtpTestCases.java:54), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-02-01 14:52:38.707 MyListeners:75 - [1;31mTC101_VALIDOTPTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-01 14:52:39.242 BaseClass:229 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-02-01 14:52:39.860 BaseClass:254 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-01 14:52:39.860
+[DEBUG] 2024-02-01 15:34:27.943 BaseClass:239 - Starting the Appium Service....
+2024-02-01 15:34:27.934
+--------------------------------------------------------------
+[DEBUG] 2024-02-01 15:35:52.894 BaseClass:215 - 8bc02cae-427a-4602-a102-50241509f370
+[DEBUG] 2024-02-01 15:35:52.976 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2024-02-01 15:36:01.712 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-01 15:36:01.812 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-02-01 15:36:05.407 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-01 15:36:05.499 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-02-01 15:36:05.978 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-02-01 15:36:10.148 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-01 15:36:11.804 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-01 15:36:30.425 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-01 15:36:33.750 Generic:201 - Successfully Visibility  ----> Welcome to Hero!
+[DEBUG] 2024-02-01 15:36:34.987 Generic:201 - Successfully Visibility  ----> Enter 6-digit OTP sent to
+[DEBUG] 2024-02-01 15:36:36.175 Generic:201 - Successfully Visibility  ----> Resend
+[DEBUG] 2024-02-01 15:36:37.224 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-01 15:36:43.027 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-02-01 15:36:44.107 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-02-01 15:36:50.621 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-02-01 15:36:52.035 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-02-01 15:36:54.117 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-01 15:36:55.356 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-01 15:37:02.289 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 15:37:03.376 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 15:37:04.147 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-01 15:37:06.075 Generic:201 - Successfully Visibility  ----> Edit List
+[DEBUG] 2024-02-01 15:37:07.027 Generic:124 - Successfully Clicked  ----> Edit List
+[DEBUG] 2024-02-01 15:37:08.923 Generic:201 - Successfully Visibility  ----> Save List
+[DEBUG] 2024-02-01 15:37:09.835 Generic:124 - Successfully Clicked  ----> Save List
+[DEBUG] 2024-02-01 15:37:11.341 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 15:37:12.174 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-01 15:37:14.290 Generic:201 - Successfully Visibility  ----> Hello! Randhir
+[DEBUG] 2024-02-01 15:37:15.625 Generic:201 - Successfully Visibility  ----> You are using
+[DEBUG] 2024-02-01 15:37:17.282 Generic:201 - Successfully Visibility  ----> Vehicle Details
+[DEBUG] 2024-02-01 15:37:18.889 Generic:201 - Successfully Visibility  ----> Wheels of Trust
+[DEBUG] 2024-02-01 15:37:20.306 Generic:201 - Successfully Visibility  ----> Joyride
+[DEBUG] 2024-02-01 15:37:30.091 Generic:201 - Successfully Visibility  ----> App Ver 9.1.9
+[DEBUG] 2024-02-01 15:37:31.767 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-02-01 15:37:32.716 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-02-01 15:37:34.574 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-02-01 15:37:35.626 Generic:201 - Successfully Visibility  ----> Are you sure to logout?
+[DEBUG] 2024-02-01 15:37:36.633 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-02-01 15:37:37.453 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-02-01 15:37:40.000 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-02-01 15:37:40.370 MyListeners:59 - [1;31m[org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47), org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31), com.oneapp.test_suits.OtpTestCases.TC101_ValidOtpTestcase(OtpTestCases.java:126), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-02-01 15:37:41.994 MyListeners:75 - [1;31mTC101_VALIDOTPTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-01 15:37:42.706 BaseClass:229 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-02-01 15:37:43.392 BaseClass:254 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-01 15:37:43.392
+[DEBUG] 2024-02-01 17:34:50.525 BaseClass:239 - Starting the Appium Service....
+2024-02-01 17:34:50.515
+--------------------------------------------------------------
+[DEBUG] 2024-02-01 17:36:16.262 BaseClass:215 - 5eb94bd0-c6f9-4622-929b-cb59098f8c16
+[DEBUG] 2024-02-01 17:36:16.291 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2024-02-01 17:36:24.405 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-01 17:36:24.478 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-01 17:36:27.462 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-01 17:36:27.538 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-01 17:36:27.937 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-02-01 17:36:31.911 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-01 17:36:33.420 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-01 17:36:48.368 Generic:199 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-01 17:37:00.112 Generic:199 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-02-01 17:37:01.695 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-02-01 17:37:08.067 Generic:199 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-02-01 17:37:09.251 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-02-01 17:37:11.239 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-01 17:37:12.292 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-01 17:37:17.192 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 17:37:18.409 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 17:37:19.187 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-01 17:37:21.192 Generic:199 - Successfully Visibility  ----> Services
+[DEBUG] 2024-02-01 17:37:22.544 Generic:123 - Successfully Clicked  ----> Services
+[DEBUG] 2024-02-01 17:37:24.580 Generic:199 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-02-01 17:37:25.376 Generic:123 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-02-01 17:37:28.468 Generic:199 - Successfully Visibility  ----> Select a Time
+[DEBUG] 2024-02-01 17:37:31.611 Generic:199 - Successfully Visibility  ----> Service Centre
+[DEBUG] 2024-02-01 17:37:33.023 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 17:37:34.179 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-01 17:37:37.277 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 17:37:38.320 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-01 17:37:39.984 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 17:37:41.418 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-01 17:37:44.852 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-02-01 17:37:50.141 Generic:110 - This element gets clicked ----> GOA
+[DEBUG] 2024-02-01 17:37:52.271 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 17:37:53.033 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-01 17:37:56.391 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-02-01 17:38:00.746 Generic:110 - This element gets clicked ----> BICHOLIM
+[DEBUG] 2024-02-01 17:38:03.554 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 17:38:04.640 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-01 17:38:18.235 Generic:199 - Successfully Visibility  ----> Customer Requests
+[DEBUG] 2024-02-01 17:38:19.344 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-01 17:38:20.991 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-01 17:38:23.381 Generic:199 - Successfully Visibility  ----> Additional Instructions
+[DEBUG] 2024-02-01 17:38:24.488 Generic:199 - Successfully Visibility  ----> Facing any other issues?
+[DEBUG] 2024-02-01 17:38:24.559 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-01 17:38:24.973 Generic:188 - Successfully enter value ----> 123912731!@#!@#ADASDASD
+[DEBUG] 2024-02-01 17:38:28.159 Generic:199 - Successfully Visibility  ----> Review Service Details
+[DEBUG] 2024-02-01 17:38:29.329 Generic:123 - Successfully Clicked  ----> Review Service Details
+[DEBUG] 2024-02-01 17:38:31.138 Generic:199 - Successfully Visibility  ----> Service Scheduled
+[DEBUG] 2024-02-01 17:38:31.936 Generic:199 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-02-01 17:38:32.776 Generic:123 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-02-01 17:38:37.842 Generic:199 - Successfully Visibility  ----> Service booked
+[DEBUG] 2024-02-01 17:38:39.292 Generic:199 - Successfully Visibility  ----> Service booked!
+[DEBUG] 2024-02-01 17:38:40.879 Generic:199 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-02-01 17:38:42.497 Generic:199 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-02-01 17:38:43.647 Generic:199 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-02-01 17:38:44.909 Generic:123 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-02-01 17:38:54.295 Generic:199 - Successfully Visibility  ----> Services
+[DEBUG] 2024-02-01 17:38:55.343 Generic:123 - Successfully Clicked  ----> Services
+[DEBUG] 2024-02-01 17:38:56.611 MyListeners:59 - [1;31m[org.testng.Assert.fail(Assert.java:99), org.testng.Assert.failNotEquals(Assert.java:1037), org.testng.Assert.assertTrue(Assert.java:45), org.testng.Assert.assertTrue(Assert.java:55), com.oneapp.test_suits.BookServiceTestCases.TC601_ValidateBookServiceTestcase(BookServiceTestCases.java:124), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-02-01 17:38:58.625 MyListeners:75 - [1;31mTC601_VALIDATEBOOKSERVICETESTCASE - FAILURE[0m
+[DEBUG] 2024-02-01 17:38:58.633 MyListeners:39 - [1;30mVALIDATESERVICERESCHEDULED - STARTS[0m
+[DEBUG] 2024-02-01 17:38:58.643 MyListeners:39 - [1;30mVALIDATESERVICECANCELLED - STARTS[0m
+[DEBUG] 2024-02-01 17:38:59.323 BaseClass:229 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-02-01 17:38:59.927 BaseClass:254 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-01 17:38:59.926

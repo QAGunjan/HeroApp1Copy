@@ -1,6 +1,7 @@
 package com.oneapp.pageobjects;
 
 import java.util.List;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,64 +9,80 @@ import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 import com.oneapp.basic.BaseClass;
+import com.oneapp.utils.Generic;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 
 public class CommonElements_Page_object extends BaseClass {
 
-	@AndroidFindBy(id = "com.google.android.gms:id/cancel")
-	private MobileElement nonOfTheAbove;
+	public Generic generic = new Generic();
 
-	@AndroidFindBy(xpath = "//*[@text='ALLOW']")
-	private MobileElement allowing_commom_popup_honor;
+	@FindBy(id = "com.google.android.gms:id/title")
+	private WebElement chooseAPhoneNumber;
 
-	@AndroidFindBy(xpath = "//*[@text='Allow']")
-	private MobileElement allowing_commom_popup_samsung;
+	@FindBy(id = "com.google.android.gms:id/cancel")
 
-	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to send you notifications?']")
-	private MobileElement notification_pop_up_samsung;
+	private WebElement closePopUp;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/back_btn")
-	private MobileElement back_icon;
+	@FindBy(id = "com.google.android.gms:id/cancel")
+	private WebElement nonOfTheAbove;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/snackbar_text")
-	private MobileElement toast_message;
+	@FindBy(xpath = "//*[@text='ALLOW']")
+	private WebElement allowing_commom_popup_honor;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/lbl1")
+	@FindBy(xpath = "//*[@text='Allow']")
+	private WebElement allowing_commom_popup_samsung;
+
+	@FindBy(xpath = "//*[@text='Allow Hero App to send you notifications?']")
+	private WebElement notification_pop_up_samsung;
+
+	@FindBy(id = "com.customerapp.hero:id/back_btn")
+	private WebElement back_icon;
+
+	@FindBy(id = "com.customerapp.hero:id/snackbar_text")
+	private WebElement toast_message;
+
+	@FindBy(id = "com.customerapp.hero:id/lbl1")
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Login\"]")
 
-	private MobileElement herologo;
+	private WebElement herologo;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/btn_lbl")
-	private MobileElement button;
+	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
+
+	private WebElement button;
 
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Continue\"]")
 
-	private MobileElement continuebuttonIOS;
+	private WebElement continuebuttonIOS;
 
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Verify\"]")
 
-	private MobileElement verifybuttonIOS;
+	private WebElement verifybuttonIOS;
 
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Save\"]")
 
-	private MobileElement savebuttonIOS;
+	private WebElement savebuttonIOS;
 
-	@AndroidFindBy(xpath = "(//android.widget.LinearLayout/android.widget.Button)[1]")
-	private MobileElement onlyThisTime_popup_samsung;
+	@FindBy(xpath = "(//android.widget.LinearLayout/android.widget.Button)[1]")
+	private WebElement onlyThisTime_popup_samsung;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/lbl")
-	private MobileElement pageTitleText;
+	@FindBy(id = "com.customerapp.hero:id/lbl")
+	private WebElement pageTitleText;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/state_sp")
-	private MobileElement state_box;
+	@FindBy(id = "com.customerapp.hero:id/state_sp")
+	private WebElement state_box;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/city_sp")
-	private MobileElement city_box;
+	@FindBy(id = "com.customerapp.hero:id/city_sp")
+	private WebElement city_box;
 
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> state_typedropdown;
@@ -73,77 +90,47 @@ public class CommonElements_Page_object extends BaseClass {
 	@FindBys({ @FindBy(className = "android.widget.TextView") })
 	private List<WebElement> city_typedropdown;
 
-//	public CommonElements_Page_object(AppiumDriver ad2) {
-//		PageFactory.initElements(ad2, this);
-//	}
-
-	public MobileElement getBack_icon() {
-		return back_icon;
+	public CommonElements_Page_object(AppiumDriver ad) {
+		PageFactory.initElements(ad, this);
 	}
 
-	public MobileElement getToast_message() {
-		return toast_message;
+	public void clickOnAllowPopUp() {
+
+		if (DEVICE_NAME.equals("Pixel 3")) {
+			while (generic.elementDisplaying(new CommonElements_Page_object(ad).getChooseAPhoneNumber())) {
+				generic.clickOnWebElement(new CommonElements_Page_object(ad).getClosePopUp());
+			}
+
+		}
+		
+//		generic.waitForVisibility(allowing_commom_popup_samsung);
+//
+//		while (allowing_commom_popup_samsung.getText().contains("Allow")) {
+//			generic.clickOnWebElement(allowing_commom_popup_samsung);
+//			break;
+//		
+//		}
+//
+//		System.out.println("Gunjan");
+
+		while (generic.elementDisplaying(allowing_commom_popup_samsung)) {
+			generic.clickOnWebElement(allowing_commom_popup_samsung);
+			break;
+		}
+
+		/*
+		 * 
+		 * try {
+		 * 
+		 * if (DEVICE_NAME.equals("Pixel 3")) { if (generic.elementDisplaying(new
+		 * CommonElements_Page_object(ad).getChooseAPhoneNumber())) {
+		 * generic.clickOnWebElement(new
+		 * CommonElements_Page_object(ad).getClosePopUp()); } }
+		 * 
+		 * if (generic.elementDisplaying(allowing_commom_popup_samsung)) {
+		 * generic.clickOnWebElement(allowing_commom_popup_samsung); } } catch
+		 * (Exception e) { }
+		 * 
+		 */
 	}
-
-	public MobileElement getHerologo() {
-		return herologo;
-	}
-
-	public MobileElement getNonOfTheAbove() {
-		return nonOfTheAbove;
-	}
-
-	public MobileElement getallowing_commom_popup_honor() {
-		return allowing_commom_popup_honor;
-	}
-
-	public MobileElement getAllowing_commom_popup_samsung() {
-		return allowing_commom_popup_samsung;
-	}
-
-	public MobileElement getNotification_pop_up_samsung() {
-		return notification_pop_up_samsung;
-	}
-
-	public MobileElement getbutton() {
-
-		return button;
-	}
-
-	public MobileElement getContinuebuttonIOS() {
-		return continuebuttonIOS;
-	}
-
-	public MobileElement getVerifybuttonIOS() {
-		return verifybuttonIOS;
-	}
-
-	public MobileElement getsavebuttonIOS() {
-		return savebuttonIOS;
-	}
-
-	public MobileElement getOnlyThisTime_popup_samsung() {
-		return onlyThisTime_popup_samsung;
-	}
-
-	public MobileElement getPageTitleText() {
-		return pageTitleText;
-	}
-
-	public MobileElement getState_box() {
-		return state_box;
-	}
-
-	public MobileElement getCity_box() {
-		return city_box;
-	}
-
-	public List<WebElement> getState_typedropdown() {
-		return state_typedropdown;
-	}
-
-	public List<WebElement> getCity_typedropdown() {
-		return city_typedropdown;
-	}
-
 }

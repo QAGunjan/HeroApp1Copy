@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyProfileSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MyProfileTest(failed)">
+    <classes>
+      <class name="com.oneapp.test_suits.MyProfileTestCases">
+        <methods>
+          <include name="TC201_ValidateValidProfileDetailsTestcase" invocation-numbers="0"/>
+          <include name="afterclass"/>
+          <include name="AppiumServerStarts"/>
+          <include name="AppiumServiceStops"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.oneapp.test_suits.MyProfileTestCases -->
+    </classes>
+  </test> <!-- MyProfileTest(failed) -->
+</suite> <!-- Failed suite [MyProfileSuite] -->

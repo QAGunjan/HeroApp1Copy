@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SOSSuite">
+	<listeners>
+		<listener class-name="com.oneapp.basic.MyListeners" />
+	</listeners>
+	<test thread-count="5" name="SOSTest">
+		<classes>
+			<class name="com.oneapp.test_suits.SOSTestCases" />
+		</classes>
+	</test> <!--
+	SOSTest -->
+</suite> <!--
+SOSSuite -->

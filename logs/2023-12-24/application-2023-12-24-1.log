@@ -1,0 +1,12 @@
+[DEBUG] 2023-12-24 17:39:57.078 BaseClass:279 - Starting the Appium Service....
+2023-12-24 17:39:57.058
+--------------------------------------------------------------
+[INFO ] 2023-12-24 17:40:15.639 BaseClass:193 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-24 17:40:15.642 BaseClass:195 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-24 17:40:15.643 BaseClass:197 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-24 17:40:15.646 BaseClass:199 - UDID IS --> emulator-5554
+[INFO ] 2023-12-24 17:40:15.649 BaseClass:213 - Android Real device gets opened
+[DEBUG] 2023-12-24 17:41:35.838 BaseClass:255 - 4ee86247-d5c8-4f74-8aa7-52c2d1d4a466
+[DEBUG] 2023-12-24 17:41:35.979 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-12-24 17:41:55.756 Generic:229 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.google.android.gms:id/title' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-24 17:43:26.276 Generic:229 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//android.widget.LinearLayout//android.widget.TextView)[2]' (tried for 15 second(s) with 500 milliseconds interval)[0m

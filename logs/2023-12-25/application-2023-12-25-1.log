@@ -1,0 +1,25 @@
+[DEBUG] 2023-12-25 13:28:14.554 BaseClass:279 - Starting the Appium Service....
+2023-12-25 13:28:14.543
+--------------------------------------------------------------
+[INFO ] 2023-12-25 13:28:29.367 BaseClass:193 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-25 13:28:29.380 BaseClass:195 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-25 13:28:29.384 BaseClass:197 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-25 13:28:29.396 BaseClass:199 - UDID IS --> emulator-5554
+[INFO ] 2023-12-25 13:28:29.401 BaseClass:213 - Android Real device gets opened
+[DEBUG] 2023-12-25 13:29:20.782 BaseClass:255 - e045d490-91f6-4468-b332-51a94c4e5d84
+[DEBUG] 2023-12-25 13:29:20.853 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-12-25 13:29:36.615 Generic:229 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.google.android.gms:id/title' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-25 13:30:32.942 Generic:229 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//android.widget.LinearLayout//android.widget.TextView)[2]' is not linked to the same object in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.21.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, avd: Pixel_3, avdLaunchTimeout: 400000, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, avd: Pixel_3, avdLaunchTimeout: 400000, deviceName: Pixel 3, platformName: android, readyTimeout: 400000, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, readyTimeout: 400000, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2028, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e045d490-91f6-4468-b332-51a94c4e5d84[0m
+[DEBUG] 2023-12-25 13:30:50.088 Generic:229 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//android.view.ViewGroup//android.widget.TextView)[4]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.21.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, avd: Pixel_3, avdLaunchTimeout: 400000, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, avd: Pixel_3, avdLaunchTimeout: 400000, deviceName: Pixel 3, platformName: android, readyTimeout: 400000, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, readyTimeout: 400000, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2028, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e045d490-91f6-4468-b332-51a94c4e5d84[0m

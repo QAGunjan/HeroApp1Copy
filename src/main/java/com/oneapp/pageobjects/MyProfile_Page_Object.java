@@ -5,65 +5,68 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.oneapp.basic.BaseClass;
+import com.oneapp.utils.Generic;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import lombok.Getter;
+import lombok.Setter;
 
-public class MyProfile_Page_Object extends BaseClass{
+@Getter
+@Setter
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/lbl")
-	private MobileElement profiledetails_text;
+public class MyProfile_Page_Object extends BaseClass {
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/tv_details")
-	private MobileElement moredetails_link;
+	Generic generic = new Generic();
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/user_name")
-	private MobileElement SavedFullName;
+	@FindBy(id = "com.customerapp.hero:id/lbl")
+	private WebElement profiledetails_text;
 
-//	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
-//	private WebElement editprofile_details_btn;
+	@FindBy(id = "com.customerapp.hero:id/tv_details")
+	private WebElement moredetails_link;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/address")
-	private MobileElement address_val;
+	@FindBy(id = "com.customerapp.hero:id/user_name")
+	private WebElement SavedFullName;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/gender")
-	private MobileElement gender_val;
+	@FindBy(id = "com.customerapp.hero:id/user_email")
+	private WebElement SavedEmail;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/emergency_contacts")
-	private MobileElement emergency_contact_txt;
+	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
+	private WebElement editprofile_details_btn;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/manage_license")
-	private MobileElement manage_license_text;
+	@FindBy(id = "com.customerapp.hero:id/address")
+	private WebElement address_val;
 
+	@FindBy(id = "com.customerapp.hero:id/gender")
+	private WebElement gender_val;
 
-	public MobileElement getMoredetails_link() {
-		return moredetails_link;
+	@FindBy(id = "com.customerapp.hero:id/emergency_contacts")
+	private WebElement emergency_contact_txt;
+
+	@FindBy(id = "com.customerapp.hero:id/manage_license")
+	private WebElement manage_license_text;
+
+	@FindBy(id = "com.customerapp.hero:id/back_btn")
+	private WebElement back_icon;
+
+	public MyProfile_Page_Object(AppiumDriver ad) {
+		PageFactory.initElements(ad, this);
 	}
 
-//	public WebElement getEditprofile_details_btn() {
-//		return editprofile_details_btn;
-//	}
-
-	public MobileElement getAddress_val() {
-		return address_val;
+	public void clickOnMoreDetails() {
+		generic.clickOnWebElement(moredetails_link);
 	}
 
-	public MobileElement getGender_val() {
-		return gender_val;
+	public Personal_Details_Page_Object clickOnEditProfileDetails() {
+		generic.clickOnWebElement(editprofile_details_btn);
+
+		return new Personal_Details_Page_Object(ad);
 	}
 
-	public MobileElement getEmergency_contact_txt() {
-		return emergency_contact_txt;
-	}
-
-	public MobileElement getManage_license_text() {
-		return manage_license_text;
-	}
-
-	public MobileElement getSavedFullName() {
-		return SavedFullName;
+	public void clickOnBackIcon() throws InterruptedException {
+		Thread.sleep(5000);
+		generic.clickOnWebElement(back_icon);
 	}
 
 }

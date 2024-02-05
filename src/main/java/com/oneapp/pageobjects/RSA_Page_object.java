@@ -13,8 +13,15 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class RSA_Page_object extends BaseClass {
 
-	@AndroidFindBy(xpath = "//*[@text='To purchase a RSA policy please contact your nearest dealer']")
+	@AndroidFindBy(xpath = "(//android.view.View//android.widget.TextView)[1]")
 	private MobileElement RSAPage_Text;
+
+	@AndroidFindBy(xpath = "(//android.view.View//android.widget.TextView)[2]")
+	private MobileElement Locatenearestdealer_Text;
+
+	public MobileElement getLocatenearestdealer_Text() {
+		return Locatenearestdealer_Text;
+	}
 
 	public MobileElement getRSAPage_Text() {
 		return RSAPage_Text;

@@ -10,31 +10,31 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 
 public class RelationshipManager_Page_Object extends BaseClass {
 
-	@AndroidFindBy(xpath = "//*[@text='GoodLife']")
-	private MobileElement goodlife_icon;
+	@FindBy(xpath = "//*[@text='GoodLife']")
+	private WebElement goodlife_icon;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/noDataTitle")
-	private MobileElement noDataFound;
+	@FindBy(id = "com.customerapp.hero:id/noDataTitle")
+	private WebElement noDataFound;
 
-	@AndroidFindBy(xpath = "(//android.view.ViewGroup//android.widget.TextView)[7]")
-	private MobileElement TSM_text;
+	@FindBy(xpath = "(//android.view.ViewGroup//android.widget.TextView)[7]")
+	private WebElement TSM_text;
 
-	@AndroidFindBy(xpath = "(//android.view.ViewGroup)[10]/child::android.widget.TextView[3]")
-	private MobileElement TSM_email;
+	@FindBy(xpath = "(//android.view.ViewGroup)[10]/child::android.widget.TextView[3]")
+	private WebElement TSM_email;
 
-	public MobileElement getNoDataFound() {
-		return noDataFound;
-	}
+	@FindBy(xpath = "(//android.view.ViewGroup//android.widget.TextView)[5]")
+	private WebElement otherContact_Text;
 
-	public MobileElement getTSM_text() {
-		return TSM_text;
-	}
+	@FindBy(xpath = "(//android.view.ViewGroup//android.widget.TextView)[10]")
+	private WebElement AreaSalesManager_Text;
 
-	public MobileElement getTSM_email() {
-		return TSM_email;
-	}
-
+	
 }

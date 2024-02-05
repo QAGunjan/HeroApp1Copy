@@ -5,81 +5,109 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.oneapp.basic.BaseClass;
+import com.oneapp.basic.ExcelData;
+import com.oneapp.pageobjects.CommonElements_Page_object;
+import com.oneapp.pageobjects.Dashboard_Page_object;
+import com.oneapp.pageobjects.Login_Page_Object;
+import com.oneapp.pageobjects.Logout_Page_Object;
+import com.oneapp.pageobjects.Menu_Bar_Page_Object;
+import com.oneapp.pageobjects.OTP_Page_Object;
+import com.oneapp.pageobjects.SOS_alert_window_page_object;
+import com.oneapp.pageobjects.Selected_Vehicle_Page_Object;
+import com.oneapp.utils.ConfigData;
 import com.oneapp.utils.Console_Colors;
+import com.oneapp.utils.Generic;
 import com.oneapp.utils.TestUtils;
 
 public class SOSTestCases extends BaseClass {
 
+	Login_Page_Object Login_PO;
+	public OTP_Page_Object otp_PO;
+	public Selected_Vehicle_Page_Object sv_PO;
+	public Dashboard_Page_object dashboard_PO;
+	public Menu_Bar_Page_Object menuBar_PO;
+	public Logout_Page_Object logout_PO;
+	public CommonElements_Page_object cepo_PO;
+	public SoftAssert sa = new SoftAssert();
+	public ConfigData configData = new ConfigData();
+	public Generic generic = new Generic();
+	public SOS_alert_window_page_object sosAlertWindow_PO;
+	public ExcelData exceldata = new ExcelData();
+	
+
 	@Test(priority = 300, groups = { "Smoke", "Regression" })
-	public void TC501_ValidateSendSOSAlertTestcase() throws InterruptedException {
-		/*
-		try {
-			if (generic.elementDisplaying(cepo.getAllowing_commom_popup_samsung())) {
-				generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
-			}
-		} catch (Exception e) {
-			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-		}
+	public void TC501_ValidateSendSOSAlertMessageSendTestcase() throws InterruptedException {
 
-		generic.clearOnTexBox(lpo.getMobile_num_field());
-		generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
-		generic.clickOnWebElement(cepo.getbutton());
+		Login_PO = new Login_Page_Object(ad);
 
-		generic.waitForVisibility(opo.getVerify_with_OTP());
+		Login_PO.enterLoginMobileNumber(exceldata.getStringData("Login Page", 1, 1));
 
-		Assert.assertEquals(opo.getVerify_with_OTP().getText(), configdata.getValidLoginExpected());
+		otp_PO = new Login_Page_Object(ad).clickOnContinuebutton();
 
-		opo.getFirsttxtbox().sendKeys("1");
-		opo.getSecondtxtbox().sendKeys("2");
-		opo.getThirdtxtbox().sendKeys("3");
-		opo.getFourthtxtbox().sendKeys("4");
-		opo.getFifthtxtbox().sendKeys("5");
-		opo.getSixthtxtbox().sendKeys("6");
+		otp_PO.TypeInField();
 
-		generic.clickOnWebElement(cepo.getbutton());
+		sv_PO = otp_PO.clickOnVerifyButton();
 
-		if (generic.elementDisplaying(svpo.getbook_service_PAID_vin())) {
-			generic.clickOnWebElement(svpo.getbook_service_PAID_vin());
-			TestUtils.log().debug("Book service PAID vin selected");
-			generic.clickOnWebElement(cepo.getbutton());
-		}
-		*/
+		dashboard_PO = sv_PO.vinSelection();
 
-		try {
-			if (generic.elementDisplaying(dpo.getDevice_location_popup_samsung())) {
-				generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
-				Thread.sleep(5000);
-			}
-		} catch (Exception e) {
-			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-		}
+		dashboard_PO.DashboardAllPopUp();
 
-		generic.clickOnWebElement(dpo.getSOS_icon());
-		generic.clickOnWebElement(soswpo.getSend_alert_now_button());
+		sosAlertWindow_PO = dashboard_PO.clickOnSOSIcon();
 
-		generic.waitForVisibility(dpo.getKey_action_text());
-		Assert.assertEquals(dpo.getKey_action_text().getText(), configdata.getcommonAssertionSOSAlertWindowExpected());
-        Thread.sleep(3000);	
+		generic.waitForVisibility(sosAlertWindow_PO.getPanicAlert_Text());
+		sa.assertEquals(sosAlertWindow_PO.getPanicAlert_Text().getText(), configData.getPanicAlert_TextExpected());
+
+		generic.waitForVisibility(
+				sosAlertWindow_PO.getTheappwillalertwithyouremergencycontactswithyourcurrentlocation_Text());
+		sa.assertEquals(
+				sosAlertWindow_PO.getTheappwillalertwithyouremergencycontactswithyourcurrentlocation_Text().getText(),
+				configData.getWehavesentanSMStoemergencycontact_TextExpected_TextExpected());
+
+		generic.waitForVisibility(sosAlertWindow_PO.getImsafe_Text());
+		sa.assertEquals(sosAlertWindow_PO.getImsafe_Text().getText(), configData.getImsafe_TextExpected());
+
+		sa.assertEquals(sosAlertWindow_PO.getSendAlertNow_Text().getText(), configData.getSendAlertNow_TextExpected());
+
+		generic.clickOnWebElement(sosAlertWindow_PO.getSend_alert_now_button());
+
+		generic.waitForVisibility(dashboard_PO.getKey_action_text());
+		Assert.assertEquals(dashboard_PO.getKey_action_text().getText(),
+				configData.getcommonAssertionSOSAlertWindowExpected());
+		Thread.sleep(3000);
+
+		sa.assertAll();
 	}
 
-	@Test(priority = 301, groups = { "Regression" })
+	@Test(priority = 301, groups = { "Regression" }, dependsOnMethods = {
+			"TC501_ValidateSendSOSAlertMessageSendTestcase" })
 	public void TC502_ValidateDontSentLinkTestcase() {
-		generic.clickOnWebElement(dpo.getSOS_icon());
+
+		sosAlertWindow_PO = dashboard_PO.clickOnSOSIcon();
+
+		generic.waitForVisibility(sosAlertWindow_PO.getDontsend_Text());
+		sa.assertEquals(sosAlertWindow_PO.getDontsend_Text().getText(), configData.getDontsend_TextExpected());
+
 		generic.tappingOnWebelement(512, 1510);
 
-		generic.waitForVisibility(dpo.getKey_action_text());
-		Assert.assertEquals(dpo.getKey_action_text().getText(), configdata.getcommonAssertionSOSAlertWindowExpected());
+		generic.waitForVisibility(dashboard_PO.getKey_action_text());
+		Assert.assertEquals(dashboard_PO.getKey_action_text().getText(),
+				configData.getcommonAssertionSOSAlertWindowExpected());
 
+		sa.assertAll();
 	}
 
-	@Test(priority = 302, groups = { "Regression" })
+	@Test(priority = 302, groups = { "Regression" }, dependsOnMethods = {
+			"TC501_ValidateSendSOSAlertMessageSendTestcase" })
 	public void TC503_ValidatecloseIconTestcase() {
-		generic.clickOnWebElement(dpo.getSOS_icon());
+
+		sosAlertWindow_PO = dashboard_PO.clickOnSOSIcon();
+
 		generic.tappingOnWebelement(882, 813);
 
-		generic.waitForVisibility(dpo.getKey_action_text());
-		Assert.assertEquals(dpo.getKey_action_text().getText(), configdata.getcommonAssertionSOSAlertWindowExpected());
-
+		generic.waitForVisibility(dashboard_PO.getKey_action_text());
+		Assert.assertEquals(dashboard_PO.getKey_action_text().getText(),
+				configData.getcommonAssertionSOSAlertWindowExpected());
+		sa.assertAll();
 	}
 
 }

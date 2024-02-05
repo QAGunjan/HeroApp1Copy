@@ -14,7 +14,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class DealerLocator_Page_object extends BaseClass{
+public class DealerLocator_Page_object extends BaseClass {
 
 	@AndroidFindBy(id = "com.customerapp.hero:id/floating_button2")
 	private MobileElement listViewicon;
@@ -36,7 +36,12 @@ public class DealerLocator_Page_object extends BaseClass{
 	@AndroidFindBy(xpath = "//*[@text='Something went wrong - 102']")
 	private MobileElement somethingWentWrong_text;
 
-	
+	@AndroidFindBy(xpath = "(//android.view.ViewGroup//android.widget.TextView)[4]")
+	private MobileElement Nodealerfound_Text;
+
+	public MobileElement getNodealerfound_Text() {
+		return Nodealerfound_Text;
+	}
 
 	public MobileElement getListViewicon() {
 		return listViewicon;

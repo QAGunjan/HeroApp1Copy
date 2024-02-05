@@ -1,0 +1,72 @@
+[DEBUG] 2024-01-10 15:13:29.350 BaseClass:210 - Starting the Appium Service....
+2024-01-10 15:13:29.342
+--------------------------------------------------------------
+[INFO ] 2024-01-10 15:13:41.871 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-10 15:13:56.866 BaseClass:186 - 35a009ef-fef4-4346-abc1-5007b682af7b
+[DEBUG] 2024-01-10 15:14:04.551 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-10 15:14:04.720 Generic:157 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-10 15:14:05.832 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-10 15:14:06.434 Generic:123 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-10 15:14:08.608 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-10 15:14:08.628 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-10 15:14:10.349 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-10 15:14:10.370 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-10 15:14:10.597 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-10 15:14:13.809 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-10 15:14:14.421 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-10 15:14:18.470 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-10 15:14:28.064 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-10 15:14:28.065 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-10 15:14:28.213 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-10 15:14:28.212
+[DEBUG] 2024-01-10 15:15:59.218 BaseClass:210 - Starting the Appium Service....
+2024-01-10 15:15:59.211
+--------------------------------------------------------------
+[INFO ] 2024-01-10 15:16:12.385 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-10 15:16:25.982 BaseClass:186 - ff45f2df-4a90-44e2-b223-95c351ffabf0
+[DEBUG] 2024-01-10 15:16:34.402 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-10 15:16:34.593 Generic:157 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-10 15:16:35.223 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-10 15:16:35.743 Generic:123 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-10 15:16:38.795 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-10 15:16:38.812 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-10 15:16:40.665 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-10 15:16:40.686 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-10 15:16:40.913 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-10 15:16:43.560 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-10 15:16:44.759 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-10 15:16:48.400 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-10 15:16:59.665 Generic:200 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-10 15:17:01.510 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-10 15:17:08.772 Generic:200 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-10 15:17:10.330 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-10 15:17:12.587 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-10 15:17:13.844 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-10 15:17:45.185 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/permissionTitle' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-10 15:18:33.233 Generic:200 - Successfully Visibility  ----> Edit List
+[DEBUG] 2024-01-10 15:18:35.026 Generic:123 - Successfully Clicked  ----> Edit List
+[DEBUG] 2024-01-10 15:18:37.263 Generic:200 - Successfully Visibility  ----> Save List
+[DEBUG] 2024-01-10 15:18:39.029 Generic:123 - Successfully Clicked  ----> Save List
+[DEBUG] 2024-01-10 15:18:40.404 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-10 15:18:41.410 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-10 15:18:44.393 Generic:200 - Successfully Visibility  ----> Hello! Randhir
+[DEBUG] 2024-01-10 15:18:46.060 Generic:200 - Successfully Visibility  ----> You are using
+[DEBUG] 2024-01-10 15:18:47.578 Generic:200 - Successfully Visibility  ----> Vehicle Details
+[DEBUG] 2024-01-10 15:18:49.172 Generic:200 - Successfully Visibility  ----> Wheels of Trust
+[DEBUG] 2024-01-10 15:18:50.712 Generic:200 - Successfully Visibility  ----> Joyride
+[DEBUG] 2024-01-10 15:19:00.199 Generic:200 - Successfully Visibility  ----> App Ver 9.1.9
+[DEBUG] 2024-01-10 15:19:01.772 Generic:200 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-10 15:19:02.933 Generic:123 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-10 15:19:04.583 Generic:200 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-10 15:19:05.394 Generic:200 - Successfully Visibility  ----> Are you sure to logout?
+[DEBUG] 2024-01-10 15:19:06.011 Generic:200 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-10 15:19:06.380 Generic:123 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-10 15:19:08.986 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-10 15:19:09.546 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-10 15:19:09.546 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-10 15:19:09.663 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-10 15:19:09.662

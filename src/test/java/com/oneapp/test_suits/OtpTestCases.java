@@ -1,274 +1,139 @@
 package com.oneapp.test_suits;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.oneapp.basic.BaseClass;
+import com.oneapp.basic.ExcelData;
+import com.oneapp.pageobjects.CommonElements_Page_object;
+import com.oneapp.pageobjects.Dashboard_Page_object;
+import com.oneapp.pageobjects.Login_Page_Object;
+import com.oneapp.pageobjects.Logout_Page_Object;
+import com.oneapp.pageobjects.Menu_Bar_Page_Object;
 import com.oneapp.pageobjects.OTP_Page_Object;
+import com.oneapp.pageobjects.Selected_Vehicle_Page_Object;
+import com.oneapp.utils.ConfigData;
 import com.oneapp.utils.Console_Colors;
+import com.oneapp.utils.Generic;
 import com.oneapp.utils.TestUtils;
+
+import io.appium.java_client.MobileBy;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.offset.PointOption;
 
 public class OtpTestCases extends BaseClass {
 
-	SoftAssert sa = new SoftAssert();
+	public Login_Page_Object Login_PO;
+	public OTP_Page_Object otp_PO;
+	public Selected_Vehicle_Page_Object sv_PO;
+	public Dashboard_Page_object dashboard_PO;
+	public Menu_Bar_Page_Object menuBar_PO;
+	public Logout_Page_Object logout_PO;
+	public CommonElements_Page_object cepo_PO;
+	public SoftAssert sa = new SoftAssert();
+	public ConfigData configData = new ConfigData();
+	public Generic generic = new Generic();
 
 	@Test(priority = 100, groups = { "Smoke", "Regression" })
-	public void TC101_ValidOtpTestcase() {
-		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
-			try {
-				if (generic.elementDisplaying(cepo.getAllowing_commom_popup_samsung())) {
-					generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
-				}
-			} catch (Exception e) {
-				TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-			}
-		}
+	public void TC101_ValidOtpTestcase() throws InterruptedException {
 
-		generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
+		Login_PO = new Login_Page_Object(ad);
+		cepo_PO = new CommonElements_Page_object(ad);
 
-		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
-			generic.clickOnWebElement(cepo.getbutton());
-		} else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
-			generic.clickOnWebElement(cepo.getContinuebuttonIOS());
-		}
+		Login_PO.enterLoginMobileNumber(new ExcelData().getStringData("Login Page", 1, 1));
 
-		generic.waitForVisibility(opo.getVerify_with_OTP());
+		otp_PO = Login_PO.clickOnContinuebutton();
 
-		sa.assertEquals(opo.getVerify_with_OTP().getText(), configdata.getValidLoginExpected());
+		SoftAssertion(otp_PO.getVerify_with_OTP(), otp_PO.getVerify_with_OTP().getText(),
+				configData.getValidLoginExpected());
 
-		opo.getFirsttxtbox().sendKeys("1");
-		opo.getSecondtxtbox().sendKeys("2");
-		opo.getThirdtxtbox().sendKeys("3");
-		opo.getFourthtxtbox().sendKeys("4");
-		opo.getFifthtxtbox().sendKeys("5");
-		opo.getSixthtxtbox().sendKeys("6");
+		SoftAssertion(otp_PO.getWelcomeToHero_Text(), otp_PO.getWelcomeToHero_Text().getText(),
+				configData.getWelcomeToHero_TextExpected());
 
-		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
-			generic.clickOnWebElement(cepo.getbutton());
+		SoftAssertion(otp_PO.getEnter6digitOTPsentto_Text(), otp_PO.getEnter6digitOTPsentto_Text().getText(),
+				configData.getEnter6digitOTPsentto_TextExpected());
 
-			if (generic.elementDisplaying(svpo.getbook_service_PAID_vin())) {
-				generic.clickOnWebElement(svpo.getbook_service_PAID_vin());
-				TestUtils.log().debug("Book service PAID vin selected");
-				generic.clickOnWebElement(cepo.getbutton());
+//		SoftAssertion(otp_PO.getResendOTPin_Text(), otp_PO.getResendOTPin_Text().getText(),
+//				configData.getResendOTPin_TextExpected());
 
-//				try {
-//					if (generic.elementDisplaying(dpo.getDevice_location_popup_samsung())) {
-//						generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
-//					}
-//				} catch (Exception e) {
-//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-//				}
-//				try {
-//					if (generic.elementDisplaying(dpo.getAcessYourPhoneCallLogsPopUp())) {
-//						generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
-//					}
-//				} catch (Exception e) {
-//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-//				}
-//
-//				try {
-//					if (generic.elementDisplaying(dpo.getAcessYourContactsPopUp())) {
-//						generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
-//					}
-//				} catch (Exception e) {
-//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-//				}
-//
-//				try {
-//					if (generic.elementDisplaying(dpo.getManagePhoneCallsPopUp())) {
-//						generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
-//					}
-//				} catch (Exception e) {
-//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-//				}
-//				try {
-//					if (generic.elementDisplaying(dpo.getSendAndViewSMSMessagesPopUp())) {
-//						generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
-//					}
-//				} catch (Exception e) {
-//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-//				}
-//
-//				try {
-//					if (generic.elementDisplaying(dpo.getNearby_devices_popup())) {
-//						generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung());
-//					}
-//
-//				} catch (Exception e) {
-//					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-//				}
+		otp_PO.TypeInField();
 
-				base.dashboardAllPopUp(dpo.getDevice_location_popup_samsung(), cepo.getOnlyThisTime_popup_samsung(),
-						dpo.getAcessYourPhoneCallLogsPopUp(), cepo.getAllowing_commom_popup_samsung(),
-						dpo.getAcessYourContactsPopUp(), dpo.getManagePhoneCallsPopUp(),
-						dpo.getSendAndViewSMSMessagesPopUp(), dpo.getNearby_devices_popup());
-			}
-		}
+		sa.assertEquals(cepo_PO.getButton().getText(), configData.getVerify_TextExpected());
 
-		else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
-			generic.clickOnWebElement(cepo.getVerifybuttonIOS());
+		sv_PO = otp_PO.clickOnVerifyButton();
 
-			if (generic.elementDisplaying(svpo.getbook_service_PAID_vin())) {
-				generic.clickOnWebElement(svpo.getbook_service_PAID_vin());
-				generic.clickOnWebElement(cepo.getsavebuttonIOS());
-				TestUtils.log().debug("Book service PAID vin selected");
-				generic.clickOnWebElement(cepo.getContinuebuttonIOS());
-			}
+//		sa.assertEquals(sv_PO.getYouWillAlwaysSeePrimaryVehicleDetails_Text().getText(),
+//				configData.getYouWillAlwaysSeePrimaryVehicleDetails_TextExpected());
 
-//			if (PLATFORM_NAME.equalsIgnoreCase("android")) {
-//				generic.clickOnWebElement(cepo.getbutton());
-//			} else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
-//				generic.clickOnWebElement(cepo.getContinuebuttonIOS());
-//			}
-		}
+		dashboard_PO = sv_PO.vinSelection();
 
-//		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
-//
-//			try {
-//				if (generic.elementDisplaying(dpo.getDevice_location_popup_samsung())) {
-//					generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
-//					Thread.sleep(5000);
-//				}
-//			} catch (Exception e) {
-//				TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-//			}
-//		}
+		dashboard_PO.DashboardAllPopUp();
 
-		generic.clickOnWebElement(dpo.getMenu_bar_icon());
-		generic.clickOnWebElement(mbpo.getLogout_menu_bar_txt());
+		sa.assertEquals(dashboard_PO.getEditList_Text().getText(), configData.geteditList_TextExpected());
 
-		try {
-			generic.clickOnWebElement(lopo.getYes_text());
-		} catch (Exception e) {
-			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-		}
+		generic.clickOnWebElement(dashboard_PO.getEditList_Text());
 
-		generic.waitForVisibility(cepo.getHerologo());
+		sa.assertEquals(dashboard_PO.getEditList_Text().getText(), configData.getsaveList_TextExpected());
 
-		Assert.assertEquals(cepo.getHerologo().getText(), configdata.getCommonLoginPageExpected());
+		generic.clickOnWebElement(dashboard_PO.getEditList_Text());
+
+		menuBar_PO = dashboard_PO.clickOnMenuBarIcon();
+
+		generic.waitForVisibility(menuBar_PO.getHello_text());
+
+		sa.assertTrue(menuBar_PO.getHello_text().getText().contains(configData.getHello_textExpected()));
+
+		generic.waitForVisibility(menuBar_PO.getYouAreUsing_text());
+
+		sa.assertEquals(menuBar_PO.getYouAreUsing_text().getText(), configData.getyouAreUsing_textExpected());
+
+		generic.waitForVisibility(menuBar_PO.getVehicleDetails_text());
+
+		sa.assertEquals(menuBar_PO.getVehicleDetails_text().getText(), configData.getVehicleDetails_textExpected());
+
+		generic.waitForVisibility(menuBar_PO.getWheelsOfTrust_text());
+		sa.assertEquals(menuBar_PO.getWheelsOfTrust_text().getText(), configData.getWheelsOfTrust_textExpected());
+
+		generic.waitForVisibility(menuBar_PO.getJoyride_text());
+		sa.assertEquals(menuBar_PO.getJoyride_text().getText(), configData.getJoyride_textExpected());
+
+		generic.Scrolling("Logout");
+
+		generic.waitForVisibility(menuBar_PO.getAppVersion_text());
+		sa.assertTrue(menuBar_PO.getAppVersion_text().getText().contains(configData.getAppVersion_textExpected()));
+
+		logout_PO = menuBar_PO.clickOnLogoutOut_Text();
+
+		generic.waitForVisibility(logout_PO.getLogoutWindow_text());
+		sa.assertEquals(logout_PO.getLogoutWindow_text().getText(), configData.getLogoutWindow_textExpected());
+		generic.waitForVisibility(logout_PO.getAreyousuretologout_text());
+		sa.assertEquals(logout_PO.getAreyousuretologout_text().getText(),
+				configData.getAreyousuretologout_textExpected());
+
+		cepo_PO = logout_PO.clickOnYes();
+
+		generic.waitForVisibility(cepo_PO.getHerologo());
+
+		Assert.assertEquals(cepo_PO.getHerologo().getText(), configData.getCommonLoginPageExpected());
 
 		sa.assertAll();
 	}
 
-	@Test(priority = 101, groups = { "Regression" })
-	public void TC102_InValidOtpTestcase() {
-		/*
-		 * 
-		 * try { if (generic.elementDisplaying(cepo.getAllowing_commom_popup_samsung()))
-		 * { generic.clickOnWebElement(cepo.getAllowing_commom_popup_samsung()); } }
-		 * catch (Exception e) { TestUtils.log().debug(Console_Colors.Red_color() + e +
-		 * Console_Colors.Reset_color()); }
-		 * 
-		 */
-
-		generic.clearOnTexBox(lpo.getMobile_num_field());
-		generic.sendKeysOnTextfields(lpo.getMobile_num_field(), exceldata.getStringData("Login Page", 1, 1));
-
-		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
-			generic.clickOnWebElement(cepo.getbutton());
-		} else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
-			generic.clickOnWebElement(cepo.getContinuebuttonIOS());
-		}
-
-		generic.waitForVisibility(opo.getVerify_with_OTP());
-
-		sa.assertEquals(opo.getVerify_with_OTP().getText(), configdata.getValidLoginExpected());
-
-		opo.getFirsttxtbox().sendKeys("1");
-		opo.getSecondtxtbox().sendKeys("2");
-		opo.getThirdtxtbox().sendKeys("3");
-		opo.getFourthtxtbox().sendKeys("4");
-		opo.getFifthtxtbox().sendKeys("5");
-		opo.getSixthtxtbox().sendKeys("8");
-
-		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
-			generic.clickOnWebElement(cepo.getbutton());
-
-		}
-
-		else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
-			generic.clickOnWebElement(cepo.getVerifybuttonIOS());
-
-		}
-
-		generic.waitForVisibility(opo.getVerify_with_OTP());
-		Assert.assertEquals(opo.getVerify_with_OTP().getText(), configdata.getValidLoginExpected());
-
+	public void SoftAssertion(WebElement element, String actualText, String expectedText) {
+		generic.waitForVisibility(element);
+		sa.assertEquals(actualText, expectedText);
 	}
 
-	@Test(priority = 102, groups = { "Regression" })
-	public void TC103_ResendLinkTestcase() {
-
-		generic.clickOnWebElement(opo.getResend_link());
-
-		opo.getFirsttxtbox().sendKeys("1");
-		opo.getSecondtxtbox().sendKeys("2");
-		opo.getThirdtxtbox().sendKeys("3");
-		opo.getFourthtxtbox().sendKeys("4");
-		opo.getFifthtxtbox().sendKeys("5");
-		opo.getSixthtxtbox().sendKeys("6");
-
-		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
-			generic.clickOnWebElement(cepo.getbutton());
-
-			if (generic.elementDisplaying(svpo.getbook_service_PAID_vin())) {
-				generic.clickOnWebElement(svpo.getbook_service_PAID_vin());
-				TestUtils.log().debug("Book service PAID vin selected");
-				generic.clickOnWebElement(cepo.getbutton());
-
-				try {
-					if (generic.elementDisplaying(dpo.getDevice_location_popup_samsung())) {
-						generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
-						Thread.sleep(5000);
-					}
-				} catch (Exception e) {
-					TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-				}
-
-			}
-		}
-
-		else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
-			generic.clickOnWebElement(cepo.getVerifybuttonIOS());
-
-			if (generic.elementDisplaying(svpo.getbook_service_PAID_vin())) {
-				generic.clickOnWebElement(svpo.getbook_service_PAID_vin());
-				generic.clickOnWebElement(cepo.getsavebuttonIOS());
-				TestUtils.log().debug("Book service PAID vin selected");
-				generic.clickOnWebElement(cepo.getContinuebuttonIOS());
-			}
-
-//			if (PLATFORM_NAME.equalsIgnoreCase("android")) {
-//				generic.clickOnWebElement(cepo.getbutton());
-//			} else if (PLATFORM_NAME.equalsIgnoreCase("ios")) {
-//				generic.clickOnWebElement(cepo.getContinuebuttonIOS());
-//			}
-		}
-
-//		if (PLATFORM_NAME.equalsIgnoreCase("android")) {
-//
-//			try {
-//				if (generic.elementDisplaying(dpo.getDevice_location_popup_samsung())) {
-//					generic.clickOnWebElement(cepo.getOnlyThisTime_popup_samsung());
-//					Thread.sleep(5000);
-//				}
-//			} catch (Exception e) {
-//				TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-//			}
-//		}
-
-		generic.clickOnWebElement(dpo.getMenu_bar_icon());
-		generic.clickOnWebElement(mbpo.getLogout_menu_bar_txt());
-
-		try {
-			generic.clickOnWebElement(lopo.getYes_text());
-		} catch (Exception e) {
-			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
-		}
-
-		generic.waitForVisibility(cepo.getHerologo());
-		Assert.assertEquals(cepo.getHerologo().getText(), configdata.getCommonLoginPageExpected());
+	public void HardAssertion(WebElement element, String actualText, String expectedText) {
+		generic.waitForVisibility(element);
+		Assert.assertEquals(actualText, expectedText);
 	}
 
 }

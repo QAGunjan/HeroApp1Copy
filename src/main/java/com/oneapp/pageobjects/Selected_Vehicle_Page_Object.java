@@ -9,57 +9,64 @@ import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 import com.oneapp.basic.BaseClass;
+import com.oneapp.utils.Generic;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 
 public class Selected_Vehicle_Page_Object extends BaseClass {
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/reg_no_val_lbl")
-	private MobileElement vehicleselection;
+	public Generic generic = new Generic();
+	
+	@FindBy(id = "com.customerapp.hero:id/reg_no_val_lbl")
+	private WebElement vehicleselection;
 
-	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.TextView[1]")
-	private MobileElement makeprimary;
+	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.widget.TextView[1]")
+	private WebElement makeprimary;
 
-	@AndroidFindBy(xpath = "//*[@text='goodlife member']")
-	private MobileElement goodlife_membership_vin;
+	@FindBy(xpath = "//*[@text='goodlife member']")
+	private WebElement goodlife_membership_vin;
 
-	@AndroidFindBy(xpath = "//*[@text='book service paid']")
+	@FindBy(xpath = "//*[@text='book service paid']")
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"book service paid\"]")
 
-	private MobileElement book_service_PAID_vin;
+	private WebElement book_service_PAID_vin;
 
 	@FindAll({
 			@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup/android.widget.ImageView[3]"),
 			@FindBy(id = "com.customerapp.hero:id/ic_edit") })
 	private WebElement Edit_Icon_FirstVin;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/normal_text_input_layout")
-	private MobileElement NickName_TextField;
+	@FindBy(id = "com.customerapp.hero:id/normal_text_input_layout")
+	private WebElement NickName_TextField;
 
-	
-	
-	public MobileElement getMakeprimary() {
-		return makeprimary;
+	@FindBy(id = "com.customerapp.hero:id/lbl2")
+
+	private WebElement YouWillAlwaysSeePrimaryVehicleDetails_Text;
+
+	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
+	private WebElement continueBtn;
+
+	Selected_Vehicle_Page_Object(AppiumDriver ad) {
+		PageFactory.initElements(ad, this);
 	}
 
-	public MobileElement getGoodlife_membership_vin() {
-		return goodlife_membership_vin;
-	}
+	public Dashboard_Page_object vinSelection() throws InterruptedException {
+		if (book_service_PAID_vin.getText().contains("book")) {
+			generic.clickOnWebElement(book_service_PAID_vin);
+		}
 
-	public MobileElement getbook_service_PAID_vin() {
-		return book_service_PAID_vin;
-	}
+		generic.clickOnWebElement(continueBtn);
 
-	public WebElement getEdit_Icon_FirstVin() {
-		return Edit_Icon_FirstVin;
-	}
+		return new Dashboard_Page_object(ad);
 
-	public MobileElement getNickName_TextField() {
-		return NickName_TextField;
 	}
-
 }

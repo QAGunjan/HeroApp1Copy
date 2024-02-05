@@ -1,0 +1,787 @@
+[DEBUG] 2023-12-28 16:32:24.970 BaseClass:215 - Starting the Appium Service....
+2023-12-28 16:32:24.962
+--------------------------------------------------------------
+[INFO ] 2023-12-28 16:32:39.145 BaseClass:133 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-28 16:32:39.146 BaseClass:135 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-28 16:32:39.147 BaseClass:137 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-28 16:32:39.148 BaseClass:139 - UDID IS --> emulator-5554
+[INFO ] 2023-12-28 16:32:39.149 BaseClass:149 - Android Real device gets opened
+[DEBUG] 2023-12-28 16:33:12.628 BaseClass:191 - 5f8312b4-0e60-490e-a7e6-84513bd4064e
+[DEBUG] 2023-12-28 16:33:27.458 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 16:33:27.592 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 16:33:28.038 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 16:33:28.430 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 16:33:30.410 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 16:33:30.563 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 16:33:30.964 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 16:33:31.262 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 16:33:31.533 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 16:33:33.290 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 16:33:33.881 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 16:33:34.238 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 16:33:34.258 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 16:33:35.496 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 16:33:35.523 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 16:33:35.608 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 16:33:37.574 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 16:33:37.865 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 16:33:41.334 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 16:33:42.296 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 16:33:42.523 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 16:33:44.248 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 16:33:44.252 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 16:33:44.651 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 16:33:46.143 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 16:33:46.421 Generic:229 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2023-12-28 16:33:46.428 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 16:33:47.526 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 16:33:47.536 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 16:33:47.671 Generic:218 - Successfully enter value ----> 1231131232
+[DEBUG] 2023-12-28 16:33:50.055 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 16:33:50.308 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 16:33:51.524 Generic:229 - Successfully Visibility  ----> Login
+[DEBUG] 2023-12-28 16:33:51.688 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 16:33:51.696 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 16:33:53.357 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 16:33:54.187 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 16:33:54.592 Generic:229 - Successfully Visibility  ----> 1231131232
+[DEBUG] 2023-12-28 16:33:54.607 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 16:33:55.681 Generic:229 - Successfully Visibility  ----> 1231131232
+[DEBUG] 2023-12-28 16:33:55.697 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 16:33:55.841 Generic:218 - Successfully enter value ----> 66666
+[DEBUG] 2023-12-28 16:33:56.070 MyListeners:59 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285), io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45), io.appium.java_client.MobileElement.execute(MobileElement.java:1), io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1), org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51), jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source), com.oneapp.utils.Generic.sendKeysOnTextfields(Generic.java:219), com.oneapp.pageobjects.Login_Page_Object.enterLoginMobileNumber(Login_Page_Object.java:72), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:44), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-28 16:33:58.631 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__T_h_u_ _D_e_c_ _2_8_ _1_6___3_3___5_6_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-28 16:33:58.639 MyListeners:75 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-12-28 16:33:59.699 BaseClass:204 - Session gets closed
+[DEBUG] 2023-12-28 16:33:59.701 BaseClass:205 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 16:34:01.268 BaseClass:230 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-28 16:34:01.268
+[DEBUG] 2023-12-28 16:58:34.464 BaseClass:215 - Starting the Appium Service....
+2023-12-28 16:58:34.442
+--------------------------------------------------------------
+[INFO ] 2023-12-28 16:58:50.252 BaseClass:133 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-28 16:58:50.253 BaseClass:135 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-28 16:58:50.256 BaseClass:137 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-28 16:58:50.259 BaseClass:139 - UDID IS --> emulator-5554
+[INFO ] 2023-12-28 16:58:50.262 BaseClass:149 - Android Real device gets opened
+[DEBUG] 2023-12-28 16:59:47.878 BaseClass:191 - 9c4ec848-8be3-4ae6-ac9d-0dddc794b477
+[DEBUG] 2023-12-28 17:00:03.947 Generic:232 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.google.android.gms:id/title' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-28 17:00:09.131 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 17:00:09.970 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 17:00:10.943 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 17:00:14.799 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:00:15.051 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 17:00:15.703 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:00:16.064 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 17:00:16.351 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 17:00:18.465 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 17:00:19.006 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 17:00:19.965 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 17:00:19.978 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:00:20.878 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 17:00:20.895 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:00:21.023 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 17:00:23.828 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 17:00:24.146 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 17:00:27.988 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 17:00:28.964 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 17:00:29.230 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 17:00:30.833 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 17:00:30.845 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 17:00:32.175 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 17:00:32.704 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 17:00:33.132 Generic:229 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2023-12-28 17:00:33.143 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:00:34.647 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 17:00:34.673 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:00:34.764 Generic:218 - Successfully enter value ----> 66666
+[DEBUG] 2023-12-28 17:00:37.009 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 17:00:37.823 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 17:00:38.186 Generic:229 - Successfully Visibility  ----> Login
+[DEBUG] 2023-12-28 17:00:38.291 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 17:00:39.458 BaseClass:204 - Session gets closed
+[DEBUG] 2023-12-28 17:00:39.461 BaseClass:205 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 17:00:41.101 BaseClass:230 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-28 17:00:41.100
+[DEBUG] 2023-12-28 17:21:55.244 BaseClass:215 - Starting the Appium Service....
+2023-12-28 17:21:55.233
+--------------------------------------------------------------
+[INFO ] 2023-12-28 17:22:07.092 BaseClass:133 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-28 17:22:07.093 BaseClass:135 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-28 17:22:07.094 BaseClass:137 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-28 17:22:07.095 BaseClass:139 - UDID IS --> emulator-5554
+[INFO ] 2023-12-28 17:22:07.096 BaseClass:149 - Android Real device gets opened
+[DEBUG] 2023-12-28 17:22:37.388 BaseClass:191 - 9114cbb6-2be5-4f97-805c-f236bc40205b
+[DEBUG] 2023-12-28 17:22:50.746 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 17:22:50.887 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 17:22:51.335 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 17:22:51.664 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 17:22:53.212 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:22:53.339 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 17:22:53.767 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:22:54.078 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 17:22:54.305 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 17:22:56.479 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 17:22:57.018 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 17:22:57.412 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 17:22:57.418 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:22:58.616 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 17:22:58.632 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:22:58.748 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 17:23:00.648 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 17:23:00.877 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 17:23:04.863 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 17:23:05.795 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 17:23:06.011 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 17:23:07.709 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 17:23:07.714 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 17:23:08.571 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 17:23:09.048 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 17:23:09.451 Generic:229 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2023-12-28 17:23:09.473 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:23:10.620 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 17:23:10.648 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:23:10.735 Generic:218 - Successfully enter value ----> 66666
+[DEBUG] 2023-12-28 17:23:12.631 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 17:23:12.942 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 17:23:13.320 Generic:229 - Successfully Visibility  ----> Login
+[DEBUG] 2023-12-28 17:23:13.428 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 17:23:14.662 BaseClass:204 - Session gets closed
+[DEBUG] 2023-12-28 17:23:14.662 BaseClass:205 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-12-28 17:23:14.668 BaseClass:133 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-28 17:23:14.669 BaseClass:135 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-28 17:23:14.671 BaseClass:137 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-28 17:23:14.672 BaseClass:139 - UDID IS --> emulator-5554
+[INFO ] 2023-12-28 17:23:14.672 BaseClass:149 - Android Real device gets opened
+[DEBUG] 2023-12-28 17:23:40.690 BaseClass:191 - cf431cb3-bc6d-4c4e-9419-683a164605eb
+[DEBUG] 2023-12-28 17:23:54.074 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 17:23:54.300 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 17:23:54.601 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 17:23:54.803 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 17:23:56.279 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:23:56.395 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 17:23:56.882 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:23:57.180 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 17:23:57.379 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 17:23:58.652 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 17:23:59.168 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 17:24:02.117 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 17:24:02.127 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:24:03.031 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 17:24:03.041 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:24:03.123 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 17:24:04.699 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 17:24:04.971 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 17:24:08.273 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 17:24:17.460 Generic:229 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-12-28 17:24:18.232 Generic:148 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-12-28 17:24:31.810 Generic:229 - Successfully Visibility  ----> book service paid
+[DEBUG] 2023-12-28 17:24:32.458 Generic:148 - Successfully Clicked  ----> book service paid
+[DEBUG] 2023-12-28 17:24:33.659 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 17:24:34.025 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 17:24:41.872 Generic:229 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-12-28 17:24:42.379 Generic:148 - Successfully Clicked  ----> Only this time
+[DEBUG] 2023-12-28 17:24:44.702 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:24:45.096 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 17:24:47.135 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:24:47.890 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 17:24:49.907 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:24:50.246 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 17:24:52.116 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:24:52.881 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 17:24:54.069 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 17:24:54.467 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 17:24:56.476 Generic:229 - Successfully Visibility  ----> Edit List
+[DEBUG] 2023-12-28 17:24:56.907 Generic:148 - Successfully Clicked  ----> Edit List
+[DEBUG] 2023-12-28 17:24:58.043 Generic:229 - Successfully Visibility  ----> Save List
+[DEBUG] 2023-12-28 17:24:58.383 Generic:148 - Successfully Clicked  ----> Save List
+[DEBUG] 2023-12-28 17:24:59.577 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 17:24:59.781 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 17:25:01.553 Generic:232 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//android.view.ViewGroup//android.widget.TextView)[1]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.21.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Pixel 3, platformName: android, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2028, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: cf431cb3-bc6d-4c4e-9419-683a164605eb[0m
+[DEBUG] 2023-12-28 17:25:02.182 Generic:229 - Successfully Visibility  ----> You are using
+[DEBUG] 2023-12-28 17:25:02.770 Generic:229 - Successfully Visibility  ----> Vehicle Details
+[DEBUG] 2023-12-28 17:25:03.259 Generic:229 - Successfully Visibility  ----> Wheels of Trust
+[DEBUG] 2023-12-28 17:25:03.788 Generic:229 - Successfully Visibility  ----> Joyride
+[DEBUG] 2023-12-28 17:25:15.676 Generic:229 - Successfully Visibility  ----> App Ver 9.1.8
+[DEBUG] 2023-12-28 17:25:16.354 Generic:229 - Successfully Visibility  ----> Logout
+[DEBUG] 2023-12-28 17:25:16.859 Generic:148 - Successfully Clicked  ----> Logout
+[DEBUG] 2023-12-28 17:25:18.237 Generic:229 - Successfully Visibility  ----> Logout
+[DEBUG] 2023-12-28 17:25:18.555 Generic:229 - Successfully Visibility  ----> Are you sure to logout?
+[DEBUG] 2023-12-28 17:25:18.804 Generic:229 - Successfully Visibility  ----> YES
+[DEBUG] 2023-12-28 17:25:19.225 Generic:148 - Successfully Clicked  ----> YES
+[DEBUG] 2023-12-28 17:25:24.146 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 17:25:24.326 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 17:25:26.243 Generic:229 - Successfully Visibility  ----> Login
+[DEBUG] 2023-12-28 17:25:26.360 MyListeners:47 - [1;32mTC101_VALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 17:25:27.548 BaseClass:204 - Session gets closed
+[DEBUG] 2023-12-28 17:25:27.548 BaseClass:205 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 17:25:28.325 BaseClass:230 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-28 17:25:28.324
+[DEBUG] 2023-12-28 17:47:30.272 BaseClass:210 - Starting the Appium Service....
+2023-12-28 17:47:30.258
+--------------------------------------------------------------
+[INFO ] 2023-12-28 17:47:43.439 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 17:48:43.106 BaseClass:186 - 9955ce24-8d24-4580-8536-e470cca00646
+[DEBUG] 2023-12-28 17:49:01.668 Generic:232 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.google.android.gms:id/title' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-28 17:49:31.833 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 17:49:38.654 Generic:229 - Successfully Visibility  ----> Calendar
+[DEBUG] 2023-12-28 17:49:48.886 Generic:229 - Successfully Visibility  ----> Play Store
+[DEBUG] 2023-12-28 17:50:49.444 Generic:232 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-28 17:50:49.466 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:51:19.625 MyListeners:59 - [1;31m[jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy29.clear(Unknown Source), com.oneapp.utils.Generic.clearOnTexBox(Generic.java:162), com.oneapp.pageobjects.Login_Page_Object.enterLoginMobileNumber(Login_Page_Object.java:71), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:44), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-28 17:51:23.305 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__T_h_u_ _D_e_c_ _2_8_ _1_7___5_1___1_9_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-28 17:51:23.313 MyListeners:75 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-12-28 17:51:23.317 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 17:51:24.500 Generic:229 - Successfully Visibility  ----> Phone
+[DEBUG] 2023-12-28 17:51:25.363 Generic:229 - Successfully Visibility  ----> Play Store
+[DEBUG] 2023-12-28 17:52:25.946 Generic:232 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-28 17:52:25.967 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 17:52:56.563 MyListeners:59 - [1;31m[jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy29.clear(Unknown Source), com.oneapp.utils.Generic.clearOnTexBox(Generic.java:162), com.oneapp.pageobjects.Login_Page_Object.enterLoginMobileNumber(Login_Page_Object.java:71), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:44), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-28 17:52:59.093 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__T_h_u_ _D_e_c_ _2_8_ _1_7___5_2___5_6_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-28 17:52:59.096 MyListeners:75 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-12-28 17:52:59.585 BaseClass:199 - Session gets closed
+[DEBUG] 2023-12-28 17:52:59.586 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 17:53:00.576 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-28 17:53:00.575
+[DEBUG] 2023-12-28 18:06:19.271 BaseClass:210 - Starting the Appium Service....
+2023-12-28 18:06:19.262
+--------------------------------------------------------------
+[INFO ] 2023-12-28 18:06:31.481 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 18:07:04.686 BaseClass:186 - 378ca337-fdac-4227-a653-ba1d44c4a694
+[DEBUG] 2023-12-28 18:07:18.323 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 18:07:18.474 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 18:07:18.847 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:07:19.206 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:07:21.316 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:07:21.468 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 18:07:22.014 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:07:22.475 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:07:22.731 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:07:24.517 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:07:25.151 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:07:26.235 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:07:26.243 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:07:27.293 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:07:27.326 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:07:28.016 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 18:07:30.514 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:07:30.890 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:07:35.054 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 18:07:36.170 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:07:37.990 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:07:38.138 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:07:38.142 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:07:39.175 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:07:40.189 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:07:40.790 Generic:229 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2023-12-28 18:07:40.800 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:07:42.370 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:07:42.386 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:07:42.508 Generic:218 - Successfully enter value ----> 66666
+[DEBUG] 2023-12-28 18:07:44.384 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:07:44.737 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:07:45.181 Generic:229 - Successfully Visibility  ----> Login
+[DEBUG] 2023-12-28 18:07:45.327 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:07:46.498 BaseClass:199 - Session gets closed
+[DEBUG] 2023-12-28 18:07:46.500 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 18:07:47.403 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-28 18:07:47.402
+[DEBUG] 2023-12-28 18:24:04.230 BaseClass:210 - Starting the Appium Service....
+2023-12-28 18:24:04.222
+--------------------------------------------------------------
+[INFO ] 2023-12-28 18:24:16.428 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 18:24:48.845 BaseClass:186 - 14a5c2fc-8000-498d-b3d9-21ef729ecdb2
+[DEBUG] 2023-12-28 18:25:04.175 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 18:25:04.284 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 18:25:04.629 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:25:04.982 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:25:06.864 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:25:07.028 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 18:25:07.426 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:25:07.747 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:25:07.942 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:25:10.324 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:25:11.029 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:25:12.120 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:25:12.142 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:25:13.376 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:25:13.392 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:25:14.165 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 18:25:16.288 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:25:16.655 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:25:20.494 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 18:25:21.494 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:25:22.648 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:25:23.295 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:25:23.299 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:25:24.446 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:25:25.082 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:25:26.251 Generic:229 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2023-12-28 18:25:26.263 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:25:27.323 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:25:27.333 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:25:28.157 Generic:218 - Successfully enter value ----> 66666
+[DEBUG] 2023-12-28 18:25:30.311 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:25:30.565 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:25:30.821 Generic:229 - Successfully Visibility  ----> Login
+[DEBUG] 2023-12-28 18:25:31.002 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:25:31.991 BaseClass:199 - Session gets closed
+[DEBUG] 2023-12-28 18:25:31.993 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-12-28 18:25:31.998 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 18:25:52.741 BaseClass:186 - 1a9f8e14-c0ea-4d28-b52b-ed4b45496b1d
+[DEBUG] 2023-12-28 18:26:04.472 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 18:26:04.597 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 18:26:05.044 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:26:05.336 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:26:07.207 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:26:07.335 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 18:26:07.746 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:26:08.067 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:26:08.463 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:26:09.825 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:26:10.447 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:26:12.030 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:26:12.048 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:26:13.505 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:26:13.534 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:26:13.662 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 18:26:16.018 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:26:16.545 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:26:19.976 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 18:26:30.028 Generic:229 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-12-28 18:26:30.970 Generic:148 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-12-28 18:26:38.377 Generic:229 - Successfully Visibility  ----> book service paid
+[DEBUG] 2023-12-28 18:26:38.824 Generic:148 - Successfully Clicked  ----> book service paid
+[DEBUG] 2023-12-28 18:26:40.098 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:26:40.509 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:26:47.611 Generic:229 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-12-28 18:26:48.063 Generic:148 - Successfully Clicked  ----> Only this time
+[DEBUG] 2023-12-28 18:26:50.070 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:26:50.459 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:26:51.549 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:26:51.943 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:26:53.639 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:26:53.994 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:26:55.628 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:26:56.054 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:26:57.214 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:26:57.478 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:26:59.319 Generic:229 - Successfully Visibility  ----> Edit List
+[DEBUG] 2023-12-28 18:26:59.647 Generic:148 - Successfully Clicked  ----> Edit List
+[DEBUG] 2023-12-28 18:27:00.791 Generic:229 - Successfully Visibility  ----> Save List
+[DEBUG] 2023-12-28 18:27:01.544 Generic:148 - Successfully Clicked  ----> Save List
+[DEBUG] 2023-12-28 18:27:02.648 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:27:02.895 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:27:05.149 Generic:229 - Successfully Visibility  ----> Hello! Gunjan New
+[DEBUG] 2023-12-28 18:27:05.971 Generic:229 - Successfully Visibility  ----> You are using
+[DEBUG] 2023-12-28 18:27:06.566 Generic:229 - Successfully Visibility  ----> Vehicle Details
+[DEBUG] 2023-12-28 18:27:07.532 Generic:229 - Successfully Visibility  ----> Wheels of Trust
+[DEBUG] 2023-12-28 18:27:08.358 Generic:229 - Successfully Visibility  ----> Joyride
+[DEBUG] 2023-12-28 18:27:18.984 Generic:229 - Successfully Visibility  ----> App Ver 9.1.8
+[DEBUG] 2023-12-28 18:27:19.930 Generic:229 - Successfully Visibility  ----> Logout
+[DEBUG] 2023-12-28 18:27:20.705 Generic:148 - Successfully Clicked  ----> Logout
+[DEBUG] 2023-12-28 18:27:22.473 Generic:229 - Successfully Visibility  ----> Logout
+[DEBUG] 2023-12-28 18:27:22.881 Generic:229 - Successfully Visibility  ----> Are you sure to logout?
+[DEBUG] 2023-12-28 18:27:23.369 Generic:229 - Successfully Visibility  ----> YES
+[DEBUG] 2023-12-28 18:27:23.678 Generic:148 - Successfully Clicked  ----> YES
+[DEBUG] 2023-12-28 18:27:28.126 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:27:28.383 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:27:30.496 Generic:229 - Successfully Visibility  ----> Login
+[DEBUG] 2023-12-28 18:27:30.647 MyListeners:47 - [1;32mTC101_VALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:27:31.476 BaseClass:199 - Session gets closed
+[DEBUG] 2023-12-28 18:27:31.478 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 18:27:32.373 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-28 18:27:32.373
+[DEBUG] 2023-12-28 18:27:42.355 BaseClass:210 - Starting the Appium Service....
+2023-12-28 18:27:42.348
+--------------------------------------------------------------
+[INFO ] 2023-12-28 18:27:54.249 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 18:28:16.879 BaseClass:186 - 370cae23-e0cd-4f33-b16f-03102d962e87
+[DEBUG] 2023-12-28 18:28:30.208 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 18:28:30.349 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 18:28:30.800 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:28:31.126 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:28:33.037 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:28:33.177 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 18:28:33.601 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:28:33.945 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:28:34.331 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:28:35.730 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:28:36.254 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:28:37.441 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:28:37.456 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:28:39.215 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:28:39.239 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:28:39.353 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 18:28:41.406 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:28:41.950 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:28:45.492 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 18:28:46.494 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:28:48.283 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:28:48.492 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:28:48.496 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:28:49.664 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:28:50.234 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:28:51.466 Generic:229 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2023-12-28 18:28:51.498 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:28:53.244 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:28:53.256 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:28:53.392 Generic:218 - Successfully enter value ----> 66666
+[DEBUG] 2023-12-28 18:28:56.093 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:28:57.267 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:28:57.596 Generic:229 - Successfully Visibility  ----> Login
+[DEBUG] 2023-12-28 18:28:57.787 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:28:58.491 BaseClass:199 - Session gets closed
+[DEBUG] 2023-12-28 18:28:58.492 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[INFO ] 2023-12-28 18:28:58.498 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 18:29:18.186 BaseClass:186 - 0d7cbb98-8fce-49d5-a7b1-74f4a4caab63
+[DEBUG] 2023-12-28 18:29:30.186 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 18:29:30.297 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 18:29:30.753 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:29:30.998 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:29:33.363 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:29:33.470 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 18:29:33.985 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:29:34.433 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:29:34.587 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:29:35.877 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:29:37.099 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:29:39.237 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:29:39.247 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:29:40.239 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:29:40.263 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:29:41.005 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 18:29:43.456 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:29:43.639 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:29:47.300 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 18:29:57.067 Generic:229 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-12-28 18:29:57.527 Generic:148 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-12-28 18:30:25.136 Generic:229 - Successfully Visibility  ----> book service paid
+[DEBUG] 2023-12-28 18:30:27.281 Generic:148 - Successfully Clicked  ----> book service paid
+[DEBUG] 2023-12-28 18:30:28.784 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:30:29.399 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:30:38.206 Generic:229 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-12-28 18:30:38.559 Generic:148 - Successfully Clicked  ----> Only this time
+[DEBUG] 2023-12-28 18:30:40.517 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:30:41.111 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:30:42.399 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:30:43.131 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:30:45.002 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:30:45.437 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:30:47.179 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:30:47.741 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:30:48.763 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:30:49.124 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:30:53.610 Generic:229 - Successfully Visibility  ----> Edit List
+[DEBUG] 2023-12-28 18:30:54.285 Generic:148 - Successfully Clicked  ----> Edit List
+[DEBUG] 2023-12-28 18:30:55.470 Generic:229 - Successfully Visibility  ----> Save List
+[DEBUG] 2023-12-28 18:30:55.749 Generic:148 - Successfully Clicked  ----> Save List
+[DEBUG] 2023-12-28 18:30:56.785 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:30:57.005 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:30:59.021 Generic:232 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//android.view.ViewGroup//android.widget.TextView)[1]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.21.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Pixel 3, platformName: android, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2028, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0d7cbb98-8fce-49d5-a7b1-74f4a4caab63[0m
+[DEBUG] 2023-12-28 18:30:59.801 Generic:229 - Successfully Visibility  ----> You are using
+[DEBUG] 2023-12-28 18:31:00.356 Generic:229 - Successfully Visibility  ----> Vehicle Details
+[DEBUG] 2023-12-28 18:31:01.146 Generic:229 - Successfully Visibility  ----> Wheels of Trust
+[DEBUG] 2023-12-28 18:31:01.777 Generic:229 - Successfully Visibility  ----> Joyride
+[DEBUG] 2023-12-28 18:31:12.975 Generic:229 - Successfully Visibility  ----> App Ver 9.1.8
+[DEBUG] 2023-12-28 18:31:13.620 Generic:229 - Successfully Visibility  ----> Logout
+[DEBUG] 2023-12-28 18:31:14.100 Generic:148 - Successfully Clicked  ----> Logout
+[DEBUG] 2023-12-28 18:31:15.746 Generic:229 - Successfully Visibility  ----> Logout
+[DEBUG] 2023-12-28 18:31:16.311 Generic:229 - Successfully Visibility  ----> Are you sure to logout?
+[DEBUG] 2023-12-28 18:31:16.682 Generic:229 - Successfully Visibility  ----> YES
+[DEBUG] 2023-12-28 18:31:16.995 Generic:148 - Successfully Clicked  ----> YES
+[DEBUG] 2023-12-28 18:31:23.584 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:31:23.773 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:31:25.647 Generic:229 - Successfully Visibility  ----> Login
+[DEBUG] 2023-12-28 18:31:25.789 MyListeners:47 - [1;32mTC101_VALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:31:26.641 BaseClass:199 - Session gets closed
+[DEBUG] 2023-12-28 18:31:26.643 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 18:31:27.446 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-28 18:31:27.446
+[DEBUG] 2023-12-28 18:32:40.437 BaseClass:210 - Starting the Appium Service....
+2023-12-28 18:32:40.430
+--------------------------------------------------------------
+[INFO ] 2023-12-28 18:32:52.290 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 18:33:14.926 BaseClass:186 - 3c68493c-f428-43a1-87db-c584c59830a1
+[DEBUG] 2023-12-28 18:33:26.590 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 18:33:26.784 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 18:33:27.134 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:33:27.459 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:33:29.628 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:33:29.780 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 18:33:30.306 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:33:30.670 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:33:30.881 MyListeners:59 - [1;31m[org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43), org.testng.internal.Parameters.injectParameters(Parameters.java:914), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-28 18:33:31.842 BaseClass:199 - Session gets closed
+[DEBUG] 2023-12-28 18:33:31.843 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 18:40:22.833 BaseClass:210 - Starting the Appium Service....
+2023-12-28 18:40:22.823
+--------------------------------------------------------------
+[DEBUG] 2023-12-28 18:40:56.435 BaseClass:210 - Starting the Appium Service....
+2023-12-28 18:40:56.423
+--------------------------------------------------------------
+[INFO ] 2023-12-28 18:41:08.605 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 18:41:38.827 BaseClass:186 - 23bc71a0-feb7-49a2-a5df-0295b5921db6
+[DEBUG] 2023-12-28 18:41:54.222 Generic:232 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.google.android.gms:id/title' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-28 18:41:59.522 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 18:42:00.318 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:42:00.778 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:42:04.860 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:42:05.021 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 18:42:05.639 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:42:06.030 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:42:06.332 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:42:08.338 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:42:09.237 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:42:10.256 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:42:10.280 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:42:11.151 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:42:11.171 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:42:11.291 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 18:42:14.170 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:42:14.474 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:42:18.130 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 18:42:19.153 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:42:20.961 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:42:21.208 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:42:21.219 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:42:22.398 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:42:23.004 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:42:24.140 Generic:229 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2023-12-28 18:42:24.152 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:42:25.141 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:42:25.156 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:42:25.238 Generic:218 - Successfully enter value ----> 1231131232
+[DEBUG] 2023-12-28 18:42:27.099 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:42:28.187 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:42:30.113 Generic:232 - [1;31morg.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.21.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Pixel 3, platformName: android, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2028, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 23bc71a0-feb7-49a2-a5df-0295b5921db6[0m
+[DEBUG] 2023-12-28 18:42:40.039 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:42:40.044 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 18:42:40.565 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 18:42:40.986 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 18:42:41.334 Generic:229 - Successfully Visibility  ----> 1231131232
+[DEBUG] 2023-12-28 18:42:41.373 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:42:42.990 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 18:42:42.998 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 18:42:43.098 Generic:218 - Successfully enter value ----> 66666
+[DEBUG] 2023-12-28 18:42:46.223 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 18:42:46.526 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 18:42:46.875 Generic:229 - Successfully Visibility  ----> Login
+[DEBUG] 2023-12-28 18:42:46.942 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-28 18:42:48.164 BaseClass:199 - Session gets closed
+[DEBUG] 2023-12-28 18:42:48.166 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 18:42:49.370 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-28 18:42:49.369
+[DEBUG] 2023-12-28 18:58:19.010 BaseClass:210 - Starting the Appium Service....
+2023-12-28 18:58:18.993
+--------------------------------------------------------------
+[INFO ] 2023-12-28 18:58:31.639 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 18:59:04.328 BaseClass:186 - 0dba9eb8-baa2-470d-ad1e-7b3ee71d18bc
+[DEBUG] 2023-12-28 18:59:20.878 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 18:59:21.091 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 18:59:21.657 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 18:59:21.912 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 18:59:25.156 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:59:25.515 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 18:59:26.238 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 18:59:26.697 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 18:59:27.096 MyListeners:59 - [1;31m[org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43), org.testng.internal.Parameters.injectParameters(Parameters.java:914), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-28 18:59:28.755 BaseClass:199 - Session gets closed
+[DEBUG] 2023-12-28 18:59:28.759 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 19:03:28.104 BaseClass:210 - Starting the Appium Service....
+2023-12-28 19:03:28.087
+--------------------------------------------------------------
+[DEBUG] 2023-12-28 19:03:55.855 BaseClass:210 - Starting the Appium Service....
+2023-12-28 19:03:55.838
+--------------------------------------------------------------
+[INFO ] 2023-12-28 19:04:08.412 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 19:04:32.003 BaseClass:186 - 8bb7acb3-9d20-47c0-8239-6091e81979d5
+[DEBUG] 2023-12-28 19:04:44.476 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 19:04:44.699 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 19:04:45.232 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 19:04:45.563 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 19:04:47.716 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:04:47.826 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 19:04:48.161 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:04:48.422 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:04:48.641 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 19:04:49.971 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 19:04:50.818 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 19:04:53.611 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 19:04:53.623 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 19:04:54.384 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 19:04:54.391 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 19:04:54.494 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 19:04:56.343 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 19:04:56.572 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 19:04:59.956 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 19:05:07.284 Generic:229 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-12-28 19:05:08.158 Generic:148 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-12-28 19:05:17.205 Generic:229 - Successfully Visibility  ----> book service paid
+[DEBUG] 2023-12-28 19:05:18.025 Generic:148 - Successfully Clicked  ----> book service paid
+[DEBUG] 2023-12-28 19:05:19.046 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 19:05:19.405 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 19:05:27.282 Generic:229 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-12-28 19:05:27.571 Generic:148 - Successfully Clicked  ----> Only this time
+[DEBUG] 2023-12-28 19:05:29.406 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:05:29.978 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:05:31.200 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:05:31.758 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:05:33.695 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:05:34.475 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:05:36.104 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:05:36.627 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:05:37.878 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:05:38.248 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:05:43.324 Generic:229 - Successfully Visibility  ----> Edit List
+[DEBUG] 2023-12-28 19:05:43.660 Generic:148 - Successfully Clicked  ----> Edit List
+[DEBUG] 2023-12-28 19:05:44.894 Generic:229 - Successfully Visibility  ----> Save List
+[DEBUG] 2023-12-28 19:05:45.689 Generic:148 - Successfully Clicked  ----> Save List
+[DEBUG] 2023-12-28 19:05:46.935 Generic:229 - Successfully Visibility  ----> Services
+[DEBUG] 2023-12-28 19:05:47.462 Generic:148 - Successfully Clicked  ----> Services
+[DEBUG] 2023-12-28 19:05:49.351 Generic:229 - Successfully Visibility  ----> Book Service
+[DEBUG] 2023-12-28 19:05:49.553 Generic:148 - Successfully Clicked  ----> Book Service
+[DEBUG] 2023-12-28 19:06:53.281 Generic:232 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/side_menu_btn' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-28 19:08:23.641 MyListeners:59 - [1;31m[jdk.internal.reflect.GeneratedConstructorAccessor32.newInstance(Unknown Source), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy29.getWrappedElement(Unknown Source), org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50), java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197), java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992), java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509), java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499), java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921), java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234), java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682), org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484), com.oneapp.utils.Generic.clickOnWebElement(Generic.java:153), com.oneapp.pageobjects.Dashboard_Page_object.clickOnMenuBarIcon(Dashboard_Page_object.java:150), com.oneapp.test_suits.BookServiceTestCases.TC601_ValidateBookServiceTestcase(BookServiceTestCases.java:95), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-28 19:08:24.356 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC601_ValidateBookServiceTestcase__T_h_u_ _D_e_c_ _2_8_ _1_9___0_8___2_3_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-28 19:08:24.361 MyListeners:75 - [1;31mTC601_VALIDATEBOOKSERVICETESTCASE - FAILURE[0m
+[DEBUG] 2023-12-28 19:08:25.324 BaseClass:199 - Session gets closed
+[DEBUG] 2023-12-28 19:08:25.325 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-28 19:08:25.974 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-28 19:08:25.974
+[DEBUG] 2023-12-28 19:09:03.564 BaseClass:210 - Starting the Appium Service....
+2023-12-28 19:09:03.556
+--------------------------------------------------------------
+[INFO ] 2023-12-28 19:09:15.449 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 19:09:37.147 BaseClass:186 - ef5ae96a-20c8-4b3f-b96a-63c0c072f311
+[DEBUG] 2023-12-28 19:09:49.149 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 19:09:49.327 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 19:09:49.685 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 19:09:49.906 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 19:09:51.416 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:09:51.553 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 19:09:52.008 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:09:52.273 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:09:52.477 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 19:09:54.452 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 19:09:54.936 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 19:09:56.483 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 19:09:56.502 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 19:09:57.355 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 19:09:57.375 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 19:09:57.513 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 19:09:59.663 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 19:10:00.476 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 19:10:03.924 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 19:10:11.211 Generic:229 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-12-28 19:10:12.120 Generic:148 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-12-28 19:10:18.711 Generic:229 - Successfully Visibility  ----> book service paid
+[DEBUG] 2023-12-28 19:10:19.270 Generic:148 - Successfully Clicked  ----> book service paid
+[DEBUG] 2023-12-28 19:10:20.481 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 19:10:20.885 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 19:10:27.263 Generic:229 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-12-28 19:10:27.593 Generic:148 - Successfully Clicked  ----> Only this time
+[DEBUG] 2023-12-28 19:10:29.402 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:10:29.878 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:10:31.027 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:10:31.386 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:10:32.855 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:10:33.288 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:10:35.297 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:10:35.626 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:10:36.688 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:10:37.085 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:10:39.413 Generic:229 - Successfully Visibility  ----> Edit List
+[DEBUG] 2023-12-28 19:10:39.863 Generic:148 - Successfully Clicked  ----> Edit List
+[DEBUG] 2023-12-28 19:10:40.882 Generic:229 - Successfully Visibility  ----> Save List
+[DEBUG] 2023-12-28 19:10:41.697 Generic:148 - Successfully Clicked  ----> Save List
+[DEBUG] 2023-12-28 19:10:42.886 Generic:229 - Successfully Visibility  ----> Services
+[DEBUG] 2023-12-28 19:10:43.402 Generic:148 - Successfully Clicked  ----> Services
+[DEBUG] 2023-12-28 19:10:45.248 Generic:229 - Successfully Visibility  ----> Book Service
+[DEBUG] 2023-12-28 19:10:45.449 Generic:148 - Successfully Clicked  ----> Book Service
+[DEBUG] 2023-12-28 19:12:27.475 BaseClass:210 - Starting the Appium Service....
+2023-12-28 19:12:27.467
+--------------------------------------------------------------
+[INFO ] 2023-12-28 19:12:37.608 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2023-12-28 19:13:00.053 BaseClass:186 - d41b394d-727b-4bda-abab-5856c0fd019b
+[DEBUG] 2023-12-28 19:13:11.632 Generic:229 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-28 19:13:11.752 Generic:182 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-28 19:13:12.097 Generic:229 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-28 19:13:12.333 Generic:148 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-28 19:13:13.722 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:13:13.812 Generic:182 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-28 19:13:14.213 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:13:14.472 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:13:15.436 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2023-12-28 19:13:16.026 Generic:229 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-28 19:13:17.122 Generic:229 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-28 19:13:18.882 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 19:13:18.898 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 19:13:19.696 Generic:229 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-28 19:13:19.707 Generic:161 - Successfully cleared textbox
+[DEBUG] 2023-12-28 19:13:19.799 Generic:218 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-28 19:13:21.655 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 19:13:21.883 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 19:13:25.137 Generic:229 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-28 19:13:32.382 Generic:229 - Successfully Visibility  ----> Verify
+[DEBUG] 2023-12-28 19:13:33.232 Generic:148 - Successfully Clicked  ----> Verify
+[DEBUG] 2023-12-28 19:13:40.359 Generic:229 - Successfully Visibility  ----> book service paid
+[DEBUG] 2023-12-28 19:13:40.838 Generic:148 - Successfully Clicked  ----> book service paid
+[DEBUG] 2023-12-28 19:13:42.046 Generic:229 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-28 19:13:42.362 Generic:148 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-28 19:13:48.786 Generic:229 - Successfully Visibility  ----> Only this time
+[DEBUG] 2023-12-28 19:13:49.017 Generic:148 - Successfully Clicked  ----> Only this time
+[DEBUG] 2023-12-28 19:13:50.611 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:13:50.933 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:13:52.013 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:13:52.325 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:13:53.981 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:13:54.340 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:13:55.843 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:13:56.184 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:13:57.202 Generic:229 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-28 19:13:57.606 Generic:148 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-28 19:14:00.082 Generic:229 - Successfully Visibility  ----> Edit List
+[DEBUG] 2023-12-28 19:14:00.589 Generic:148 - Successfully Clicked  ----> Edit List
+[DEBUG] 2023-12-28 19:14:01.938 Generic:229 - Successfully Visibility  ----> Save List
+[DEBUG] 2023-12-28 19:14:02.310 Generic:148 - Successfully Clicked  ----> Save List
+[DEBUG] 2023-12-28 19:14:03.949 Generic:229 - Successfully Visibility  ----> Services
+[DEBUG] 2023-12-28 19:14:04.447 Generic:148 - Successfully Clicked  ----> Services
+[DEBUG] 2023-12-28 19:14:06.236 Generic:229 - Successfully Visibility  ----> Book Service
+[DEBUG] 2023-12-28 19:14:06.472 Generic:148 - Successfully Clicked  ----> Book Service

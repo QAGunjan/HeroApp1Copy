@@ -47,12 +47,40 @@ public class ConfigData extends BaseClass {
 		}
 	}
 
+	// Login Page
+
+	public String getPleaseProceedWithYourRegisteredHeroMobileNumberExpected() {
+		return pro.getProperty("PleaseProceedWithYourRegisteredHeroMobileNumberExpected");
+	}
+
+	public String getByTappingOnLoginOrRegisterYouAreAgreeingToHeroExpected() {
+		return pro.getProperty("ByTappingOnLoginOrRegisterYouAreAgreeingToHeroExpected");
+	}
+
 	public String getValidLoginExpected() {
 		return pro.getProperty("validLoginExpected");
 	}
 
 	public String getCommonLoginPageExpected() {
 		return pro.getProperty("commonLoginPageExpected");
+	}
+
+	public String getContinue_TextExpected() {
+		return pro.getProperty("Continue_TextExpected");
+	}
+
+	// OTP Page
+
+	public String getWelcomeToHero_TextExpected() {
+		return pro.getProperty("WelcomeToHero_TextExpected");
+	}
+
+	public String getEnter6digitOTPsentto_TextExpected() {
+		return pro.getProperty("Enter6digitOTPsentto_TextExpected");
+	}
+
+	public String getResendOTPin_TextExpected() {
+		return pro.getProperty("ResendOTPin_TextExpected");
 	}
 
 	public String getInvalidOTPExpected() {
@@ -62,6 +90,120 @@ public class ConfigData extends BaseClass {
 	public String getValidOTPWithNoInternet() {
 		return pro.getProperty("validOTPWithNoInternet");
 	}
+
+	public String getResend_TextExpected() {
+		return pro.getProperty("Resend_TextExpected");
+	}
+
+	public String getVerify_TextExpected() {
+		return pro.getProperty("Verify_TextExpected");
+	}
+
+	// Selected Vehicle Page
+
+	public String getYouWillAlwaysSeePrimaryVehicleDetails_TextExpected() {
+		return pro.getProperty("YouWillAlwaysSeePrimaryVehicleDetails_TextExpected");
+	}
+
+	// Dashboard Page
+
+	public String gettemperature_valueExpected() {
+		return pro.getProperty("temperature_valueExpected");
+	}
+
+	public String geteditList_TextExpected() {
+		return pro.getProperty("editList_TextExpected");
+	}
+
+	public String getsaveList_TextExpected() {
+		return pro.getProperty("saveList_TextExpected");
+	}
+
+	// BurgerMenu Page
+
+	public String getyouAreUsing_textExpected() {
+		return pro.getProperty("youAreUsing_textExpected");
+	}
+
+	public String getHello_textExpected() {
+		return pro.getProperty("Hello_textExpected");
+	}
+
+	public String getWheelsOfTrust_textExpected() {
+		return pro.getProperty("WheelsOfTrust_textExpected");
+	}
+
+	public String getJoyride_textExpected() {
+		return pro.getProperty("Joyride_textExpected");
+	}
+
+	public String getVehicleDetails_textExpected() {
+		return pro.getProperty("VehicleDetails_textExpected");
+	}
+
+	public String getAppVersion_textExpected() {
+		return pro.getProperty("AppVersion_textExpected");
+	}
+
+	// RelationShip Manager Page
+
+	public String getAreaSalesManager_TextExpected() {
+		return pro.getProperty("AreaSalesManager_TextExpected");
+	}
+
+	public String getotherContact_TextExpected() {
+		return pro.getProperty("otherContact_TextExpected");
+	}
+
+	// RSA Page
+
+	public String getLocatenearestdealer_TextExpected() {
+		return pro.getProperty("Locatenearestdealer_TextExpected");
+	}
+
+	// Dealer Locator
+
+	public String getNodealerfound_TextExpected() {
+		return pro.getProperty("Nodealerfound_TextExpected");
+	}
+
+	// SOS
+
+	public String getPanicAlert_TextExpected() {
+		return pro.getProperty("PanicAlert_TextExpected");
+	}
+
+	public String getWehavesentanSMStoemergencycontact_TextExpected_TextExpected() {
+		return pro.getProperty("WehavesentanSMStoemergencycontact_TextExpected");
+	}
+
+	public String getSendAlertNow_TextExpected() {
+		return pro.getProperty("SendAlertNow_TextExpected");
+	}
+
+	public String getDontsend_TextExpected() {
+		return pro.getProperty("Dontsend_TextExpected");
+	}
+
+	public String getImsafe_TextExpected() {
+		return pro.getProperty("Imsafe_TextExpected");
+	}
+
+	// My Profile Page
+
+	public String getEditProfileDetails_textExpected() {
+		return pro.getProperty("EditProfileDetails_textExpected");
+	}
+
+	public String getMoredetails_textExpected() {
+		return pro.getProperty("Moredetails_textExpected");
+	}
+
+	public String getLessdetails_textExpected() {
+		return pro.getProperty("Lessdetails_textExpected");
+	}
+
+	// My Profile Detail Page
 
 	public String getblankFullNameFieldExpected() {
 		return pro.getProperty("blankFullNameFieldExpected");
@@ -206,4 +348,15 @@ public class ConfigData extends BaseClass {
 	public String getgoodlife199MembershipPageTitleExpected() {
 		return pro.getProperty("goodlife199MembershipPageTitleExpected");
 	}
+
+	// Logout
+
+	public String getLogoutWindow_textExpected() {
+		return pro.getProperty("LogoutWindow_textExpected");
+	}
+
+	public String getAreyousuretologout_textExpected() {
+		return pro.getProperty("Areyousuretologout_textExpected");
+	}
+
 }

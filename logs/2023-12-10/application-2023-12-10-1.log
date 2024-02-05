@@ -1,0 +1,232 @@
+[DEBUG] 2023-12-10 15:40:56.607 BaseClass:276 - Starting the Appium Service....
+2023-12-10 15:40:56.596
+--------------------------------------------------------------
+[INFO ] 2023-12-10 15:41:13.451 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-10 15:41:13.455 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-10 15:41:13.458 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-10 15:41:13.461 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-10 15:41:13.463 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-10 15:41:59.956 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-10 15:42:00.015 Generic:218 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2023-12-10 15:42:00.017 LoginTestCases:54 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2023-12-10 15:42:00.018 Generic:218 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2023-12-10 15:42:00.033 MyListeners:59 - [1;31m[com.oneapp.utils.Generic.waitForVisibility(Generic.java:222), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:58), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-10 15:42:00.117 MyListeners:75 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-12-10 15:42:05.959 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-10 15:42:05.958
+[DEBUG] 2023-12-10 15:57:48.236 BaseClass:276 - Starting the Appium Service....
+2023-12-10 15:57:48.226
+--------------------------------------------------------------
+[INFO ] 2023-12-10 15:58:02.812 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-10 15:58:02.813 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-10 15:58:02.814 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-10 15:58:02.815 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-10 15:58:02.816 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-10 15:58:56.332 BaseClass:252 - 295e72ea-5579-4e26-9bb4-5e10bf862129
+[DEBUG] 2023-12-10 15:58:56.506 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-10 15:58:56.528 Generic:218 - [1;31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null[0m
+[DEBUG] 2023-12-10 15:58:56.562 LoginTestCases:54 - [1;31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null[0m
+[DEBUG] 2023-12-10 15:58:56.566 Generic:218 - [1;31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null[0m
+[DEBUG] 2023-12-10 15:58:56.597 MyListeners:59 - [1;31m[org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy13.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:59), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-10 15:58:58.439 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__S_u_n_ _D_e_c_ _1_0_ _1_5___5_8___5_6_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-10 15:58:58.460 MyListeners:75 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-12-10 15:59:00.295 BaseClass:265 - Session gets closed
+[DEBUG] 2023-12-10 15:59:00.296 BaseClass:266 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-10 15:59:02.054 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-10 15:59:02.053
+[DEBUG] 2023-12-10 16:00:05.209 BaseClass:276 - Starting the Appium Service....
+2023-12-10 16:00:05.198
+--------------------------------------------------------------
+[INFO ] 2023-12-10 16:00:20.137 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-10 16:00:20.138 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-10 16:00:20.140 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-10 16:00:20.141 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-10 16:00:20.143 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-10 16:00:50.587 BaseClass:252 - 0f4d323a-c347-499e-8f49-41539ba0b9ad
+[DEBUG] 2023-12-10 16:00:50.710 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-10 16:00:50.734 Generic:218 - [1;31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null[0m
+[DEBUG] 2023-12-10 16:00:50.775 LoginTestCases:54 - [1;31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null[0m
+[DEBUG] 2023-12-10 16:00:50.776 Generic:218 - [1;31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null[0m
+[DEBUG] 2023-12-10 16:00:50.814 MyListeners:59 - [1;31m[org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy13.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:59), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-10 16:00:52.052 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__S_u_n_ _D_e_c_ _1_0_ _1_6___0_0___5_0_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-10 16:00:52.063 MyListeners:75 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-12-10 16:00:53.204 BaseClass:265 - Session gets closed
+[DEBUG] 2023-12-10 16:00:53.205 BaseClass:266 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-10 16:00:54.795 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-10 16:00:54.794
+[DEBUG] 2023-12-10 16:20:18.169 BaseClass:276 - Starting the Appium Service....
+2023-12-10 16:20:18.162
+--------------------------------------------------------------
+[INFO ] 2023-12-10 16:20:32.396 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-10 16:20:32.398 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-10 16:20:32.401 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-10 16:20:32.403 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-10 16:20:32.404 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-10 16:21:04.286 BaseClass:252 - d9fb73af-a30d-4077-90f1-ce6d89256649
+[DEBUG] 2023-12-10 16:21:04.393 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-10 16:21:04.414 Generic:218 - [1;31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null[0m
+[DEBUG] 2023-12-10 16:21:04.443 LoginTestCases:63 - [1;31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null[0m
+[DEBUG] 2023-12-10 16:21:04.447 Generic:218 - [1;31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null[0m
+[DEBUG] 2023-12-10 16:21:04.482 MyListeners:59 - [1;31m[org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy13.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:68), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-10 16:21:05.838 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__S_u_n_ _D_e_c_ _1_0_ _1_6___2_1___0_4_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-10 16:21:05.848 MyListeners:75 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-12-10 16:21:06.903 BaseClass:265 - Session gets closed
+[DEBUG] 2023-12-10 16:21:06.904 BaseClass:266 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-10 16:21:08.669 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-10 16:21:08.669
+[DEBUG] 2023-12-10 16:35:32.538 BaseClass:276 - Starting the Appium Service....
+2023-12-10 16:35:32.529
+--------------------------------------------------------------
+[INFO ] 2023-12-10 16:35:46.897 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-10 16:35:46.899 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-10 16:35:46.901 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-10 16:35:46.902 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-10 16:35:46.904 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-10 16:36:17.963 BaseClass:252 - 16c36dd7-9f30-4b75-8e83-6b7c106d365f
+[DEBUG] 2023-12-10 16:36:18.091 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-10 16:36:18.160 MyListeners:59 - [1;31m[com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:62), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-10 16:36:19.106 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__S_u_n_ _D_e_c_ _1_0_ _1_6___3_6___1_8_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-10 16:36:19.299 MyListeners:75 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-12-10 16:36:20.690 BaseClass:265 - Session gets closed
+[DEBUG] 2023-12-10 16:36:20.690 BaseClass:266 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-10 16:36:22.409 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-10 16:36:22.408
+[DEBUG] 2023-12-10 16:37:34.741 BaseClass:276 - Starting the Appium Service....
+2023-12-10 16:37:34.735
+--------------------------------------------------------------
+[INFO ] 2023-12-10 16:37:49.120 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-10 16:37:49.121 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-10 16:37:49.122 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-10 16:37:49.125 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-10 16:37:49.126 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-10 16:38:17.456 BaseClass:252 - 6aef9649-6eea-4a2d-9ae7-4958bb804a26
+[DEBUG] 2023-12-10 16:38:17.524 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-10 16:38:35.277 Generic:215 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-10 16:38:35.432 Generic:173 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-10 16:38:35.977 Generic:215 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-10 16:38:36.184 Generic:139 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-10 16:38:36.434 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-10 16:38:38.544 BaseClass:265 - Session gets closed
+[DEBUG] 2023-12-10 16:38:38.544 BaseClass:266 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-10 16:38:39.362 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-10 16:38:39.361
+[DEBUG] 2023-12-10 19:02:28.835 BaseClass:276 - Starting the Appium Service....
+2023-12-10 19:02:28.828
+--------------------------------------------------------------
+[INFO ] 2023-12-10 19:02:45.246 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-10 19:02:45.247 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-10 19:02:45.252 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-10 19:02:45.257 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-10 19:02:45.258 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-10 19:03:32.543 BaseClass:252 - ae9cc823-b71c-4474-b492-c3a7931fbcb6
+[DEBUG] 2023-12-10 19:03:32.683 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-10 19:03:48.962 Generic:218 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.google.android.gms:id/title' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-10 19:03:52.914 Generic:173 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-10 19:03:53.920 Generic:215 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-10 19:03:54.317 Generic:139 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-10 19:03:56.935 Generic:215 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-10 19:03:57.152 Generic:173 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-10 19:03:57.799 Generic:215 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-10 19:03:58.175 Generic:139 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-10 19:04:00.468 Generic:215 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-10 19:04:01.609 Generic:215 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-10 19:04:03.295 Generic:215 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-10 19:04:03.305 Generic:152 - Successfully cleared textbox
+[DEBUG] 2023-12-10 19:04:06.336 Generic:215 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-10 19:04:06.347 Generic:152 - Successfully cleared textbox
+[DEBUG] 2023-12-10 19:04:06.460 Generic:204 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-10 19:04:38.149 MyListeners:59 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404), io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:117), io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementByName(AndroidDriver.java:1), org.openqa.selenium.By$ByName.findElement(By.java:284), org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:50), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:55), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-10 19:04:40.615 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__S_u_n_ _D_e_c_ _1_0_ _1_9___0_4___3_8_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-10 19:04:40.621 MyListeners:75 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-12-10 19:04:42.172 BaseClass:265 - Session gets closed
+[DEBUG] 2023-12-10 19:04:42.173 BaseClass:266 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-10 19:04:44.256 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-10 19:04:44.256
+[DEBUG] 2023-12-10 19:11:09.529 BaseClass:276 - Starting the Appium Service....
+2023-12-10 19:11:09.522
+--------------------------------------------------------------
+[INFO ] 2023-12-10 19:11:23.685 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-10 19:11:23.687 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-10 19:11:23.690 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-10 19:11:23.693 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-10 19:11:23.696 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-10 19:11:51.008 BaseClass:252 - 315ce258-7051-41f7-8982-cb6f0741d053
+[DEBUG] 2023-12-10 19:11:51.114 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-10 19:12:04.831 Generic:215 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-10 19:12:05.257 Generic:173 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-10 19:12:05.796 Generic:215 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-10 19:12:06.160 Generic:139 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-10 19:12:07.747 Generic:215 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-10 19:12:07.945 Generic:173 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-10 19:12:08.609 Generic:215 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-10 19:12:08.980 Generic:139 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-10 19:12:10.166 Generic:215 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-10 19:12:11.467 Generic:215 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-10 19:12:11.826 Generic:215 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-10 19:12:11.835 Generic:152 - Successfully cleared textbox
+[DEBUG] 2023-12-10 19:12:13.800 Generic:215 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-10 19:12:13.810 Generic:152 - Successfully cleared textbox
+[DEBUG] 2023-12-10 19:12:13.980 Generic:204 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-10 19:12:17.376 Generic:215 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-10 19:12:17.721 Generic:139 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-10 19:13:18.331 Generic:218 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'by id or name "verify_with_OTP"' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2023-12-10 19:13:48.602 MyListeners:59 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404), io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:117), io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementByName(AndroidDriver.java:1), org.openqa.selenium.By$ByName.findElement(By.java:284), org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:50), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:61), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2023-12-10 19:13:49.440 MyListeners:103 - [1;31mScreenshot stored at: D:\My\HeroApp1Copy/screenshots/TC001_ValidLoginTestCase__S_u_n_ _D_e_c_ _1_0_ _1_9___1_3___4_8_ _I_S_T_ _2_0_2_3_.png[0m
+[DEBUG] 2023-12-10 19:13:49.450 MyListeners:75 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2023-12-10 19:13:50.102 BaseClass:265 - Session gets closed
+[DEBUG] 2023-12-10 19:13:50.103 BaseClass:266 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-10 19:13:51.037 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-10 19:13:51.037
+[DEBUG] 2023-12-10 19:21:25.990 BaseClass:276 - Starting the Appium Service....
+2023-12-10 19:21:25.976
+--------------------------------------------------------------
+[INFO ] 2023-12-10 19:21:40.931 BaseClass:190 - PLATFORM NAME IS --> Android
+[INFO ] 2023-12-10 19:21:40.933 BaseClass:192 - DEVICE NAME IS --> Pixel 3
+[INFO ] 2023-12-10 19:21:40.936 BaseClass:194 - AUTOMATION NAME IS --> UiAutomator2
+[INFO ] 2023-12-10 19:21:40.937 BaseClass:196 - UDID IS --> emulator-5554
+[INFO ] 2023-12-10 19:21:40.938 BaseClass:210 - Android Real device gets opened
+[DEBUG] 2023-12-10 19:22:06.061 BaseClass:252 - 654f55e4-748c-4e6e-8989-f6ee5d39fc94
+[DEBUG] 2023-12-10 19:22:06.114 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2023-12-10 19:22:19.038 Generic:215 - Successfully Visibility  ----> Choose a phone number
+[DEBUG] 2023-12-10 19:22:19.159 Generic:173 - Successfully Displaying ----> Choose a phone number
+[DEBUG] 2023-12-10 19:22:19.726 Generic:215 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-10 19:22:20.060 Generic:139 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-10 19:22:22.127 Generic:215 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-10 19:22:22.269 Generic:173 - Successfully Displaying ----> Allow
+[DEBUG] 2023-12-10 19:22:22.640 Generic:215 - Successfully Visibility  ----> Allow
+[DEBUG] 2023-12-10 19:22:23.165 Generic:139 - Successfully Clicked  ----> Allow
+[DEBUG] 2023-12-10 19:22:25.303 Generic:215 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2023-12-10 19:22:25.927 Generic:215 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2023-12-10 19:22:26.399 Generic:215 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-10 19:22:26.409 Generic:152 - Successfully cleared textbox
+[DEBUG] 2023-12-10 19:22:27.794 Generic:215 - Successfully Visibility  ----> Enter mobile number
+[DEBUG] 2023-12-10 19:22:27.801 Generic:152 - Successfully cleared textbox
+[DEBUG] 2023-12-10 19:22:27.883 Generic:204 - Successfully enter value ----> 6666600022
+[DEBUG] 2023-12-10 19:22:31.426 Generic:215 - Successfully Visibility  ----> Continue
+[DEBUG] 2023-12-10 19:22:31.759 Generic:139 - Successfully Clicked  ----> Continue
+[DEBUG] 2023-12-10 19:22:35.819 Generic:215 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2023-12-10 19:22:38.682 Generic:215 - Successfully Visibility  ----> 
+[DEBUG] 2023-12-10 19:22:39.651 Generic:139 - Successfully Clicked  ----> 
+[DEBUG] 2023-12-10 19:22:39.957 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2023-12-10 19:22:41.031 BaseClass:265 - Session gets closed
+[DEBUG] 2023-12-10 19:22:41.032 BaseClass:266 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2023-12-10 19:22:41.733 BaseClass:291 - 
+----------------------------------------
+Stopping the Appium Server.....
+2023-12-10 19:22:41.733

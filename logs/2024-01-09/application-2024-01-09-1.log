@@ -1,0 +1,301 @@
+[DEBUG] 2024-01-09 13:58:57.858 BaseClass:210 - Starting the Appium Service....
+2024-01-09 13:58:57.850
+--------------------------------------------------------------
+[INFO ] 2024-01-09 13:59:11.075 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-09 13:59:25.115 BaseClass:186 - cf2670f1-80b0-4513-917a-c8b4a1e5a918
+[DEBUG] 2024-01-09 13:59:32.797 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 13:59:33.014 Generic:157 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-09 13:59:34.171 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 13:59:34.660 Generic:123 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-09 13:59:36.606 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 13:59:36.642 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 13:59:38.289 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 13:59:38.308 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 13:59:38.481 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-09 13:59:41.786 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 13:59:42.343 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 13:59:46.214 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-09 13:59:58.157 Generic:200 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-09 14:00:00.243 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-09 14:00:07.605 Generic:200 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-09 14:00:09.047 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-09 14:00:11.360 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 14:00:12.510 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 14:00:43.523 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.android.permissioncontroller:id/permission_allow_one_time_button' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-09 14:01:30.798 Generic:200 - Successfully Visibility  ----> Edit List
+[DEBUG] 2024-01-09 14:01:31.414 Generic:123 - Successfully Clicked  ----> Edit List
+[DEBUG] 2024-01-09 14:01:32.867 Generic:200 - Successfully Visibility  ----> Save List
+[DEBUG] 2024-01-09 14:01:33.464 Generic:123 - Successfully Clicked  ----> Save List
+[DEBUG] 2024-01-09 14:01:34.716 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-09 14:01:35.201 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-09 14:01:36.721 Generic:203 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//android.view.ViewGroup//android.widget.TextView)[1]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.21.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: cf2670f1-80b0-4513-917a-c8b4a1e5a918[0m
+[DEBUG] 2024-01-09 14:01:38.239 Generic:200 - Successfully Visibility  ----> You are using
+[DEBUG] 2024-01-09 14:01:39.697 Generic:200 - Successfully Visibility  ----> Vehicle Details
+[DEBUG] 2024-01-09 14:01:41.139 Generic:200 - Successfully Visibility  ----> Wheels of Trust
+[DEBUG] 2024-01-09 14:01:42.491 Generic:200 - Successfully Visibility  ----> Joyride
+[DEBUG] 2024-01-09 14:01:51.590 Generic:200 - Successfully Visibility  ----> App Ver 9.1.9
+[DEBUG] 2024-01-09 14:01:52.806 Generic:200 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-09 14:01:53.858 Generic:123 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-09 14:01:55.547 Generic:200 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-09 14:01:56.250 Generic:200 - Successfully Visibility  ----> Are you sure to logout?
+[DEBUG] 2024-01-09 14:01:56.773 Generic:200 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-09 14:01:57.143 Generic:123 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-09 14:01:59.455 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-09 14:01:59.968 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-09 14:01:59.969 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-09 14:02:00.095 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-09 14:02:00.092
+[DEBUG] 2024-01-09 14:02:00.124 BaseClass:210 - Starting the Appium Service....
+2024-01-09 14:02:00.123
+--------------------------------------------------------------
+[INFO ] 2024-01-09 14:02:12.236 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-09 14:02:25.557 BaseClass:186 - d4bdb7fc-544e-4878-9a7c-b4c98992d987
+[DEBUG] 2024-01-09 14:02:33.189 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 14:02:33.356 Generic:157 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-09 14:02:34.487 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 14:02:34.992 Generic:123 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-09 14:02:36.405 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 14:02:36.423 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 14:02:38.118 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 14:02:38.139 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 14:02:38.345 Generic:188 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-09 14:02:41.078 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 14:02:42.110 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 14:02:51.722 Generic:200 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-09 14:03:39.656 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-09 14:03:39.657 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-09 14:03:39.745 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-09 14:03:39.745
+[DEBUG] 2024-01-09 14:03:39.754 BaseClass:210 - Starting the Appium Service....
+2024-01-09 14:03:39.754
+--------------------------------------------------------------
+[INFO ] 2024-01-09 14:03:52.053 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-09 14:04:05.274 BaseClass:186 - 8fbae6fe-133c-4a5d-b395-0fa140622c02
+[DEBUG] 2024-01-09 14:04:20.690 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@text='Allow']' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-09 14:05:06.214 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-09 14:05:06.228 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 14:05:21.638 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-09 14:05:21.639 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-09 14:05:21.724 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-09 14:05:21.724
+[DEBUG] 2024-01-09 14:05:21.732 BaseClass:210 - Starting the Appium Service....
+2024-01-09 14:05:21.732
+--------------------------------------------------------------
+[INFO ] 2024-01-09 14:05:33.503 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-09 14:05:46.005 BaseClass:186 - 3ead40ed-b89c-4e80-803a-78ab9b3ab825
+[DEBUG] 2024-01-09 14:06:01.479 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@text='Allow']' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-09 14:06:47.093 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-09 14:06:47.107 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 14:07:33.191 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-09 14:07:33.204 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 14:08:18.573 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 15 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-01-09 14:08:18.592 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 14:08:34.061 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-09 14:08:34.063 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-09 14:08:34.151 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-09 14:08:34.150
+[DEBUG] 2024-01-09 15:48:35.113 BaseClass:210 - Starting the Appium Service....
+2024-01-09 15:48:35.106
+--------------------------------------------------------------
+[INFO ] 2024-01-09 15:48:45.333 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-09 15:48:57.081 BaseClass:186 - 1e273299-ff8d-4a0e-bca4-075e51ab09c5
+[DEBUG] 2024-01-09 15:49:04.795 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 15:49:05.482 Generic:157 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-09 15:49:06.479 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 15:49:07.472 Generic:123 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-09 15:49:08.851 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 15:49:11.481 Generic:200 - Successfully Visibility  ----> Continue as guest
+[DEBUG] 2024-01-09 15:49:12.609 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 15:49:12.654 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 15:49:14.619 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 15:49:14.632 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 15:49:14.862 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-09 15:49:17.989 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 15:49:18.744 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 15:49:23.158 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-09 15:49:26.249 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-09 15:49:27.418 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-09 15:49:28.739 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-09 15:49:28.741 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-09 15:52:46.493 BaseClass:210 - Starting the Appium Service....
+2024-01-09 15:52:46.482
+--------------------------------------------------------------
+[INFO ] 2024-01-09 15:52:56.670 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-09 15:53:07.521 BaseClass:186 - 09c10d38-716b-436f-82de-444a97c35091
+[DEBUG] 2024-01-09 15:53:15.183 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 15:53:15.948 Generic:157 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-09 15:53:16.933 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 15:53:18.172 Generic:123 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-09 15:53:20.390 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 15:53:22.323 Generic:200 - Successfully Visibility  ----> Continue as guest
+[DEBUG] 2024-01-09 15:53:23.959 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 15:53:23.996 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 15:53:25.317 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 15:53:25.362 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 15:53:26.091 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-09 15:53:28.633 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 15:53:29.221 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 15:53:33.859 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-09 15:53:35.847 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-09 15:53:37.681 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-09 15:53:38.416 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-09 15:53:38.417 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-09 15:55:36.813 BaseClass:210 - Starting the Appium Service....
+2024-01-09 15:55:36.802
+--------------------------------------------------------------
+[INFO ] 2024-01-09 15:55:46.972 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-09 15:55:58.038 BaseClass:186 - f81e900f-d538-488e-9db9-405e3b325aae
+[DEBUG] 2024-01-09 15:56:05.951 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 15:56:06.670 Generic:157 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-09 15:56:07.650 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 15:56:08.820 Generic:123 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-09 15:56:10.973 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 15:56:13.056 Generic:200 - Successfully Visibility  ----> Continue as guest
+[DEBUG] 2024-01-09 15:56:14.685 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 15:56:14.734 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 15:56:16.675 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 15:56:16.724 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 15:56:17.077 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-09 15:56:19.874 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 15:56:21.121 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 15:56:25.194 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-09 15:56:27.296 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-09 15:56:29.024 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-09 15:56:31.421 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 15:56:33.385 Generic:200 - Successfully Visibility  ----> Continue as guest
+[DEBUG] 2024-01-09 15:56:34.985 Generic:200 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-01-09 15:56:35.017 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 15:56:37.017 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 15:56:37.047 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 15:56:37.275 Generic:188 - Successfully enter value ----> 8365875675
+[DEBUG] 2024-01-09 15:56:39.325 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 15:56:40.025 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 15:56:43.067 Generic:200 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-09 15:56:43.712 Generic:200 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-01-09 15:56:44.830 Generic:200 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-09 15:56:45.517 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-09 15:56:45.977 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-09 15:56:47.709 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 15:56:49.752 Generic:200 - Successfully Visibility  ----> Continue as guest
+[DEBUG] 2024-01-09 15:56:51.258 Generic:200 - Successfully Visibility  ----> 8365875675
+[DEBUG] 2024-01-09 15:56:51.278 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 15:56:53.133 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 15:56:53.164 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 15:56:53.385 Generic:188 - Successfully enter value ----> 6666
+[DEBUG] 2024-01-09 15:56:55.766 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 15:56:57.067 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 15:56:57.807 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-09 15:56:58.514 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-09 15:56:58.515 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-09 19:01:30.650 BaseClass:210 - Starting the Appium Service....
+2024-01-09 19:01:30.643
+--------------------------------------------------------------
+[INFO ] 2024-01-09 19:01:42.806 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-09 19:01:56.468 BaseClass:186 - 12e54cec-9524-4889-93ce-985a8f83680d
+[DEBUG] 2024-01-09 19:02:03.976 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 19:02:04.167 Generic:157 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-09 19:02:05.320 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 19:02:05.841 Generic:123 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-09 19:02:07.725 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 19:02:09.645 Generic:200 - Successfully Visibility  ----> Continue as guest
+[DEBUG] 2024-01-09 19:02:11.112 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 19:02:11.120 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:02:12.288 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 19:02:12.302 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:02:12.982 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-09 19:02:15.475 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 19:02:16.029 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 19:02:19.533 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-09 19:02:21.613 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-09 19:02:22.550 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-09 19:02:25.299 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 19:02:26.960 Generic:200 - Successfully Visibility  ----> Continue as guest
+[DEBUG] 2024-01-09 19:02:27.796 Generic:200 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-01-09 19:02:27.813 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:02:29.423 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 19:02:29.434 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:02:29.637 Generic:188 - Successfully enter value ----> 8365875675
+[DEBUG] 2024-01-09 19:02:31.998 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 19:02:33.151 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 19:02:35.288 Generic:200 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-09 19:02:35.732 Generic:200 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-01-09 19:02:36.190 Generic:200 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-09 19:02:37.164 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-09 19:02:37.493 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-09 19:02:39.617 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 19:02:41.284 Generic:200 - Successfully Visibility  ----> Continue as guest
+[DEBUG] 2024-01-09 19:02:42.082 Generic:200 - Successfully Visibility  ----> 8365875675
+[DEBUG] 2024-01-09 19:02:42.098 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:02:43.411 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 19:02:43.423 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:02:43.607 Generic:188 - Successfully enter value ----> 6666
+[DEBUG] 2024-01-09 19:02:45.456 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 19:02:46.040 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 19:02:47.252 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-09 19:02:47.768 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-09 19:02:47.768 BaseClass:200 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-09 19:02:47.920 BaseClass:225 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-09 19:02:47.920
+[DEBUG] 2024-01-09 19:43:53.626 BaseClass:210 - Starting the Appium Service....
+2024-01-09 19:43:53.611
+--------------------------------------------------------------
+[INFO ] 2024-01-09 19:44:03.759 BaseClass:145 - Android Real device gets opened
+[DEBUG] 2024-01-09 19:44:14.267 BaseClass:186 - 8b88eb02-b1d3-4dbc-bed0-855ab2c19498
+[DEBUG] 2024-01-09 19:44:21.960 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 19:44:22.186 Generic:157 - Successfully Displaying ----> Allow
+[DEBUG] 2024-01-09 19:44:23.508 Generic:200 - Successfully Visibility  ----> Allow
+[DEBUG] 2024-01-09 19:44:24.134 Generic:123 - Successfully Clicked  ----> Allow
+[DEBUG] 2024-01-09 19:44:25.286 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 19:44:34.854 Generic:200 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-09 19:44:35.636 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 19:44:35.655 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:44:37.382 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 19:44:37.408 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:44:37.609 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-09 19:44:41.056 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 19:44:41.699 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 19:44:45.942 Generic:200 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-09 19:44:48.050 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-09 19:44:49.039 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-09 19:44:50.865 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 19:44:59.935 Generic:200 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-09 19:45:01.570 Generic:200 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-01-09 19:45:01.583 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:45:03.345 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 19:45:03.366 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:45:03.560 Generic:188 - Successfully enter value ----> 8365875675
+[DEBUG] 2024-01-09 19:45:05.966 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 19:45:07.198 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 19:45:09.207 Generic:200 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-09 19:45:09.767 Generic:200 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-01-09 19:45:10.853 Generic:200 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-09 19:45:11.431 Generic:200 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-09 19:45:11.840 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-09 19:45:13.321 Generic:200 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-09 19:45:22.850 Generic:200 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-09 19:45:23.624 Generic:200 - Successfully Visibility  ----> 8365875675
+[DEBUG] 2024-01-09 19:45:23.637 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:45:25.395 Generic:200 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-09 19:45:25.414 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-01-09 19:45:25.640 Generic:188 - Successfully enter value ----> 6666
+[DEBUG] 2024-01-09 19:45:29.017 Generic:200 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-09 19:45:29.600 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-09 19:45:30.862 Generic:200 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-09 19:45:31.389 BaseClass:199 - Session gets closed
+[DEBUG] 2024-01-09 19:45:31.390 BaseClass:200 - ++++++++++++++++++++++++++++++++

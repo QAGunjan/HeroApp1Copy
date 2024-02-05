@@ -7,58 +7,83 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import com.oneapp.basic.BaseClass;
+import com.oneapp.utils.Console_Colors;
+import com.oneapp.utils.Generic;
+import com.oneapp.utils.TestUtils;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 
 public class Dashboard_Page_object extends BaseClass {
 
-	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_one_time_button")
-	private MobileElement Location_popup;
+	public Generic generic = new Generic();
 
-	@AndroidFindBy(xpath = "//*[@text='Key Actions']")
-	private MobileElement key_action_text;
+	@FindBy(xpath = "//*[@text='Enjoy every feature : Grant required permissions']")
+	private WebElement grantAllPermissionPopUp_SamsungM53;
 
-	@AndroidFindBy(xpath = "//*[@text='ALLOW']")
-	private MobileElement Location_popup_Honor;
+	@FindBy(id = "com.customerapp.hero:id/btn_lbl")
+	private WebElement grantAllPermissionPopUpButton_SamsungM53;
 
-	@AndroidFindBy(xpath = "//*[@text='Dealer Locator']")
-	private MobileElement dealerLocatortext;
+	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_foreground_only_button")
+	private WebElement deviceLocationPopUp_SamsungM53;
 
-	@AndroidFindBy(xpath = "//*[@text='Relationship Manager']")
-	private MobileElement relationshipManagertext;
+	@FindBy(id = "com.customerapp.hero:id/permissionTitle")
+	private WebElement Location_popup;
 
-	@AndroidFindBy(xpath = "//*[@text='RSA']")
-	private MobileElement RSAtext;
+	@FindBy(id = "com.customerapp.hero:id/custom_radius_close")
+	private WebElement dahboardOneTimeBanner_PopUp;
 
-	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.view.View")
-	private MobileElement RSAImageIcon;
+	@FindBy(id = "com.customerapp.hero:id/permissionTitle")
+	private WebElement proceedButtonLocationPopUp;
 
-	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[6]/android.view.View")
-	private MobileElement dealerLocatorImageIcon;
+	@FindBy(xpath = "//*[@text='Key Actions']")
+	private WebElement key_action_text;
 
-	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.view.View")
-	private MobileElement relationshipManagerImageIcon;
+	@FindBy(xpath = "//*[@text='Allow']")
+	private WebElement Location_popup_Honor;
 
-	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
-	private MobileElement nearby_devices_popup;
+	@FindBy(xpath = "//*[@text='Dealer Locator']")
+	private WebElement dealerLocatortext;
 
-	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
-	private MobileElement calllogs_popup;
+	@FindBy(xpath = "//*[@text='Relationship Manager']")
+	private WebElement relationshipManagertext;
 
-	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
-	private MobileElement contacts_popup;
+	@FindBy(xpath = "//*[@text='RSA']")
+	private WebElement RSAtext;
 
-	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
-	private MobileElement managephonecalls_popup;
+	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.view.View")
+	private WebElement RSAImageIcon;
 
-	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
-	private MobileElement sms_messages_popup;
+	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[6]/android.view.View")
+	private WebElement dealerLocatorImageIcon;
+
+	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[3]/android.view.View")
+	private WebElement relationshipManagerImageIcon;
+
+	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+	private WebElement nearby_devices_popup;
+
+	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+	private WebElement calllogs_popup;
+
+	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+	private WebElement contacts_popup;
+
+	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+	private WebElement managephonecalls_popup;
+
+	@FindBy(id = "com.android.permissioncontroller:id/permission_allow_button")
+	private WebElement sms_messages_popup;
 
 //	@FindBy(className="android.widget.LinearLayout")
 //	private List<WebElement> Location_pop_displaying;
@@ -66,28 +91,30 @@ public class Dashboard_Page_object extends BaseClass {
 //	@FindBy(xpath="//*[contains(text(), 'Allow Hero App to access this?')]")
 //	private WebElement Location_pop_displaying;
 
-	@AndroidFindBy(id = "com.android.permissioncontroller:id/permission_message")
-	private MobileElement Location_pop_displaying;
+	@FindBy(id = "com.android.permissioncontroller:id/permission_message")
+	private WebElement Location_pop_displaying;
 
 	// *[@text='Allow Hero App to access this device’s location?']
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/side_menu_btn")
+	@FindBy(id = "com.customerapp.hero:id/side_menu_btn")
 	@iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"menu\"]")
 
-	private MobileElement menu_bar_icon;
+	private WebElement menu_bar_icon;
 
-	@AndroidFindBy(xpath = "//*[@text='Services']")
-	private MobileElement services_icon;
+	@FindBy(xpath = "//*[@text='Services']")
+	private WebElement services_icon;
 
-	@AndroidFindBy(xpath = "//*[@text='GoodLife']")
-	private MobileElement goodlife_icon;
+	@FindBy(xpath = "//*[@text='GoodLife']")
+	private WebElement goodlife_icon;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/ic_sos")
-	private MobileElement SOS_icon;
+	@FindBy(xpath = "//*[@text='Home']")
+	private WebElement home_icon;
 
-	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to access this device’s location?']")
-	private MobileElement device_location_popup_samsung;
-	
+	@FindBy(id = "com.customerapp.hero:id/ic_sos")
+	private WebElement SOS_icon;
+
+	@FindBy(xpath = "//*[@text='Allow Hero App to access this device’s location?']")
+	private WebElement device_location_popup_samsung;
 
 //	@FindBy(xpath ="//*[@text='Only this time']")
 //	private WebElement allowing_location_popup_samsung;
@@ -95,138 +122,217 @@ public class Dashboard_Page_object extends BaseClass {
 	@FindAll({ @FindBy(className = "android.view.ViewGroup") })
 	private List<WebElement> ImageIconUnderKeyAction;
 
-	@AndroidFindBy(id = "com.customerapp.hero:id/iv_pause")
+	@FindBy(id = "com.customerapp.hero:id/iv_pause")
 //		@FindBy(id = "com.customerapp.hero:id/exo_controls_background")
-	private MobileElement dashboardVideo;
+	private WebElement dashboardVideo;
 
-	@AndroidFindBy(xpath = "com.customerapp.hero:id/iv_close")
-	private MobileElement dashboardVideoCloseIcon;
+	@FindBy(xpath = "com.customerapp.hero:id/iv_close")
+	private WebElement dashboardVideoCloseIcon;
 
-	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to access your phone call logs?']")
-	private MobileElement acessYourPhoneCallLogsPopUp;
+	@FindBy(xpath = "//*[@text='Allow Hero App to access your phone call logs?']")
+	private WebElement acessYourPhoneCallLogsPopUp;
 
-	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to access your contacts?']")
-	private MobileElement acessYourContactsPopUp;
+	@FindBy(xpath = "//*[@text='Allow Hero App to access your contacts?']")
+	private WebElement acessYourContactsPopUp;
 
-	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to make and manage phone calls?']")
-	private MobileElement managePhoneCallsPopUp;
+	@FindBy(xpath = "//*[@text='Allow Hero App to make and manage phone calls?']")
+	private WebElement managePhoneCallsPopUp;
 
-	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to send and view SMS messages?']")
-	private MobileElement sendAndViewSMSMessagesPopUp;
+	@FindBy(xpath = "//*[@text='Allow Hero App to send and view SMS messages?']")
+	private WebElement sendAndViewSMSMessagesPopUp;
 
-	@AndroidFindBy(xpath = "//*[@text='Allow Hero App to find, connect to and determine the relative position of nearby devices?']")
-	private MobileElement connectNearByDevicesPopUp;
+	@FindBy(xpath = "//*[@text='Allow Hero App to find, connect to and determine the relative position of nearby devices?']")
+	private WebElement connectNearByDevicesPopUp;
 
-	public MobileElement getAcessYourPhoneCallLogsPopUp() {
-		return acessYourPhoneCallLogsPopUp;
+	@FindBy(id = "com.customerapp.hero:id/weather_lbl")
+	private WebElement temperature_value;
+
+	@FindBy(id = "com.customerapp.hero:id/quick_ac_edit_btn")
+	private WebElement editList_Text;
+
+	@FindBy(id = "com.customerapp.hero:id/custom_radius_close")
+	private WebElement bookNowDashboardNewPopUpClosingIcon;
+
+	@FindAll({
+			@FindBy(xpath = "//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup//android.widget.TextView") })
+	private List<WebElement> featuresUnderKeyActions_AllText;
+
+	@FindBy(xpath = "//android.view.ViewGroup//android.view.View")
+	private WebElement allfeatureIconUnderKeyActions;
+
+	@FindBy(xpath = "(//androidx.recyclerview.widget.RecyclerView//android.view.View)[1]")
+	private WebElement featureRSAIcon;
+
+	@FindBy(xpath = "(//androidx.recyclerview.widget.RecyclerView//android.view.View)[2]")
+	private WebElement featureExchangeIcon;
+
+	@FindBy(xpath = "(//androidx.recyclerview.widget.RecyclerView//android.view.View)[2]")
+	private WebElement featureNavigateIcon;
+
+	@FindBy(xpath = "(//androidx.recyclerview.widget.RecyclerView//android.view.View)[4]")
+	private WebElement featureDocumentsIcon;
+
+	@FindBy(xpath = "(//androidx.recyclerview.widget.RecyclerView//android.view.View)[5]")
+	private WebElement featureRelationshipManagerIcon;
+
+	@FindBy(xpath = "(//androidx.recyclerview.widget.RecyclerView//android.view.View)[6]")
+	private WebElement featureTechnicalSupportIcon;
+
+	@FindBy(xpath = "(//androidx.recyclerview.widget.RecyclerView//android.view.View)[7]")
+	private WebElement featureDealerLocatorIcon;
+
+	Dashboard_Page_object(AppiumDriver ad) {
+		PageFactory.initElements(ad, this);
 	}
 
-	public MobileElement getAcessYourContactsPopUp() {
-		return acessYourContactsPopUp;
+	public void selectingFeaturesUnderKeyActions(String text) {
+
+		switch (text) {
+		case "Exchange":
+			generic.clickOnWebElement(featureExchangeIcon);
+			break;
+		case "RSA":
+			generic.clickOnWebElement(featureRSAIcon);
+			break;
+		case "Navigate":
+			generic.clickOnWebElement(featureNavigateIcon);
+			break;
+		case "Documents":
+			generic.clickOnWebElement(featureDocumentsIcon);
+			break;
+		case "Relationship Manager":
+			generic.clickOnWebElement(featureRelationshipManagerIcon);
+			break;
+		case "Technical Support":
+			generic.clickOnWebElement(featureTechnicalSupportIcon);
+			break;
+		case "Dealer Locator":
+			generic.clickOnWebElement(featureDealerLocatorIcon);
+			break;
+		default:
+			System.out.println("Not features matched");
+		}
 	}
 
-	public MobileElement getManagePhoneCallsPopUp() {
-		return managePhoneCallsPopUp;
+	public void clickOnExchangeIcon() {
+
+//		for (WebElement value : featuresUnderKeyActions_AllText) {
+//
+//			String text = value.getText();
+//			if (text.equalsIgnoreCase("Exchange")) {
+//
+//				System.out.println(text);
+//
+//				generic.clickOnWebElement(allfeatureIconUnderKeyActions);
+//			}
+//		}
+		
+		selectingFeaturesUnderKeyActions("Exchange");
+
 	}
 
-	public MobileElement getSendAndViewSMSMessagesPopUp() {
-		return sendAndViewSMSMessagesPopUp;
+	public SOS_alert_window_page_object clickOnSOSIcon() {
+		generic.clickOnWebElement(SOS_icon);
+
+		return new SOS_alert_window_page_object(ad);
 	}
 
-	public MobileElement getConnectNearByDevicesPopUp() {
-		return connectNearByDevicesPopUp;
+	public BookServiceMainScreen_page_object clickOnServicesTab() {
+		generic.clickOnWebElement(services_icon);
+
+		return new BookServiceMainScreen_page_object(ad);
 	}
 
-	public MobileElement getLocation_popup() {
-		return Location_popup;
+	public void clickOnHomeTab() {
+		generic.clickOnWebElement(home_icon);
 	}
 
-	public MobileElement getNearby_devices_popup() {
-		return nearby_devices_popup;
+	public Menu_Bar_Page_Object clickOnMenuBarIcon() {
+		generic.clickOnWebElement(menu_bar_icon);
+
+		return new Menu_Bar_Page_Object(ad);
 	}
 
-	public MobileElement getCalllogs_popup() {
-		return calllogs_popup;
+	public RelationshipManager_Page_Object clickOnRelationShipManager() throws InterruptedException {
+
+		if (generic.elementDisplaying(key_action_text)) {
+			if (generic.elementDisplaying(relationshipManagertext)) {
+
+				List<WebElement> options = ImageIconUnderKeyAction;
+				for (int i = 1; i <= options.size(); i++) {
+					if (i == 3)
+
+						Thread.sleep(3000);
+
+					generic.clickOnWebElement(relationshipManagerImageIcon);
+					break;
+				}
+
+			}
+		}
+		return new RelationshipManager_Page_Object();
 	}
 
-	public MobileElement getManagephonecalls_popup() {
-		return managephonecalls_popup;
+	public void DashboardAllPopUp() throws InterruptedException {
+
+//		generic.waitForVisibility(grantAllPermissionPopUp_SamsungM53);
+//		grantAllPermissionPopUp_SamsungM53.getText().contains("Enjoy every feature")
+
+		/*
+		 * try { generic.waitForVisibility(grantAllPermissionPopUp_SamsungM53); while
+		 * (grantAllPermissionPopUp_SamsungM53.getText().contains("Enjoy every feature"
+		 * )) { generic.clickOnWebElement(grantAllPermissionPopUpButton_SamsungM53); //
+		 * generic.clickOnWebElement(deviceLocationPopUp_SamsungM53); break; }
+		 */
+		generic.waitForVisibility(dahboardOneTimeBanner_PopUp);
+
+		while (dahboardOneTimeBanner_PopUp.isDisplayed()) {
+			generic.clickOnWebElement(dahboardOneTimeBanner_PopUp);
+			break;
+		}
+
+		/*
+		 * try { // generic.clickOnWebElement(Location_popup); if
+		 * (generic.elementDisplaying(grantAllPermissionPopUp_SamsungM53)) {
+		 * generic.clickOnWebElement(grantAllPermissionPopUpButton_SamsungM53);
+		 * generic.clickOnWebElement(deviceLocationPopUp_SamsungM53);
+		 * 
+		 * } } catch (Exception e) { System.out.print(e); }
+		 * 
+		 */
+
+//		try {
+//			for (int i = 0; i < 5; i++) {
+//				new Generic().clickOnWebElement(Location_popup_Honor);
+//
+//			}
+//		}
+
+//		catch (Exception e) {
+//			TestUtils.log().debug(e);
+
+		/*
+		 * try { new Generic().clickOnWebElement(bookNowDashboardNewPopUpClosingIcon);
+		 * 
+		 * } catch (Exception e) { // TestUtils.log().debug(e); }
+		 */
 	}
 
-	public MobileElement getContacts_popup() {
-		return contacts_popup;
-	}
+	public void toCheckDashboardVideoOrNot() {
+		try {
 
-	public MobileElement getSms_messages_popup() {
-		return sms_messages_popup;
-	}
+			if (generic.elementDisplaying(dashboardVideo)) {
+				TestUtils.log().debug("Dashboard video is present");
+				generic.clickOnWebElement(dashboardVideoCloseIcon);
+			}
 
-	public MobileElement getMenu_bar_icon() {
-		return menu_bar_icon;
-	}
+		} catch (Exception e) {
+			TestUtils.log().debug(Console_Colors.Red_color() + e + Console_Colors.Reset_color());
 
-	public MobileElement getLocation_pop_displaying() {
-		return Location_pop_displaying;
-	}
-
-	public MobileElement getServices_icon() {
-		return services_icon;
-	}
-
-	public MobileElement getGoodlife_icon() {
-		return goodlife_icon;
-	}
-
-	public MobileElement getLocation_popup_Honor() {
-		return Location_popup_Honor;
-	}
-
-	public MobileElement getKey_action_text() {
-		return key_action_text;
-	}
-
-	public MobileElement getSOS_icon() {
-		return SOS_icon;
-	}
-
-	public MobileElement getDevice_location_popup_samsung() {
-		return device_location_popup_samsung;
-	}
-
-	public MobileElement getDealerLocatortext() {
-		return dealerLocatortext;
-	}
-
-	public List<WebElement> getImageIconUnderKeyAction() {
-		return ImageIconUnderKeyAction;
-	}
-
-	public MobileElement getDealerLocatorImageIcon() {
-		return dealerLocatorImageIcon;
-	}
-
-	public MobileElement getRelationshipManagertext() {
-		return relationshipManagertext;
-	}
-
-	public MobileElement getRelationshipManagerImageIcon() {
-		return relationshipManagerImageIcon;
-	}
-
-	public MobileElement getRSAtext() {
-		return RSAtext;
-	}
-
-	public MobileElement getRSAImageIcon() {
-		return RSAImageIcon;
-	}
-
-	public MobileElement getDashboardVideo() {
-		return dashboardVideo;
-	}
-
-	public MobileElement getDashboardVideoCloseIcon() {
-		return dashboardVideoCloseIcon;
+			TestUtils.log().debug(
+					Console_Colors.Red_color() + "Dasdhboard video is not displaying " + Console_Colors.Reset_color());
+			Assert.fail();
+		}
 	}
 
 }

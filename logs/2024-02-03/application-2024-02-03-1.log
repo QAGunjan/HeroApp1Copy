@@ -1,0 +1,246 @@
+[DEBUG] 2024-02-03 16:56:12.050 BaseClass:244 - Starting the Appium Service....
+2024-02-03 16:56:12.018
+--------------------------------------------------------------
+[DEBUG] 2024-02-03 16:56:24.898 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 16:56:25.033 Generic:203 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-03 16:56:25.045 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-03 16:56:25.066 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 16:56:25.069 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 16:56:25.074 Generic:203 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-03 16:56:25.080 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-03 16:56:25.085 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 16:56:25.089 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 16:56:25.093 Generic:203 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-03 16:56:25.101 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-03 16:56:25.107 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 16:57:22.837 BaseClass:244 - Starting the Appium Service....
+2024-02-03 16:57:22.826
+--------------------------------------------------------------
+[DEBUG] 2024-02-03 16:59:12.456 BaseClass:220 - d06f0ab8-5aea-4748-b30a-0792eb315123
+[DEBUG] 2024-02-03 16:59:12.543 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 16:59:20.702 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 16:59:31.989 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 16:59:33.854 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 16:59:33.934 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 16:59:35.963 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 16:59:36.035 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 16:59:36.329 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-02-03 16:59:40.002 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 16:59:41.725 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 16:59:57.610 Generic:199 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-03 17:00:03.417 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-03 17:00:04.204 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-03 17:00:04.485 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-03 17:00:04.496 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 17:00:06.212 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 17:00:16.404 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 17:00:17.903 Generic:199 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-02-03 17:00:17.975 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 17:00:20.178 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 17:00:20.262 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 17:00:20.524 Generic:188 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-02-03 17:00:24.216 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 17:00:25.660 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 17:00:28.059 Generic:199 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-02-03 17:00:29.563 Generic:199 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-02-03 17:00:30.626 Generic:199 - Successfully Visibility  ----> Update Number
+[DEBUG] 2024-02-03 17:00:31.790 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-03 17:00:32.521 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-03 17:00:32.813 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-03 17:00:32.833 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 17:00:34.151 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 17:00:44.259 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 17:00:45.674 Generic:199 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-02-03 17:00:45.754 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 17:00:47.844 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 17:00:47.916 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 17:00:48.157 Generic:188 - Successfully enter value ----> 666660002
+[DEBUG] 2024-02-03 17:00:51.886 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 17:00:53.699 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 17:00:55.457 Generic:199 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-02-03 17:00:55.601 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-03 17:00:56.306 BaseClass:234 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-02-03 17:00:58.597 BaseClass:259 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-03 17:00:58.596
+[DEBUG] 2024-02-03 18:07:53.840 BaseClass:249 - Starting the Appium Service....
+2024-02-03 18:07:53.831
+--------------------------------------------------------------
+[DEBUG] 2024-02-03 18:09:16.701 BaseClass:225 - 4b2f1c07-2649-42a6-8a33-cd580bbe1d3e
+[DEBUG] 2024-02-03 18:09:16.724 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:09:24.613 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 18:09:36.657 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 18:09:38.315 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:09:38.387 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:09:40.336 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:09:40.410 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:09:40.666 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-02-03 18:09:44.206 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 18:09:45.798 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 18:09:58.362 Generic:199 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-03 18:10:07.014 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-03 18:10:07.840 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-03 18:10:08.141 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-03 18:10:08.155 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:10:10.190 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 18:10:20.441 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 18:10:21.928 Generic:199 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-02-03 18:10:22.018 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:10:24.227 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:10:24.305 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:10:24.552 Generic:188 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-02-03 18:10:28.164 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 18:10:29.666 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 18:10:32.258 Generic:199 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-02-03 18:10:33.752 Generic:199 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-02-03 18:10:34.809 Generic:199 - Successfully Visibility  ----> Update Number
+[DEBUG] 2024-02-03 18:10:35.958 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-03 18:10:36.687 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-03 18:10:37.424 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-03 18:10:37.438 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:10:39.444 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 18:10:49.699 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 18:10:50.520 Generic:199 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-02-03 18:10:50.598 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:10:53.596 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:10:53.668 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:10:53.921 Generic:188 - Successfully enter value ----> 666660002
+[DEBUG] 2024-02-03 18:10:57.427 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 18:10:58.266 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 18:11:01.438 Generic:199 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-02-03 18:11:01.516 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-03 18:11:02.441 BaseClass:264 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-03 18:11:02.440
+[DEBUG] 2024-02-03 18:17:23.159 BaseClass:249 - Starting the Appium Service....
+2024-02-03 18:17:23.150
+--------------------------------------------------------------
+[DEBUG] 2024-02-03 18:17:44.258 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:17:44.357 Generic:203 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-03 18:17:44.370 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-03 18:17:44.399 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 18:17:44.403 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:17:44.410 Generic:203 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-03 18:17:44.414 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-03 18:17:44.417 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 18:17:44.420 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:17:44.425 Generic:203 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-03 18:17:44.432 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-03 18:17:44.436 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 18:18:08.718 BaseClass:225 - 2c851bdf-caff-4dbb-9ae8-612605cf5fd8
+[DEBUG] 2024-02-03 18:18:08.734 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:18:16.327 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 18:18:28.130 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 18:18:29.910 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:18:29.992 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:18:32.196 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:18:32.259 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:18:33.192 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-02-03 18:18:37.176 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 18:18:39.229 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 18:18:43.222 Generic:199 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-03 18:18:45.432 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-03 18:18:47.322 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-03 18:18:49.164 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-03 18:18:49.171 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:18:51.208 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 18:19:03.186 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 18:19:05.148 Generic:199 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-02-03 18:19:05.224 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:19:08.021 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:19:08.092 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:19:09.230 Generic:188 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-02-03 18:19:12.250 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 18:19:14.053 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 18:19:35.451 MyListeners:62 - [1;31morg.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.18.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 803, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: GOOGLE_Pixel7_Android_13.0...., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 13.0.0, project: Hero app, systemPort: 31444, tag: newtag}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: Pixel 7, deviceName: 2B011FDH2004N4, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 2B011FDH2004N4, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: GOOGLE_Pixel7_Android_13.0...., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, project: Hero app, statBarHeight: 118, systemPort: 31444, tag: newtag, takesScreenshot: true, viewportRect: {height: 2101, left: 0, top: 118, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2c851bdf-caff-4dbb-9ae8-612605cf5fd8
+*** Element info: {Using=id, value=com.customerapp.hero:id/tv_title}[0m
+[DEBUG] 2024-02-03 18:19:36.966 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 18:19:36.969 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:19:38.195 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 18:19:50.433 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 18:19:53.262 Generic:199 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-02-03 18:19:53.335 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:19:55.837 Generic:199 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-02-03 18:19:55.906 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:19:56.357 Generic:188 - Successfully enter value ----> 666660002
+[DEBUG] 2024-02-03 18:19:57.259 MyListeners:62 - [1;31morg.openqa.selenium.InvalidElementStateException: Cannot set the element to '666660002'. Did you interact with the correct element?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.18.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 803, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: GOOGLE_Pixel7_Android_13.0...., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 13.0.0, project: Hero app, systemPort: 31444, tag: newtag}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: Pixel 7, deviceName: 2B011FDH2004N4, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 2B011FDH2004N4, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: GOOGLE_Pixel7_Android_13.0...., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, project: Hero app, statBarHeight: 118, systemPort: 31444, tag: newtag, takesScreenshot: true, viewportRect: {height: 2101, left: 0, top: 118, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2c851bdf-caff-4dbb-9ae8-612605cf5fd8[0m
+[DEBUG] 2024-02-03 18:19:58.512 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 18:19:58.691 BaseClass:264 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-03 18:19:58.690
+[DEBUG] 2024-02-03 18:20:42.644 BaseClass:249 - Starting the Appium Service....
+2024-02-03 18:20:42.636
+--------------------------------------------------------------
+[DEBUG] 2024-02-03 18:21:04.345 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:21:04.442 Generic:203 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-03 18:21:04.459 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-03 18:21:04.476 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 18:21:04.480 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:21:04.488 Generic:203 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-03 18:21:04.496 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-03 18:21:04.500 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 18:21:04.504 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:21:04.507 Generic:203 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-03 18:21:04.512 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-03 18:21:04.514 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-03 18:22:09.155 BaseClass:225 - 69c5fa12-2a56-44f4-9eb2-f7e324357977
+[DEBUG] 2024-02-03 18:22:09.165 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:22:16.443 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 18:22:27.727 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 18:22:28.890 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:22:28.977 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:22:31.950 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:22:32.023 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:22:32.249 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-02-03 18:22:34.849 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 18:22:36.167 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 18:22:45.199 Generic:199 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-03 18:22:51.142 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-03 18:22:56.735 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-03 18:22:57.043 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-03 18:22:57.075 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:22:58.503 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 18:23:08.832 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 18:23:10.432 Generic:199 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-02-03 18:23:10.507 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:23:12.292 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:23:12.395 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:23:12.652 Generic:188 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-02-03 18:23:16.361 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 18:23:17.758 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 18:23:20.129 Generic:199 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-02-03 18:23:21.101 Generic:199 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-02-03 18:23:22.526 Generic:199 - Successfully Visibility  ----> Update Number
+[DEBUG] 2024-02-03 18:23:23.697 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-03 18:23:24.413 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-03 18:23:24.658 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-03 18:23:24.664 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-03 18:23:26.295 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-03 18:23:36.352 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-03 18:23:37.728 Generic:199 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-02-03 18:23:37.804 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:23:39.906 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-03 18:23:39.974 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-03 18:23:40.184 Generic:188 - Successfully enter value ----> 666660002
+[DEBUG] 2024-02-03 18:23:42.848 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-03 18:23:44.107 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-03 18:23:45.805 Generic:199 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-02-03 18:23:45.874 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-03 18:23:46.132 BaseClass:264 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-03 18:23:46.131

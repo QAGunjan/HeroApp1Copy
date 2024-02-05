@@ -1,0 +1,1022 @@
+[DEBUG] 2024-01-24 13:41:41.447 BaseClass:212 - Starting the Appium Service....
+2024-01-24 13:41:41.436
+--------------------------------------------------------------
+[INFO ] 2024-01-24 13:41:55.303 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-24 13:42:14.815 BaseClass:188 - e5e28939-165f-4682-9ab5-01e870b79cc3
+[DEBUG] 2024-01-24 13:42:14.865 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:42:15.814 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:42:15.962 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:42:16.085 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:45), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 13:42:17.067 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 13:42:17.072 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:42:17.159 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:42:17.788 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:42:17.894 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:45), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 13:42:18.765 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 13:42:18.771 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:42:18.869 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:42:18.962 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:42:19.061 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:45), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 13:42:19.659 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 13:42:20.124 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-24 13:42:20.125 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 13:42:21.175 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 13:42:21.175
+[DEBUG] 2024-01-24 13:44:03.962 BaseClass:212 - Starting the Appium Service....
+2024-01-24 13:44:03.953
+--------------------------------------------------------------
+[INFO ] 2024-01-24 13:44:15.820 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-24 13:44:34.318 BaseClass:188 - 1b87ae50-498d-45a9-9455-75df59e8874b
+[DEBUG] 2024-01-24 13:44:34.362 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:44:35.510 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:45), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 13:44:36.422 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 13:44:36.431 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:44:36.555 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:45), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 13:44:37.557 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 13:44:37.567 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:44:37.680 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:45), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 13:44:38.459 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 13:44:38.925 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-24 13:44:38.928 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 13:44:39.901 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 13:44:39.900
+[DEBUG] 2024-01-24 13:47:33.299 BaseClass:212 - Starting the Appium Service....
+2024-01-24 13:47:33.291
+--------------------------------------------------------------
+[INFO ] 2024-01-24 13:47:45.553 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-24 13:48:03.885 BaseClass:188 - 2409a0be-d2eb-4009-aaf6-7f7f1d412d14
+[DEBUG] 2024-01-24 13:48:04.007 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:48:11.562 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 13:48:11.622 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:48:13.406 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 13:48:13.442 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:48:13.668 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-24 13:48:16.761 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 13:48:17.406 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 13:48:21.949 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 13:48:24.917 Generic:201 - Successfully Visibility  ----> Welcome to Hero!
+[DEBUG] 2024-01-24 13:48:27.554 Generic:201 - Successfully Visibility  ----> Enter 6-digit OTP sent to
+[DEBUG] 2024-01-24 13:48:29.806 Generic:201 - Successfully Visibility  ----> Resend OTP in
+[DEBUG] 2024-01-24 13:48:31.556 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 13:48:39.498 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-24 13:48:40.265 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-24 13:48:48.129 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-24 13:48:49.608 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-24 13:48:51.880 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 13:48:53.009 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 13:49:00.742 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 13:49:01.303 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 13:49:01.727 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 13:49:03.544 Generic:201 - Successfully Visibility  ----> Edit List
+[DEBUG] 2024-01-24 13:49:04.330 Generic:124 - Successfully Clicked  ----> Edit List
+[DEBUG] 2024-01-24 13:49:05.962 Generic:201 - Successfully Visibility  ----> Save List
+[DEBUG] 2024-01-24 13:49:06.732 Generic:124 - Successfully Clicked  ----> Save List
+[DEBUG] 2024-01-24 13:49:08.149 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 13:49:08.639 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 13:49:10.192 Generic:204 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//android.view.ViewGroup//android.widget.TextView)[1]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.28.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2409a0be-d2eb-4009-aaf6-7f7f1d412d14[0m
+[DEBUG] 2024-01-24 13:49:11.536 Generic:201 - Successfully Visibility  ----> You are using
+[DEBUG] 2024-01-24 13:49:13.032 Generic:201 - Successfully Visibility  ----> Vehicle Details
+[DEBUG] 2024-01-24 13:49:14.485 Generic:201 - Successfully Visibility  ----> Wheels of Trust
+[DEBUG] 2024-01-24 13:49:15.925 Generic:201 - Successfully Visibility  ----> Joyride
+[DEBUG] 2024-01-24 13:49:25.063 Generic:201 - Successfully Visibility  ----> App Ver 9.1.9
+[DEBUG] 2024-01-24 13:49:26.340 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 13:49:27.396 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-24 13:49:29.201 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 13:49:30.175 Generic:201 - Successfully Visibility  ----> Are you sure to logout?
+[DEBUG] 2024-01-24 13:49:30.813 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-24 13:49:31.236 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-24 13:49:33.586 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 13:49:33.799 MyListeners:47 - [1;32mTC101_VALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 13:49:34.313 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-24 13:49:34.314 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 13:49:35.165 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 13:49:35.165
+[DEBUG] 2024-01-24 13:51:11.958 BaseClass:212 - Starting the Appium Service....
+2024-01-24 13:51:11.951
+--------------------------------------------------------------
+[INFO ] 2024-01-24 13:51:23.818 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-24 13:51:42.382 BaseClass:188 - 44cf4d31-0a0e-4c84-8ca1-837f4f1b14ee
+[DEBUG] 2024-01-24 13:51:42.473 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:51:43.433 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:53), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 13:51:44.229 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 13:51:44.233 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:51:44.388 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:53), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 13:51:45.284 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 13:51:45.291 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:51:45.392 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372), io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69), io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1), org.openqa.selenium.By$ById.findElement(By.java:188), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38), jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:53), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 13:51:46.114 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 13:51:46.567 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-24 13:51:46.569 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 13:51:47.608 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 13:51:47.608
+[DEBUG] 2024-01-24 13:54:30.044 BaseClass:212 - Starting the Appium Service....
+2024-01-24 13:54:30.036
+--------------------------------------------------------------
+[INFO ] 2024-01-24 13:54:41.911 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-24 13:54:59.987 BaseClass:188 - 4a2f75f5-5b68-487f-88b7-4983f00d14a8
+[DEBUG] 2024-01-24 13:55:00.028 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:55:07.772 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 13:55:17.900 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 13:55:19.070 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 13:55:19.094 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:55:20.944 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 13:55:20.960 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:55:21.170 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 13:55:23.691 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 13:55:25.003 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 13:55:29.357 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 13:55:31.213 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 13:55:32.292 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 13:55:33.109 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 13:55:33.113 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:55:34.720 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 13:55:44.553 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 13:55:45.164 Generic:201 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-01-24 13:55:45.189 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:55:47.095 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 13:55:47.124 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:55:47.334 Generic:189 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-01-24 13:55:50.776 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 13:55:51.388 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 13:55:53.398 Generic:201 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-24 13:55:53.972 Generic:201 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-01-24 13:55:55.260 Generic:201 - Successfully Visibility  ----> Update Number
+[DEBUG] 2024-01-24 13:55:55.608 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 13:55:55.918 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 13:55:56.590 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 13:55:56.598 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:55:57.662 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 13:56:07.458 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 13:56:08.564 Generic:201 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-01-24 13:56:08.581 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:56:09.863 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 13:56:09.884 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:56:10.571 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 13:56:13.087 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 13:56:13.676 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 13:56:15.612 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285), io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45), io.appium.java_client.MobileElement.execute(MobileElement.java:1), io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1), org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166), jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51), jdk.proxy2/jdk.proxy2.$Proxy30.getText(Unknown Source), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:96), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 13:56:16.210 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 13:56:16.664 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-24 13:56:16.665 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 13:56:17.663 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 13:56:17.662
+[DEBUG] 2024-01-24 13:58:20.328 BaseClass:212 - Starting the Appium Service....
+2024-01-24 13:58:20.318
+--------------------------------------------------------------
+[INFO ] 2024-01-24 13:58:32.199 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-24 13:58:50.403 BaseClass:188 - edd4157e-4d9d-4851-8e84-ad6c34092d09
+[DEBUG] 2024-01-24 13:58:50.488 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:58:58.263 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 13:59:08.248 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 13:59:09.422 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 13:59:09.438 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:59:11.295 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 13:59:11.322 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:59:11.543 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 13:59:13.513 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 13:59:14.184 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 13:59:19.049 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 13:59:20.931 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 13:59:22.024 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 13:59:22.808 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 13:59:22.815 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:59:23.932 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 13:59:33.861 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 13:59:35.025 Generic:201 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-01-24 13:59:35.059 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:59:36.911 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 13:59:36.937 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:59:37.150 Generic:189 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-01-24 13:59:39.461 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 13:59:40.095 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 13:59:43.255 Generic:201 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-24 13:59:43.782 Generic:201 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-01-24 13:59:45.156 Generic:201 - Successfully Visibility  ----> Update Number
+[DEBUG] 2024-01-24 13:59:45.514 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 13:59:45.901 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 13:59:46.040 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 13:59:46.045 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 13:59:47.384 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 13:59:57.137 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 13:59:57.717 Generic:201 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-01-24 13:59:57.734 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:59:59.376 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 13:59:59.402 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 13:59:59.620 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 14:00:03.121 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 14:00:03.752 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 14:00:05.755 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:00:06.572 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:00:37.237 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:00:37.516 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:01:05.862 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38), io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:220), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), com.oneapp.utils.Generic.Scrolling(Generic.java:76), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:56), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 14:01:06.341 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 14:01:06.773 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-24 14:01:06.775 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 14:01:07.947 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 14:01:07.946
+[DEBUG] 2024-01-24 14:03:14.535 BaseClass:212 - Starting the Appium Service....
+2024-01-24 14:03:14.526
+--------------------------------------------------------------
+[INFO ] 2024-01-24 14:03:27.463 BaseClass:147 - Android Real device gets opened
+[DEBUG] 2024-01-24 14:03:48.393 BaseClass:188 - ca149517-643a-4b78-897c-2a0748f3a365
+[DEBUG] 2024-01-24 14:03:48.496 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:03:56.274 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 14:04:06.212 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 14:04:07.461 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 14:04:07.498 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 14:04:09.376 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 14:04:09.404 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 14:04:09.633 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 14:04:11.618 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 14:04:12.272 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 14:04:16.913 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:04:17.097 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:04:19.026 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:04:48.903 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:04:49.219 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:05:19.740 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38), io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:220), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), com.oneapp.utils.Generic.Scrolling(Generic.java:76), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:58), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 14:05:20.235 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 14:05:20.239 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:05:20.521 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:05:50.965 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:05:51.262 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:06:21.784 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:06:22.138 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:06:52.624 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38), io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:220), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), com.oneapp.utils.Generic.Scrolling(Generic.java:76), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:58), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 14:06:53.034 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 14:06:53.045 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:06:53.347 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:07:23.866 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:07:24.137 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:07:54.681 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 14:07:54.967 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 14:08:27.494 MyListeners:57 - [1;31m[java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method), java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45), java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499), java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480), org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122), org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49), org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158), io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250), org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552), io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41), io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38), io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:220), org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315), io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57), io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1), io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1), com.oneapp.utils.Generic.Scrolling(Generic.java:76), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:58), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 14:08:30.821 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 14:08:31.305 BaseClass:201 - Session gets closed
+[DEBUG] 2024-01-24 14:08:31.308 BaseClass:202 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 14:08:32.446 BaseClass:227 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 14:08:32.446
+[DEBUG] 2024-01-24 16:03:45.163 BaseClass:225 - Starting the Appium Service....
+2024-01-24 16:03:45.154
+--------------------------------------------------------------
+[INFO ] 2024-01-24 16:03:57.366 BaseClass:160 - Android Real device gets opened
+[DEBUG] 2024-01-24 16:04:15.830 BaseClass:201 - 7e571d0b-0cf5-4f14-8531-d06af57e6338
+[DEBUG] 2024-01-24 16:04:15.879 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 16:04:23.663 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 16:04:33.661 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 16:04:34.795 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:04:34.823 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:04:36.596 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:04:36.631 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:04:36.848 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 16:04:38.909 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 16:04:39.561 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 16:04:44.714 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 16:04:46.641 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 16:04:47.702 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 16:04:48.565 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 16:04:49.688 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 16:04:59.495 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 16:05:00.891 Generic:201 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-01-24 16:05:00.920 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:05:02.791 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:05:02.819 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:05:03.043 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 16:05:05.463 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 16:05:06.607 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 16:05:10.407 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 16:05:12.275 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 16:05:13.405 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 16:05:14.229 MyListeners:57 - [1;31m[org.testng.Assert.fail(Assert.java:99), org.testng.Assert.fail(Assert.java:106), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:77), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 16:05:15.401 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 16:05:15.850 BaseClass:214 - Session gets closed
+[DEBUG] 2024-01-24 16:05:15.851 BaseClass:215 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 16:05:17.091 BaseClass:240 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 16:05:17.090
+[DEBUG] 2024-01-24 16:24:29.042 BaseClass:215 - Starting the Appium Service....
+2024-01-24 16:24:29.035
+--------------------------------------------------------------
+[INFO ] 2024-01-24 16:24:41.661 BaseClass:150 - Android Real device gets opened
+[DEBUG] 2024-01-24 16:24:59.623 BaseClass:191 - c4d0b1f8-0832-480d-b45b-7736951b8a90
+[DEBUG] 2024-01-24 16:24:59.688 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 16:25:07.398 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 16:25:17.289 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 16:25:18.450 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:25:18.473 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:25:20.296 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:25:20.333 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:25:20.579 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 16:25:22.838 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 16:25:23.488 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 16:25:24.881 BaseClass:204 - Session gets closed
+[DEBUG] 2024-01-24 16:25:24.883 BaseClass:205 - ++++++++++++++++++++++++++++++++
+[INFO ] 2024-01-24 16:25:24.884 BaseClass:150 - Android Real device gets opened
+[DEBUG] 2024-01-24 16:25:38.178 BaseClass:191 - 00ce4506-0b74-41c4-91ea-c75cf803d1cf
+[DEBUG] 2024-01-24 16:25:38.209 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 16:25:45.714 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 16:25:55.636 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 16:25:56.753 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:25:56.777 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:25:58.639 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:25:58.663 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:25:58.878 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 16:26:01.806 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 16:26:03.067 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 16:26:03.768 BaseClass:204 - Session gets closed
+[DEBUG] 2024-01-24 16:26:03.769 BaseClass:205 - ++++++++++++++++++++++++++++++++
+[INFO ] 2024-01-24 16:26:03.771 BaseClass:150 - Android Real device gets opened
+[DEBUG] 2024-01-24 16:26:17.440 BaseClass:191 - 182e6890-dff0-4597-b1d2-75fdcfea0dca
+[DEBUG] 2024-01-24 16:26:17.461 MyListeners:57 - [1;31m[org.testng.Assert.fail(Assert.java:99), org.testng.Assert.failNotEquals(Assert.java:1037), org.testng.Assert.assertEqualsImpl(Assert.java:140), org.testng.Assert.assertEquals(Assert.java:122), org.testng.Assert.assertEquals(Assert.java:819), org.testng.Assert.assertEquals(Assert.java:829), com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:70), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 16:26:18.473 MyListeners:73 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 16:26:18.891 BaseClass:204 - Session gets closed
+[DEBUG] 2024-01-24 16:26:18.891 BaseClass:205 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 16:26:19.880 BaseClass:230 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 16:26:19.878
+[DEBUG] 2024-01-24 16:33:26.999 BaseClass:214 - Starting the Appium Service....
+2024-01-24 16:33:26.988
+--------------------------------------------------------------
+[DEBUG] 2024-01-24 16:33:56.427 BaseClass:190 - 57c0ae68-7494-4134-a276-3266bb5f9c5e
+[DEBUG] 2024-01-24 16:33:56.477 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 16:34:04.067 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:34:04.086 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:34:05.526 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:34:05.562 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:34:05.826 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-24 16:34:09.191 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 16:34:09.897 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 16:34:14.098 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 16:34:17.145 Generic:201 - Successfully Visibility  ----> Welcome to Hero!
+[DEBUG] 2024-01-24 16:34:19.791 Generic:201 - Successfully Visibility  ----> Enter 6-digit OTP sent to
+[DEBUG] 2024-01-24 16:34:22.718 Generic:201 - Successfully Visibility  ----> Resend OTP in
+[DEBUG] 2024-01-24 16:34:24.083 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 16:34:31.750 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-24 16:34:32.519 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-24 16:34:40.016 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-24 16:34:41.555 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-24 16:34:43.926 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 16:34:45.029 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 16:34:52.731 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 16:34:53.243 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 16:34:53.648 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 16:34:55.487 Generic:201 - Successfully Visibility  ----> Edit List
+[DEBUG] 2024-01-24 16:34:56.244 Generic:124 - Successfully Clicked  ----> Edit List
+[DEBUG] 2024-01-24 16:34:57.821 Generic:201 - Successfully Visibility  ----> Save List
+[DEBUG] 2024-01-24 16:34:58.514 Generic:124 - Successfully Clicked  ----> Save List
+[DEBUG] 2024-01-24 16:34:59.839 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 16:35:00.945 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 16:35:02.488 Generic:204 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//android.view.ViewGroup//android.widget.TextView)[1]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.28.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 57c0ae68-7494-4134-a276-3266bb5f9c5e[0m
+[DEBUG] 2024-01-24 16:35:03.950 Generic:201 - Successfully Visibility  ----> You are using
+[DEBUG] 2024-01-24 16:35:05.474 Generic:201 - Successfully Visibility  ----> Vehicle Details
+[DEBUG] 2024-01-24 16:35:07.018 Generic:201 - Successfully Visibility  ----> Wheels of Trust
+[DEBUG] 2024-01-24 16:35:08.619 Generic:201 - Successfully Visibility  ----> Joyride
+[DEBUG] 2024-01-24 16:35:18.135 Generic:201 - Successfully Visibility  ----> App Ver 9.1.9
+[DEBUG] 2024-01-24 16:35:19.629 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 16:35:20.843 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-24 16:35:22.741 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 16:35:23.686 Generic:201 - Successfully Visibility  ----> Are you sure to logout?
+[DEBUG] 2024-01-24 16:35:24.342 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-24 16:35:24.751 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-24 16:35:27.258 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 16:35:27.472 MyListeners:47 - [1;32mTC101_VALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 16:35:27.912 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 16:35:28.533 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 16:35:28.532
+[DEBUG] 2024-01-24 16:35:38.333 BaseClass:214 - Starting the Appium Service....
+2024-01-24 16:35:38.324
+--------------------------------------------------------------
+[DEBUG] 2024-01-24 16:36:07.919 BaseClass:190 - a367ac79-cdad-48f9-9e4c-0beb3c499c6a
+[DEBUG] 2024-01-24 16:36:07.991 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 16:36:15.296 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 16:36:25.326 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 16:36:26.481 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:36:26.505 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:36:28.355 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 16:36:28.375 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 16:36:28.571 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 16:36:31.257 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 16:36:32.514 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 16:36:37.682 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 16:36:39.618 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 16:36:40.799 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 16:36:41.105 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 16:36:41.685 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 16:36:42.271 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 16:36:42.271
+[DEBUG] 2024-01-24 19:19:15.512 BaseClass:214 - Starting the Appium Service....
+2024-01-24 19:19:15.503
+--------------------------------------------------------------
+[DEBUG] 2024-01-24 19:19:45.815 BaseClass:190 - 0a01444e-bb35-462c-9335-44e411321793
+[DEBUG] 2024-01-24 19:19:45.877 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 19:19:53.569 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 19:20:03.422 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 19:20:04.599 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:20:04.627 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:20:06.442 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:20:06.454 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:20:06.675 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 19:20:09.475 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:20:10.874 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:20:15.582 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 19:20:17.430 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:20:18.566 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:20:19.411 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 19:20:19.416 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 19:20:20.887 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 19:20:30.822 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 19:20:31.377 Generic:201 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-01-24 19:20:31.403 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:20:32.889 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:20:32.906 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:20:33.113 Generic:189 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-01-24 19:20:36.579 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:20:37.274 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:20:39.263 Generic:201 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-24 19:20:40.350 Generic:201 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-01-24 19:20:41.339 Generic:201 - Successfully Visibility  ----> Update Number
+[DEBUG] 2024-01-24 19:20:41.783 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:20:42.629 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:20:42.820 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 19:20:42.824 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 19:20:44.359 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 19:20:54.370 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 19:20:54.995 Generic:201 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-01-24 19:20:55.016 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:20:56.811 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:20:56.823 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:20:57.031 Generic:189 - Successfully enter value ----> 666660002
+[DEBUG] 2024-01-24 19:20:59.427 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:21:00.822 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:21:02.355 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 19:21:02.376 MyListeners:47 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 19:21:02.916 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 19:21:03.575 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 19:21:03.574
+[DEBUG] 2024-01-24 19:21:03.597 BaseClass:214 - Starting the Appium Service....
+2024-01-24 19:21:03.596
+--------------------------------------------------------------
+[DEBUG] 2024-01-24 19:21:32.022 BaseClass:190 - 81220502-30e9-48cc-8613-9ee9da6b9803
+[DEBUG] 2024-01-24 19:21:32.029 MyListeners:39 - [1;30mTC101_VALIDOTPTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 19:21:39.834 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:21:39.868 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:21:41.635 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:21:41.660 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:21:41.901 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-24 19:21:43.877 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:21:45.140 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:21:49.362 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 19:21:52.343 Generic:201 - Successfully Visibility  ----> Welcome to Hero!
+[DEBUG] 2024-01-24 19:21:55.283 Generic:201 - Successfully Visibility  ----> Enter 6-digit OTP sent to
+[DEBUG] 2024-01-24 19:21:57.371 Generic:201 - Successfully Visibility  ----> Resend OTP in
+[DEBUG] 2024-01-24 19:21:59.387 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 19:22:07.448 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-24 19:22:08.198 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-24 19:22:16.807 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-24 19:22:18.347 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-24 19:22:20.635 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:22:21.779 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:22:29.645 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:22:30.166 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:22:30.526 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:22:32.284 Generic:201 - Successfully Visibility  ----> Edit List
+[DEBUG] 2024-01-24 19:22:32.972 Generic:124 - Successfully Clicked  ----> Edit List
+[DEBUG] 2024-01-24 19:22:34.486 Generic:201 - Successfully Visibility  ----> Save List
+[DEBUG] 2024-01-24 19:22:35.182 Generic:124 - Successfully Clicked  ----> Save List
+[DEBUG] 2024-01-24 19:22:36.477 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:22:37.016 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:22:38.613 Generic:204 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//android.view.ViewGroup//android.widget.TextView)[1]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.28.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 81220502-30e9-48cc-8613-9ee9da6b9803[0m
+[DEBUG] 2024-01-24 19:22:40.044 Generic:201 - Successfully Visibility  ----> You are using
+[DEBUG] 2024-01-24 19:22:41.532 Generic:201 - Successfully Visibility  ----> Vehicle Details
+[DEBUG] 2024-01-24 19:22:43.032 Generic:201 - Successfully Visibility  ----> Wheels of Trust
+[DEBUG] 2024-01-24 19:22:44.546 Generic:201 - Successfully Visibility  ----> Joyride
+[DEBUG] 2024-01-24 19:22:53.926 Generic:201 - Successfully Visibility  ----> App Ver 9.1.9
+[DEBUG] 2024-01-24 19:22:55.353 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 19:22:56.472 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-24 19:22:58.255 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 19:22:59.104 Generic:201 - Successfully Visibility  ----> Are you sure to logout?
+[DEBUG] 2024-01-24 19:22:59.727 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-24 19:23:00.713 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-24 19:23:03.053 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 19:23:03.238 MyListeners:47 - [1;32mTC101_VALIDOTPTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 19:23:03.643 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 19:23:03.781 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 19:23:03.781
+[DEBUG] 2024-01-24 19:23:03.806 BaseClass:214 - Starting the Appium Service....
+2024-01-24 19:23:03.806
+--------------------------------------------------------------
+[DEBUG] 2024-01-24 19:23:32.838 BaseClass:190 - ee1931ce-96d4-4d84-ae23-2620d6c6f2d0
+[DEBUG] 2024-01-24 19:23:32.844 MyListeners:39 - [1;30mTC501_VALIDATESENDSOSALERTMESSAGESENDTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 19:23:40.625 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:23:40.685 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:23:42.454 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:23:42.480 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:23:42.709 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-24 19:23:45.850 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:23:46.518 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:23:50.718 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 19:23:59.572 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-24 19:24:01.636 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-24 19:24:09.557 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-24 19:24:11.063 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-24 19:24:13.325 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:24:14.484 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:24:21.913 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:24:22.451 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:24:22.862 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:24:24.188 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:24:24.690 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:24:26.508 Generic:201 - Successfully Visibility  ----> Panic Alert!
+[DEBUG] 2024-01-24 19:24:27.446 Generic:201 - Successfully Visibility  ----> We have sent an SMS to emergency contact.
+[DEBUG] 2024-01-24 19:24:28.410 Generic:201 - Successfully Visibility  ----> I'm safe
+[DEBUG] 2024-01-24 19:24:29.283 Generic:201 - Successfully Visibility  ----> Send Alert Now
+[DEBUG] 2024-01-24 19:24:29.715 Generic:124 - Successfully Clicked  ----> Send Alert Now
+[DEBUG] 2024-01-24 19:24:32.955 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-24 19:24:36.560 MyListeners:47 - [1;32mTC501_VALIDATESENDSOSALERTMESSAGESENDTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 19:24:36.566 MyListeners:39 - [1;30mTC502_VALIDATEDONTSENTLINKTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 19:24:36.990 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:24:37.444 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:24:39.244 Generic:201 - Successfully Visibility  ----> Don't send. 
+[DEBUG] 2024-01-24 19:24:43.484 Generic:84 - Tap action performs succesfully
+[DEBUG] 2024-01-24 19:24:48.325 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-24 19:24:48.902 MyListeners:47 - [1;32mTC502_VALIDATEDONTSENTLINKTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 19:24:48.909 MyListeners:39 - [1;30mTC503_VALIDATECLOSEICONTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 19:24:49.341 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:24:49.807 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:24:54.024 Generic:84 - Tap action performs succesfully
+[DEBUG] 2024-01-24 19:24:58.807 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-24 19:24:59.299 MyListeners:47 - [1;32mTC503_VALIDATECLOSEICONTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 19:24:59.653 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 19:24:59.787 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 19:24:59.785
+[DEBUG] 2024-01-24 19:24:59.826 BaseClass:214 - Starting the Appium Service....
+2024-01-24 19:24:59.818
+--------------------------------------------------------------
+[DEBUG] 2024-01-24 19:25:29.430 BaseClass:190 - 635d1d8b-bf3f-46fa-a924-f6c71cffe5b7
+[DEBUG] 2024-01-24 19:25:29.434 MyListeners:39 - [1;30mTC901_VALIDATEVALIDREFERTOFRIEND - STARTS[0m
+[DEBUG] 2024-01-24 19:25:37.210 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:25:37.241 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:25:39.071 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:25:39.103 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:25:39.335 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-24 19:25:42.371 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:25:43.003 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:25:48.806 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 19:26:00.894 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-24 19:26:02.166 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-24 19:26:10.410 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-24 19:26:11.840 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-24 19:26:14.061 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:26:15.216 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:26:22.328 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:26:22.816 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:26:23.153 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:26:24.502 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:26:25.014 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:26:27.576 Generic:201 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-24 19:26:28.715 Generic:124 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-24 19:26:34.572 Generic:201 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-24 19:26:34.592 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:26:35.194 Generic:189 - Successfully enter value ----> Randhir Kumar
+[DEBUG] 2024-01-24 19:26:38.866 Generic:201 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-24 19:26:38.882 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:26:39.439 Generic:189 - Successfully enter value ----> 8505803061
+[DEBUG] 2024-01-24 19:26:42.679 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:26:44.245 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:27:02.182 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:27:06.578 Generic:110 - This element gets clicked ----> PUNJAB
+[DEBUG] 2024-01-24 19:27:09.047 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:27:10.255 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:27:28.031 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:27:33.234 Generic:110 - This element gets clicked ----> BEAS
+[DEBUG] 2024-01-24 19:27:35.263 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:27:36.521 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:27:39.974 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:27:44.235 Generic:110 - This element gets clicked ----> Duet
+[DEBUG] 2024-01-24 19:27:46.317 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-24 19:27:47.580 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-24 19:27:57.519 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-24 19:27:58.439 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:27:58.925 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:28:08.279 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 19:28:09.378 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-24 19:28:10.878 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-24 19:28:11.295 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-24 19:28:13.653 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 19:28:13.848 MyListeners:47 - [1;32mTC901_VALIDATEVALIDREFERTOFRIEND - PASSED[0m
+[DEBUG] 2024-01-24 19:28:13.856 MyListeners:39 - [1;30mTC901_VALIDATEVALIDREFERTOFRIEND - STARTS[0m
+[DEBUG] 2024-01-24 19:28:14.967 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:28:14.988 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:28:17.282 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:28:17.313 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:28:17.530 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-24 19:28:20.918 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:28:21.460 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:28:25.189 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 19:28:33.356 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-24 19:28:34.585 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-24 19:28:40.816 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-24 19:28:42.560 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-24 19:28:44.615 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:28:45.622 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:28:52.160 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:28:52.696 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:28:53.026 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:28:54.329 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:28:54.812 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:28:57.235 Generic:201 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-24 19:28:58.237 Generic:124 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-24 19:29:02.069 Generic:201 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-24 19:29:02.089 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:29:02.603 Generic:189 - Successfully enter value ----> Randhir
+[DEBUG] 2024-01-24 19:29:06.091 Generic:201 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-24 19:29:06.106 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:29:06.585 Generic:189 - Successfully enter value ----> 8800996768
+[DEBUG] 2024-01-24 19:29:09.048 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:29:10.070 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:29:27.810 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:29:32.245 Generic:110 - This element gets clicked ----> SIKKIM
+[DEBUG] 2024-01-24 19:29:34.426 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:29:35.470 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:29:46.939 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:29:51.396 Generic:110 - This element gets clicked ----> PELLING
+[DEBUG] 2024-01-24 19:29:53.232 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:29:54.350 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:29:57.711 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:30:02.047 Generic:110 - This element gets clicked ----> HF 100
+[DEBUG] 2024-01-24 19:30:03.906 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-24 19:30:05.015 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-24 19:30:14.844 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-24 19:30:15.697 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:30:16.111 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:30:25.503 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 19:30:26.510 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-24 19:30:27.994 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-24 19:30:28.366 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-24 19:30:30.634 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 19:30:30.804 MyListeners:47 - [1;32mTC901_VALIDATEVALIDREFERTOFRIEND - PASSED[0m
+[DEBUG] 2024-01-24 19:30:30.811 MyListeners:39 - [1;30mTC901_VALIDATEVALIDREFERTOFRIEND - STARTS[0m
+[DEBUG] 2024-01-24 19:30:31.813 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:30:31.832 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:30:34.063 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:30:34.091 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:30:34.262 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-24 19:30:36.788 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:30:37.810 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:30:40.781 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 19:30:48.749 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-24 19:30:49.962 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-24 19:30:56.635 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-24 19:30:57.737 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-24 19:30:59.608 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:31:00.918 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:31:06.887 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:31:07.355 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:31:07.683 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:31:08.869 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:31:09.343 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:31:11.527 Generic:201 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-01-24 19:31:12.546 Generic:124 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-01-24 19:31:16.362 Generic:201 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-01-24 19:31:16.389 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:31:16.873 Generic:189 - Successfully enter value ----> Randhir
+[DEBUG] 2024-01-24 19:31:20.242 Generic:201 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-01-24 19:31:20.266 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:31:20.746 Generic:189 - Successfully enter value ----> 9891803084
+[DEBUG] 2024-01-24 19:31:23.652 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:31:24.620 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:31:39.689 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:31:43.879 Generic:110 - This element gets clicked ----> HARYANA
+[DEBUG] 2024-01-24 19:31:45.918 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:31:46.922 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:32:14.707 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:32:19.250 Generic:110 - This element gets clicked ----> KARNAL
+[DEBUG] 2024-01-24 19:32:21.033 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:32:22.091 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:32:39.614 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:32:44.021 Generic:110 - This element gets clicked ----> Xpulse 200
+[DEBUG] 2024-01-24 19:32:45.850 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-24 19:32:46.950 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-24 19:32:56.660 Generic:201 - Successfully Visibility  ----> Key Actions
+[DEBUG] 2024-01-24 19:32:57.511 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:32:57.913 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:33:07.311 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 19:33:08.272 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-24 19:33:09.725 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-24 19:33:10.071 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-24 19:33:12.327 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 19:33:12.481 MyListeners:47 - [1;32mTC901_VALIDATEVALIDREFERTOFRIEND - PASSED[0m
+[DEBUG] 2024-01-24 19:33:12.954 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 19:33:13.074 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 19:33:13.074
+[DEBUG] 2024-01-24 19:33:13.159 BaseClass:214 - Starting the Appium Service....
+2024-01-24 19:33:13.158
+--------------------------------------------------------------
+[DEBUG] 2024-01-24 19:33:42.268 BaseClass:190 - 15ef95f9-97f7-41ce-be97-65c43a433af4
+[DEBUG] 2024-01-24 19:33:42.273 MyListeners:39 - [1;30mTC201_VALIDATEVALIDPROFILEDETAILSTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 19:33:50.413 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:33:50.447 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:33:52.219 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:33:52.243 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:33:52.535 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-24 19:33:55.513 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:33:56.175 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:33:59.204 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 19:34:08.137 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-24 19:34:09.920 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-24 19:34:18.668 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-24 19:34:20.139 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-24 19:34:22.429 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:34:23.578 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:34:31.098 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:34:31.601 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:34:31.969 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:34:33.330 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:34:33.889 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:34:35.898 Generic:201 - Successfully Visibility  ----> My Profile
+[DEBUG] 2024-01-24 19:34:36.464 Generic:124 - Successfully Clicked  ----> My Profile
+[DEBUG] 2024-01-24 19:34:39.317 Generic:201 - Successfully Visibility  ----> More details
+[DEBUG] 2024-01-24 19:34:40.088 Generic:124 - Successfully Clicked  ----> More details
+[DEBUG] 2024-01-24 19:34:43.019 Generic:201 - Successfully Visibility  ----> Edit Profile Details
+[DEBUG] 2024-01-24 19:34:43.827 Generic:124 - Successfully Clicked  ----> Edit Profile Details
+[DEBUG] 2024-01-24 19:34:47.041 Generic:201 - Successfully Visibility  ----> Randhir
+[DEBUG] 2024-01-24 19:34:47.062 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:34:47.289 Generic:189 - Successfully enter value ----> Randhir
+[DEBUG] 2024-01-24 19:34:50.796 Generic:201 - Successfully Visibility  ----> Randhir@gmail.com
+[DEBUG] 2024-01-24 19:34:50.815 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:34:51.399 Generic:189 - Successfully enter value ----> Randhir@gmail.com
+[DEBUG] 2024-01-24 19:34:55.391 Generic:201 - Successfully Visibility  ----> 28 Dec 2000
+[DEBUG] 2024-01-24 19:34:57.281 Generic:124 - Successfully Clicked  ----> 28 Dec 2000
+[DEBUG] 2024-01-24 19:35:00.832 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:35:01.239 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:35:03.004 Generic:201 - Successfully Visibility  ----> 28/12/2000
+[DEBUG] 2024-01-24 19:35:03.022 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:35:03.270 Generic:189 - Successfully enter value ----> 28/12/2000
+[DEBUG] 2024-01-24 19:35:05.854 Generic:201 - Successfully Visibility  ----> OK
+[DEBUG] 2024-01-24 19:35:06.237 Generic:124 - Successfully Clicked  ----> OK
+[DEBUG] 2024-01-24 19:35:21.663 Generic:201 - Successfully Visibility  ----> asdaskdhasd
+[DEBUG] 2024-01-24 19:35:21.681 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:35:21.960 Generic:189 - Successfully enter value ----> asdaskdhasd
+[DEBUG] 2024-01-24 19:35:26.004 Generic:201 - Successfully Visibility  ----> Save
+[DEBUG] 2024-01-24 19:35:26.994 Generic:124 - Successfully Clicked  ----> Save
+[DEBUG] 2024-01-24 19:35:35.097 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:35:35.497 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:35:36.716 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:35:37.202 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:35:46.643 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 19:35:47.763 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-24 19:35:49.315 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-24 19:35:49.714 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-24 19:35:52.127 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 19:35:52.312 MyListeners:47 - [1;32mTC201_VALIDATEVALIDPROFILEDETAILSTESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 19:35:52.766 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 19:35:52.901 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 19:35:52.901
+[DEBUG] 2024-01-24 19:35:52.908 BaseClass:214 - Starting the Appium Service....
+2024-01-24 19:35:52.908
+--------------------------------------------------------------
+[DEBUG] 2024-01-24 19:36:21.906 BaseClass:190 - b6a80a62-fe43-4689-8e9c-f233fbedd21b
+[DEBUG] 2024-01-24 19:36:21.909 MyListeners:39 - [1;30mTC601_VALIDATEBOOKSERVICETESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 19:36:29.613 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:36:29.650 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:36:31.472 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 19:36:31.496 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:36:31.710 Generic:189 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-01-24 19:36:34.767 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:36:35.426 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:36:39.667 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 19:36:47.877 Generic:201 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-01-24 19:36:49.610 Generic:124 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-01-24 19:36:56.828 Generic:201 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-01-24 19:36:58.350 Generic:124 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-01-24 19:37:01.006 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 19:37:02.212 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 19:37:09.707 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:37:10.185 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:37:10.551 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:37:13.037 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-24 19:37:14.644 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-24 19:37:16.898 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-24 19:37:17.538 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-24 19:37:21.263 Generic:201 - Successfully Visibility  ----> Select a Time
+[DEBUG] 2024-01-24 19:37:24.468 Generic:201 - Successfully Visibility  ----> Service Centre
+[DEBUG] 2024-01-24 19:37:25.655 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:37:26.841 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:37:30.041 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:37:30.554 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:37:32.512 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:37:33.064 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:37:36.290 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:37:40.871 Generic:110 - This element gets clicked ----> GOA
+[DEBUG] 2024-01-24 19:37:42.661 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:37:43.196 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:37:46.413 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-01-24 19:37:50.638 Generic:110 - This element gets clicked ----> BICHOLIM
+[DEBUG] 2024-01-24 19:37:52.516 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:37:53.885 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:38:07.106 Generic:201 - Successfully Visibility  ----> Customer Requests
+[DEBUG] 2024-01-24 19:38:08.725 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:38:10.302 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:38:12.980 Generic:201 - Successfully Visibility  ----> Additional Instructions
+[DEBUG] 2024-01-24 19:38:14.122 Generic:201 - Successfully Visibility  ----> Facing any other issues?
+[DEBUG] 2024-01-24 19:38:14.135 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 19:38:14.556 Generic:189 - Successfully enter value ----> 123912731!@#!@#ADASDASD
+[DEBUG] 2024-01-24 19:38:17.488 Generic:201 - Successfully Visibility  ----> Review Service Details
+[DEBUG] 2024-01-24 19:38:18.759 Generic:124 - Successfully Clicked  ----> Review Service Details
+[DEBUG] 2024-01-24 19:38:20.720 Generic:201 - Successfully Visibility  ----> Service Scheduled
+[DEBUG] 2024-01-24 19:38:21.558 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-24 19:38:22.284 Generic:124 - Successfully Clicked  ----> Book Service
+[DEBUG] 2024-01-24 19:38:27.110 Generic:201 - Successfully Visibility  ----> Service booked
+[DEBUG] 2024-01-24 19:38:28.017 Generic:201 - Successfully Visibility  ----> Service booked!
+[DEBUG] 2024-01-24 19:38:29.374 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-24 19:38:30.926 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-24 19:38:31.977 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-24 19:38:32.925 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-24 19:38:41.056 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-24 19:38:41.632 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-24 19:38:42.731 MyListeners:47 - [1;32mTC601_VALIDATEBOOKSERVICETESTCASE - PASSED[0m
+[DEBUG] 2024-01-24 19:38:42.738 MyListeners:39 - [1;30mVALIDATESERVICERESCHEDULED - STARTS[0m
+[DEBUG] 2024-01-24 19:38:44.520 Generic:201 - Successfully Visibility  ----> Reschedule
+[DEBUG] 2024-01-24 19:38:45.879 Generic:124 - Successfully Clicked  ----> Reschedule
+[DEBUG] 2024-01-24 19:38:48.413 Generic:201 - Successfully Visibility  ----> Service Rescheduling
+[DEBUG] 2024-01-24 19:38:49.892 Generic:201 - Successfully Visibility  ----> Confirm
+[DEBUG] 2024-01-24 19:38:51.320 Generic:124 - Successfully Clicked  ----> Confirm
+[DEBUG] 2024-01-24 19:38:54.945 Generic:201 - Successfully Visibility  ----> Service rescheduled!
+[DEBUG] 2024-01-24 19:38:56.191 Generic:201 - Successfully Visibility  ----> Kindly rate your experience.
+[DEBUG] 2024-01-24 19:38:57.548 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-24 19:38:58.489 Generic:201 - Successfully Visibility  ----> Submit
+[DEBUG] 2024-01-24 19:38:59.569 Generic:124 - Successfully Clicked  ----> Submit
+[DEBUG] 2024-01-24 19:39:07.700 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-24 19:39:08.262 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-24 19:39:08.471 MyListeners:47 - [1;32mVALIDATESERVICERESCHEDULED - PASSED[0m
+[DEBUG] 2024-01-24 19:39:08.473 MyListeners:39 - [1;30mVALIDATESERVICECANCELLED - STARTS[0m
+[DEBUG] 2024-01-24 19:39:10.202 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-24 19:39:11.474 Generic:124 - Successfully Clicked  ----> Cancel Service
+[DEBUG] 2024-01-24 19:39:13.307 Generic:201 - Successfully Visibility  ----> Cancel Service?
+[DEBUG] 2024-01-24 19:39:13.760 Generic:201 - Successfully Visibility  ----> Are you sure you want to cancel this 
+service?
+[DEBUG] 2024-01-24 19:39:14.527 Generic:201 - Successfully Visibility  ----> No
+[DEBUG] 2024-01-24 19:39:15.327 Generic:201 - Successfully Visibility  ----> Yes
+[DEBUG] 2024-01-24 19:39:15.935 Generic:201 - Successfully Visibility  ----> No
+[DEBUG] 2024-01-24 19:39:16.540 Generic:124 - Successfully Clicked  ----> No
+[DEBUG] 2024-01-24 19:39:18.959 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-24 19:39:20.167 Generic:201 - Successfully Visibility  ----> Cancel Service
+[DEBUG] 2024-01-24 19:39:21.443 Generic:124 - Successfully Clicked  ----> Cancel Service
+[DEBUG] 2024-01-24 19:39:23.058 Generic:204 - [1;31morg.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//android.view.ViewGroup//android.widget.TextView)[3]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.28.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Samsung, newCommandTimeout: 1200, platformName: android, udid: RZCT904J89D}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RZCT904J89D, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT904J89D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 90, takesScreenshot: true, udid: RZCT904J89D, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b6a80a62-fe43-4689-8e9c-f233fbedd21b[0m
+[DEBUG] 2024-01-24 19:39:23.590 Generic:124 - Successfully Clicked  ----> Yes
+[DEBUG] 2024-01-24 19:39:27.292 Generic:201 - Successfully Visibility  ----> Service Cancelled
+[DEBUG] 2024-01-24 19:39:28.007 Generic:201 - Successfully Visibility  ----> Your service has been cancelled
+[DEBUG] 2024-01-24 19:39:28.274 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:39:28.626 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:39:33.768 Generic:201 - Successfully Visibility  ----> Services
+[DEBUG] 2024-01-24 19:39:35.176 Generic:124 - Successfully Clicked  ----> Services
+[DEBUG] 2024-01-24 19:39:37.109 Generic:201 - Successfully Visibility  ----> Book Service
+[DEBUG] 2024-01-24 19:39:38.281 Generic:201 - Successfully Visibility  ----> Home
+[DEBUG] 2024-01-24 19:39:39.538 Generic:124 - Successfully Clicked  ----> Home
+[DEBUG] 2024-01-24 19:39:40.947 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 19:39:41.361 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 19:39:50.737 Generic:201 - Successfully Visibility  ----> Logout
+[DEBUG] 2024-01-24 19:39:51.770 Generic:124 - Successfully Clicked  ----> Logout
+[DEBUG] 2024-01-24 19:39:53.233 Generic:201 - Successfully Visibility  ----> YES
+[DEBUG] 2024-01-24 19:39:53.609 Generic:124 - Successfully Clicked  ----> YES
+[DEBUG] 2024-01-24 19:39:55.904 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 19:39:56.478 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 19:39:56.495 MyListeners:47 - [1;32mVALIDATESERVICECANCELLED - PASSED[0m
+[DEBUG] 2024-01-24 19:39:56.857 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 19:39:56.988 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 19:39:56.988
+[DEBUG] 2024-01-24 21:03:08.254 BaseClass:214 - Starting the Appium Service....
+2024-01-24 21:03:08.246
+--------------------------------------------------------------
+[DEBUG] 2024-01-24 21:03:36.666 BaseClass:190 - 2dac9a7b-58b2-42bf-96c7-e2d55253a9bf
+[DEBUG] 2024-01-24 21:03:36.715 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 21:03:44.378 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 21:03:54.403 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 21:03:55.565 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 21:03:55.603 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 21:03:57.395 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 21:03:57.421 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 21:03:57.664 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 21:04:01.161 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 21:04:01.870 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 21:04:06.328 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 21:04:08.255 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 21:04:09.280 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 21:04:09.582 MyListeners:58 - [1;31m[com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:78), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 21:04:10.494 MyListeners:74 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 21:04:10.498 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 21:04:11.661 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 21:04:21.530 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 21:04:22.096 Generic:201 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-01-24 21:04:22.118 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 21:04:23.651 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 21:04:23.667 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 21:04:23.904 Generic:189 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-01-24 21:04:27.389 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 21:04:28.056 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 21:04:30.242 Generic:201 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-01-24 21:04:31.278 Generic:201 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-01-24 21:04:32.228 Generic:201 - Successfully Visibility  ----> Update Number
+[DEBUG] 2024-01-24 21:04:32.596 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 21:04:33.448 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 21:04:33.633 MyListeners:58 - [1;31m[com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:100), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 21:04:34.430 MyListeners:74 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 21:04:34.434 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 21:04:35.498 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 21:04:45.386 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 21:04:45.961 Generic:201 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-01-24 21:04:45.984 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 21:04:47.653 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 21:04:47.668 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 21:04:47.875 Generic:189 - Successfully enter value ----> 666660002
+[DEBUG] 2024-01-24 21:04:50.280 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 21:04:51.493 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 21:04:52.336 Generic:201 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-01-24 21:04:52.355 MyListeners:58 - [1;31m[com.oneapp.test_suits.LoginTestCases.TC001_ValidLoginTestCase(LoginTestCases.java:111), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:568), org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 21:04:53.239 MyListeners:74 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 21:04:53.610 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 21:04:54.729 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 21:04:54.728
+[DEBUG] 2024-01-24 21:20:46.800 BaseClass:214 - Starting the Appium Service....
+2024-01-24 21:20:46.793
+--------------------------------------------------------------
+[DEBUG] 2024-01-24 21:21:14.360 BaseClass:190 - b72ca097-0947-4acd-8f2d-216fc13fecd2
+[DEBUG] 2024-01-24 21:21:14.448 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-01-24 21:21:22.123 Generic:201 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-01-24 21:21:32.099 Generic:201 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-01-24 21:21:33.249 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 21:21:33.259 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 21:21:35.075 Generic:201 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-01-24 21:21:35.092 Generic:137 - Successfully cleared textbox
+[DEBUG] 2024-01-24 21:21:35.286 Generic:189 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-01-24 21:21:39.083 Generic:201 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-01-24 21:21:39.727 Generic:124 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-01-24 21:21:44.226 Generic:201 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-01-24 21:21:46.150 Generic:201 - Successfully Visibility  ----> 
+[DEBUG] 2024-01-24 21:21:47.334 Generic:124 - Successfully Clicked  ----> 
+[DEBUG] 2024-01-24 21:21:47.619 MyListeners:63 - [1;31m[com.oneapp.basic.MyListeners.onTestSuccess(MyListeners.java:46), org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:100), org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219), org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656), org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173), org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46), org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824), org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146), org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146), org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.testng.TestRunner.privateRun(TestRunner.java:794), org.testng.TestRunner.run(TestRunner.java:596), org.testng.SuiteRunner.runTest(SuiteRunner.java:377), org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371), org.testng.SuiteRunner.privateRun(SuiteRunner.java:332), org.testng.SuiteRunner.run(SuiteRunner.java:276), org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53), org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96), org.testng.TestNG.runSuitesSequentially(TestNG.java:1212), org.testng.TestNG.runSuitesLocally(TestNG.java:1134), org.testng.TestNG.runSuites(TestNG.java:1063), org.testng.TestNG.run(TestNG.java:1031), org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115), org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251), org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)][0m
+[DEBUG] 2024-01-24 21:21:48.633 MyListeners:79 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-01-24 21:21:49.130 BaseClass:204 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-01-24 21:21:49.727 BaseClass:229 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-01-24 21:21:49.727
