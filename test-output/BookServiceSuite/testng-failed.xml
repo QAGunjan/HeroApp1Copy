@@ -5,15 +5,19 @@
     <listener class-name="com.oneapp.basic.MyListeners"/>
   </listeners>
   <test thread-count="5" name="BookServiceTest(failed)">
+    <parameter name="PLATFORM_NAME" value="Android"/>
+    <parameter name="platformVersion" value="12.0.0"/>
+    <parameter name="pCloudy_DeviceFullName" value="SAMSUNG_GalaxyF145G_Android_13.0.0_dd226"/>
     <classes>
       <class name="com.oneapp.test_suits.BookServiceTestCases">
         <methods>
+          <include name="Quit_session"/>
           <include name="afterclass"/>
           <include name="ValidateServiceRescheduled"/>
+          <include name="BrowserSetUp"/>
           <include name="AppiumServerStarts"/>
           <include name="AppiumServiceStops"/>
           <include name="ValidateServiceCancelled"/>
-          <include name="beforeclass"/>
           <include name="TC601_ValidateBookServiceTestcase"/>
         </methods>
       </class> <!-- com.oneapp.test_suits.BookServiceTestCases -->

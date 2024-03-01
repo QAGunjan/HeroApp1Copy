@@ -4,29 +4,14 @@
   <listeners>
     <listener class-name="com.oneapp.basic.MyListeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="LoginTest2(failed)">
-    <parameter name="PLATFORM_NAME" value="Android"/>
-    <parameter name="platformVersion" value="13.0.0"/>
-    <parameter name="pCloudy_DeviceFullName" value="GOOGLE_Pixel7_Android_13.0.0_81870"/>
-    <classes>
-      <class name="com.oneapp.test_suits.LoginTestCases">
-        <methods>
-          <include name="afterclass"/>
-          <include name="TC001_ValidLoginTestCase" invocation-numbers="1 2"/>
-          <include name="BrowserSetUp"/>
-          <include name="AppiumServerStarts"/>
-          <include name="AppiumServiceStops"/>
-        </methods>
-      </class> <!-- com.oneapp.test_suits.LoginTestCases -->
-    </classes>
-  </test> <!-- LoginTest2(failed) -->
   <test thread-count="5" parallel="tests" name="LoginTest1(failed)">
     <parameter name="PLATFORM_NAME" value="Android"/>
     <parameter name="platformVersion" value="12.0.0"/>
-    <parameter name="pCloudy_DeviceFullName" value="SAMSUNG_GalaxyS10_Android_12.0.0_01e83"/>
+    <parameter name="pCloudy_DeviceFullName" value="SAMSUNG_GalaxyF145G_Android_13.0.0_dd226"/>
     <classes>
       <class name="com.oneapp.test_suits.LoginTestCases">
         <methods>
+          <include name="Quit_session"/>
           <include name="afterclass"/>
           <include name="TC001_ValidLoginTestCase" invocation-numbers="0 1 2"/>
           <include name="BrowserSetUp"/>

@@ -1,0 +1,142 @@
+[DEBUG] 2024-02-05 10:56:19.213 BaseClass:249 - Starting the Appium Service....
+2024-02-05 10:56:19.206
+--------------------------------------------------------------
+[DEBUG] 2024-02-05 10:57:05.755 BaseClass:225 - ff16d23d-cd6f-4a2c-8f13-104a07572f91
+[DEBUG] 2024-02-05 10:57:05.885 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-05 10:57:13.238 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-05 10:57:24.647 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-05 10:57:26.491 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-05 10:57:26.581 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 10:57:28.985 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-05 10:57:29.055 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 10:57:29.413 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-02-05 10:57:32.538 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-05 10:57:34.510 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-05 10:57:39.001 Generic:199 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-05 10:57:41.306 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-05 10:57:44.796 BaseClass:225 - 4b105d96-2438-425c-92a0-e9630a2e6048
+[DEBUG] 2024-02-05 10:57:44.803 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-05 10:57:46.300 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-05 10:57:48.209 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-05 10:57:48.212 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-05 10:57:52.894 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-05 10:57:52.961 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-05 10:58:04.136 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-05 10:58:04.222 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-05 10:58:05.171 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-05 10:58:05.232 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-05 10:58:05.249 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 10:58:05.328 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 10:58:08.699 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-05 10:58:08.766 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-05 10:58:08.774 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 10:58:08.836 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 10:58:09.136 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-02-05 10:58:09.915 Generic:188 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-02-05 10:58:14.651 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-05 10:58:14.719 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-05 10:58:16.257 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-05 10:58:16.324 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-05 10:58:37.289 MyListeners:62 - [1;31morg.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.18.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 721, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS10_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 12.0.0, project: Hero app, systemPort: 30994, tag: newtag}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-G973F, deviceName: RZ8M309VF0R, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: RZ8M309VF0R, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS10_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 12, project: Hero app, statBarHeight: 150, systemPort: 30994, tag: newtag, takesScreenshot: true, viewportRect: {height: 2688, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4b105d96-2438-425c-92a0-e9630a2e6048
+*** Element info: {Using=xpath, value=//*[@text='Verify with OTP']}[0m
+[DEBUG] 2024-02-05 10:58:38.157 MyListeners:62 - [1;31morg.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.18.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 721, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS10_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 12.0.0, project: Hero app, systemPort: 30994, tag: newtag}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-G973F, deviceName: RZ8M309VF0R, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: RZ8M309VF0R, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS10_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 12, project: Hero app, statBarHeight: 150, systemPort: 30994, tag: newtag, takesScreenshot: true, viewportRect: {height: 2688, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4b105d96-2438-425c-92a0-e9630a2e6048[0m
+[DEBUG] 2024-02-05 10:58:38.494 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-05 10:58:38.497 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-05 10:58:39.188 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-05 10:58:39.191 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-05 10:59:39.392 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/lbl2' (tried for 20 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-02-05 10:59:59.983 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/lbl2' (tried for 20 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-02-05 11:00:20.177 MyListeners:62 - [1;31morg.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.18.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 721, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS10_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 12.0.0, project: Hero app, systemPort: 30994, tag: newtag}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-G973F, deviceName: RZ8M309VF0R, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: RZ8M309VF0R, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS10_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 12, project: Hero app, statBarHeight: 150, systemPort: 30994, tag: newtag, takesScreenshot: true, viewportRect: {height: 2688, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4b105d96-2438-425c-92a0-e9630a2e6048
+*** Element info: {Using=id, value=com.customerapp.hero:id/lbl2}[0m
+[DEBUG] 2024-02-05 11:00:40.301 MyListeners:62 - [1;31morg.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.18.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 721, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS10_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 12.0.0, project: Hero app, systemPort: 30994, tag: newtag}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-G973F, deviceName: RZ8M309VF0R, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: RZ8M309VF0R, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS10_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 12, project: Hero app, statBarHeight: 150, systemPort: 30994, tag: newtag, takesScreenshot: true, viewportRect: {height: 2688, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4b105d96-2438-425c-92a0-e9630a2e6048
+*** Element info: {Using=id, value=com.customerapp.hero:id/lbl2}[0m
+[DEBUG] 2024-02-05 11:00:41.830 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-05 11:00:41.834 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-05 11:00:42.214 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-05 11:01:22.327 Generic:203 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/lbl2' (tried for 20 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-02-05 11:01:42.513 MyListeners:62 - [1;31morg.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.18.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 721, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS10_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 12.0.0, project: Hero app, systemPort: 30994, tag: newtag}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-G973F, deviceName: RZ8M309VF0R, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: RZ8M309VF0R, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS10_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 12, project: Hero app, statBarHeight: 150, systemPort: 30994, tag: newtag, takesScreenshot: true, viewportRect: {height: 2688, left: 0, top: 150, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 4b105d96-2438-425c-92a0-e9630a2e6048
+*** Element info: {Using=id, value=com.customerapp.hero:id/lbl2}[0m
+[DEBUG] 2024-02-05 11:01:43.589 MyListeners:78 - [1;31mTC001_VALIDLOGINTESTCASE - FAILURE[0m
+[DEBUG] 2024-02-05 11:01:43.766 BaseClass:264 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-05 11:01:43.766
+[DEBUG] 2024-02-05 11:10:44.832 BaseClass:249 - Starting the Appium Service....
+2024-02-05 11:10:44.823
+--------------------------------------------------------------
+[DEBUG] 2024-02-05 11:12:10.240 BaseClass:225 - b5b17ac8-e073-477a-a633-b8592647739a
+[DEBUG] 2024-02-05 11:12:10.266 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-05 11:12:18.418 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-05 11:12:29.426 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-05 11:12:30.385 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-05 11:12:30.450 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 11:12:32.517 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-05 11:12:32.588 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 11:12:33.383 Generic:188 - Successfully enter value ----> 6666600022
+[DEBUG] 2024-02-05 11:12:37.261 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-05 11:12:38.185 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-05 11:12:54.401 Generic:199 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-05 11:12:59.931 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-05 11:13:00.644 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-05 11:13:00.942 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-05 11:13:00.949 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-05 11:13:02.115 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-05 11:13:12.313 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-05 11:13:13.817 Generic:199 - Successfully Visibility  ----> 6666600022
+[DEBUG] 2024-02-05 11:13:13.889 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 11:13:15.819 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-05 11:13:15.877 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 11:13:16.096 Generic:188 - Successfully enter value ----> 6666600004
+[DEBUG] 2024-02-05 11:13:19.398 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-05 11:13:20.165 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-05 11:13:22.183 Generic:199 - Successfully Visibility  ----> Number not registered with any Hero vehicle
+[DEBUG] 2024-02-05 11:13:23.718 Generic:199 - Successfully Visibility  ----> Update registered mobile number for your Hero vehicle or try with another number.
+[DEBUG] 2024-02-05 11:13:24.694 Generic:199 - Successfully Visibility  ----> Update Number
+[DEBUG] 2024-02-05 11:13:25.731 Generic:199 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-05 11:13:26.439 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-05 11:13:26.703 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-05 11:13:26.713 MyListeners:39 - [1;30mTC001_VALIDLOGINTESTCASE - STARTS[0m
+[DEBUG] 2024-02-05 11:13:28.032 Generic:199 - Successfully Visibility  ----> Please proceed with your registered Hero mobile number
+[DEBUG] 2024-02-05 11:13:38.082 Generic:199 - Successfully Visibility  ----> By tapping on login or register, you are agreeing to Hero
+[DEBUG] 2024-02-05 11:13:39.542 Generic:199 - Successfully Visibility  ----> 6666600004
+[DEBUG] 2024-02-05 11:13:39.611 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 11:13:41.871 Generic:199 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-05 11:13:41.941 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-05 11:13:42.162 Generic:188 - Successfully enter value ----> 666660002
+[DEBUG] 2024-02-05 11:13:45.390 Generic:199 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-05 11:13:46.151 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-05 11:13:48.057 Generic:199 - Successfully Visibility  ----> Welcome!
+[DEBUG] 2024-02-05 11:13:48.162 MyListeners:49 - [1;32mTC001_VALIDLOGINTESTCASE - PASSED[0m
+[DEBUG] 2024-02-05 11:13:48.739 BaseClass:264 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-05 11:13:48.739

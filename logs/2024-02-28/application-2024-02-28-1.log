@@ -1,0 +1,135 @@
+[DEBUG] 2024-02-28 09:00:04.989 BaseClass:250 - Starting the Appium Service....
+2024-02-28 09:00:04.978
+--------------------------------------------------------------
+[DEBUG] 2024-02-28 09:01:10.386 BaseClass:226 - 0f256b27-5907-443b-8346-cb3e9e111b97
+[DEBUG] 2024-02-28 09:01:10.625 MyListeners:39 - [1;30mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - STARTS[0m
+[DEBUG] 2024-02-28 09:01:31.117 Generic:213 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 20 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-02-28 09:01:31.275 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-28 09:01:51.553 MyListeners:62 - [1;31morg.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.26.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 826, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyM53_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 14.0.0, project: Hero app, systemPort: 30844, tag: newtag}, deviceApiLevel: 34, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RFCT42JP5LF, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RFCT42JP5LF, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyM53_Android_1..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 14, project: Hero app, statBarHeight: 90, systemPort: 30844, tag: newtag, takesScreenshot: true, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0f256b27-5907-443b-8346-cb3e9e111b97
+*** Element info: {Using=id, value=com.customerapp.hero:id/text_input_editext}[0m
+[DEBUG] 2024-02-28 09:01:52.547 MyListeners:78 - [1;31mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - FAILURE[0m
+[DEBUG] 2024-02-28 09:01:52.943 BaseClass:240 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-02-28 09:01:53.914 BaseClass:265 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-28 09:01:53.914
+[DEBUG] 2024-02-28 09:06:34.473 BaseClass:250 - Starting the Appium Service....
+2024-02-28 09:06:34.459
+--------------------------------------------------------------
+[DEBUG] 2024-02-28 09:08:11.160 BaseClass:226 - 0e60f14c-7e5d-460a-829c-0dc94bf67132
+[DEBUG] 2024-02-28 09:08:11.209 MyListeners:39 - [1;30mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - STARTS[0m
+[DEBUG] 2024-02-28 09:08:21.633 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-28 09:08:21.718 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-28 09:08:24.719 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-28 09:08:24.805 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-28 09:08:25.303 Generic:198 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-02-28 09:08:29.793 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-28 09:08:31.840 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-28 09:08:37.940 Generic:209 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-28 09:08:49.052 Generic:209 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-02-28 09:08:52.010 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-02-28 09:09:15.769 Generic:209 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-02-28 09:09:18.946 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-02-28 09:09:23.745 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-28 09:09:26.569 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-28 09:09:52.630 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-28 09:09:56.580 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-28 09:09:58.644 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-28 09:10:08.978 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-28 09:10:16.926 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-28 09:10:25.392 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-28 09:10:28.399 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-28 09:10:33.601 Generic:209 - Successfully Visibility  ----> City to sell vehicle
+[DEBUG] 2024-02-28 09:10:33.906 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-28 09:10:34.546 Generic:198 - Successfully enter value ----> new delhi
+[DEBUG] 2024-02-28 09:10:40.898 Generic:209 - Successfully Visibility  ----> New Delhi (Delhi)
+[DEBUG] 2024-02-28 09:10:42.706 Generic:123 - Successfully Clicked  ----> New Delhi (Delhi)
+[DEBUG] 2024-02-28 09:10:46.647 Generic:209 - Successfully Visibility  ----> PIN Code* 
+[DEBUG] 2024-02-28 09:10:46.736 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-28 09:10:47.440 Generic:198 - Successfully enter value ----> 110091
+[DEBUG] 2024-02-28 09:10:51.724 Generic:209 - Successfully Visibility  ----> Next
+[DEBUG] 2024-02-28 09:10:53.867 Generic:123 - Successfully Clicked  ----> Next
+[DEBUG] 2024-02-28 09:10:56.869 MyListeners:49 - [1;32mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - PASSED[0m
+[DEBUG] 2024-02-28 09:10:57.660 BaseClass:240 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-02-28 09:10:58.447 BaseClass:265 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-28 09:10:58.447
+[DEBUG] 2024-02-28 10:03:18.807 BaseClass:250 - Starting the Appium Service....
+2024-02-28 10:03:18.773
+--------------------------------------------------------------
+[DEBUG] 2024-02-28 10:03:34.790 MyListeners:39 - [1;30mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - STARTS[0m
+[DEBUG] 2024-02-28 10:03:34.913 Generic:213 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-28 10:03:34.947 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-28 10:03:35.041 MyListeners:78 - [1;31mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - FAILURE[0m
+[DEBUG] 2024-02-28 10:03:36.264 BaseClass:265 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-28 10:03:36.263
+[DEBUG] 2024-02-28 10:04:41.112 BaseClass:250 - Starting the Appium Service....
+2024-02-28 10:04:41.087
+--------------------------------------------------------------
+[DEBUG] 2024-02-28 10:04:57.151 MyListeners:39 - [1;30mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - STARTS[0m
+[DEBUG] 2024-02-28 10:04:57.232 Generic:213 - [1;31mjava.lang.NullPointerException[0m
+[DEBUG] 2024-02-28 10:04:57.249 MyListeners:62 - [1;31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.AppiumDriver.manage()" because "com.oneapp.utils.Generic.ad" is null[0m
+[DEBUG] 2024-02-28 10:04:57.269 MyListeners:78 - [1;31mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - FAILURE[0m
+[DEBUG] 2024-02-28 10:04:58.327 BaseClass:265 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-28 10:04:58.327
+[DEBUG] 2024-02-28 10:07:10.986 BaseClass:250 - Starting the Appium Service....
+2024-02-28 10:07:10.968
+--------------------------------------------------------------
+[DEBUG] 2024-02-28 10:08:37.940 BaseClass:226 - 91bae31f-2a07-43c9-8b7e-7a3d737a576f
+[DEBUG] 2024-02-28 10:08:37.983 MyListeners:39 - [1;30mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - STARTS[0m
+[DEBUG] 2024-02-28 10:08:45.735 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-28 10:08:45.844 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-28 10:08:49.193 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-28 10:08:49.282 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-28 10:08:49.617 Generic:198 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-02-28 10:08:53.362 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-28 10:08:54.916 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-28 10:09:05.401 Generic:209 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-28 10:09:20.016 Generic:209 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-02-28 10:09:21.494 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-02-28 10:09:37.124 Generic:209 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-02-28 10:09:38.295 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-02-28 10:09:40.578 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-28 10:09:41.651 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-28 10:09:48.486 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-28 10:09:49.902 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-28 10:09:50.703 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-28 10:09:54.422 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-28 10:09:57.521 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-28 10:10:01.565 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-28 10:10:03.336 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-28 10:10:06.723 Generic:209 - Successfully Visibility  ----> City to sell vehicle
+[DEBUG] 2024-02-28 10:10:06.805 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-28 10:10:07.073 Generic:198 - Successfully enter value ----> new delhi
+[DEBUG] 2024-02-28 10:10:12.261 Generic:209 - Successfully Visibility  ----> New Delhi (Delhi)
+[DEBUG] 2024-02-28 10:10:13.300 Generic:123 - Successfully Clicked  ----> New Delhi (Delhi)
+[DEBUG] 2024-02-28 10:10:15.390 Generic:209 - Successfully Visibility  ----> PIN Code* 
+[DEBUG] 2024-02-28 10:10:15.505 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-28 10:10:15.835 Generic:198 - Successfully enter value ----> 110091
+[DEBUG] 2024-02-28 10:10:18.470 Generic:209 - Successfully Visibility  ----> Next
+[DEBUG] 2024-02-28 10:10:19.485 Generic:123 - Successfully Clicked  ----> Next
+[DEBUG] 2024-02-28 10:10:25.248 Generic:209 - Successfully Visibility  ----> No Smoke
+[DEBUG] 2024-02-28 10:10:25.734 Generic:123 - Successfully Clicked  ----> No Smoke
+[DEBUG] 2024-02-28 10:10:27.250 Generic:209 - Successfully Visibility  ----> Smoke
+[DEBUG] 2024-02-28 10:10:27.690 Generic:123 - Successfully Clicked  ----> Smoke
+[DEBUG] 2024-02-28 10:10:29.289 Generic:209 - Successfully Visibility  ----> Starts Normally
+[DEBUG] 2024-02-28 10:10:29.694 Generic:123 - Successfully Clicked  ----> Starts Normally
+[DEBUG] 2024-02-28 10:10:31.366 Generic:209 - Successfully Visibility  ----> Not Starting
+[DEBUG] 2024-02-28 10:10:31.804 Generic:123 - Successfully Clicked  ----> Not Starting
+[DEBUG] 2024-02-28 10:10:32.963 MyListeners:49 - [1;32mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - PASSED[0m
+[DEBUG] 2024-02-28 10:10:33.748 BaseClass:240 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-02-28 10:10:34.380 BaseClass:265 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-28 10:10:34.380

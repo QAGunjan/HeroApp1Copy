@@ -233,7 +233,7 @@ public class BaseClass {
 
 	}
 
-//	@AfterTest(alwaysRun = true)
+	@AfterClass(alwaysRun = true)
 	public void Quit_session() {
 		ad.quit();
 //		TestUtils.log().debug("Session gets closed");
