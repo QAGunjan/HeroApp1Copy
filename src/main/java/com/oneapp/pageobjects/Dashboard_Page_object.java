@@ -214,7 +214,7 @@ public class Dashboard_Page_object extends BaseClass {
 		}
 	}
 
-	public void clickOnExchangeIcon() {
+	public ExchangejouneyDashboardScreen_page_object clickOnExchangeIcon() {
 
 //		for (WebElement value : featuresUnderKeyActions_AllText) {
 //
@@ -228,6 +228,8 @@ public class Dashboard_Page_object extends BaseClass {
 //		}
 		
 		selectingFeaturesUnderKeyActions("Exchange");
+		
+		return new ExchangejouneyDashboardScreen_page_object(ad);
 
 	}
 

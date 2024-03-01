@@ -1,0 +1,140 @@
+[DEBUG] 2024-02-29 09:07:42.240 BaseClass:250 - Starting the Appium Service....
+2024-02-29 09:07:42.228
+--------------------------------------------------------------
+[DEBUG] 2024-02-29 09:09:23.022 BaseClass:226 - 2be431c0-2bb6-418f-8a9e-5f23842ac0f7
+[DEBUG] 2024-02-29 09:09:23.058 MyListeners:39 - [1;30mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - STARTS[0m
+[DEBUG] 2024-02-29 09:09:30.816 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-29 09:09:30.896 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 09:09:33.056 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-29 09:09:33.190 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 09:09:33.912 Generic:198 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-02-29 09:09:37.068 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-29 09:09:38.468 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-29 09:09:47.864 Generic:209 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-29 09:10:03.096 Generic:209 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-02-29 09:10:03.982 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-02-29 09:10:10.051 Generic:209 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-02-29 09:10:11.204 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-02-29 09:10:13.154 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-29 09:10:14.252 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-29 09:10:19.977 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 09:10:20.943 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 09:10:21.622 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-29 09:10:24.011 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 09:10:27.052 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-29 09:10:31.919 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 09:10:33.876 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-29 09:10:36.900 Generic:209 - Successfully Visibility  ----> City to sell vehicle
+[DEBUG] 2024-02-29 09:10:36.984 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 09:10:37.341 Generic:198 - Successfully enter value ----> new delhi
+[DEBUG] 2024-02-29 09:10:41.931 Generic:209 - Successfully Visibility  ----> New Delhi (Delhi)
+[DEBUG] 2024-02-29 09:10:42.885 Generic:123 - Successfully Clicked  ----> New Delhi (Delhi)
+[DEBUG] 2024-02-29 09:10:44.744 Generic:209 - Successfully Visibility  ----> PIN Code* 
+[DEBUG] 2024-02-29 09:10:44.824 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 09:10:45.185 Generic:198 - Successfully enter value ----> 110091
+[DEBUG] 2024-02-29 09:10:48.050 Generic:209 - Successfully Visibility  ----> Next
+[DEBUG] 2024-02-29 09:10:49.040 Generic:123 - Successfully Clicked  ----> Next
+[DEBUG] 2024-02-29 09:10:49.435 MyListeners:49 - [1;32mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - PASSED[0m
+[DEBUG] 2024-02-29 09:10:49.882 BaseClass:240 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-02-29 09:10:50.775 BaseClass:265 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-29 09:10:50.774
+[DEBUG] 2024-02-29 09:51:36.782 BaseClass:250 - Starting the Appium Service....
+2024-02-29 09:51:36.768
+--------------------------------------------------------------
+[DEBUG] 2024-02-29 09:52:58.381 BaseClass:226 - fea9db46-762e-48be-947a-a7166f4ba00f
+[DEBUG] 2024-02-29 09:52:58.415 MyListeners:39 - [1;30mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - STARTS[0m
+[DEBUG] 2024-02-29 09:53:07.302 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-29 09:53:07.406 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 09:53:10.190 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-29 09:53:10.299 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 09:53:10.637 Generic:198 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-02-29 09:53:14.254 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-29 09:53:15.963 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-29 09:53:28.742 Generic:209 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-29 09:53:41.341 Generic:209 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-02-29 09:53:42.631 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-02-29 09:53:49.525 Generic:209 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-02-29 09:53:50.798 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-02-29 09:53:52.847 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-29 09:53:53.965 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-29 09:54:00.091 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 09:54:02.059 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 09:54:02.947 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-29 09:54:06.550 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 09:54:09.609 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-29 09:54:13.143 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 09:54:14.969 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-29 09:54:18.220 Generic:209 - Successfully Visibility  ----> City to sell vehicle
+[DEBUG] 2024-02-29 09:54:18.288 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 09:54:18.568 Generic:198 - Successfully enter value ----> new delhi
+[DEBUG] 2024-02-29 09:54:23.969 Generic:209 - Successfully Visibility  ----> New Delhi (Delhi)
+[DEBUG] 2024-02-29 09:54:24.853 Generic:123 - Successfully Clicked  ----> New Delhi (Delhi)
+[DEBUG] 2024-02-29 09:54:26.960 Generic:209 - Successfully Visibility  ----> PIN Code* 
+[DEBUG] 2024-02-29 09:54:27.021 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 09:54:27.299 Generic:198 - Successfully enter value ----> 110091
+[DEBUG] 2024-02-29 09:54:29.644 Generic:209 - Successfully Visibility  ----> Next
+[DEBUG] 2024-02-29 09:54:30.519 Generic:123 - Successfully Clicked  ----> Next
+[DEBUG] 2024-02-29 09:54:33.787 Generic:209 - Successfully Visibility  ----> No Smoke
+[DEBUG] 2024-02-29 09:54:34.785 Generic:123 - Successfully Clicked  ----> No Smoke
+[DEBUG] 2024-02-29 09:54:37.225 MyListeners:49 - [1;32mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - PASSED[0m
+[DEBUG] 2024-02-29 09:54:37.831 BaseClass:240 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-02-29 09:54:38.373 BaseClass:265 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-29 09:54:38.373
+[DEBUG] 2024-02-29 14:24:18.890 BaseClass:250 - Starting the Appium Service....
+2024-02-29 14:24:18.871
+--------------------------------------------------------------
+[DEBUG] 2024-02-29 14:25:38.021 BaseClass:226 - 73baa2bc-7eda-49bc-a0bd-e9f75697fa68
+[DEBUG] 2024-02-29 14:25:38.051 MyListeners:39 - [1;30mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - STARTS[0m
+[DEBUG] 2024-02-29 14:25:46.581 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-29 14:25:46.663 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 14:25:49.476 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-02-29 14:25:49.558 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 14:25:49.869 Generic:198 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-02-29 14:25:53.867 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-29 14:25:55.308 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-29 14:26:04.673 Generic:209 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-02-29 14:26:19.414 Generic:209 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-02-29 14:26:20.829 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-02-29 14:26:26.807 Generic:209 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-02-29 14:26:27.884 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-02-29 14:26:29.985 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-02-29 14:26:31.136 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-02-29 14:26:36.716 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 14:26:38.092 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 14:26:39.182 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-29 14:26:42.432 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 14:26:45.509 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-29 14:26:49.621 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-02-29 14:26:51.263 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-02-29 14:26:54.509 Generic:209 - Successfully Visibility  ----> City to sell vehicle
+[DEBUG] 2024-02-29 14:26:54.581 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 14:26:54.906 Generic:198 - Successfully enter value ----> new delhi
+[DEBUG] 2024-02-29 14:27:00.774 Generic:209 - Successfully Visibility  ----> New Delhi (Delhi)
+[DEBUG] 2024-02-29 14:27:01.799 Generic:123 - Successfully Clicked  ----> New Delhi (Delhi)
+[DEBUG] 2024-02-29 14:27:03.822 Generic:209 - Successfully Visibility  ----> PIN Code* 
+[DEBUG] 2024-02-29 14:27:03.894 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-02-29 14:27:04.212 Generic:198 - Successfully enter value ----> 110091
+[DEBUG] 2024-02-29 14:27:07.096 Generic:209 - Successfully Visibility  ----> Next
+[DEBUG] 2024-02-29 14:27:08.077 Generic:123 - Successfully Clicked  ----> Next
+[DEBUG] 2024-02-29 14:27:11.636 Generic:209 - Successfully Visibility  ----> No Smoke
+[DEBUG] 2024-02-29 14:27:12.787 Generic:123 - Successfully Clicked  ----> No Smoke
+[DEBUG] 2024-02-29 14:27:16.769 Generic:209 - Successfully Visibility  ----> Not Starting
+[DEBUG] 2024-02-29 14:27:17.882 Generic:123 - Successfully Clicked  ----> Not Starting
+[DEBUG] 2024-02-29 14:27:21.656 Generic:209 - Successfully Visibility  ----> Not Working
+[DEBUG] 2024-02-29 14:27:22.832 Generic:123 - Successfully Clicked  ----> Not Working
+[DEBUG] 2024-02-29 14:27:26.664 Generic:209 - Successfully Visibility  ----> OK
+[DEBUG] 2024-02-29 14:27:27.789 Generic:123 - Successfully Clicked  ----> OK
+[DEBUG] 2024-02-29 14:27:31.788 Generic:209 - Successfully Visibility  ----> Worn out/Cracks/Puncture
+[DEBUG] 2024-02-29 14:27:32.773 Generic:123 - Successfully Clicked  ----> Worn out/Cracks/Puncture
+[DEBUG] 2024-02-29 14:27:36.715 Generic:209 - Successfully Visibility  ----> Scratch / Dent / Cracks
+[DEBUG] 2024-02-29 14:27:37.843 Generic:123 - Successfully Clicked  ----> Scratch / Dent / Cracks
+[DEBUG] 2024-02-29 14:27:40.252 MyListeners:49 - [1;32mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - PASSED[0m
+[DEBUG] 2024-02-29 14:27:40.870 BaseClass:240 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-02-29 14:27:41.644 BaseClass:265 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-02-29 14:27:41.644

@@ -4,9 +4,15 @@
 	<listeners>
 		<listener class-name="com.oneapp.basic.MyListeners" />
 	</listeners>
-  <test thread-count="5" name="BookServiceTest">
-    <classes>
-      <class name="com.oneapp.test_suits.BookServiceTestCases"/>
-    </classes>
-  </test> <!-- BookServiceTest -->
-</suite> <!-- BookServiceSuite -->
+	<test thread-count="5" name="BookServiceTest">
+		<parameter name="PLATFORM_NAME" value="Android"></parameter>
+		<parameter name="pCloudy_DeviceFullName"
+			value="SAMSUNG_GalaxyF145G_Android_13.0.0_dd226"></parameter>
+		<parameter name="platformVersion" value="12.0.0"></parameter>
+		<classes>
+			<class name="com.oneapp.test_suits.BookServiceTestCases" />
+		</classes>
+	</test> <!--
+	BookServiceTest -->
+</suite> <!--
+BookServiceSuite -->

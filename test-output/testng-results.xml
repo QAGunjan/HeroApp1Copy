@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-05T11:10:56 IST" name="LoginSuite" finished-at="2024-02-05T11:13:48 IST" duration-ms="171234">
+  <suite started-at="2024-03-01T11:56:34 IST" name="WOTSuite" finished-at="2024-03-01T11:59:54 IST" duration-ms="199996">
     <groups>
       <group name="Regression">
-        <method signature="LoginTestCases.TC001_ValidLoginTestCase(java.lang.String,java.lang.String)[pri:0, instance:com.oneapp.test_suits.LoginTestCases@6057aebb]" name="TC001_ValidLoginTestCase" class="com.oneapp.test_suits.LoginTestCases"/>
+        <method signature="WotTestCases.TC503_ValidateVehicleExchangeTestcase()[pri:1202, instance:com.oneapp.test_suits.WotTestCases@6f70f32f]" name="TC503_ValidateVehicleExchangeTestcase" class="com.oneapp.test_suits.WotTestCases"/>
       </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="LoginTestCases.TC001_ValidLoginTestCase(java.lang.String,java.lang.String)[pri:0, instance:com.oneapp.test_suits.LoginTestCases@6057aebb]" name="TC001_ValidLoginTestCase" class="com.oneapp.test_suits.LoginTestCases"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-02-05T11:10:56 IST" name="LoginTest1" finished-at="2024-02-05T11:13:48 IST" duration-ms="171234">
-      <class name="com.oneapp.test_suits.LoginTestCases">
-        <test-method is-config="true" signature="AppiumServerStarts()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@6057aebb]" started-at="2024-02-05T11:10:43 IST" name="AppiumServerStarts" finished-at="2024-02-05T11:10:56 IST" duration-ms="13161" status="PASS">
+    <test started-at="2024-03-01T11:56:34 IST" name="WOTTest" finished-at="2024-03-01T11:59:54 IST" duration-ms="199996">
+      <class name="com.oneapp.test_suits.WotTestCases">
+        <test-method is-config="true" signature="AppiumServerStarts()[pri:0, instance:com.oneapp.test_suits.WotTestCases@6f70f32f]" started-at="2024-03-01T11:56:22 IST" name="AppiumServerStarts" finished-at="2024-03-01T11:56:34 IST" duration-ms="12008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppiumServerStarts -->
-        <test-method is-config="true" signature="BrowserSetUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.oneapp.test_suits.LoginTestCases@6057aebb]" started-at="2024-02-05T11:10:56 IST" name="BrowserSetUp" finished-at="2024-02-05T11:12:10 IST" duration-ms="73278" status="PASS">
+        <test-method is-config="true" signature="BrowserSetUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.oneapp.test_suits.WotTestCases@6f70f32f]" started-at="2024-03-01T11:56:34 IST" name="BrowserSetUp" finished-at="2024-03-01T11:57:47 IST" duration-ms="72815" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,62 +35,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetUp -->
-        <test-method signature="TC001_ValidLoginTestCase(java.lang.String,java.lang.String)[pri:0, instance:com.oneapp.test_suits.LoginTestCases@6057aebb]" started-at="2024-02-05T11:12:10 IST" name="TC001_ValidLoginTestCase" data-provider="logintestData" finished-at="2024-02-05T11:13:00 IST" duration-ms="50672" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[6666600022]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="TC503_ValidateVehicleExchangeTestcase()[pri:1202, instance:com.oneapp.test_suits.WotTestCases@6f70f32f]" started-at="2024-03-01T11:57:47 IST" name="TC503_ValidateVehicleExchangeTestcase" finished-at="2024-03-01T11:59:53 IST" duration-ms="126669" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001_ValidLoginTestCase -->
-        <test-method signature="TC001_ValidLoginTestCase(java.lang.String,java.lang.String)[pri:0, instance:com.oneapp.test_suits.LoginTestCases@6057aebb]" started-at="2024-02-05T11:13:00 IST" name="TC001_ValidLoginTestCase" data-provider="logintestData" finished-at="2024-02-05T11:13:26 IST" duration-ms="25750" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[inValid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[6666600004]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TC503_ValidateVehicleExchangeTestcase -->
+        <test-method is-config="true" signature="Quit_session()[pri:0, instance:com.oneapp.test_suits.WotTestCases@6f70f32f]" started-at="2024-03-01T11:59:53 IST" name="Quit_session" finished-at="2024-03-01T11:59:54 IST" duration-ms="447" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001_ValidLoginTestCase -->
-        <test-method signature="TC001_ValidLoginTestCase(java.lang.String,java.lang.String)[pri:0, instance:com.oneapp.test_suits.LoginTestCases@6057aebb]" started-at="2024-02-05T11:13:26 IST" name="TC001_ValidLoginTestCase" data-provider="logintestData" finished-at="2024-02-05T11:13:48 IST" duration-ms="21452" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[minimumLen]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[666660002]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_ValidLoginTestCase -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@6057aebb]" started-at="2024-02-05T11:13:48 IST" name="afterclass" finished-at="2024-02-05T11:13:48 IST" duration-ms="1" status="FAIL">
+        </test-method> <!-- Quit_session -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.oneapp.test_suits.WotTestCases@6f70f32f]" started-at="2024-03-01T11:59:54 IST" name="afterclass" finished-at="2024-03-01T11:59:54 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.oneapp.basic.BaseClass.Quit_session()" because "this.baseclass" is null]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "com.oneapp.basic.BaseClass.Quit_session()" because "this.baseclass" is null
-at com.oneapp.basic.BaseClass.afterclass(BaseClass.java:117)
+at com.oneapp.basic.BaseClass.afterclass(BaseClass.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,24 +65,29 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="AppiumServiceStops()[pri:0, instance:com.oneapp.test_suits.LoginTestCases@6057aebb]" started-at="2024-02-05T11:13:48 IST" name="AppiumServiceStops" finished-at="2024-02-05T11:13:48 IST" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="AppiumServiceStops()[pri:0, instance:com.oneapp.test_suits.WotTestCases@6f70f32f]" started-at="2024-03-01T11:59:55 IST" name="AppiumServiceStops" finished-at="2024-03-01T11:59:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppiumServiceStops -->
-      </class> <!-- com.oneapp.test_suits.LoginTestCases -->
-    </test> <!-- LoginTest1 -->
-  </suite> <!-- LoginSuite -->
+      </class> <!-- com.oneapp.test_suits.WotTestCases -->
+    </test> <!-- WOTTest -->
+  </suite> <!-- WOTSuite -->
 </testng-results>

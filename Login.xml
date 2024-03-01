@@ -4,10 +4,10 @@
 	<listeners>
 		<listener class-name="com.oneapp.basic.MyListeners" />
 	</listeners>
-	<test name="LoginTest1">
+	<test name="LoginTest">
 		<parameter name="PLATFORM_NAME" value="Android"></parameter>
 		<parameter name="pCloudy_DeviceFullName"
-			value="SAMSUNG_GalaxyS10_Android_12.0.0_01e83"></parameter>
+			value="SAMSUNG_GalaxyF145G_Android_13.0.0_dd226"></parameter>
 		<parameter name="platformVersion" value="12.0.0"></parameter>
 		<classes>
 			<class name="com.oneapp.test_suits.LoginTestCases" />

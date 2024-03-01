@@ -181,8 +181,18 @@ public class Generic extends BaseClass {
 			e.printStackTrace();
 		}
 
+		
+		
+		
 	}
 
+	
+	public MobileElement verticalScroll(String selector) {
+		MobileElement element = (MobileElement) ad.findElement(MobileBy
+		        .AndroidUIAutomator("new UiScrollable(new UiSelector().scrollIntoView(new UiSelector().textContains(\""+ selector + "\"));"));
+		        return element;
+		    }
+	
 	public void sendKeysOnTextfields(WebElement element, String text) {
 		clearOnTexBox(element);
 		TestUtils.log().debug("Successfully enter value ----> " + text);
