@@ -71,7 +71,7 @@ public class BaseClass {
 	public SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 
 	public static AppiumDriver ad;// Global AndroidDriver
-		
+
 	public static ExtentTest extentTest;
 	BaseClass baseclass;
 
@@ -113,21 +113,15 @@ public class BaseClass {
 //		cepo_PO.clickOnAllowPopUp();
 //	}
 
-	@AfterClass(alwaysRun = true)
-	public void afterclass() {
-		baseclass.Quit_session();
-	}
-
 //	@BeforeTest(alwaysRun = true)
 //
 //	public void beforeTest() {
 //		new CommonElements_Page_object(ad).clickOnAllowPopUp("android");
 //	}
 
-	
-	@Parameters({"PLATFORM_NAME","pCloudy_DeviceFullName","platformVersion"})
+	@Parameters({ "PLATFORM_NAME", "pCloudy_DeviceFullName", "platformVersion" })
 	@BeforeClass(alwaysRun = true)
-	public AppiumDriver BrowserSetUp(String PLATFORM_NAME, String pCloudy_DeviceFullName, String platformVersion ) {
+	public AppiumDriver BrowserSetUp(String PLATFORM_NAME, String pCloudy_DeviceFullName, String platformVersion) {
 
 //		 AppiumDriver ad=null;
 
@@ -138,28 +132,26 @@ public class BaseClass {
 //		+++++++++++++++++++++++++ For Real device - Samsung ++++++++++++++++++++++++++++ 
 				dcap = new DesiredCapabilities();
 
-				
 				/*
-				
-				  dcap.setCapability(MobileCapabilityType.PLATFORM_NAME, PLATFORM_NAME);
-				  dcap.setCapability(MobileCapabilityType.DEVICE_NAME, DEVICE_NAME);
-				  dcap.setCapability(MobileCapabilityType.AUTOMATION_NAME, AUTOMATION_NAME);
-				  dcap.setCapability(MobileCapabilityType.UDID, UDID);
-				  dcap.setCapability("appium:newCommandTimeout", AndroidConnectionTimeout); //
-//				 dcap.setCapability(MobileCapabilityType.APP, appURL);
-				  dcap.setCapability("appPackage", "com.customerapp.hero");
-				  dcap.setCapability("appActivity",
-				  "com.customerapp.hero.views.activity.splash.SplashActivity");
-				 dcap.setCapability("autoGrantPermissions", "true");
-				  
-				  URL url = new URL("http://0.0.0.0:4723/wd/hub"); // URL url = new
-				
-				ad = new AndroidDriver(url, dcap);
-				ad.resetApp();
-*/
-				
-				//  SAMSUNG_GalaxyS10_Android_12.0.0_01e83
-				//  12.0.0
+				 * 
+				 * dcap.setCapability(MobileCapabilityType.PLATFORM_NAME, PLATFORM_NAME);
+				 * dcap.setCapability(MobileCapabilityType.DEVICE_NAME, DEVICE_NAME);
+				 * dcap.setCapability(MobileCapabilityType.AUTOMATION_NAME, AUTOMATION_NAME);
+				 * dcap.setCapability(MobileCapabilityType.UDID, UDID);
+				 * dcap.setCapability("appium:newCommandTimeout", AndroidConnectionTimeout); //
+				 * // dcap.setCapability(MobileCapabilityType.APP, appURL);
+				 * dcap.setCapability("appPackage", "com.customerapp.hero");
+				 * dcap.setCapability("appActivity",
+				 * "com.customerapp.hero.views.activity.splash.SplashActivity");
+				 * dcap.setCapability("autoGrantPermissions", "true");
+				 * 
+				 * URL url = new URL("http://0.0.0.0:4723/wd/hub"); // URL url = new
+				 * 
+				 * ad = new AndroidDriver(url, dcap); ad.resetApp();
+				 */
+
+				// SAMSUNG_GalaxyS10_Android_12.0.0_01e83
+				// 12.0.0
 				dcap.setCapability("pCloudy_Username", "randhir.kumar@heromotocorp.com");
 				dcap.setCapability("pCloudy_ApiKey", "2gdc5pv55mh54mqtwmvj4xbr");
 				dcap.setCapability("pCloudy_DurationInMinutes", 10);
@@ -211,12 +203,6 @@ public class BaseClass {
 				ad = new IOSDriver(url, dcap);
 				ad.resetApp();
 			}
-			
-			
-				
-			
-				
-			
 
 //			URL url = new URL("http://0.0.0.0:4723/wd/hub");
 //
