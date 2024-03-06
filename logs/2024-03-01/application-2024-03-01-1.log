@@ -1,0 +1,55 @@
+[DEBUG] 2024-03-01 11:56:24.183 BaseClass:250 - Starting the Appium Service....
+2024-03-01 11:56:24.160
+--------------------------------------------------------------
+[DEBUG] 2024-03-01 11:57:47.284 BaseClass:226 - 58736fa7-a225-4cc6-8e8e-4fcd0f785f6e
+[DEBUG] 2024-03-01 11:57:47.360 MyListeners:39 - [1;30mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - STARTS[0m
+[DEBUG] 2024-03-01 11:57:56.064 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-03-01 11:57:56.161 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-03-01 11:57:58.977 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-03-01 11:57:59.045 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-03-01 11:57:59.344 Generic:198 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-03-01 11:58:02.334 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-03-01 11:58:03.293 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-03-01 11:58:13.387 Generic:209 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-03-01 11:58:27.987 Generic:209 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-03-01 11:58:29.006 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-03-01 11:58:35.718 Generic:209 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-03-01 11:58:36.798 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-03-01 11:58:39.033 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-03-01 11:58:40.039 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-03-01 11:58:45.084 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-03-01 11:58:46.189 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-03-01 11:58:46.847 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-03-01 11:58:49.032 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-03-01 11:58:50.282 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-03-01 11:58:53.522 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-03-01 11:58:55.314 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-03-01 11:58:58.966 Generic:209 - Successfully Visibility  ----> City to sell vehicle
+[DEBUG] 2024-03-01 11:58:59.036 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-03-01 11:58:59.281 Generic:198 - Successfully enter value ----> new delhi
+[DEBUG] 2024-03-01 11:59:04.043 Generic:209 - Successfully Visibility  ----> New Delhi (Delhi)
+[DEBUG] 2024-03-01 11:59:04.860 Generic:123 - Successfully Clicked  ----> New Delhi (Delhi)
+[DEBUG] 2024-03-01 11:59:06.845 Generic:209 - Successfully Visibility  ----> PIN Code* 
+[DEBUG] 2024-03-01 11:59:06.916 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-03-01 11:59:07.253 Generic:198 - Successfully enter value ----> 110091
+[DEBUG] 2024-03-01 11:59:09.702 Generic:209 - Successfully Visibility  ----> Next
+[DEBUG] 2024-03-01 11:59:10.694 Generic:123 - Successfully Clicked  ----> Next
+[DEBUG] 2024-03-01 11:59:14.017 Generic:209 - Successfully Visibility  ----> No Smoke
+[DEBUG] 2024-03-01 11:59:15.022 Generic:123 - Successfully Clicked  ----> No Smoke
+[DEBUG] 2024-03-01 11:59:18.700 Generic:209 - Successfully Visibility  ----> Not Starting
+[DEBUG] 2024-03-01 11:59:19.714 Generic:123 - Successfully Clicked  ----> Not Starting
+[DEBUG] 2024-03-01 11:59:23.488 Generic:209 - Successfully Visibility  ----> Not Working
+[DEBUG] 2024-03-01 11:59:24.531 Generic:123 - Successfully Clicked  ----> Not Working
+[DEBUG] 2024-03-01 11:59:28.245 Generic:209 - Successfully Visibility  ----> OK
+[DEBUG] 2024-03-01 11:59:29.183 Generic:123 - Successfully Clicked  ----> OK
+[DEBUG] 2024-03-01 11:59:32.755 Generic:209 - Successfully Visibility  ----> Worn out/Cracks/Puncture
+[DEBUG] 2024-03-01 11:59:33.781 Generic:123 - Successfully Clicked  ----> Worn out/Cracks/Puncture
+[DEBUG] 2024-03-01 11:59:37.312 Generic:209 - Successfully Visibility  ----> Scratch / Dent / Cracks
+[DEBUG] 2024-03-01 11:59:38.416 Generic:123 - Successfully Clicked  ----> Scratch / Dent / Cracks
+[DEBUG] 2024-03-01 11:59:41.721 Generic:209 - Successfully Visibility  ----> Next
+[DEBUG] 2024-03-01 11:59:42.696 Generic:123 - Successfully Clicked  ----> Next
+[DEBUG] 2024-03-01 11:59:51.779 Generic:209 - Successfully Visibility  ----> SPLENDOR+ XTEC
+[DEBUG] 2024-03-01 11:59:52.870 Generic:209 - Successfully Visibility  ----> June, 2023
+[DEBUG] 2024-03-01 11:59:53.910 Generic:209 - Successfully Visibility  ----> NEW DELHI
+[DEBUG] 2024-03-01 11:59:53.987 MyListeners:49 - [1;32mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - PASSED[0m
+[DEBUG] 2024-03-01 11:59:54.435 BaseClass:240 - ++++++++++++++++++++++++++++++++
