@@ -23,7 +23,7 @@ public class ExchangejouneyDashboardScreen_page_object extends BaseClass {
 	private WebElement IntroducingIndiaNewAgePhysical2wheelerResalePlatformText;
 
 	@FindBy(id = "com.customerapp.hero:id/exchange_benefitsTv")
-	private WebElement ExchangeBenefitsUpTo₹4000Text;
+	private WebElement ExchangeBenefitsUpToText;
 
 	@FindBy(id = "com.customerapp.hero:id/choose_vehicle_estimateTv")
 	private WebElement ChooseVehicleForWhichYouWantToGetEstimatedPriceText;
