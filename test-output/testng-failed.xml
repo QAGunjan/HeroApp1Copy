@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [WOTSuite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [ReferAFriendSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="PLATFORM_NAME" value="Android"/>
+  <parameter name="platformVersion" value="12.0.0"/>
+  <parameter name="pCloudy_DeviceFullName" value="SAMSUNG_GalaxyF145G_Android_13.0.0_dd226"/>
   <listeners>
     <listener class-name="com.oneapp.basic.MyListeners"/>
   </listeners>
-  <test thread-count="5" name="WOTTest(failed)">
-    <parameter name="PLATFORM_NAME" value="Android"/>
-    <parameter name="platformVersion" value="13.0.0"/>
-    <parameter name="pCloudy_DeviceFullName" value="SAMSUNG_GalaxyF145G_Android_13.0.0_dd226"/>
+  <test thread-count="5" name="ReferAFriendTest(failed)">
     <classes>
-      <class name="com.oneapp.test_suits.WotTestCases">
+      <class name="com.oneapp.test_suits.ReferToFriendTestCases">
         <methods>
           <include name="Quit_session"/>
-          <include name="afterclass"/>
           <include name="BrowserSetUp"/>
           <include name="AppiumServerStarts"/>
           <include name="AppiumServiceStops"/>
-          <include name="TC503_ValidateVehicleExchangeTestcase"/>
+          <include name="TC901_ValidateValidReferToFriend" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- com.oneapp.test_suits.WotTestCases -->
+      </class> <!-- com.oneapp.test_suits.ReferToFriendTestCases -->
     </classes>
-  </test> <!-- WOTTest(failed) -->
-</suite> <!-- Failed suite [WOTSuite] -->
+  </test> <!-- ReferAFriendTest(failed) -->
+</suite> <!-- Failed suite [ReferAFriendSuite] -->

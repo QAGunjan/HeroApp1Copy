@@ -22,7 +22,7 @@
 					<version>3.1.2</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile>
+							<suiteXmlFile>MainTestSuite.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
