@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="WOTSuite">
-	<listeners>
-		<listener class-name="com.oneapp.basic.MyListeners" />
-	</listeners>
+
 	<test thread-count="5" name="WOTTest">
-		<parameter name="PLATFORM_NAME" value="Android"></parameter>
-		<parameter name="pCloudy_DeviceFullName"
-			value="SAMSUNG_GalaxyS10_Android_12.0.0_01e83"></parameter>
-		<parameter name="platformVersion" value="12.0.0"></parameter>
 		<classes>
 			<class name="com.oneapp.test_suits.WotTestCases" />
 		</classes>

@@ -33,7 +33,7 @@ public class Generic extends BaseClass {
 	public static WebDriverWait wait;
 	public static TouchAction ta;
 	public static final int ImpWait = 20;
-	public static final int WAIT = 20;
+	public static final int WAIT = 25;
 
 	public void JavaScriptExecutor(WebElement webElement) {
 		JavascriptExecutor executor = (JavascriptExecutor) ad;
@@ -181,18 +181,15 @@ public class Generic extends BaseClass {
 			e.printStackTrace();
 		}
 
-		
-		
-		
 	}
 
-	
 	public MobileElement verticalScroll(String selector) {
 		MobileElement element = (MobileElement) ad.findElement(MobileBy
-		        .AndroidUIAutomator("new UiScrollable(new UiSelector().scrollIntoView(new UiSelector().textContains(\""+ selector + "\"));"));
-		        return element;
-		    }
-	
+				.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollIntoView(new UiSelector().textContains(\""
+						+ selector + "\"));"));
+		return element;
+	}
+
 	public void sendKeysOnTextfields(WebElement element, String text) {
 		clearOnTexBox(element);
 		TestUtils.log().debug("Successfully enter value ----> " + text);

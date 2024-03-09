@@ -8,15 +8,180 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">MainTestSuite</th></tr>
 <tr><th colspan="8">WOTSuite</th></tr>
-<tr><td><a href="#t0">WOTTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">199,996</td><td></td><td></td></tr>
+<tr><td><a href="#t0">WOTTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">748</td><td></td><td></td></tr>
+<tr><th colspan="8">ReferAFriendSuite</th></tr>
+<tr class="stripe"><td><a href="#t1">ReferAFriendTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">1,636,079</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num attn">4</th><th class="num">1,636,827</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">WOTSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">WOTTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.oneapp.test_suits.WotTestCases</td><td><a href="#m0">afterclass</a></td><td rowspan="1">1709274594436</td><td rowspan="1">0</td></tr><tr><th colspan="4">WOTTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.oneapp.test_suits.WotTestCases</td><td><a href="#m1">TC503_ValidateVehicleExchangeTestcase</a></td><td rowspan="1">1709274467307</td><td rowspan="1">126669</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MainTestSuite</th></tr></tbody><tbody><tr><th colspan="4">WOTSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">WOTTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.oneapp.test_suits.WotTestCases</td><td><a href="#m0">TC503_ValidateVehicleExchangeTestcase</a></td><td rowspan="1">1709894139191</td><td rowspan="1">13</td></tr></tbody>
+<tbody><tr><th colspan="4">ReferAFriendSuite</th></tr></tbody><tbody id="t1"><tr><th colspan="4">ReferAFriendTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.oneapp.test_suits.ReferToFriendTestCases</td><td><a href="#m1">Quit_session</a></td><td rowspan="1">1709894125372</td><td rowspan="1">88</td></tr><tr><th colspan="4">ReferAFriendTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.oneapp.test_suits.ReferToFriendTestCases</td><td><a href="#m2">TC901_ValidateValidReferToFriend</a></td><td rowspan="3">1709892884954</td><td rowspan="3">1240310</td></tr><tr class="failedeven"><td><a href="#m3">TC901_ValidateValidReferToFriend</a></td></tr><tr class="failedeven"><td><a href="#m4">TC901_ValidateValidReferToFriend</a></td></tr></tbody>
 </table>
-<h2>WOTTest</h2><h3 id="m0">com.oneapp.test_suits.WotTestCases#afterclass</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.oneapp.basic.BaseClass.Quit_session()&quot; because &quot;this.baseclass&quot; is null
-	at com.oneapp.basic.BaseClass.afterclass(BaseClass.java:118)
+<h2>WOTTest</h2><h3 id="m0">com.oneapp.test_suits.WotTestCases#TC503_ValidateVehicleExchangeTestcase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A2S9SMV&apos;, ip: &apos;172.26.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+	at com.oneapp.utils.Generic.waitForVisibility(Generic.java:217)
+	at com.oneapp.utils.Generic.clearOnTexBox(Generic.java:135)
+	at com.oneapp.pageobjects.Login_Page_Object.enterLoginMobileNumber(Login_Page_Object.java:100)
+	at com.oneapp.test_suits.WotTestCases.TC503_ValidateVehicleExchangeTestcase(WotTestCases.java:69)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.oneapp.test_suits.WotTestCases#TC503_ValidateVehicleExchangeTestcase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ReferAFriendTest</h2><h3 id="m1">com.oneapp.test_suits.ReferToFriendTestCases#Quit_session</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.json.JsonException: Expected to read a START_MAP but instead have: END. Last 0 characters read: 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A2S9SMV&apos;, ip: &apos;172.26.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.expect(JsonInput.java:290)
+	at org.openqa.selenium.json.JsonInput.beginObject(JsonInput.java:220)
+	at org.openqa.selenium.json.MapCoercer.lambda$apply$1(MapCoercer.java:64)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:145)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:87)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at com.oneapp.basic.BaseClass.Quit_session(BaseClass.java:224)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.oneapp.test_suits.ReferToFriendTestCases#TC901_ValidateValidReferToFriend</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>valid</td><td>Randhir</td><td>9891803084</td><td>HARYANA</td><td>KARNAL</td><td>Xpulse 200</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.openqa.selenium.json.JsonException: Unable to determine type from: &lt;. Last 1 characters read: &lt;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A2S9SMV&apos;, ip: &apos;172.26.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:87)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.clear(Unknown Source)
+	at com.oneapp.utils.Generic.clearOnTexBox(Generic.java:137)
+	at com.oneapp.pageobjects.Login_Page_Object.enterLoginMobileNumber(Login_Page_Object.java:100)
+	at com.oneapp.test_suits.ReferToFriendTestCases.TC901_ValidateValidReferToFriend(ReferToFriendTestCases.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.oneapp.test_suits.ReferToFriendTestCases#TC901_ValidateValidReferToFriend</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>valid</td><td>Randhir</td><td>8800996768</td><td>SIKKIM</td><td>PELLING</td><td>HF 100</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A2S9SMV&apos;, ip: &apos;172.26.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 822, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 12.0.0, project: Hero app, systemPort: 30274, tag: newtag}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-E146B, deviceName: RZCW70FA9VD, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCW70FA9VD, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, project: Hero app, statBarHeight: 64, systemPort: 30274, tag: newtag, takesScreenshot: true, viewportRect: {height: 2144, left: 0, top: 64, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: eb44516a-5a39-444c-acc6-197330f8c75f
+*** Element info: {Using=id, value=com.customerapp.hero:id/text_input_editext}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.clear(Unknown Source)
+	at com.oneapp.utils.Generic.clearOnTexBox(Generic.java:137)
+	at com.oneapp.pageobjects.Login_Page_Object.enterLoginMobileNumber(Login_Page_Object.java:100)
+	at com.oneapp.test_suits.ReferToFriendTestCases.TC901_ValidateValidReferToFriend(ReferToFriendTestCases.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.oneapp.test_suits.ReferToFriendTestCases#TC901_ValidateValidReferToFriend</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>valid</td><td>Randhir Kumar</td><td>8505803061</td><td>PUNJAB</td><td>BEAS</td><td>Duet</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A2S9SMV&apos;, ip: &apos;172.26.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 822, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 12.0.0, project: Hero app, systemPort: 30274, tag: newtag}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-E146B, deviceName: RZCW70FA9VD, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCW70FA9VD, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, project: Hero app, statBarHeight: 64, systemPort: 30274, tag: newtag, takesScreenshot: true, viewportRect: {height: 2144, left: 0, top: 64, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: eb44516a-5a39-444c-acc6-197330f8c75f
+*** Element info: {Using=id, value=com.customerapp.hero:id/btn_lbl}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at com.oneapp.utils.Generic.clickOnWebElement(Generic.java:128)
+	at com.oneapp.pageobjects.ReferToFriend_Page_object.ReferAFriend(ReferToFriend_Page_object.java:145)
+	at com.oneapp.test_suits.ReferToFriendTestCases.TC901_ValidateValidReferToFriend(ReferToFriendTestCases.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

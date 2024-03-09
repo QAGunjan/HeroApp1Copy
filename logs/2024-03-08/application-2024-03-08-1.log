@@ -1,0 +1,95 @@
+[DEBUG] 2024-03-08 15:37:55.558 BaseClass:236 - Starting the Appium Service....
+2024-03-08 15:37:55.543
+--------------------------------------------------------------
+[DEBUG] 2024-03-08 15:39:24.269 BaseClass:212 - eb44516a-5a39-444c-acc6-197330f8c75f
+[DEBUG] 2024-03-08 15:39:24.298 MyListeners:39 - [1;30mTC901_VALIDATEVALIDREFERTOFRIEND - STARTS[0m
+[DEBUG] 2024-03-08 15:39:32.240 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-03-08 15:39:32.325 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-03-08 15:39:35.187 Generic:209 - Successfully Visibility  ----> Registered mobile number
+[DEBUG] 2024-03-08 15:39:35.289 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-03-08 15:39:35.680 Generic:198 - Successfully enter value ----> 8800996677
+[DEBUG] 2024-03-08 15:39:39.601 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-03-08 15:39:41.358 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-03-08 15:39:45.658 Generic:209 - Successfully Visibility  ----> Verify with OTP
+[DEBUG] 2024-03-08 15:39:55.687 Generic:209 - Successfully Visibility  ----> Verify
+[DEBUG] 2024-03-08 15:39:57.965 Generic:123 - Successfully Clicked  ----> Verify
+[DEBUG] 2024-03-08 15:40:05.218 Generic:209 - Successfully Visibility  ----> book service paid
+[DEBUG] 2024-03-08 15:40:07.049 Generic:123 - Successfully Clicked  ----> book service paid
+[DEBUG] 2024-03-08 15:40:09.642 Generic:209 - Successfully Visibility  ----> Continue
+[DEBUG] 2024-03-08 15:40:11.413 Generic:123 - Successfully Clicked  ----> Continue
+[DEBUG] 2024-03-08 15:40:19.853 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-03-08 15:40:21.431 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-03-08 15:40:22.449 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-03-08 15:40:26.170 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-03-08 15:40:28.467 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-03-08 15:40:31.872 Generic:209 - Successfully Visibility  ----> Refer a friend
+[DEBUG] 2024-03-08 15:40:33.412 Generic:123 - Successfully Clicked  ----> Refer a friend
+[DEBUG] 2024-03-08 15:40:39.093 Generic:209 - Successfully Visibility  ----> Friend's Name
+[DEBUG] 2024-03-08 15:40:39.161 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-03-08 15:40:40.050 Generic:198 - Successfully enter value ----> Randhir Kumar
+[DEBUG] 2024-03-08 15:40:47.136 Generic:209 - Successfully Visibility  ----> Mobile Number
+[DEBUG] 2024-03-08 15:40:47.206 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-03-08 15:40:48.085 Generic:198 - Successfully enter value ----> 8505803061
+[DEBUG] 2024-03-08 15:40:55.124 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-03-08 15:40:58.148 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-03-08 15:41:16.261 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-03-08 15:41:21.301 Generic:110 - This element gets clicked ----> PUNJAB
+[DEBUG] 2024-03-08 15:41:25.286 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-03-08 15:41:28.307 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-03-08 15:41:46.133 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-03-08 15:41:50.629 Generic:110 - This element gets clicked ----> BEAS
+[DEBUG] 2024-03-08 15:41:54.400 Generic:209 - Successfully Visibility  ----> 
+[DEBUG] 2024-03-08 15:41:57.419 Generic:123 - Successfully Clicked  ----> 
+[DEBUG] 2024-03-08 15:42:01.472 Generic:101 - Itration of the elements starts
+[DEBUG] 2024-03-08 15:42:42.002 Generic:213 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/btn_lbl' (tried for 20 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-03-08 15:43:42.404 MyListeners:62 - [1;31morg.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.26.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 822, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 12.0.0, project: Hero app, systemPort: 30274, tag: newtag}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-E146B, deviceName: RZCW70FA9VD, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCW70FA9VD, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, project: Hero app, statBarHeight: 64, systemPort: 30274, tag: newtag, takesScreenshot: true, viewportRect: {height: 2144, left: 0, top: 64, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: eb44516a-5a39-444c-acc6-197330f8c75f
+*** Element info: {Using=id, value=com.customerapp.hero:id/btn_lbl}[0m
+[DEBUG] 2024-03-08 15:43:43.383 MyListeners:78 - [1;31mTC901_VALIDATEVALIDREFERTOFRIEND - FAILURE[0m
+[DEBUG] 2024-03-08 15:43:43.386 MyListeners:39 - [1;30mTC901_VALIDATEVALIDREFERTOFRIEND - STARTS[0m
+[DEBUG] 2024-03-08 15:44:23.941 Generic:213 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 20 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-03-08 15:44:24.016 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-03-08 15:44:44.151 MyListeners:62 - [1;31morg.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.26.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, databaseEnabled: false, desired: {app: /opt/raid-data/data/userV2/..., appActivity: com.customerapp.hero.views...., appPackage: com.customerapp.hero, autoGrantPermissions: true, automationName: uiautomator2, build: Android latest APK - 9.0.5, deviceName: 822, launchTimeout: 90000, name: Invalid login, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, platformName: android, platformVersion: 12.0.0, project: Hero app, systemPort: 30274, tag: newtag}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-E146B, deviceName: RZCW70FA9VD, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCW70FA9VD, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, name: Invalid login, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr, pCloudy_ApplicationName: app-debug.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android..., pCloudy_DurationInMinutes: 10, pCloudy_EnableDeviceLogs: false, pCloudy_EnablePerformanceData: false, pCloudy_EnableVideo: false, pCloudy_Username: randhir.kumar@heromotocorp.com, pCloudy_WildNet: false, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, project: Hero app, statBarHeight: 64, systemPort: 30274, tag: newtag, takesScreenshot: true, viewportRect: {height: 2144, left: 0, top: 64, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: eb44516a-5a39-444c-acc6-197330f8c75f
+*** Element info: {Using=id, value=com.customerapp.hero:id/text_input_editext}[0m
+[DEBUG] 2024-03-08 15:44:44.954 MyListeners:78 - [1;31mTC901_VALIDATEVALIDREFERTOFRIEND - FAILURE[0m
+[DEBUG] 2024-03-08 15:44:44.958 MyListeners:39 - [1;30mTC901_VALIDATEVALIDREFERTOFRIEND - STARTS[0m
+[DEBUG] 2024-03-08 15:45:25.169 Generic:213 - [1;31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.customerapp.hero:id/text_input_editext' (tried for 20 second(s) with 500 milliseconds interval)[0m
+[DEBUG] 2024-03-08 15:45:25.236 Generic:136 - Successfully cleared textbox
+[DEBUG] 2024-03-08 16:05:25.274 MyListeners:62 - [1;31morg.openqa.selenium.json.JsonException: Unable to determine type from: <. Last 1 characters read: <
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.26.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: AndroidDriver[0m
+[DEBUG] 2024-03-08 16:05:25.364 MyListeners:78 - [1;31mTC901_VALIDATEVALIDREFERTOFRIEND - FAILURE[0m
+[DEBUG] 2024-03-08 16:05:26.142 BaseClass:251 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-03-08 16:05:26.142
+[DEBUG] 2024-03-08 16:05:26.184 BaseClass:236 - Starting the Appium Service....
+2024-03-08 16:05:26.183
+--------------------------------------------------------------
+[DEBUG] 2024-03-08 16:05:39.198 MyListeners:39 - [1;30mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - STARTS[0m
+[DEBUG] 2024-03-08 16:05:39.203 Generic:213 - [1;31morg.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.26.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: AndroidDriver[0m
+[DEBUG] 2024-03-08 16:05:39.214 MyListeners:62 - [1;31morg.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV', ip: '172.26.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: AndroidDriver[0m
+[DEBUG] 2024-03-08 16:05:39.219 MyListeners:78 - [1;31mTC503_VALIDATEVEHICLEEXCHANGETESTCASE - FAILURE[0m
+[DEBUG] 2024-03-08 16:05:39.220 BaseClass:226 - ++++++++++++++++++++++++++++++++
+[DEBUG] 2024-03-08 16:05:39.338 BaseClass:251 - 
+----------------------------------------
+Stopping the Appium Server.....
+2024-03-08 16:05:39.337

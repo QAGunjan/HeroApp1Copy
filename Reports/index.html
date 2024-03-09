@@ -52,7 +52,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Mar 6, 2024 10:47:53 am</span>
+			<span class='label blue darken-3 suite-start-time'>Mar 9, 2024 11:57:36 am</span>
 			</a>
 		</ul>
 	</div>
@@ -67,7 +67,7 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -110,10 +110,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>3</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
                 </div>
             </div>
         </div>
@@ -131,17 +131,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>TC503_ValidateVehicleExchangeTestcase</span>
-						<span class='test-time'>Mar 6, 2024 10:49:17 am</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-name'>TC901_ValidateValidReferToFriend</span>
+						<span class='test-time'>Mar 9, 2024 11:58:53 am</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Mar 6, 2024 10:49:17 am</span>
-	<span class='label end-time'>Mar 6, 2024 10:51:45 am</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 2m 28s+618ms</span>
+	<span class='label start-time'>Mar 9, 2024 11:58:53 am</span>
+	<span class='label end-time'>Mar 9, 2024 11:59:53 am</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 0s+217ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -153,11 +153,150 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>10:51:45 am</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:59:52 am</td>
 				<td class='step-details'>
-						<span class='badge white-text green'><b>Test Method TC503_ValidateVehicleExchangeTestcase Successful</b></span>
+						<details><summary><b><font color=red>Exception Occured, Please see details:</font></b><summary>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error<br> please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59'<br> revision: 'e82be7d358'<br> time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV'<br> ip: '172.26.176.1'<br> os.name: 'Windows 10'<br> os.arch: 'amd64'<br> os.version: '10.0'<br> java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/...<br> appActivity: com.customerapp.hero.views....<br> appPackage: com.customerapp.hero<br> autoGrantPermissions: true<br> automationName: uiautomator2<br> build: Android latest APK - 9.0.5<br> databaseEnabled: false<br> desired: {app: /opt/raid-data/data/userV2/...<br> appActivity: com.customerapp.hero.views....<br> appPackage: com.customerapp.hero<br> autoGrantPermissions: true<br> automationName: uiautomator2<br> build: Android latest APK - 9.0.5<br> deviceName: 822<br> launchTimeout: 90000<br> name: Invalid login<br> newCommandTimeout: 600<br> pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr<br> pCloudy_ApplicationName: app-debug.apk<br> pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android...<br> pCloudy_DurationInMinutes: 10<br> pCloudy_EnableDeviceLogs: false<br> pCloudy_EnablePerformanceData: false<br> pCloudy_EnableVideo: false<br> pCloudy_Username: randhir.kumar@heromotocorp.com<br> pCloudy_WildNet: false<br> platformName: android<br> platformVersion: 12.0.0<br> project: Hero app<br> systemPort: 31714<br> tag: newtag}<br> deviceApiLevel: 33<br> deviceManufacturer: samsung<br> deviceModel: SM-E146B<br> deviceName: RZCW70FA9VD<br> deviceScreenDensity: 450<br> deviceScreenSize: 1080x2408<br> deviceUDID: RZCW70FA9VD<br> javascriptEnabled: true<br> launchTimeout: 90000<br> locationContextEnabled: false<br> name: Invalid login<br> networkConnectionEnabled: true<br> newCommandTimeout: 600<br> pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr<br> pCloudy_ApplicationName: app-debug.apk<br> pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android...<br> pCloudy_DurationInMinutes: 10<br> pCloudy_EnableDeviceLogs: false<br> pCloudy_EnablePerformanceData: false<br> pCloudy_EnableVideo: false<br> pCloudy_Username: randhir.kumar@heromotocorp.com<br> pCloudy_WildNet: false<br> pixelRatio: 2.8125<br> platform: LINUX<br> platformName: Android<br> platformVersion: 13<br> project: Hero app<br> statBarHeight: 64<br> systemPort: 31714<br> tag: newtag<br> takesScreenshot: true<br> viewportRect: {height: 2144<br> left: 0<br> top: 64<br> width: 1080}<br> warnings: {}<br> webStorageEnabled: false}
+Session ID: 34f6270d-f775-4dda-93a5-ceb8b8335c7c
+*** Element info: {Using=xpath<br> value=//*[@text='book service paid']}</details>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:59:53 am</td>
+				<td class='step-details'>
+						<b><font color=red>Screenshot of failure</font></b>
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='D:\My\HeroApp1Copy/Screenshots/TC901_ValidateValidReferToFriend__S_a_t_ _M_a_r_ _0_9_ _1_1___5_9___5_2_ _I_S_T_ _2_0_2_4_.png' src='D:\My\HeroApp1Copy/Screenshots/TC901_ValidateValidReferToFriend__S_a_t_ _M_a_r_ _0_9_ _1_1___5_9___5_2_ _I_S_T_ _2_0_2_4_.png'>
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:59:53 am</td>
+				<td class='step-details'>
+						<span class='badge white-text red'><b>Test Method TC901_ValidateValidReferToFriend Failed</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>TC901_ValidateValidReferToFriend</span>
+						<span class='test-time'>Mar 9, 2024 11:59:53 am</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Mar 9, 2024 11:59:53 am</span>
+	<span class='label end-time'>Mar 9, 2024 12:00:56 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 2s+892ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:00:55 pm</td>
+				<td class='step-details'>
+						<details><summary><b><font color=red>Exception Occured, Please see details:</font></b><summary>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error<br> please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59'<br> revision: 'e82be7d358'<br> time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV'<br> ip: '172.26.176.1'<br> os.name: 'Windows 10'<br> os.arch: 'amd64'<br> os.version: '10.0'<br> java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/...<br> appActivity: com.customerapp.hero.views....<br> appPackage: com.customerapp.hero<br> autoGrantPermissions: true<br> automationName: uiautomator2<br> build: Android latest APK - 9.0.5<br> databaseEnabled: false<br> desired: {app: /opt/raid-data/data/userV2/...<br> appActivity: com.customerapp.hero.views....<br> appPackage: com.customerapp.hero<br> autoGrantPermissions: true<br> automationName: uiautomator2<br> build: Android latest APK - 9.0.5<br> deviceName: 822<br> launchTimeout: 90000<br> name: Invalid login<br> newCommandTimeout: 600<br> pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr<br> pCloudy_ApplicationName: app-debug.apk<br> pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android...<br> pCloudy_DurationInMinutes: 10<br> pCloudy_EnableDeviceLogs: false<br> pCloudy_EnablePerformanceData: false<br> pCloudy_EnableVideo: false<br> pCloudy_Username: randhir.kumar@heromotocorp.com<br> pCloudy_WildNet: false<br> platformName: android<br> platformVersion: 12.0.0<br> project: Hero app<br> systemPort: 31714<br> tag: newtag}<br> deviceApiLevel: 33<br> deviceManufacturer: samsung<br> deviceModel: SM-E146B<br> deviceName: RZCW70FA9VD<br> deviceScreenDensity: 450<br> deviceScreenSize: 1080x2408<br> deviceUDID: RZCW70FA9VD<br> javascriptEnabled: true<br> launchTimeout: 90000<br> locationContextEnabled: false<br> name: Invalid login<br> networkConnectionEnabled: true<br> newCommandTimeout: 600<br> pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr<br> pCloudy_ApplicationName: app-debug.apk<br> pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android...<br> pCloudy_DurationInMinutes: 10<br> pCloudy_EnableDeviceLogs: false<br> pCloudy_EnablePerformanceData: false<br> pCloudy_EnableVideo: false<br> pCloudy_Username: randhir.kumar@heromotocorp.com<br> pCloudy_WildNet: false<br> pixelRatio: 2.8125<br> platform: LINUX<br> platformName: Android<br> platformVersion: 13<br> project: Hero app<br> statBarHeight: 64<br> systemPort: 31714<br> tag: newtag<br> takesScreenshot: true<br> viewportRect: {height: 2144<br> left: 0<br> top: 64<br> width: 1080}<br> warnings: {}<br> webStorageEnabled: false}
+Session ID: 34f6270d-f775-4dda-93a5-ceb8b8335c7c
+*** Element info: {Using=id<br> value=com.customerapp.hero:id/text_input_editext}</details>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:00:56 pm</td>
+				<td class='step-details'>
+						<b><font color=red>Screenshot of failure</font></b>
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='D:\My\HeroApp1Copy/Screenshots/TC901_ValidateValidReferToFriend__S_a_t_ _M_a_r_ _0_9_ _1_2___0_0___5_5_ _I_S_T_ _2_0_2_4_.png' src='D:\My\HeroApp1Copy/Screenshots/TC901_ValidateValidReferToFriend__S_a_t_ _M_a_r_ _0_9_ _1_2___0_0___5_5_ _I_S_T_ _2_0_2_4_.png'>
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:00:56 pm</td>
+				<td class='step-details'>
+						<span class='badge white-text red'><b>Test Method TC901_ValidateValidReferToFriend Failed</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>TC901_ValidateValidReferToFriend</span>
+						<span class='test-time'>Mar 9, 2024 12:00:56 pm</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Mar 9, 2024 12:00:56 pm</span>
+	<span class='label end-time'>Mar 9, 2024 12:01:58 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 2s+235ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:01:57 pm</td>
+				<td class='step-details'>
+						<details><summary><b><font color=red>Exception Occured, Please see details:</font></b><summary>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error<br> please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59'<br> revision: 'e82be7d358'<br> time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2S9SMV'<br> ip: '172.26.176.1'<br> os.name: 'Windows 10'<br> os.arch: 'amd64'<br> os.version: '10.0'<br> java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /opt/raid-data/data/userV2/...<br> appActivity: com.customerapp.hero.views....<br> appPackage: com.customerapp.hero<br> autoGrantPermissions: true<br> automationName: uiautomator2<br> build: Android latest APK - 9.0.5<br> databaseEnabled: false<br> desired: {app: /opt/raid-data/data/userV2/...<br> appActivity: com.customerapp.hero.views....<br> appPackage: com.customerapp.hero<br> autoGrantPermissions: true<br> automationName: uiautomator2<br> build: Android latest APK - 9.0.5<br> deviceName: 822<br> launchTimeout: 90000<br> name: Invalid login<br> newCommandTimeout: 600<br> pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr<br> pCloudy_ApplicationName: app-debug.apk<br> pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android...<br> pCloudy_DurationInMinutes: 10<br> pCloudy_EnableDeviceLogs: false<br> pCloudy_EnablePerformanceData: false<br> pCloudy_EnableVideo: false<br> pCloudy_Username: randhir.kumar@heromotocorp.com<br> pCloudy_WildNet: false<br> platformName: android<br> platformVersion: 12.0.0<br> project: Hero app<br> systemPort: 31714<br> tag: newtag}<br> deviceApiLevel: 33<br> deviceManufacturer: samsung<br> deviceModel: SM-E146B<br> deviceName: RZCW70FA9VD<br> deviceScreenDensity: 450<br> deviceScreenSize: 1080x2408<br> deviceUDID: RZCW70FA9VD<br> javascriptEnabled: true<br> launchTimeout: 90000<br> locationContextEnabled: false<br> name: Invalid login<br> networkConnectionEnabled: true<br> newCommandTimeout: 600<br> pCloudy_ApiKey: 2gdc5pv55mh54mqtwmvj4xbr<br> pCloudy_ApplicationName: app-debug.apk<br> pCloudy_DeviceFullName: SAMSUNG_GalaxyF145G_Android...<br> pCloudy_DurationInMinutes: 10<br> pCloudy_EnableDeviceLogs: false<br> pCloudy_EnablePerformanceData: false<br> pCloudy_EnableVideo: false<br> pCloudy_Username: randhir.kumar@heromotocorp.com<br> pCloudy_WildNet: false<br> pixelRatio: 2.8125<br> platform: LINUX<br> platformName: Android<br> platformVersion: 13<br> project: Hero app<br> statBarHeight: 64<br> systemPort: 31714<br> tag: newtag<br> takesScreenshot: true<br> viewportRect: {height: 2144<br> left: 0<br> top: 64<br> width: 1080}<br> warnings: {}<br> webStorageEnabled: false}
+Session ID: 34f6270d-f775-4dda-93a5-ceb8b8335c7c
+*** Element info: {Using=id<br> value=com.customerapp.hero:id/text_input_editext}</details>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:01:58 pm</td>
+				<td class='step-details'>
+						<b><font color=red>Screenshot of failure</font></b>
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='D:\My\HeroApp1Copy/Screenshots/TC901_ValidateValidReferToFriend__S_a_t_ _M_a_r_ _0_9_ _1_2___0_1___5_7_ _I_S_T_ _2_0_2_4_.png' src='D:\My\HeroApp1Copy/Screenshots/TC901_ValidateValidReferToFriend__S_a_t_ _M_a_r_ _0_9_ _1_2___0_1___5_7_ _I_S_T_ _2_0_2_4_.png'>
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:01:58 pm</td>
+				<td class='step-details'>
+						<span class='badge white-text red'><b>Test Method TC901_ValidateValidReferToFriend Failed</b></span>
 					
 				</td>
 			</tr>
@@ -194,7 +333,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -206,19 +345,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 6, 2024 10:47:53 am</div>
+					<div class='panel-lead'>Mar 9, 2024 11:57:36 am</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 6, 2024 10:51:46 am</div>
+			 		<div class='panel-lead'>Mar 9, 2024 12:01:59 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 3m 53s+407ms</div>
+					<div class='panel-lead'>0h 4m 23s+243ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -253,14 +392,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 1,
-				passParent: 1,
-				failParent: 0,
+                parentCount: 3,
+				passParent: 0,
+				failParent: 3,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 3,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -285,7 +424,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "TC503_ValidateVehicleExchangeTestcase":148.618
+			        "TC901_ValidateValidReferToFriend":60.217,"TC901_ValidateValidReferToFriend":62.892,"TC901_ValidateValidReferToFriend":62.235
 			};
 		</script>
 	

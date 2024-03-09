@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="MainTestSuite">
+	<listeners>
+		<listener class-name="com.oneapp.basic.MyListeners" />
+	</listeners>
+	<parameter name="PLATFORM_NAME" value="Android"></parameter>
+	<parameter name="pCloudy_DeviceFullName"
+		value="SAMSUNG_GalaxyF145G_Android_13.0.0_dd226"></parameter>
+	<parameter name="platformVersion" value="12.0.0"></parameter>
 	<suite-files>
-		<suite-file path="Login.xml"></suite-file>
-		<suite-file path="Otp.xml"></suite-file>
-		<suite-file path="SOS.xml"></suite-file>
 		<suite-file path="ReferAFriend.xml"></suite-file>
-		<suite-file path="MyProfile.xml"></suite-file>
-		<suite-file path="BookService.xml"></suite-file>
 	</suite-files>
 </suite> <!--
 MainTestSuite -->
